@@ -6,43 +6,141 @@ import Base from '../layouts/Base.astro';
   title="Contact scaffold"
   description="Development-only contact-page foundation for Samrat FRP Traders Nepal. No live submission destination is configured."
 >
-  <section class="page-hero">
-    <div class="container narrow">
-      <p class="eyebrow">Contact page scaffold</p>
-      <h1>Contact integration is not active</h1>
-      <p>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Contact foundation</p>
+      <h1>Enquiry layout, <span class="metal-text">no transmission.</span></h1>
+      <p class="page-lead">
         Verified contact details and a reviewed enquiry destination must be supplied before this page can be activated.
       </p>
     </div>
   </section>
 
   <section class="section">
-    <div class="container narrow content-stack">
-      <StatusNotice
-        title="Development-only form shell"
-        message="The fields below are disabled. Nothing entered here can be submitted or transmitted."
-      />
+    <div class="container contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">Activation requirements</p>
+        <h2>Contact information remains pending.</h2>
+        <p class="contact-lead">
+          The page uses the intended two-column enquiry composition without presenting an address, telephone number,
+          email address, map, or active submission destination.
+        </p>
 
-      <form class="form-shell" aria-label="Disabled enquiry form preview">
-        <fieldset disabled>
-          <legend>Enquiry form preview</legend>
-          <div class="form-grid">
-            <label>
-              <span>Name</span>
-              <input type="text" name="name" placeholder="Disabled during foundation phase" />
-            </label>
-            <label>
-              <span>Contact channel</span>
-              <input type="text" name="contact" placeholder="Disabled during foundation phase" />
-            </label>
+        <div class="contact-lines" aria-label="Contact setup status">
+          <div>
+            <span>Contact channels</span>
+            <strong>Pending verification</strong>
           </div>
-          <label>
-            <span>Requirement</span>
-            <textarea name="message" rows="5" placeholder="Disabled during foundation phase"></textarea>
-          </label>
-          <button class="button button-primary" type="button" disabled>Submission unavailable</button>
-        </fieldset>
-      </form>
+          <div>
+            <span>Form destination</span>
+            <strong>Not configured</strong>
+          </div>
+          <div>
+            <span>Data transmission</span>
+            <strong>Disabled</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-panel">
+        <StatusNotice
+          title="Development-only form shell"
+          message="The fields below are disabled. Nothing entered here can be submitted or transmitted."
+        />
+
+        <form class="form-shell" aria-label="Disabled enquiry form preview">
+          <fieldset disabled>
+            <legend>Enquiry form preview</legend>
+            <div class="form-grid">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Disabled during foundation phase" />
+              </label>
+              <label>
+                <span>Contact channel</span>
+                <input type="text" name="contact" placeholder="Disabled during foundation phase" />
+              </label>
+            </div>
+            <label>
+              <span>Requirement</span>
+              <textarea name="message" rows="5" placeholder="Disabled during foundation phase"></textarea>
+            </label>
+            <button class="button button-primary" type="button" disabled>Submission unavailable</button>
+          </fieldset>
+        </form>
+      </div>
     </div>
   </section>
 </Base>
+
+<style>
+  .contact-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: clamp(2.5rem, 7vw, 6rem);
+    align-items: start;
+  }
+
+  .contact-info h2 {
+    max-width: 12ch;
+    margin-top: 0.7rem;
+  }
+
+  .contact-lead {
+    max-width: 42rem;
+    color: var(--ink-dim);
+  }
+
+  .contact-lines {
+    margin-top: 2.2rem;
+    border-block: 1px solid var(--line);
+  }
+
+  .contact-lines div {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    gap: 1rem;
+    padding-block: 0.95rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .contact-lines div:last-child {
+    border-bottom: 0;
+  }
+
+  .contact-lines span {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .contact-lines strong {
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+
+  .form-panel {
+    display: grid;
+    gap: 1.3rem;
+    padding: clamp(1.2rem, 4vw, 2rem);
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  @media (max-width: 48rem) {
+    .contact-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 32rem) {
+    .contact-lines div {
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
+  }
+</style>

@@ -1,46 +1,169 @@
 ---
+import ProductPreviewCard from '../../components/ProductPreviewCard.astro';
 import StatusNotice from '../../components/StatusNotice.astro';
+import { productPlaceholders } from '../../data/productPlaceholders.js';
 import Base from '../../layouts/Base.astro';
 ---
 <Base
   title="Products scaffold"
   description="Provisional product-page foundation for Samrat FRP Traders Nepal. No product availability is currently published."
 >
-  <section class="page-hero">
-    <div class="container narrow">
-      <p class="eyebrow">Products page scaffold</p>
-      <h1>Verified product information is pending</h1>
-      <p>
-        No catalogue, brands, product availability, stock, pricing, packaging, or technical documents are
-        published in this foundation.
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Products foundation</p>
+      <h1>Product presentation without <span class="metal-text">supply claims.</span></h1>
+      <p class="page-lead">
+        No catalogue, brands, supply status, stock, pricing, packaging, or technical documents are published in this foundation.
       </p>
     </div>
   </section>
 
   <section class="section">
-    <div class="container">
-      <StatusNotice
-        title="Catalogue intentionally empty"
-        message="Product records will be introduced only after business, supply, documentation, and publishing rights are confirmed."
-      />
+    <div class="container products-layout">
+      <aside class="catalogue-rail" aria-label="Product publication gates">
+        <p class="catalogue-rail-title">Publication gates</p>
+        <ol>
+          <li>
+            <span>01</span>
+            <strong>Verified identity</strong>
+            <small>Name, category, brand relationship, intended use</small>
+          </li>
+          <li>
+            <span>02</span>
+            <strong>Confirmed supply status</strong>
+            <small>Packaging, order conditions, commercial information</small>
+          </li>
+          <li>
+            <span>03</span>
+            <strong>Approved documents</strong>
+            <small>Current sources, applicability, publishing rights</small>
+          </li>
+        </ol>
+      </aside>
 
-      <div class="card-grid top-gap">
-        <article class="card">
-          <p class="card-label">Required field group</p>
-          <h2>Product identity</h2>
-          <p>Verified product name, category, brand relationship, and intended use.</p>
-        </article>
-        <article class="card">
-          <p class="card-label">Required field group</p>
-          <h2>Supply information</h2>
-          <p>Confirmed availability, packaging, order conditions, and delivery constraints.</p>
-        </article>
-        <article class="card">
-          <p class="card-label">Required field group</p>
-          <h2>Documentation</h2>
-          <p>Current technical and safety documents with confirmed ownership and applicability.</p>
-        </article>
+      <div class="products-main">
+        <StatusNotice
+          title="Catalogue intentionally empty"
+          message="Product records will be introduced only after business, supply, documentation, and publishing rights are confirmed."
+        />
+
+        <div class="section-heading products-heading">
+          <p class="eyebrow">Reusable listing shell</p>
+          <h2>Development records</h2>
+          <p class="section-lead">Every card is visibly provisional and intentionally has no product route, price, image, or live enquiry action.</p>
+        </div>
+
+        <div class="product-preview-grid">
+          {productPlaceholders.map((record) => <ProductPreviewCard record={record} />)}
+        </div>
       </div>
     </div>
   </section>
 </Base>
+
+<style>
+  .products-layout {
+    display: grid;
+    grid-template-columns: 15rem minmax(0, 1fr);
+    gap: clamp(2rem, 5vw, 3.5rem);
+    align-items: start;
+  }
+
+  .catalogue-rail {
+    position: sticky;
+    top: 6rem;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  .catalogue-rail-title {
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .catalogue-rail ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .catalogue-rail li {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .catalogue-rail li:last-child {
+    border-bottom: 0;
+  }
+
+  .catalogue-rail span,
+  .catalogue-rail small {
+    font-family: var(--font-mono);
+  }
+
+  .catalogue-rail span {
+    color: var(--accent-gold);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+  }
+
+  .catalogue-rail strong {
+    color: var(--ink);
+    font-size: 0.86rem;
+  }
+
+  .catalogue-rail small {
+    color: var(--ink-faint);
+    font-size: 0.7rem;
+    line-height: 1.55;
+  }
+
+  .products-heading {
+    margin-top: 3.25rem;
+  }
+
+  @media (max-width: 53.75rem) {
+    .products-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .catalogue-rail {
+      position: static;
+    }
+
+    .catalogue-rail ol {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .catalogue-rail li {
+      border-right: 1px solid var(--line);
+      border-bottom: 0;
+    }
+
+    .catalogue-rail li:last-child {
+      border-right: 0;
+    }
+  }
+
+  @media (max-width: 40rem) {
+    .catalogue-rail ol {
+      grid-template-columns: 1fr;
+    }
+
+    .catalogue-rail li {
+      border-right: 0;
+      border-bottom: 1px solid var(--line);
+    }
+  }
+</style>

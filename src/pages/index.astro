@@ -1,63 +1,168 @@
 ---
+import ProductPreviewCard from '../components/ProductPreviewCard.astro';
 import StatusNotice from '../components/StatusNotice.astro';
+import { productPlaceholders } from '../data/productPlaceholders.js';
 import Base from '../layouts/Base.astro';
 ---
 <Base description="Development scaffold for the Samrat FRP Traders Nepal website. Verified business and product information is pending.">
-  <section class="hero">
+  <section class="hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container hero-content">
-      <p class="eyebrow">Pre-foundation website scaffold</p>
-      <h1>Samrat FRP Traders</h1>
+      <p class="eyebrow">Local website foundation</p>
+      <h1 class="hero-title">
+        Clear structure.<br />
+        <span class="metal-text">Verified facts</span><br />
+        when ready.
+      </h1>
       <p class="hero-lead">
-        A restrained technical foundation for a future Nepal-focused FRP materials supplier website.
-        Business, product, and contact details will be published only after verification.
+        Samrat FRP Traders is represented here only as an FRP materials trader and supplier.
+        This local interface remains provisional until business, product, and contact information is verified.
       </p>
+      <div class="hero-status" aria-label="Website foundation status">
+        <span>Trader / supplier scope</span>
+        <span>Product data pending</span>
+        <span>Contact integration pending</span>
+      </div>
       <div class="button-row">
-        <a class="button button-primary" href="/products/">View product scaffold</a>
-        <a class="button" href="/about/">About this foundation</a>
+        <a class="button button-primary" href="/products/">Explore product foundation</a>
+        <a class="button" href="/about/">Review project boundaries</a>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">Foundation scope</p>
-        <h2>Structure before claims</h2>
-        <p>
-          This phase establishes routing, reusable layout, responsive navigation, and technical SEO hooks.
-          It intentionally does not present unverified commercial information.
+      <div class="section-heading section-heading-split">
+        <div>
+          <p class="eyebrow">Foundation scope</p>
+          <h2>Structure before claims</h2>
+        </div>
+        <p class="section-lead">
+          The shared shell now carries a stronger industrial visual language while keeping every commercial detail behind a verification gate.
         </p>
       </div>
 
-      <div class="card-grid">
-        <article class="card">
-          <p class="card-label">Foundation 01</p>
-          <h3>Product structure</h3>
-          <p>A clean place for verified categories and product records when they become available.</p>
+      <div class="foundation-grid">
+        <article class="foundation-card">
+          <p class="card-number">01</p>
+          <div>
+            <p class="card-label">Product structure</p>
+            <h3>Records with clear boundaries</h3>
+            <p>Reusable card and listing patterns are ready for verified categories and product records.</p>
+          </div>
         </article>
-        <article class="card">
-          <p class="card-label">Foundation 02</p>
-          <h3>Technical information</h3>
-          <p>Future specifications and documents will require source and rights verification before publication.</p>
+        <article class="foundation-card">
+          <p class="card-number">02</p>
+          <div>
+            <p class="card-label">Information layers</p>
+            <h3>Source-led documentation</h3>
+            <p>Specifications and supporting files remain absent until source and publishing rights are confirmed.</p>
+          </div>
         </article>
-        <article class="card">
-          <p class="card-label">Foundation 03</p>
-          <h3>Enquiry flow</h3>
-          <p>The contact structure is present, while submission and contact details remain deliberately inactive.</p>
+        <article class="foundation-card">
+          <p class="card-number">03</p>
+          <div>
+            <p class="card-label">Enquiry foundation</p>
+            <h3>Interface without transmission</h3>
+            <p>The contact layout is present, but every field and destination remains deliberately inactive.</p>
+          </div>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section section-muted">
-    <div class="container narrow">
-      <StatusNotice
-        title="Contact integration pending"
-        message="No telephone number, email address, physical address, or live form destination is configured in this foundation."
-      />
+  <section class="section section-framed">
+    <div class="container">
+      <div class="section-heading section-heading-split">
+        <div>
+          <p class="eyebrow">Product-card foundation</p>
+          <h2>Presentation shell, not a catalogue</h2>
+        </div>
+        <p class="section-lead">
+          These records demonstrate reusable proportions and hierarchy. They do not identify stocked items, brands, or supply commitments.
+        </p>
+      </div>
+
+      <div class="product-preview-grid">
+        {productPlaceholders.map((record) => <ProductPreviewCard record={record} />)}
+      </div>
+
       <div class="section-actions">
-        <a class="button" href="/contact/">Open contact scaffold</a>
+        <a class="button" href="/products/">Open products foundation</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container cta-band">
+      <div>
+        <p class="eyebrow">Next information gate</p>
+        <h2>Verification comes before publication.</h2>
+        <p>
+          No telephone number, email address, physical address, or live form destination is configured in this local foundation.
+        </p>
+      </div>
+      <div class="cta-actions">
+        <a class="button button-primary" href="/about/">See required business facts</a>
+        <a class="button" href="/contact/">View disabled contact shell</a>
       </div>
     </div>
   </section>
 </Base>
+
+<style>
+  .foundation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-top: 1px solid var(--line);
+    border-left: 1px solid var(--line);
+  }
+
+  .foundation-card {
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: clamp(1.4rem, 4vw, 2rem);
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.025), transparent);
+    transition: background 220ms var(--ease-premium), transform 220ms var(--ease-premium);
+  }
+
+  .foundation-card:hover {
+    transform: translateY(-0.2rem);
+    background: rgba(var(--gold-rgb), 0.055);
+  }
+
+  .card-number {
+    margin: 0;
+    color: var(--accent-gold-light);
+    font-family: var(--font-display);
+    font-size: 3.7rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .foundation-card h3 {
+    margin-bottom: 0.7rem;
+    font-size: 1.35rem;
+  }
+
+  .foundation-card div > p:last-child {
+    margin-bottom: 0;
+    color: var(--ink-dim);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 53.75rem) {
+    .foundation-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .foundation-card {
+      min-height: 15rem;
+    }
+  }
+</style>

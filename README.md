@@ -6,7 +6,7 @@ Local technical foundation for the planned Samrat FRP Traders Nepal website.
 
 ## Status
 
-Pre-Claude-Max technical foundation and work in progress. The active pages are deliberately small,
+Local-only technical and frontend foundation. The active pages remain provisional,
 non-production scaffolds and are marked `noindex`.
 
 ## Stack
@@ -36,18 +36,19 @@ npm run check:links # validate internal links after a build
 ```text
 public/             static hosting files, including provisional robots policy
 scripts/            build-time verification utilities
-src/components/     shared header, footer, and status notice
-src/data/           centralized neutral site settings
+src/components/     shared header, footer, status notice, and product-preview shell
+src/data/           neutral site settings and explicit placeholder product records
 src/layouts/        shared HTML and metadata layout
 src/pages/          Home, About, Products, Contact, and 404 scaffolds
-src/styles/         small shared styling foundation
+src/styles/         shared base styles and curated frontend foundation
 ```
 
 ## Proven base
 
 Selected engineering patterns were adapted from the existing Samrat Poly Resins website: Astro static
 generation, sitemap configuration, strict TypeScript settings, responsive navigation principles,
-accessibility mechanics, reusable layout structure, static-host headers, and internal-link checking.
+accessibility mechanics, reusable layout structure, visual tokens, page-composition patterns,
+static-host headers, and internal-link checking.
 This project is not a business-content clone and has fresh Git history.
 
 ## Temporary and provisional areas

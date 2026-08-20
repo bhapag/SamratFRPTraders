@@ -1,14 +1,180 @@
 ---
-import { site } from '../data/site.js';
+import { navigation, site } from '../data/site.js';
 ---
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <div>
+  <div class="container footer-grid">
+    <div class="footer-intro">
       <p class="footer-brand">{site.name}</p>
-      <p>{site.descriptor}</p>
+      <p class="footer-descriptor">{site.descriptor}</p>
+      <p class="footer-copy">
+        Local website foundation. Business, product, and contact information remains pending verification.
+      </p>
     </div>
-    <p class="footer-status">
-      Development foundation. Verified business and contact information will be added later.
-    </p>
+
+    <div>
+      <h2 class="footer-heading">Navigate</h2>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        {navigation.map((item) => <a href={item.href}>{item.label}</a>)}
+      </nav>
+    </div>
+
+    <div>
+      <h2 class="footer-heading">Publication status</h2>
+      <ul class="footer-status-list">
+        <li>Business facts pending</li>
+        <li>Product records pending</li>
+        <li>Contact integration inactive</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>Pre-publication website foundation</span>
+    <span>Crawling remains blocked</span>
   </div>
 </footer>
+
+<style>
+  .site-footer {
+    position: relative;
+    margin-top: 2rem;
+    background: linear-gradient(180deg, transparent, var(--bg-2) 4rem);
+  }
+
+  .site-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--line-2) 20%, var(--line-2) 80%, transparent);
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.35fr 0.75fr 1fr;
+    gap: clamp(2rem, 6vw, 4rem);
+    padding-block: 4rem 2.5rem;
+  }
+
+  .footer-brand {
+    margin-bottom: 0.2rem;
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .footer-descriptor,
+  .footer-heading {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+  }
+
+  .footer-descriptor {
+    margin-bottom: 1.15rem;
+    color: var(--accent-gold-light);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+  }
+
+  .footer-copy {
+    max-width: 32rem;
+    margin-bottom: 0;
+    color: var(--ink-dim);
+    font-size: 0.9rem;
+  }
+
+  .footer-heading {
+    margin-bottom: 1rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
+    color: var(--ink);
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+  }
+
+  .footer-nav,
+  .footer-status-list {
+    display: grid;
+    gap: 0.72rem;
+  }
+
+  .footer-nav a {
+    color: var(--ink-dim);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 180ms var(--ease-premium);
+  }
+
+  .footer-nav a:hover {
+    color: var(--accent-gold-light);
+  }
+
+  .footer-status-list {
+    margin: 0;
+    padding: 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+    list-style: none;
+  }
+
+  .footer-status-list li {
+    position: relative;
+    padding-left: 1rem;
+  }
+
+  .footer-status-list li::before {
+    content: '';
+    position: absolute;
+    top: 0.65em;
+    left: 0;
+    width: 0.32rem;
+    height: 0.32rem;
+    border: 1px solid var(--accent-gold);
+    transform: rotate(45deg);
+  }
+
+  .footer-bottom {
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid var(--line);
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 53.75rem) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-intro {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 32rem) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-intro {
+      grid-column: auto;
+    }
+
+    .footer-bottom {
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      padding-block: 1rem;
+    }
+  }
+</style>

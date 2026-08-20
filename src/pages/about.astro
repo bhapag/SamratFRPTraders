@@ -6,33 +6,190 @@ import Base from '../layouts/Base.astro';
   title="About scaffold"
   description="Provisional About-page foundation for Samrat FRP Traders Nepal. Company information remains pending verification."
 >
-  <section class="page-hero">
-    <div class="container narrow">
-      <p class="eyebrow">About page scaffold</p>
-      <h1>Business information will follow verification</h1>
-      <p>
-        Samrat FRP Traders is represented in this foundation only as a trader and supplier project.
-        No company history, location, registration, relationships, or market-coverage claims have been added.
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">About foundation</p>
+      <h1>Business facts follow <span class="metal-text">verification.</span></h1>
+      <p class="page-lead">
+        Samrat FRP Traders is represented in this local foundation only as a trader and supplier project.
+        Company information remains intentionally limited.
       </p>
     </div>
   </section>
 
   <section class="section">
-    <div class="container narrow content-stack">
-      <StatusNotice
-        title="Provisional content"
-        message="This page is a layout and routing proof, not final company copy."
-      />
+    <div class="container about-layout">
+      <div class="copy-stack">
+        <div class="section-heading">
+          <p class="eyebrow">Current boundary</p>
+          <h2>Clear about what is known—and what is not.</h2>
+        </div>
 
-      <div>
-        <h2>Information required before publication</h2>
-        <ul class="check-list">
-          <li>Verified legal and trading identity</li>
-          <li>Verified business location and contact channels</li>
-          <li>Verified supplier relationships and product scope</li>
-          <li>Approved service, policy, and market information</li>
-        </ul>
+        <p>
+          This page demonstrates the intended editorial hierarchy without presenting company history, location,
+          registration, supplier relationships, coverage, or business statistics as established facts.
+        </p>
+
+        <StatusNotice
+          title="Provisional content"
+          message="This is a reusable page shell and routing proof, not final company copy."
+        />
+
+        <a class="button" href="/products/">Review product foundation</a>
+      </div>
+
+      <aside class="info-rail" aria-label="Current website boundaries">
+        <div class="info-row">
+          <span>Website identity</span>
+          <strong>Samrat FRP Traders</strong>
+        </div>
+        <div class="info-row">
+          <span>Current representation</span>
+          <strong>Trader / supplier</strong>
+        </div>
+        <div class="info-row">
+          <span>Business details</span>
+          <strong>Pending verification</strong>
+        </div>
+        <div class="info-row">
+          <span>Publication state</span>
+          <strong>Local development</strong>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-framed">
+    <div class="container">
+      <div class="section-heading section-heading-split">
+        <div>
+          <p class="eyebrow">Publication requirements</p>
+          <h2>Information required before publication</h2>
+        </div>
+        <p class="section-lead">Each information group needs a confirmed source and approval before it enters customer-facing copy.</p>
+      </div>
+
+      <div class="requirement-grid">
+        <article>
+          <span>01</span>
+          <h3>Identity</h3>
+          <p>Verified legal and trading identity.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Contact</h3>
+          <p>Verified business location and contact channels.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Supply scope</h3>
+          <p>Verified supplier relationships and product scope.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Policies</h3>
+          <p>Approved service, policy, and market information.</p>
+        </article>
       </div>
     </div>
   </section>
 </Base>
+
+<style>
+  .about-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(17rem, 0.8fr);
+    gap: clamp(2.5rem, 7vw, 6rem);
+    align-items: start;
+  }
+
+  .copy-stack > p {
+    max-width: 42rem;
+    color: var(--ink-dim);
+    font-size: 1.02rem;
+  }
+
+  .copy-stack .button {
+    margin-top: 2rem;
+  }
+
+  .info-rail {
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  .info-row {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.2rem 1.3rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .info-row:last-child {
+    border-bottom: 0;
+  }
+
+  .info-row span {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .info-row strong {
+    color: var(--ink);
+    font-size: 0.94rem;
+  }
+
+  .requirement-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    border: 1px solid var(--line);
+    background: var(--line);
+  }
+
+  .requirement-grid article {
+    min-height: 14rem;
+    padding: 1.4rem;
+    background: var(--bg-3);
+  }
+
+  .requirement-grid span {
+    color: var(--accent-gold);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+  }
+
+  .requirement-grid h3 {
+    margin-block: 2.6rem 0.65rem;
+  }
+
+  .requirement-grid p {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+  }
+
+  @media (max-width: 53.75rem) {
+    .requirement-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 48rem) {
+    .about-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 32rem) {
+    .requirement-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
