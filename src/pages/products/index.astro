@@ -1,0 +1,46 @@
+---
+import StatusNotice from '../../components/StatusNotice.astro';
+import Base from '../../layouts/Base.astro';
+---
+<Base
+  title="Products scaffold"
+  description="Provisional product-page foundation for Samrat FRP Traders Nepal. No product availability is currently published."
+>
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">Products page scaffold</p>
+      <h1>Verified product information is pending</h1>
+      <p>
+        No catalogue, brands, product availability, stock, pricing, packaging, or technical documents are
+        published in this foundation.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <StatusNotice
+        title="Catalogue intentionally empty"
+        message="Product records will be introduced only after business, supply, documentation, and publishing rights are confirmed."
+      />
+
+      <div class="card-grid top-gap">
+        <article class="card">
+          <p class="card-label">Required field group</p>
+          <h2>Product identity</h2>
+          <p>Verified product name, category, brand relationship, and intended use.</p>
+        </article>
+        <article class="card">
+          <p class="card-label">Required field group</p>
+          <h2>Supply information</h2>
+          <p>Confirmed availability, packaging, order conditions, and delivery constraints.</p>
+        </article>
+        <article class="card">
+          <p class="card-label">Required field group</p>
+          <h2>Documentation</h2>
+          <p>Current technical and safety documents with confirmed ownership and applicability.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</Base>

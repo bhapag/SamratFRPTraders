@@ -1,0 +1,48 @@
+---
+import StatusNotice from '../components/StatusNotice.astro';
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Contact scaffold"
+  description="Development-only contact-page foundation for Samrat FRP Traders Nepal. No live submission destination is configured."
+>
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">Contact page scaffold</p>
+      <h1>Contact integration is not active</h1>
+      <p>
+        Verified contact details and a reviewed enquiry destination must be supplied before this page can be activated.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow content-stack">
+      <StatusNotice
+        title="Development-only form shell"
+        message="The fields below are disabled. Nothing entered here can be submitted or transmitted."
+      />
+
+      <form class="form-shell" aria-label="Disabled enquiry form preview">
+        <fieldset disabled>
+          <legend>Enquiry form preview</legend>
+          <div class="form-grid">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Disabled during foundation phase" />
+            </label>
+            <label>
+              <span>Contact channel</span>
+              <input type="text" name="contact" placeholder="Disabled during foundation phase" />
+            </label>
+          </div>
+          <label>
+            <span>Requirement</span>
+            <textarea name="message" rows="5" placeholder="Disabled during foundation phase"></textarea>
+          </label>
+          <button class="button button-primary" type="button" disabled>Submission unavailable</button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+</Base>

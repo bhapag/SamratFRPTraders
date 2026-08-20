@@ -1,0 +1,10 @@
+---
+const {
+  title = 'Development placeholder',
+  message,
+} = Astro.props;
+---
+<aside class="status-notice" aria-label={title}>
+  <p class="status-title">{title}</p>
+  <p>{message}</p>
+</aside>

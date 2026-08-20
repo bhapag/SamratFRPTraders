@@ -1,0 +1,6 @@
+# Provisional pre-launch policy: keep this development foundation out of search.
+# Review and replace this policy as part of production launch verification.
+User-agent: *
+Disallow: /
+
+Sitemap: https://samratfrptraders.np/sitemap-index.xml

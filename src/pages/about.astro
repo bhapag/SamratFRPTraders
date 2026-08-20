@@ -1,0 +1,38 @@
+---
+import StatusNotice from '../components/StatusNotice.astro';
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="About scaffold"
+  description="Provisional About-page foundation for Samrat FRP Traders Nepal. Company information remains pending verification."
+>
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">About page scaffold</p>
+      <h1>Business information will follow verification</h1>
+      <p>
+        Samrat FRP Traders is represented in this foundation only as a trader and supplier project.
+        No company history, location, registration, relationships, or market-coverage claims have been added.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow content-stack">
+      <StatusNotice
+        title="Provisional content"
+        message="This page is a layout and routing proof, not final company copy."
+      />
+
+      <div>
+        <h2>Information required before publication</h2>
+        <ul class="check-list">
+          <li>Verified legal and trading identity</li>
+          <li>Verified business location and contact channels</li>
+          <li>Verified supplier relationships and product scope</li>
+          <li>Approved service, policy, and market information</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</Base>
