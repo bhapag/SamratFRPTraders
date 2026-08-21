@@ -112,7 +112,7 @@ const formatDocMeta = (doc) => [doc.reference, doc.revision, doc.date].filter(Bo
                 </span>
                 {doc.url && (
                   <a class="doc-link" href={doc.url} target="_blank" rel="noopener">
-                    View document ↗
+                    View {doc.type} ↗
                   </a>
                 )}
               </li>

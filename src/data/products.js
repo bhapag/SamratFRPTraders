@@ -23,8 +23,9 @@
 //   technicalSource       { issuer, type, reference?, revision?, date? }
 //                                    One table-level source note for the highlights.
 //   documents             [{ type, issuer, reference?, revision?, date?, url? }]
-//                                    Verified documents only. url/reference/revision/date
-//                                    are omitted (never faked) when unverified.
+//                                    Verified documents only. `url` now carries live
+//                                    supplier-hosted HTTPS URLs (verified at implementation).
+//                                    reference/revision/date are omitted when unverified.
 //   technicalEvidenceStatus        'verified' | 'pending'
 //                                    Status of SUPPLIER technical truth for this product.
 //   nepalCommercialEvidenceStatus  'verified' | 'pending'
@@ -34,6 +35,7 @@
 //
 // Rules: supplier technical facts must never be presented as Samrat FRP Traders
 // manufacturing claims or as Nepal commercial terms. No fake URL strings.
+// Supplier-hosted documents are issuer-attributed and open via real HTTPS URLs.
 
 export const catalogGroups = Object.freeze([
   Object.freeze({
@@ -82,7 +84,44 @@ export const catalogGroups = Object.freeze([
 
 export const products = Object.freeze([
   // Polyester Resins
-  Object.freeze({ name: 'Lamination Resin', slug: 'lamination-resin', group: 'polyester-resins', tier: 'B' }),
+  Object.freeze({
+    name: 'Lamination Resin',
+    slug: 'lamination-resin',
+    group: 'polyester-resins',
+    tier: 'B',
+    titleInput: 'Lamination Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Lamination Resin (LR Resin) \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Orthophthalic unsaturated polyester resin; also known as LR Resin.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Lamination Resin \u2014 also known as LR Resin \u2014 is an orthophthalic unsaturated polyester resin. The supplier lists it for lamination and bonding work; technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic, unsaturated polyester' }),
+      Object.freeze({ label: 'Curing system', value: 'Room temperature cure' }),
+      Object.freeze({ label: 'Viscosity', value: '400 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '5 minutes' }),
+      Object.freeze({ label: 'Styrene content', value: '35%' }),
+      Object.freeze({ label: 'Cure time', value: '30 minutes \u2013 1 hour' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/lamination-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/lamination-resin-sds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
   Object.freeze({
     name: 'GP Clear Resin',
     slug: 'gp-clear-resin',
@@ -117,23 +156,207 @@ export const products = Object.freeze([
         reference: 'SPR-TDS-GCR',
         revision: 'Rev. 01',
         date: 'July 2026',
+        url: 'https://samratpolyresins.in/tds/gp-clear-resin-tds.pdf',
       }),
       Object.freeze({
         type: 'Safety Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/gp-clear-resin-sds.pdf',
       }),
     ]),
     technicalEvidenceStatus: 'verified',
     nepalCommercialEvidenceStatus: 'pending',
   }),
-  Object.freeze({ name: 'GP White Resin', slug: 'gp-white-resin', group: 'polyester-resins', tier: 'B' }),
-  Object.freeze({ name: 'GP Quartz Resin', slug: 'gp-quartz-resin', group: 'polyester-resins', tier: 'B' }),
-  Object.freeze({ name: 'Button Grade Resin', slug: 'button-grade-resin', group: 'polyester-resins', tier: 'C' }),
-  Object.freeze({ name: 'GP Yellow Resin', slug: 'gp-yellow-resin', group: 'polyester-resins', tier: 'C' }),
+  Object.freeze({
+    name: 'GP White Resin',
+    slug: 'gp-white-resin',
+    group: 'polyester-resins',
+    tier: 'B',
+    titleInput: 'GP White Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'GP White Resin \u2014 a white orthophthalic polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'White orthophthalic polyester resin.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, GP White Resin is an orthophthalic polyester resin. The supplier lists it for panels, general-purpose moulding, hand layup and spray-up work. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic' }),
+      Object.freeze({ label: 'Curing system', value: 'Non-accelerated' }),
+      Object.freeze({ label: 'Viscosity', value: '< 350 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '6 minutes' }),
+      Object.freeze({ label: 'Thixotropy', value: 'Medium thixotropic' }),
+      Object.freeze({ label: 'Styrene content', value: '30\u201335%' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/gp-white-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/gp-white-resin-sds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
+    name: 'GP Quartz Resin',
+    slug: 'gp-quartz-resin',
+    group: 'polyester-resins',
+    tier: 'B',
+    titleInput: 'GP Quartz Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'GP Quartz Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor:
+      'Orthophthalic unsaturated polyester resin; supplier-listed for engineered stone and cast stone work.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, GP Quartz Resin is an orthophthalic unsaturated polyester resin. The supplier lists it for artificial quartz stone, engineered stone and cast stone work; suitability for any specific formulation should be confirmed against the supplier documentation. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic (ortho) unsaturated polyester resin' }),
+      Object.freeze({ label: 'Curing system', value: 'Non-accelerated' }),
+      Object.freeze({ label: 'Viscosity', value: '400\u2013800 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '7\u201310 minutes' }),
+      Object.freeze({ label: 'Styrene content', value: '35\u201340%' }),
+      Object.freeze({ label: 'Cure time', value: '2 hours' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/gp-quartz-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/gp-quartz-resin-sds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
+    name: 'Button Grade Resin',
+    slug: 'button-grade-resin',
+    group: 'polyester-resins',
+    tier: 'C',
+    titleInput: 'Button Grade Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Button Grade Resin \u2014 an unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Unsaturated polyester resin; supplier-listed for button and small casting work.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Button Grade Resin is a polyester (unsaturated) resin. The supplier lists it for buttons, fashion accessories and small casting work. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Polyester (unsaturated)' }),
+      Object.freeze({ label: 'Viscosity', value: '1,100 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '9.5 minutes' }),
+      Object.freeze({ label: 'Curing time', value: '2 hours' }),
+      Object.freeze({ label: 'Styrene content', value: '33%' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/button-grade-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/button-grade-resin-sds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
+    name: 'GP Yellow Resin',
+    slug: 'gp-yellow-resin',
+    group: 'polyester-resins',
+    tier: 'C',
+    titleInput: 'GP Yellow Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'GP Yellow Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Orthophthalic unsaturated polyester resin; supplier-listed for general FRP work.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, GP Yellow Resin is an orthophthalic unsaturated polyester resin. The supplier lists it for roofing sheets, water tanks, FRP doors and general FRP work. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic, unsaturated polyester' }),
+      Object.freeze({ label: 'Curing system', value: 'Non-accelerated' }),
+      Object.freeze({ label: 'Viscosity', value: '450\u2013600 cPs at 25\u00B0C' }),
+      Object.freeze({ label: 'Gel time', value: '10\u201315 minutes' }),
+      Object.freeze({ label: 'Styrene content', value: '34\u201338%' }),
+      Object.freeze({ label: 'Cure time', value: '60\u201390 minutes' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/gp-yellow-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/gp-yellow-resin-sds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
 
   // Sheet Grade Resins
-  Object.freeze({ name: 'Sheet Grade Yellow Resin', slug: 'sheet-grade-yellow-resin', group: 'sheet-grade-resins', tier: 'B' }),
-  Object.freeze({ name: 'Roof Light Resin', slug: 'roof-light-resin', group: 'sheet-grade-resins', tier: 'B' }),
+  Object.freeze({
+    name: 'Sheet Grade Yellow Resin',
+    slug: 'sheet-grade-yellow-resin',
+    group: 'sheet-grade-resins',
+    tier: 'B',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/sheet-grade-yellow-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/sheet-grade-yellow-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Roof Light Resin',
+    slug: 'roof-light-resin',
+    group: 'sheet-grade-resins',
+    tier: 'B',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/roof-light-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/roof-light-resin-sds.pdf',
+      }),
+    ]),
+  }),
 
   // Gelcoat
   Object.freeze({
@@ -160,18 +383,78 @@ export const products = Object.freeze([
       type: 'Technical Data Sheet',
     }),
     documents: Object.freeze([
-      Object.freeze({ type: 'Technical Data Sheet', issuer: 'Samrat Poly Resins, India' }),
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/gp-gelcoat-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/gp-gelcoat-resin-sds.pdf',
+      }),
     ]),
     technicalEvidenceStatus: 'verified',
     nepalCommercialEvidenceStatus: 'pending',
   }),
 
   // Fire Retardant Resins
-  Object.freeze({ name: 'Fire Retardant Resin', slug: 'fire-retardant-resin', group: 'fire-retardant-resins', tier: 'B' }),
-  Object.freeze({ name: 'ISO Fire Retardant Resin', slug: 'iso-fire-retardant-resin', group: 'fire-retardant-resins', tier: 'C' }),
+  Object.freeze({
+    name: 'Fire Retardant Resin',
+    slug: 'fire-retardant-resin',
+    group: 'fire-retardant-resins',
+    tier: 'B',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/fire-retardant-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/fire-retardant-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'ISO Fire Retardant Resin',
+    slug: 'iso-fire-retardant-resin',
+    group: 'fire-retardant-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/iso-fire-retardant-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/iso-fire-retardant-resin-sds.pdf',
+      }),
+    ]),
+  }),
 
   // FRP Allied Products
-  Object.freeze({ name: 'FRP Polyester Pigment', slug: 'frp-polyester-pigment', group: 'frp-allied-products', tier: 'B' }),
+  Object.freeze({
+    name: 'FRP Polyester Pigment',
+    slug: 'frp-polyester-pigment',
+    group: 'frp-allied-products',
+    tier: 'B',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/frp-polyester-pigment-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/frp-polyester-pigment-sds.pdf',
+      }),
+    ]),
+  }),
   Object.freeze({
     name: 'Glass Fiber Mat',
     slug: 'glass-fiber-mat',
@@ -196,26 +479,204 @@ export const products = Object.freeze([
       type: 'Technical Data Sheet',
     }),
     documents: Object.freeze([
-      Object.freeze({ type: 'Technical Data Sheet', issuer: 'Samrat Poly Resins, India' }),
-      Object.freeze({ type: 'Safety Data Sheet', issuer: 'Samrat Poly Resins, India' }),
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/fibre-glass-mat-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/fibre-glass-mat-sds.pdf',
+      }),
     ]),
     technicalEvidenceStatus: 'verified',
     nepalCommercialEvidenceStatus: 'pending',
   }),
 
   // Epoxy & Casting Resins
-  Object.freeze({ name: 'Clear Casting Resin', slug: 'clear-casting-resin', group: 'epoxy-casting-resins', tier: 'C' }),
-  Object.freeze({ name: 'Epoxy Art Resin', slug: 'epoxy-art-resin', group: 'epoxy-casting-resins', tier: 'C' }),
-  Object.freeze({ name: 'UV Resin', slug: 'uv-resin', group: 'epoxy-casting-resins', tier: 'C' }),
-  Object.freeze({ name: 'Epoxy Hardener', slug: 'epoxy-hardener', group: 'epoxy-casting-resins', tier: 'B' }),
+  Object.freeze({
+    name: 'Clear Casting Resin',
+    slug: 'clear-casting-resin',
+    group: 'epoxy-casting-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/epoxy-clear-casting-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/epoxy-clear-casting-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Epoxy Art Resin',
+    slug: 'epoxy-art-resin',
+    group: 'epoxy-casting-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/epoxy-art-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/epoxy-art-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'UV Resin',
+    slug: 'uv-resin',
+    group: 'epoxy-casting-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/uv-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/uv-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Epoxy Hardener',
+    slug: 'epoxy-hardener',
+    group: 'epoxy-casting-resins',
+    tier: 'B',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/epoxy-hardener-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/epoxy-hardener-sds.pdf',
+      }),
+    ]),
+  }),
 
   // Industrial & Specialty Resins
-  Object.freeze({ name: 'DMC/SMC Resin', slug: 'dmc-smc-resin', group: 'industrial-specialty-resins', tier: 'C' }),
-  Object.freeze({ name: 'Polyester Putty Resin', slug: 'polyester-putty-resin', group: 'industrial-specialty-resins', tier: 'C' }),
-  Object.freeze({ name: 'Marble Resin', slug: 'marble-resin', group: 'industrial-specialty-resins', tier: 'B' }),
-  Object.freeze({ name: 'Vinyl Ester Resin', slug: 'vinyl-ester-resin', group: 'industrial-specialty-resins', tier: 'C' }),
-  Object.freeze({ name: 'Fiberglass Epoxy Resin', slug: 'fiberglass-epoxy-resin', group: 'industrial-specialty-resins', tier: 'B' }),
-  Object.freeze({ name: 'Bisphenol Resin', slug: 'bisphenol-resin', group: 'industrial-specialty-resins', tier: 'C' }),
+  Object.freeze({
+    name: 'DMC/SMC Resin',
+    slug: 'dmc-smc-resin',
+    group: 'industrial-specialty-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/dmc-smc-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/dmc-smc-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Polyester Putty Resin',
+    slug: 'polyester-putty-resin',
+    group: 'industrial-specialty-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/pet-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/pet-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Marble Resin',
+    slug: 'marble-resin',
+    group: 'industrial-specialty-resins',
+    tier: 'B',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/marble-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/marble-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Vinyl Ester Resin',
+    slug: 'vinyl-ester-resin',
+    group: 'industrial-specialty-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/vinyl-ester-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/vinyl-ester-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Fiberglass Epoxy Resin',
+    slug: 'fiberglass-epoxy-resin',
+    group: 'industrial-specialty-resins',
+    tier: 'B',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/fiberglass-epoxy-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/fiberglass-epoxy-resin-sds.pdf',
+      }),
+    ]),
+  }),
+  Object.freeze({
+    name: 'Bisphenol Resin',
+    slug: 'bisphenol-resin',
+    group: 'industrial-specialty-resins',
+    tier: 'C',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/bisphenol-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/bisphenol-resin-sds.pdf',
+      }),
+    ]),
+  }),
 
   // Hardeners & Catalysts
   Object.freeze({
@@ -243,8 +704,16 @@ export const products = Object.freeze([
       type: 'Technical Data Sheet',
     }),
     documents: Object.freeze([
-      Object.freeze({ type: 'Technical Data Sheet', issuer: 'Samrat Poly Resins, India' }),
-      Object.freeze({ type: 'Safety Data Sheet', issuer: 'Samrat Poly Resins, India' }),
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/mekp-hardener-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/mekp-hardener-sds.pdf',
+      }),
     ]),
     technicalEvidenceStatus: 'verified',
     nepalCommercialEvidenceStatus: 'pending',
