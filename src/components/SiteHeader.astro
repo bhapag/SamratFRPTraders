@@ -40,7 +40,17 @@ const isCurrent = (href) => href === '/' ? currentPath === '/' : currentPath.sta
 </header>
 
 <script>
+  const header = document.querySelector('.site-header');
   const menu = document.getElementById('siteMenu');
+
+  if (header instanceof HTMLElement && header.dataset.scrollWired !== 'true') {
+    header.dataset.scrollWired = 'true';
+    const syncScrollState = () => {
+      header.classList.toggle('scrolled', window.scrollY > 6);
+    };
+    syncScrollState();
+    window.addEventListener('scroll', syncScrollState, { passive: true });
+  }
 
   if (menu instanceof HTMLDetailsElement && menu.dataset.wired !== 'true') {
     menu.dataset.wired = 'true';
@@ -83,6 +93,16 @@ const isCurrent = (href) => href === '/' ? currentPath === '/' : currentPath.sta
     background: rgba(10, 13, 18, 0.9);
     box-shadow: 0 0.7rem 2rem rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(0.8rem);
+    transition:
+      background 260ms var(--ease-premium),
+      border-color 260ms var(--ease-premium),
+      box-shadow 260ms var(--ease-premium);
+  }
+
+  .site-header.scrolled {
+    border-bottom-color: rgba(var(--gold-rgb), 0.28);
+    background: rgba(9, 11, 15, 0.97);
+    box-shadow: 0 0.9rem 2.4rem rgba(0, 0, 0, 0.34);
   }
 
   .header-inner {

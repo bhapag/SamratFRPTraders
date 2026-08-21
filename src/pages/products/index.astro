@@ -21,7 +21,7 @@ import Base from '../../layouts/Base.astro';
 
   <section class="section">
     <div class="container products-layout">
-      <aside class="catalogue-rail" aria-label="Product publication gates">
+      <aside class="catalogue-rail" aria-label="Product publication gates" data-reveal>
         <p class="catalogue-rail-title">Publication gates</p>
         <ol>
           <li>
@@ -48,14 +48,16 @@ import Base from '../../layouts/Base.astro';
           message="Product records will be introduced only after business, supply, documentation, and publishing rights are confirmed."
         />
 
-        <div class="section-heading products-heading">
+        <div class="section-heading products-heading" data-reveal style="--reveal-delay: 100ms">
           <p class="eyebrow">Reusable listing shell</p>
           <h2>Development records</h2>
           <p class="section-lead">Every card is visibly provisional and intentionally has no product route, price, image, or live enquiry action.</p>
         </div>
 
         <div class="product-preview-grid">
-          {productPlaceholders.map((record) => <ProductPreviewCard record={record} />)}
+          {productPlaceholders.map((record, index) => (
+            <ProductPreviewCard record={record} revealDelay={160 + index * 80} />
+          ))}
         </div>
       </div>
     </div>

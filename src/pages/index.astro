@@ -5,34 +5,62 @@ import { productPlaceholders } from '../data/productPlaceholders.js';
 import Base from '../layouts/Base.astro';
 ---
 <Base description="Development scaffold for the Samrat FRP Traders Nepal website. Verified business and product information is pending.">
-  <section class="hero-shell">
+  <section class="hero-shell hero-home">
     <div class="hero-grid-lines" aria-hidden="true"></div>
-    <div class="container hero-content">
-      <p class="eyebrow">Local website foundation</p>
-      <h1 class="hero-title">
-        Clear structure.<br />
-        <span class="metal-text">Verified facts</span><br />
-        when ready.
-      </h1>
-      <p class="hero-lead">
-        Samrat FRP Traders is represented here only as an FRP materials trader and supplier.
-        This local interface remains provisional until business, product, and contact information is verified.
-      </p>
-      <div class="hero-status" aria-label="Website foundation status">
-        <span>Trader / supplier scope</span>
-        <span>Product data pending</span>
-        <span>Contact integration pending</span>
+    <div class="container hero-layout">
+      <div class="hero-content">
+        <p class="eyebrow">Local website foundation</p>
+        <h1 class="hero-title">
+          Clear structure.<br />
+          <span class="metal-text">Verified facts</span><br />
+          when ready.
+        </h1>
+        <p class="hero-lead">
+          Samrat FRP Traders is represented here only as an FRP materials trader and supplier.
+          This local interface remains provisional until business, product, and contact information is verified.
+        </p>
+        <div class="hero-status" aria-label="Website foundation status">
+          <span>Trader / supplier scope</span>
+          <span>Product data pending</span>
+          <span>Contact integration pending</span>
+        </div>
+        <div class="button-row">
+          <a class="button button-primary" href="/products/">Explore product foundation</a>
+          <a class="button" href="/about/">Review project boundaries</a>
+        </div>
       </div>
-      <div class="button-row">
-        <a class="button button-primary" href="/products/">Explore product foundation</a>
-        <a class="button" href="/about/">Review project boundaries</a>
+
+      <figure class="hero-figure" aria-hidden="true" data-reveal style="--reveal-delay: 420ms">
+        <span class="figure-tick figure-tick-tr"></span>
+        <span class="figure-tick figure-tick-bl"></span>
+        <div class="hero-figure-frame">
+          <div class="laminate">
+            <span class="l-a"></span>
+            <span class="l-b"></span>
+            <span class="l-c"></span>
+            <span class="l-d"></span>
+            <span class="l-e"></span>
+            <span class="l-f"></span>
+            <span class="l-g"></span>
+            <span class="l-h"></span>
+          </div>
+        </div>
+        <figcaption>
+          <span>Fig. 01</span>
+          <span>Material study</span>
+        </figcaption>
+      </figure>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span>Scroll</span>
+        <i></i>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <div class="section-heading section-heading-split">
+      <div class="section-heading section-heading-split" data-reveal>
         <div>
           <p class="eyebrow">Foundation scope</p>
           <h2>Structure before claims</h2>
@@ -43,7 +71,7 @@ import Base from '../layouts/Base.astro';
       </div>
 
       <div class="foundation-grid">
-        <article class="foundation-card">
+        <article class="foundation-card" data-reveal>
           <p class="card-number">01</p>
           <div>
             <p class="card-label">Product structure</p>
@@ -51,7 +79,7 @@ import Base from '../layouts/Base.astro';
             <p>Reusable card and listing patterns are ready for verified categories and product records.</p>
           </div>
         </article>
-        <article class="foundation-card">
+        <article class="foundation-card" data-reveal style="--reveal-delay: 80ms">
           <p class="card-number">02</p>
           <div>
             <p class="card-label">Information layers</p>
@@ -59,7 +87,7 @@ import Base from '../layouts/Base.astro';
             <p>Specifications and supporting files remain absent until source and publishing rights are confirmed.</p>
           </div>
         </article>
-        <article class="foundation-card">
+        <article class="foundation-card" data-reveal style="--reveal-delay: 160ms">
           <p class="card-number">03</p>
           <div>
             <p class="card-label">Enquiry foundation</p>
@@ -73,7 +101,7 @@ import Base from '../layouts/Base.astro';
 
   <section class="section section-framed">
     <div class="container">
-      <div class="section-heading section-heading-split">
+      <div class="section-heading section-heading-split" data-reveal>
         <div>
           <p class="eyebrow">Product-card foundation</p>
           <h2>Presentation shell, not a catalogue</h2>
@@ -84,17 +112,19 @@ import Base from '../layouts/Base.astro';
       </div>
 
       <div class="product-preview-grid">
-        {productPlaceholders.map((record) => <ProductPreviewCard record={record} />)}
+        {productPlaceholders.map((record, index) => (
+          <ProductPreviewCard record={record} revealDelay={index * 80} />
+        ))}
       </div>
 
-      <div class="section-actions">
+      <div class="section-actions" data-reveal style="--reveal-delay: 240ms">
         <a class="button" href="/products/">Open products foundation</a>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="container cta-band">
+    <div class="container cta-band" data-reveal>
       <div>
         <p class="eyebrow">Next information gate</p>
         <h2>Verification comes before publication.</h2>

@@ -1,7 +1,11 @@
 ---
-const { record } = Astro.props;
+const { record, revealDelay } = Astro.props;
 ---
-<article class="product-preview-card">
+<article
+  class="product-preview-card"
+  data-reveal
+  style={revealDelay != null ? `--reveal-delay: ${revealDelay}ms` : undefined}
+>
   <div class="product-preview-media" aria-hidden="true">
     <span>{record.id}</span>
     <i></i>
@@ -46,6 +50,22 @@ const { record } = Astro.props;
       radial-gradient(circle at 72% 22%, rgba(var(--gold-rgb), 0.16), transparent 42%),
       linear-gradient(145deg, #171b22, #222a35);
     background-size: 2rem 2rem, 2rem 2rem, auto, auto;
+    transition: background-position 900ms var(--ease-premium);
+  }
+
+  /* Inner spec frame that warms up on hover. */
+  .product-preview-media::before {
+    content: '';
+    position: absolute;
+    inset: 0.7rem;
+    z-index: 1;
+    border: 1px solid rgba(var(--gold-rgb), 0.14);
+    transition: border-color 300ms var(--ease-premium);
+    pointer-events: none;
+  }
+
+  .product-preview-card:hover .product-preview-media::before {
+    border-color: rgba(var(--gold-rgb), 0.42);
   }
 
   .product-preview-media::after {
@@ -53,11 +73,16 @@ const { record } = Astro.props;
     position: absolute;
     right: 0.8rem;
     bottom: 0.7rem;
+    z-index: 1;
     color: var(--ink-faint);
     font-family: var(--font-mono);
     font-size: 0.68rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+  }
+
+  .product-preview-card:hover .product-preview-media {
+    background-position: 1rem 0, 1rem 0, 0 0, 0 0;
   }
 
   .product-preview-media span {
@@ -69,6 +94,11 @@ const { record } = Astro.props;
     font-weight: 700;
     letter-spacing: 0.02em;
     line-height: 1;
+    transition: transform 500ms var(--ease-premium);
+  }
+
+  .product-preview-card:hover .product-preview-media span {
+    transform: translateY(-0.15rem);
   }
 
   .product-preview-media i {

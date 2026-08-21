@@ -19,7 +19,7 @@ import Base from '../layouts/Base.astro';
 
   <section class="section">
     <div class="container contact-layout">
-      <div class="contact-info">
+      <div class="contact-info" data-reveal>
         <p class="eyebrow">Activation requirements</p>
         <h2>Contact information remains pending.</h2>
         <p class="contact-lead">
@@ -43,7 +43,7 @@ import Base from '../layouts/Base.astro';
         </div>
       </div>
 
-      <div class="form-panel">
+      <div class="form-panel" data-reveal style="--reveal-delay: 140ms">
         <StatusNotice
           title="Development-only form shell"
           message="The fields below are disabled. Nothing entered here can be submitted or transmitted."

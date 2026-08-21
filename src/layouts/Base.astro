@@ -21,10 +21,24 @@ const canonicalUrl = canonical ? buildCanonicalUrl(Astro.url.pathname) : undefin
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#0d0f12" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <script is:inline>
+      // Opt-in hook for the scroll-reveal system. Only added when the user
+      // has not requested reduced motion, so content is never hidden for
+      // users who prefer less motion (and never hidden without JavaScript).
+      (function () {
+        var motion = window.matchMedia
+          ? window.matchMedia('(prefers-reduced-motion: reduce)')
+          : null;
+        if (motion && !motion.matches) {
+          document.documentElement.classList.add('js-reveal');
+        }
+      })();
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -33,5 +47,9 @@ const canonicalUrl = canonical ? buildCanonicalUrl(Astro.url.pathname) : undefin
       <slot />
     </main>
     <SiteFooter />
+    <script>
+      import { initReveal } from '../scripts/reveal.js';
+      initReveal();
+    </script>
   </body>
 </html>
