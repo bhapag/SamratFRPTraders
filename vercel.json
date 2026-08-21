@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/products/unsaturated-polyester-resin/",
+      "destination": "/products/polyester-resins/",
+      "statusCode": 301
+    }
+  ]
+}

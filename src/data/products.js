@@ -1,7 +1,7 @@
 // Centralized product catalogue — Samrat FRP Traders Nepal.
 //
 // Source of truth for the locked Group 2 / 2.1 architecture:
-//   - 25 confirmed products across 8 groups.
+//   - 24 commercial products across 8 groups, plus one retired legacy UPR route.
 //   - Exactly 2 indexable category groups (Polyester Resins, Epoxy & Casting Resins);
 //     the other 6 groups are navigation-only (no category URL).
 //   - Flat permanent product URLs: /products/{slug}/.
@@ -14,7 +14,7 @@ export const catalogGroups = Object.freeze([
     name: 'Polyester Resins',
     slug: 'polyester-resins',
     indexable: true,
-    summary: 'Unsaturated polyester resin products supplied and imported for the Nepal market.',
+    summary: 'Polyester resin family, including unsaturated polyester resin (UPR), supplied and imported for the Nepal market.',
   }),
   Object.freeze({
     name: 'Sheet Grade Resins',
@@ -56,7 +56,6 @@ export const catalogGroups = Object.freeze([
 
 export const products = Object.freeze([
   // Polyester Resins
-  Object.freeze({ name: 'Unsaturated Polyester Resin', slug: 'unsaturated-polyester-resin', group: 'polyester-resins', tier: 'A' }),
   Object.freeze({ name: 'Lamination Resin', slug: 'lamination-resin', group: 'polyester-resins', tier: 'B' }),
   Object.freeze({ name: 'GP Clear Resin', slug: 'gp-clear-resin', group: 'polyester-resins', tier: 'A' }),
   Object.freeze({ name: 'GP White Resin', slug: 'gp-white-resin', group: 'polyester-resins', tier: 'B' }),
