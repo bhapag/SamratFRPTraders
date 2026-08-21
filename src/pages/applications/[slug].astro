@@ -1,0 +1,199 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { applications } from '../../data/applications.js';
+import { getProduct } from '../../data/products.js';
+import Base from '../../layouts/Base.astro';
+
+export function getStaticPaths() {
+  return applications.map((app) => ({ params: { slug: app.slug }, props: { app } }));
+}
+
+const { app } = Astro.props;
+
+const slugAlias = {
+  'fibre-glass-mat': 'glass-fiber-mat',
+  'pet-resin': 'polyester-putty-resin',
+  'epoxy-clear-casting-resin': 'clear-casting-resin',
+  'unsaturated-polyester-resin': 'polyester-resins',
+};
+
+const relatedProducts = (app.relatedProductSlugs ?? [])
+  .map((slug) => {
+    const resolved = slugAlias[slug] ?? slug;
+    const product = getProduct(resolved);
+    if (product) return { name: product.name, href: `/products/${product.slug}/` };
+    if (resolved === 'polyester-resins') return { name: 'Polyester Resins', href: '/products/polyester-resins/' };
+    return null;
+  })
+  .filter(Boolean);
+---
+<Base lang="ne" title={app.title} description={app.cardDescription}>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">प्रयोग गाइड</p>
+      <h1>{app.title}</h1>
+      <p class="page-lead">{app.cardDescription}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'प्रयोगहरू', href: '/applications/' },
+          { label: app.title },
+        ]}
+      />
+
+      <div class="app-layout">
+        <div class="app-main">
+          {app.intro && <div class="copy-block" data-reveal set:html={app.intro} />}
+          {app.whatTheyManufacture && (
+            <div class="block" data-reveal>
+              <h2 class="block-title">निर्माताहरूले के बनाउँछन्</h2>
+              <div set:html={app.whatTheyManufacture} />
+            </div>
+          )}
+          {app.whySuitable && (
+            <div class="block" data-reveal>
+              <h2 class="block-title">यो सामग्री किन उपयुक्त हुन्छ</h2>
+              <div set:html={app.whySuitable} />
+            </div>
+          )}
+          {app.requiredCharacteristics && (
+            <div class="block" data-reveal>
+              <h2 class="block-title">आवश्यक resin विशेषताहरू</h2>
+              <div set:html={app.requiredCharacteristics} />
+            </div>
+          )}
+          {app.manufacturingProcess && (
+            <div class="block" data-reveal>
+              <h2 class="block-title">प्रक्रिया सन्दर्भ</h2>
+              <div set:html={app.manufacturingProcess} />
+            </div>
+          )}
+          {app.faqs && app.faqs.length > 0 && (
+            <div class="block" data-reveal>
+              <h2 class="block-title">सामान्य प्रश्नहरू</h2>
+              <div class="faq-list">
+                {app.faqs.map((faq) => (
+                  <div class="faq-item">
+                    <strong>{faq.q}</strong>
+                    <p set:html={faq.a} />
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <aside class="app-side" data-reveal>
+          {app.cardImage && (
+            <img
+              class="app-side-img"
+              src={`/images/applications/${app.cardImage}`}
+              alt={app.cardImageAlt}
+              loading="lazy"
+              width="700"
+              height="466"
+            />
+          )}
+          {app.cardBenefit && <p class="app-benefit">{app.cardBenefit}</p>}
+          {relatedProducts.length > 0 && (
+            <div class="related">
+              <p class="related-title">सम्बन्धित उत्पादनहरू</p>
+              <div class="related-list">
+                {relatedProducts.map((rp) => (
+                  <a href={rp.href}>{rp.name} →</a>
+                ))}
+              </div>
+            </div>
+          )}
+          <div class="cta-box">
+            <p class="cta-heading">{app.ctaHeading ?? 'परियोजना योजना गर्दै हुनुहुन्छ?'}</p>
+            <p>{app.ctaText ?? 'सम्बन्धित उत्पादन पृष्ठ र तिनका प्राविधिक कागजातहरू हेर्नुहोस्।'}</p>
+            <a class="button button-primary" href="/contact/">सम्पर्क गर्नुहोस्</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .app-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem);
+    gap: clamp(2rem, 5vw, 3.5rem);
+    align-items: start;
+    margin-top: 2rem;
+  }
+
+  .app-main .copy-block :global(p),
+  .app-main .block :global(p),
+  .app-main .block :global(li) {
+    color: var(--ink-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .block { margin-top: 2rem; }
+
+  .block-title {
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
+    font-size: 1.35rem;
+  }
+
+  .faq-item { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+  .faq-item strong { display: block; margin-bottom: 0.35rem; color: var(--ink); font-size: 0.92rem; }
+  .faq-item p { margin: 0; color: var(--ink-dim); font-size: 0.86rem; }
+
+  .app-side { display: grid; gap: 1.1rem; }
+
+  .app-side-img { width: 100%; border: 1px solid var(--line-2); box-shadow: var(--surface-shadow-rest); }
+
+  .app-benefit {
+    margin: 0;
+    padding: 1rem 1.1rem;
+    border-left: 0.25rem solid var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.06);
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+
+  .related { border: 1px solid var(--line); background: var(--bg-2); }
+  .related-title {
+    margin: 0;
+    padding: 0.85rem 1.1rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .related-list { display: grid; }
+  .related-list a {
+    padding: 0.75rem 1.1rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+    text-decoration: none;
+    transition: color 180ms var(--ease-premium);
+  }
+  .related-list a:last-child { border-bottom: 0; }
+  .related-list a:hover { color: var(--accent-gold-light); }
+
+  .cta-box { padding: 1.2rem 1.2rem 1.3rem; border: 1px solid rgba(var(--gold-rgb), 0.4); background: rgba(var(--gold-rgb), 0.06); }
+  .cta-heading { color: var(--accent-gold-light); font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; text-transform: uppercase; }
+  .cta-box p { color: var(--ink-dim); font-size: 0.86rem; }
+  .cta-box .button { width: 100%; }
+
+  @media (max-width: 53.75rem) {
+    .app-layout { grid-template-columns: 1fr; }
+  }
+</style>

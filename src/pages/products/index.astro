@@ -1,37 +1,27 @@
 ---
 import CatalogCard from '../../components/CatalogCard.astro';
-import StatusNotice from '../../components/StatusNotice.astro';
-import {
-  catalogGroups,
-  categoryHref,
-  productHref,
-  productsInGroup,
-} from '../../data/products.js';
+import { catalogGroups, categoryHref, productHref, productsInGroup } from '../../data/products.js';
 import Base from '../../layouts/Base.astro';
 ---
 <Base
-  title="Product Catalogue — FRP Raw Materials"
-  description="Product catalogue for Samrat FRP Traders Nepal — FRP materials supplied and imported for the Nepal market. Detailed product information is being verified."
+  lang="ne"
+  title="उत्पादन सूची — FRP कच्चा सामग्री"
+  description="Samrat FRP Traders को उत्पादन सूची — नेपाल बजारका लागि आपूर्ति तथा आयात गरिने FRP सामग्रीहरू, आपूर्तिकर्ताको प्राविधिक कागजातसहित।"
 >
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
-      <p class="eyebrow">Product catalogue</p>
-      <h1>FRP materials <span class="metal-text">catalogue.</span></h1>
+      <p class="eyebrow">उत्पादन सूची</p>
+      <h1>FRP सामग्री <span class="metal-text">सूची।</span></h1>
       <p class="page-lead">
-        The full product range supplied and imported by Samrat FRP Traders for the Nepal market,
-        grouped by product family. Detailed product information is being verified before publication.
+        Samrat FRP Traders ले नेपाल बजारका लागि आपूर्ति तथा आयात गर्ने सम्पूर्ण उत्पादन दायरा,
+        उत्पादन परिवारअनुसार समूहबद्ध। हरेक उत्पादन पृष्ठमा आपूर्तिकर्ताको प्राविधिक कागजात जोडिएको छ।
       </p>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <StatusNotice
-        title="Catalogue information status"
-        message="Product identities are listed below. Detailed descriptions, technical documentation, packaging and commercial terms are being verified and are not yet published."
-      />
-
       <div class="catalogue">
         {catalogGroups.map((group) => {
           const items = productsInGroup(group.slug);
@@ -39,15 +29,15 @@ import Base from '../../layouts/Base.astro';
             <section class="catalogue-group" data-reveal>
               <header class="catalogue-group-head">
                 <h2>{group.name}</h2>
-                <span class="catalogue-count">{items.length} {items.length === 1 ? 'product' : 'products'}</span>
-                {group.indexable && <a class="catalogue-group-link" href={categoryHref(group)}>View category →</a>}
+                <span class="catalogue-count">{items.length} {items.length === 1 ? 'उत्पादन' : 'उत्पादनहरू'}</span>
+                {group.indexable && <a class="catalogue-group-link" href={`/products/${group.slug}/`}>वर्ग हेर्नुहोस् →</a>}
               </header>
               <div class="catalogue-grid">
                 {items.map((product) => (
                   <CatalogCard
                     name={product.name}
                     eyebrow={group.name}
-                    href={productHref(product)}
+                    href={`/products/${product.slug}/`}
                   />
                 ))}
               </div>

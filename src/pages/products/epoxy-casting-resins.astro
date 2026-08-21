@@ -1,7 +1,6 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
-import StatusNotice from '../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../data/products.js';
 import Base from '../../layouts/Base.astro';
 
@@ -9,15 +8,16 @@ const group = getGroup('epoxy-casting-resins');
 const items = productsInGroup('epoxy-casting-resins');
 ---
 <Base
-  title="Epoxy & Casting Resins — Supplier in Nepal"
-  description="Explore epoxy and casting resin products supplied and imported by Samrat FRP Traders for buyers across Nepal."
+  lang="ne"
+  title="Epoxy र Casting Resins — नेपालमा आपूर्तिकर्ता"
+  description="नेपालका खरिदकर्ताका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने epoxy र casting resin उत्पादनहरू।"
 >
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
-      <p class="eyebrow">Product category</p>
+      <p class="eyebrow">उत्पादन वर्ग</p>
       <h1>{group.name}</h1>
-      <p class="page-lead">{group.summary}</p>
+      <p class="page-lead">नेपाल बजारका लागि आपूर्ति तथा आयात गरिने epoxy र casting resin परिवार।</p>
     </div>
   </section>
 
@@ -25,34 +25,27 @@ const items = productsInGroup('epoxy-casting-resins');
     <div class="container">
       <Breadcrumbs
         items={[
-          { label: 'Home', href: '/' },
-          { label: 'Products', href: '/products/' },
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
           { label: group.name },
         ]}
       />
 
       <div class="category-intro" data-reveal>
         <p>
-          The Epoxy &amp; Casting Resins category groups epoxy resin systems, UV-curing resin and hardener components.
-          Samrat FRP Traders supplies and imports these products for buyers across Nepal. Products in this category have
-          distinct chemistries and are documented individually — properties are not shared across products, and
-          resin/hardener pairing should be confirmed per product.
+          यो वर्गमा epoxy resin प्रणाली, UV-curing resin र hardener कम्पोनेन्टहरू पर्छन्। यी उत्पादनहरूको
+          रसायन भिन्न छन् र हरेकको कागजात अलग-अलग छ — resin/hardener जोडा प्रति-उत्पादन पुष्टि गर्नुपर्छ।
         </p>
       </div>
 
-      <StatusNotice
-        title="Supplier documentation"
-        message="Technical data sheets and safety data sheets are linked from each product page. Supplier technical data is attributed to the issuer and is not a Samrat FRP Traders certification."
-      />
-
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
         {items.map((product) => (
-          <CatalogCard name={product.name} eyebrow={group.name} href={productHref(product)} />
+          <CatalogCard name={product.name} eyebrow={group.name} href={`/products/${product.slug}/`} />
         ))}
       </div>
 
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
-        <a class="button" href="/products/">View full catalogue</a>
+        <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
       </div>
     </div>
   </section>

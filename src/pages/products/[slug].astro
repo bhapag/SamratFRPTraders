@@ -1,14 +1,7 @@
 ---
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import CatalogCard from '../../components/CatalogCard.astro';
-import StatusNotice from '../../components/StatusNotice.astro';
-import {
-  getGroup,
-  productHref,
-  productParentGroup,
-  products,
-  productsInGroup,
-} from '../../data/products.js';
+import ProductPage from '../../components/product/ProductPage.astro';
+import { getProductContent } from '../../data/product-content.js';
+import { getGroup, productParentGroup, products } from '../../data/products.js';
 import Base from '../../layouts/Base.astro';
 
 export function getStaticPaths() {
@@ -21,326 +14,44 @@ export function getStaticPaths() {
 const { product } = Astro.props;
 const group = getGroup(product.group);
 const parent = productParentGroup(product);
-const siblings = productsInGroup(product.group).filter((p) => p.slug !== product.slug);
+const content = getProductContent(product.slug);
+const localized = content?.ne ?? null;
 
 const breadcrumbItems = [
-  { label: 'Home', href: '/' },
-  { label: 'Products', href: '/products/' },
+  { label: 'गृहपृष्ठ', href: '/' },
+  { label: 'उत्पादनहरू', href: '/products/' },
   ...(parent ? [{ label: parent.name, href: `/products/${parent.slug}/` }] : []),
   { label: product.name },
 ];
 
-const highlights = product.technicalHighlights ?? [];
-const documents = product.documents ?? [];
-const hasEvidenceContent = Boolean(
-  product.descriptor || product.overview || highlights.length || documents.length,
-);
-
-const formatSource = (source) => {
-  if (!source) return '';
-  const parts = [source.issuer, source.type].filter(Boolean).join(' — ');
-  const meta = [source.reference, source.revision, source.date].filter(Boolean).join(' · ');
-  return meta ? `${parts} · ${meta}` : parts;
-};
-
-const formatDocMeta = (doc) => [doc.reference, doc.revision, doc.date].filter(Boolean).join(' · ');
+const seoTitle = localized?.seoTitle ?? product.titleInput ?? product.name;
+const seoDescription =
+  localized?.seoDescription ??
+  product.metaDescription ??
+  `${product.name} — Samrat FRP Traders ले नेपाल बजारका लागि आपूर्ति तथा आयात गर्ने उत्पादन।`;
 ---
-<Base
-  title={product.titleInput ?? product.name}
-  description={product.metaDescription ?? (hasEvidenceContent
-    ? `${product.name} — supplied and imported for Nepal by Samrat FRP Traders.`
-    : `${product.name} — supplied and imported for Nepal by Samrat FRP Traders. Product details and technical documentation are being verified.`)}
->
+<Base lang="ne" title={seoTitle} description={seoDescription}>
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
-      <p class="eyebrow">{group.name}</p>
+      <p class="eyebrow">{group?.name}</p>
       <h1>{product.name}</h1>
       <p class="page-lead">
-        Supplied and imported by Samrat FRP Traders for the Nepal market.
-        {!hasEvidenceContent && ' Detailed product information is being verified before publication.'}
+        Samrat FRP Traders ले नेपाल बजारका लागि आपूर्ति तथा आयात गर्ने उत्पादन —
+        आपूर्तिकर्ता Samrat Poly Resins, India को प्राविधिक कागजातसहित।
       </p>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <Breadcrumbs items={breadcrumbItems} />
-
-      {product.descriptor && <p class="product-descriptor" data-reveal>{product.descriptor}</p>}
-
-      {product.overview && (
-        <div class="product-overview" data-reveal>
-          <p>{product.overview}</p>
-        </div>
-      )}
-
-      {!hasEvidenceContent && (
-        <StatusNotice
-          title="Information being verified"
-          message="Detailed product information and technical documentation for the Nepal catalogue are being verified and are not yet published."
-        />
-      )}
-
-      {highlights.length > 0 && (
-        <section class="tech-panel" data-reveal>
-          <h2 class="panel-title">Technical data</h2>
-          <dl class="tech-list">
-            {highlights.map((item) => (
-              <div class="tech-row">
-                <dt>{item.label}</dt>
-                <dd>{item.value}</dd>
-              </div>
-            ))}
-          </dl>
-          {product.technicalSource && (
-            <p class="tech-source">Source: {formatSource(product.technicalSource)}</p>
-          )}
-        </section>
-      )}
-
-      {documents.length > 0 && (
-        <section class="docs-panel" data-reveal>
-          <h2 class="panel-title">Technical documentation</h2>
-          <ul class="docs-list">
-            {documents.map((doc) => (
-              <li class="doc-row">
-                <span class="doc-main">
-                  <strong>{doc.type}</strong>
-                  {doc.issuer && <span class="doc-issuer">{doc.issuer}</span>}
-                  {formatDocMeta(doc) && <span class="doc-meta">{formatDocMeta(doc)}</span>}
-                </span>
-                {doc.url && (
-                  <a class="doc-link" href={doc.url} target="_blank" rel="noopener">
-                    View {doc.type} ↗
-                  </a>
-                )}
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      <div class="product-facts" data-reveal>
-        <div class="fact">
-          <span>Product group</span>
-          <strong>{group.name}</strong>
-        </div>
-        <div class="fact">
-          <span>Technical documentation</span>
-          <strong>{documents.length > 0 ? 'Provided below' : 'Pending verification'}</strong>
-        </div>
-        <div class="fact">
-          <span>Product details</span>
-          <strong>{product.overview ? 'Provided below' : 'Pending verification'}</strong>
-        </div>
-        <div class="fact">
-          <span>Enquiry</span>
-          <strong><a href="/contact/">Via contact page</a></strong>
-        </div>
-      </div>
-
-      {siblings.length > 0 && (
-        <div class="related" data-reveal>
-          <p class="related-title">More in {group.name}</p>
-          <div class="related-grid">
-            {siblings.map((sibling) => (
-              <CatalogCard name={sibling.name} eyebrow={group.name} href={productHref(sibling)} />
-            ))}
-          </div>
-        </div>
-      )}
+      <ProductPage
+        lang="ne"
+        prefix=""
+        product={product}
+        breadcrumbItems={breadcrumbItems}
+        description={seoDescription}
+      />
     </div>
   </section>
 </Base>
-
-<style>
-  .product-descriptor {
-    max-width: 46rem;
-    margin: 1.75rem 0 0;
-    color: var(--ink-dim);
-    font-size: 1.05rem;
-    line-height: 1.55;
-  }
-
-  .product-overview {
-    max-width: 46rem;
-    margin-top: 1rem;
-    color: var(--ink-dim);
-  }
-
-  .product-overview p:last-child {
-    margin-bottom: 0;
-  }
-
-  .panel-title {
-    margin: 2.75rem 0 1rem;
-    padding-bottom: 0.65rem;
-    border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
-    font-size: 1.5rem;
-  }
-
-  .tech-list {
-    margin: 0;
-    border: 1px solid var(--line);
-    background: var(--bg-2);
-  }
-
-  .tech-row {
-    display: grid;
-    grid-template-columns: minmax(10rem, 14rem) 1fr;
-    gap: 1rem;
-    align-items: baseline;
-    padding: 0.9rem 1.3rem;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .tech-row:last-child {
-    border-bottom: 0;
-  }
-
-  .tech-row dt {
-    color: var(--ink-faint);
-    font-family: var(--font-mono);
-    font-size: 0.66rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
-
-  .tech-row dd {
-    margin: 0;
-    color: var(--ink);
-    font-size: 0.92rem;
-  }
-
-  .tech-source {
-    margin: 0.75rem 0 0;
-    color: var(--ink-faint);
-    font-family: var(--font-mono);
-    font-size: 0.62rem;
-    letter-spacing: 0.06em;
-    line-height: 1.6;
-    text-transform: uppercase;
-  }
-
-  .docs-list {
-    display: grid;
-    gap: 0.8rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .doc-row {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.6rem 1rem;
-    padding: 1.05rem 1.3rem;
-    border: 1px solid var(--line);
-    background: var(--bg-2);
-  }
-
-  .doc-main {
-    display: grid;
-    gap: 0.2rem;
-  }
-
-  .doc-main strong {
-    color: var(--ink);
-    font-size: 0.94rem;
-  }
-
-  .doc-issuer,
-  .doc-meta {
-    color: var(--ink-faint);
-    font-family: var(--font-mono);
-    font-size: 0.64rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-
-  .doc-link {
-    color: var(--accent-gold-light);
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.08em;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: color 180ms var(--ease-premium);
-  }
-
-  .doc-link:hover {
-    color: var(--ink);
-  }
-
-  .product-facts {
-    margin-top: 2rem;
-    border: 1px solid var(--line);
-    background: var(--bg-2);
-  }
-
-  .fact {
-    display: grid;
-    grid-template-columns: 14rem 1fr;
-    gap: 1rem;
-    align-items: baseline;
-    padding: 1.05rem 1.3rem;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .fact:last-child {
-    border-bottom: 0;
-  }
-
-  .fact span {
-    color: var(--ink-faint);
-    font-family: var(--font-mono);
-    font-size: 0.62rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-
-  .fact strong {
-    color: var(--ink);
-    font-size: 0.94rem;
-  }
-
-  .fact strong a {
-    color: var(--accent-gold-light);
-    text-decoration: none;
-    transition: color 180ms var(--ease-premium);
-  }
-
-  .fact strong a:hover {
-    color: var(--ink);
-  }
-
-  .related {
-    margin-top: 3rem;
-  }
-
-  .related-title {
-    margin-bottom: 1rem;
-    color: var(--ink-faint);
-    font-family: var(--font-mono);
-    font-size: 0.66rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-
-  .related-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
-    gap: 1rem;
-  }
-
-  @media (max-width: 40rem) {
-    .tech-row,
-    .fact {
-      grid-template-columns: 1fr;
-      gap: 0.3rem;
-    }
-  }
-</style>

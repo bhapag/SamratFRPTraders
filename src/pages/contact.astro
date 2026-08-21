@@ -1,18 +1,19 @@
 ---
-import StatusNotice from '../components/StatusNotice.astro';
+import { buildWhatsAppLink, site, whatsAppMessages } from '../data/site.js';
 import Base from '../layouts/Base.astro';
 ---
 <Base
-  title="Contact scaffold"
-  description="Development-only contact-page foundation for Samrat FRP Traders Nepal. No live submission destination is configured."
+  lang="ne"
+  title="सम्पर्क — Samrat FRP Traders"
+  description="Samrat FRP Traders लाई सम्पर्क गर्नुहोस् — विराटनगर, नेपाल। WhatsApp: +977 9805526904, इमेल: samratfrptraders@gmail.com।"
 >
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
-      <p class="eyebrow">Contact foundation</p>
-      <h1>Enquiry layout, <span class="metal-text">no transmission.</span></h1>
+      <p class="eyebrow">सम्पर्क</p>
+      <h1>सोधपुछ <span class="metal-text">पठाउनुहोस्।</span></h1>
       <p class="page-lead">
-        Verified contact details and a reviewed enquiry destination must be supplied before this page can be activated.
+        WhatsApp, फोन वा इमेलबाट सिधा सम्पर्क गर्नुहोस् — मूल्य: अनुरोधमा।
       </p>
     </div>
   </section>
@@ -20,58 +21,112 @@ import Base from '../layouts/Base.astro';
   <section class="section">
     <div class="container contact-layout">
       <div class="contact-info" data-reveal>
-        <p class="eyebrow">Activation requirements</p>
-        <h2>Contact information remains pending.</h2>
+        <p class="eyebrow">सम्पर्क विवरण</p>
+        <h2>Samrat FRP Traders</h2>
         <p class="contact-lead">
-          The page uses the intended two-column enquiry composition without presenting an address, telephone number,
-          email address, map, or active submission destination.
+          {site.business.addressLine1}, {site.business.city}, {site.business.country}
         </p>
 
-        <div class="contact-lines" aria-label="Contact setup status">
+        <div class="contact-actions">
+          <a
+            class="button button-primary"
+            href={buildWhatsAppLink(whatsAppMessages.ne)}
+            target="_blank"
+            rel="noopener"
+          >
+            WhatsApp
+          </a>
+          <a class="button" href={`tel:${site.business.tel}`}>{site.business.phone}</a>
+          <a class="button" href={`mailto:${site.business.email}`}>इमेल</a>
+        </div>
+
+        <div class="contact-lines" aria-label="व्यावसायिक विवरण">
           <div>
-            <span>Contact channels</span>
-            <strong>Pending verification</strong>
+            <span>ठेगाना</span>
+            <strong>{site.business.addressLine1}, {site.business.city}, {site.business.country}</strong>
           </div>
           <div>
-            <span>Form destination</span>
-            <strong>Not configured</strong>
+            <span>फोन / WhatsApp</span>
+            <strong>{site.business.phone}</strong>
           </div>
           <div>
-            <span>Data transmission</span>
-            <strong>Disabled</strong>
+            <span>इमेल</span>
+            <strong>{site.business.email}</strong>
+          </div>
+          <div>
+            <span>PAN</span>
+            <strong>{site.business.pan}</strong>
+          </div>
+          <div>
+            <span>VAT</span>
+            <strong>{site.business.vat}</strong>
+          </div>
+          <div>
+            <span>EXIM कोड</span>
+            <strong>{site.business.exim}</strong>
           </div>
         </div>
       </div>
 
       <div class="form-panel" data-reveal style="--reveal-delay: 140ms">
-        <StatusNotice
-          title="Development-only form shell"
-          message="The fields below are disabled. Nothing entered here can be submitted or transmitted."
-        />
+        <p class="form-note">
+          फारम भरेर पेस गर्दा तपाईंको जानकारीसहित WhatsApp खुल्छ — सोधपुछ सिधै
+          +977 9805526904 मा पठाउन सकिन्छ। यो फारमले कुनै पनि डेटा अन्यत्र पठाउँदैन।
+        </p>
 
-        <form class="form-shell" aria-label="Disabled enquiry form preview">
-          <fieldset disabled>
-            <legend>Enquiry form preview</legend>
-            <div class="form-grid">
-              <label>
-                <span>Name</span>
-                <input type="text" name="name" placeholder="Disabled during foundation phase" />
-              </label>
-              <label>
-                <span>Contact channel</span>
-                <input type="text" name="contact" placeholder="Disabled during foundation phase" />
-              </label>
-            </div>
+        <form class="form-shell" id="waForm">
+          <legend>सोधपुछ फारम</legend>
+          <div class="form-grid">
             <label>
-              <span>Requirement</span>
-              <textarea name="message" rows="5" placeholder="Disabled during foundation phase"></textarea>
+              <span>नाम</span>
+              <input type="text" name="name" required placeholder="तपाईंको नाम" />
             </label>
-            <button class="button button-primary" type="button" disabled>Submission unavailable</button>
-          </fieldset>
+            <label>
+              <span>कम्पनी</span>
+              <input type="text" name="company" placeholder="कम्पनीको नाम (वैकल्पिक)" />
+            </label>
+          </div>
+          <label>
+            <span>उत्पादन / आवश्यकता</span>
+            <input type="text" name="product" placeholder="जस्तै: GP Clear Resin, Glass Fiber Mat…" />
+          </label>
+          <label>
+            <span>परिमाण</span>
+            <input type="text" name="quantity" placeholder="जस्तै: अनुमानित परिमाण, ड्रम/प्याकेजिङ" />
+          </label>
+          <label>
+            <span>सन्देश</span>
+            <textarea name="message" rows="5" placeholder="आफ्नो आवश्यकता लेख्नुहोस्"></textarea>
+          </label>
+          <button class="button button-primary" type="submit">WhatsApp मा खोल्नुहोस्</button>
         </form>
       </div>
     </div>
   </section>
+
+  <script>
+    const form = document.getElementById('waForm');
+    if (form && form.dataset.wired !== 'true') {
+      form.dataset.wired = 'true';
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const fd = new FormData(form);
+        const lines = [
+          'नमस्ते, म Samrat FRP Traders लाई सम्पर्क गर्न चाहन्छु।',
+          'नाम: ' + (fd.get('name') || ''),
+          'कम्पनी: ' + (fd.get('company') || ''),
+          'उत्पादन: ' + (fd.get('product') || ''),
+          'परिमाण: ' + (fd.get('quantity') || ''),
+          'सन्देश: ' + (fd.get('message') || ''),
+        ].filter((line) => !line.endsWith(': '));
+        window.open(
+          'https://wa.me/{site.business.whatsapp}?text=' + encodeURIComponent(lines.join('\n')),
+          '_blank',
+          'noopener',
+        );
+      });
+    }
+  </script>
 </Base>
 
 <style>
@@ -83,7 +138,7 @@ import Base from '../layouts/Base.astro';
   }
 
   .contact-info h2 {
-    max-width: 12ch;
+    max-width: 18ch;
     margin-top: 0.7rem;
   }
 
@@ -92,8 +147,14 @@ import Base from '../layouts/Base.astro';
     color: var(--ink-dim);
   }
 
+  .contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 1.4rem 0 2rem;
+  }
+
   .contact-lines {
-    margin-top: 2.2rem;
     border-block: 1px solid var(--line);
   }
 
@@ -131,6 +192,65 @@ import Base from '../layouts/Base.astro';
     box-shadow: var(--surface-shadow-rest);
   }
 
+  .form-note {
+    margin: 0;
+    padding: 1rem 1.1rem;
+    border-left: 0.25rem solid var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.06);
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+    line-height: 1.65;
+  }
+
+  .form-shell {
+    display: grid;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .form-shell legend {
+    width: 100%;
+    margin-bottom: 0.2rem;
+    padding: 0 0 0.8rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .form-shell label {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .form-shell label span {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .form-shell input,
+  .form-shell textarea {
+    width: 100%;
+    padding: 0.8rem 0.9rem;
+    border: 1px solid var(--line-2);
+    border-radius: 0;
+    background: var(--bg);
+    color: var(--ink);
+  }
+
   @media (max-width: 48rem) {
     .contact-layout {
       grid-template-columns: 1fr;
@@ -141,6 +261,10 @@ import Base from '../layouts/Base.astro';
     .contact-lines div {
       grid-template-columns: 1fr;
       gap: 0.35rem;
+    }
+
+    .form-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>

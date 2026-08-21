@@ -326,6 +326,24 @@ export const products = Object.freeze([
     slug: 'sheet-grade-yellow-resin',
     group: 'sheet-grade-resins',
     tier: 'B',
+    titleInput: 'Sheet Grade Yellow Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Sheet Grade Yellow Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Orthophthalic unsaturated polyester resin; supplier-listed for FRP sheet and panel work.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Sheet Grade Yellow Resin is an orthophthalic unsaturated polyester resin. The supplier lists it for FRP sheets, panels and sheet production contexts. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic unsaturated polyester' }),
+      Object.freeze({ label: 'Curing system', value: 'Non-accelerated (MEKP catalyst)' }),
+      Object.freeze({ label: 'Viscosity', value: '280 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '6.5 minutes' }),
+      Object.freeze({ label: 'Styrene content', value: '35%' }),
+      Object.freeze({ label: 'Cure time', value: '12 hours' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -338,12 +356,34 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/sheet-grade-yellow-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Roof Light Resin',
     slug: 'roof-light-resin',
     group: 'sheet-grade-resins',
     tier: 'B',
+    titleInput: 'Roof Light Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Roof Light Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor:
+      'Orthophthalic unsaturated polyester resin; supplier-listed for roof light and skylight sheet contexts.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Roof Light Resin is an orthophthalic unsaturated polyester resin. The supplier lists it for roof light panels and skylight sheet contexts; suitability for a specific roofing product should be confirmed against the supplier documentation. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic unsaturated polyester' }),
+      Object.freeze({ label: 'Curing system', value: 'Non-accelerated (MEKP catalyst)' }),
+      Object.freeze({ label: 'Viscosity', value: '280 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '6.5 minutes' }),
+      Object.freeze({ label: 'Styrene content', value: '35%' }),
+      Object.freeze({ label: 'Cure time', value: '12 hours' }),
+      Object.freeze({ label: 'Specific gravity', value: '1.1 g/cm\u00B3' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -356,6 +396,8 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/roof-light-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
 
   // Gelcoat
@@ -404,6 +446,24 @@ export const products = Object.freeze([
     slug: 'fire-retardant-resin',
     group: 'fire-retardant-resins',
     tier: 'B',
+    titleInput: 'Fire Retardant Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Fire Retardant Resin \u2014 a halogenated fire-retardant unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Unsaturated polyester resin with a halogenated fire-retardant formulation.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Fire Retardant Resin is an unsaturated polyester resin with a halogenated fire-retardant formulation. The classification describes the resin itself, not the fire performance of any finished laminate or product; project-level fire requirements should be reviewed against the supplier documentation. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Base resin', value: 'Unsaturated polyester' }),
+      Object.freeze({ label: 'FR type', value: 'Halogenated fire-retardant formulation' }),
+      Object.freeze({ label: 'Curing system', value: 'Room temperature cure with MEKP catalyst' }),
+      Object.freeze({ label: 'Viscosity', value: '400 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '5.5 minutes' }),
+      Object.freeze({ label: 'Styrene content', value: '35%' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -416,12 +476,34 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/fire-retardant-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'ISO Fire Retardant Resin',
     slug: 'iso-fire-retardant-resin',
     group: 'fire-retardant-resins',
     tier: 'C',
+    titleInput: 'ISO Fire Retardant Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'ISO Fire Retardant Resin \u2014 an isophthalic fire-retardant unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor:
+      'Isophthalic-based unsaturated polyester resin with a halogen-free, ATH-filled fire-retardant formulation. (\u201CISO\u201D refers to isophthalic chemistry, not ISO certification.)',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, ISO Fire Retardant Resin is an unsaturated polyester resin with a halogen-free, ATH-filled fire-retardant formulation. The designation \u201CISO\u201D refers to isophthalic-based resin chemistry and not to ISO certification. The classification describes the resin, not the fire performance of a finished product; project requirements should be reviewed against the supplier documentation. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Unsaturated polyester resin (fire-retardant grade)' }),
+      Object.freeze({ label: 'FR type', value: 'Halogen-free, ATH-filled formulation' }),
+      Object.freeze({ label: 'Curing system', value: 'Room-temperature cure with MEKP catalyst' }),
+      Object.freeze({ label: 'Viscosity', value: '400 cPs' }),
+      Object.freeze({ label: 'Gel time', value: '5.5 minutes' }),
+      Object.freeze({ label: 'Styrene content', value: '35%' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '1.18 g/cm\u00B3' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -434,6 +516,8 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/iso-fire-retardant-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
 
   // FRP Allied Products
@@ -442,6 +526,24 @@ export const products = Object.freeze([
     slug: 'frp-polyester-pigment',
     group: 'frp-allied-products',
     tier: 'B',
+    titleInput: 'FRP Polyester Pigment \u2014 Nepal Supplier',
+    metaDescription:
+      'FRP Polyester Pigment \u2014 a polyester pigment paste supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Polyester pigment paste; supplier-listed for polyester, vinyl ester and gelcoat systems.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, FRP Polyester Pigment is a pigment paste. The supplier lists binder compatibility with unsaturated polyester, vinyl ester and gelcoat systems. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Form', value: 'Paste' }),
+      Object.freeze({ label: 'Binder compatibility', value: 'Unsaturated polyester, vinyl ester & gelcoat systems' }),
+      Object.freeze({ label: 'Tinting strength', value: 'High (\u2265 95%)' }),
+      Object.freeze({ label: 'Heat resistance', value: 'Up to 180 \u00B0C (per supplier TDS)' }),
+      Object.freeze({ label: 'Light fastness', value: '7\u20138 (Blue Wool Scale)' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '1.45 g/cm\u00B3' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -454,6 +556,8 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/frp-polyester-pigment-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Glass Fiber Mat',
@@ -651,6 +755,25 @@ export const products = Object.freeze([
     slug: 'dmc-smc-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    titleInput: 'DMC/SMC Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'DMC/SMC Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor:
+      'Orthophthalic unsaturated polyester resin; supplier-listed for DMC/SMC moulding-compound contexts.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, DMC/SMC Resin is an orthophthalic unsaturated polyester resin. The supplier lists it for DMC and SMC moulding compounds, electrical housings and panel contexts. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic unsaturated polyester resin' }),
+      Object.freeze({ label: 'Curing type', value: 'Non-accelerated' }),
+      Object.freeze({ label: 'Viscosity', value: '600 cPs (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Gel time', value: '12\u201318 minutes (at 25\u00B0C; review current TDS for test context)' }),
+      Object.freeze({ label: 'Styrene content', value: '35%' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '1.12 g/cm\u00B3' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -663,12 +786,33 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/dmc-smc-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Polyester Putty Resin',
     slug: 'polyester-putty-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Polyester Putty Resin (PET Resin) \u2014 a PET-modified unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor:
+      'PET-modified unsaturated polyester resin (liquid); also known as PET Resin \u2014 not PET thermoplastic.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Polyester Putty Resin \u2014 also known as PET Resin \u2014 is a liquid PET-modified unsaturated polyester resin of sheet grade. It is not PET thermoplastic. The supplier\u2019s published end use covers fibre sheets and PET sheets. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'PET-modified unsaturated polyester resin (liquid)' }),
+      Object.freeze({ label: 'Grade', value: 'Sheet grade' }),
+      Object.freeze({ label: 'Viscosity', value: '450\u2013650 cPs (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Solid content', value: '60\u201364%' }),
+      Object.freeze({ label: 'Specific gravity', value: '1.05\u20131.12 g/cm\u00B3 (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Heat deflection temperature', value: '70\u201385\u00B0C (cured)' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -681,12 +825,33 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/pet-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Marble Resin',
     slug: 'marble-resin',
     group: 'industrial-specialty-resins',
     tier: 'B',
+    titleInput: 'Marble Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Marble Resin \u2014 an unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor:
+      'Unsaturated polyester resin; supplier-listed for cultured marble and artificial stone contexts.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Marble Resin is an unsaturated polyester resin (the catalogue labels it orthophthalic UPR). The supplier lists it for cultured marble, artificial stone and decorative architectural contexts; suitability for a specific stone formulation should be confirmed against the supplier documentation. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin family', value: 'Unsaturated polyester resin (TDS)' }),
+      Object.freeze({ label: 'Viscosity', value: '450 cPs at 25\u00B0C (TDS)' }),
+      Object.freeze({ label: 'Gel time', value: '15\u201320 minutes at 25\u00B0C (TDS)' }),
+      Object.freeze({ label: 'Curing time', value: '20\u201340 minutes at 25\u00B0C (TDS)' }),
+      Object.freeze({ label: 'Styrene content', value: '35% (TDS)' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '1.12 g/cm\u00B3' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -699,12 +864,35 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/marble-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Vinyl Ester Resin',
     slug: 'vinyl-ester-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    titleInput: 'Vinyl Ester Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Vinyl Ester Resin \u2014 a bisphenol-A epoxy vinyl ester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Bisphenol-A epoxy vinyl ester resin; supplier-listed for industrial FRP contexts.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Vinyl Ester Resin is a bisphenol-A epoxy vinyl ester resin. The supplier lists it for FRP tanks, pipelines, ducts, scrubbers and related industrial FRP contexts; suitability for a specific service environment should be confirmed against the supplier documentation. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Bisphenol-A epoxy vinyl ester' }),
+      Object.freeze({ label: 'Viscosity', value: '350 cPs (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Gel time', value: '15\u201320 minutes at 25\u00B0C (see TDS test condition)' }),
+      Object.freeze({ label: 'Styrene content', value: '40%' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '1.05 g/cm\u00B3' }),
+      Object.freeze({
+        label: 'Thermal data',
+        value: '110\u00B0C (TDS typical data; not a stated service-temperature limit)',
+      }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -717,12 +905,39 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/vinyl-ester-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Fiberglass Epoxy Resin',
     slug: 'fiberglass-epoxy-resin',
     group: 'industrial-specialty-resins',
     tier: 'B',
+    titleInput: 'Fiberglass Epoxy Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Fiberglass Epoxy Resin \u2014 an epoxy resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Epoxy resin; supplier-listed for fibreglass lamination contexts.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Fiberglass Epoxy Resin is an epoxy resin (the catalogue calls it a bisphenol-A epoxy resin). The supplier\u2019s TDS lists hand lay-up and lamination processing; a confirmed hardener pairing is not named in the TDS, so the resin/hardener pairing should be confirmed before ordering. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Epoxy (current TDS)' }),
+      Object.freeze({
+        label: 'Curing system',
+        value: 'Room-temperature cure; TDS identifies an amine hardener but no confirmed product pairing',
+      }),
+      Object.freeze({ label: 'Published processing', value: 'Hand lay-up and lamination (current TDS)' }),
+      Object.freeze({ label: 'Viscosity', value: '700 cPs at 25\u00B0C (TDS)' }),
+      Object.freeze({ label: 'Gel time', value: '35\u201345 minutes at 25\u00B0C' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '1.15 g/cm\u00B3 (TDS)' }),
+      Object.freeze({
+        label: 'Thermal data',
+        value: '75\u00B0C HDT (TDS; no continuous-service limit published)',
+      }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -735,12 +950,34 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/fiberglass-epoxy-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Bisphenol Resin',
     slug: 'bisphenol-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    titleInput: 'Bisphenol Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Bisphenol Resin \u2014 a bisphenol-A based thermosetting resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Bisphenol A and epichlorohydrin based thermosetting resin.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Bisphenol Resin is a bisphenol A and epichlorohydrin based thermosetting resin. The supplier lists it for laminating, FRP composites, coatings and encapsulation contexts. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Bisphenol A & epichlorohydrin based (thermosetting)' }),
+      Object.freeze({ label: 'Viscosity', value: '600 cPs (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Gel time', value: '35\u201345 minutes (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '1.10 g/cm\u00B3 (at 25\u00B0C)' }),
+      Object.freeze({
+        label: 'Thermal data',
+        value: '80\u00B0C (fully cured; not a published continuous-service limit)',
+      }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -753,6 +990,8 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/bisphenol-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
 
   // Hardeners & Catalysts
@@ -809,12 +1048,12 @@ export function productsInGroup(groupSlug) {
   return products.filter((product) => product.group === groupSlug);
 }
 
-export function productHref(product) {
-  return `/products/${product.slug}/`;
+export function productHref(product, prefix = '') {
+  return `${prefix}/products/${product.slug}/`;
 }
 
-export function categoryHref(group) {
-  return `/products/${group.slug}/`;
+export function categoryHref(group, prefix = '') {
+  return `${prefix}/products/${group.slug}/`;
 }
 
 // A product only has a parent category when its group is an indexable category.

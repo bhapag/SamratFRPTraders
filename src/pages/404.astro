@@ -1,15 +1,21 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Page not found" description="The requested page could not be found." noindex canonical={false}>
+<Base
+  lang="ne"
+  title="पृष्ठ भेटिएन"
+  description="अनुरोध गरिएको पृष्ठ फेला पार्न सकिएन।"
+  noindex
+  canonical={false}
+>
   <section class="page-hero hero-shell page-hero-centered">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container narrow page-hero-content">
-      <p class="eyebrow">404</p>
-      <h1>Page <span class="metal-text">not found.</span></h1>
-      <p>The requested page is not part of this development foundation.</p>
+      <p class="eyebrow">४०४</p>
+      <h1>पृष्ठ <span class="metal-text">भेटिएन।</span></h1>
+      <p>अनुरोध गरिएको पृष्ठ यस विकास संस्करणमा उपलब्ध छैन।</p>
       <div class="section-actions">
-        <a class="button button-primary" href="/">Return home</a>
+        <a class="button button-primary" href="/">गृहपृष्ठमा फर्कनुहोस्</a>
       </div>
     </div>
   </section>

@@ -1,19 +1,21 @@
 ---
-import StatusNotice from '../components/StatusNotice.astro';
+import BusinessDetails from '../components/home/BusinessDetails.astro';
+import { buildWhatsAppLink, whatsAppMessages } from '../data/site.js';
 import Base from '../layouts/Base.astro';
 ---
 <Base
-  title="About"
-  description="Samrat FRP Traders is a trader, supplier, importer and reseller serving Nepal. Business facts are stated only where confirmed."
+  lang="ne"
+  title="हाम्रोबारे — Samrat FRP Traders"
+  description="Samrat FRP Traders विराटनगर, नेपालबाट सञ्चालित व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो — नेपालभर FRP सामग्री तथा औद्योगिक रेजिन आपूर्ति।"
 >
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
-      <p class="eyebrow">About</p>
-      <h1>Business facts follow <span class="metal-text">verification.</span></h1>
+      <p class="eyebrow">हाम्रोबारे</p>
+      <h1>विराटनगरबाट <span class="metal-text">नेपालभर।</span></h1>
       <p class="page-lead">
-        Samrat FRP Traders is a trader, supplier, importer and reseller serving Nepal.
-        Company information remains limited until verified.
+        Samrat FRP Traders नेपालका खरिदकर्ताहरूका लागि FRP सामग्री तथा औद्योगिक रेजिन आपूर्ति गर्ने
+        व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो।
       </p>
     </div>
   </section>
@@ -22,78 +24,101 @@ import Base from '../layouts/Base.astro';
     <div class="container about-layout">
       <div class="copy-stack" data-reveal>
         <div class="section-heading">
-          <p class="eyebrow">Current boundary</p>
-          <h2>Clear about what is known—and what is not.</h2>
+          <p class="eyebrow">व्यावसायिक भूमिका</p>
+          <h2>व्यापारी · आपूर्तिकर्ता · आयातकर्ता · पुनर्विक्रेता।</h2>
         </div>
 
         <p>
-          Samrat Poly Resins, India is a trusted supplier to Samrat FRP Traders for resins and related FRP materials.
-          Business location, registration, contact details and other commercial facts remain pending verification.
+          Samrat FRP Traders (दर्ता नाम: M/s SAMRAT F.R.P TRADERS) विराटनगर, नेपालमा आधारित व्यवसाय हो।
+          हामी नेपालभरका खरिदकर्ताहरूलाई polyester resin, gelcoat, glass fiber, hardener, epoxy प्रणाली
+          र सम्बन्धित FRP सामग्री आपूर्ति तथा आयात गर्दछौँ — प्रत्येक उत्पादनसँग आपूर्तिकर्ताले जारी
+          गरेका TDS र SDS कागजात।
+        </p>
+        <p>
+          Samrat Poly Resins, India हाम्रा resin र सम्बन्धित FRP सामग्रीका लागि विश्वसनीय आपूर्तिकर्ता हो।
+          आपूर्तिकर्ताको उत्पादन सन्दर्भ मिडिया (फोटो/भिडियो) Samrat Poly Resins को हो — यसले
+          Samrat FRP Traders को भौतिक संरचना जनाउँदैन।
+        </p>
+        <p>
+          हामी २४ उत्पादनको सूची, ३७ प्रयोग गाइड र १५९ प्राविधिक स्रोत/लेख नेपाली र English दुवै भाषामा
+          प्रस्तुत गर्दछौँ — ताकि नेपालका खरिदकर्ताले सही सामग्री छान्न सकून्।
         </p>
 
-        <StatusNotice
-          title="Confirmed facts only"
-          message="This page states only confirmed business facts. Remaining details are pending verification."
-        />
-
-        <a class="button" href="/products/">Browse product catalogue</a>
+        <div class="button-row">
+          <a class="button button-primary" href="/products/">उत्पादन सूची हेर्नुहोस्</a>
+          <a
+            class="button"
+            href={buildWhatsAppLink(whatsAppMessages.ne)}
+            target="_blank"
+            rel="noopener"
+          >
+            WhatsApp मा सोध्नुहोस्
+          </a>
+        </div>
       </div>
 
-      <aside class="info-rail" aria-label="Current website boundaries" data-reveal style="--reveal-delay: 120ms">
+      <aside class="info-rail" aria-label="व्यावसायिक विवरण" data-reveal style="--reveal-delay: 120ms">
         <div class="info-row">
-          <span>Website identity</span>
+          <span>व्यावसायिक नाम</span>
           <strong>Samrat FRP Traders</strong>
         </div>
         <div class="info-row">
-          <span>Current representation</span>
-          <strong>Trader / supplier / importer / reseller</strong>
+          <span>आधार स्थान</span>
+          <strong>विराटनगर, नेपाल</strong>
         </div>
         <div class="info-row">
-          <span>Supplier relationship</span>
+          <span>बजार क्षेत्र</span>
+          <strong>सम्पूर्ण नेपाल</strong>
+        </div>
+        <div class="info-row">
+          <span>आपूर्ति सम्बन्ध</span>
           <strong>Samrat Poly Resins, India</strong>
         </div>
         <div class="info-row">
-          <span>Business details</span>
-          <strong>Pending verification</strong>
+          <span>भाषा</span>
+          <strong>नेपाली + English</strong>
         </div>
         <div class="info-row">
-          <span>Publication state</span>
-          <strong>Local development</strong>
+          <span>मूल्य नीति</span>
+          <strong>मूल्य: अनुरोधमा</strong>
         </div>
       </aside>
     </div>
   </section>
 
+  <BusinessDetails lang="ne" />
+
   <section class="section section-framed">
     <div class="container">
       <div class="section-heading section-heading-split" data-reveal>
         <div>
-          <p class="eyebrow">Publication requirements</p>
-          <h2>Information required before publication</h2>
+          <p class="eyebrow">हाम्रो दृष्टिकोण</p>
+          <h2>प्राविधिक कागजातसँगै आपूर्ति।</h2>
         </div>
-        <p class="section-lead">Each information group needs a confirmed source and approval before it enters customer-facing copy.</p>
+        <p class="section-lead">
+          हरेक उत्पादनसँग आपूर्तिकर्ताले जारी गरेका प्राविधिक कागजात — ताकि खरिदकर्ताले के किन्दै छन् भन्ने स्पष्ट होस्।
+        </p>
       </div>
-
-      <div class="requirement-grid">
+      <div class="approach-grid">
         <article data-reveal>
           <span>01</span>
-          <h3>Identity</h3>
-          <p>Verified legal and trading identity.</p>
+          <h3>पुष्टि भएका तथ्य मात्र</h3>
+          <p>उत्पादन विवरण र प्राविधिक मानहरू आपूर्तिकर्ताको कागजातबाट लिइन्छन्; पुष्टि नभएका व्यावसायिक शर्तहरू प्रकाशित गरिँदैनन्।</p>
         </article>
         <article data-reveal style="--reveal-delay: 70ms">
           <span>02</span>
-          <h3>Contact</h3>
-          <p>Verified business location and contact channels.</p>
+          <h3>TDS र SDS सहित</h3>
+          <p>प्रत्येक उत्पादनसँग Technical Data Sheet र Safety Data Sheet को सिधा पहुँच।</p>
         </article>
         <article data-reveal style="--reveal-delay: 140ms">
           <span>03</span>
-          <h3>Supply scope</h3>
-          <p>Verified supplier relationships and product scope.</p>
+          <h3>सिधा सोधपुछ</h3>
+          <p>WhatsApp, फोन र इमेलबाट सिधा सोधपुछ — मूल्य: अनुरोधमा।</p>
         </article>
         <article data-reveal style="--reveal-delay: 210ms">
           <span>04</span>
-          <h3>Policies</h3>
-          <p>Approved service, policy, and market information.</p>
+          <h3>द्विभाषी जानकारी</h3>
+          <p>उत्पादन र प्राविधिक जानकारी नेपाली र English दुवैमा।</p>
         </article>
       </div>
     </div>
@@ -109,13 +134,10 @@ import Base from '../layouts/Base.astro';
   }
 
   .copy-stack > p {
-    max-width: 42rem;
+    max-width: 46rem;
     color: var(--ink-dim);
-    font-size: 1.02rem;
-  }
-
-  .copy-stack .button {
-    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.75;
   }
 
   .info-rail {
@@ -153,7 +175,7 @@ import Base from '../layouts/Base.astro';
     font-size: 0.94rem;
   }
 
-  .requirement-grid {
+  .approach-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1px;
@@ -161,31 +183,31 @@ import Base from '../layouts/Base.astro';
     background: var(--line);
   }
 
-  .requirement-grid article {
-    min-height: 14rem;
+  .approach-grid article {
+    min-height: 13rem;
     padding: 1.4rem;
     background: var(--bg-3);
   }
 
-  .requirement-grid span {
+  .approach-grid span {
     color: var(--accent-gold);
     font-family: var(--font-mono);
     font-size: 0.7rem;
     letter-spacing: 0.12em;
   }
 
-  .requirement-grid h3 {
-    margin-block: 2.6rem 0.65rem;
+  .approach-grid h3 {
+    margin-block: 2.4rem 0.65rem;
   }
 
-  .requirement-grid p {
+  .approach-grid p {
     margin: 0;
     color: var(--ink-dim);
     font-size: 0.86rem;
   }
 
   @media (max-width: 53.75rem) {
-    .requirement-grid {
+    .approach-grid {
       grid-template-columns: 1fr 1fr;
     }
   }
@@ -197,7 +219,7 @@ import Base from '../layouts/Base.astro';
   }
 
   @media (max-width: 32rem) {
-    .requirement-grid {
+    .approach-grid {
       grid-template-columns: 1fr;
     }
   }

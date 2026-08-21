@@ -1,0 +1,92 @@
+---
+import { site } from '../../data/site.js';
+
+const { lang = 'ne' } = Astro.props;
+const isNe = lang === 'ne';
+
+const rows = isNe
+  ? [
+      { label: 'व्यावसायिक नाम', value: site.legalName },
+      { label: 'ठेगाना', value: `${site.business.addressLine1}, ${site.business.city}, ${site.business.country}` },
+      { label: 'फोन / WhatsApp', value: site.business.phone },
+      { label: 'इमेल', value: site.business.email },
+      { label: 'PAN', value: site.business.pan },
+      { label: 'VAT', value: site.business.vat },
+      { label: 'EXIM कोड', value: site.business.exim },
+    ]
+  : [
+      { label: 'Business name', value: site.legalName },
+      { label: 'Address', value: `${site.business.addressLine1}, ${site.business.city}, ${site.business.country}` },
+      { label: 'Phone / WhatsApp', value: site.business.phone },
+      { label: 'Email', value: site.business.email },
+      { label: 'PAN', value: site.business.pan },
+      { label: 'VAT', value: site.business.vat },
+      { label: 'EXIM Code', value: site.business.exim },
+    ];
+---
+<section class="section">
+  <div class="container">
+    <div class="section-heading" data-reveal>
+      <p class="eyebrow">{isNe ? 'व्यावसायिक पहिचान' : 'Business identity'}</p>
+      <h2>{isNe ? 'दर्ता व्यवसाय विवरण।' : 'Registered business details.'}</h2>
+    </div>
+
+    <div class="biz-grid" data-reveal>
+      {rows.map((row) => (
+        <div class="biz-row">
+          <span>{row.label}</span>
+          <strong>{row.value}</strong>
+        </div>
+      ))}
+    </div>
+    <p class="biz-note">
+      {isNe
+        ? 'पहिचानहरू सम्बन्धित दर्ता निकायबाट जारी भएका हुन्। व्यावसायिक भूमिका: व्यापारी · आपूर्तिकर्ता · आयातकर्ता · पुनर्विक्रेता।'
+        : 'Identifiers are issued by the relevant registration authorities. Business role: Trader · Supplier · Importer · Reseller.'}
+    </p>
+  </div>
+</section>
+
+<style>
+  .biz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+    gap: 1px;
+    border: 1px solid var(--line);
+    background: var(--line);
+  }
+
+  .biz-row {
+    display: grid;
+    gap: 0.4rem;
+    padding: 1.15rem 1.25rem;
+    background: var(--bg-2);
+    transition: background 200ms var(--ease-premium);
+  }
+
+  .biz-row:hover {
+    background: rgba(var(--gold-rgb), 0.05);
+  }
+
+  .biz-row span {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .biz-row strong {
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.86rem;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+  }
+
+  .biz-note {
+    margin: 1rem 0 0;
+    color: var(--ink-faint);
+    font-size: 0.8rem;
+  }
+</style>

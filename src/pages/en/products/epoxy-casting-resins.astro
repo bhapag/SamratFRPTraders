@@ -1,0 +1,78 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CatalogCard from '../../../components/CatalogCard.astro';
+import StatusNotice from '../../../components/StatusNotice.astro';
+import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
+import Base from '../../../layouts/Base.astro';
+
+const group = getGroup('epoxy-casting-resins');
+const items = productsInGroup('epoxy-casting-resins');
+---
+<Base
+  title="Epoxy & Casting Resins — Supplier in Nepal"
+  description="Explore epoxy and casting resin products supplied and imported by Samrat FRP Traders for buyers across Nepal."
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Product category</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">{group.summary}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'Home', href: '/en/' },
+          { label: 'Products', href: '/en/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          The Epoxy &amp; Casting Resins category groups epoxy resin systems, UV-curing resin and hardener components.
+          Samrat FRP Traders supplies and imports these products for buyers across Nepal. Products in this category have
+          distinct chemistries and are documented individually — properties are not shared across products, and
+          resin/hardener pairing should be confirmed per product.
+        </p>
+      </div>
+
+      <StatusNotice
+        title="Supplier documentation"
+        message="Technical data sheets and safety data sheets are linked from each product page. Supplier technical data is attributed to the issuer and is not a Samrat FRP Traders certification."
+      />
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard name={product.name} eyebrow={group.name} href={productHref(product, '/en')} />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/en/products/">View full catalogue</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.75rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

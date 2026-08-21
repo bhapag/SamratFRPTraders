@@ -1,0 +1,183 @@
+---
+const { lang = 'ne' } = Astro.props;
+const isNe = lang === 'ne';
+---
+<section class="section section-framed">
+  <div class="container">
+    <div class="section-heading section-heading-split" data-reveal>
+      <div>
+        <p class="eyebrow">{isNe ? 'हाम्रो विश्वसनीय आपूर्ति स्रोत' : 'Our trusted supply source'}</p>
+        <h2>
+          {isNe ? 'Samrat Poly Resins, India — उत्पादन सन्दर्भ।' : 'Samrat Poly Resins, India — supplier production context.'}
+        </h2>
+      </div>
+    </div>
+
+    <div class="video-grid" data-reveal>
+      <div class="video-copy">
+        <p>
+          {isNe
+            ? 'तलको भिडियो हाम्रो आपूर्तिकर्ताको उत्पादन सन्दर्भ हो — resin र सम्बन्धित FRP सामग्री आपूर्ति गर्ने विश्वसनीय स्रोत।'
+            : 'The video below is production reference material from our trusted supplier of resins and related FRP materials.'}
+        </p>
+        <ul class="video-points">
+          {isNe
+            ? [
+                <li><span class="point-check" aria-hidden="true">✓</span>प्रत्येक उत्पादनसँग TDS/SDS कागजात</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>२४ उत्पादनको प्राविधिक-स्रोत सूची</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>नेपालभर आपूर्ति समन्वय</li>,
+              ]
+            : [
+                <li><span class="point-check" aria-hidden="true">✓</span>TDS/SDS documentation with every product</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>24-product source-backed catalogue</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>Supply coordination across Nepal</li>,
+              ]}
+        </ul>
+      </div>
+
+      <div class="video-frame">
+        <video
+          class="lazy-video"
+          data-src="/videos/applications-video.mp4"
+          muted
+          loop
+          playsinline
+          preload="none"
+          poster="/videos/applications-video-poster.jpg"
+          disablepictureinpicture
+          disableremoteplayback
+          aria-label={isNe
+            ? 'आपूर्तिकर्ता Samrat Poly Resins, India का FRP प्रयोगहरूको उत्पादन सन्दर्भ भिडियो'
+            : 'Supplier production reference video showing FRP applications from Samrat Poly Resins, India'}
+        ></video>
+        <p class="video-attribution">
+          {isNe
+            ? 'आपूर्तिकर्ताको उत्पादन सन्दर्भ'
+            : 'Supplier production context'} — Samrat Poly Resins, India
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Ambient homepage video: do not fetch the file until it is about to
+  // scroll into view; re-assert muted as a JS property before playing so
+  // mobile autoplay gating stays satisfied (ported from the source site).
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.lazy-video').forEach((video) => {
+      if (video.dataset.wired === 'true') return;
+      video.dataset.wired = 'true';
+
+      const src = video.dataset.src;
+      if (!src) return;
+
+      const attemptPlay = () => {
+        video.muted = true;
+        video.play().catch(() => {
+          video.addEventListener('canplay', () => { video.muted = true; video.play().catch(() => {}); }, { once: true });
+        });
+      };
+
+      const io = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          video.muted = true;
+          video.src = src;
+          video.load();
+          attemptPlay();
+          io.unobserve(video);
+        }
+      }, { rootMargin: '200px' });
+
+      io.observe(video);
+    });
+  }
+</script>
+
+<style>
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1.6fr 0.9fr;
+    gap: clamp(1.5rem, 5vw, 3rem);
+    align-items: start;
+  }
+
+  .video-copy > p {
+    max-width: 46ch;
+    color: var(--ink-dim);
+    line-height: 1.75;
+  }
+
+  .video-points {
+    display: grid;
+    gap: 0.9rem;
+    margin: 1.6rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .video-points li {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: var(--ink);
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+
+  .point-check {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, var(--accent-gold-light), var(--accent-gold-dark));
+    color: #17120c;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  .video-frame {
+    align-self: start;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    overflow: hidden;
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  .video-frame video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    background: #000;
+  }
+
+  .video-attribution {
+    margin: 0;
+    padding: 0.6rem 0.9rem;
+    border-top: 1px solid var(--line);
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 860px) {
+    .video-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .video-frame video {
+      aspect-ratio: 16 / 10;
+    }
+
+    .video-frame {
+      order: 2;
+    }
+  }
+</style>

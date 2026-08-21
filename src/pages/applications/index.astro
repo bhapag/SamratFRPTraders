@@ -1,0 +1,98 @@
+---
+import { applications } from '../../data/applications.js';
+import Base from '../../layouts/Base.astro';
+---
+<Base
+  lang="ne"
+  title="FRP प्रयोगहरू"
+  description="Samrat FRP Traders को उत्पादन दायरासम्बन्धी प्रयोग गाइडहरू — पानी ट्यांकी, छाना पाता, marine, casting, प्यानल र औद्योगिक FRP कार्य।"
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">प्रयोगहरू</p>
+      <h1>FRP प्रयोगहरू <span class="metal-text">व्याख्या।</span></h1>
+      <p class="page-lead">
+        Samrat FRP Traders ले नेपालभरका खरिदकर्ताका लागि आपूर्ति तथा आयात गर्ने उत्पादन दायरासम्बन्धी प्रयोग गाइडहरू।
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="app-grid">
+        {applications.map((app) => (
+          <a class="app-card" href={`/applications/${app.slug}/`} data-reveal>
+            <span class="app-media">
+              <img
+                src={`/images/applications/${app.cardImage}`}
+                alt={app.cardImageAlt}
+                loading="lazy"
+                width="700"
+                height="466"
+              />
+            </span>
+            <span class="app-body">
+              <span class="app-title">{app.title}</span>
+              <span class="app-desc">{app.cardDescription}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    gap: 1.1rem;
+  }
+
+  .app-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+    color: var(--ink);
+    text-decoration: none;
+    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium), box-shadow 220ms var(--ease-premium);
+  }
+
+  .app-card:hover {
+    transform: translateY(-0.2rem);
+    border-color: rgba(var(--gold-rgb), 0.65);
+    box-shadow: var(--surface-shadow-hover);
+  }
+
+  .app-media img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    display: block;
+    object-fit: cover;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .app-body {
+    display: grid;
+    gap: 0.45rem;
+    padding: 1.05rem 1.2rem 1.2rem;
+  }
+
+  .app-title {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .app-desc {
+    color: var(--ink-dim);
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+</style>

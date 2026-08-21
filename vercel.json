@@ -5,6 +5,16 @@
       "source": "/products/unsaturated-polyester-resin/",
       "destination": "/products/polyester-resins/",
       "statusCode": 301
+    },
+    {
+      "source": "/ne",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ne/:path*",
+      "destination": "/:path*",
+      "statusCode": 301
     }
   ]
 }

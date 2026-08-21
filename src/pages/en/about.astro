@@ -1,0 +1,226 @@
+---
+import BusinessDetails from '../../components/home/BusinessDetails.astro';
+import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
+import Base from '../../layouts/Base.astro';
+---
+<Base
+  title="About — Samrat FRP Traders"
+  description="Samrat FRP Traders is a trader, supplier, importer and reseller based in Biratnagar, Nepal — supplying FRP materials and industrial resins across all of Nepal."
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">About</p>
+      <h1>From Biratnagar, <span class="metal-text">across Nepal.</span></h1>
+      <p class="page-lead">
+        Samrat FRP Traders is a trader, supplier, importer and reseller of FRP materials and
+        industrial resins for buyers across Nepal.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container about-layout">
+      <div class="copy-stack" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Business role</p>
+          <h2>Trader · Supplier · Importer · Reseller.</h2>
+        </div>
+
+        <p>
+          Samrat FRP Traders (registered as M/s SAMRAT F.R.P TRADERS) is a Biratnagar, Nepal-based
+          business supplying and importing polyester resins, gelcoats, glass fiber, hardeners, epoxy
+          systems and related FRP materials for buyers across Nepal — with supplier-issued TDS and SDS
+          documentation for every product.
+        </p>
+        <p>
+          Samrat Poly Resins, India is a trusted supplier to Samrat FRP Traders for resins and related
+          FRP materials. Supplier reference media (photos/videos) is attributed to Samrat Poly Resins
+          and does not represent Samrat FRP Traders facilities.
+        </p>
+        <p>
+          We present a 24-product catalogue, 37 application guides and 159 technical resources in both
+          Nepali and English, so buyers across Nepal can select the right material with the right
+          documentation.
+        </p>
+
+        <div class="button-row">
+          <a class="button button-primary" href="/en/products/">Browse product catalogue</a>
+          <a
+            class="button"
+            href={buildWhatsAppLink(whatsAppMessages.en)}
+            target="_blank"
+            rel="noopener"
+          >
+            Ask on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <aside class="info-rail" aria-label="Business details" data-reveal style="--reveal-delay: 120ms">
+        <div class="info-row">
+          <span>Business name</span>
+          <strong>Samrat FRP Traders</strong>
+        </div>
+        <div class="info-row">
+          <span>Base location</span>
+          <strong>Biratnagar, Nepal</strong>
+        </div>
+        <div class="info-row">
+          <span>Market</span>
+          <strong>All Nepal</strong>
+        </div>
+        <div class="info-row">
+          <span>Supplier relationship</span>
+          <strong>Samrat Poly Resins, India</strong>
+        </div>
+        <div class="info-row">
+          <span>Languages</span>
+          <strong>Nepali + English</strong>
+        </div>
+        <div class="info-row">
+          <span>Pricing policy</span>
+          <strong>Price on request</strong>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <BusinessDetails lang="en" />
+
+  <section class="section section-framed">
+    <div class="container">
+      <div class="section-heading section-heading-split" data-reveal>
+        <div>
+          <p class="eyebrow">Our approach</p>
+          <h2>Supply with the paperwork.</h2>
+        </div>
+        <p class="section-lead">
+          Supplier-issued technical documentation with every product — so buyers know exactly what they are buying.
+        </p>
+      </div>
+      <div class="approach-grid">
+        <article data-reveal>
+          <span>01</span>
+          <h3>Confirmed facts only</h3>
+          <p>Product descriptions and technical values come from supplier documentation; unverified commercial terms are not published.</p>
+        </article>
+        <article data-reveal style="--reveal-delay: 70ms">
+          <span>02</span>
+          <h3>TDS &amp; SDS included</h3>
+          <p>Direct access to the Technical Data Sheet and Safety Data Sheet for every product.</p>
+        </article>
+        <article data-reveal style="--reveal-delay: 140ms">
+          <span>03</span>
+          <h3>Direct enquiry</h3>
+          <p>WhatsApp, phone and email enquiries — price on request.</p>
+        </article>
+        <article data-reveal style="--reveal-delay: 210ms">
+          <span>04</span>
+          <h3>Bilingual information</h3>
+          <p>Product and technical information available in Nepali and English.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .about-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(17rem, 0.8fr);
+    gap: clamp(2.5rem, 7vw, 6rem);
+    align-items: start;
+  }
+
+  .copy-stack > p {
+    max-width: 46rem;
+    color: var(--ink-dim);
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .info-rail {
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  .info-row {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.2rem 1.3rem;
+    border-bottom: 1px solid var(--line);
+    transition: background 200ms var(--ease-premium);
+  }
+
+  .info-row:hover {
+    background: rgba(var(--gold-rgb), 0.04);
+  }
+
+  .info-row:last-child {
+    border-bottom: 0;
+  }
+
+  .info-row span {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .info-row strong {
+    color: var(--ink);
+    font-size: 0.94rem;
+  }
+
+  .approach-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    border: 1px solid var(--line);
+    background: var(--line);
+  }
+
+  .approach-grid article {
+    min-height: 13rem;
+    padding: 1.4rem;
+    background: var(--bg-3);
+  }
+
+  .approach-grid span {
+    color: var(--accent-gold);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+  }
+
+  .approach-grid h3 {
+    margin-block: 2.4rem 0.65rem;
+  }
+
+  .approach-grid p {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+  }
+
+  @media (max-width: 53.75rem) {
+    .approach-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 48rem) {
+    .about-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 32rem) {
+    .approach-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,102 @@
+---
+import { resources } from '../../../data/resources.js';
+import Base from '../../../layouts/Base.astro';
+
+const grouped = {};
+for (const resource of resources) {
+  const category = resource.category ?? 'Guides';
+  (grouped[category] ??= []).push(resource);
+}
+---
+<Base
+  title="Resources & Knowledge Centre"
+  description="Buyer resources for FRP materials in Nepal — selection guides, comparisons, procurement checklists and technical explainers from the Samrat FRP Traders knowledge centre."
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Knowledge centre</p>
+      <h1>Resources for <span class="metal-text">Nepal buyers.</span></h1>
+      <p class="page-lead">
+        Selection guides, comparisons, procurement checklists and technical explainers for the FRP material catalogue.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      {Object.entries(grouped).map(([category, items]) => (
+        <div class="resource-group" data-reveal>
+          <h2 class="group-title">{category}</h2>
+          <div class="resource-grid">
+            {items.map((resource) => (
+              <a class="resource-card" href={`/en/resources/${resource.slug}/`}>
+                <span class="resource-title">{resource.title}</span>
+                <span class="resource-desc">{resource.description}</span>
+                <span class="resource-meta">{resource.readingTime} · {resource.publishDate}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .resource-group {
+    margin-bottom: clamp(2.5rem, 6vw, 4rem);
+  }
+
+  .group-title {
+    margin-bottom: 1.1rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
+    font-size: 1.5rem;
+  }
+
+  .resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    gap: 1.1rem;
+  }
+
+  .resource-card {
+    display: grid;
+    gap: 0.5rem;
+    padding: 1.2rem 1.3rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+    color: var(--ink);
+    text-decoration: none;
+    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium);
+  }
+
+  .resource-card:hover {
+    transform: translateY(-0.2rem);
+    border-color: rgba(var(--gold-rgb), 0.65);
+  }
+
+  .resource-title {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  .resource-desc {
+    color: var(--ink-dim);
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+
+  .resource-meta {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+</style>

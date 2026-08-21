@@ -1,0 +1,427 @@
+---
+import CatalogCard from '../../components/CatalogCard.astro';
+import BusinessDetails from '../../components/home/BusinessDetails.astro';
+import CoverageNepal from '../../components/home/CoverageNepal.astro';
+import SupplyVideo from '../../components/home/SupplyVideo.astro';
+import WhyChoose from '../../components/home/WhyChoose.astro';
+import { applications } from '../../data/applications.js';
+import { catalogGroups, getGroup, productHref, products } from '../../data/products.js';
+import { resources } from '../../data/resources.js';
+import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
+import Base from '../../layouts/Base.astro';
+
+const indexableCategories = catalogGroups.filter((group) => group.indexable);
+const featuredProducts = products.filter((product) => product.tier === 'A');
+const groupName = (slug) => getGroup(slug)?.name;
+const featuredApplications = applications.slice(0, 6);
+const featuredResources = resources.slice(0, 3);
+---
+<Base
+  title="FRP Materials Supplier & Importer in Nepal"
+  description="Samrat FRP Traders supplies and imports FRP materials and industrial resins across Nepal — polyester resins, gelcoat, glass fiber mat, hardeners and more, with supplier technical documentation."
+>
+  <section class="hero">
+    <div class="hero-media" aria-hidden="true">
+      <img
+        src="/images/supplier/supplier-production.jpg"
+        alt=""
+        width="1452"
+        height="1083"
+        fetchpriority="high"
+      />
+    </div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">Trusted FRP &amp; Industrial Material Supplier</p>
+      <h1 class="hero-title">
+        Polyester, Epoxy<br />
+        &amp; Composite Materials<br />
+        <span class="hl" data-text="Supplier Across Nepal">Supplier Across Nepal</span>
+      </h1>
+      <p class="hero-tagline">
+        Quality <strong>materials</strong>. Reliable <strong>supply</strong>.
+      </p>
+      <p class="hero-sub">
+        Samrat FRP Traders supplies FRP materials, polyester resins, epoxy systems, gelcoats,
+        glass fiber and related industrial materials across Nepal.
+      </p>
+      <div class="hero-trust">
+        <span class="hero-trust-item">
+          <span class="hero-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L20 6 L20 12 C20 17 16.5 20.5 12 22 C7.5 20.5 4 17 4 12 L4 6 Z" /><path d="M8.5 12 L11 14.5 L15.5 9.5" /></svg></span>
+          Trader · Supplier
+        </span>
+        <span class="hero-trust-item">
+          <span class="hero-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><line x1="3" y1="10" x2="21" y2="10" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="16" y1="3" x2="16" y2="7" /></svg></span>
+          Importer · Reseller
+        </span>
+        <span class="hero-trust-item">
+          <span class="hero-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22 C12 22 19 15 19 9.5 A7 7 0 0 0 5 9.5 C5 15 12 22 12 22 Z" /><circle cx="12" cy="9.5" r="2.4" /></svg></span>
+          All Nepal
+        </span>
+        <span class="hero-trust-item">
+          <span class="hero-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 H14 L18 6 V22 H6 Z" /><path d="M14 2 V6 H18" /><path d="M9 13 L11.5 15.5 L16 10.5" /></svg></span>
+          TDS &amp; SDS available
+        </span>
+      </div>
+      <div class="hero-cta">
+        <a class="button button-primary" href="/en/products/">View Products</a>
+        <a class="button" href="/en/contact/">Contact Us</a>
+      </div>
+      <p class="hero-attribution">Supplier production reference — Samrat Poly Resins, India</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading section-heading-split" data-reveal>
+        <div>
+          <p class="eyebrow">Product families</p>
+          <h2>Resins and FRP materials</h2>
+        </div>
+        <p class="section-lead">
+          A 24-product catalogue of FRP materials supplied and imported for the Nepal market — every product page
+          carries supplier-attributed technical data and TDS/SDS links.
+        </p>
+      </div>
+
+      <div class="catalogue-categories" data-reveal>
+        {indexableCategories.map((group) => (
+          <CatalogCard
+            name={group.name}
+            eyebrow="Product category"
+            href={`/en/products/${group.slug}/`}
+            description={group.summary}
+          />
+        ))}
+      </div>
+
+      <div class="featured-heading" data-reveal>
+        <p class="eyebrow">Featured products</p>
+      </div>
+      <div class="catalogue-grid" data-reveal>
+        {featuredProducts.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={groupName(product.group)}
+            href={productHref(product, '/en')}
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal>
+        <a class="button button-primary" href="/en/products/">View full product catalogue</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-framed">
+    <div class="container">
+      <div class="section-heading section-heading-split" data-reveal>
+        <div>
+          <p class="eyebrow">Applications</p>
+          <h2>Where FRP materials are used</h2>
+        </div>
+        <p class="section-lead">
+          Application guides covering the product portfolio — water tanks, roofing sheets, boats, panels,
+          casting and industrial fabrication.
+        </p>
+      </div>
+
+      <div class="app-gallery" data-reveal>
+        {featuredApplications.map((app) => (
+          <a class="app-card" href={`/en/applications/${app.slug}/`}>
+            <span class="app-media">
+              <img
+                src={`/images/applications/${app.cardImage}`}
+                alt={app.cardImageAlt}
+                loading="lazy"
+                width="700"
+                height="466"
+              />
+            </span>
+            <span class="app-body">
+              <span class="app-title">{app.title}</span>
+              <span class="app-desc">{app.cardDescription}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal>
+        <a class="button" href="/en/applications/">Browse all applications</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container supplier-band" data-reveal>
+      <div class="supplier-media">
+        <img
+          src="/images/supplier/supplier-production.jpg"
+          alt="Supplier production infrastructure — Samrat Poly Resins reference photography"
+          loading="lazy"
+          width="700"
+          height="466"
+        />
+      </div>
+      <div class="supplier-copy">
+        <p class="eyebrow">Trusted supply relationship</p>
+        <h2>Source-backed supply for Nepal.</h2>
+        <p>
+          Samrat FRP Traders is a trader, supplier, importer and reseller serving all of Nepal.
+          Samrat Poly Resins, India is a trusted supplier to Samrat FRP Traders for resins and related FRP materials.
+          Supplier reference media is attributed to Samrat Poly Resins and does not represent Samrat FRP Traders facilities.
+        </p>
+        <div class="supplier-stats">
+          <div><strong>24</strong><span>products</span></div>
+          <div><strong>48</strong><span>TDS &amp; SDS links</span></div>
+          <div><strong>37</strong><span>application guides</span></div>
+        </div>
+        <a class="button button-primary" href="/en/about/">About Samrat FRP Traders</a>
+      </div>
+    </div>
+  </section>
+
+  <SupplyVideo lang="en" />
+
+  <WhyChoose lang="en" />
+
+  <CoverageNepal lang="en" />
+
+  <BusinessDetails lang="en" />
+
+  <section class="section section-framed">
+    <div class="container">
+      <div class="section-heading section-heading-split" data-reveal>
+        <div>
+          <p class="eyebrow">Knowledge centre</p>
+          <h2>Buyer resources</h2>
+        </div>
+        <p class="section-lead">
+          Selection guides, comparisons and technical explainers from the resource library.
+        </p>
+      </div>
+
+      <div class="resource-strip" data-reveal>
+        {featuredResources.map((resource) => (
+          <a class="resource-card" href={`/en/resources/${resource.slug}/`}>
+            <span class="resource-cat">{resource.category}</span>
+            <span class="resource-title">{resource.title}</span>
+            <span class="resource-desc">{resource.description}</span>
+            <span class="resource-meta">{resource.readingTime} · {resource.publishDate}</span>
+          </a>
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal>
+        <a class="button" href="/en/resources/">Open the knowledge centre</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container cta-band" data-reveal>
+      <div>
+        <p class="eyebrow">Enquiries</p>
+        <h2>Looking for FRP materials in Nepal?</h2>
+        <p>
+          Price on request. Browse the product catalogue with TDS/SDS documentation, then send your
+          requirement via WhatsApp, phone or email.
+        </p>
+      </div>
+      <div class="cta-actions">
+        <a
+          class="button button-primary"
+          href={buildWhatsAppLink(whatsAppMessages.en)}
+          target="_blank"
+          rel="noopener"
+        >
+          Ask on WhatsApp
+        </a>
+        <a class="button" href="/en/products/">Browse products</a>
+        <a class="button" href="tel:+9779805526904">+977 9805526904</a>
+        <a class="button" href="mailto:samratfrptraders@gmail.com">Email</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .catalogue-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    gap: 1rem;
+  }
+
+  .featured-heading {
+    margin: 2.5rem 0 1.1rem;
+  }
+
+  .catalogue-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+  }
+
+  .app-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    gap: 1.1rem;
+  }
+
+  .app-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+    color: var(--ink);
+    text-decoration: none;
+    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium), box-shadow 220ms var(--ease-premium);
+  }
+
+  .app-card:hover {
+    transform: translateY(-0.2rem);
+    border-color: rgba(var(--gold-rgb), 0.65);
+    box-shadow: var(--surface-shadow-hover);
+  }
+
+  .app-media img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    display: block;
+    object-fit: cover;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .app-body {
+    display: grid;
+    gap: 0.45rem;
+    padding: 1.05rem 1.2rem 1.2rem;
+  }
+
+  .app-title {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .app-desc {
+    color: var(--ink-dim);
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+
+  .supplier-band {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(2rem, 6vw, 4.5rem);
+    align-items: center;
+  }
+
+  .supplier-media img {
+    width: 100%;
+    display: block;
+    border: 1px solid var(--line-2);
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  .supplier-copy h2 {
+    max-width: 15ch;
+    margin-top: 0.7rem;
+  }
+
+  .supplier-copy p {
+    color: var(--ink-dim);
+  }
+
+  .supplier-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 2.5rem;
+    margin: 1.75rem 0;
+  }
+
+  .supplier-stats div {
+    display: grid;
+  }
+
+  .supplier-stats strong {
+    color: var(--accent-gold-light);
+    font-family: var(--font-display);
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .supplier-stats span {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .resource-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    gap: 1.1rem;
+  }
+
+  .resource-card {
+    display: grid;
+    gap: 0.5rem;
+    padding: 1.2rem 1.3rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+    color: var(--ink);
+    text-decoration: none;
+    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium);
+  }
+
+  .resource-card:hover {
+    transform: translateY(-0.2rem);
+    border-color: rgba(var(--gold-rgb), 0.65);
+  }
+
+  .resource-cat {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .resource-title {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  .resource-desc {
+    color: var(--ink-dim);
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+
+  .resource-meta {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 53.75rem) {
+    .supplier-band {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

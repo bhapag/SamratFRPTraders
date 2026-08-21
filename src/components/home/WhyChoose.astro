@@ -1,0 +1,96 @@
+---
+const { lang = 'ne' } = Astro.props;
+const isNe = lang === 'ne';
+
+const items = isNe
+  ? [
+      { title: 'विराटनगर, नेपालबाट', text: 'पुष्टि भएको व्यावसायिक आधार — Ward No. 2, Tinpani Chowk, Biratnagar।' },
+      { title: 'नेपालभर आपूर्ति', text: 'सम्पूर्ण नेपालका खरिदकर्ताहरूलाई FRP सामग्री तथा औद्योगिक रेजिन आपूर्ति।' },
+      { title: 'दर्ता भएको व्यवसाय', text: 'PAN र VAT दर्ता सहितको व्यावसायिक पहिचान।' },
+      { title: 'EXIM दर्ता', text: 'आयात-सम्बन्धित कारोबारका लागि EXIM कोड दर्ता।' },
+      { title: 'पूर्ण FRP सूची', text: '२४ उत्पादनको सूची — resin, gelcoat, glass fiber, hardener लगायत।' },
+      { title: 'TDS र SDS सहित', text: 'प्रत्येक उत्पादनसँग आपूर्तिकर्ताले जारी गरेका प्राविधिक कागजात।' },
+      { title: 'विश्वसनीय आपूर्ति सम्बन्ध', text: 'resin र सम्बन्धित FRP सामग्रीका लागि Samrat Poly Resins, India।' },
+      { title: 'सिधा WhatsApp सोधपुछ', text: 'उत्पादन-विशेष सोधपुछ सन्देशसहित सिधा WhatsApp सम्पर्क।' },
+      { title: 'नेपाली + English जानकारी', text: 'उत्पादन जानकारी र वेबसाइट दुवै भाषामा उपलब्ध।' },
+    ]
+  : [
+      { title: 'Based in Biratnagar, Nepal', text: 'Verified business base — Ward No. 2, Tinpani Chowk, Biratnagar.' },
+      { title: 'Nationwide supply', text: 'FRP materials and industrial resins supplied to buyers across all of Nepal.' },
+      { title: 'Registered business', text: 'Business identity registered with PAN and VAT.' },
+      { title: 'EXIM registered', text: 'EXIM code registered for import-related trade.' },
+      { title: 'Complete FRP catalogue', text: 'A 24-product catalogue — resins, gelcoats, glass fiber, hardeners and more.' },
+      { title: 'TDS & SDS included', text: 'Supplier-issued technical documentation accompanies every product.' },
+      { title: 'Trusted supply relationship', text: 'Samrat Poly Resins, India for resins and related FRP materials.' },
+      { title: 'Direct WhatsApp enquiry', text: 'Product-specific enquiry messages straight to WhatsApp.' },
+      { title: 'Nepali + English information', text: 'Product information and the website are available in both languages.' },
+    ];
+---
+<section class="section">
+  <div class="container">
+    <div class="section-heading" data-reveal>
+      <p class="eyebrow">{isNe ? 'हाम्रा आधारहरू' : 'Our foundations'}</p>
+      <h2>{isNe ? 'Samrat FRP Traders किन रोज्ने?' : 'Why choose Samrat FRP Traders'}</h2>
+    </div>
+
+    <div class="why-grid">
+      {items.map((item, index) => (
+        <article class="why-card" data-reveal style={`--reveal-delay: ${(index % 3) * 70}ms`}>
+          <span class="why-check" aria-hidden="true">✓</span>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(17rem, 100%), 1fr));
+    gap: 1rem;
+  }
+
+  .why-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.3rem 1.35rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium), box-shadow 220ms var(--ease-premium);
+  }
+
+  .why-card:hover {
+    transform: translateY(-0.2rem);
+    border-color: rgba(var(--gold-rgb), 0.65);
+    box-shadow: var(--surface-shadow-hover);
+  }
+
+  .why-check {
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, var(--accent-gold-light), var(--accent-gold-dark));
+    box-shadow: 0 0 0 1px rgba(var(--gold-rgb), 0.3), 0 2px 6px rgba(0, 0, 0, 0.3);
+    color: #17120c;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .why-card h3 {
+    margin: 0.35rem 0 0;
+    font-size: 0.98rem;
+  }
+
+  .why-card p {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+</style>

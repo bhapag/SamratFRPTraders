@@ -1,0 +1,76 @@
+---
+const { lang = 'ne' } = Astro.props;
+const isNe = lang === 'ne';
+---
+<section class="section section-framed coverage-section">
+  <div class="container">
+    <div class="section-heading section-heading-split" data-reveal>
+      <div>
+        <p class="eyebrow">{isNe ? 'बजार क्षेत्र' : 'Market coverage'}</p>
+        <h2>{isNe ? 'नेपालभर आपूर्ति।' : 'Nationwide supply across Nepal.'}</h2>
+      </div>
+      <p class="section-lead">
+        {isNe
+          ? 'नेपालभर ग्राहकहरूलाई FRP सामग्री तथा औद्योगिक रेजिन आपूर्ति।'
+          : 'Supplying FRP materials and industrial resins to customers across Nepal.'}
+      </p>
+    </div>
+
+    <div class="coverage-panel" data-reveal>
+      <svg
+        viewBox="1274 -494 144 80"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        aria-label={isNe ? 'नेपालको नक्सा' : 'Map of Nepal'}
+      >
+        <defs>
+          <linearGradient id="nepal-land" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#242c37" />
+            <stop offset="1" stop-color="#151a21" />
+          </linearGradient>
+        </defs>
+        <path
+          d="M 1409.9,-446 L 1408.7,-439.1 L 1410.8,-429 L 1409,-422.6 L 1395.6,-422.4 L 1364,-427.6 L 1354.8,-435.8 L 1332.9,-437.8 L 1281.4,-460.7 L 1287.6,-475.7 L 1304.4,-486.8 L 1317.2,-481.8 L 1333.4,-471.4 L 1342.4,-469.1 L 1347.8,-461.4 L 1360.2,-458.3 L 1373.2,-451.3 L 1391.3,-447.6 L 1409.9,-446 Z"
+          fill="url(#nepal-land)"
+          stroke="#c9a24b"
+          stroke-width="0.9"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  </div>
+</section>
+
+<style>
+  .coverage-section {
+    padding-block: clamp(2.5rem, 5.5vw, 4rem);
+  }
+
+  .coverage-panel {
+    display: grid;
+    place-items: center;
+    max-width: 36rem;
+    margin: 1.5rem auto 0;
+    padding: clamp(1.1rem, 2.5vw, 1.6rem);
+    border: 1px solid rgba(var(--gold-rgb), 0.25);
+    background: linear-gradient(160deg, var(--bg-3), var(--bg));
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  .coverage-panel svg {
+    width: min(100%, 14.5rem);
+    height: auto;
+    display: block;
+  }
+
+  @media (max-width: 32rem) {
+    .coverage-panel {
+      padding: 1.1rem;
+    }
+
+    .coverage-panel svg {
+      width: min(100%, 19rem);
+    }
+  }
+</style>

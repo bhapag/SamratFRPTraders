@@ -1,7 +1,6 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
-import StatusNotice from '../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../data/products.js';
 import Base from '../../layouts/Base.astro';
 
@@ -9,15 +8,16 @@ const group = getGroup('polyester-resins');
 const items = productsInGroup('polyester-resins');
 ---
 <Base
-  title="Polyester Resins — Supplier & Importer in Nepal"
-  description="Explore the Polyester Resins range supplied and imported by Samrat FRP Traders for buyers across Nepal."
+  lang="ne"
+  title="Polyester Resins — नेपालमा आपूर्तिकर्ता र आयातकर्ता"
+  description="नेपालका खरिदकर्ताका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने polyester resin उत्पादन परिवार।"
 >
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
-      <p class="eyebrow">Product category</p>
+      <p class="eyebrow">उत्पादन वर्ग</p>
       <h1>{group.name}</h1>
-      <p class="page-lead">{group.summary}</p>
+      <p class="page-lead">नेपाल बजारका लागि आपूर्ति तथा आयात गरिने polyester resin परिवार।</p>
     </div>
   </section>
 
@@ -25,31 +25,28 @@ const items = productsInGroup('polyester-resins');
     <div class="container">
       <Breadcrumbs
         items={[
-          { label: 'Home', href: '/' },
-          { label: 'Products', href: '/products/' },
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
           { label: group.name },
         ]}
       />
 
       <div class="category-intro" data-reveal>
         <p>
-          Unsaturated polyester resin (UPR) is the broader family represented in this section. Samrat FRP Traders supplies and imports products in this family for buyers across Nepal. Individual grades are listed separately so each product can carry its own verified technical information.
+          Samrat FRP Traders ले यो उत्पादन परिवार नेपालभरका खरिदकर्ताका लागि आपूर्ति तथा आयात गर्दछ।
+          Unsaturated Polyester Resin (UPR) व्यापक परिवार हो; तल सूचीकृत हरेक grade को आफ्नै आपूर्तिकर्ता
+          प्राविधिक कागजात छ। कुनै खास प्रयोगका लागि उपयुक्तता grade-अनुसार पुष्टि गर्नुपर्छ।
         </p>
       </div>
 
-      <StatusNotice
-        title="Supplier documentation"
-        message="Technical data sheets and safety data sheets are linked from each product page. Supplier technical data is attributed to the issuer and is not a Samrat FRP Traders certification."
-      />
-
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
         {items.map((product) => (
-          <CatalogCard name={product.name} eyebrow={group.name} href={productHref(product)} />
+          <CatalogCard name={product.name} eyebrow={group.name} href={`/products/${product.slug}/`} />
         ))}
       </div>
 
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
-        <a class="button" href="/products/">View full catalogue</a>
+        <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
       </div>
     </div>
   </section>

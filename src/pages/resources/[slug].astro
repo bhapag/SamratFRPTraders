@@ -1,0 +1,360 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { resources } from '../../data/resources.js';
+import Base from '../../layouts/Base.astro';
+
+export function getStaticPaths() {
+  return resources.map((resource) => ({ params: { slug: resource.slug }, props: { resource } }));
+}
+
+const { resource } = Astro.props;
+
+const relatedResources = (resource.relatedSlugs ?? [])
+  .map((slug) => resources.find((r) => r.slug === slug))
+  .filter(Boolean);
+
+const tableRows = (table) =>
+  table && typeof table === 'object' && !Array.isArray(table)
+    ? Object.entries(table).filter(([key]) => key !== 'title' && key !== 'note')
+    : [];
+
+// Root URLs are the Nepali pages; data hrefs (/products/, /tds/, /downloads/) already
+// point at the correct Nepali-first equivalents, so no rewriting is needed here.
+const localizeHref = (href) => href;
+---
+<Base lang="ne" title={resource.title} description={resource.description}>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: resource.title,
+    description: resource.description,
+    inLanguage: 'ne',
+    datePublished: resource.publishDate,
+    publisher: { '@type': 'Organization', name: 'Samrat FRP Traders' },
+  })} />
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">{resource.category} · {resource.readingTime}</p>
+      <h1>{resource.title}</h1>
+      <p class="page-lead">{resource.description}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'जानकारी केन्द्र', href: '/resources/' },
+          { label: resource.title },
+        ]}
+      />
+
+      <article class="article" data-reveal>
+        <p class="lang-note">
+          प्राविधिक सामग्री अंग्रेजीमा प्रस्तुत गरिएको छ ताकि प्राविधिक शब्दावली (UPR, MEKP,
+          gelcoat, TDS/SDS) र मानहरू सटीक रहून्।
+        </p>
+
+        {resource.quickFacts && Object.keys(resource.quickFacts).length > 0 && (
+          <div class="quick-facts">
+            <h2 class="block-title">द्रुत तथ्यहरू</h2>
+            <dl>
+              {Object.entries(resource.quickFacts).map(([label, value]) => (
+                <div class="qf-row">
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        )}
+
+        {resource.sections?.map((section) => (
+          <div class="block">
+            {section.heading && <h2 class="block-title">{section.heading}</h2>}
+            {section.body?.map((paragraph) => <p set:html={paragraph} />)}
+          </div>
+        ))}
+
+        {resource.propertiesTable && tableRows(resource.propertiesTable).length > 0 && (
+          <div class="block">
+            <h2 class="block-title">मुख्य गुणहरू</h2>
+            <dl class="data-table">
+              {tableRows(resource.propertiesTable).map(([label, value]) => (
+                <div class="dt-row">
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        )}
+
+        {resource.comparisonTable && typeof resource.comparisonTable === 'object' && (
+          <div class="block">
+            <h2 class="block-title">{resource.comparisonTable.title ?? 'तुलना'}</h2>
+            {resource.comparisonTable.note && <p class="table-note">{resource.comparisonTable.note}</p>}
+            <dl class="data-table">
+              {tableRows(resource.comparisonTable).map(([label, value]) => (
+                <div class="dt-row">
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        )}
+
+        {resource.faqs?.length > 0 && (
+          <div class="block">
+            <h2 class="block-title">सामान्य प्रश्नहरू</h2>
+            <div class="faq-list">
+              {resource.faqs.map((faq) => (
+                <div class="faq-item">
+                  <strong>{faq.q}</strong>
+                  <p>{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </article>
+
+      <div class="article-foot" data-reveal>
+        <p class="note">
+          प्राविधिक जानकारी प्रकाशित आपूर्तिकर्ता कागजात र सामान्य FRP मार्गदर्शनमा आधारित छ।
+          उत्पादनका सटीक मानहरू हालको आपूर्तिकर्ता TDS/SDS सँग पुष्टि गर्नुहोस्।
+        </p>
+
+        {resource.recommendedLinks?.length > 0 && (
+          <div class="related">
+            <p class="related-title">सम्बन्धित उत्पादनहरू</p>
+            <div class="related-list">
+              {resource.recommendedLinks.map((link) => (
+                <a href={localizeHref(link.href)}>
+                  <strong>{link.label}</strong>
+                  <span>{link.description}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {relatedResources.length > 0 && (
+          <div class="related">
+            <p class="related-title">सम्बन्धित स्रोतहरू</p>
+            <div class="related-list">
+              {relatedResources.map((r) => (
+                <a href={`/resources/${r.slug}/`}>
+                  <strong>{r.title}</strong>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div class="section-actions">
+          <a class="button button-primary" href="/products/">उत्पादन सूची हेर्नुहोस्</a>
+          <a class="button" href="/contact/">सम्पर्क</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .lang-note {
+    margin-top: 2rem;
+    padding: 0.9rem 1.1rem;
+    border-left: 0.25rem solid var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.06);
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+    line-height: 1.65;
+  }
+
+  .article {
+    margin-top: 1.5rem;
+    max-width: 52rem;
+  }
+
+  .article :global(p) {
+    color: var(--ink-dim);
+    font-size: 0.96rem;
+    line-height: 1.75;
+  }
+
+  .article :global(a) {
+    color: var(--accent-gold-light);
+  }
+
+  .block {
+    margin-top: 2rem;
+  }
+
+  .block-title {
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
+    font-size: 1.35rem;
+  }
+
+  .quick-facts {
+    padding: 1.2rem 1.3rem;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+  }
+
+  .qf-row {
+    display: grid;
+    grid-template-columns: minmax(9rem, 14rem) 1fr;
+    gap: 1rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .qf-row:last-child {
+    border-bottom: 0;
+  }
+
+  .qf-row dt {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .qf-row dd {
+    margin: 0;
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+
+  .data-table {
+    margin: 0;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+  }
+
+  .dt-row {
+    display: grid;
+    grid-template-columns: minmax(9rem, 14rem) 1fr;
+    gap: 1rem;
+    padding: 0.75rem 1.2rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .dt-row:last-child {
+    border-bottom: 0;
+  }
+
+  .dt-row dt {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .dt-row dd {
+    margin: 0;
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+
+  .table-note {
+    color: var(--ink-faint);
+    font-size: 0.8rem;
+  }
+
+  .faq-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .faq-item strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--ink);
+    font-size: 0.92rem;
+  }
+
+  .faq-item p {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+    line-height: 1.65;
+  }
+
+  .article-foot {
+    max-width: 52rem;
+    margin-top: 2.5rem;
+  }
+
+  .note {
+    padding: 1rem 1.1rem;
+    border: 1px solid rgba(var(--gold-rgb), 0.4);
+    background: rgba(var(--gold-rgb), 0.06);
+    color: var(--ink-dim);
+    font-size: 0.84rem;
+  }
+
+  .related {
+    margin-top: 1.4rem;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+  }
+
+  .related-title {
+    margin: 0;
+    padding: 0.85rem 1.1rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .related-list {
+    display: grid;
+  }
+
+  .related-list a {
+    display: grid;
+    gap: 0.15rem;
+    padding: 0.8rem 1.1rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+    text-decoration: none;
+    transition: color 180ms var(--ease-premium);
+  }
+
+  .related-list a:last-child {
+    border-bottom: 0;
+  }
+
+  .related-list a:hover strong {
+    color: var(--accent-gold-light);
+  }
+
+  .related-list strong {
+    font-size: 0.9rem;
+  }
+
+  .related-list span {
+    color: var(--ink-faint);
+    font-size: 0.78rem;
+  }
+
+  @media (max-width: 40rem) {
+    .qf-row,
+    .dt-row {
+      grid-template-columns: 1fr;
+      gap: 0.3rem;
+    }
+  }
+</style>

@@ -1,0 +1,57 @@
+---
+import ProductPage from '../../../components/product/ProductPage.astro';
+import { getProductContent } from '../../../data/product-content.js';
+import { getGroup, productParentGroup, products } from '../../../data/products.js';
+import Base from '../../../layouts/Base.astro';
+
+export function getStaticPaths() {
+  return products.map((product) => ({
+    params: { slug: product.slug },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const group = getGroup(product.group);
+const parent = productParentGroup(product);
+const content = getProductContent(product.slug);
+const localized = content?.en ?? null;
+
+const breadcrumbItems = [
+  { label: 'Home', href: '/en/' },
+  { label: 'Products', href: '/en/products/' },
+  ...(parent ? [{ label: parent.name, href: `/en/products/${parent.slug}/` }] : []),
+  { label: product.name },
+];
+
+const seoTitle = localized?.seoTitle ?? product.titleInput ?? product.name;
+const seoDescription =
+  localized?.seoDescription ??
+  product.metaDescription ??
+  `${product.name} — supplied and imported for the Nepal market by Samrat FRP Traders.`;
+---
+<Base lang="en" title={seoTitle} description={seoDescription}>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">{group?.name}</p>
+      <h1>{product.name}</h1>
+      <p class="page-lead">
+        Supplied and imported by Samrat FRP Traders for the Nepal market — with technical
+        documentation issued by the supplier, Samrat Poly Resins, India.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <ProductPage
+        lang="en"
+        prefix="/en"
+        product={product}
+        breadcrumbItems={breadcrumbItems}
+        description={seoDescription}
+      />
+    </div>
+  </section>
+</Base>

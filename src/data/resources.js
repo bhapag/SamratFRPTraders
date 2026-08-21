@@ -1,0 +1,16841 @@
+// Nepal-localised resource library — inherited from the Samrat Poly Resins proven base.
+// Architecture, technical facts and tables are preserved; brand and product links are remapped.
+// Narrative localisation continues in batches (see the migration report).
+
+export const resources = Object.freeze([
+  {
+    "slug": "what-is-gp-polyester-resin",
+    "title": "What is GP Polyester Resin?",
+    "description": "A complete guide to General Purpose (GP) polyester resin — what it is, how it's made, key properties, applications and how to select the right grade.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "10 min read",
+    "publishDate": "2026-07-18",
+    "seo": {
+      "title": "GP Polyester Resin — Properties, Uses & Buying Guide",
+      "keywords": [
+        "GP polyester resin",
+        "general purpose polyester resin",
+        "unsaturated polyester resin",
+        "UPR resin",
+        "FRP resin",
+        "polyester resin manufacturer India",
+        "GP resin applications",
+        "GP resin properties"
+      ],
+      "ogTitle": "What is GP Polyester Resin? A Complete Guide",
+      "ogDescription": "What General Purpose polyester resin is, how it's manufactured, its properties and advantages, where it's used, and how to select and store it correctly."
+    },
+    "quickFacts": {
+      "Resin Type": "Unsaturated Polyester Resin (UPR)",
+      "Material Class": "Thermosetting resin",
+      "Curing System": "Room-temperature cure via peroxide catalyst (typically MEKP)",
+      "Typical Reinforcement": "Glass fibre — chopped strand mat, woven roving",
+      "Typical Applications": "FRP tanks, roofing sheets, door skins, industrial mouldings",
+      "Appearance": "Viscous liquid, pale to water-white depending on grade"
+    },
+    "propertiesTable": {
+      "headers": [
+        "Property",
+        "Typical Performance"
+      ],
+      "rows": [
+        [
+          "Mechanical Strength",
+          "Good — suitable for most general structural and semi-structural FRP components"
+        ],
+        [
+          "Chemical Resistance",
+          "Moderate — adequate for general environmental exposure; speciality grades needed for aggressive chemicals"
+        ],
+        [
+          "Processability",
+          "Excellent — compatible with hand lay-up, spray-up and most open-mould processes"
+        ],
+        [
+          "Surface Finish",
+          "Good — smooth, paintable finish when used with a compatible gel coat"
+        ],
+        [
+          "Adhesion",
+          "Good — bonds well to glass fibre reinforcement and common core materials"
+        ],
+        [
+          "Cost Effectiveness",
+          "Very good — among the most economical resin systems available"
+        ],
+        [
+          "Curing Characteristics",
+          "Reliable — cures at room temperature with standard peroxide catalysts"
+        ],
+        [
+          "Glass Fibre Compatibility",
+          "Excellent — well suited to chopped strand mat, woven roving and combination reinforcements"
+        ]
+      ],
+      "note": "Exact figures vary between manufacturers and grades. Always confirm against the specific product's technical data sheet (TDS)."
+    },
+    "resinFamilyTable": {
+      "headers": [
+        "Resin Type",
+        "Typical Positioning"
+      ],
+      "rows": [
+        [
+          "GP Polyester Resin",
+          "General purpose applications"
+        ],
+        [
+          "Isophthalic Polyester Resin",
+          "Improved water & chemical resistance"
+        ],
+        [
+          "Vinyl Ester Resin",
+          "Higher chemical resistance"
+        ],
+        [
+          "Epoxy Resin",
+          "Higher structural performance"
+        ]
+      ],
+      "note": "This is a general positioning guide, not a ranking — no resin system is universally “better”, and the right choice depends on the application."
+    },
+    "comparisonTable": {
+      "title": "GP Polyester Resin vs Epoxy Resin vs Vinyl Ester Resin",
+      "note": "This comparison is general in nature. No single resin system is universally “better” — actual performance depends on the specific grade, formulation and reinforcement used, and should be confirmed against manufacturer data.",
+      "headers": [
+        "Property",
+        "GP Polyester Resin",
+        "Epoxy Resin",
+        "Vinyl Ester Resin"
+      ],
+      "rows": [
+        [
+          "Cost",
+          "Low",
+          "High",
+          "Moderate to high"
+        ],
+        [
+          "Strength",
+          "Good for general use",
+          "Very good — high strength-to-weight ratio",
+          "Very good — good toughness"
+        ],
+        [
+          "Chemical Resistance",
+          "Moderate",
+          "Good to very good, application-dependent",
+          "Very good — strong corrosion resistance"
+        ],
+        [
+          "Ease of Processing",
+          "Easy — room-temperature cure, familiar techniques",
+          "Requires more precise mixing and cure control",
+          "Similar to polyester, slightly more sensitive to processing conditions"
+        ],
+        [
+          "Typical Applications",
+          "Tanks, roofing sheets, mouldings, general FRP",
+          "Structural composites, adhesives, high-performance parts",
+          "Chemical storage tanks, pipework, corrosion-resistant structures"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "applications-of-gp-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "understanding-gel-time-in-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published general-purpose grade, TDS and procurement details."
+      },
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the separately published water-white general-purpose FRP grade."
+      },
+      {
+        "href": "/resources/applications-of-gp-polyester-resin/",
+        "label": "Explore GP Resin applications",
+        "description": "Match the resin discussion to the finished FRP product."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does GP mean in GP polyester resin?",
+        "a": "GP stands for General Purpose. It refers to a standard-grade unsaturated polyester resin formulated for broad, everyday FRP applications, as opposed to speciality resins engineered for specific properties such as fire retardancy or enhanced chemical resistance."
+      },
+      {
+        "q": "Does GP resin require MEKP to cure?",
+        "a": "Yes. GP polyester resin is typically cured using a peroxide catalyst, most commonly Methyl Ethyl Ketone Peroxide (MEKP), added at a small percentage just before use to initiate curing. The correct dosage should always follow the manufacturer's technical data sheet."
+      },
+      {
+        "q": "Can GP resin be reinforced with glass fibre?",
+        "a": "Yes. GP resin is designed to be used with glass fibre reinforcement, including chopped strand mat, woven roving and combination fabrics, and this reinforcement is what gives the cured laminate its structural strength."
+      },
+      {
+        "q": "Is GP resin waterproof?",
+        "a": "Cured GP resin laminates generally resist water well and provide a good barrier for general storage and outdoor use. However, GP resin offers moderate rather than specialised chemical resistance, so prolonged immersion or aggressive chemical exposure may call for an isophthalic or vinyl ester grade instead."
+      },
+      {
+        "q": "Can GP resin be painted?",
+        "a": "Yes. Once fully cured, GP resin laminate surfaces can generally be painted using compatible coating systems, particularly after appropriate surface preparation such as light abrasion and cleaning."
+      },
+      {
+        "q": "What industries use GP polyester resin?",
+        "a": "GP resin is used across FRP water tank manufacturing, roofing sheet production, door skin manufacturing, industrial mouldings, decorative panels, marine components, automotive parts and general construction products, among other FRP applications."
+      },
+      {
+        "q": "How long does GP resin last once cured?",
+        "a": "Cured GP resin laminates are designed for long-term structural use and, when correctly formulated and reinforced, can perform reliably for many years under normal service conditions. Actual service life depends on the application, environmental exposure and product design."
+      },
+      {
+        "q": "How should GP resin be stored before use?",
+        "a": "Uncured GP resin should be stored in tightly sealed containers, in a cool, dry, well-ventilated area away from direct sunlight and heat sources, and used within the shelf life stated on the product's technical data sheet."
+      },
+      {
+        "q": "What is the difference between GP resin and gel coat resin?",
+        "a": "GP resin is a laminating resin used with reinforcement to build structural thickness in a composite part, while gel coat resin is a surface-coating resin applied as the outermost layer of a mould, ahead of lamination, to provide a smooth, protective and often pigmented finish."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Introduction",
+        "body": [
+          "General Purpose (GP) polyester resin is one of the most widely used thermosetting resin systems in the fibre-reinforced plastics (FRP) and composites industry. It is manufactured by reacting unsaturated dibasic acids or anhydrides with glycols, then dissolving the resulting polyester in styrene monomer. Once combined with a suitable catalyst, it cures through free-radical crosslinking into a rigid, insoluble thermoset structure.",
+          "Its popularity is not accidental. GP resin offers a practical balance of mechanical performance, ease of processing and cost, which is why it remains the default choice for a broad range of FRP applications — from water storage tanks and roofing sheets to industrial mouldings and construction products. Unlike speciality resin systems developed for specific performance requirements, such as enhanced chemical resistance, fire retardancy, or superior toughness, GP resin is formulated as a versatile, all-round material suited to general-purpose composite manufacturing.",
+          "This article explains what GP polyester resin is, how it is manufactured, its key properties and advantages, where it is used, and how manufacturers should approach selecting and handling it correctly."
+        ]
+      },
+      {
+        "heading": "What Is General Purpose (GP) Polyester Resin?",
+        "body": [
+          "The term “GP” simply stands for General Purpose. It distinguishes this resin grade from speciality polyester systems — such as isophthalic, fire-retardant, or gel coat resins — that are engineered for specific performance characteristics. GP resin, by contrast, is formulated to perform reliably across a wide range of everyday FRP applications without the need for specialised additives or modified backbone chemistry.",
+          "Chemically, GP resin belongs to the unsaturated polyester resin (UPR) family. Unsaturated polyester resins are produced by reacting unsaturated dibasic acids or anhydrides, commonly maleic anhydride, with glycols to form a polyester backbone containing reactive carbon-carbon double bonds. This polyester is then dissolved in styrene monomer, which acts both as a viscosity-reducing solvent and as the reactive comonomer that crosslinks the resin during curing. When combined with a peroxide catalyst — most commonly Methyl Ethyl Ketone Peroxide (MEKP) — the resin cures at room temperature into a rigid, thermoset polymer network.",
+          "GP resin is typically based on orthophthalic acid chemistry, which is more economical to produce than isophthalic or vinyl ester alternatives. Isophthalic resins offer improved water and chemical resistance; vinyl ester resins offer superior corrosion resistance and toughness; fire-retardant grades incorporate halogenated or halogen-free additives to meet flammability standards; gel coat resins are formulated for surface finish and weatherability rather than structural lamination. GP resin sits at the general-purpose end of this spectrum — it is not engineered to excel in any one of these specialised areas, but it performs adequately across most of them at a lower cost.",
+          "Manufacturers choose GP resin because it offers a dependable combination of processability, mechanical performance and cost-effectiveness for applications that do not demand the enhanced properties of speciality systems. It is compatible with common reinforcement materials, cures reliably under standard workshop conditions, and is widely available, making it a practical default for FRP fabricators producing tanks, panels, roofing sheets and general mouldings."
+        ],
+        "visuals": [
+          {
+            "type": "steps",
+            "caption": "How catalysed GP resin cures from a liquid into a rigid composite",
+            "items": [
+              {
+                "label": "Liquid GP Resin + MEKP Catalyst"
+              },
+              {
+                "label": "Cross-Linking Reaction"
+              },
+              {
+                "label": "Gel Stage"
+              },
+              {
+                "label": "Hard Cure"
+              },
+              {
+                "label": "Finished Composite Product"
+              }
+            ]
+          }
+        ],
+        "table": "resinFamilyTable",
+        "callouts": [
+          {
+            "label": "Information",
+            "variant": "info",
+            "text": "GP stands for General Purpose — a standard-grade unsaturated polyester resin formulated for broad, everyday FRP applications, rather than a speciality system engineered for one specific property."
+          }
+        ]
+      },
+      {
+        "heading": "How GP Polyester Resin Is Manufactured",
+        "photo": {
+          "src": "production-infrastructure.jpg",
+          "alt": "Stainless-steel resin processing reactors at the Samrat FRP Traders manufacturing facility",
+          "caption": "Our production reactors — Doraha, Ludhiana"
+        },
+        "body": [
+          "GP polyester resin manufacturing begins with a small number of core raw materials: unsaturated dibasic acids or anhydrides (typically maleic anhydride, sometimes combined with phthalic anhydride), saturated dibasic acids such as phthalic anhydride, which contribute rigidity and control the degree of unsaturation, and glycols, commonly propylene glycol or ethylene glycol, which provide the flexible backbone linking the acid units together.",
+          "These raw materials are reacted together in a controlled polycondensation process inside a resin reactor, typically under heat and with continuous removal of water, a by-product of the esterification reaction. This produces a linear unsaturated polyester chain containing reactive double bonds distributed along its backbone. The reaction is monitored and controlled to achieve a target acid value and molecular weight, which influence the resin's final viscosity and reactivity.",
+          "Once the polyester base is formed and cooled to a safe handling temperature, it is dissolved in styrene monomer, typically in a ratio that balances viscosity, reactivity and cured mechanical properties. Styrene serves two purposes: it reduces the viscosity of the otherwise highly viscous polyester so it can be processed at ambient temperature, and it acts as the crosslinking agent that reacts with the polyester's unsaturation sites during cure. Small quantities of inhibitor are also added at this stage to give the resin adequate shelf life and controllable gel time before it is catalysed for use.",
+          "Before packaging, each batch is checked against a set of quality parameters, which typically include viscosity, acid value, colour and gel time. These checks confirm that the batch is consistent with previous production and suitable for its intended application, helping fabricators achieve repeatable results from drum to drum.",
+          "Finished GP resin is typically packed into sealed drums to protect it from moisture, contamination and light exposure, all of which can affect shelf life and performance if the resin is stored incorrectly."
+        ],
+        "visuals": [
+          {
+            "type": "steps",
+            "caption": "GP polyester resin manufacturing process",
+            "items": [
+              {
+                "label": "Raw Materials"
+              },
+              {
+                "label": "Polyester Formation"
+              },
+              {
+                "label": "Styrene Addition"
+              },
+              {
+                "label": "Quality Control"
+              },
+              {
+                "label": "Packaging"
+              },
+              {
+                "label": "Industrial Customer"
+              }
+            ]
+          }
+        ],
+        "callouts": [
+          {
+            "label": "Technical Note",
+            "variant": "technical",
+            "text": "Each batch is checked against viscosity, acid value, colour and gel time before packaging — these checks confirm the batch matches the specification and prior production runs, not just that it looks correct."
+          }
+        ]
+      },
+      {
+        "heading": "Key Properties of GP Polyester Resin",
+        "body": [
+          "GP resin's properties reflect its role as an all-round material rather than a specialised one. The table below summarises how it typically compares across the properties that matter most to FRP fabricators."
+        ],
+        "table": "propertiesTable"
+      },
+      {
+        "heading": "Advantages of GP Polyester Resin",
+        "subsections": [
+          {
+            "heading": "Economical",
+            "body": "GP resin is one of the most cost-effective resin systems available, making it the practical choice for high-volume or price-sensitive FRP production where speciality performance is not required."
+          },
+          {
+            "heading": "Easy Processing",
+            "body": "It is compatible with straightforward, room-temperature curing processes and common catalyst systems, allowing fabricators to work with familiar techniques and equipment without specialised curing infrastructure."
+          },
+          {
+            "heading": "Good Mechanical Properties",
+            "body": "When properly reinforced with glass fibre, GP resin laminates achieve mechanical properties suitable for a wide range of structural and semi-structural applications."
+          },
+          {
+            "heading": "Good Dimensional Stability",
+            "body": "Cured GP resin laminates hold their shape and dimensions well under normal service conditions, which matters for products such as tanks and panels that must maintain accurate geometry."
+          },
+          {
+            "heading": "Smooth Finish",
+            "body": "GP resin, particularly when paired with a compatible gel coat, produces a smooth, consistent surface finish suitable for both functional and semi-decorative applications."
+          },
+          {
+            "heading": "Efficient Production",
+            "body": "Predictable gel time and cure behaviour allow fabricators to plan production schedules with confidence, supporting efficient, repeatable manufacturing."
+          }
+        ],
+        "callouts": [
+          {
+            "label": "Key Takeaway",
+            "variant": "takeaway",
+            "items": [
+              "Economical",
+              "Easy processing",
+              "Good mechanical properties",
+              "Good dimensional stability",
+              "Smooth finish",
+              "Efficient production"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Common Industrial Applications",
+        "visuals": [
+          {
+            "type": "steps",
+            "caption": "Typical manufacturing workflow for GP resin composites",
+            "items": [
+              {
+                "label": "GP Resin + Glass Fibre Reinforcement"
+              },
+              {
+                "label": "Composite Laminate"
+              },
+              {
+                "label": "Finished Product"
+              }
+            ],
+            "branchLabel": "Typical Applications",
+            "branchItems": [
+              "Water Tanks",
+              "Roofing Sheets",
+              "Door Skins",
+              "FRP Components",
+              "Decorative Panels"
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "FRP Water Tanks",
+            "body": "GP resin is widely used in manufacturing FRP water storage tanks, where its good mechanical strength, dimensional stability and compatibility with glass fibre reinforcement provide a durable, corrosion-free storage vessel. Its cost-effectiveness is particularly valuable given the relatively large resin volumes required for tank fabrication."
+          },
+          {
+            "heading": "Roofing Sheets",
+            "body": "In FRP and translucent roofing sheets, GP resin's clarity in appropriate formulations, UV-stabilised grades and smooth cured finish support both structural roofing panels and roof-light sheets that admit natural light while maintaining weather resistance."
+          },
+          {
+            "heading": "Door Skins",
+            "body": "FRP door skins benefit from GP resin's ability to reproduce fine mould detail and achieve a smooth, paintable or textured surface, while its mechanical properties provide the rigidity and impact resistance expected of a door facing."
+          },
+          {
+            "heading": "Industrial Mouldings",
+            "body": "GP resin is a practical choice for general industrial mouldings — enclosures, covers, ducting and similar components — where moderate mechanical and chemical performance is sufficient and cost efficiency is a priority."
+          },
+          {
+            "heading": "Decorative Panels",
+            "body": "For decorative and architectural panels, GP resin's compatibility with pigments and its smooth surface finish allow fabricators to produce consistent colour and texture across production runs."
+          },
+          {
+            "heading": "Marine Components",
+            "body": "In less demanding marine applications, GP resin is used for components where full marine-grade isophthalic or vinyl ester performance is not required, offering an economical option for parts not subject to prolonged immersion or high mechanical loading."
+          },
+          {
+            "heading": "Automotive Components",
+            "body": "GP resin is used in certain automotive FRP components, such as body panels and covers, where its processability and finish support moderate-volume production without the cost of speciality resin systems."
+          },
+          {
+            "heading": "Construction Products",
+            "body": "Beyond tanks and roofing, GP resin is used across various construction-related FRP products, including cladding, formwork and structural liners, where its balance of strength, cost and workability suits general building applications."
+          }
+        ],
+        "visualsAfter": [
+          {
+            "type": "icongrid",
+            "label": "Infographic: industrial applications of GP polyester resin",
+            "caption": "GP polyester resin — industrial applications",
+            "items": [
+              {
+                "icon": "tank",
+                "label": "Water Tanks"
+              },
+              {
+                "icon": "roof",
+                "label": "Roofing Sheets"
+              },
+              {
+                "icon": "door",
+                "label": "Door Skins"
+              },
+              {
+                "icon": "marine",
+                "label": "Marine Components"
+              },
+              {
+                "icon": "moulding",
+                "label": "Industrial Mouldings"
+              },
+              {
+                "icon": "decorative",
+                "label": "Decorative Panels"
+              },
+              {
+                "icon": "construction",
+                "label": "Construction Products"
+              },
+              {
+                "icon": "automotive",
+                "label": "Automotive Components"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Manufacturing Processes",
+        "visuals": [
+          {
+            "type": "icongrid",
+            "label": "Diagram: manufacturing methods compatible with GP polyester resin",
+            "caption": "Manufacturing methods used with GP polyester resin",
+            "items": [
+              {
+                "icon": "hand-layup",
+                "label": "Hand Lay-Up"
+              },
+              {
+                "icon": "spray-up",
+                "label": "Spray-Up"
+              },
+              {
+                "icon": "compression",
+                "label": "Compression Moulding"
+              },
+              {
+                "icon": "pultrusion",
+                "label": "Pultrusion"
+              },
+              {
+                "icon": "lamination",
+                "label": "Continuous Lamination"
+              },
+              {
+                "icon": "vacuum",
+                "label": "Vacuum Bagging"
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "Hand Lay-Up",
+            "body": "The most common and accessible FRP process, in which catalysed resin is applied by brush or roller onto reinforcement laid into an open mould. GP resin's workable gel time and viscosity make it well suited to this manual, labour-intensive method."
+          },
+          {
+            "heading": "Spray-Up",
+            "body": "In spray-up, catalysed resin and chopped glass fibre are simultaneously deposited onto the mould using spray equipment. GP resin's viscosity and cure characteristics are compatible with this faster, semi-mechanised process, commonly used for tanks and larger components."
+          },
+          {
+            "heading": "Compression Moulding",
+            "body": "GP resin formulations, often as part of sheet moulding compound (SMC) or dough moulding compound (DMC) systems, are used in compression moulding, where heat and pressure cure the resin rapidly in a closed mould — suited to higher-volume production of consistent parts."
+          },
+          {
+            "heading": "Continuous Lamination",
+            "body": "For flat or corrugated sheet products such as roofing sheets, GP resin is used in continuous lamination lines, where resin-impregnated reinforcement passes through a curing process to produce continuous panel lengths."
+          },
+          {
+            "heading": "Pultrusion (Where Suitable Grades Are Used)",
+            "body": "Certain GP resin grades, formulated with appropriate reactivity and viscosity, are used in pultrusion — a continuous process that pulls resin-impregnated reinforcement through a heated die to form constant cross-section profiles. Not all GP grades are suitable; pultrusion typically requires resins specifically formulated for the process's fast, controlled cure requirements."
+          },
+          {
+            "heading": "Vacuum Bagging",
+            "body": "GP resin can be used in vacuum bagging processes, where atmospheric pressure consolidates the laminate and removes excess resin and trapped air, improving fibre-to-resin ratio and reducing voids compared with basic hand lay-up."
+          }
+        ]
+      },
+      {
+        "heading": "How to Select the Right GP Polyester Resin",
+        "subsections": [
+          {
+            "heading": "Application",
+            "body": "Start with the end-use of the component. Structural parts, storage tanks, decorative panels and roofing products each place different demands on mechanical performance, surface finish and chemical exposure, which should guide grade selection."
+          },
+          {
+            "heading": "Gel Time",
+            "body": "Gel time — how quickly the catalysed resin begins to cure — should match the production process and component size. Larger components or manual lay-up typically require a longer working time, while faster-cycle processes may need a shorter gel time."
+          },
+          {
+            "heading": "Viscosity",
+            "body": "Resin viscosity affects how easily it wets out reinforcement and flows into mould detail. Lower-viscosity grades suit fine detail and thorough fibre wet-out; higher-viscosity or thixotropic grades help resin stay in place on vertical or overhead mould surfaces."
+          },
+          {
+            "heading": "Mechanical Properties",
+            "body": "Consider the load-bearing and impact requirements of the finished part, and select a grade with mechanical properties appropriate to the application, reinforcement type and expected service conditions."
+          },
+          {
+            "heading": "Chemical Resistance",
+            "body": "For components exposed to water, mild chemicals or outdoor weathering, assess whether standard GP resin's moderate chemical resistance is sufficient, or whether an isophthalic or vinyl ester grade is more appropriate."
+          },
+          {
+            "heading": "Processing Method",
+            "body": "Match the resin grade to the intended manufacturing process — hand lay-up, spray-up, compression moulding, continuous lamination, pultrusion or vacuum bagging — since not all GP grades are formulated for every process."
+          },
+          {
+            "heading": "Environmental Conditions",
+            "body": "Account for the temperature, humidity and UV exposure the finished product will face in service, as well as the workshop conditions during fabrication, both of which affect cure behaviour and long-term performance."
+          }
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Confirm gel time and viscosity against your process before committing to a bulk order",
+              "Request the technical data sheet (TDS) for the specific grade rather than relying on general GP resin figures",
+              "Trial a small batch under real production conditions before scaling up"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Storage and Handling",
+        "body": [
+          "GP polyester resin should be stored in a cool, dry, well-ventilated area, away from direct sunlight, heat sources and open flames. Storing resin at excessive temperatures accelerates the ageing of its inhibitor system, which can shorten shelf life and cause premature gelling in the drum.",
+          "Exact recommended storage temperature ranges vary by manufacturer and grade, so resin should generally be kept within a moderate, stable temperature range rather than subjected to extremes of heat or cold. Always refer to the product's technical data sheet (TDS) for the specific recommended storage temperature.",
+          "Drums should be kept tightly sealed when not in use. Exposure to air allows styrene monomer to evaporate, which changes the resin's viscosity and reactivity, and can also allow moisture or contaminants to enter the container.",
+          "Unsaturated polyester resin has a finite shelf life, typically measured in months rather than years, and this reduces further if storage conditions are not followed. Always check the batch manufacturing date and consult the SDS/TDS for the manufacturer's stated shelf life rather than assuming a fixed figure, since this varies between products.",
+          "GP resin contains styrene monomer, which is flammable and gives off vapour that should not be inhaled in unventilated spaces. When handling resin and catalyst, appropriate personal protective equipment should be used, typically including chemical-resistant gloves, eye protection, and respiratory protection where ventilation is limited. Resin and peroxide catalyst, such as MEKP, must always be stored, handled and mixed separately, as direct contact between concentrated peroxide and accelerator can be hazardous. Full handling, storage and emergency guidance should always be read from the product's Safety Data Sheet (SDS) before use."
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Cool, dry, well-ventilated area — away from direct sunlight and heat sources",
+              "Keep drums tightly sealed when not in use",
+              "Check the batch date and use within the shelf life stated on the TDS",
+              "Never store resin and peroxide catalyst together"
+            ]
+          },
+          {
+            "label": "Important Note",
+            "variant": "warning",
+            "text": "Resin and peroxide catalyst (such as MEKP) must always be stored, handled and mixed separately — direct contact between concentrated peroxide and accelerator can be hazardous. Always read the product's Safety Data Sheet (SDS) before use."
+          }
+        ]
+      },
+      {
+        "heading": "Conclusion",
+        "body": [
+          "GP polyester resin remains one of the most practical and widely used resin systems in FRP manufacturing because it offers a dependable balance of mechanical performance, processability and cost. It is not designed to outperform speciality resin systems in any single demanding property, but for the broad range of general industrial applications — from water tanks and roofing sheets to industrial mouldings and construction products — it continues to provide manufacturers with a reliable, economical and well-understood material. Selecting the right grade, and following correct storage and handling practices, remains essential to achieving consistent results in production."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-gp-polyester-resin",
+    "title": "Applications of GP Polyester Resin",
+    "description": "Explore where GP Polyester Resin is commonly used across FRP, construction, marine and industrial manufacturing.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "6 min read",
+    "publishDate": "2026-07-18",
+    "quickFacts": {
+      "Primary Role": "Laminating resin for glass-fibre-reinforced (FRP) components",
+      "Broadest Use Cases": "Water tanks, roofing sheets, door skins, industrial mouldings",
+      "Key Selection Driver": "Exposure and load the finished part will face in service",
+      "When to Look Elsewhere": "Sustained chemical immersion or fire-rating requirements"
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published GP grade used across common FRP processes."
+      },
+      {
+        "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+        "label": "Read the selection guide",
+        "description": "Compare the process with the relevant resin data."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is GP resin suitable for every FRP application?",
+        "a": "No. GP resin is a strong default for general-purpose FRP work, but applications involving sustained chemical exposure, prolonged water immersion, or fire-rating requirements are usually better served by isophthalic, vinyl ester or fire-retardant grades instead."
+      },
+      {
+        "q": "Can the same GP resin be used for tanks, roofing sheets and door skins?",
+        "a": "The same broad resin family can serve all three, but the specific grade often differs. Tank manufacturing, continuous sheet lamination and door-skin moulding each place different demands on viscosity and gel time, so fabricators typically use a grade suited to their particular process rather than one universal product."
+      },
+      {
+        "q": "Why is GP resin so widely used across such different industries?",
+        "a": "Its combination of adequate mechanical strength, workable processing behaviour and low cost makes it viable across many unrelated applications at once — from construction products to industrial mouldings — without needing a specialised formulation for each one."
+      },
+      {
+        "q": "Is GP resin used in marine applications?",
+        "a": "It is used in some lower-demand marine components not subject to prolonged immersion or heavy structural loading. For hulls, decks and other parts with sustained water contact, marine fabricators generally move to isophthalic or vinyl ester resin for better long-term water resistance."
+      },
+      {
+        "q": "What is the most common mistake buyers make when applying GP resin?",
+        "a": "Assuming a single \"general purpose\" grade will perform identically across every application. Gel time, viscosity and mechanical requirements shift between a large tank, a thin roofing sheet and a moulded door skin, so the grade should be matched to the specific product being made."
+      },
+      {
+        "q": "Does GP resin need reinforcement to be usable in these applications?",
+        "a": "Yes. GP resin on its own is not structural — it relies on glass fibre reinforcement (chopped strand mat, woven roving, or a combination) to provide the mechanical strength that makes these applications viable."
+      },
+      {
+        "q": "How do I know which application-specific grade to ask for?",
+        "a": "Start with the end product and its service conditions, then check candidate grades against their technical data sheets for viscosity, gel time and mechanical performance suited to that use — a supplier's technical team can help narrow this down for your specific process."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Overview of GP Polyester Resin Applications",
+        "body": [
+          "GP polyester resin's popularity comes from how broadly it applies, not from excelling at any single task. Because it strikes a workable balance between mechanical strength, ease of processing and cost, the same underlying resin chemistry shows up across water storage tanks, roofing sheets, door skins, industrial mouldings, and a range of construction and marine products.",
+          "What determines whether GP resin is the right fit for a given application is a combination of factors: the mechanical load the finished part will carry, the chemical and weather exposure it will face in service, the manufacturing process used to produce it, and the cost sensitivity of the end product. GP resin tends to perform well wherever these requirements sit in the moderate range, and less well where any one of them becomes extreme.",
+          "This article walks through the main categories where GP resin is used in practice — FRP moulding, construction and building products, and marine and industrial fabrication — and closes with guidance on how to narrow down the right application-specific grade rather than treating \"GP resin\" as a single interchangeable product."
+        ]
+      },
+      {
+        "heading": "FRP Manufacturing and Moulding",
+        "subsections": [
+          {
+            "heading": "Open-Mould Components",
+            "body": "Hand lay-up and spray-up, the most widely used FRP moulding methods, rely on GP resin's workable gel time and viscosity to build up a laminate over an open mould. This covers everything from custom enclosures and covers to one-off or low-volume structural components."
+          },
+          {
+            "heading": "Moulded Enclosures and Covers",
+            "body": "Equipment housings, machine guards and protective covers are commonly moulded in GP resin laminate, taking advantage of its rigidity, moderate impact resistance and ability to be moulded into complex shapes that would be harder or costlier to produce in metal."
+          },
+          {
+            "heading": "Decorative and Architectural Mouldings",
+            "body": "GP resin's compatibility with pigments and its smooth cured finish make it a practical choice for decorative panels, signage and architectural trim, where consistent colour and surface quality across a production run matter as much as strength."
+          }
+        ]
+      },
+      {
+        "heading": "Construction and Building Products",
+        "subsections": [
+          {
+            "heading": "Roofing and Roof-Light Sheets",
+            "body": "In continuous lamination lines, GP resin is used to produce both structural FRP roofing sheets and translucent roof-light panels, where UV-stabilised formulations help the sheet hold its clarity and colour under long-term outdoor exposure."
+          },
+          {
+            "heading": "Door Skins",
+            "body": "FRP door skins are moulded from GP resin to reproduce fine surface detail — wood-grain textures, panel profiles — while providing the rigidity and impact resistance expected of a door facing."
+          },
+          {
+            "heading": "Cladding, Formwork and Structural Liners",
+            "body": "Beyond roofing and doors, GP resin is used in cladding panels, concrete formwork and structural liners, where its balance of strength, mould detail and cost suits general building applications better than higher-cost speciality resins."
+          }
+        ]
+      },
+      {
+        "heading": "Marine and Industrial Fabrication",
+        "body": [
+          "In marine work, GP resin is generally reserved for components that are not subject to prolonged water immersion or heavy structural loading — trim pieces, non-structural fittings and similar parts — since sustained contact with water is exactly the condition where GP resin's moderate chemical resistance is most likely to fall short over time.",
+          "In industrial fabrication more broadly, GP resin is used for ducting, enclosures, covers and process equipment where the chemical environment is mild and the priority is a durable, corrosion-resistant alternative to metal at a reasonable cost. Where a process involves aggressive chemicals or continuous immersion, fabricators typically step up to an isophthalic or vinyl ester resin instead.",
+          "This is the recurring theme across marine and industrial use: GP resin is the practical first choice, and the decision to move to a speciality resin is driven by a specific exposure condition that GP resin isn't formulated to handle indefinitely, rather than a general dissatisfaction with its performance."
+        ]
+      },
+      {
+        "heading": "Selecting the Right Application-Specific Grade",
+        "body": [
+          "Because GP resin covers such a wide span of end uses, the practical question for a buyer is rarely \"should I use GP resin\" but \"which GP resin grade suits this specific application and process.\" Two products both labelled general-purpose can have meaningfully different viscosity, gel time and mechanical performance once you check their technical data sheets side by side."
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Start from the finished part's exposure and load, not the resin's category label",
+              "Confirm viscosity and gel time suit your specific manufacturing process",
+              "Check the technical data sheet (TDS) rather than assuming a general figure applies",
+              "Move to a speciality resin (isophthalic, vinyl ester, fire-retardant) where exposure genuinely demands it"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-select-polyester-resin-for-frp-manufacturing",
+    "title": "How to Select Polyester Resin for FRP Manufacturing",
+    "description": "Understand the key factors when selecting polyester resin for different FRP manufacturing processes.",
+    "category": "Buying Guide",
+    "icon": "checklist",
+    "readingTime": "7 min read",
+    "publishDate": "2026-07-18",
+    "seo": {
+      "title": "How to Select the Right Polyester Resin for FRP Manufacturing",
+      "keywords": [
+        "polyester resin selection",
+        "FRP manufacturing resin",
+        "resin viscosity FRP",
+        "resin gel time",
+        "hand layup resin",
+        "spray up resin",
+        "pultrusion resin",
+        "polyester resin buying guide"
+      ],
+      "ogTitle": "How to Select Polyester Resin for FRP Manufacturing",
+      "ogDescription": "A practical guide to matching polyester resin viscosity, gel time and type to your FRP manufacturing process — and the selection mistakes that cost fabricators the most."
+    },
+    "quickFacts": {
+      "Key Selection Factors": "Process, viscosity, gel time, mechanical needs, chemical exposure",
+      "Most Common Mistake": "Choosing resin on price alone, without checking process fit",
+      "Recommended First Step": "Confirm your process and part size before comparing grades",
+      "Always Check": "The specific grade's technical data sheet (TDS), not general figures"
+    },
+    "processTable": {
+      "headers": [
+        "Process",
+        "Typical Viscosity Need",
+        "Typical Gel Time Need",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Hand Lay-Up",
+          "Medium — enough body to stay in place on a vertical mould",
+          "Longer — allows time to roll out fibre and remove air manually",
+          "Most forgiving process for beginners; thixotropic grades help on vertical surfaces"
+        ],
+        [
+          "Spray-Up",
+          "Medium-low — must atomise cleanly through spray equipment",
+          "Moderate — matched to the pace of the spray line",
+          "Viscosity must suit the specific spray equipment being used"
+        ],
+        [
+          "Compression Moulding (SMC/DMC)",
+          "Formulated as a moulding compound, not a liquid viscosity spec",
+          "Fast — heat-activated cure inside a closed, heated mould",
+          "Requires resin specifically formulated for the SMC/DMC process"
+        ],
+        [
+          "Pultrusion",
+          "Low — must wet out fibre quickly as it's pulled through a die",
+          "Fast and tightly controlled — matched to line speed",
+          "Not all grades are suitable; needs a resin engineered for continuous, fast cure"
+        ],
+        [
+          "Continuous Lamination",
+          "Low to medium — must impregnate reinforcement evenly at speed",
+          "Matched to line speed and curing oven length",
+          "Used for flat and corrugated sheet products such as roofing sheets"
+        ],
+        [
+          "Vacuum Bagging / Infusion",
+          "Low — must flow through reinforcement under vacuum without voids",
+          "Longer — infusion can take time across large or complex parts",
+          "Air removal and full wet-out matter more here than in hand lay-up"
+        ]
+      ],
+      "note": "These are general tendencies, not fixed values — always confirm viscosity and gel time against the specific product's technical data sheet (TDS) before committing to a process."
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "what-is-unsaturated-polyester-resin",
+      "types-of-unsaturated-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Start with the UPR product hub",
+        "description": "Map a broad polyester-resin requirement to the relevant published product role."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published TDS before selecting a grade for the process."
+      },
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the published water-white GP grade, TDS and process data where that appearance is relevant."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the published lamination-focused grade and TDS for door, plywood or FRP bonding work."
+      },
+      {
+        "href": "/applications/resin-for-hand-lay-up-process/",
+        "label": "Hand lay-up guide",
+        "description": "Review a common GP Clear Resin process use case."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What's the single most important factor in choosing a polyester resin?",
+        "a": "Your manufacturing process. Viscosity, gel time and cure behaviour all need to match how the resin will actually be applied — hand lay-up, spray-up, compression moulding, pultrusion or infusion each place different demands on the resin, and a grade that performs well in one process can perform poorly in another."
+      },
+      {
+        "q": "Can I use the same resin for hand lay-up and spray-up?",
+        "a": "Not usually without checking first. Spray-up requires a resin viscosity that atomises cleanly through spray equipment, while hand lay-up generally works better with a slightly higher-viscosity or thixotropic resin that stays in place while being rolled out manually. Some grades are formulated to suit both; many are not."
+      },
+      {
+        "q": "How do I know if a resin's gel time is right for my part?",
+        "a": "Match gel time to how long you need working time for. Larger or more complex parts made by hand generally need a longer gel time so you can complete lay-up before the resin starts curing. Faster-cycle or line-based processes usually need a shorter, more tightly controlled gel time to keep production moving."
+      },
+      {
+        "q": "Is a higher-priced resin always the better choice?",
+        "a": "No — and price alone is one of the most common ways fabricators pick the wrong resin. A more expensive speciality resin (isophthalic, vinyl ester, fire-retardant) is only the right choice if your application actually needs its specific property. For general-purpose parts, a well-matched GP resin is usually the more practical and economical choice."
+      },
+      {
+        "q": "Should I trial a resin before placing a bulk order?",
+        "a": "Yes. Running a small trial batch under your actual production conditions — checking gel time, viscosity, wet-out and finish on your own equipment — catches mismatches before they become an expensive bulk-order problem."
+      },
+      {
+        "q": "Do all polyester resins use the same catalyst?",
+        "a": "Most unsaturated polyester resins cure with a peroxide catalyst, commonly MEKP, but the correct type and dosage vary by resin grade, ambient temperature and desired gel time. Always follow the specific product's technical data sheet rather than assuming a standard dosage across different resins."
+      },
+      {
+        "q": "What happens if I choose a resin with the wrong viscosity for my process?",
+        "a": "Too low a viscosity for hand lay-up on a vertical surface can cause resin to run or drain before curing, leaving thin, resin-starved areas. Too high a viscosity for spray-up or pultrusion can cause poor atomisation or incomplete fibre wet-out, leading to voids and weaker laminate."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Understanding FRP Manufacturing Processes",
+        "body": [
+          "Polyester resin selection starts with the manufacturing process, not the finished part. The same general-purpose resin chemistry can be formulated in different ways — different viscosity, different gel time, different thixotropy — to suit very different production methods, and using the wrong formulation for your process is one of the most common causes of poor results in FRP manufacturing.",
+          "FRP fabrication covers a range of processes, each placing different demands on the resin. Hand lay-up and spray-up are open-mould processes suited to lower-volume or larger, more custom parts. Compression moulding (using SMC or DMC moulding compounds) and pultrusion are closed or continuous processes suited to higher-volume, more consistent production. Continuous lamination produces flat or corrugated sheet products, while vacuum bagging and resin infusion are used where a higher fibre-to-resin ratio and fewer voids are required.",
+          "Before comparing resin grades, confirm which process — or processes — the resin needs to work with. A resin that performs excellently in hand lay-up may be entirely unsuitable for pultrusion, and vice versa."
+        ],
+        "visuals": [
+          {
+            "type": "icongrid",
+            "label": "Diagram: FRP manufacturing processes covered in this guide",
+            "caption": "Common FRP manufacturing processes",
+            "items": [
+              {
+                "icon": "hand-layup",
+                "label": "Hand Lay-Up"
+              },
+              {
+                "icon": "spray-up",
+                "label": "Spray-Up"
+              },
+              {
+                "icon": "compression",
+                "label": "Compression Moulding"
+              },
+              {
+                "icon": "pultrusion",
+                "label": "Pultrusion"
+              },
+              {
+                "icon": "lamination",
+                "label": "Continuous Lamination"
+              },
+              {
+                "icon": "vacuum",
+                "label": "Vacuum Bagging"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Resin Viscosity and Wet-Out Considerations",
+        "body": [
+          "Viscosity — how thick or thin the resin is in its liquid state — determines how well it wets out (fully saturates and de-airs) the reinforcement, and how well it behaves during application. Getting viscosity wrong is one of the fastest ways to end up with a weak, void-filled laminate, regardless of how good the resin's cured properties are on paper.",
+          "For hand lay-up, especially on vertical or overhead mould surfaces, resin needs enough body to stay in place while it's rolled and worked into the reinforcement — too thin, and it drains or runs before curing, leaving resin-starved patches. Thixotropic resins, which thicken when left undisturbed but flow more easily when worked with a brush or roller, are commonly used for exactly this reason.",
+          "For spray-up, pultrusion and infusion processes, the opposite is usually true: the resin needs to be low-viscosity enough to atomise cleanly through spray equipment, flow quickly through and around fibre as it's pulled through a pultrusion die, or draw through a reinforcement stack under vacuum without leaving dry spots or trapped air.",
+          "Because viscosity requirements are process-specific rather than universal, always check the intended process against the resin's stated viscosity range on its technical data sheet, rather than assuming a resin described as \"general purpose\" will suit every application equally well."
+        ]
+      },
+      {
+        "heading": "Gel Time and Cure Requirements",
+        "body": [
+          "Gel time is the working window between when a resin is catalysed and when it begins to set — the point past which it can no longer be worked, rolled out or repositioned. Choosing the right gel time is a balance between giving yourself enough time to do the job properly and not holding up production.",
+          "Larger components, more complex mould geometry, and manual processes like hand lay-up generally call for a longer gel time, giving the fabricator time to fully wet out reinforcement, remove trapped air and work the resin into detail before it begins curing. Rushing a part that needed a longer gel time is a common cause of poor fibre wet-out and visible surface defects.",
+          "Faster-cycle and line-based processes — spray-up on larger production runs, continuous lamination, pultrusion and compression moulding — generally need a shorter, more tightly controlled gel time so that cure keeps pace with the production line without becoming the bottleneck. In compression moulding specifically, cure is usually heat-activated inside a closed, heated mould rather than relying on ambient-temperature gel time alone.",
+          "Gel time is also sensitive to ambient workshop temperature and catalyst dosage — both of which affect how quickly a given resin actually cures on a given day. Rather than treating a resin's stated gel time as fixed, treat it as a starting reference to be confirmed under your own workshop conditions, and always follow the specific product's technical data sheet for correct catalyst dosage rather than estimating."
+        ],
+        "callouts": [
+          {
+            "label": "Important Note",
+            "variant": "warning",
+            "text": "Catalyst type and dosage vary by resin grade, ambient temperature and desired gel time. Always follow the specific product's technical data sheet (TDS) and safety data sheet (SDS) rather than assuming a standard dosage carries over between different resins."
+          }
+        ]
+      },
+      {
+        "heading": "Matching Resin Type to Moulding Method",
+        "body": [
+          "The table below summarises how viscosity and gel time needs typically shift across common FRP processes. Treat it as a starting point for narrowing down candidate grades, not as a substitute for checking the specific product's technical data sheet."
+        ],
+        "table": "processTable"
+      },
+      {
+        "heading": "Common Selection Mistakes to Avoid",
+        "subsections": [
+          {
+            "heading": "Choosing on Price Alone",
+            "body": "The cheapest resin per kilogram isn't necessarily the most economical choice once wastage, rework and inconsistent results from a poorly matched grade are accounted for. Price should be one factor weighed against process fit, not the deciding one."
+          },
+          {
+            "heading": "Ignoring the Technical Data Sheet",
+            "body": "General category descriptions (\"general purpose\", \"fire retardant\") describe a resin's positioning, not its exact viscosity, gel time or cure profile. Always check the specific grade's TDS rather than assuming it matches a similar product you've used before."
+          },
+          {
+            "heading": "Mismatching Viscosity to Process",
+            "body": "Using a resin formulated for hand lay-up in a spray-up or infusion process, or vice versa, is one of the most common and most avoidable causes of poor wet-out, voids and weak laminate."
+          },
+          {
+            "heading": "Skipping a Trial Batch",
+            "body": "Committing to a bulk order before trialling a small batch under real production conditions means any mismatch — in viscosity, gel time or finish — is discovered at full scale rather than caught early."
+          },
+          {
+            "heading": "Overlooking Chemical or Environmental Exposure",
+            "body": "Selecting a standard GP resin for a part that will face sustained water immersion, chemical exposure or harsh UV conditions, without checking whether an isophthalic, vinyl ester or fire-retardant grade is more appropriate, can lead to premature degradation in service."
+          },
+          {
+            "heading": "Assuming Catalyst Ratios Carry Over",
+            "body": "Applying a catalyst dosage that worked for a previous resin to a new grade, without checking its TDS, can produce a gel time that's badly mismatched to the process — either curing too fast to work with, or too slowly to hold a production schedule."
+          }
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Confirm your process before comparing resin grades on price",
+              "Check viscosity and gel time against the specific product's TDS",
+              "Trial a small batch under real production conditions first",
+              "Match chemical/UV exposure requirements to the grade, not just the application"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-gel-coat-resin",
+    "title": "What is Gel Coat Resin?",
+    "description": "Understand Gelcoat Resin as the visible, mould-facing surface layer in an FRP build-up and how it differs from laminating resin.",
+    "category": "Product Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-07-18",
+    "quickFacts": {
+      "Resin Type": "Surface-coating unsaturated polyester resin, thickened and pigmentable",
+      "Applied": "First, into the open mould — before lamination begins",
+      "Not": "A laminating or structural resin — it isn't reinforced with glass fibre",
+      "Typical Thickness": "Applied as a thin, even coat — check the product's TDS for the recommended range"
+    },
+    "relatedSlugs": [
+      "gp-resin-vs-gelcoat-resin",
+      "lamination-resin-vs-gelcoat-resin",
+      "applications-of-gelcoat-resin-in-frp-manufacturing",
+      "how-to-choose-gelcoat-resin-for-frp-products",
+      "gelcoat-resin-problems-peeling-cracking-tackiness"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the published white, high-gloss mould-surface grade and TDS."
+      },
+      {
+        "href": "/resources/gp-resin-vs-gelcoat-resin/",
+        "label": "Gelcoat Resin vs GP Resin",
+        "description": "Separate the mould-facing surface role from the structural laminate role."
+      },
+      {
+        "href": "/resources/gelcoat-resin-problems-peeling-cracking-tackiness/",
+        "label": "Document a surface concern",
+        "description": "Prepare peeling, cracking, pinhole, fisheye or tackiness observations for discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is gel coat resin the same as GP polyester resin?",
+        "a": "No. Both are unsaturated polyester resins, but gel coat is formulated specifically for surface finish and protection — thickened so it doesn't run on a mould surface, and typically pigmented — while GP resin is a laminating resin designed to be reinforced with glass fibre to build structural thickness."
+      },
+      {
+        "q": "Can gel coat be used as a laminating resin?",
+        "a": "No. Gel coat is not designed to be reinforced with glass fibre or to build structural thickness. Using it as a laminating resin generally produces a brittle, poorly performing part — it should only be used as the outer surface layer, with a proper laminating resin behind it."
+      },
+      {
+        "q": "Why is gel coat applied first, before lamination?",
+        "a": "Gel coat is sprayed or brushed directly onto the mould surface before any reinforcement is placed. Because the mould surface becomes the outer face of the finished part, gel coat ends up as the visible, weather-facing layer once the part is demoulded, with the structural laminate built up behind it."
+      },
+      {
+        "q": "Does gel coat need to be reinforced with glass fibre?",
+        "a": "No, and it shouldn't be. Gel coat is a surface-finish resin, not a structural one. Structural strength comes entirely from the laminating resin and reinforcement applied over it, not from the gel coat layer itself."
+      },
+      {
+        "q": "What causes gel coat to crack or craze over time?",
+        "a": "Common causes include applying it too thin or too thick, poor cure due to incorrect catalyst dosage, mechanical flexing of an under-reinforced part behind it, or prolonged weathering beyond what the specific formulation is rated for. Always check the product's TDS for recommended thickness and cure conditions."
+      },
+      {
+        "q": "Can gel coat be pigmented in any colour?",
+        "a": "Yes, gel coat is commonly supplied pre-pigmented or as a clear base that can be tinted, which is one of its main advantages over laminating resin for parts where colour and surface appearance matter."
+      },
+      {
+        "q": "How long does gel coat protect a composite part?",
+        "a": "Service life depends heavily on the specific formulation, application thickness and environmental exposure, so there's no single figure that applies across products — check the manufacturer's technical data sheet for the expected performance of the specific grade being used."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What Is Gel Coat Resin?",
+        "body": [
+          "Gel coat resin is a specialised unsaturated polyester surface coating placed against the mould face of an FRP part, rather than used to build the reinforced structural laminate. Because it cures against the mould surface, it becomes the visible face once the part is demoulded.",
+          "The exact product data matters. Samrat FRP Traders publishes GP Gelcoat Resin as a white, high-gloss polyester surface-coating grade with 11,000 cPs viscosity, thixotropic behaviour and an 8.5-minute gel time. These published details describe a mould-side coating role; they should not be transferred to a GP or laminating resin.",
+          "Gelcoat carries no glass-fibre reinforcement of its own. The laminate and reinforcement behind it remain a separate selection and process discussion."
+        ]
+      },
+      {
+        "heading": "How Gel Coat Differs From Laminating Resin",
+        "body": [
+          "The distinction is role. GP Clear Resin and Lamination Resin are reviewed where the requirement is to wet out reinforcement, build a laminate or bond a substrate. GP Gelcoat Resin is reviewed where the requirement is the visible mould-side surface.",
+          "The published GP Gelcoat Resin is thixotropic for its mould-side application. Its viscosity, gel time, application sequence and mould condition should be checked against the TDS; do not treat a surface-coating grade as an automatic substitute for a laminating or bonding grade.",
+          "An FRP build-up can involve both surface and laminate decisions. The product data and actual manufacturing sequence should determine when lamination begins, rather than a generic timing rule."
+        ]
+      },
+      {
+        "heading": "Surface Finish and Protective Properties",
+        "body": [
+          "For a visible FRP face, Gelcoat Resin is selected for surface finish and appearance. GP Gelcoat Resin is published as white and high gloss as supplied; any colour, gloss or service requirement should be discussed against the exact product data and build-up.",
+          "Do not infer unlisted UV, chemical, water-immersion or long-term weathering performance from the general surface-coating category. Those requirements need product-specific technical confirmation.",
+          "No approved application-thickness range is published in the repository for GP Gelcoat Resin. Follow the exact TDS and application guidance rather than estimating thickness by eye or transferring a number from another grade."
+        ]
+      },
+      {
+        "heading": "Application Methods and Best Practices",
+        "subsections": [
+          {
+            "heading": "Mould Preparation",
+            "body": "A clean, correctly waxed or release-agent-treated mould surface is essential before gel coat application — any contamination or inconsistent release treatment can telegraph through to the finished part's surface."
+          },
+          {
+            "heading": "Spray or Brush Application",
+            "body": "Gel coat is most commonly applied by spray gun for consistent thickness across larger areas, though brush application is used for smaller parts or repairs. Either method requires an even, controlled coat rather than heavy, uneven pooling."
+          },
+          {
+            "heading": "Correct Thickness",
+            "body": "Applying within the manufacturer's recommended thickness range is one of the most important factors in gel coat performance — always check the product's technical data sheet rather than estimating by appearance."
+          },
+          {
+            "heading": "Timing Before Lamination",
+            "body": "Gel coat needs to reach the correct tacky, gelled state — not fully cured, and not still wet — before lamination begins, so that the laminate bonds properly as both layers finish curing together."
+          },
+          {
+            "heading": "Catalyst Dosage and Ambient Conditions",
+            "body": "As with any polyester resin, catalyst dosage and workshop temperature affect gel coat's cure time. Follow the specific product's TDS for correct catalyst percentage rather than carrying over a dosage used for a different resin."
+          }
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Prepare and release-treat the mould surface thoroughly before spraying",
+              "Apply gel coat within the manufacturer's recommended thickness range",
+              "Allow gel coat to reach the correct tacky stage before starting lamination",
+              "Follow the product's TDS for catalyst dosage and cure timing"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Common Uses in Composite Manufacturing",
+        "body": [
+          "Gel coat is used wherever an FRP part needs a finished, presentable surface rather than a raw laminate face — which in practice covers most commercially produced composite products. Decorative and architectural panels rely on gel coat for consistent colour and gloss; product housings and enclosures use it to hide the reinforcement pattern and give a professional finish; and marine components use UV-stabilised gel coat as a first line of defence against sun and water exposure.",
+          "In tank and roofing sheet manufacturing, gel coat or gel-coat-like surface layers are sometimes used on the exposed face of a component to improve weatherability and appearance, although many industrial tanks are left with a laminate finish where cosmetic appearance is a lower priority than cost and function.",
+          "Across all of these uses, the same principle holds: gel coat is chosen when the visible surface of the part needs to look good and hold up to the environment over time, while the actual strength of the part continues to come from the laminating resin and reinforcement applied behind it."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fire-retardant-polyester-resin-applications-and-benefits",
+    "title": "Fire Retardant Resin Applications: FRP Buyer Guide",
+    "description": "A product-data-led guide to the Fire Retardant Resin application categories published by Samrat FRP Traders and the project details buyers should verify.",
+    "category": "Application Guide",
+    "icon": "shield",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Fire Retardant Resin Applications | FRP Buyer Guide",
+      "keywords": [
+        "Fire Retardant Resin applications",
+        "FR Resin applications",
+        "Fire Retardant Polyester Resin for FRP",
+        "FRP Fire Retardant Resin",
+        "industrial FR resin"
+      ],
+      "ogTitle": "Fire Retardant Resin Applications: FRP Buyer Guide",
+      "ogDescription": "Review the Fire Retardant Resin application categories published in the current TDS and the project information to verify before selection."
+    },
+    "quickFacts": {
+      "Published product": "Halogenated Fire Retardant Unsaturated Polyester Resin",
+      "TDS application categories": "Automotive/railway, marine/electrical, FRP panels/building, and fire-sensitive environments",
+      "Always verify": "The finished component, required standard/classification and tested-system requirement",
+      "Do not infer": "A project approval from an application category or product name"
+    },
+    "relatedSlugs": [
+      "what-is-fire-retardant-resin",
+      "fire-retardant-resin-vs-gp-resin",
+      "frp-fire-performance-requirements-buyer-guide",
+      "fire-retardant-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "View Fire Retardant Resin",
+        "description": "Review the current product data, TDS and published supply information."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "Review the separate Glass Fiber role",
+        "description": "Reinforcement is a separate material decision within an FRP system."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an FR application",
+        "description": "Share the finished component and the original project requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which applications are published for Samrat Fire Retardant Resin?",
+        "a": "The current TDS lists automotive and railway components, marine and electrical applications, FRP panels and building components, and tunnels, infrastructure and fire-sensitive environments. These are application categories for discussion, not finished-part approvals."
+      },
+      {
+        "q": "Does a published application category confirm project compliance?",
+        "a": "No. The buyer must still provide the component, required standard or classification and any project specification. The finished system may require its own documented or tested configuration."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the published application categories as a starting point",
+        "body": [
+          "The current Fire Retardant Resin TDS publishes automotive and railway components, marine and electrical applications, FRP panels and building components, and tunnels, infrastructure and fire-sensitive environments. These categories help a buyer begin a material discussion when fire-performance criteria may be relevant.",
+          "They are not a claim that every component in those categories is approved, tested or compliant. Start with the actual part and original project requirement, then review the grade-specific TDS and any finished-system requirement."
+        ]
+      },
+      {
+        "heading": "Separate the resin from the finished FRP system",
+        "body": [
+          "The resin is one material in an FRP system. The reinforcement, construction, thickness, surface system and tested configuration can all be relevant to a project requirement. Do not transfer a product description into a finished-part classification.",
+          "For the current Samrat grade, the repository contains a TDS and catalogue but no project-specific fire-test report, certificate, SDS or COA. Include the required documentation in the enquiry instead of assuming it exists."
+        ]
+      },
+      {
+        "heading": "Prepare a documented application enquiry",
+        "body": [
+          "Share the finished FRP application, original requirement or drawing, specified standard or classification if applicable, reinforcement context, expected quantity, packaging requirement and delivery location. This is more useful than asking whether a product name is generally suitable.",
+          "Review the current TDS for supply facts such as white liquid appearance, viscosity, gel time, shelf life, storage, packaging and MOQ. Those values describe the listed grade; they do not establish a finished-system result."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-polyester-resin-is-used-in-water-tank-manufacturing",
+    "title": "How Polyester Resin is Used in Water Tank Manufacturing",
+    "description": "Discover why polyester resin is widely used in manufacturing durable FRP water storage tanks.",
+    "category": "Application Guide",
+    "icon": "tank",
+    "readingTime": "6 min read",
+    "publishDate": "2026-07-18",
+    "quickFacts": {
+      "Common Resin Grades": "GP resin for general use; isophthalic for higher water/chemical resistance",
+      "Reinforcement": "Glass fibre — typically chopped strand mat and woven roving",
+      "Key Property": "Corrosion resistance — FRP tanks don't rust the way metal tanks do",
+      "Always Check": "Potable-water suitability against the specific resin/product's certification, if relevant"
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "how-to-store-unsaturated-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Check the published gel time and TDS for the specific GP grade."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Compare the published 5-minute gel time with the applicable product TDS."
+      },
+      {
+        "href": "/resources/gp-resin-viscosity-explained/",
+        "label": "Read GP Resin viscosity guidance",
+        "description": "Review viscosity alongside gel time and process fit."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why is FRP preferred over metal for water storage tanks?",
+        "a": "FRP tanks don't rust or corrode the way steel tanks can, which removes a major long-term maintenance and failure risk in water storage. They're also lighter than equivalent metal tanks, which can simplify transport and installation."
+      },
+      {
+        "q": "Does GP resin work for all water tank applications?",
+        "a": "GP resin is used for general water storage tanks, but applications with more demanding water quality requirements or chemical exposure often use isophthalic resin instead, for its improved water and chemical resistance. The right choice depends on the specific application and should be confirmed against the product's technical data sheet."
+      },
+      {
+        "q": "Is polyester resin safe for storing drinking water?",
+        "a": "This depends entirely on the specific resin product and its certification — not all polyester resins are certified for potable water contact. If a tank will store drinking water, confirm the specific resin and any internal lining meet the relevant food/potable-water-contact standards before use."
+      },
+      {
+        "q": "How is an FRP water tank actually built?",
+        "a": "Typically through hand lay-up or filament winding, where catalysed resin and glass fibre reinforcement are built up in layers over a mould to the required thickness, followed by curing and, in some designs, an internal or external protective layer."
+      },
+      {
+        "q": "How long do FRP water tanks typically last?",
+        "a": "Service life depends on the resin grade, reinforcement, wall thickness, water quality and environmental exposure, so there's no single figure that applies to every tank — a properly designed and manufactured FRP tank is intended for long-term structural service, but the specific expected life should be confirmed with the manufacturer."
+      },
+      {
+        "q": "Do FRP tanks need regular maintenance?",
+        "a": "Yes, though generally less than metal tanks. Periodic visual inspection for surface damage, cracking or leaks, along with routine cleaning, is the typical maintenance requirement — significant structural repair is uncommon if the tank was correctly designed and manufactured."
+      },
+      {
+        "q": "Can a damaged FRP tank be repaired?",
+        "a": "In many cases, yes — surface damage or minor cracks can often be repaired using compatible resin and reinforcement patches. The appropriate repair method depends on the extent and location of the damage, and significant structural damage may require professional assessment."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why FRP Is Used for Water Storage Tanks",
+        "body": [
+          "Fibre-reinforced plastic (FRP) has become one of the most widely used materials for water storage tanks, largely because it solves the biggest long-term problem with metal tanks: corrosion. A properly manufactured FRP tank doesn't rust, and it doesn't rely on a protective coating that can wear through and expose bare metal to water over years of service.",
+          "Beyond corrosion resistance, FRP tanks are considerably lighter than equivalent-capacity steel or concrete tanks, which simplifies transport, handling and installation, particularly for tanks installed on rooftops or in locations with limited access. FRP also moulds into smooth, seamless shapes, reducing the number of joints and seams that can become future leak points.",
+          "Cost is another factor. Polyester resin systems, particularly GP resin for general applications, are relatively economical compared with some alternative construction materials, which keeps FRP tanks competitive for large-volume water storage where material cost matters at scale."
+        ]
+      },
+      {
+        "heading": "Resin Properties That Matter for Tank Manufacturing",
+        "body": [
+          "Tank manufacturing places a specific set of demands on resin that differ somewhat from smaller moulded parts. Because tanks are large, resin volume and viscosity behaviour over a big surface area matter — resin needs to wet out reinforcement evenly across large panels without excessive drainage or pooling.",
+          "Mechanical strength and dimensional stability are critical, since a tank must hold its shape and resist the hydrostatic pressure of the stored liquid without deforming or cracking. Chemical resistance also matters more here than in many other FRP applications, because the resin is in constant, sustained contact with the stored liquid rather than brief or occasional exposure.",
+          "For general water storage, GP resin's moderate chemical resistance and good mechanical properties are usually sufficient. Where water quality requirements are stricter, or where the tank will store anything beyond plain water, isophthalic resin's improved water and chemical resistance is often the more appropriate choice — this decision should be confirmed against the specific application's requirements rather than assumed."
+        ]
+      },
+      {
+        "heading": "Manufacturing Process Overview",
+        "visuals": [
+          {
+            "type": "steps",
+            "caption": "Typical FRP water tank manufacturing sequence",
+            "items": [
+              {
+                "label": "Mould Preparation"
+              },
+              {
+                "label": "Resin + Glass Fibre Lay-Up"
+              },
+              {
+                "label": "Layer Build-Up to Wall Thickness"
+              },
+              {
+                "label": "Cure"
+              },
+              {
+                "label": "Inspection & Finishing"
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "Mould Preparation",
+            "body": "Tank moulds are prepared and release-treated to ensure the finished shell separates cleanly once cured, and to give the interior or exterior surface the intended finish."
+          },
+          {
+            "heading": "Resin and Reinforcement Lay-Up",
+            "body": "Catalysed resin and glass fibre reinforcement — typically chopped strand mat and woven roving for added strength — are applied in successive layers, either by hand lay-up for smaller or custom tanks, or by filament winding for larger cylindrical tanks, building up to the design wall thickness."
+          },
+          {
+            "heading": "Curing",
+            "body": "Once laid up, the laminate is left to cure at ambient or controlled temperature, developing the mechanical strength and rigidity needed to hold the tank's shape under load."
+          },
+          {
+            "heading": "Inspection and Finishing",
+            "body": "Finished tanks are inspected for surface defects, correct wall thickness and structural integrity before fittings, outlets and any protective coatings are added."
+          }
+        ]
+      },
+      {
+        "heading": "Durability and Chemical Resistance",
+        "body": [
+          "One of the main reasons FRP tanks are chosen for water storage is their long-term durability against the specific failure mode that affects metal tanks most: corrosion. Because the resin and glass fibre laminate doesn't rust, an FRP tank's structural integrity isn't threatened by the slow degradation that eventually affects unprotected or poorly coated steel.",
+          "Chemical resistance in an FRP tank comes primarily from the resin, since the resin forms the barrier between the stored liquid and the glass fibre reinforcement (glass fibre itself can be vulnerable to certain chemical attack if directly exposed). This is why resin selection matters so much for tank applications — a resin with insufficient chemical resistance for the stored contents can eventually allow degradation to reach the reinforcement, weakening the laminate over time.",
+          "UV exposure is a separate durability consideration for tanks installed outdoors or on rooftops. UV-stabilised gel coat or resin formulations help protect the tank's exterior surface from long-term sun exposure, which can otherwise cause surface degradation over years of service."
+        ]
+      },
+      {
+        "heading": "Maintenance and Service Life Considerations",
+        "body": [
+          "FRP tanks generally require less maintenance than metal alternatives, but they are not maintenance-free. Periodic visual inspection for surface cracking, discolouration, or signs of leakage helps catch minor issues before they become significant, and routine cleaning helps maintain water quality and surface condition.",
+          "Service life depends on a combination of factors — the resin grade used, wall thickness, reinforcement quality, manufacturing process control, water quality and environmental exposure — so there's no universal figure that applies across all FRP tanks. A tank correctly designed and manufactured for its intended use is built for long-term structural service, but buyers should confirm expected service life and any warranty terms directly with the manufacturer."
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Match resin chemical resistance to what the tank will actually store, not just \"water\" in general",
+              "Confirm potable-water suitability directly if the tank will hold drinking water",
+              "Inspect periodically for surface cracking, discolouration or leakage",
+              "Confirm expected service life and wall thickness with the manufacturer rather than assuming a standard figure"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "polyester-resin-for-roofing-sheets",
+    "title": "Polyester Resin for Roofing Sheets",
+    "description": "Learn how polyester resin improves strength, weather resistance and performance in FRP roofing sheets.",
+    "category": "Application Guide",
+    "icon": "roof",
+    "readingTime": "5 min read",
+    "publishDate": "2026-07-18",
+    "quickFacts": {
+      "Typical Process": "Continuous lamination — resin-impregnated reinforcement cured in-line",
+      "Two Broad Products": "Opaque structural sheets and translucent roof-light sheets",
+      "Key Additive": "UV stabilisers, to slow yellowing and clarity loss in outdoor exposure",
+      "Reinforcement": "Glass fibre mat, giving the sheet its rigidity and load-bearing strength"
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "faqs": [
+      {
+        "q": "What makes FRP roofing sheets different from plain fibreglass sheeting?",
+        "a": "In practice they're the same underlying material — FRP (fibreglass-reinforced polyester) roofing sheets are made from polyester resin reinforced with glass fibre. Product ranges vary in thickness, profile, UV stabilisation and whether they're opaque (structural roofing) or translucent (roof-light sheets)."
+      },
+      {
+        "q": "Why do some FRP roofing sheets turn yellow or hazy over time?",
+        "a": "This is typically UV degradation of the resin's surface over years of sun exposure. UV-stabilised resin formulations slow this process considerably compared with standard resin, which is why roofing-grade resin is chosen specifically for outdoor durability rather than using a general laminating resin."
+      },
+      {
+        "q": "Can the same resin be used for both opaque and translucent roofing sheets?",
+        "a": "Not usually as-is. Translucent sheets need a resin and process that preserves optical clarity, while opaque structural sheets prioritise mechanical strength and often use pigmented or filled formulations — the two products are typically made with resin grades formulated for their specific requirement."
+      },
+      {
+        "q": "How is resin applied in roofing sheet manufacturing?",
+        "a": "Most FRP roofing sheets are produced by continuous lamination, where resin-impregnated glass fibre reinforcement passes through a forming and curing line to produce continuous flat or corrugated sheet lengths, rather than being moulded individually."
+      },
+      {
+        "q": "Do FRP roofing sheets need a gel coat surface?",
+        "a": "Not always — many roofing sheets are used as structural or utility roofing without a gel coat finish, since appearance is a lower priority than weatherability and cost. Where a smoother or more decorative surface is wanted, a gel coat or similar surface layer can be added."
+      },
+      {
+        "q": "What causes an FRP roofing sheet to crack or fail prematurely?",
+        "a": "Common causes include incorrect resin selection for the UV exposure the sheet will face, insufficient reinforcement for the design load, poor cure during manufacturing, or mechanical damage in service. Confirming the sheet is rated for its intended load and environment helps avoid these issues."
+      },
+      {
+        "q": "Are FRP roofing sheets suitable for industrial buildings?",
+        "a": "Yes, they're widely used for industrial and agricultural roofing where a lightweight, corrosion-resistant, and in translucent form, light-transmitting roofing material is wanted, often alongside metal roofing sheets in the same structure."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Role of Resin in FRP Roofing Sheets",
+        "body": [
+          "Polyester resin is the binding matrix that holds glass fibre reinforcement together in an FRP roofing sheet, giving the finished product its rigidity, weather resistance and structural performance. Without the resin, the glass fibre reinforcement would have no shape-holding strength on its own — it's the cured resin matrix that transforms loose fibre into a rigid, load-bearing sheet.",
+          "Roofing sheets are somewhat unusual among FRP products because they're typically produced as continuous, flat or corrugated lengths rather than individually moulded parts, which places specific demands on the resin used — it needs to impregnate reinforcement evenly and cure reliably at line speed across a continuous manufacturing process.",
+          "Depending on the product, roofing sheet resin is formulated either for structural, opaque roofing (where mechanical strength and weatherability are the priority) or for translucent roof-light sheets (where optical clarity is equally important), and these two use cases often call for different resin formulations."
+        ]
+      },
+      {
+        "heading": "Weather and UV Resistance Requirements",
+        "body": [
+          "Roofing sheets face some of the most sustained outdoor exposure of any FRP product — continuous sun, rain, temperature swings and, depending on location, dust and pollution, all acting on the same surface for years at a stretch. This makes weatherability a central requirement for roofing-grade resin, more so than for many indoor or occasional-exposure FRP applications.",
+          "UV exposure specifically degrades the resin's surface over time, which can show up as yellowing, surface chalking, or in translucent sheets, a gradual loss of clarity and light transmission. UV-stabilised resin formulations, which incorporate additives that absorb or block UV radiation before it degrades the resin, are used specifically to slow this process and extend the sheet's useful service life.",
+          "The degree of UV resistance needed depends on the installation's climate and expected service life, so the specific resin's UV performance should be checked against the product's technical data sheet rather than assumed from a general \"UV-stabilised\" label."
+        ]
+      },
+      {
+        "heading": "Strength and Load-Bearing Performance",
+        "body": [
+          "Roofing sheets need to carry their own weight plus environmental loads — wind uplift, and depending on the region, snow or standing water — without deflecting or cracking. This structural performance comes from the combination of resin and glass fibre reinforcement, with the reinforcement type and quantity, sheet thickness and corrugation profile all contributing alongside the resin itself.",
+          "Corrugated profiles, which are common in FRP roofing sheets, add mechanical rigidity through their shape in addition to whatever strength the resin-fibre laminate provides, which is why roofing sheets can achieve useful load-bearing performance at a relatively thin, lightweight cross-section compared with a flat panel.",
+          "As with other structural FRP applications, the specific load rating of a given roofing sheet product depends on its exact design and construction, and should be confirmed against the manufacturer's specifications for the intended span and loading conditions rather than assumed from a general FRP roofing description."
+        ]
+      },
+      {
+        "heading": "Translucent and Roof Light Sheet Applications",
+        "body": [
+          "Translucent FRP roof-light sheets are used to admit natural daylight into a building while maintaining the weather protection of a conventional roof, commonly installed alongside opaque roofing sheets to bring light into warehouses, workshops and agricultural buildings without additional electrical lighting.",
+          "Producing a translucent sheet requires a resin formulation and manufacturing process that preserves optical clarity through the reinforcement and cure process, since anything that scatters light — trapped air, uneven resin distribution, or a resin that yellows with age — reduces the sheet's light transmission over time.",
+          "UV stabilisation matters even more for translucent sheets than opaque ones, because clarity loss is often more visually noticeable and functionally significant (less daylight admitted) than the surface changes seen on an opaque roofing sheet."
+        ]
+      },
+      {
+        "heading": "Manufacturing Considerations for Roofing Grades",
+        "body": [
+          "Because roofing sheets are typically produced on continuous lamination lines, the resin used needs viscosity and gel time characteristics matched to the specific line speed and curing oven length of that manufacturing setup, rather than to a general hand lay-up or spray-up process."
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Match resin UV stabilisation to the installation's climate and expected service life",
+              "Choose a formulation suited to opaque structural sheets or translucent roof-light sheets specifically",
+              "Confirm viscosity and gel time against your continuous lamination line's speed",
+              "Check load ratings against the manufacturer's specifications for your span and loading conditions"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "polyester-resin-for-door-skin-manufacturing",
+    "title": "Polyester Resin for Door Skin Manufacturing",
+    "description": "Understand the role of polyester resin in producing strong and lightweight FRP door skins.",
+    "category": "Application Guide",
+    "icon": "door",
+    "readingTime": "5 min read",
+    "publishDate": "2026-07-18",
+    "quickFacts": {
+      "What It Is": "A moulded FRP facing bonded or fitted over a door's core structure",
+      "Typical Resin": "GP polyester resin, often paired with gel coat for surface finish",
+      "Main Advantage Over Wood": "Doesn't warp, rot or absorb moisture the way timber can",
+      "Common Textures": "Wood-grain, panelled and flush profiles moulded directly into the skin"
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "what-is-gel-coat-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "faqs": [
+      {
+        "q": "What is an FRP door skin, exactly?",
+        "a": "It's a moulded fibre-reinforced polyester facing — often two skins, one for each face of the door — that is fitted or bonded over a door's core structure (commonly a timber frame or engineered core) to give the door its outer surface, texture and weather resistance."
+      },
+      {
+        "q": "Why use polyester resin instead of solid timber for door facings?",
+        "a": "FRP door skins don't warp, rot or absorb moisture the way solid timber can, which makes them particularly useful for exterior doors exposed to weather. They can also reproduce fine surface detail, such as wood-grain texture or panel profiles, in a consistent, repeatable way across production."
+      },
+      {
+        "q": "Does an FRP door skin need a gel coat finish?",
+        "a": "Many door skins use a gel coat or similar pigmented surface layer to achieve a consistent, paintable or textured finish, since gel coat gives better surface appearance and weatherability than a bare laminate face."
+      },
+      {
+        "q": "How is strength achieved in a thin, moulded door skin?",
+        "a": "Through the combination of resin and glass fibre reinforcement in the laminate, plus the door's overall construction — the skin is typically bonded to a core material (foam, timber frame, or similar) that contributes additional rigidity and insulation to the finished door."
+      },
+      {
+        "q": "Are FRP door skins suitable for exterior doors?",
+        "a": "Yes, this is one of their main advantages — properly formulated FRP door skins, especially with a weather-resistant gel coat or paint finish, hold up well to exterior exposure without the moisture-related warping and swelling that can affect timber doors."
+      },
+      {
+        "q": "Can FRP door skins be painted or stained to look like wood?",
+        "a": "Yes. Many FRP door skins are moulded with a wood-grain texture and can be painted or stained to closely resemble a solid timber door, while retaining the dimensional stability and low maintenance of a composite material."
+      },
+      {
+        "q": "What resin properties matter most for door skin moulding?",
+        "a": "Good mould-detail reproduction (to capture fine wood-grain or panel texture), a smooth compatible surface for gel coat or paint, and adequate mechanical properties for the rigidity and impact resistance expected of a door facing."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What Are FRP Door Skins?",
+        "body": [
+          "An FRP door skin is a moulded fibre-reinforced polyester facing that forms the outer surface of a door, typically produced as a pair — one skin for each face — and fitted over a door's core structure during manufacture. The core is commonly a timber frame, engineered wood, or a foam-filled cavity, with the FRP skins bonded to it to complete the finished door.",
+          "This construction is common in both residential and light commercial doors, where manufacturers want the appearance and feel of a panelled or textured door face without relying entirely on solid timber, which brings its own moisture and dimensional-stability challenges.",
+          "Because the skin is moulded rather than machined from solid material, it can reproduce fine surface detail — wood-grain texture, raised panel profiles, decorative mouldings — consistently across a production run, which is difficult to achieve as economically with solid timber."
+        ]
+      },
+      {
+        "heading": "Why Manufacturers Choose Polyester Resin",
+        "body": [
+          "Polyester resin, typically GP resin, is chosen for door skin manufacturing because it offers a workable combination of mould-detail reproduction, mechanical performance and cost. Moulding a door skin generally requires the resin to flow into fine surface detail in the mould — wood-grain texture, panel lines — and hold that detail accurately once cured.",
+          "GP resin's compatibility with pigments and gel coat systems also matters here, since door skins are almost always intended to be seen, painted or stained rather than left as a raw laminate surface. A resin that produces a smooth, consistent, paintable surface reduces the finishing work needed after moulding.",
+          "Cost is a practical factor too — door manufacturing is often a volume business, and GP resin's economical positioning relative to speciality resins keeps door skin production viable at scale without sacrificing the mechanical and surface qualities the product needs."
+        ]
+      },
+      {
+        "heading": "Strength-to-Weight Considerations",
+        "body": [
+          "A door skin needs enough rigidity and impact resistance to function as the outer face of a door — resisting dents, scuffs and general handling — while remaining thin and light enough not to make the finished door unreasonably heavy. This balance comes from the resin-and-glass-fibre laminate itself, plus the core material the skin is bonded to.",
+          "GP resin, properly reinforced, provides adequate strength for this role in most residential and light commercial door applications. The skin doesn't need to carry structural load on its own — it works together with the door's core and frame, which is why door skin design is considered as part of the complete door assembly rather than the skin in isolation.",
+          "Because door skins are relatively thin compared with other FRP mouldings, achieving consistent thickness and fibre distribution during moulding matters more here than in thicker structural parts, where minor variation has less relative impact on strength."
+        ]
+      },
+      {
+        "heading": "Surface Finish and Moulding Detail",
+        "body": [
+          "Surface appearance is arguably the most important requirement for a door skin, since it's the part of the door people actually see and touch. Fine mould detail — wood-grain texture, panel profiles, decorative routing lines — needs to be faithfully reproduced from the mould into the cured resin surface, which depends on resin viscosity and flow behaviour during moulding as much as on the mould's own quality.",
+          "Many door skin manufacturers use a gel coat or similar pigmented surface layer over the structural laminate to achieve a consistent, ready-to-finish surface, since gel coat is specifically formulated for surface appearance and can be tinted or left paintable depending on the product line.",
+          "Consistency across a production run matters commercially too — buyers expect matching doors within an order to look the same, which places a premium on repeatable resin behaviour and process control during moulding."
+        ]
+      },
+      {
+        "heading": "Durability in Interior and Exterior Use",
+        "body": [
+          "One of the clearest advantages FRP door skins offer over solid timber is resistance to moisture-related problems — warping, swelling, cracking and rot — that affect wood exposed to humidity or direct weather. This makes properly formulated FRP door skins particularly suitable for exterior doors, where a timber door's dimensional stability can be a recurring maintenance issue.",
+          "For exterior use specifically, the gel coat or paint finish over the resin skin plays an important protective role, shielding the underlying laminate from UV exposure and moisture over years of outdoor service. Interior doors face a less demanding environment but still benefit from the dimensional stability and low-maintenance nature of an FRP skin compared with solid wood.",
+          "Overall service life depends on the specific product's construction, resin grade and finish, so buyers should confirm expected durability and any warranty terms with the manufacturer rather than assuming a blanket figure across all FRP door products."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "understanding-gel-time-in-polyester-resin",
+    "title": "Understanding Gel Time in Polyester Resin",
+    "description": "Learn what gel time means, why it matters and how it affects manufacturing efficiency.",
+    "category": "Technical Data",
+    "icon": "clock",
+    "readingTime": "4 min read",
+    "publishDate": "2026-07-18",
+    "seo": {
+      "title": "GP Resin Gel Time Troubleshooting | Polyester Resin Guide",
+      "keywords": [
+        "GP resin gel time",
+        "GP resin gel time troubleshooting",
+        "polyester resin gel time",
+        "resin curing time",
+        "FRP resin troubleshooting"
+      ],
+      "ogTitle": "GP Resin Gel Time Troubleshooting",
+      "ogDescription": "Understand gel time, common GP resin troubleshooting checks and when to review the product TDS before changing a process."
+    },
+    "quickFacts": {
+      "Definition": "The working time between catalysing resin and it beginning to set",
+      "Main Influences": "Catalyst dosage, ambient temperature, resin formulation and batch/inhibitor level",
+      "Too Short": "Risk of resin curing before lay-up/lamination is finished",
+      "Too Long": "Slows production and can hold up mould turnaround"
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "how-to-store-unsaturated-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review its published 6-minute gel time, non-accelerated system and TDS alongside actual conditions."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Compare published GP grade data rather than assuming one gel-time value applies to every grade."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What exactly is gel time?",
+        "a": "Gel time is the period between adding catalyst to a polyester resin and the point at which the resin transitions from a liquid to a soft, gelled state — the point past which it can no longer be worked, rolled out or repositioned."
+      },
+      {
+        "q": "Is gel time the same as full cure time?",
+        "a": "No. Gel time marks the start of the curing reaction becoming irreversible in a practical sense — the resin has stopped being workable — but full cure, where the laminate reaches its final hardness and mechanical properties, takes considerably longer and continues after the gel point."
+      },
+      {
+        "q": "What's the fastest way to shorten gel time?",
+        "a": "Increasing catalyst dosage generally shortens gel time, and higher ambient temperature accelerates the reaction as well. However, catalyst dosage should always follow the resin manufacturer's technical data sheet rather than being adjusted freely, since too much catalyst can cause other problems, including excessive heat generation (exotherm) during cure."
+      },
+      {
+        "q": "Why does the same resin gel faster on a hot day than a cool one?",
+        "a": "The curing reaction is temperature-sensitive — higher ambient and resin temperatures speed up the chemical reaction between catalyst and resin, shortening gel time, while cooler conditions slow it down. This is why gel time figures on a TDS are usually given at a stated reference temperature."
+      },
+      {
+        "q": "What happens if gel time is too short for the job?",
+        "a": "The resin can begin to set before lay-up, rolling out, or de-airing is complete, leaving poor fibre wet-out, trapped air, and visible surface defects in the finished laminate — essentially, the fabricator runs out of working time before the job is done."
+      },
+      {
+        "q": "What happens if gel time is too long?",
+        "a": "Production slows down, mould turnaround time increases, and on vertical or overhead surfaces, resin has more opportunity to drain or sag before it sets, potentially leaving resin-starved areas."
+      },
+      {
+        "q": "Can gel time change between batches of the same resin?",
+        "a": "It can vary slightly batch to batch due to normal manufacturing tolerances, and it's one of the quality parameters checked during production. If gel time seems noticeably different from a previous batch under the same conditions, it's worth checking the batch documentation or contacting the supplier rather than assuming your process has changed."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What Is Gel Time?",
+        "body": [
+          "Gel time is one of the most practically important properties of a catalysed polyester resin, describing the period between adding catalyst and the point at which the resin transitions from a free-flowing liquid into a soft, gelled solid. Once a resin reaches its gel point, it can no longer be worked, rolled out, repositioned or have air worked out of it — the window for doing anything with the resin has closed.",
+          "Gel time is distinct from full cure time. Reaching the gel point means the resin has stopped being liquid and workable, but the chemical crosslinking reaction continues well beyond that point, gradually building the hardness and mechanical properties the fully cured laminate will eventually reach. Gel time is the fabricator's working window; full cure is the material's eventual end state.",
+          "In practical terms, gel time is what determines how much time a fabricator has to complete lay-up, wet out reinforcement, remove trapped air, and get a part fully formed before the resin sets — which is why it's one of the first specifications checked when planning any FRP production run."
+        ]
+      },
+      {
+        "heading": "Factors That Influence Gel Time",
+        "body": [
+          "Several variables affect how quickly a given resin gels once catalysed, and understanding them helps explain why the same resin can behave differently on different days or in different production settings.",
+          "Catalyst dosage is the most direct control a fabricator has — more catalyst generally accelerates the curing reaction and shortens gel time, while less catalyst slows it down. Ambient and resin temperature also has a major effect, since the curing reaction is temperature-sensitive: resin gels faster in a warm workshop than a cool one, all else being equal.",
+          "The resin's own formulation matters too — different resin types and grades are engineered with different reactivity and inhibitor levels, which is why a technical data sheet's stated gel time applies specifically to that product, at a stated reference temperature and catalyst dosage, and doesn't necessarily transfer to a different resin.",
+          "Batch age and storage conditions can have a smaller but real effect as well — resin nearing the end of its shelf life, or that has been stored at elevated temperature, can behave slightly differently than a fresh batch, which is one reason correct storage matters."
+        ]
+      },
+      {
+        "heading": "Gel Time and Production Scheduling",
+        "body": [
+          "Gel time directly shapes how an FRP production line or workshop schedules its work. Longer gel times give more working time per part but slow down how quickly a mould can be reused for the next part, since the fabricator has to wait for the resin to progress through gelling and enough of the cure cycle before demoulding.",
+          "Shorter gel times speed up mould turnaround and suit higher-volume or line-based production, but leave less margin for error — if lay-up, spraying or wet-out isn't completed before the resin gels, the part may be left with defects that can't be corrected afterward.",
+          "This is why gel time is chosen deliberately to match the process and part size, rather than simply maximised or minimised — hand lay-up on a large, complex part typically needs a longer gel time than a small part on a fast-cycle production line, as covered in more detail in our guide to selecting resin for FRP manufacturing."
+        ]
+      },
+      {
+        "heading": "Adjusting Gel Time With Catalyst Ratio",
+        "body": [
+          "Catalyst dosage is the main lever fabricators use to fine-tune gel time within a given resin's usable range. Increasing the catalyst percentage shortens gel time; decreasing it lengthens gel time — within the limits the resin manufacturer specifies as safe and effective for that product.",
+          "It's important not to treat catalyst dosage as a free variable to adjust however convenient, though. Catalyst percentage affects not just gel time but also the exotherm (heat generated during cure) and the final mechanical properties of the cured laminate. Too much catalyst can cause excessive exotherm, risking heat damage, cracking or an unsafe reaction, while too little can leave the resin under-cured with poor mechanical properties."
+        ],
+        "callouts": [
+          {
+            "label": "Important Note",
+            "variant": "warning",
+            "text": "Always follow the specific resin's technical data sheet (TDS) and safety data sheet (SDS) for correct catalyst dosage rather than adjusting it by feel — the right dosage range is product-specific and affects cure quality and safety, not just gel time."
+          }
+        ]
+      },
+      {
+        "heading": "Common Gel Time Issues and Causes",
+        "subsections": [
+          {
+            "heading": "Gel Time Shorter Than Expected",
+            "body": "Usually caused by higher-than-normal workshop temperature, an over-measured catalyst dose, or resin nearing the end of its shelf life. Checking ambient temperature and catalyst measurement first usually identifies the cause."
+          },
+          {
+            "heading": "Gel Time Longer Than Expected",
+            "body": "Often the result of cooler workshop conditions, under-measured catalyst, or a batch with a naturally longer reference gel time than previously used stock. Confirming batch documentation and catalyst dosage helps rule out common causes."
+          },
+          {
+            "heading": "Inconsistent Gel Time Across a Batch",
+            "body": "Can indicate uneven catalyst mixing, inconsistent resin temperature across a large container, or variation introduced during storage. Thorough mixing and consistent storage conditions reduce this variability."
+          },
+          {
+            "heading": "Gel Time Drifting Over Time from the Same Stock",
+            "body": "May reflect the resin approaching the end of its shelf life or degradation from poor storage conditions (heat, sunlight, an unsealed container), rather than a change in the fabricator's own process."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-store-unsaturated-polyester-resin",
+    "title": "How to Store Unsaturated Polyester Resin",
+    "description": "Best practices for storage, handling and maintaining resin quality before use.",
+    "category": "Best Practices",
+    "icon": "drum",
+    "readingTime": "4 min read",
+    "publishDate": "2026-07-18",
+    "quickFacts": {
+      "Store": "Cool, dry, well-ventilated area, away from sunlight and heat sources",
+      "Keep": "Drums tightly sealed when not in use",
+      "Shelf Life": "Finite — typically months, not years; always confirm against the TDS",
+      "Never": "Store resin and peroxide catalyst (e.g. MEKP) together"
+    },
+    "relatedSlugs": [
+      "what-is-unsaturated-polyester-resin",
+      "what-is-gp-polyester-resin",
+      "understanding-gel-time-in-polyester-resin",
+      "polyester-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the parent UPR page to identify the relevant published grade before checking storage details."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Check the product's stated shelf life and storage temperature."
+      },
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the GP White Resin TDS and retain the exact product and storage history with the enquiry."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Check its published 3-month shelf life and 30–35 °C storage temperature."
+      },
+      {
+        "href": "/resources/why-gp-resin-turns-yellow/",
+        "label": "Why GP Resin Turns Yellow",
+        "description": "Review expected grade colour and storage-related checks."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What's the ideal storage temperature for unsaturated polyester resin?",
+        "a": "General guidance is a cool, stable, moderate temperature away from extremes of heat or cold, but the exact recommended range varies by manufacturer and grade. Always check the specific product's technical data sheet (TDS) rather than assuming a universal figure."
+      },
+      {
+        "q": "How long can unsaturated polyester resin be stored before it goes bad?",
+        "a": "Shelf life is finite and typically measured in months rather than years, and it depends on the specific product's formulation and inhibitor system as well as storage conditions. Always check the batch manufacturing date and the manufacturer's stated shelf life rather than assuming resin remains usable indefinitely."
+      },
+      {
+        "q": "Why does resin need to be kept away from direct sunlight?",
+        "a": "UV exposure and heat accelerate the ageing of the resin's inhibitor system, which is what keeps uncatalysed resin stable in storage. Once the inhibitor degrades, resin can become unstable and gel prematurely in the drum, even without catalyst being added."
+      },
+      {
+        "q": "Can resin and catalyst be stored in the same area?",
+        "a": "They can be stored in the same general area but must never be stored, handled or mixed in a way that risks direct contact between concentrated peroxide catalyst and resin or accelerator outside of controlled, catalysed use — this contact can be hazardous. Follow the product's Safety Data Sheet (SDS) for correct separation and handling."
+      },
+      {
+        "q": "How can I tell if a drum of resin has degraded in storage?",
+        "a": "Signs can include unusual thickening or partial gelling in the drum, a noticeable change in colour or odour, or a batch that no longer matches its expected gel time when tested. If any of these are observed, the batch should be checked before use rather than assumed to still be good."
+      },
+      {
+        "q": "Does opening a drum of resin affect its shelf life?",
+        "a": "Yes. Once opened, resin is exposed to air, which allows styrene monomer to evaporate over time, gradually changing the resin's viscosity and reactivity. Drums should be resealed tightly between uses to minimise this effect."
+      },
+      {
+        "q": "What's the best way to manage resin stock over time?",
+        "a": "Using a first-in, first-out (FIFO) rotation, so older batches are used before newer ones, combined with tracking batch dates against the manufacturer's stated shelf life, helps ensure resin is always used well within its usable window rather than left to age unnoticed."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Recommended Storage Conditions",
+        "body": [
+          "Unsaturated polyester resin should be stored in a cool, dry, well-ventilated area, kept away from direct sunlight, heat sources and open flames. These conditions protect two things at once: the resin's chemical stability in storage, and worker safety, since resin contains flammable styrene monomer.",
+          "Exact recommended temperature ranges vary between manufacturers and resin grades, so rather than targeting a single specific figure, the safer general principle is to keep resin within a moderate, stable temperature range and avoid extremes of heat or cold. The specific product's technical data sheet (TDS) is the authoritative source for its recommended storage temperature.",
+          "Ventilation matters both for managing styrene vapour in the storage area and for general workplace safety. Drums should also be stored off the ground where practical and positioned to avoid standing water or moisture ingress around the container's seal."
+        ]
+      },
+      {
+        "heading": "Shelf Life and Temperature Sensitivity",
+        "body": [
+          "Unsaturated polyester resin has a finite shelf life, typically measured in months rather than years, determined largely by the inhibitor system that keeps the uncatalysed resin stable and prevents it from gelling on its own. Over time — and faster under poor storage conditions — this inhibitor system gradually depletes, eventually leaving the resin unstable or prone to premature gelling even without catalyst added.",
+          "Temperature is the single biggest factor influencing how quickly this happens. Storing resin at elevated temperatures accelerates inhibitor depletion, shortening effective shelf life considerably compared with resin kept in a cool, stable environment. This is why manufacturers state shelf life alongside a reference storage temperature rather than as a fixed, condition-independent number.",
+          "Because shelf life is genuinely product-specific, the practical approach is always to check the batch manufacturing date printed on the drum against the shelf life stated on that product's TDS, rather than relying on a general industry rule of thumb."
+        ]
+      },
+      {
+        "heading": "Handling Precautions",
+        "body": [
+          "Unsaturated polyester resin contains styrene monomer, which is flammable and gives off vapour that shouldn't be inhaled in poorly ventilated spaces. Appropriate personal protective equipment — typically chemical-resistant gloves, eye protection, and respiratory protection where ventilation is limited — should be used when handling resin and catalyst.",
+          "Resin and peroxide catalyst, most commonly MEKP, must always be stored, handled and mixed separately from each other and from accelerators. Direct, uncontrolled contact between concentrated peroxide and accelerator can be hazardous, so mixing should only be carried out following the manufacturer's stated procedure and dosage.",
+          "Drums should be kept tightly sealed whenever resin isn't actively being drawn from them. An open or poorly sealed drum allows styrene to evaporate, which changes the resin's viscosity and reactivity over time, and also leaves the resin more exposed to moisture or airborne contaminants."
+        ],
+        "callouts": [
+          {
+            "label": "Important Note",
+            "variant": "warning",
+            "text": "Resin and peroxide catalyst (such as MEKP) must always be stored, handled and mixed separately — direct contact between concentrated peroxide and accelerator can be hazardous. Always read the product's Safety Data Sheet (SDS) before use."
+          }
+        ]
+      },
+      {
+        "heading": "Signs of Resin Degradation",
+        "subsections": [
+          {
+            "heading": "Unusual Thickening or Partial Gelling",
+            "body": "Resin that has noticeably thickened in the drum, or shows signs of partial gelling, has likely begun to lose stability — this batch should be checked and generally should not be used without confirming its condition first."
+          },
+          {
+            "heading": "Colour or Odour Changes",
+            "body": "A noticeable shift in colour or a stronger, unusual odour compared with a fresh batch can indicate the resin has degraded in storage, particularly if the drum was exposed to heat or an extended storage period."
+          },
+          {
+            "heading": "Gel Time No Longer Matching Expectations",
+            "body": "If a batch's gel time under your normal catalyst dosage and workshop conditions is noticeably different from what you'd expect, it can point to inhibitor depletion or other degradation, and is worth investigating before committing to a production run."
+          },
+          {
+            "heading": "Approaching or Past the Stated Shelf Life",
+            "body": "Even without visible signs of change, resin at or beyond its manufacturer-stated shelf life should be treated with caution and, where possible, tested before being used in critical production."
+          }
+        ]
+      },
+      {
+        "heading": "Stock Rotation Best Practices",
+        "body": [
+          "Because resin has a finite shelf life that's shortened by poor storage conditions, disciplined stock rotation is one of the simplest ways to avoid using resin past its useful window. A first-in, first-out (FIFO) approach — using older batches before newer ones — helps ensure resin doesn't sit unused in storage until it ages out.",
+          "Tracking batch manufacturing dates against each product's stated shelf life, rather than relying on visual inspection alone, catches ageing stock before it becomes a quality problem in production. This is particularly important for buyers holding larger volumes of resin across multiple batches or suppliers."
+        ],
+        "callouts": [
+          {
+            "label": "Best Practice",
+            "variant": "practice",
+            "items": [
+              "Store in a cool, dry, well-ventilated area away from sunlight and heat",
+              "Keep drums tightly sealed when not in use",
+              "Track batch dates and rotate stock on a first-in, first-out basis",
+              "Never store resin and peroxide catalyst together, and always follow the SDS"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-fire-retardant-resin",
+    "title": "What Is Fire Retardant Resin? FR Polyester Resin Explained",
+    "description": "Understand the published Fire Retardant Resin product role, its relationship to unsaturated polyester resin, and the requirements to verify before selection.",
+    "category": "Technical Guide",
+    "icon": "shield",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "What Is Fire Retardant Resin? | FR Polyester Resin",
+      "keywords": [
+        "What is Fire Retardant Resin",
+        "FR Resin",
+        "FR Polyester Resin",
+        "Fire Retardant UPR",
+        "Fire Retardant Unsaturated Polyester Resin"
+      ],
+      "ogTitle": "What Is Fire Retardant Resin?",
+      "ogDescription": "A buyer-level explanation of Samrat's published halogenated Fire Retardant Unsaturated Polyester Resin product role."
+    },
+    "quickFacts": {
+      "Published family": "Unsaturated polyester",
+      "Published FR type": "Halogenated fire-retardant formulation",
+      "Supplied form": "White liquid",
+      "Selection rule": "Verify the finished-component requirement before specifying"
+    },
+    "relatedSlugs": [
+      "fire-retardant-polyester-resin-applications-and-benefits",
+      "fire-retardant-resin-vs-gp-resin",
+      "frp-fire-performance-requirements-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "View Fire Retardant Resin",
+        "description": "Review the current TDS for the exact grade."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore the UPR family",
+        "description": "See the broader polyester-resin category and separate product roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an FR Resin requirement",
+        "description": "Share the finished component and project requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Fire Retardant Resin an unsaturated polyester resin?",
+        "a": "Yes. The current Fire Retardant Resin TDS identifies the base resin as unsaturated polyester and the FR type as a halogenated fire-retardant formulation."
+      },
+      {
+        "q": "Is FR Resin a finished FRP fire classification?",
+        "a": "No. FR Resin identifies a specialist product role. A finished FRP requirement must be evaluated against the actual system, required standard or classification and supporting documentation."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A specialist product role within the UPR family",
+        "body": [
+          "Unsaturated Polyester Resin is the broader family. Samrat's Fire Retardant Resin is a published specialist halogenated unsaturated polyester grade within that broader family, intended for an industrial FRP discussion where fire-performance criteria are stated.",
+          "This does not make FR Resin unrelated to polyester resin, and it does not make every polyester resin an FR grade. Product names, technical data and the finished-component requirement must stay connected."
+        ]
+      },
+      {
+        "heading": "What the current product data actually identifies",
+        "body": [
+          "SPR-TDS-FRR Rev. 01 identifies a white liquid resin with 400 cPs viscosity, 5.5-minute gel time, 35% styrene content, three-month shelf life, 30–35 °C storage, 35 kg / 225 kg packaging and a 500 kg MOQ. These are current product-data points for the listed grade.",
+          "The TDS contains a manufacturer-published fire-performance statement with a note that its test-report or certification reference is to be supplied and confirmed. This guide therefore does not turn that statement into a verified rating or finished-system approval."
+        ]
+      },
+      {
+        "heading": "Define the requirement before choosing the grade",
+        "body": [
+          "Start with the finished FRP part, the original project wording and any required standard or classification. Then identify the product role, reinforcement context, expected quantity and delivery location.",
+          "If the application has no stated fire-performance requirement, a general-purpose product route may be more relevant. If it does, use the current Fire Retardant Resin TDS and a focused enquiry instead of assuming a broad UPR figure applies."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fire-retardant-resin-vs-gp-resin",
+    "title": "Fire Retardant Resin vs GP Resin: Which Product Role to Review?",
+    "description": "A buyer comparison of Fire Retardant Resin and general-purpose polyester resin based on published product roles and project requirements.",
+    "category": "Comparison Guide",
+    "icon": "compare",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Fire Retardant Resin vs GP Resin | FR Polyester Comparison",
+      "keywords": [
+        "Fire Retardant Resin vs GP Resin",
+        "FR Resin vs GP Resin",
+        "Fire Retardant Polyester Resin vs General Purpose Resin",
+        "FR Resin selection"
+      ],
+      "ogTitle": "Fire Retardant Resin vs GP Resin",
+      "ogDescription": "Choose the published product role from the finished FRP requirement rather than treating FR and GP resin as interchangeable."
+    },
+    "quickFacts": {
+      "FR Resin": "Specialist route for a stated fire-performance requirement",
+      "GP Resin": "Published general-purpose FRP route",
+      "Shared family": "Both are polyester-resin product discussions",
+      "Decision input": "Actual component and original requirement"
+    },
+    "comparisonTable": {
+      "headers": [
+        "Buyer question",
+        "Fire Retardant Resin",
+        "GP Resin / UPR route"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "Specialist FR product discussion",
+          "General FRP product discussion"
+        ],
+        [
+          "Selection trigger",
+          "A stated fire-performance requirement",
+          "No stated specialist FR requirement"
+        ],
+        [
+          "Documentation",
+          "Use the Fire Retardant Resin TDS",
+          "Use the specific GP or UPR product TDS"
+        ],
+        [
+          "Finished-system result",
+          "Must still be verified",
+          "Must still be verified"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-fire-retardant-resin",
+      "fire-retardant-resin-fireproof-vs-fire-retardant",
+      "types-of-unsaturated-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "View Fire Retardant Resin",
+        "description": "Review the published FR product data and TDS."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate general-purpose clear product route."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View the UPR family",
+        "description": "Use the parent category to identify the right product role."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Fire Retardant Resin automatically better than GP Resin?",
+        "a": "No. The relevant choice follows the actual requirement. A specialist FR product is not automatically the correct route for ordinary general FRP work."
+      },
+      {
+        "q": "Can GP Resin substitute for FR Resin?",
+        "a": "Do not make that substitution from a product name alone. Where a project has a stated fire-performance requirement, review the exact requirement and the current product-specific documentation."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the component requirement",
+        "body": [
+          "GP Resin and Fire Retardant Resin answer different product-role questions. GP products are published for broad general-purpose FRP work. Fire Retardant Resin is the specialist route to review when fire-performance criteria are part of the stated requirement.",
+          "Neither description confirms a result for a finished FRP part. The selection must follow the actual component, system context and project documentation."
+        ]
+      },
+      {
+        "heading": "Do not compare by a single marketing word",
+        "body": [
+          "A buyer may see both products in the polyester-resin family and assume that FR Resin is a universal upgrade. That is not the right decision framework. Compare the actual grade-specific TDS, the component role and the specified requirement.",
+          "For Samrat's current Fire Retardant Resin, the TDS publishes the listed supply and technical information. It does not replace confirmation of a project-specific test, standard or finished-system classification."
+        ]
+      },
+      {
+        "heading": "Keep the commercial discussion specific",
+        "body": [
+          "For an FR requirement, provide the original specification, finished part, required documentation, reinforcement context, quantity and delivery location. For a GP requirement, identify the general FRP application and the desired supplied appearance or product role.",
+          "This prevents a general-resin quote from being mistaken for a specialist requirement, or a specialist grade from being selected without a documented need."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fire-retardant-resin-fireproof-vs-fire-retardant",
+    "title": "Does Fire Retardant Resin Mean Fireproof? Buyer Clarification",
+    "description": "Understand why a Fire Retardant Resin product description is not the same as a fireproof claim or a finished FRP classification.",
+    "category": "Buyer Guide",
+    "icon": "shield",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Does Fire Retardant Resin Mean Fireproof? | FRP Buyer Guide",
+      "keywords": [
+        "Is Fire Retardant Resin fireproof",
+        "Fire Retardant vs Fireproof",
+        "FR Resin fire rating",
+        "FRP fire performance"
+      ],
+      "ogTitle": "Does Fire Retardant Resin Mean Fireproof?",
+      "ogDescription": "A buyer-level distinction between a resin product description and a verified finished FRP requirement."
+    },
+    "quickFacts": {
+      "Fire retardant": "A product-category description",
+      "Fireproof": "Not a claim made for this product",
+      "Finished performance": "Requires the actual system and requirement review",
+      "Best input": "Original standard or classification wording"
+    },
+    "relatedSlugs": [
+      "what-is-fire-retardant-resin",
+      "frp-fire-performance-requirements-buyer-guide",
+      "fire-retardant-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "Review Fire Retardant Resin data",
+        "description": "Use the current TDS for the exact product."
+      },
+      {
+        "href": "/resources/frp-fire-performance-requirements-buyer-guide/",
+        "label": "Review FRP requirement questions",
+        "description": "Identify what must be verified before selection."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a project requirement",
+        "description": "Share the original specification for review."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Fire Retardant Resin non-combustible?",
+        "a": "No such claim is made for this Samrat product. “Fire retardant” should not be treated as a non-combustible or fireproof statement."
+      },
+      {
+        "q": "Does resin alone determine an FRP fire classification?",
+        "a": "No. The finished FRP system and its required documented or tested configuration must be considered before a project conclusion is made."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A product designation is not a project conclusion",
+        "body": [
+          "“Fire Retardant Resin” identifies a specialist product route. It does not mean the resin is fireproof, non-combustible, or automatically approved for a particular project.",
+          "The current Fire Retardant Resin product page uses the term only as published in the product documents and asks buyers to verify their particular requirement."
+        ]
+      },
+      {
+        "heading": "Keep resin data and finished-system performance separate",
+        "body": [
+          "The resin is one material in a finished FRP system. Reinforcement, construction, thickness, surface system and the documented or tested configuration may all be relevant to a required result.",
+          "A buyer should not copy a generic product statement into a drawing, tender or compliance declaration. Instead, retain the original requirement and confirm the appropriate documentation for the actual component."
+        ]
+      },
+      {
+        "heading": "What to ask before ordering",
+        "body": [
+          "Ask which exact standard, classification or document the project requires, whether it applies to the resin or a completed FRP part, and whether the finished system must be tested or documented in a defined configuration.",
+          "The current repository does not contain a fire-test report or certificate for this grade. Include the requirement in the enquiry rather than assuming it can be met from the product name."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "frp-fire-performance-requirements-buyer-guide",
+    "title": "FRP Fire-Performance Requirements: Buyer Guide",
+    "description": "A practical guide to defining an FRP fire-performance requirement before selecting Fire Retardant Resin or requesting a quotation.",
+    "category": "Technical Guide",
+    "icon": "shield",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "FRP Fire-Performance Requirements | Buyer Guide",
+      "keywords": [
+        "FRP fire performance requirements",
+        "Fire Retardant Resin specification",
+        "FRP fire rating requirement",
+        "FR Resin buyer guide"
+      ],
+      "ogTitle": "FRP Fire-Performance Requirements: Buyer Guide",
+      "ogDescription": "Define what a project requires before treating a Fire Retardant Resin product name as a finished-system conclusion."
+    },
+    "quickFacts": {
+      "Start with": "The original project or tender wording",
+      "Confirm": "Whether the requirement applies to resin, laminate or finished part",
+      "Do not infer": "A project classification from a product name",
+      "Current repository": "No Fire Retardant Resin test report or certificate"
+    },
+    "relatedSlugs": [
+      "fire-retardant-resin-fireproof-vs-fire-retardant",
+      "fire-retardant-polyester-resin-applications-and-benefits",
+      "fire-retardant-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "View Fire Retardant Resin",
+        "description": "Review the exact product TDS before selection."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "Review Glass Fiber",
+        "description": "Understand the separate reinforcement material role."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a requirement",
+        "description": "Provide the original specification and finished application."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a product TDS replace a finished FRP test requirement?",
+        "a": "No. A product TDS describes the listed product. A project requirement may apply to a particular laminate or finished component and must be reviewed in that context."
+      },
+      {
+        "q": "What should I send if a project names a fire standard or classification?",
+        "a": "Send the original wording, the finished application, the required documentation and any defined specimen or system context with the enquiry."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Define exactly what the project is asking for",
+        "body": [
+          "Keep the original project wording intact. Establish whether it refers to a liquid resin, a cured resin, a laminate or a finished FRP component, and whether a particular documented or tested configuration is required.",
+          "That distinction prevents a general material description from being copied into a project declaration without the context the requirement needs."
+        ]
+      },
+      {
+        "heading": "Separate product data from system performance",
+        "body": [
+          "A finished FRP result can depend on the resin system, reinforcement, construction, thickness, surface system and the relevant documented or tested configuration. This guide does not provide a design recipe or a fire-test result.",
+          "The Fire Retardant Resin TDS provides the published product data for the listed grade. The repository does not include a supporting fire-test report or certificate for a finished FRP system."
+        ]
+      },
+      {
+        "heading": "Prepare a useful supplier discussion",
+        "body": [
+          "Share the exact requirement, finished component, application, relevant reinforcement context, quantity, packaging need and delivery location. Ask what documentation is available for the specific requirement rather than asking a product name to stand in for a project classification."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fire-retardant-resin-and-glass-fiber",
+    "title": "Fire Retardant Resin and Glass Fiber in FRP Systems",
+    "description": "Understand the separate material roles of Fire Retardant Resin and Glass Fiber when an FRP buyer is reviewing a finished system requirement.",
+    "category": "Technical Guide",
+    "icon": "grid",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Fire Retardant Resin and Glass Fiber | FRP Buyer Guide",
+      "keywords": [
+        "Fire Retardant Resin and Glass Fiber",
+        "FRP Fire Retardant Resin",
+        "Fire Retardant FRP reinforcement",
+        "FR Resin Glass Fiber"
+      ],
+      "ogTitle": "Fire Retardant Resin and Glass Fiber in FRP Systems",
+      "ogDescription": "A high-level material-role guide for buyers reviewing resin and reinforcement in an FRP system."
+    },
+    "quickFacts": {
+      "Fire Retardant Resin": "Matrix/product-system component",
+      "Glass Fiber": "Reinforcement material component",
+      "Selection boundary": "No universal mat grade or laminate design is implied",
+      "Buyer action": "Share the finished part and required documentation"
+    },
+    "relatedSlugs": [
+      "what-is-glass-fiber-chopped-strand-mat",
+      "glass-fiber-and-polyester-resin-compatibility",
+      "frp-fire-performance-requirements-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "View Fire Retardant Resin",
+        "description": "Review the listed resin product data."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber",
+        "description": "Review Samrat's separate reinforcement product."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the FRP system",
+        "description": "Share the finished component and requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Fire Retardant Resin replace Glass Fiber?",
+        "a": "No. They have separate material roles in an FRP system: the listed resin is the matrix component and Glass Fiber is the reinforcement component."
+      },
+      {
+        "q": "Which Glass Fiber grade should be used with FR Resin?",
+        "a": "This resource does not prescribe a universal mat grade. The reinforcement choice must follow the actual component, construction and project requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Two separate material roles",
+        "body": [
+          "A Fire Retardant Resin enquiry concerns the resin or matrix component. A Glass Fiber enquiry concerns reinforcement. Both may be relevant to an FRP system, but neither product page alone defines a finished laminate or project result."
+        ]
+      },
+      {
+        "heading": "Do not turn a product pair into a universal system claim",
+        "body": [
+          "The repository lists Glass Fiber as a separate product and provides an FR Resin TDS for the listed Fire Retardant grade. It does not publish a universal reinforcement selection, layer count, resin-to-glass ratio or finished-system fire classification.",
+          "Review the appropriate product documentation and share the actual application when discussing the system."
+        ]
+      },
+      {
+        "heading": "A focused buyer checklist",
+        "body": [
+          "Identify the finished part, fire-performance requirement if any, required documentation, reinforcement context, quantity and delivery location. This gives the supplier a usable starting point without asking the buyer to design a laminate from a generic guide."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fire-retardant-resin-procurement-checklist",
+    "title": "Fire Retardant Resin Procurement Checklist for FRP Buyers",
+    "description": "Prepare a clear Fire Retardant Resin enquiry with the application, required documentation, quantity and delivery details needed for an industrial quote.",
+    "category": "Buyer Guide",
+    "icon": "checklist",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Fire Retardant Resin Procurement Checklist | FR Resin Quote",
+      "keywords": [
+        "Fire Retardant Resin procurement checklist",
+        "FR Resin quote",
+        "Fire Retardant Polyester Resin supplier",
+        "FR Resin buyer checklist"
+      ],
+      "ogTitle": "Fire Retardant Resin Procurement Checklist",
+      "ogDescription": "The product, project and delivery details that make an FR Resin industrial enquiry easier to review."
+    },
+    "quickFacts": {
+      "Published packaging": "35 kg / 225 kg",
+      "Published MOQ": "500 kg",
+      "Technical document": "Fire Retardant Resin TDS",
+      "Critical project input": "Original fire-performance requirement, if specified"
+    },
+    "relatedSlugs": [
+      "what-is-fire-retardant-resin",
+      "frp-fire-performance-requirements-buyer-guide",
+      "fire-retardant-resin-vs-gp-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "View Fire Retardant Resin",
+        "description": "Confirm the listed TDS, packaging and MOQ."
+      },
+      {
+        "href": "/tds/fire-retardant-resin-tds.pdf",
+        "label": "Review Fire Retardant Resin TDS",
+        "description": "Open the current published technical data sheet."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request an FR Resin quote",
+        "description": "Share the relevant procurement details."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in an FR Resin quotation request?",
+        "a": "Include the finished FRP application, original fire-performance requirement if specified, required documentation, quantity, packaging need and delivery location."
+      },
+      {
+        "q": "Which documents are currently linked for this product?",
+        "a": "The product page links the Fire Retardant Resin TDS and the product catalogue. This guide does not imply that SDS, COA, test reports or certificates are available."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the product and finished application",
+        "body": [
+          "Specify Fire Retardant Resin and describe the intended finished FRP part. If the project has a named standard, classification or document request, copy its original wording into the enquiry rather than summarising it from memory."
+        ]
+      },
+      {
+        "heading": "Review the real product information",
+        "body": [
+          "The current TDS lists the published supply data for this grade, including 35 kg / 225 kg packaging, 500 kg MOQ, three-month shelf life and 30â€“35 Â°C storage. Use the current document for the exact grade rather than relying on a generic FR Resin description.",
+          "The product page also links the catalogue. Neither link should be represented as an SDS, COA, fire-test report or project certificate."
+        ]
+      },
+      {
+        "heading": "Details that support a usable industrial quote",
+        "body": [
+          "Share the finished application, required documentation, project requirement, expected quantity, preferred packaging if relevant and delivery city or location. Add the reinforcement/system context only as needed to explain the component requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-iso-fire-retardant-resin",
+    "title": "What Is ISO Fire Retardant Resin? Isophthalic FR Resin Explained",
+    "description": "Understand Samrat FRP Traders' published ISO Fire Retardant Resin: an isophthalic-based, halogen-free FR polyester grade. Here, ISO describes chemistry, not certification.",
+    "category": "Technical Guide",
+    "icon": "shield",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "What Is ISO Fire Retardant Resin? | Isophthalic FR Resin",
+      "keywords": [
+        "ISO Fire Retardant Resin",
+        "ISO FR Resin",
+        "Isophthalic Fire Retardant Resin",
+        "Isophthalic FR Resin",
+        "FR Isophthalic Polyester Resin"
+      ],
+      "ogTitle": "What Is ISO Fire Retardant Resin?",
+      "ogDescription": "A buyer guide to the published isophthalic FR resin role, ISO terminology and document checks before selection."
+    },
+    "quickFacts": {
+      "ISO in this product name": "Isophthalic-based resin chemistry, not ISO certification",
+      "Published resin family": "Unsaturated polyester resin, fire-retardant grade",
+      "Published FR type": "Halogen-free, ATH-filled",
+      "Buyer checkpoint": "Review the exact TDS and finished-system requirement"
+    },
+    "relatedSlugs": [
+      "iso-fire-retardant-resin-vs-fire-retardant-resin",
+      "iso-fire-retardant-resin-vs-upr",
+      "iso-fire-retardant-resin-fire-requirements"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "View ISO Fire Retardant Resin",
+        "description": "Review the published product data and current TDS."
+      },
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "View standard Fire Retardant Resin",
+        "description": "Compare the separately published FR product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an ISO FR requirement",
+        "description": "Share the component, required documentation and delivery details."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does ISO mean in ISO Fire Retardant Resin?",
+        "a": "In Samrat FRP Traders' current product terminology, ISO refers to isophthalic-based resin chemistry. It does not mean the product or company is ISO certified."
+      },
+      {
+        "q": "Is ISO Fire Retardant Resin an unsaturated polyester resin?",
+        "a": "Yes. The current ISO Fire Retardant Resin TDS identifies it as an Unsaturated Polyester Resin, Fire Retardant Grade, with an isophthalic-based designation."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the product designation",
+        "body": [
+          "ISO Fire Retardant Resin is the separately published isophthalic-based fire-retardant polyester grade from Samrat FRP Traders. Its current TDS describes a halogen-free, ATH-filled liquid resin and identifies the product within the unsaturated polyester resin family.",
+          "The word ISO is a chemistry descriptor here. It should not be read as an ISO certification, ISO approval or a claim that a finished FRP component meets a particular standard."
+        ]
+      },
+      {
+        "heading": "Use the published grade data, not a generic label",
+        "body": [
+          "The current ISO Fire Retardant Resin TDS publishes supply information including white appearance, 400 cPs viscosity, 5.5-minute gel time, 35 kg / 225 kg packaging, 500 kg MOQ, three-month shelf life and 30-35 degrees C storage. Review the current document for the exact grade and project requirement.",
+          "A product description does not by itself establish the fire classification, service suitability or approval of a finished FRP component. Buyers should keep those separate questions in the enquiry."
+        ]
+      },
+      {
+        "heading": "Choose the next question",
+        "body": [
+          "Compare ISO FR with the separately listed standard Fire Retardant Resin when the product route is unclear. Use the UPR guide to understand the family relationship, and use the fire-requirements guide when a project names a standard, classification or tested system.",
+          "For an RFQ, provide the finished component, required documentation, any original project wording, quantity and delivery location. This supports a product discussion without turning a resin name into an unverified system claim."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iso-fire-retardant-resin-vs-fire-retardant-resin",
+    "title": "ISO Fire Retardant Resin vs Fire Retardant Resin",
+    "description": "Compare the published ISO / isophthalic FR grade with Samrat FRP Traders' separately listed standard Fire Retardant Resin without assuming an unverified performance hierarchy.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "ISO Fire Retardant Resin vs Fire Retardant Resin | FR Guide",
+      "keywords": [
+        "ISO Fire Retardant Resin vs Fire Retardant Resin",
+        "ISO FR Resin vs FR Resin",
+        "Isophthalic FR Resin",
+        "Fire Retardant Polyester Resin comparison"
+      ],
+      "ogTitle": "ISO Fire Retardant Resin vs Standard Fire Retardant Resin",
+      "ogDescription": "A document-led comparison of Samrat's separately published ISO / isophthalic and standard FR resin routes."
+    },
+    "quickFacts": {
+      "ISO FR TDS identity": "Halogen-free, ATH-filled isophthalic-based FR grade",
+      "Standard FR TDS identity": "Separately published halogenated FR UPR grade",
+      "Selection rule": "Begin with the project requirement and exact grade data",
+      "Not established by the documents": "A universal fire or performance hierarchy"
+    },
+    "relatedSlugs": [
+      "what-is-iso-fire-retardant-resin",
+      "iso-fire-retardant-resin-applications",
+      "iso-fire-retardant-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "Review ISO Fire Retardant Resin",
+        "description": "Open the product page and current ISO FR TDS."
+      },
+      {
+        "href": "/products/fire-retardant-resin/",
+        "label": "Review standard Fire Retardant Resin",
+        "description": "Use the separate product page and TDS for that grade."
+      },
+      {
+        "href": "/resources/fire-retardant-resin-vs-gp-resin/",
+        "label": "Compare FR Resin with GP Resin",
+        "description": "Use the existing guide for the specialist FR versus general-purpose decision."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is ISO Fire Retardant Resin simply the same as standard Fire Retardant Resin?",
+        "a": "No substitution should be assumed from the names. The current TDS documents identify separate product routes and different published chemistry descriptions. Review the exact grade data and the finished application before selection."
+      },
+      {
+        "q": "Which Fire Retardant Resin is better?",
+        "a": "The available documents do not establish a universal better grade. The relevant choice depends on the required chemistry, finished application, documentation request and any project fire-performance requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Compare the documented product identity first",
+        "body": [
+          "Samrat FRP Traders publishes ISO Fire Retardant Resin and standard Fire Retardant Resin as separate products. The ISO FR TDS describes an isophthalic-based, halogen-free, ATH-filled fire-retardant grade. The standard FR TDS describes a separate halogenated fire-retardant UPR grade.",
+          "That distinction helps a buyer begin the discussion, but it does not prove that either grade is universally stronger, more durable, more fire resistant or suitable for every finished FRP system."
+        ]
+      },
+      {
+        "heading": "Do not compare names without the project requirement",
+        "body": [
+          "Record whether the requirement specifically calls for isophthalic chemistry, a fire-related project specification, particular documentation or a defined finished component. Then review the current grade-specific TDS for the material route being considered.",
+          "If a project requires a particular test method, classification or tested configuration, share the original wording. A resin designation alone does not confirm a finished-part classification."
+        ]
+      },
+      {
+        "heading": "Use the comparison to improve the enquiry",
+        "body": [
+          "Ask the supplier to review the intended FRP component, required documentation, project requirement, quantity, packaging and delivery location against the two published grades. If the requirement is ordinary general FRP rather than a specialised FR selection, review the separately published GP and UPR routes instead."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iso-fire-retardant-resin-applications",
+    "title": "ISO Fire Retardant Resin Applications in FRP",
+    "description": "Review the application categories published for Samrat ISO Fire Retardant Resin and the requirement checks that should accompany industrial FRP selection.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "ISO Fire Retardant Resin Applications in FRP | ISO FR Resin",
+      "keywords": [
+        "ISO Fire Retardant Resin applications",
+        "Isophthalic FR Resin applications",
+        "ISO FR Resin for FRP",
+        "Fire Retardant Isophthalic Resin"
+      ],
+      "ogTitle": "ISO Fire Retardant Resin Applications in FRP",
+      "ogDescription": "A buyer-level guide to the published ISO FR application categories and the information to verify before selection."
+    },
+    "quickFacts": {
+      "Published application categories": "Railway, marine, automotive, FRP panels, electrical enclosures and construction-related FRP",
+      "Application status": "Product positioning, not project approval",
+      "System check": "Finished construction and requirement may need separate verification",
+      "Buyer action": "Share the component and original specification"
+    },
+    "relatedSlugs": [
+      "what-is-iso-fire-retardant-resin",
+      "iso-fire-retardant-resin-fire-requirements",
+      "fire-retardant-resin-and-glass-fiber"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "View ISO Fire Retardant Resin",
+        "description": "Review the published grade role and current TDS."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "Review Glass Fiber",
+        "description": "Understand the separately supplied reinforcement route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an ISO FR application",
+        "description": "Share the finished FRP component and project requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which applications are published for ISO Fire Retardant Resin?",
+        "a": "The current TDS lists railway and marine applications, automotive fire-rated components, FRP panels requiring fire compliance, electrical enclosures, tunnels and construction-related FRP. These are published application categories, not a project-specific approval."
+      },
+      {
+        "q": "Does a listed application prove my finished component is compliant?",
+        "a": "No. A finished FRP component may need its own documented or tested configuration. Share the actual component and requirement before selecting a grade."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Published application categories are a starting point",
+        "body": [
+          "The current ISO Fire Retardant Resin TDS positions the grade for railway and marine applications, automotive fire-rated components, FRP panels requiring fire compliance, electrical enclosures, tunnels and construction-related FRP. These categories help identify where an isophthalic FR route may be evaluated.",
+          "They do not represent a certification, authority approval or a guarantee that every component in those categories meets a particular fire requirement."
+        ]
+      },
+      {
+        "heading": "Move from category to the actual component",
+        "body": [
+          "An industrial buyer should identify the finished part, the exact project wording, any required documentation, the service context and the reinforcement or surface-system context where relevant. This enables a discussion about the listed grade without assuming the product name defines the final composite result.",
+          "If the project names a standard or classification, preserve the original requirement in the RFQ. The repository does not include a finished-system fire-test report for this grade."
+        ]
+      },
+      {
+        "heading": "Keep resin and reinforcement roles separate",
+        "body": [
+          "ISO Fire Retardant Resin is the matrix or resin component in an FRP system. Glass Fiber is a separate reinforcement product. The available product information does not prescribe a universal glass mat grade, laminate design or construction for any listed application."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iso-fire-retardant-resin-vs-upr",
+    "title": "ISO Fire Retardant Resin vs UPR: Isophthalic FR Grade Buyer Guide",
+    "description": "Clarify the relationship between broad unsaturated polyester resin terminology and Samrat's specialised ISO / isophthalic Fire Retardant Resin grade.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "ISO Fire Retardant Resin vs UPR | Isophthalic FR Grade Guide",
+      "keywords": [
+        "ISO Fire Retardant Resin vs UPR",
+        "Isophthalic FR Resin vs Unsaturated Polyester Resin",
+        "ISO FR Resin",
+        "Fire Retardant UPR"
+      ],
+      "ogTitle": "ISO Fire Retardant Resin vs UPR",
+      "ogDescription": "Understand ISO FR as a specialised isophthalic fire-retardant grade within the wider unsaturated polyester resin family."
+    },
+    "quickFacts": {
+      "UPR": "Broad unsaturated polyester resin family",
+      "ISO FR": "Published specialised isophthalic-based FR grade within that family",
+      "Ordinary isophthalic resin": "No separate general isophthalic product is listed in this repository",
+      "Selection rule": "Choose the grade against the stated product and system requirement"
+    },
+    "relatedSlugs": [
+      "what-is-iso-fire-retardant-resin",
+      "iso-fire-retardant-resin-vs-fire-retardant-resin",
+      "iso-fire-retardant-resin-vs-vinyl-ester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Use the broader family page for product-grade orientation."
+      },
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "View ISO Fire Retardant Resin",
+        "description": "Review the specialised ISO FR product data."
+      },
+      {
+        "href": "/resources/types-of-unsaturated-polyester-resin/",
+        "label": "Read the UPR types guide",
+        "description": "Use the existing resource for broad polyester-resin terminology."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is ISO Fire Retardant Resin a UPR?",
+        "a": "Yes. The current TDS identifies it as an Unsaturated Polyester Resin, Fire Retardant Grade. The ISO designation adds an isophthalic-based chemistry descriptor; it does not make it a separate resin family."
+      },
+      {
+        "q": "Is normal isophthalic resin automatically fire retardant?",
+        "a": "No. Isophthalic chemistry and a fire-retardant product designation are separate matters. This repository does not list a general isophthalic resin product for a direct product-to-product comparison."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the product-family hierarchy",
+        "body": [
+          "Unsaturated Polyester Resin, or UPR, is the broad resin family. The current ISO Fire Retardant Resin TDS places this product within that family and describes an isophthalic-based fire-retardant grade.",
+          "This is not a comparison between unrelated materials. The useful question is whether the finished component and project requirement call for this specialised ISO FR product route rather than another published UPR grade."
+        ]
+      },
+      {
+        "heading": "Do not invent a missing general-isophthalic comparison",
+        "body": [
+          "The repository does not list a separate ordinary isophthalic resin product. It would therefore be misleading to publish a performance comparison or imply how an unlisted grade behaves. Isophthalic terminology alone does not establish fire performance, project compliance or service suitability.",
+          "If a specification names isophthalic chemistry, keep that wording in the enquiry and review the current ISO FR TDS alongside the complete project requirement."
+        ]
+      },
+      {
+        "heading": "Select a published grade for the actual purpose",
+        "body": [
+          "Use the UPR family page for broad resin-grade orientation, standard Fire Retardant Resin for the separately published FR route, and Vinyl Ester for its separately published product category. Product names do not replace grade-specific documentation or a finished-system requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iso-fire-retardant-resin-vs-vinyl-ester-resin",
+    "title": "ISO Fire Retardant Resin vs Vinyl Ester Resin: Product Role Guide",
+    "description": "Compare the separately published ISO / isophthalic FR and Vinyl Ester resin routes by product role and required documentation, without unsupported performance claims.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "ISO Fire Retardant Resin vs Vinyl Ester Resin | Buyer Guide",
+      "keywords": [
+        "ISO FR Resin vs Vinyl Ester Resin",
+        "Isophthalic Fire Retardant Resin vs Vinyl Ester",
+        "ISO Fire Retardant Resin",
+        "Vinyl Ester Resin selection"
+      ],
+      "ogTitle": "ISO Fire Retardant Resin vs Vinyl Ester Resin",
+      "ogDescription": "A product-role guide for buyers comparing ISO FR and Vinyl Ester routes without assuming unverified performance data."
+    },
+    "quickFacts": {
+      "ISO FR route": "Published isophthalic-based fire-retardant UPR grade",
+      "Vinyl Ester route": "Separately published Vinyl Ester product category",
+      "Do not infer": "A chemical-resistance, temperature or fire-performance hierarchy",
+      "Buyer action": "Share the service environment and specification"
+    },
+    "relatedSlugs": [
+      "iso-fire-retardant-resin-vs-upr",
+      "iso-fire-retardant-resin-fire-requirements",
+      "iso-fire-retardant-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "View ISO Fire Retardant Resin",
+        "description": "Review the listed isophthalic FR grade and TDS."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the separately published Vinyl Ester product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the resin route",
+        "description": "Share the component, service context and project requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is ISO Fire Retardant Resin a replacement for Vinyl Ester Resin?",
+        "a": "A replacement should not be assumed from broad product names. They are separately published resin routes. Selection should follow the actual component, service environment, required documentation and any fire-performance requirement."
+      },
+      {
+        "q": "Which product has better chemical resistance or temperature performance?",
+        "a": "The ISO FR documents in this repository do not publish a comparison chart or limits for that decision. Share the service chemicals, concentration, temperature and project requirement so the appropriate product route can be reviewed."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Compare the product roles, not unverified performance",
+        "body": [
+          "ISO Fire Retardant Resin is published as an isophthalic-based fire-retardant unsaturated polyester grade. Vinyl Ester Resin is a separately published product category. A buyer may need to investigate both routes, but the available documents do not establish a simple stronger, more chemical-resistant, higher-temperature or higher-fire-performance ranking.",
+          "The correct starting point is the finished component and its actual requirement rather than a generic material hierarchy."
+        ]
+      },
+      {
+        "heading": "Make the service environment visible in the RFQ",
+        "body": [
+          "Where the selection is influenced by chemicals, concentration, temperature, exposure or a named project requirement, provide those details in the enquiry. The current ISO FR documentation does not provide a chemical-compatibility chart or project-specific performance approval.",
+          "For a fire-related requirement, also include the original standard or classification wording and the required documentation."
+        ]
+      },
+      {
+        "heading": "Review the correct documents",
+        "body": [
+          "Open the exact product page and TDS for each route under consideration. This protects against treating a broad category name as evidence that a material is suitable for a particular system or environment."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iso-fire-retardant-resin-fire-requirements",
+    "title": "ISO Fire Retardant Resin: Fire Requirement and Finished FRP Guide",
+    "description": "A buyer-level guide to separating ISO FR resin product data from the fire-performance requirement of a finished FRP system.",
+    "category": "Technical Guide",
+    "icon": "shield",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "ISO Fire Retardant Resin Fire Requirements | FRP Buyer Guide",
+      "keywords": [
+        "ISO Fire Retardant Resin fire requirements",
+        "ISO FR Resin fire rating",
+        "Isophthalic FR Resin",
+        "FRP fire performance requirement"
+      ],
+      "ogTitle": "ISO Fire Retardant Resin: Fire Requirement Guide",
+      "ogDescription": "Understand why an ISO FR resin designation is not automatically a finished FRP fire classification or project approval."
+    },
+    "quickFacts": {
+      "Fire-retardant": "Not automatically fireproof or non-combustible",
+      "Current TDS": "Displays a fire-performance statement without test-report context in this repository",
+      "Finished FRP": "May depend on the total documented or tested system",
+      "Buyer action": "Send the original requirement and component context"
+    },
+    "relatedSlugs": [
+      "what-is-iso-fire-retardant-resin",
+      "iso-fire-retardant-resin-applications",
+      "iso-fire-retardant-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "Review ISO FR product data",
+        "description": "Open the current product page and TDS."
+      },
+      {
+        "href": "/resources/frp-fire-performance-requirements-buyer-guide/",
+        "label": "Read the broader FRP requirement guide",
+        "description": "Use the existing guide for finished-system requirement checks."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an ISO FR requirement",
+        "description": "Share the original specification and finished component."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does ISO Fire Retardant Resin mean fireproof?",
+        "a": "No. Fire-retardant is not the same as fireproof or non-combustible. A product designation should not be treated as a finished FRP classification or a guarantee for a particular application."
+      },
+      {
+        "q": "Does the current TDS establish a finished FRP fire rating?",
+        "a": "The current TDS displays a fire-performance statement, but this repository does not include the supporting test report, method, specimen or finished-system context. Buyers should verify the required documented or tested system for their project."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A product designation is not a finished-system classification",
+        "body": [
+          "ISO Fire Retardant Resin is the published product name for a specialised grade. It should not be described as fireproof, non-combustible or automatically compliant with a project requirement.",
+          "The current TDS displays a fire-performance statement. The repository does not include a supporting test report, test method, specimen description or finished-FRP-system context for that statement, so this guide does not convert it into a project claim."
+        ]
+      },
+      {
+        "heading": "Ask what the requirement actually applies to",
+        "body": [
+          "Establish whether the project requirement concerns a liquid resin, cured resin, laminate or finished component, and whether it names a particular documented or tested configuration. A finished FRP result can depend on the resin, reinforcement, construction, thickness, surface system and tested configuration.",
+          "This is decision support, not a laminate-design or testing instruction. Preserve the original project wording and share it with the enquiry."
+        ]
+      },
+      {
+        "heading": "Use the right document trail",
+        "body": [
+          "Review the ISO FR product TDS for the listed grade data and ask which documentation is available for the specific project requirement. Do not represent the TDS or product catalogue as an SDS, COA, certificate, project approval or fire-test report when those documents are not present."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iso-fire-retardant-resin-procurement-checklist",
+    "title": "ISO Fire Retardant Resin Procurement Checklist",
+    "description": "Prepare an ISO / isophthalic FR Resin enquiry with the application, original requirement, documentation, quantity and delivery details needed for a useful industrial quote.",
+    "category": "Buyer Guide",
+    "icon": "checklist",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "ISO Fire Retardant Resin Procurement Checklist | ISO FR Quote",
+      "keywords": [
+        "ISO Fire Retardant Resin procurement",
+        "ISO FR Resin quote",
+        "Isophthalic FR Resin supplier",
+        "ISO FR Resin buyer checklist"
+      ],
+      "ogTitle": "ISO Fire Retardant Resin Procurement Checklist",
+      "ogDescription": "The product, project, documentation and delivery details that support a focused ISO FR Resin industrial enquiry."
+    },
+    "quickFacts": {
+      "Published packaging": "35 kg / 225 kg",
+      "Published MOQ": "500 kg",
+      "Published document": "ISO Fire Retardant Resin TDS",
+      "Critical RFQ input": "Original fire-performance requirement, if specified"
+    },
+    "relatedSlugs": [
+      "what-is-iso-fire-retardant-resin",
+      "iso-fire-retardant-resin-vs-fire-retardant-resin",
+      "iso-fire-retardant-resin-fire-requirements"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "View ISO Fire Retardant Resin",
+        "description": "Confirm the listed product role, packaging and MOQ."
+      },
+      {
+        "href": "/tds/iso-fire-retardant-resin-tds.pdf",
+        "label": "Review ISO Fire Retardant Resin TDS",
+        "description": "Open the current published technical data sheet."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request an ISO FR Resin quote",
+        "description": "Share the relevant procurement and requirement details."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in an ISO FR Resin quotation request?",
+        "a": "Include the finished FRP application, whether isophthalic chemistry is specifically required, original fire-performance wording if specified, documentation needed, quantity, packaging need and delivery location."
+      },
+      {
+        "q": "Which documents are currently linked for ISO Fire Retardant Resin?",
+        "a": "The product page links the ISO Fire Retardant Resin TDS and the product catalogue. This guide does not imply that SDS, COA, test reports, certificates or project approvals are available."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Name the exact product route",
+        "body": [
+          "Specify ISO Fire Retardant Resin and describe the intended finished FRP component. Where the requirement names isophthalic chemistry, a fire-related classification or a document request, provide the original wording rather than reducing it to a product nickname.",
+          "ISO refers to isophthalic chemistry in the product name, not ISO certification. This small clarification avoids a material-selection error at the first stage of an RFQ."
+        ]
+      },
+      {
+        "heading": "Review the published supply data",
+        "body": [
+          "The current TDS lists 35 kg / 225 kg packaging, a 500 kg MOQ, three-month shelf life and 30-35 degrees C storage for the ISO FR grade. Use the current document for the exact product instead of relying on a generic FR Resin description.",
+          "The page also links the product catalogue. Neither source should be represented as an SDS, COA, fire-test report, certificate or a project compliance declaration."
+        ]
+      },
+      {
+        "heading": "Details that support a usable industrial quote",
+        "body": [
+          "Share the finished component, required documentation, original project requirement, relevant service context, expected quantity, preferred packaging if relevant and delivery city or location. Include reinforcement or surface-system context only where it helps describe the complete component requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-clear-resin-vs-gp-yellow-resin",
+    "title": "GP Clear Resin vs GP Yellow Resin",
+    "description": "Compare GP Clear and GP Yellow Resin by supplied colour, published viscosity and gel time before selecting a general-purpose FRP grade.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Clear Resin vs GP Yellow Resin | Which GP Resin to Choose",
+      "keywords": [
+        "GP Clear Resin vs GP Yellow Resin",
+        "GP Resin comparison",
+        "GP Yellow Resin",
+        "clear polyester resin",
+        "FRP resin selection"
+      ],
+      "ogTitle": "GP Clear Resin vs GP Yellow Resin",
+      "ogDescription": "Compare clear and yellow GP polyester resin grades for FRP processing, appearance and procurement decisions."
+    },
+    "quickFacts": {
+      "Shared Positioning": "General-purpose orthophthalic polyester resins for FRP work",
+      "GP Clear Resin": "Clear; 350-450 cPs; gel time under 8 minutes",
+      "GP Yellow Resin": "Transparent yellow; 450-600 cPs at 25 C; gel time 10-15 minutes",
+      "Best Starting Point": "Confirm the required resin colour, viscosity and working window; do not assume the supplied resin colour defines the finished FRP part"
+    },
+    "comparisonTable": {
+      "title": "Side-by-side comparison",
+      "note": "Compare the published technical data for the specific batch and process before purchase. Resin selection should not be made on colour alone.",
+      "headers": [
+        "Decision factor",
+        "GP Clear Resin",
+        "GP Yellow Resin"
+      ],
+      "rows": [
+        [
+          "Appearance",
+          "Clear",
+          "Transparent yellow"
+        ],
+        [
+          "Published viscosity",
+          "350-450 cPs",
+          "450-600 cPs at 25 C"
+        ],
+        [
+          "Published gel time",
+          "Under 8 minutes",
+          "10-15 minutes"
+        ],
+        [
+          "Curing system",
+          "Non-accelerated",
+          "Non-accelerated"
+        ],
+        [
+          "Packaging / MOQ",
+          "225 kg drum / 1,000 kg",
+          "225 kg drum / 1,000 kg"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "gp-yellow-resin-uses-in-frp-manufacturing",
+      "why-gp-resin-turns-yellow",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "gp-resin-viscosity-explained",
+      "understanding-gel-time-in-polyester-resin",
+      "how-to-store-unsaturated-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published TDS, packaging and commercial details."
+      },
+      {
+        "href": "/products/gp-yellow-resin/",
+        "label": "View GP Yellow Resin",
+        "description": "Review the yellow GP grade and its published data."
+      },
+      {
+        "href": "/resources/gp-yellow-resin-uses-in-frp-manufacturing/",
+        "label": "GP Yellow Resin uses in FRP",
+        "description": "Review the existing GP Yellow Resin application routes before choosing a grade."
+      },
+      {
+        "href": "/resources/why-gp-resin-turns-yellow/",
+        "label": "Why GP Resin is yellow or turns yellow",
+        "description": "Separate the published transparent-yellow grade from an unexpected colour change."
+      },
+      {
+        "href": "/applications/resin-for-hand-lay-up-process/",
+        "label": "Hand lay-up guide",
+        "description": "Check process suitability before selecting a grade."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are GP Clear Resin and GP Yellow Resin used for the same type of FRP work?",
+        "a": "Both are general-purpose orthophthalic polyester resins used across common FRP work. The choice should consider the required appearance, published viscosity, gel time and the specific process."
+      },
+      {
+        "q": "When is GP Clear Resin the more relevant option?",
+        "a": "GP Clear Resin is the grade to discuss where a clear or colourless resin is relevant to the finished process, alongside its published viscosity and gel time."
+      },
+      {
+        "q": "Can procurement compare the two grades only on price?",
+        "a": "No. Confirm the intended process, appearance requirement, technical data, quantity and delivery location before comparing quotations."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Buyer question",
+        "body": [
+          "A common FRP purchasing question is whether a clear GP grade or a yellow GP grade is the better fit for a routine manufacturing line. These are related general-purpose polyester resin grades, but they are not interchangeable without checking what the part, process and appearance requirement actually demand."
+        ]
+      },
+      {
+        "heading": "Quick answer",
+        "body": [
+          "Start with the role of resin colour in the process. GP Clear Resin is the clear general-purpose grade; GP Yellow Resin is supplied transparent yellow. Then compare the published processing data: GP Clear Resin has a lower published viscosity range and a shorter published gel time than the GP Yellow grade.",
+          "Neither option is automatically better. The appropriate choice depends on whether the resin colour will matter, the reinforcement and moulding workflow, and the working window needed by the production team."
+        ]
+      },
+      {
+        "heading": "When to choose each grade",
+        "subsections": [
+          {
+            "heading": "Consider GP Clear Resin",
+            "body": "Consider the clear grade when a colourless resin is relevant to the application and the published 350-450 cPs viscosity with gel time under 8 minutes aligns with the planned workflow. A clear supplied resin does not by itself establish the final appearance of a reinforced, pigmented or surface-finished part. Confirm fit against the product TDS before ordering."
+          },
+          {
+            "heading": "Consider GP Yellow Resin",
+            "body": "Consider the transparent-yellow grade when its supplied colour is acceptable in the process or build-up and its published 450-600 cPs viscosity at 25 C and 10-15 minute gel time suit the line. The supplied resin colour is not, on its own, a claim about the finished reinforced part. Check its product page for the applicable details."
+          },
+          {
+            "heading": "When not to force either choice",
+            "body": "If the job has a specific chemical-resistance, fire-performance, surface-coating or speciality bonding requirement, compare a purpose-specific grade instead of assuming either GP resin is suitable."
+          }
+        ]
+      },
+      {
+        "heading": "Details to share before requesting a quote",
+        "body": [
+          "Share the finished part, manufacturing process, expected quantity, required appearance, existing grade if any, and delivery location. This gives the supplier enough context to direct the enquiry to the relevant product data and grade discussion."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-yellow-resin-uses-in-frp-manufacturing",
+    "title": "GP Yellow Resin Uses in FRP Manufacturing",
+    "description": "Published GP Yellow Resin applications for Indian FRP fabricators where an intentionally transparent-yellow general-purpose grade is suitable for the process or build-up.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Yellow Resin Uses in FRP Manufacturing | Buyer Guide",
+      "keywords": [
+        "GP Yellow Resin uses",
+        "GP Yellow Resin for FRP",
+        "yellow polyester resin for FRP products",
+        "Yellow GP Resin",
+        "GP Resin applications"
+      ],
+      "ogTitle": "GP Yellow Resin Uses in FRP Manufacturing",
+      "ogDescription": "Review the published GP Yellow Resin applications, process considerations and selection questions for FRP manufacturing."
+    },
+    "quickFacts": {
+      "Published resin type": "Transparent-yellow, orthophthalic unsaturated polyester resin",
+      "Published application role": "General-purpose FRP lamination and moulded-product work with glass-fibre reinforcement",
+      "Published processing data": "450-600 cPs viscosity at 25 C; 10-15 minute gel time",
+      "Colour check": "Confirm the supplied transparent-yellow colour is acceptable in the process or build-up",
+      "First selection check": "Confirm the finished part, process, appearance requirement and product TDS"
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "applications-of-gp-polyester-resin",
+      "gp-clear-resin-vs-gp-yellow-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "understanding-gel-time-in-polyester-resin",
+      "how-to-store-unsaturated-polyester-resin",
+      "why-gp-resin-turns-yellow"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-yellow-resin/",
+        "label": "View GP Yellow Resin",
+        "description": "Review the published TDS, packaging, MOQ and technical data."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the clear GP grade where a colourless resin is relevant."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the product published for door, plywood and FRP bonding applications."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the published vinyl ester product when a project has a stated chemical- or corrosion-resistance requirement."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the mould-surface coating product separately from the reinforced laminate."
+      },
+      {
+        "href": "/applications/gp-yellow-resin-for-roofing-sheet-manufacturing/",
+        "label": "FRP roofing sheet application",
+        "description": "Review the existing GP Yellow Resin roofing-sheet guide."
+      },
+      {
+        "href": "/applications/gp-yellow-resin-for-water-tank-manufacturing/",
+        "label": "Water-tank manufacturing application",
+        "description": "Review the existing GP Yellow Resin water-tank guide."
+      },
+      {
+        "href": "/applications/gp-yellow-resin-for-hand-lay-up-process/",
+        "label": "Hand lay-up application",
+        "description": "Review the existing GP Yellow Resin hand lay-up guide."
+      },
+      {
+        "href": "/applications/gp-yellow-resin-for-spray-up-process/",
+        "label": "Spray-up application",
+        "description": "Review the existing GP Yellow Resin spray-up guide before confirming equipment fit."
+      },
+      {
+        "href": "/applications/gp-yellow-resin-for-general-frp-moulded-products/",
+        "label": "Moulded FRP products application",
+        "description": "Review the existing GP Yellow Resin guide for general moulded products."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is GP Yellow Resin used for?",
+        "a": "Samrat FRP Traders publishes GP Yellow Resin for general FRP lamination and moulded-product applications including roofing sheets, water tanks, cooling towers, door skins, hand lay-up, spray-up and general FRP moulded products."
+      },
+      {
+        "q": "Is GP Yellow Resin suitable for every FRP requirement?",
+        "a": "No. It is a published general-purpose orthophthalic grade. A project with a stated chemical- or corrosion-resistance, fire-performance, mould-surface coating or other specialised requirement should be reviewed against the relevant product data before selection."
+      },
+      {
+        "q": "What should an FRP buyer share before requesting a quote?",
+        "a": "Share the finished component, production method, expected quantity, whether the resin colour is suitable in the finished build-up and delivery location. This gives the supplier the context needed for a product discussion."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Where GP Yellow Resin fits in FRP manufacturing",
+        "body": [
+          "GP Yellow Resin is Samrat FRP Traders’ published transparent-yellow, orthophthalic unsaturated polyester grade for general FRP lamination and moulded-product work. It is used with glass-fibre reinforcement to build the structural laminate, rather than as the mould-facing surface coating.",
+          "The product-specific colour decision comes first: confirm that its intentionally transparent-yellow supplied appearance is acceptable in the process or build-up. The published applications cover roofing sheets, water tanks, cooling towers, door skins, hand lay-up, spray-up and general FRP moulded products; each route should still be checked against the TDS and actual line conditions."
+        ]
+      },
+      {
+        "heading": "Published application areas",
+        "subsections": [
+          {
+            "heading": "Roofing sheets, water tanks and cooling towers",
+            "body": "These existing application pages show where GP Yellow Resin is discussed for FRP sheet lamination and tank or cooling-tower production. Buyers should confirm the component design, reinforcement, process and finished-surface requirement before choosing a grade."
+          },
+          {
+            "heading": "Door skins and general moulded products",
+            "body": "For door skins, panels and general FRP moulded products, the product role is the reinforced laminate. Where the visible surface is important, the surface-finish requirement should be considered separately from the structural laminate requirement."
+          },
+          {
+            "heading": "Hand lay-up and spray-up",
+            "body": "The published GP Yellow Resin application pages cover both hand lay-up and spray-up. The product’s published viscosity and gel time should be reviewed against the equipment, reinforcement, part geometry and working window before production use."
+          }
+        ]
+      },
+      {
+        "heading": "Selecting the grade for the finished part",
+        "body": [
+          "GP Yellow Resin is intentionally transparent yellow, so buyers should first confirm whether that supplied colour is acceptable in the process or build-up. It does not, by itself, define the final appearance of a reinforced, pigmented or surface-finished component. Then compare the published 450-600 cPs viscosity at 25 C and 10-15 minute gel time with the intended process.",
+          "A general-purpose grade is not automatically the right choice for every project. Where a clear grade, lamination-focused product, chemical-resistance system or mould-surface coating is required, review GP Clear Resin, Lamination Resin, Vinyl Ester Resin or GP Gelcoat Resin as appropriate, together with their published product data."
+        ]
+      },
+      {
+        "heading": "Procurement and process checklist",
+        "body": [
+          "Before requesting a quote, record the finished FRP component, reinforcement and process, expected quantity, resin colour or surface-finish context, required delivery location and any existing grade in use. Review the GP Yellow Resin TDS and its published packaging, MOQ, shelf life and storage information before finalising a requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-resin-vs-lamination-resin",
+    "title": "GP Resin vs Lamination Resin (LR Resin)",
+    "description": "Understand the difference between general-purpose GP resin and Lamination Resin for FRP work, door lamination and bonding requirements.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Resin vs Lamination Resin (LR Resin) | FRP Buyer Guide",
+      "keywords": [
+        "GP Resin vs LR Resin",
+        "GP Resin vs Lamination Resin",
+        "Lamination Resin",
+        "FRP bonding resin",
+        "door lamination resin"
+      ],
+      "ogTitle": "GP Resin vs Lamination Resin (LR Resin)",
+      "ogDescription": "A practical guide to choosing a general-purpose GP resin or Lamination Resin for the manufacturing requirement."
+    },
+    "quickFacts": {
+      "GP Clear Resin": "Broad general-purpose FRP grade",
+      "Lamination Resin": "Product positioned for door lamination, plywood lamination and FRP bonding",
+      "Published gel time": "GP Clear: under 8 minutes; Lamination Resin: 5 minutes",
+      "Decision trigger": "Match the grade to the actual process, not the generic name"
+    },
+    "comparisonTable": {
+      "title": "Side-by-side comparison",
+      "note": "This is a product-positioning comparison based on the published product pages. Confirm the specific grade's TDS before production use.",
+      "headers": [
+        "Decision factor",
+        "GP Clear Resin",
+        "Lamination Resin (LR Resin)"
+      ],
+      "rows": [
+        [
+          "Primary positioning",
+          "General FRP and composite manufacturing",
+          "Door lamination, plywood lamination and FRP bonding"
+        ],
+        [
+          "Published gel time",
+          "Under 8 minutes",
+          "5 minutes"
+        ],
+        [
+          "Published viscosity",
+          "350-450 cPs",
+          "400 cPs"
+        ],
+        [
+          "Published packaging",
+          "225 kg drum",
+          "35 kg PET packaging / 225 kg drum"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "applications-of-gp-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "For broad general-purpose FRP manufacturing requirements."
+      },
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "For the separately published water-white general-purpose FRP context."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "For door, plywood and FRP bonding requirements."
+      },
+      {
+        "href": "/applications/resin-for-general-frp-lamination/",
+        "label": "General FRP lamination guide",
+        "description": "Review the process before deciding on a grade."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Lamination Resin the same as a general GP resin?",
+        "a": "No. Both are polyester resin products, but the published positioning differs. GP Clear Resin is a broader general-purpose FRP grade, while Lamination Resin is positioned for door lamination, plywood lamination and FRP bonding."
+      },
+      {
+        "q": "Which resin should be discussed for door or plywood lamination?",
+        "a": "Start with Lamination Resin, because that is the product positioned for those requirements. Confirm the substrate, process and finish requirement before placing an order."
+      },
+      {
+        "q": "What should a buyer compare before changing grades?",
+        "a": "Compare the product purpose, TDS, viscosity, gel time, packaging, quantity and the actual manufacturing process. Do not rely on a generic resin name alone."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Buyer question",
+        "body": [
+          "The word lamination can describe both the broad act of building an FRP laminate and a specific door, plywood or bonding requirement. That naming overlap is why buyers sometimes treat GP Clear Resin and Lamination Resin as the same item. Their published product positioning is different and should guide the first selection discussion."
+        ]
+      },
+      {
+        "heading": "Quick answer",
+        "body": [
+          "GP Clear Resin is positioned as a clear general-purpose orthophthalic polyester resin for hand lay-up, spray-up, moulding and general lamination. Lamination Resin, also called LR Resin, is positioned for door lamination, plywood lamination and FRP bonding.",
+          "For a general FRP requirement, begin with GP Clear Resin. For a door, plywood or bonding-focused requirement, begin with Lamination Resin and verify the details against its TDS."
+        ]
+      },
+      {
+        "heading": "When not to choose by name alone",
+        "body": [
+          "A buyer should not select either grade solely because a process is described as lamination. Confirm the substrate, reinforcement, required surface appearance, part size, expected working time and technical specification. Those details determine whether the general-purpose or lamination-specific positioning is appropriate."
+        ]
+      },
+      {
+        "heading": "Quote checklist",
+        "body": [
+          "Include the finished product, process, quantity, packaging preference, required delivery location and any current resin grade in the enquiry. This helps avoid a quotation being prepared against the wrong use case."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-resin-vs-vinyl-ester-resin",
+    "title": "GP Resin vs Vinyl Ester Resin",
+    "description": "Compare general-purpose GP polyester resin and vinyl ester resin when an FRP project has different process or chemical-resistance requirements.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Resin vs Vinyl Ester Resin | FRP Selection Guide",
+      "keywords": [
+        "GP Resin vs Vinyl Ester Resin",
+        "general purpose polyester resin",
+        "vinyl ester resin",
+        "chemical resistant FRP resin",
+        "FRP resin selection"
+      ],
+      "ogTitle": "GP Resin vs Vinyl Ester Resin",
+      "ogDescription": "Understand when a general-purpose GP grade or a vinyl ester system should be reviewed for an FRP application."
+    },
+    "quickFacts": {
+      "GP Clear Resin": "Orthophthalic, general-purpose polyester resin",
+      "Vinyl Ester Resin": "Bisphenol-A epoxy vinyl ester product positioned for chemical-resistant FRP work",
+      "GP Clear Resin use": "Routine hand lay-up, spray-up, moulding and general lamination",
+      "Decision trigger": "Confirm the actual exposure and performance requirement before choosing a resin family"
+    },
+    "comparisonTable": {
+      "title": "Side-by-side comparison",
+      "note": "No resin family is universally better. Use the product TDS and the application's stated requirements to make the final selection.",
+      "headers": [
+        "Decision factor",
+        "GP Clear Resin",
+        "Vinyl Ester Resin"
+      ],
+      "rows": [
+        [
+          "Published resin type",
+          "Orthophthalic unsaturated polyester",
+          "Bisphenol-A epoxy vinyl ester"
+        ],
+        [
+          "Primary positioning",
+          "General-purpose FRP work",
+          "Chemical-resistant FRP applications"
+        ],
+        [
+          "Published applications",
+          "Hand lay-up, spray-up, moulding and general lamination",
+          "Chemical tanks, pipelines, ducting, scrubbers, filament winding and pultrusion"
+        ],
+        [
+          "What to verify",
+          "Process, working time and appearance requirement",
+          "Chemical exposure, cure requirements and the application-specific TDS"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "applications-of-gp-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "For general-purpose FRP production requirements."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "For projects requiring a chemical-resistant resin system review."
+      },
+      {
+        "href": "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
+        "label": "Chemical tank application guide",
+        "description": "Review a relevant vinyl ester use case."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is vinyl ester resin a direct substitute for GP resin?",
+        "a": "Not automatically. The products are positioned for different needs: GP Clear Resin for general-purpose FRP work and Vinyl Ester Resin for chemical-resistant FRP applications. The application requirements should determine the choice."
+      },
+      {
+        "q": "When should a buyer review vinyl ester instead of GP Clear Resin?",
+        "a": "Review Vinyl Ester Resin when the project has a stated chemical- or corrosion-resistance requirement, or when the end use is a chemical tank, pipeline, duct, scrubber or related application."
+      },
+      {
+        "q": "Can a supplier recommend a grade without knowing the application?",
+        "a": "A responsible selection discussion needs the end use, process, exposure, quantity and technical requirement. Those details should be shared before finalising a grade."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Buyer question",
+        "body": [
+          "Many FRP buyers first compare GP resin and vinyl ester resin when a project moves beyond routine moulding or lamination into a more demanding service environment. The useful question is not which name sounds higher specification, but what the finished part is required to handle."
+        ]
+      },
+      {
+        "heading": "Quick answer",
+        "body": [
+          "GP Clear Resin is the published general-purpose orthophthalic polyester grade for common FRP processes. Vinyl Ester Resin is a different product family, published as a Bisphenol-A epoxy vinyl ester for chemical-resistant FRP applications.",
+          "For a normal GP application, begin with the GP Clear Resin data. For a project with specified chemical or corrosion exposure, review the Vinyl Ester Resin page, TDS and application details before making a purchase decision."
+        ]
+      },
+      {
+        "heading": "When to consider each resin",
+        "subsections": [
+          {
+            "heading": "Consider GP Clear Resin",
+            "body": "Consider GP Clear Resin for the routine FRP processes and general applications listed on its product page, after confirming the published technical data is appropriate for the job."
+          },
+          {
+            "heading": "Consider Vinyl Ester Resin",
+            "body": "Consider Vinyl Ester Resin where the design brief identifies chemical resistance or corrosion resistance as a requirement, or where the application aligns with its published chemical-tank, pipeline, ducting, scrubber, filament-winding or pultrusion uses."
+          },
+          {
+            "heading": "Do not make an assumption",
+            "body": "Do not upgrade or substitute resin families based only on a product name. Share the exposure, process, cure requirement and applicable specification for technical review."
+          }
+        ]
+      },
+      {
+        "heading": "Details to share with the supplier",
+        "body": [
+          "Provide the medium or exposure involved, expected service conditions, part type, reinforcement and manufacturing process, plus the quantity and delivery location. This is more useful than asking for a generic high-performance resin."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-resin-vs-gelcoat-resin",
+    "title": "GP Resin vs Gelcoat Resin",
+    "description": "Learn the different roles of GP resin and gelcoat resin in an FRP laminate, from structural build-up to the mould-facing surface.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Resin vs Gelcoat Resin | Roles in FRP Manufacturing",
+      "keywords": [
+        "GP Resin vs Gelcoat Resin",
+        "FRP gelcoat",
+        "general purpose resin",
+        "FRP laminate resin",
+        "mould surface coating"
+      ],
+      "ogTitle": "GP Resin vs Gelcoat Resin",
+      "ogDescription": "A practical explanation of the different roles of GP resin and gelcoat in FRP manufacturing."
+    },
+    "quickFacts": {
+      "GP Clear Resin": "General-purpose resin used to build the FRP laminate",
+      "GP Gelcoat Resin": "Polyester surface-coating gelcoat for the mould-facing surface",
+      "Relationship": "The products can be used in the same FRP manufacturing sequence for different roles",
+      "Decision trigger": "Separate the structural laminate requirement from the required surface finish"
+    },
+    "comparisonTable": {
+      "title": "Side-by-side comparison",
+      "note": "These products serve different jobs in an FRP build-up. Confirm the product-specific TDS and process requirements before use.",
+      "headers": [
+        "Decision factor",
+        "GP Clear Resin",
+        "GP Gelcoat Resin"
+      ],
+      "rows": [
+        [
+          "Primary role",
+          "Builds the laminate with reinforcement",
+          "Provides the mould-facing surface coating"
+        ],
+        [
+          "Published positioning",
+          "General-purpose orthophthalic polyester resin",
+          "High-gloss polyester surface coating"
+        ],
+        [
+          "Use with reinforcement",
+          "Used to wet out and bind glass-fibre reinforcement",
+          "Not positioned as the bulk laminating resin"
+        ],
+        [
+          "Selection question",
+          "What does the laminate need to do?",
+          "What surface finish and mould-facing behaviour are required?"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-gp-polyester-resin",
+      "what-is-gel-coat-resin",
+      "applications-of-gelcoat-resin-in-frp-manufacturing",
+      "gelcoat-resin-vs-vinyl-ester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "For the general-purpose FRP laminate requirement."
+      },
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "For the separately published water-white general-purpose laminate role."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "For the mould-facing surface-coating requirement."
+      },
+      {
+        "href": "/resources/what-is-gel-coat-resin/",
+        "label": "Read the gelcoat guide",
+        "description": "Understand gelcoat selection and role in a composite build-up."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can GP Clear Resin replace gelcoat?",
+        "a": "No. The products have different published roles. GP Clear Resin is used to build the laminate, while GP Gelcoat Resin is positioned as a mould-surface coating."
+      },
+      {
+        "q": "Can GP resin and gelcoat be used together?",
+        "a": "Yes. They can be used in the same FRP manufacturing sequence for different roles: gelcoat on the mould-facing surface and GP resin with reinforcement to build the laminate behind it."
+      },
+      {
+        "q": "What should a buyer specify in an enquiry?",
+        "a": "State whether the enquiry is for the laminate, the visible surface finish, or both. Also share the part type, process, quantity and any required appearance."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Buyer question",
+        "body": [
+          "GP resin and gelcoat are often requested together, but they should not be treated as two names for the same material. A clear selection starts by separating the job of building the laminate from the job of creating the mould-facing surface."
+        ]
+      },
+      {
+        "heading": "Quick answer",
+        "body": [
+          "GP Clear Resin is the general-purpose resin used with glass-fibre reinforcement to form the FRP laminate. GP Gelcoat Resin is the published polyester surface-coating product for the mould-facing side of a part.",
+          "In a typical build-up, the surface layer and the structural laminate are selected for different reasons. The production team should identify both requirements rather than asking for a single resin to do both jobs."
+        ]
+      },
+      {
+        "heading": "When to choose each product",
+        "subsections": [
+          {
+            "heading": "Choose GP Clear Resin for the laminate",
+            "body": "Use the GP Clear Resin page and TDS when the requirement is to wet out reinforcement and build the general FRP laminate in the published processes."
+          },
+          {
+            "heading": "Choose GP Gelcoat Resin for the surface",
+            "body": "Use the GP Gelcoat Resin page and TDS when the requirement concerns the mould-facing surface coating, finish or surface behaviour."
+          },
+          {
+            "heading": "When the project needs both",
+            "body": "Discuss the full sequence, part geometry, process and expected surface result. This helps ensure the laminate and surface layer are considered together without treating them as substitutes."
+          }
+        ]
+      },
+      {
+        "heading": "Procurement checklist",
+        "body": [
+          "Include whether the purchase is for a structural laminate, a surface coating, or a complete build-up; then add the part type, process, quantity and delivery location. This makes the quotation request more precise."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "why-gp-resin-turns-yellow",
+    "title": "Why GP Resin Is Yellow or Turns Yellow",
+    "description": "A practical guide to understanding intentional yellow GP resin and unexpected colour change, what to check first and when to discuss a batch or process with the supplier.",
+    "category": "Troubleshooting Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Why GP Resin Is Yellow or Turns Yellow | Buyer Checks",
+      "keywords": [
+        "why GP resin is yellow",
+        "why GP resin turns yellow",
+        "GP Yellow Resin",
+        "yellow polyester resin",
+        "GP resin colour",
+        "polyester resin storage"
+      ],
+      "ogTitle": "Why GP Resin Is Yellow or Turns Yellow",
+      "ogDescription": "Understand the published transparent-yellow GP grade, storage-related colour change and the information to share when discussing a batch."
+    },
+    "quickFacts": {
+      "First check": "Confirm whether the supplied grade is clear or intentionally transparent yellow",
+      "Storage factors": "Heat, direct sunlight, age and an unsealed container can affect resin condition",
+      "Do not assume": "A colour difference alone does not identify the cause or prove fitness for use",
+      "Useful records": "Batch details, storage history, photographs and the intended application"
+    },
+    "relatedSlugs": [
+      "gp-clear-resin-vs-gp-yellow-resin",
+      "gp-yellow-resin-uses-in-frp-manufacturing",
+      "what-is-gp-polyester-resin",
+      "how-to-store-unsaturated-polyester-resin",
+      "gp-resin-viscosity-explained"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Check the published clear appearance, storage guidance and TDS."
+      },
+      {
+        "href": "/products/gp-yellow-resin/",
+        "label": "View GP Yellow Resin",
+        "description": "Review the intentionally transparent-yellow GP grade."
+      },
+      {
+        "href": "/resources/gp-clear-resin-vs-gp-yellow-resin/",
+        "label": "Compare GP Clear and GP Yellow Resin",
+        "description": "Review the published appearance, viscosity and gel-time differences."
+      },
+      {
+        "href": "/resources/how-to-store-unsaturated-polyester-resin/",
+        "label": "Read storage guidance",
+        "description": "Review general storage and stock-rotation practices."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is all yellow GP resin defective?",
+        "a": "No. Some GP grades are intentionally supplied transparent yellow. First confirm the ordered grade and its published appearance before treating yellow colour as a problem."
+      },
+      {
+        "q": "Why is GP Yellow Resin yellow?",
+        "a": "GP Yellow Resin is published as a transparent-yellow general-purpose grade. Its supplied appearance should be checked against the product page and Technical Data Sheet, rather than being treated as an unexpected colour change."
+      },
+      {
+        "q": "Can storage affect the appearance of resin?",
+        "a": "Heat, direct sunlight, age and an unsealed container can affect resin condition. The product TDS and batch information should be checked before use."
+      },
+      {
+        "q": "What should I send to the supplier if a batch looks different?",
+        "a": "Share the product name, batch details, manufacturing or receipt date if available, storage history, photographs and the intended application. Do not assume a remedy without technical review."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Understand the starting colour first",
+        "body": [
+          "The phrase yellow GP resin can describe two different situations: a grade that is intentionally supplied transparent yellow, and a GP Clear Resin batch that appears different from the expected clear appearance. These should not be treated as the same issue. Start by confirming the product name, ordered grade and the appearance stated for that grade."
+        ]
+      },
+      {
+        "heading": "When GP Yellow Resin is the intended grade",
+        "body": [
+          "Samrat FRP Traders publishes GP Yellow Resin as a transparent-yellow, general-purpose orthophthalic polyester grade. When that is the ordered product, its colour is part of the published grade description rather than evidence of a defect. The selection question is whether the colour is suitable or will be hidden in the finished FRP build-up, alongside the product’s published processing data and intended application."
+        ]
+      },
+      {
+        "heading": "Common reasons a clear grade may look different",
+        "body": [
+          "Resin condition can be affected by storage and age. Existing storage guidance highlights heat, direct sunlight and a poorly sealed container as factors that can affect stability and appearance over time. A visible change may also arise from handling or contamination in the process, so colour alone is not enough to identify the cause.",
+          "Do not judge a batch only by visual appearance. Compare the batch details with the expected product, review the storage record and check the applicable TDS before committing it to a production run."
+        ]
+      },
+      {
+        "heading": "Prevention and purchasing checks",
+        "body": [
+          "Keep drums sealed when not in use, protect them from direct sunlight and heat, and rotate stock by batch date. When appearance matters in the finished part, include that requirement in the original product discussion rather than assuming every GP grade has the same colour characteristics."
+        ]
+      },
+      {
+        "heading": "What to share with the supplier",
+        "body": [
+          "Provide the product and batch details, photographs taken in neutral light, how and where the drum was stored, whether the container has been opened, and the intended FRP process. This gives the supplier context for a technical conversation without making unsupported assumptions about the cause."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "why-polyester-resin-remains-sticky-or-tacky",
+    "title": "Why Polyester Resin Remains Sticky or Tacky",
+    "description": "Understand common reasons a polyester resin surface may remain sticky or tacky, the checks to make and the details to share with a supplier.",
+    "category": "Troubleshooting Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Why Polyester Resin Remains Sticky or Tacky | Troubleshooting Guide",
+      "keywords": [
+        "polyester resin sticky",
+        "polyester resin tacky",
+        "GP resin not curing",
+        "FRP resin troubleshooting",
+        "polyester resin gel time"
+      ],
+      "ogTitle": "Why Polyester Resin Remains Sticky or Tacky",
+      "ogDescription": "A practical, safety-conscious guide to checking a sticky or tacky polyester resin surface before changing the process."
+    },
+    "quickFacts": {
+      "What it can indicate": "A cure, process, storage or surface-condition issue that needs checking",
+      "First response": "Pause and compare the process with the product TDS and batch information",
+      "Do not do": "Do not add unapproved chemicals or change catalyst dosage by guesswork",
+      "Useful records": "Product, batch, process, ambient conditions and observed result"
+    },
+    "relatedSlugs": [
+      "understanding-gel-time-in-polyester-resin",
+      "how-to-store-unsaturated-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "gp-resin-viscosity-explained"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published curing system and TDS for the specific GP grade."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the published curing system and TDS for the lamination grade."
+      },
+      {
+        "href": "/resources/understanding-gel-time-in-polyester-resin/",
+        "label": "Read the gel time guide",
+        "description": "Understand working time, cure progression and common gel-time issues."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the application",
+        "description": "Share the process and batch details for a focused technical conversation."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a tacky surface always mean the resin is defective?",
+        "a": "No. A sticky or tacky result can have several causes related to cure conditions, mixing or measurement, temperature, storage, surface effects or process fit. The batch and process should be reviewed before reaching a conclusion."
+      },
+      {
+        "q": "Should I add more catalyst to correct a tacky resin?",
+        "a": "Do not change catalyst or accelerator dosage by guesswork. Follow the specific product TDS and seek supplier guidance, because cure chemistry and safety are product-specific."
+      },
+      {
+        "q": "What should I record before contacting a supplier?",
+        "a": "Record the product and batch, the intended process, ambient conditions, storage history, timing, reinforcement or substrate and photographs of the result. This makes troubleshooting more useful."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What a sticky or tacky result means",
+        "body": [
+          "A sticky or tacky resin surface means the finished result has not reached the condition expected by the fabricator. It is a troubleshooting signal, not a diagnosis on its own. The same visible outcome can be connected to more than one part of the material, process or environment."
+        ]
+      },
+      {
+        "heading": "Common areas to check",
+        "body": [
+          "Start with the exact product and batch, then compare the process with the published TDS. Check whether the resin was within its stated shelf-life and storage conditions, whether the process followed the supplier's stated system, and whether the ambient conditions differed from the normal production environment.",
+          "For a laminate, also record the reinforcement, part shape and surface involved. These details help distinguish a general cure issue from a process-specific surface result without recommending unapproved changes."
+        ]
+      },
+      {
+        "heading": "Prevention without guesswork",
+        "body": [
+          "Use the specified product for the intended application, keep accurate batch and process records, follow the product TDS and maintain controlled storage. Do not attempt to compensate for a problem by adding chemicals or changing curing inputs without the product-specific guidance required for safe use."
+        ]
+      },
+      {
+        "heading": "What to share with the supplier",
+        "body": [
+          "Provide the product name, batch details, manufacturing date if available, storage history, process used, ambient conditions, timing and photographs. Include whether the issue appears across the part or only on one surface. This information supports a practical technical discussion."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-reduce-shrinkage-in-gp-resin-applications",
+    "title": "How to Reduce Shrinkage in GP Resin Applications",
+    "description": "A practical guide to understanding shrinkage in GP resin applications and the process questions to resolve before production.",
+    "category": "Best Practices",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "How to Reduce Shrinkage in GP Resin Applications | FRP Guide",
+      "keywords": [
+        "GP resin shrinkage",
+        "polyester resin shrinkage",
+        "FRP shrinkage",
+        "GP resin applications",
+        "FRP process control"
+      ],
+      "ogTitle": "How to Reduce Shrinkage in GP Resin Applications",
+      "ogDescription": "Understand resin shrinkage as a process and application question, without relying on unsupported one-size-fits-all fixes."
+    },
+    "quickFacts": {
+      "What shrinkage means": "Dimensional change as a resin system cures",
+      "Why it varies": "Grade, reinforcement, part geometry, laminate design and cure conditions all matter",
+      "First step": "Clarify the dimensional and surface requirement for the finished part",
+      "Avoid": "Unapproved process changes or universal shrinkage claims without application data"
+    },
+    "relatedSlugs": [
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "applications-of-gp-polyester-resin",
+      "understanding-gel-time-in-polyester-resin",
+      "gp-resin-viscosity-explained"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published general-purpose grade and TDS."
+      },
+      {
+        "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+        "label": "Read the resin-selection guide",
+        "description": "Match resin choice to process and part requirements."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss your application",
+        "description": "Share the part, process and dimensional requirement before selecting a system."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can one shrinkage recommendation apply to every GP resin application?",
+        "a": "No. Shrinkage behaviour depends on the specific grade, reinforcement, part geometry, laminate design and cure conditions. The application should be reviewed before making changes."
+      },
+      {
+        "q": "Should a buyer ask about shrinkage before ordering GP resin?",
+        "a": "Yes, when dimensional accuracy, mould replication or surface appearance is important. Share the part type, process and acceptance requirement early in the discussion."
+      },
+      {
+        "q": "Can catalyst changes be used as a general shrinkage fix?",
+        "a": "Do not make unapproved cure-system changes as a general fix. Follow the product TDS and request technical guidance for the specific application."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What shrinkage means in an FRP application",
+        "body": [
+          "Shrinkage refers to dimensional change as a resin system cures. In practical FRP manufacturing, its importance depends on the part: a large moulded surface, a detailed pattern, a tight-fit component and a general fabricated item may not have the same dimensional or surface expectations."
+        ]
+      },
+      {
+        "heading": "Why one answer does not fit every part",
+        "body": [
+          "The finished result is influenced by the resin grade, reinforcement, laminate design, geometry, mould condition and cure environment. This is why a general statement about a resin family is not enough to predict a specific part. The production requirement must be defined before a supplier can discuss the relevant system."
+        ]
+      },
+      {
+        "heading": "Practical prevention approach",
+        "body": [
+          "Start with the right application and process discussion rather than an after-the-fact correction. Confirm the part geometry, reinforcement, finish, dimensional tolerance, expected production method and any current process issue. Maintain consistent handling and follow the published product guidance rather than changing cure inputs without approval."
+        ]
+      },
+      {
+        "heading": "What to share with the supplier",
+        "body": [
+          "Share drawings or part dimensions where appropriate, the moulding method, reinforcement, laminate build-up, visible surface requirement, quantity and the problem being observed. This gives the supplier the context needed to discuss product selection without making unsupported performance promises."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-resin-viscosity-explained",
+    "title": "GP Resin Viscosity Explained",
+    "description": "Understand the published 350-450 cPs GP Clear Resin viscosity and the process checks needed for hand lay-up, spray-up and general FRP processing.",
+    "category": "Technical Data",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Resin Viscosity Explained | FRP Buyer and Process Guide",
+      "keywords": [
+        "GP resin viscosity",
+        "polyester resin viscosity",
+        "GP Clear Resin viscosity",
+        "FRP resin processing",
+        "hand lay-up resin"
+      ],
+      "ogTitle": "GP Resin Viscosity Explained",
+      "ogDescription": "A practical explanation of GP resin viscosity, process fit and the information to check against a technical data sheet."
+    },
+    "quickFacts": {
+      "Definition": "A measure of a resin's resistance to flow",
+      "GP Clear Resin": "Published viscosity of 350-450 cPs",
+      "Why it matters": "Viscosity affects how a resin handles in a given process",
+      "Always check": "The specific product TDS, temperature and equipment or reinforcement used"
+    },
+    "relatedSlugs": [
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "understanding-gel-time-in-polyester-resin",
+      "how-to-store-unsaturated-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published 350-450 cPs viscosity and TDS."
+      },
+      {
+        "href": "/products/gp-yellow-resin/",
+        "label": "View GP Yellow Resin",
+        "description": "Compare the published 450-600 cPs viscosity at 25 C, 10-15 minute gel time and intentionally transparent-yellow grade."
+      },
+      {
+        "href": "/applications/resin-for-spray-up-process/",
+        "label": "Read the spray-up guide",
+        "description": "Review the process context before selecting a resin grade."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does viscosity mean for a GP resin buyer?",
+        "a": "Viscosity describes how readily a resin flows. For buyers and production teams, it is one of the published properties used to assess process fit alongside gel time, resin type and cure system."
+      },
+      {
+        "q": "Is a lower viscosity always better?",
+        "a": "No. The useful viscosity depends on the process, reinforcement, part geometry and equipment. Compare the TDS with the actual manufacturing requirement rather than treating lower or higher as universally better."
+      },
+      {
+        "q": "Can storage change the way resin flows?",
+        "a": "Storage history and temperature can affect resin condition. Keep the product within its stated storage guidance and compare any concern with the batch information and TDS."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What viscosity means",
+        "body": [
+          "Viscosity is a measure of resistance to flow. In practical terms, it influences how a resin moves, wets reinforcement and behaves in a manufacturing process. It should be read as a process-fit property, not as a stand-alone quality score."
+        ]
+      },
+      {
+        "heading": "GP Clear Resin viscosity",
+        "body": [
+          "GP Clear Resin has a published viscosity of 350-450 cPs. That number should be considered alongside its non-accelerated curing system, gel time, reinforcement and the process being used. The product TDS is the correct reference for the actual grade rather than a general industry figure."
+        ]
+      },
+      {
+        "heading": "Why process context matters",
+        "body": [
+          "Hand lay-up, spray-up and other FRP processes place different demands on resin flow. Reinforcement type, mould shape, part size, workshop temperature and equipment can all affect whether the published viscosity is a good fit for the line. Review the process before switching grades."
+        ]
+      },
+      {
+        "heading": "What to discuss before purchase",
+        "body": [
+          "Share the manufacturing process, reinforcement, part type, temperature conditions, equipment where relevant, expected quantity and any current resin grade. This helps a supplier compare the requirement with the published data instead of making a generic recommendation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-lamination-resin",
+    "title": "What is Lamination Resin (LR Resin)?",
+    "description": "A buyer guide to Lamination Resin, also called LR Resin, for door, plywood and FRP bonding work.",
+    "category": "Technical Explainer",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What is Lamination Resin (LR Resin)? | Buyer Guide",
+      "keywords": [
+        "what is Lamination Resin",
+        "LR Resin",
+        "polyester lamination resin",
+        "Lamination Resin manufacturer",
+        "resin for FRP lamination"
+      ],
+      "ogTitle": "What is Lamination Resin (LR Resin)?",
+      "ogDescription": "Understand the published role, applications and buyer checks for Samrat FRP Traders Lamination Resin."
+    },
+    "quickFacts": {
+      "Published resin type": "Transparent orthophthalic unsaturated polyester",
+      "Published applications": "Door lamination, plywood lamination and FRP bonding",
+      "Published gel time": "5 minutes",
+      "Buyer check": "Confirm the substrate, process, finish requirement and TDS before selection"
+    },
+    "relatedSlugs": [
+      "gp-resin-vs-lamination-resin",
+      "applications-of-lamination-resin",
+      "lamination-resin-for-hand-lay-up",
+      "understanding-gel-time-in-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the published TDS, packaging and procurement details."
+      },
+      {
+        "href": "/applications/door-lamination/",
+        "label": "Door lamination guide",
+        "description": "Explore one of the published application contexts."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an LR Resin application",
+        "description": "Share the substrate, process and quantity for a focused discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does LR Resin mean?",
+        "a": "LR Resin is the short name used here for Lamination Resin. Samrat FRP Traders publishes this grade for door lamination, plywood lamination and FRP bonding work."
+      },
+      {
+        "q": "Is Lamination Resin the same as every general-purpose polyester resin?",
+        "a": "Not automatically. Both are polyester-resin products, but selection should begin with the published product purpose and the actual manufacturing process. Compare the TDS before choosing a grade."
+      },
+      {
+        "q": "What should a buyer share before requesting an LR Resin quote?",
+        "a": "Share the finished component, substrate or reinforcement, process, expected quantity, packaging preference and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The simple definition",
+        "body": [
+          "Lamination Resin, also known as LR Resin, is the product name used by Samrat FRP Traders for its transparent orthophthalic unsaturated polyester grade positioned for door lamination, plywood lamination and FRP bonding. It is a liquid, room-temperature-cure resin grade with published technical data for procurement and production review.",
+          "The product name is a useful starting point, not a substitute for process review. A buyer should match the grade to the substrate, reinforcement, finished-surface requirement and working conditions before finalising a requirement."
+        ]
+      },
+      {
+        "heading": "Where this LR Resin is positioned",
+        "body": [
+          "The published applications include door skin and decorative door panels, plywood and laminate bonding for furniture surfaces, FRP bonding and composite-panel lamination, plus clear-finish hand lay-up work. These application descriptions help production and procurement teams start with the intended component rather than a generic resin label."
+        ]
+      },
+      {
+        "heading": "How LR Resin differs from a broad GP selection",
+        "body": [
+          "A process described as lamination can mean a general FRP lay-up or a specific door, plywood or bonding requirement. The published Lamination Resin positioning is for the latter set of lamination-focused contexts, while GP Clear Resin is the broader general-purpose grade to review for common FRP manufacture. The component, substrate and working window should lead the comparison rather than the word “lamination” alone."
+        ]
+      },
+      {
+        "heading": "What to verify before purchase",
+        "body": [
+          "Review the product TDS and the published product details alongside the actual line conditions. For a quotation or technical discussion, provide the component, substrate or reinforcement, process, expected quantity, packaging preference and delivery location. Do not assume that a resin described as suitable for lamination is appropriate for every FRP, surface-coating or chemical-exposure requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-lamination-resin",
+    "title": "Applications of Lamination Resin in FRP Manufacturing",
+    "description": "Explore the published Lamination Resin applications for door panels, plywood, FRP bonding and clear-finish hand lay-up work.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Applications of Lamination Resin in FRP Manufacturing",
+      "keywords": [
+        "Lamination Resin applications",
+        "LR Resin applications",
+        "resin for FRP lamination",
+        "door lamination resin",
+        "plywood lamination resin"
+      ],
+      "ogTitle": "Applications of Lamination Resin in FRP Manufacturing",
+      "ogDescription": "Use the published application contexts to assess Lamination Resin for a door, plywood or FRP bonding requirement."
+    },
+    "quickFacts": {
+      "Door work": "Door skins and decorative door panels",
+      "Plywood work": "Plywood and laminate bonding for furniture surfaces",
+      "FRP work": "FRP bonding and composite-panel lamination",
+      "Selection note": "Confirm the component and process against the product TDS"
+    },
+    "relatedSlugs": [
+      "what-is-lamination-resin",
+      "lamination-resin-for-hand-lay-up",
+      "gp-resin-vs-lamination-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the product data and TDS for the published grade."
+      },
+      {
+        "href": "/applications/decorative-plywood-lamination/",
+        "label": "Decorative plywood lamination",
+        "description": "Explore an existing application guide."
+      },
+      {
+        "href": "/applications/resin-for-general-frp-lamination/",
+        "label": "General FRP lamination",
+        "description": "Review process context before selecting a grade."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can Lamination Resin be considered for door skins?",
+        "a": "Door skin lamination and decorative door panels are published applications for this product. Check the relevant application, finish and process details before final selection."
+      },
+      {
+        "q": "Is Lamination Resin used only for wood-based lamination?",
+        "a": "No. The published applications also include FRP bonding and composite-panel lamination, as well as clear-finish hand lay-up work."
+      },
+      {
+        "q": "Should a buyer choose a grade only because the finished part uses FRP?",
+        "a": "No. The substrate, reinforcement, process, required finish and service requirement should be discussed against the specific product TDS."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the component",
+        "body": [
+          "For lamination buyers, the useful first question is what is being made: a door panel, plywood or furniture surface, a bonded FRP component, or a clear-finish hand lay-up part. The published Lamination Resin applications give a practical starting point for this conversation."
+        ]
+      },
+      {
+        "heading": "Published application contexts",
+        "subsections": [
+          {
+            "heading": "Door skins and decorative door panels",
+            "body": "Lamination Resin is published for door skin lamination and decorative door panels. Review the door substrate, finish requirement and working method alongside the product data before selection."
+          },
+          {
+            "heading": "Plywood and furniture surfaces",
+            "body": "The product is also positioned for plywood and laminate bonding for furniture surfaces. Use the existing decorative plywood and furniture-lamination guides to frame the application discussion."
+          },
+          {
+            "heading": "FRP bonding and composite panels",
+            "body": "For FRP bonding and composite-panel lamination, confirm the reinforcement, part geometry, process and intended service conditions rather than relying on the word FRP alone."
+          },
+          {
+            "heading": "Clear-finish hand lay-up work",
+            "body": "Clear-finish hand lay-up is a published product application. Compare the TDS and the actual working window with the production setup before committing to a grade."
+          }
+        ]
+      },
+      {
+        "heading": "When to discuss another product",
+        "body": [
+          "A broad general FRP requirement may call for GP Clear Resin; a chemical- or corrosion-resistance requirement should be reviewed against Vinyl Ester Resin; and a mould-facing decorative surface has a different role from Gelcoat Resin. The right choice depends on the finished part and specified requirement, not on a broad product category alone."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "lamination-resin-for-hand-lay-up",
+    "title": "Lamination Resin for Hand Lay-Up Process",
+    "description": "A practical guide to reviewing Lamination Resin for published clear-finish hand lay-up work before production.",
+    "category": "Process Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Lamination Resin for Hand Lay-Up | LR Resin Process Guide",
+      "keywords": [
+        "Lamination Resin for hand lay-up",
+        "LR Resin hand layup",
+        "polyester lamination resin",
+        "resin for FRP fabrication",
+        "FRP hand lay-up resin"
+      ],
+      "ogTitle": "Lamination Resin for Hand Lay-Up Process",
+      "ogDescription": "Review published Lamination Resin data and the process questions to resolve for a clear-finish hand lay-up requirement."
+    },
+    "quickFacts": {
+      "Published process context": "Hand lay-up work requiring a clear, glossy finish",
+      "Published resin type": "Transparent orthophthalic unsaturated polyester",
+      "Published gel time": "5 minutes",
+      "First check": "Compare the working window and finished-surface requirement with the TDS"
+    },
+    "relatedSlugs": [
+      "what-is-lamination-resin",
+      "applications-of-lamination-resin",
+      "common-lamination-defects-in-frp",
+      "understanding-gel-time-in-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Check the published 5-minute gel time, TDS and product details."
+      },
+      {
+        "href": "/applications/resin-for-hand-lay-up-process/",
+        "label": "Hand lay-up process guide",
+        "description": "Review existing process context alongside the grade data."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss your hand lay-up process",
+        "description": "Share the part, reinforcement and production conditions."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Lamination Resin published for hand lay-up?",
+        "a": "Yes. The product lists hand lay-up work requiring a clear, glossy finish among its published applications. Final suitability should still be checked against the TDS and actual process."
+      },
+      {
+        "q": "Can every hand lay-up process use the same resin grade?",
+        "a": "No. Part size, reinforcement, surface requirement, ambient conditions and the working window all need review before selecting a grade."
+      },
+      {
+        "q": "Which details help a technical discussion?",
+        "a": "Share the part, reinforcement, substrate, ambient conditions, expected quantity and the current process or grade, then compare them with the product data."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Published hand lay-up context",
+        "body": [
+          "Samrat FRP Traders lists clear-finish hand lay-up work as a published application for Lamination Resin. This gives buyers a product-specific starting point where the job involves a clear or glossy finish, but it does not replace a review of the part and process conditions."
+        ]
+      },
+      {
+        "heading": "Questions to resolve before production",
+        "body": [
+          "Review the finished component, reinforcement, substrate, mould or surface requirement, working conditions and the time available for the operation. The product's published 5-minute gel time and other TDS values should be evaluated against the actual production setup rather than used as a stand-alone approval."
+        ]
+      },
+      {
+        "heading": "Keep wet-out and air-related checks specific",
+        "body": [
+          "During a hand lay-up discussion, record the reinforcement, lay-up sequence, mould or substrate, workshop temperature and observed result. These details help a team assess whether incomplete wet-out, trapped-air marks, tackiness or bonding concerns need a product-data or process review; they do not identify one universal cause or corrective action."
+        ]
+      },
+      {
+        "heading": "Keep the selection discussion specific",
+        "body": [
+          "For a broad general-purpose FRP process, compare GP Clear Resin. For chemical- or corrosion-resistance requirements, review Vinyl Ester Resin. If the job concerns the mould-facing surface, review the distinct role of Gelcoat Resin. Share the application details before choosing a resin family or changing a cure system."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "lamination-resin-vs-vinyl-ester-resin",
+    "title": "Lamination Resin vs Vinyl Ester Resin",
+    "description": "A decision guide for FRP buyers comparing a lamination-focused polyester grade with Vinyl Ester Resin for a specified requirement.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Lamination Resin vs Vinyl Ester Resin | FRP Buyer Guide",
+      "keywords": [
+        "Lamination Resin vs Vinyl Ester Resin",
+        "LR Resin vs Vinyl Ester Resin",
+        "FRP resin selection",
+        "chemical resistant FRP resin",
+        "polyester lamination resin"
+      ],
+      "ogTitle": "Lamination Resin vs Vinyl Ester Resin",
+      "ogDescription": "Compare the published roles of Lamination Resin and Vinyl Ester Resin before selecting an FRP resin system."
+    },
+    "quickFacts": {
+      "Lamination Resin": "Published for door, plywood and FRP bonding work",
+      "Vinyl Ester Resin": "Published for chemical-resistant FRP applications",
+      "Decision trigger": "Confirm exposure, finished component and process",
+      "Do not assume": "One resin family is automatically a substitute for the other"
+    },
+    "comparisonTable": {
+      "title": "Side-by-side decision guide",
+      "note": "This is a published-product positioning comparison. Confirm the applicable TDS and actual application requirement before selecting a resin system.",
+      "headers": [
+        "Decision factor",
+        "Lamination Resin (LR Resin)",
+        "Vinyl Ester Resin"
+      ],
+      "rows": [
+        [
+          "Published resin type",
+          "Orthophthalic unsaturated polyester",
+          "Bisphenol-A epoxy vinyl ester"
+        ],
+        [
+          "Published positioning",
+          "Door lamination, plywood lamination and FRP bonding",
+          "Chemical-resistant FRP applications"
+        ],
+        [
+          "What to define",
+          "Substrate, finished surface, process and working conditions",
+          "Chemical exposure, process and application-specific requirements"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-lamination-resin",
+      "applications-of-lamination-resin",
+      "gp-resin-vs-vinyl-ester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "For published door, plywood and FRP bonding applications."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the product data for a chemical-resistance requirement."
+      },
+      {
+        "href": "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
+        "label": "Chemical storage tank guide",
+        "description": "Explore an existing Vinyl Ester application context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Vinyl Ester Resin a direct replacement for Lamination Resin?",
+        "a": "Not automatically. The products are published for different application contexts, so the finished part, service exposure and process should drive the selection."
+      },
+      {
+        "q": "When should a buyer review Vinyl Ester Resin?",
+        "a": "Review Vinyl Ester Resin when the project has a stated chemical- or corrosion-resistance requirement. Use the product TDS and the specific exposure details for the discussion."
+      },
+      {
+        "q": "What should be compared before changing resin families?",
+        "a": "Compare the product role, TDS, actual exposure, process, reinforcement, part design and procurement requirement rather than choosing by name or price alone."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Different starting questions",
+        "body": [
+          "Lamination Resin and Vinyl Ester Resin should not be treated as an automatic like-for-like swap. Lamination Resin is published for door, plywood and FRP bonding work. Vinyl Ester Resin is published for chemical-resistant FRP applications. The choice starts with the job requirement, not with a broad ranking of resin families."
+        ]
+      },
+      {
+        "heading": "When Lamination Resin is the relevant product to review",
+        "body": [
+          "Start with Lamination Resin for the published door-lamination, plywood-lamination and FRP-bonding contexts. Confirm the substrate, required finish, reinforcement, working conditions and product TDS before purchase."
+        ]
+      },
+      {
+        "heading": "When Vinyl Ester Resin needs a review",
+        "body": [
+          "Where a project specifies chemical or corrosion resistance, review Vinyl Ester Resin and its application-specific data. The exact chemical, concentration, temperature, exposure pattern and part construction require a technical review; this comparison does not make a performance promise for any unlisted service condition."
+        ]
+      },
+      {
+        "heading": "Quote and technical discussion checklist",
+        "body": [
+          "Provide the finished component, process, reinforcement, service environment where relevant, quantity, packaging preference and delivery location. This gives procurement and technical teams the information needed to compare the published product data responsibly."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "lamination-resin-vs-gelcoat-resin",
+    "title": "Lamination Resin vs Gelcoat Resin",
+    "description": "Understand the different roles of Lamination Resin and Gelcoat Resin in an FRP build-up before selecting a product.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Lamination Resin vs Gelcoat Resin | FRP Buyer Guide",
+      "keywords": [
+        "Lamination Resin vs Gelcoat Resin",
+        "LR Resin vs Gelcoat Resin",
+        "FRP lamination resin",
+        "FRP surface coating",
+        "Gelcoat Resin"
+      ],
+      "ogTitle": "Lamination Resin vs Gelcoat Resin",
+      "ogDescription": "A simple guide to the distinct laminate and mould-surface roles of Lamination Resin and Gelcoat Resin."
+    },
+    "quickFacts": {
+      "Lamination Resin": "Published for lamination and FRP bonding work",
+      "Gelcoat Resin": "Published as a mould-surface coating",
+      "Key difference": "The products have different roles in an FRP build-up",
+      "Selection note": "Confirm the finished surface and laminate requirements separately"
+    },
+    "comparisonTable": {
+      "title": "Side-by-side decision guide",
+      "note": "This comparison describes product roles, not a performance ranking. Confirm the product TDS and the manufacturing sequence before use.",
+      "headers": [
+        "Decision factor",
+        "Lamination Resin (LR Resin)",
+        "GP Gelcoat Resin"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "Lamination and FRP bonding",
+          "Mould-surface coating"
+        ],
+        [
+          "Typical buyer question",
+          "How should the substrate or laminate be processed?",
+          "What surface is required on the mould-facing side?"
+        ],
+        [
+          "Selection approach",
+          "Review component, process and working conditions",
+          "Review mould, finish and product-specific data"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-lamination-resin",
+      "applications-of-lamination-resin",
+      "gp-resin-vs-gelcoat-resin",
+      "applications-of-gelcoat-resin-in-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the published grade for lamination and FRP bonding work."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the separate mould-surface product role and TDS."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss your FRP build-up",
+        "description": "Share the laminate and surface requirement before selecting products."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Gelcoat Resin the same as Lamination Resin?",
+        "a": "No. The published roles are different: Lamination Resin is for lamination and FRP bonding work, while GP Gelcoat Resin is a mould-surface coating."
+      },
+      {
+        "q": "Can an FRP build-up involve both product types?",
+        "a": "They can have different roles in the same manufacturing sequence. The specific construction, finish requirement and product data should be reviewed before use."
+      },
+      {
+        "q": "What should a buyer clarify first?",
+        "a": "Clarify whether the requirement concerns the laminate or bonding layer, the mould-facing surface, or both. Then compare each product's published TDS with the process."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Different roles, not competing names",
+        "body": [
+          "The key difference is role. Samrat FRP Traders publishes Lamination Resin for lamination and FRP bonding work, and GP Gelcoat Resin as a mould-surface coating. A useful FRP discussion separates the laminate or bonding requirement from the finished surface requirement."
+        ]
+      },
+      {
+        "heading": "When to review Lamination Resin",
+        "body": [
+          "Review Lamination Resin where the published application concerns door lamination, plywood lamination, FRP bonding or clear-finish hand lay-up work. Check the actual substrate, reinforcement, working conditions and product TDS before selection."
+        ]
+      },
+      {
+        "heading": "When to review Gelcoat Resin",
+        "body": [
+          "Review GP Gelcoat Resin when the question is about the mould-facing surface. It should be selected against the required finish and the appropriate product data, rather than being used as a generic substitute for a laminate resin."
+        ]
+      },
+      {
+        "heading": "What to include in an enquiry",
+        "body": [
+          "Share the component, manufacturing sequence, mould or surface requirement, substrate or reinforcement, quantity and delivery location. This lets the team discuss the correct product role without assuming the process."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gelcoat-resin-vs-vinyl-ester-resin",
+    "title": "Gelcoat Resin vs Vinyl Ester Resin",
+    "description": "Compare the distinct surface-finish and chemical-service roles of Gelcoat Resin and Vinyl Ester Resin before planning an FRP build-up.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Gelcoat Resin vs Vinyl Ester Resin | FRP Buyer Guide",
+      "keywords": [
+        "Gelcoat Resin vs Vinyl Ester Resin",
+        "Gelcoat vs Vinyl Ester",
+        "FRP surface finish resin",
+        "Vinyl Ester Resin",
+        "Gelcoat Resin manufacturer India"
+      ],
+      "ogTitle": "Gelcoat Resin vs Vinyl Ester Resin",
+      "ogDescription": "Understand the different roles of Gelcoat Resin and Vinyl Ester Resin in an FRP product before selecting either material."
+    },
+    "quickFacts": {
+      "GP Gelcoat Resin": "A polyester surface-coating gelcoat for the mould-facing finish",
+      "Vinyl Ester Resin": "A separate resin system for applications needing its published chemical-resistance positioning",
+      "Key decision": "Separate the exterior finish requirement from the laminate or service requirement",
+      "Verify": "The finished-part environment and the specific product TDS before specifying"
+    },
+    "relatedSlugs": [
+      "what-is-gel-coat-resin",
+      "gp-resin-vs-gelcoat-resin",
+      "how-to-choose-gelcoat-resin-for-frp-products"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the published mould-surface product details and TDS."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the separate product data for chemical-service discussions."
+      },
+      {
+        "href": "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
+        "label": "Chemical storage tank guidance",
+        "description": "Understand why service conditions must be specified before choosing a resin system."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Gelcoat Resin a replacement for Vinyl Ester Resin?",
+        "a": "No. They are selected for different roles. Gelcoat is a mould-facing surface coating, while Vinyl Ester Resin is a separate resin system whose suitability depends on the service requirement and product data."
+      },
+      {
+        "q": "Can an FRP product involve both Gelcoat and Vinyl Ester Resin?",
+        "a": "A finished FRP product can have separate surface and laminate requirements. The complete build-up should be reviewed for the actual application rather than assuming one material performs every role."
+      },
+      {
+        "q": "What should a buyer share before asking for a quote?",
+        "a": "Share the component, whether the enquiry concerns the visible surface or the laminate, the intended exposure, process, quantity and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Different decisions in one FRP product",
+        "body": [
+          "Gelcoat Resin and Vinyl Ester Resin are not interchangeable names for the same product. A gelcoat is selected for the mould-facing surface and finish of an FRP part. Vinyl Ester Resin is considered where the laminate or lining has a service requirement that needs its separate chemical-resistance positioning.",
+          "A buyer should therefore separate two questions: what visible surface is required, and what will the finished component face in service? The answer to one does not automatically settle the other."
+        ]
+      },
+      {
+        "heading": "When to review GP Gelcoat Resin",
+        "body": [
+          "Review GP Gelcoat Resin where the requirement is a white, high-gloss polyester surface coating for the mould face of an FRP product. Its published product data describes a surface-coating gelcoat with thixotropic behaviour for mould-facing application. Confirm the specific TDS, colour requirement and application method before production."
+        ]
+      },
+      {
+        "heading": "When to review Vinyl Ester Resin",
+        "body": [
+          "Review Vinyl Ester Resin when the finished laminate, lining or service environment may need the product's chemical-resistance positioning. Chemical, concentration, temperature, exposure duration and construction details can change the selection. A broad material category is not a substitute for checking the actual application against the product data."
+        ]
+      },
+      {
+        "heading": "A practical enquiry checklist",
+        "body": [
+          "Describe the FRP component, the visible-finish requirement, the laminate construction or reinforcement, the intended exposure, process, quantity and delivery location. This keeps a surface-finish discussion distinct from a chemical-service discussion and gives the supplier the facts needed for a useful technical conversation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gelcoat-resin-vs-epoxy-resin",
+    "title": "Gelcoat Resin vs Epoxy Resin for FRP Products",
+    "description": "A general decision guide to the different mould-surface and structural roles of Gelcoat Resin and epoxy systems in FRP products.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Gelcoat Resin vs Epoxy Resin for FRP Products",
+      "keywords": [
+        "Gelcoat Resin vs Epoxy Resin",
+        "Gelcoat vs Epoxy",
+        "FRP surface finish resin",
+        "Gelcoat Resin for moulded FRP products"
+      ],
+      "ogTitle": "Gelcoat Resin vs Epoxy Resin",
+      "ogDescription": "A general guide to separating an FRP surface-finish requirement from an epoxy-system requirement."
+    },
+    "quickFacts": {
+      "Gelcoat role": "Mould-facing polyester surface coating",
+      "Epoxy role": "A separate resin-system category whose grade and application need separate evaluation",
+      "Do not assume": "One material can be substituted for the other without checking the full build-up",
+      "First check": "The component, process, surface requirement and service conditions"
+    },
+    "relatedSlugs": [
+      "what-is-gel-coat-resin",
+      "gp-resin-vs-gelcoat-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the published surface-coating product and TDS."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the site's separate epoxy product information where applicable."
+      },
+      {
+        "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+        "label": "Resin selection guide",
+        "description": "Start with the process and component requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Gelcoat Resin the same as epoxy resin?",
+        "a": "No. GP Gelcoat Resin is published as a polyester surface-coating gelcoat. Epoxy is a separate resin-system category; the correct choice depends on the full application and product data."
+      },
+      {
+        "q": "Can I choose only by the words gelcoat or epoxy?",
+        "a": "No. Confirm the component, moulding process, visible surface requirement and the specific service conditions before selecting a product."
+      },
+      {
+        "q": "Does this comparison approve a particular substitution?",
+        "a": "No. This is general decision support, not a compatibility or performance approval. Confirm a proposed build-up with the relevant technical data and application discussion."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the role, not the material name",
+        "body": [
+          "The useful first question is whether the buyer needs a mould-facing surface finish, a structural laminate, a casting system, an adhesive function or another specific role. GP Gelcoat Resin is published for the surface-coating role in FRP moulding; epoxy systems are a separate category with their own grade-specific uses.",
+          "Treating broad material names as direct substitutes can obscure the actual requirement. The component and production method should lead the selection discussion."
+        ]
+      },
+      {
+        "heading": "Where Gelcoat Resin fits",
+        "body": [
+          "Gelcoat is applied to the mould face before the reinforcement and laminate are built up behind it. The published GP Gelcoat Resin is a white, high-gloss polyester surface coating for this mould-facing role. It is not presented as a reinforced structural laminate resin."
+        ]
+      },
+      {
+        "heading": "Where an epoxy discussion may be relevant",
+        "body": [
+          "An epoxy-system discussion may be relevant when an application specifically calls for an epoxy grade or a different resin-system approach. The correct grade, cure method, reinforcement, surface preparation and service environment need to be verified for that individual application; no general comparison can confirm suitability."
+        ]
+      },
+      {
+        "heading": "How to make the comparison useful",
+        "body": [
+          "Bring the drawing or component description, moulding method, required finish, reinforcement or substrate, exposure conditions and expected quantity to the discussion. Review the relevant TDS rather than transferring a process assumption from one resin system to another."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-gelcoat-resin-in-frp-manufacturing",
+    "title": "Applications of Gelcoat Resin in FRP Manufacturing",
+    "description": "See where Gelcoat Resin is used for the mould-facing surface and finish of FRP products, and what buyers should confirm before selection.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Applications of Gelcoat Resin in FRP Manufacturing",
+      "keywords": [
+        "Gelcoat Resin applications",
+        "Gelcoat for FRP",
+        "Gelcoat for moulded FRP products",
+        "FRP surface finish resin",
+        "GP Gelcoat Resin"
+      ],
+      "ogTitle": "Applications of Gelcoat Resin in FRP Manufacturing",
+      "ogDescription": "A B2B guide to common Gelcoat Resin applications in FRP moulded products and the information needed before selection."
+    },
+    "quickFacts": {
+      "Used for": "The visible, mould-facing surface of an FRP product",
+      "Applied before": "The glass-fibre laminate is built up behind it",
+      "Published GP finish": "White and high gloss, as supplied",
+      "Confirm before use": "Component, colour, moulding method and service requirement"
+    },
+    "relatedSlugs": [
+      "what-is-gel-coat-resin",
+      "how-to-choose-gelcoat-resin-for-frp-products",
+      "gelcoat-resin-problems-peeling-cracking-tackiness"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review published product details, TDS, MOQ and pack sizes."
+      },
+      {
+        "href": "/applications/gelcoat-for-general-frp-mould-finishing/",
+        "label": "General FRP mould finishing",
+        "description": "Explore an existing gelcoat application page."
+      },
+      {
+        "href": "/applications/gelcoat-for-frp-bathware-sanitaryware/",
+        "label": "Bathware and sanitaryware",
+        "description": "Explore an existing moulded-FRP application page."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Gelcoat Resin used as the structural part of an FRP product?",
+        "a": "No. Gelcoat is the mould-facing surface coating. The structural laminate is built behind it using the appropriate reinforcement and laminate resin system."
+      },
+      {
+        "q": "Which FRP products can use gelcoat?",
+        "a": "The site documents boat and marine hull finishing, bathware and sanitaryware, water-tank exteriors, general FRP mould finishing and automotive body panels. Suitability still depends on the specific component and service requirement."
+      },
+      {
+        "q": "Can the same Gelcoat Resin be assumed suitable for every application?",
+        "a": "No. Confirm the product's TDS and the actual moulding, finish, colour and service conditions before specifying a grade."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The surface-finish role in FRP manufacturing",
+        "body": [
+          "Gelcoat Resin is used at the mould-facing stage of an FRP build-up. It is applied to the mould first, then the reinforcement and structural laminate are built behind it. This arrangement gives the finished component its visible surface while allowing the laminate system to be selected for its separate role."
+        ]
+      },
+      {
+        "heading": "Published Gelcoat application areas",
+        "subsections": [
+          {
+            "heading": "Boat and marine hull finishing",
+            "body": "For moulded boat and marine components where the surface-finish requirement should be assessed alongside the laminate and intended service."
+          },
+          {
+            "heading": "Bathware, sanitaryware and moulded components",
+            "body": "For FRP bathware, sanitaryware, furniture, panels and other moulded products where the visible surface is part of the finished-component requirement."
+          },
+          {
+            "heading": "Water-tank exteriors and automotive body panels",
+            "body": "For exterior or visible FRP surfaces where the exact service conditions, colour and finish requirement should be confirmed before selection."
+          }
+        ]
+      },
+      {
+        "heading": "What to confirm before procurement",
+        "body": [
+          "Specify the FRP component, moulding method, colour or finish requirement, surface exposure, compatible laminate plan, quantity and delivery location. This gives the supplier enough context to distinguish a surface-finish requirement from the structural laminate requirement."
+        ]
+      },
+      {
+        "heading": "Use the product TDS as the final check",
+        "body": [
+          "The published GP Gelcoat Resin TDS should be reviewed for the specific grade. Do not infer unlisted outdoor, chemical, water-immersion or certification performance from a general application category."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-choose-gelcoat-resin-for-frp-products",
+    "title": "How to Choose Gelcoat Resin for FRP Products",
+    "description": "A procurement guide for separating the FRP surface-finish requirement from the laminate requirement before selecting Gelcoat Resin.",
+    "category": "Buyer Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "How to Choose Gelcoat Resin for FRP Products",
+      "keywords": [
+        "How to choose Gelcoat Resin",
+        "Gelcoat Resin buying guide",
+        "Gelcoat for FRP products",
+        "GP Gelcoat Resin supplier",
+        "FRP surface finish resin"
+      ],
+      "ogTitle": "How to Choose Gelcoat Resin for FRP Products",
+      "ogDescription": "A practical guide for FRP buyers choosing a Gelcoat Resin based on finish, process, laminate and service requirements."
+    },
+    "quickFacts": {
+      "First decision": "Confirm that the requirement is the mould-facing surface, not the structural laminate",
+      "Product data": "Review the exact grade's TDS before use",
+      "Quote inputs": "Component, process, finish, quantity and delivery location",
+      "Avoid": "Assuming one gelcoat fits every exposure or production method"
+    },
+    "relatedSlugs": [
+      "what-is-gel-coat-resin",
+      "applications-of-gelcoat-resin-in-frp-manufacturing",
+      "gelcoat-resin-problems-peeling-cracking-tackiness",
+      "gelcoat-resin-vs-vinyl-ester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the product's published TDS, packaging and MOQ."
+      },
+      {
+        "href": "/resources/gp-resin-vs-gelcoat-resin/",
+        "label": "GP Resin vs Gelcoat Resin",
+        "description": "Separate the laminate role from the surface-coating role."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a Gelcoat Resin application",
+        "description": "Share the component and process before requesting a quote."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the first question when choosing Gelcoat Resin?",
+        "a": "Confirm that the need is for the mould-facing surface finish, rather than the structural laminate built behind it."
+      },
+      {
+        "q": "What should be checked on the TDS?",
+        "a": "Check the specific grade's published resin type, cure system, application-relevant properties, packaging and other stated information. Do not assume data from another product applies."
+      },
+      {
+        "q": "What details help a supplier discuss the right product?",
+        "a": "The component, moulding method, required finish or colour, expected exposure, laminate plan, quantity and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Confirm the role in the FRP build-up",
+        "body": [
+          "A Gelcoat Resin selection starts by confirming that the buyer needs the visible mould-facing surface of an FRP part. If the need is to wet out reinforcement and build structural thickness, that is a different laminate-resin discussion."
+        ]
+      },
+      {
+        "heading": "Match the discussion to the finished component",
+        "body": [
+          "Document the component and its intended use. A boat component, bathware item, water-tank exterior, automotive panel and general moulding can all have different finish, process and service questions. The product category alone cannot resolve them."
+        ]
+      },
+      {
+        "heading": "Review process and finish requirements",
+        "body": [
+          "Confirm the moulding method, whether the product needs a white or coloured finish, and the practical application method. GP Gelcoat Resin is published as a white, high-gloss polyester surface coating; colour and process decisions should be discussed against the actual production setup and TDS."
+        ]
+      },
+      {
+        "heading": "Keep the laminate requirement separate",
+        "body": [
+          "A finished FRP product may require both a surface coating and a structural laminate. Where chemical, water-immersion or other demanding service is involved, describe it accurately and confirm the full build-up rather than assuming a gelcoat alone addresses it."
+        ]
+      },
+      {
+        "heading": "Prepare a quote-ready brief",
+        "body": [
+          "Share the component, process, finish or colour, exposure, quantity and delivery location. Include the current resin or moulding issue if the enquiry follows a trial. This makes the quote and application discussion more focused without making unsupported performance assumptions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gelcoat-resin-problems-peeling-cracking-tackiness",
+    "title": "Gelcoat Problems: Peeling, Cracking and Tackiness",
+    "description": "A practical, safety-conscious framework for documenting Gelcoat Resin peeling, cracking, pinholes, fisheyes or tackiness before a technical discussion.",
+    "category": "Troubleshooting Guide",
+    "icon": "info",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Gelcoat Problems: Peeling, Cracking and Tackiness",
+      "keywords": [
+        "Gelcoat peeling",
+        "Gelcoat cracking",
+        "Gelcoat pinholes",
+        "Gelcoat fisheyes",
+        "Gelcoat tackiness",
+        "Gelcoat Resin troubleshooting"
+      ],
+      "ogTitle": "Gelcoat Problems: Peeling, Cracking and Tackiness",
+      "ogDescription": "Record a Gelcoat Resin concern, review the product data and prepare the facts for a controlled technical discussion."
+    },
+    "quickFacts": {
+      "First step": "Record the visible issue and the actual process facts",
+      "Do not assume": "A single visible defect proves one root cause or a material fault",
+      "Compare against": "The specific product TDS, batch, storage and process records",
+      "Keep controlled": "Do not alter catalyst or other inputs by guesswork"
+    },
+    "relatedSlugs": [
+      "what-is-gel-coat-resin",
+      "how-to-choose-gelcoat-resin-for-frp-products",
+      "gelcoat-resin-storage-and-handling-guide",
+      "why-polyester-resin-remains-sticky-or-tacky"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Check the published product data and TDS for the exact grade."
+      },
+      {
+        "href": "/resources/how-to-store-unsaturated-polyester-resin/",
+        "label": "Read storage guidance",
+        "description": "Review handling and storage history as part of the record."
+      },
+      {
+        "href": "/resources/how-to-choose-gelcoat-resin-for-frp-products/",
+        "label": "Review surface-finish selection",
+        "description": "Separate the mould-side requirement from the laminate requirement."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a documented concern",
+        "description": "Share the batch, process and observed result for a focused discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does peeling prove that the Gelcoat Resin is defective?",
+        "a": "No. A visible result can involve mould condition, preparation, material condition, storage, process sequence, cure conditions or the complete FRP build-up. Record facts before drawing a conclusion."
+      },
+      {
+        "q": "Should a team change catalyst dosage to correct tackiness or cracking?",
+        "a": "Do not make unapproved changes by guesswork. Follow the specific product TDS and obtain technical guidance based on the actual process and batch."
+      },
+      {
+        "q": "Do pinholes or fisheyes identify one cause?",
+        "a": "No. Record the mould condition, preparation, application method, batch, storage history, ambient conditions and observed pattern before drawing a conclusion or changing the process."
+      },
+      {
+        "q": "What should be shared for a troubleshooting discussion?",
+        "a": "Share the product and batch, component, moulding sequence, ambient conditions, storage history, timing, photographs and the observed result."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Treat the visible result as a signal",
+        "body": [
+          "Peeling, cracking, pinholes, fisheyes, tackiness or other surface variation should be treated as a signal to investigate, not as proof of one universal cause. An FRP surface depends on the mould, the surface-coating material, the application sequence, cure conditions and the laminate built behind it."
+        ]
+      },
+      {
+        "heading": "Record the concern before changing the process",
+        "subsections": [
+          {
+            "heading": "For peeling or adhesion concerns",
+            "body": "Record the mould condition and preparation, application sequence, batch, cure timing, component and photographs. Avoid assuming the visible separation identifies a material cause without the full record."
+          },
+          {
+            "heading": "For cracking or crazing concerns",
+            "body": "Record where and when the result appeared, the component geometry, moulding sequence, laminate build-up, cure history and service context. A surface appearance alone cannot establish the cause."
+          },
+          {
+            "heading": "For pinholes, fisheyes or other surface-pattern concerns",
+            "body": "Record the mould condition and preparation, application method, batch, storage history, ambient conditions, timing and photographs of the pattern. Avoid assuming that one visible pattern identifies a material cause without the full record."
+          },
+          {
+            "heading": "For tackiness concerns",
+            "body": "Record the gel and cure timing, batch, ambient conditions, storage history and all process inputs. Compare the documented process with the specific TDS rather than copying a catalyst practice from another grade."
+          }
+        ]
+      },
+      {
+        "heading": "Keep corrective actions controlled",
+        "body": [
+          "Do not add chemicals or change catalyst, accelerator or process inputs by guesswork. Handling and cure requirements are product-specific. A controlled review of the product data and the actual records is safer and more useful than a generic corrective instruction."
+        ]
+      },
+      {
+        "heading": "Prepare a useful technical discussion",
+        "body": [
+          "Share the product and batch, component, moulding method, preparation, process timing, ambient conditions, storage history, photographs and the observed result. This allows the conversation to focus on verifiable facts without offering unsupported repair claims."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gelcoat-resin-storage-and-handling-guide",
+    "title": "Gelcoat Resin Storage and Handling Guide",
+    "description": "A general guide to documenting Gelcoat Resin storage and handling conditions while following the exact product data and safety instructions.",
+    "category": "Best Practices",
+    "icon": "drum",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Gelcoat Resin Storage and Handling Guide",
+      "keywords": [
+        "Gelcoat Resin storage",
+        "Gelcoat handling",
+        "Gelcoat Resin shelf life",
+        "GP Gelcoat Resin storage",
+        "polyester gelcoat handling"
+      ],
+      "ogTitle": "Gelcoat Resin Storage and Handling Guide",
+      "ogDescription": "General storage and handling checks for Gelcoat Resin, with the exact product TDS and safety instructions as the controlling reference."
+    },
+    "quickFacts": {
+      "Controlling reference": "The exact product TDS and applicable safety instructions",
+      "Do not assume": "A universal storage temperature or shelf life for every gelcoat grade",
+      "Document": "Batch, receipt date, storage history and container condition",
+      "Separate": "Resin and catalyst handling in line with approved safety procedures"
+    },
+    "relatedSlugs": [
+      "how-to-store-unsaturated-polyester-resin",
+      "gelcoat-resin-problems-peeling-cracking-tackiness",
+      "what-is-gel-coat-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review its published product details and TDS."
+      },
+      {
+        "href": "/resources/how-to-store-unsaturated-polyester-resin/",
+        "label": "Polyester resin storage guide",
+        "description": "Read the existing general storage resource."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a product-specific question",
+        "description": "Share the product, batch and storage history for a focused discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What storage temperature should I use for Gelcoat Resin?",
+        "a": "Do not assume a universal number. Follow the exact product TDS and applicable safety instructions for the specific grade and batch."
+      },
+      {
+        "q": "How should a buyer track Gelcoat Resin stock?",
+        "a": "Record the product, batch, receipt date, stated shelf life, container condition and storage history, then rotate stock in line with the supplier's documented guidance."
+      },
+      {
+        "q": "Can storage history matter during troubleshooting?",
+        "a": "Yes. Storage history is useful context when a process result differs from normal. Record it alongside the product data and production conditions before drawing conclusions."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the specific product information",
+        "body": [
+          "Gelcoat grades are not interchangeable storage profiles. The product TDS and applicable safety instructions for the exact grade are the controlling references for storage, handling and shelf-life decisions. Do not apply a temperature, shelf life or catalyst procedure from another resin simply because both are polyester products."
+        ]
+      },
+      {
+        "heading": "Maintain a simple receiving record",
+        "body": [
+          "At receipt, record the product name, batch, date, stated shelf life, container condition and storage location. For production teams holding more than one batch, this creates a traceable record that can support stock rotation and later technical discussion."
+        ]
+      },
+      {
+        "heading": "Protect product condition through controlled handling",
+        "body": [
+          "Keep containers managed in line with the product instructions, prevent contamination and preserve batch identification. Handling of resin, catalyst and any other process materials must follow the approved product and safety procedure; do not infer a mixing or storage practice from this general guide."
+        ]
+      },
+      {
+        "heading": "Use storage history when reviewing a concern",
+        "body": [
+          "If a process result changes, include the storage record with the batch, component, process sequence and ambient conditions. This helps a technical discussion focus on facts, while avoiding unsupported conclusions about the root cause."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "common-lamination-defects-in-frp",
+    "title": "Common Lamination Defects in FRP: Buyer and Process Checks",
+    "description": "A safety-conscious guide to documenting common FRP lamination concerns and preparing a useful technical discussion.",
+    "category": "Troubleshooting Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Common Lamination Defects in FRP | Buyer and Process Checks",
+      "keywords": [
+        "FRP lamination defects",
+        "Lamination Resin troubleshooting",
+        "LR Resin troubleshooting",
+        "FRP lamination problems",
+        "polyester resin process checks"
+      ],
+      "ogTitle": "Common Lamination Defects in FRP",
+      "ogDescription": "Document a lamination concern, review the product TDS and prepare the right information for a focused technical discussion."
+    },
+    "quickFacts": {
+      "First response": "Pause and record the product, batch, process and observed result",
+      "Do not assume": "A visible defect identifies the root cause or the resin grade at fault",
+      "Check against": "The specific product TDS, storage history and process records",
+      "Avoid": "Unapproved changes to catalyst, accelerator or process inputs"
+    },
+    "relatedSlugs": [
+      "what-is-lamination-resin",
+      "lamination-resin-for-hand-lay-up",
+      "understanding-gel-time-in-polyester-resin",
+      "why-polyester-resin-remains-sticky-or-tacky"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the published TDS and process-relevant product details."
+      },
+      {
+        "href": "/resources/why-polyester-resin-remains-sticky-or-tacky/",
+        "label": "Read the tacky-resin guide",
+        "description": "Review a specific existing troubleshooting resource."
+      },
+      {
+        "href": "/resources/how-to-store-unsaturated-polyester-resin/",
+        "label": "Read storage guidance",
+        "description": "Compare storage history with the product information."
+      },
+      {
+        "href": "/resources/lamination-resin-for-hand-lay-up/",
+        "label": "Review hand lay-up context",
+        "description": "Compare the published working window with the actual lay-up sequence."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a visible FRP lamination defect prove the resin is defective?",
+        "a": "No. A visible concern can involve material condition, storage, process, ambient conditions, reinforcement, substrate or surface preparation. Record the facts before drawing a conclusion."
+      },
+      {
+        "q": "Should the production team change catalyst dosage to correct a defect?",
+        "a": "Do not make unapproved changes by guesswork. Follow the specific product TDS and obtain technical guidance for the actual process and batch."
+      },
+      {
+        "q": "What information should be shared for troubleshooting?",
+        "a": "Share the product and batch, process, substrate or reinforcement, ambient conditions, storage history, timing, photographs and the observed result."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Treat the visible result as a signal",
+        "body": [
+          "Surface variation, incomplete wet-out, a tacky result, air-related marks, a separation concern or timing variation can all be treated as process signals. A visible result alone does not identify a root cause, prove that a material is at fault or establish that one universal corrective action is appropriate."
+        ]
+      },
+      {
+        "heading": "Record the lamination concern precisely",
+        "subsections": [
+          {
+            "heading": "For air-related marks or incomplete wet-out",
+            "body": "Record the reinforcement, lay-up sequence, substrate or mould, working conditions, timing and the location of the observed result. This creates a useful starting record without assuming the issue has one cause."
+          },
+          {
+            "heading": "For a bonding or delamination concern",
+            "body": "Record the component, substrate preparation, reinforcement, build-up sequence, cure history, service context and photographs. A visible separation alone is not enough to establish why it occurred."
+          },
+          {
+            "heading": "For tackiness or cure-timing variation",
+            "body": "Record the product and batch, storage history, ambient conditions, documented timing and all approved process inputs. Compare the record with the exact TDS rather than changing catalyst or accelerator inputs by guesswork."
+          }
+        ]
+      },
+      {
+        "heading": "Build a useful troubleshooting record",
+        "body": [
+          "Before changing the process, record the product name and batch, the component, substrate or reinforcement, process sequence, ambient conditions, storage history, timing and photographs. Compare these details with the applicable product TDS and the normal line conditions."
+        ]
+      },
+      {
+        "heading": "Keep changes controlled",
+        "body": [
+          "Do not add chemicals or change catalyst or accelerator inputs by guesswork. The cure system and safe handling requirements are product-specific. A controlled discussion based on the product data and the actual process is more useful than a generic fix."
+        ]
+      },
+      {
+        "heading": "When to contact the supplier",
+        "body": [
+          "Contact the supplier when the documented process differs from the normal result, a batch or storage concern needs review, or the finished-component requirement is unclear. Include the records above so the application can be discussed without unsupported assumptions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-button-grade-resin",
+    "title": "What is Button Grade Resin?",
+    "description": "A buyer guide to Button Grade Resin, a transparent unsaturated polyester casting grade for buttons and small decorative mouldings.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What is Button Grade Resin? | Polyester Button Resin Guide",
+      "keywords": [
+        "Button Grade Resin",
+        "Button Resin",
+        "Polyester Resin for Buttons",
+        "Button Grade Polyester Resin",
+        "Unsaturated Polyester Resin for Buttons"
+      ],
+      "ogTitle": "What is Button Grade Resin?",
+      "ogDescription": "Understand the published role, processing data and buyer questions for transparent polyester button casting resin."
+    },
+    "quickFacts": {
+      "Published resin role": "Transparent polyester casting grade for buttons and small decorative mouldings",
+      "Physical form": "Semi-liquid",
+      "Published gel time": "9.5 minutes",
+      "Published packaging": "225 kg drum"
+    },
+    "relatedSlugs": [
+      "button-resin-for-polyester-button-manufacturing",
+      "how-to-choose-resin-for-button-manufacturing",
+      "button-resin-gel-time-and-viscosity-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the published TDS, technical data and 225 kg drum packaging."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate general-purpose grade for reinforced FRP manufacture."
+      },
+      {
+        "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+        "label": "Read the general resin-selection guide",
+        "description": "Use it for broader resin-role context alongside the Button Grade Resin data."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Button Grade Resin?",
+        "a": "Button Grade Resin is Samrat FRP Traders' published transparent, semi-liquid unsaturated polyester casting grade for manufacturing buttons and other small decorative mouldings."
+      },
+      {
+        "q": "Is Button Grade Resin a general FRP laminating resin?",
+        "a": "No. The published product information positions it as a casting and moulding grade for buttons and small decorative mouldings, rather than a resin selected to wet out glass-fibre reinforcement for a structural FRP laminate."
+      },
+      {
+        "q": "What should a buyer check before selecting Button Grade Resin?",
+        "a": "Confirm the intended button or moulded part, clarity or pigment-colour requirement, casting method, quantity and delivery location, then review the product TDS before purchase."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The product role",
+        "body": [
+          "Button Grade Resin is a specialised unsaturated polyester resin positioned for button and small decorative-moulding manufacture. The published product information describes a transparent, semi-liquid casting grade: the cast part is intended to be the visible finished component, not a fibre-reinforced structural laminate.",
+          "That distinction matters during procurement. A product called polyester resin can serve very different roles. The useful starting point for a button manufacturer is the visible casting requirement, the desired appearance and the production method, rather than assuming every general-purpose resin behaves the same way."
+        ]
+      },
+      {
+        "heading": "Published characteristics to review",
+        "body": [
+          "For this grade, Samrat FRP Traders publishes transparent appearance, semi-liquid physical form, 1,100 cPs viscosity, 9.5-minute gel time, approximate two-hour curing time, 33% styrene content and a 225 kg drum. The current product information also describes a fine, polishable finish and use for natural transparent buttons and pigmented colour work.",
+          "These details are a starting point for a technical and procurement conversation. They are not a substitute for confirming the exact TDS, batch information and intended production conditions before use."
+        ]
+      },
+      {
+        "heading": "Where a different resin may be relevant",
+        "body": [
+          "For reinforced FRP manufacture, review the published GP Clear Resin or Unsaturated Polyester Resin information instead. For a pre-pigmented FRP sheet or panel requirement, review Sheet Grade Yellow Resin. Where a two-part epoxy system is specifically required, Clear Casting Resin is a separate product system with its own mix ratio and cure schedule.",
+          "These are different material roles, not interchangeable names. Discuss the component and process before substituting one resin category for another."
+        ]
+      },
+      {
+        "heading": "Prepare a quote-ready requirement",
+        "body": [
+          "Share the expected quantity, intended button or small decorative moulding, clarity or pigment-colour requirement, casting method if known and delivery location. This gives the supplier enough context to direct the enquiry to the relevant product data without making assumptions about an unverified application."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "button-resin-for-polyester-button-manufacturing",
+    "title": "Button Resin for Polyester Button Manufacturing",
+    "description": "How to frame the resin requirement for polyester button manufacture, from visible casting needs to technical-data and quote checks.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Button Resin for Polyester Button Manufacturing | Buyer Guide",
+      "keywords": [
+        "Button Resin for Button Manufacturing",
+        "Polyester Button Resin",
+        "Resin for Polyester Buttons",
+        "Button Grade Resin Supplier",
+        "Button Resin Manufacturer India"
+      ],
+      "ogTitle": "Button Resin for Polyester Button Manufacturing",
+      "ogDescription": "A practical guide to matching a transparent polyester button-resin requirement to the published product data and procurement discussion."
+    },
+    "quickFacts": {
+      "Published use": "Buttons and small decorative mouldings",
+      "Appearance": "Transparent",
+      "Colour context": "Natural transparent buttons and pigmented colour work",
+      "Cure system": "Published MEKP and cobalt octoate system"
+    },
+    "relatedSlugs": [
+      "what-is-button-grade-resin",
+      "how-to-choose-resin-for-button-manufacturing",
+      "button-resin-processing-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the product's published casting role and TDS."
+      },
+      {
+        "href": "/products/mekp-hardener/",
+        "label": "View MEKP Hardener",
+        "description": "Review the separately published catalyst product information."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a button manufacturing requirement",
+        "description": "Share the product, appearance, process and quantity for a focused discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What resin is published for polyester button manufacturing?",
+        "a": "Samrat FRP Traders publishes Button Grade Resin as a transparent unsaturated polyester casting grade for buttons and small decorative mouldings."
+      },
+      {
+        "q": "Can a buyer discuss transparent and coloured button requirements?",
+        "a": "Yes. The product information describes natural transparent buttons and pigmented colour work. Share the required appearance so it can be discussed against the product data."
+      },
+      {
+        "q": "Does this product page confirm button sheets or button blanks?",
+        "a": "No. The current published product data confirms buttons and small decorative mouldings. Sheet, blank, rod and other process-specific uses should be confirmed with technical approval before selection."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the visible finished part",
+        "body": [
+          "For button manufacture, resin selection begins with the fact that the cast part is visible. The buyer should define whether the requirement is for transparent appearance, pigmented colour work or another approved visual requirement before discussing material selection.",
+          "Samrat FRP Traders publishes Button Grade Resin for buttons and small decorative mouldings. Its transparent, semi-liquid casting role differs from a resin used primarily to wet out glass fibre in a structural FRP laminate."
+        ]
+      },
+      {
+        "heading": "Match the discussion to the published product data",
+        "body": [
+          "The published Button Grade Resin information includes 1,100 cPs viscosity, 9.5-minute gel time, approximate two-hour cure, MEKP and cobalt octoate dosage information, two-month shelf life and 225 kg drum packaging. Review the TDS for the exact grade and batch before production planning.",
+          "A gel-time figure, viscosity figure or cure system from another resin should not be transferred automatically to Button Grade Resin. The product's own data is the relevant starting point."
+        ]
+      },
+      {
+        "heading": "Keep process claims specific",
+        "body": [
+          "The current catalogue supports buttons and small decorative mouldings, but it does not publish a button-sheet, button-blank, rod, cutting or polishing process for this grade. That absence should be handled as a technical question, not filled with an assumption.",
+          "When a factory has a defined mould, casting sequence or finishing operation, share it during the application discussion. This allows suitability to be reviewed against the actual requirement rather than a broad category label."
+        ]
+      },
+      {
+        "heading": "Information for procurement",
+        "body": [
+          "A useful request includes the intended part, transparency or pigment-colour requirement, expected quantity, casting method if known, delivery location and any current material issue. Attach the product data request to the commercial enquiry so technical and purchasing teams work from the same requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-choose-resin-for-button-manufacturing",
+    "title": "How to Choose Resin for Button Manufacturing",
+    "description": "A decision guide for button manufacturers comparing the resin role, visible-finish requirement, process information and product data before procurement.",
+    "category": "Buyer Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "How to Choose Resin for Button Manufacturing | Button Resin Guide",
+      "keywords": [
+        "How to choose Button Resin",
+        "Button Grade Resin",
+        "Resin for Button Manufacturing",
+        "Polyester Resin for Buttons",
+        "Button Resin Supplier"
+      ],
+      "ogTitle": "How to Choose Resin for Button Manufacturing",
+      "ogDescription": "Use the finished part, appearance requirement, cure system and product TDS to frame a Button Resin selection discussion."
+    },
+    "quickFacts": {
+      "First decision": "Visible button casting versus a reinforced FRP laminate",
+      "Appearance": "Confirm transparency or pigment-colour requirement",
+      "Technical reference": "The specific product TDS and batch information",
+      "Quote context": "Part, process, quantity and delivery location"
+    },
+    "relatedSlugs": [
+      "what-is-button-grade-resin",
+      "button-grade-resin-vs-gp-resin",
+      "button-grade-resin-vs-clear-casting-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the published Button Grade Resin TDS and technical data."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "Compare GP Clear Resin",
+        "description": "Review the separately published general-purpose resin for reinforced FRP work."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "Compare Clear Casting Resin",
+        "description": "Review the separate two-part epoxy casting system only where an epoxy requirement is specified."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is a clear general-purpose resin automatically suitable for button casting?",
+        "a": "No. Start with the material role. Button Grade Resin is published as a transparent polyester casting grade for buttons and small decorative mouldings, while GP Clear Resin is published for general reinforced FRP work."
+      },
+      {
+        "q": "What should a production manager confirm before a trial?",
+        "a": "Confirm the intended part, required appearance, product TDS, casting method, expected quantity and the existing process context. Do not substitute catalyst or cure practices from another grade without approval."
+      },
+      {
+        "q": "When is a two-part epoxy system relevant?",
+        "a": "Only where an epoxy system is specified or otherwise technically appropriate. Clear Casting Resin is a separate two-part epoxy product with its own mix ratio and cure schedule."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Choose by material role first",
+        "body": [
+          "A useful selection process separates a button-casting requirement from a reinforced FRP requirement. Samrat FRP Traders publishes Button Grade Resin as a transparent, semi-liquid polyester casting grade for buttons and small decorative mouldings. It is not positioned as the general-purpose resin for glass-fibre-reinforced structural laminates.",
+          "This first decision prevents a common procurement error: comparing unrelated product names without defining what the resin must do in the finished part."
+        ]
+      },
+      {
+        "heading": "Define the visible requirement",
+        "body": [
+          "For button production, record whether the resin's appearance is expected to be transparent or used with pigment-colour work. The Button Grade Resin information supports natural transparent buttons and pigmented colour work; any additional visual, finishing or performance requirement should be confirmed with the technical team.",
+          "Avoid treating a general phrase such as clear or casting resin as proof of suitability for every finish, mould design or downstream process."
+        ]
+      },
+      {
+        "heading": "Review the published processing information",
+        "body": [
+          "Use the Button Grade Resin TDS and published data for the specific grade: 1,100 cPs viscosity, 9.5-minute gel time, approximate two-hour cure, and the listed MEKP and cobalt octoate system. Product data must be assessed alongside the actual shop-floor conditions and casting method.",
+          "If a different resin system is specified, such as the site's two-part epoxy Clear Casting Resin, review that product's separate mix ratio and cure schedule rather than transferring polyester-resin assumptions."
+        ]
+      },
+      {
+        "heading": "Prepare the selection brief",
+        "body": [
+          "Before asking for a quote or trial discussion, write down the intended button or small moulded part, transparency or pigment-colour requirement, casting method if known, expected quantity, delivery location and any current process observation. This turns an ambiguous material enquiry into a decision-ready brief."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "button-grade-resin-vs-gp-resin",
+    "title": "Button Grade Resin vs GP Resin",
+    "description": "A practical comparison of Button Grade Resin and GP Resin for buyers deciding between visible polyester casting and reinforced FRP manufacture.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Button Grade Resin vs GP Resin | Which Resin Role Fits?",
+      "keywords": [
+        "Button Grade Resin vs GP Resin",
+        "Button Resin vs GP Resin",
+        "Polyester Button Resin",
+        "General Purpose Resin",
+        "Resin for Button Manufacturing"
+      ],
+      "ogTitle": "Button Grade Resin vs GP Resin",
+      "ogDescription": "Compare the published casting role of Button Grade Resin with the separate reinforced-FRP role of GP Resin."
+    },
+    "quickFacts": {
+      "Button Grade Resin": "Transparent, semi-liquid polyester casting grade for buttons and small decorative mouldings",
+      "GP Clear Resin": "General-purpose polyester grade for reinforced FRP work",
+      "Selection principle": "Start with the finished part and resin role",
+      "Do not assume": "One grade is a substitute for the other"
+    },
+    "comparisonTable": {
+      "title": "Published product-role comparison",
+      "note": "Use the exact product TDS and the actual component requirement before selecting a grade. This comparison does not transfer a process or performance claim from one grade to another.",
+      "headers": [
+        "Decision factor",
+        "Button Grade Resin",
+        "GP Clear Resin"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "Buttons and small decorative mouldings",
+          "General-purpose reinforced FRP work"
+        ],
+        [
+          "Physical form / appearance",
+          "Semi-liquid / transparent",
+          "Liquid / clear"
+        ],
+        [
+          "Published viscosity",
+          "1,100 cPs",
+          "350-450 cPs"
+        ],
+        [
+          "Published gel time",
+          "9.5 minutes",
+          "Under 8 minutes"
+        ],
+        [
+          "Published package",
+          "225 kg drum",
+          "225 kg drum"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-button-grade-resin",
+      "how-to-choose-resin-for-button-manufacturing",
+      "button-grade-resin-vs-clear-casting-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the published button-casting product data and TDS."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published general-purpose grade for reinforced FRP work."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Review the broader general-purpose UPR product information."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can Button Grade Resin replace GP Resin in reinforced FRP work?",
+        "a": "Do not assume that it can. Button Grade Resin is published for buttons and small decorative mouldings, while GP Clear Resin is published for general reinforced FRP work."
+      },
+      {
+        "q": "Why does the resin role matter more than the shared polyester family?",
+        "a": "Both products sit within polyester-resin use, but their published uses, appearance and processing data differ. The intended part and process should determine the comparison."
+      },
+      {
+        "q": "Which information should procurement compare?",
+        "a": "Compare the intended component, product role, TDS, published processing data, quantity and delivery requirements, rather than comparing a generic resin name alone."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The buyer decision",
+        "body": [
+          "Button Grade Resin and GP Resin should not be compared as if they have the same job. The Button Grade Resin listing is for transparent casting of buttons and small decorative mouldings. GP Clear Resin is the general-purpose product to review for reinforced FRP manufacture.",
+          "The practical question is whether the resin will become a visible cast button or be used with glass fibre to build a laminate. That distinction should lead the procurement discussion."
+        ]
+      },
+      {
+        "heading": "Use the published data as context",
+        "body": [
+          "Button Grade Resin is published at 1,100 cPs with a 9.5-minute gel time, while GP Clear Resin is published at 350-450 cPs with gel time under eight minutes. These values describe separate grades and should not be used to predict line performance without the relevant TDS and process context.",
+          "The different appearance and packaging details should likewise be read as product-specific information, not as a universal ranking of one resin over another."
+        ]
+      },
+      {
+        "heading": "Avoid the wrong substitution",
+        "body": [
+          "If a job requires reinforced FRP, begin with the GP Clear Resin or Unsaturated Polyester Resin product data. If it requires a visible button or small decorative moulding, begin with Button Grade Resin. For a different specified material system, compare the relevant dedicated product instead of forcing a GP-versus-Button choice."
+        ]
+      },
+      {
+        "heading": "What to share for a decision",
+        "body": [
+          "Share the finished part, whether reinforcement is involved, visible appearance requirement, process method, expected quantity and delivery location. This creates enough context for a focused product and quote discussion."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "button-grade-resin-vs-clear-casting-resin",
+    "title": "Button Grade Resin vs Clear Casting Resin",
+    "description": "Compare Samrat's polyester Button Grade Resin with its separate two-part epoxy Clear Casting Resin before selecting a casting system.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Button Grade Resin vs Clear Casting Resin | Polyester vs Epoxy",
+      "keywords": [
+        "Button Grade Resin vs Clear Casting Resin",
+        "Polyester Button Resin vs Epoxy Resin",
+        "Button Resin",
+        "Clear Casting Resin",
+        "Resin for Button Manufacturing"
+      ],
+      "ogTitle": "Button Grade Resin vs Clear Casting Resin",
+      "ogDescription": "Compare the site's published polyester Button Grade Resin with its separate two-part epoxy Clear Casting Resin system."
+    },
+    "quickFacts": {
+      "Button Grade Resin": "Unsaturated polyester casting grade for buttons and small decorative mouldings",
+      "Clear Casting Resin": "Two-part epoxy system for decorative and clear casting",
+      "Cure approach": "Different product systems with separate published cure information",
+      "Selection rule": "Do not substitute by the word 'casting' alone"
+    },
+    "comparisonTable": {
+      "title": "Published product-system comparison",
+      "note": "This is a product-role comparison, not a performance ranking. Review the exact TDS and the intended part before selecting either system.",
+      "headers": [
+        "Decision factor",
+        "Button Grade Resin",
+        "Clear Casting Resin"
+      ],
+      "rows": [
+        [
+          "Resin system",
+          "Unsaturated polyester",
+          "Two-part epoxy"
+        ],
+        [
+          "Published role",
+          "Buttons and small decorative mouldings",
+          "River tables, jewellery and decorative casting"
+        ],
+        [
+          "Published cure information",
+          "MEKP and cobalt octoate system; 9.5-minute gel time; approximately 2-hour cure",
+          "2:1 mix by weight; 24-hour initial cure; 72-hour full cure"
+        ],
+        [
+          "Published packaging",
+          "225 kg drum",
+          "20 kg pack"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-button-grade-resin",
+      "how-to-choose-resin-for-button-manufacturing",
+      "button-grade-resin-vs-gp-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the published polyester button-casting grade and TDS."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Clear Casting Resin",
+        "description": "Review the site's separate epoxy system, mix ratio and cure schedule."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a casting requirement",
+        "description": "Share the intended part and production requirement before selecting a system."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are Button Grade Resin and Clear Casting Resin the same material?",
+        "a": "No. Button Grade Resin is published as an unsaturated polyester casting grade; Clear Casting Resin is a separate two-part epoxy system."
+      },
+      {
+        "q": "Can a buyer choose only because both are called casting resin?",
+        "a": "No. Confirm the intended component, required system, cure method, appearance requirement and the relevant TDS before selection."
+      },
+      {
+        "q": "Which product is published for buttons?",
+        "a": "Button Grade Resin is the product published for buttons and small decorative mouldings. Any alternate system should be confirmed for the actual application before use."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Casting is a role, not one chemistry",
+        "body": [
+          "The phrase casting resin does not establish that two products have the same chemistry or process. Samrat FRP Traders publishes Button Grade Resin as an unsaturated polyester grade for buttons and small decorative mouldings. Clear Casting Resin is a separate two-part epoxy system for decorative and clear casting applications.",
+          "A buyer should therefore start with the required resin system and finished component, not the broad word casting."
+        ]
+      },
+      {
+        "heading": "Compare the published cure systems",
+        "body": [
+          "Button Grade Resin is listed with an MEKP and cobalt octoate system, 9.5-minute gel time and approximate two-hour curing time. Clear Casting Resin is listed as a 2:1 resin-to-hardener system with 24-hour initial cure and 72-hour full cure. These are separate published instructions and must not be interchanged.",
+          "Exact procedures, safety requirements and suitability should be taken from the relevant TDS and approved process documentation."
+        ]
+      },
+      {
+        "heading": "Frame the right selection question",
+        "body": [
+          "For a button or small decorative moulding requirement, Button Grade Resin is the relevant published starting point. If a drawing, customer specification or trial calls for an epoxy system, review Clear Casting Resin as a separate product and confirm it against the application rather than assuming it is an equivalent substitute."
+        ]
+      },
+      {
+        "heading": "Procurement information to provide",
+        "body": [
+          "Share the intended part, required resin system if specified, appearance requirement, process method, expected quantity and delivery location. This enables a product-specific discussion without an unsupported performance promise."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "button-resin-gel-time-and-viscosity-guide",
+    "title": "Button Resin Gel Time and Viscosity Guide",
+    "description": "How to read the published viscosity and gel-time data for Button Grade Resin when preparing a button-casting discussion.",
+    "category": "Technical Guide",
+    "icon": "clock",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Button Resin Gel Time and Viscosity | Button Casting Guide",
+      "keywords": [
+        "Button Resin viscosity",
+        "Button Resin gel time",
+        "Button Grade Resin processing",
+        "Polyester Button Resin",
+        "Button Resin casting"
+      ],
+      "ogTitle": "Button Resin Gel Time and Viscosity Guide",
+      "ogDescription": "Read the published 1,100 cPs viscosity and 9.5-minute gel time for Button Grade Resin in the right product-specific context."
+    },
+    "quickFacts": {
+      "Published viscosity": "1,100 cPs",
+      "Published gel time": "9.5 minutes",
+      "Published cure": "Approximately 2 hours",
+      "Controlling reference": "The Button Grade Resin TDS and actual process conditions"
+    },
+    "relatedSlugs": [
+      "what-is-button-grade-resin",
+      "button-resin-processing-checklist",
+      "button-resin-storage-and-quote-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the product's published technical specifications and TDS."
+      },
+      {
+        "href": "/resources/understanding-gel-time-in-polyester-resin/",
+        "label": "Read the general gel-time guide",
+        "description": "Use the existing guide for general context without replacing product-specific data."
+      },
+      {
+        "href": "/resources/gp-resin-viscosity-explained/",
+        "label": "Read the general viscosity guide",
+        "description": "Review the process concept while keeping Button Grade Resin data separate."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the published viscosity of Button Grade Resin?",
+        "a": "The published viscosity is 1,100 cPs."
+      },
+      {
+        "q": "What is the published gel time of Button Grade Resin?",
+        "a": "The published gel time is 9.5 minutes. Review the product TDS and actual conditions before planning a process around that figure."
+      },
+      {
+        "q": "Should a team alter catalyst dosage to change the gel time?",
+        "a": "Do not make changes by guesswork. Follow the specific product TDS and approved technical guidance for the grade and process."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Read the numbers as product-specific data",
+        "body": [
+          "Button Grade Resin is published at 1,100 cPs viscosity, with a 9.5-minute gel time and approximate two-hour curing time. These values belong to this specific transparent polyester casting grade and should be reviewed together with the product TDS.",
+          "A number taken from a GP resin, sheet resin or epoxy system is not a substitute. Different grades have different formulations, cure systems and intended roles."
+        ]
+      },
+      {
+        "heading": "Use viscosity as a discussion point",
+        "body": [
+          "Viscosity is one part of the processing conversation. For button or small decorative-mould casting, record the actual casting method, mould detail, required appearance and conditions in which the material will be used. The published 1,100 cPs value gives the supplier a common reference point, but it does not by itself confirm a particular mould or downstream process."
+        ]
+      },
+      {
+        "heading": "Use gel time as a planning reference",
+        "body": [
+          "The published 9.5-minute gel time helps frame the working-window discussion. Ambient conditions, catalyst system and the actual process record also matter. Follow the product TDS and approved instructions rather than attempting to correct timing through unverified changes."
+        ]
+      },
+      {
+        "heading": "Record the right facts for technical support",
+        "body": [
+          "When discussing a process question, share the product and batch, storage history, casting method, timing, ambient conditions, catalyst and accelerator information used under approved procedures, photographs where relevant and the observed result. This provides a factual starting point without assuming a cause."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "button-resin-storage-and-quote-guide",
+    "title": "Button Resin Storage and Quote Guide",
+    "description": "A procurement guide to the published Button Grade Resin shelf life, storage range, packaging and information needed for a focused quote request.",
+    "category": "Procurement Guide",
+    "icon": "drum",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Button Resin Storage and Quote Guide | Button Grade Resin",
+      "keywords": [
+        "Button Resin storage",
+        "Button Grade Resin shelf life",
+        "Button Resin quote",
+        "Button Resin supplier",
+        "Button Grade Resin packaging"
+      ],
+      "ogTitle": "Button Resin Storage and Quote Guide",
+      "ogDescription": "Review the published storage, shelf-life and packaging information for Button Grade Resin and prepare a quote-ready brief."
+    },
+    "quickFacts": {
+      "Published shelf life": "2 months",
+      "Published storage temperature": "30-35 C",
+      "Published packaging": "225 kg drum",
+      "MOQ": "Not published for this grade"
+    },
+    "relatedSlugs": [
+      "what-is-button-grade-resin",
+      "button-resin-gel-time-and-viscosity-guide",
+      "button-resin-processing-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the current product details and download the TDS."
+      },
+      {
+        "href": "/resources/how-to-store-unsaturated-polyester-resin/",
+        "label": "Read the general storage guide",
+        "description": "Use the existing guide alongside the specific Button Grade Resin product details."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a Button Grade Resin quote",
+        "description": "Share the intended product, quantity and delivery context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the published shelf life of Button Grade Resin?",
+        "a": "The published shelf life is two months from manufacture."
+      },
+      {
+        "q": "What storage temperature is published for Button Grade Resin?",
+        "a": "The published storage temperature is 30-35 C. Follow the TDS and applicable safety instructions for the product and batch."
+      },
+      {
+        "q": "What MOQ is published for Button Grade Resin?",
+        "a": "A minimum order quantity is not published for this grade. Ask for a quote with the expected quantity and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the grade-specific storage information",
+        "body": [
+          "Button Grade Resin is published with a two-month shelf life and 30-35 C storage temperature. These grade-specific details are more relevant than a universal polyester-resin assumption. Keep the exact TDS and applicable safety instructions with the receiving and production record.",
+          "Storage history can be useful context if a production discussion is needed later, so record the product, batch, manufacture or receipt date, container condition and storage location."
+        ]
+      },
+      {
+        "heading": "Plan around the published packaging",
+        "body": [
+          "The current product listing publishes Button Grade Resin in 225 kg drums. It does not publish a minimum order quantity, so the site does not state or imply one. Share the expected requirement rather than relying on an assumed MOQ."
+        ]
+      },
+      {
+        "heading": "Prepare a focused quote request",
+        "body": [
+          "Include the intended button or small decorative moulding, transparency or pigment-colour requirement, expected quantity, casting method if known and delivery location. If the request follows a trial or process question, include the relevant product and batch information separately."
+        ]
+      },
+      {
+        "heading": "Keep safety and handling controlled",
+        "body": [
+          "Resin, catalyst and accelerator handling must follow the product's applicable safety and technical instructions. This procurement guide does not replace those instructions or authorise a mixing or storage procedure."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "button-resin-processing-checklist",
+    "title": "Button Resin Processing Checklist: What to Record Before Technical Discussion",
+    "description": "A record-first checklist for button manufacturers preparing a factual Button Grade Resin processing or troubleshooting discussion.",
+    "category": "Troubleshooting Guide",
+    "icon": "checklist",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Button Resin Processing Checklist | Button Grade Resin Support",
+      "keywords": [
+        "Button Resin processing issues",
+        "Button Grade Resin troubleshooting",
+        "Button Resin casting problems",
+        "Polyester Button Resin processing",
+        "Button Resin technical support"
+      ],
+      "ogTitle": "Button Resin Processing Checklist",
+      "ogDescription": "Record the relevant product, batch, process and observed result before seeking Button Grade Resin technical support."
+    },
+    "quickFacts": {
+      "First response": "Record the product, batch, process and observed result",
+      "Do not assume": "A visible variation proves one root cause",
+      "Check against": "The product TDS, storage history and approved process record",
+      "Avoid": "Unapproved catalyst, accelerator or process changes"
+    },
+    "relatedSlugs": [
+      "button-resin-gel-time-and-viscosity-guide",
+      "button-resin-storage-and-quote-guide",
+      "what-is-button-grade-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/button-grade-resin/",
+        "label": "View Button Grade Resin",
+        "description": "Review the published technical data and TDS for the exact grade."
+      },
+      {
+        "href": "/resources/how-to-store-unsaturated-polyester-resin/",
+        "label": "Read the general storage guide",
+        "description": "Use storage history as part of a factual process record."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a button-resin process question",
+        "description": "Share the documented facts for a focused application discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a visible process variation prove that Button Grade Resin is at fault?",
+        "a": "No. A visible result alone does not identify a root cause. Record the product, batch, storage history, process, conditions and observed result before drawing a conclusion."
+      },
+      {
+        "q": "What should be shared for a Button Grade Resin technical discussion?",
+        "a": "Share the product and batch, intended part, casting method, timing, ambient conditions, storage history, approved catalyst and accelerator record, photographs where relevant and the observed result."
+      },
+      {
+        "q": "Should a team change catalyst or accelerator inputs by guesswork?",
+        "a": "No. Follow the specific product TDS and approved technical guidance. Unverified changes can create new variables and make the issue harder to assess."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Treat the observed result as a signal",
+        "body": [
+          "A change in appearance, casting timing or handling should be treated as a signal to document the process, not as proof of a universal cause. Button manufacture involves the specific grade, material condition, approved inputs, casting method and production conditions.",
+          "A record-first approach protects the production team from drawing a conclusion before the necessary facts are available."
+        ]
+      },
+      {
+        "heading": "Build a useful process record",
+        "body": [
+          "Record the product name and batch, intended button or small decorative moulding, product receipt and storage history, casting method, process timing, ambient conditions, the approved catalyst and accelerator information used, and the observed result. Photographs can help document what was seen without treating them as a diagnosis."
+        ]
+      },
+      {
+        "heading": "Compare with the controlling references",
+        "body": [
+          "Review the Button Grade Resin TDS and the approved internal process record. The published product details include 1,100 cPs viscosity, 9.5-minute gel time and approximate two-hour curing time, but the applicable product instructions and actual conditions remain the controlling context."
+        ]
+      },
+      {
+        "heading": "Keep corrective action controlled",
+        "body": [
+          "Do not add chemicals or change catalyst, accelerator or process inputs by guesswork. Share the documented record with the supplier or technical team so the discussion can focus on verifiable details and the actual application."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-unsaturated-polyester-resin",
+    "title": "What Is Unsaturated Polyester Resin (UPR)?",
+    "description": "A buyer-focused explanation of Unsaturated Polyester Resin (UPR), how it relates to FRP manufacturing and why the required product role matters before selecting a grade.",
+    "category": "Technical Explainer",
+    "icon": "info",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is Unsaturated Polyester Resin (UPR)? | Polyester Resin Guide",
+      "keywords": [
+        "Unsaturated Polyester Resin",
+        "What is UPR Resin",
+        "Polyester Resin meaning",
+        "FRP Resin",
+        "Industrial Polyester Resin",
+        "Thermosetting Polyester Resin"
+      ],
+      "ogTitle": "What Is Unsaturated Polyester Resin (UPR)?",
+      "ogDescription": "Understand UPR as a polyester-resin category and use published product roles to start a more precise FRP resin selection."
+    },
+    "quickFacts": {
+      "UPR": "A broad polyester-resin category used across FRP and composite manufacturing",
+      "Published standard grade": "Samrat's standard clear orthophthalic UPR is supplied as GP Clear Resin",
+      "Selection starts with": "The component, process, product role and stated requirement",
+      "Always confirm": "The individual product TDS, packaging and commercial details"
+    },
+    "relatedSlugs": [
+      "types-of-unsaturated-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "unsaturated-polyester-resin-vs-vinyl-ester-resin",
+      "polyester-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the parent UPR product page to map a requirement to the relevant published grade."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published standard clear orthophthalic UPR grade and its TDS."
+      },
+      {
+        "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+        "label": "Read the FRP resin-selection guide",
+        "description": "Compare the intended process with the relevant product data."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does UPR mean in resin purchasing?",
+        "a": "UPR means Unsaturated Polyester Resin. It is a broad category term, so a buyer should not assume that every UPR product has the same technical data or is suitable for the same production role."
+      },
+      {
+        "q": "Is Unsaturated Polyester Resin the same as GP Clear Resin?",
+        "a": "On this site, the published standard clear orthophthalic UPR is supplied as GP Clear Resin. The UPR page is the category gateway; GP Clear Resin is the product page for that standard clear grade and its published TDS."
+      },
+      {
+        "q": "Does one UPR grade suit every FRP job?",
+        "a": "No. A general FRP laminate, door lamination, visible mould-facing surface, decorative casting, fire-performance requirement or chemical-resistance requirement each needs to be considered against the relevant published product role and data."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "UPR is a category, not one universal grade",
+        "body": [
+          "Unsaturated Polyester Resin, often shortened to UPR or simply polyester resin, is a broad category used in FRP and composite manufacturing. In a buyer enquiry, the category name is a useful starting point, but it does not by itself identify the right product, specification or process fit.",
+          "The practical question is what the resin must do in the finished manufacturing sequence. A structural FRP laminate, a mould-facing surface layer, a door-lamination requirement and a visible decorative casting can all involve polyester-resin products, yet they are not the same purchasing decision."
+        ]
+      },
+      {
+        "heading": "The published standard UPR grade on this site",
+        "body": [
+          "Samrat FRP Traders publishes its standard clear orthophthalic UPR as GP Clear Resin. The Unsaturated Polyester Resin product page carries the category-level explanation, while the GP Clear page carries the same published standard-grade technical data and the product-specific purchasing context.",
+          "The technical specifications and TDS for that standard clear grade should not be treated as the specification for every specialist product in the range. Each relevant grade should be reviewed on its own page before selection."
+        ]
+      },
+      {
+        "heading": "How product role changes the resin conversation",
+        "subsections": [
+          {
+            "heading": "General FRP laminate",
+            "body": "Start with the published GP Clear or GP Yellow product role where the requirement is general FRP work, then check the selected grade's appearance, process context and TDS."
+          },
+          {
+            "heading": "Lamination or bonding",
+            "body": "A door, plywood or FRP-bonding requirement should be assessed against the dedicated Lamination Resin product information rather than treated as a generic UPR request."
+          },
+          {
+            "heading": "Visible mould-side surface",
+            "body": "A visible surface layer is a separate Gelcoat Resin decision. It should be distinguished from the resin used to build the reinforced laminate behind it."
+          },
+          {
+            "heading": "Specialist requirement",
+            "body": "Button casting, a stated fire-performance requirement, a chemical- or corrosion-resistance requirement, or a specified epoxy system each needs the corresponding published product data rather than a generic UPR assumption."
+          }
+        ]
+      },
+      {
+        "heading": "Start a useful UPR enquiry",
+        "body": [
+          "Share the component or application, manufacturing process, required appearance or product role, any stated specification, expected quantity and delivery location. This gives the supplier a factual basis for pointing to the relevant product data before a quote discussion.",
+          "Use the published TDS, packaging and commercial details for the shortlisted grade. A category article can help frame the decision, but it does not replace grade-specific technical review or approved production instructions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "types-of-unsaturated-polyester-resin",
+    "title": "Types of Unsaturated Polyester Resin: A Grade-Selection Guide",
+    "description": "A product-role guide for buyers comparing standard UPR, GP, lamination, gelcoat, button, fire-retardant and vinyl ester options without treating them as interchangeable.",
+    "category": "Buyer Guide",
+    "icon": "grid",
+    "readingTime": "6 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Types of Unsaturated Polyester Resin | UPR Grade-Selection Guide",
+      "keywords": [
+        "Types of Unsaturated Polyester Resin",
+        "UPR Resin grades",
+        "Polyester Resin grades",
+        "FRP Resin selection",
+        "Industrial Polyester Resin"
+      ],
+      "ogTitle": "Types of Unsaturated Polyester Resin",
+      "ogDescription": "Use product role, process and stated requirements to identify the relevant published polyester-resin grade before requesting a quote."
+    },
+    "quickFacts": {
+      "This guide covers": "Published product roles, not a universal technical taxonomy",
+      "General FRP": "Review GP Clear or GP Yellow according to the supplied grade and application context",
+      "Specialist roles": "Review the individual Lamination, Gelcoat, Button, Fire Retardant or Vinyl Ester product data",
+      "Decision rule": "Do not transfer one grade's data to another grade"
+    },
+    "comparisonTable": {
+      "title": "Published product roles to review",
+      "note": "This is a buyer map based on the site's published product positioning. It is not a substitute for the specific TDS or technical approval for a production line.",
+      "headers": [
+        "Requirement to clarify",
+        "Published product to review",
+        "Why it is a separate decision"
+      ],
+      "rows": [
+        [
+          "General clear FRP work",
+          "GP Clear Resin",
+          "Published as the standard clear orthophthalic UPR grade for general FRP contexts"
+        ],
+        [
+          "General FRP work where supplied transparent-yellow colour is acceptable",
+          "GP Yellow Resin",
+          "Published as a transparent-yellow general-purpose polyester grade"
+        ],
+        [
+          "Door, plywood or FRP bonding",
+          "Lamination Resin",
+          "Published for lamination-focused applications rather than a broad category request"
+        ],
+        [
+          "Mould-facing visible surface",
+          "GP Gelcoat Resin",
+          "Published as a surface-coating role, separate from the structural laminate"
+        ],
+        [
+          "Buttons or small decorative castings",
+          "Button Grade Resin",
+          "Published as a transparent casting role rather than a reinforcement laminate grade"
+        ],
+        [
+          "Stated fire-performance requirement",
+          "Fire Retardant Resin",
+          "Requires its own published product data and project requirement review"
+        ],
+        [
+          "Stated chemical or corrosion-resistance requirement",
+          "Vinyl Ester Resin",
+          "Published as a related alternative with separate technical data"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-unsaturated-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "unsaturated-polyester-resin-vs-vinyl-ester-resin",
+      "unsaturated-polyester-resin-vs-epoxy-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Use the UPR product selector",
+        "description": "Start from the parent category page and move to the individual published grade."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the standard clear UPR data for a general FRP requirement."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the separate mould-facing surface-coating product role."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the separate product data for stated chemical- or corrosion-resistance requirements."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are GP Resin and UPR Resin different categories?",
+        "a": "UPR is the broader category term. GP Resin is a more specific general-purpose product role within the polyester-resin selection conversation. Confirm the individual product data rather than relying on either label alone."
+      },
+      {
+        "q": "When should a buyer look beyond a general-purpose UPR grade?",
+        "a": "Look beyond it when the requirement is specifically for lamination, a mould-side finish, decorative casting, stated fire performance, chemical or corrosion resistance, or a separately specified resin system."
+      },
+      {
+        "q": "Can one TDS be used for all polyester resin grades?",
+        "a": "No. A TDS applies to the grade it was issued for. It should not be used to infer the viscosity, gel time, packaging, suitability or other details of another product."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use a product-role map instead of a generic grade list",
+        "body": [
+          "A buyer searching for polyester resin may find several names that appear similar. The safe way to begin is not to assume that one name is a substitute for another, but to identify what role the resin needs to perform in the product and process.",
+          "The published Samrat FRP Traders range separates general FRP laminate options from lamination, mould-surface, casting, fire-performance and chemical-resistance discussions. That separation helps prevent a broad UPR request from becoming an inaccurate product specification."
+        ]
+      },
+      {
+        "heading": "The standard general-purpose starting point",
+        "body": [
+          "For general clear FRP work, GP Clear Resin is the published standard clear orthophthalic UPR grade. GP Yellow Resin is the published transparent-yellow general-purpose grade to review where that supplied colour is acceptable in the build-up.",
+          "The component, reinforcement, production method and required final appearance still matter. The fact that two products sit within a general polyester-resin conversation does not make their published properties interchangeable."
+        ]
+      },
+      {
+        "heading": "When the application needs a specialist role",
+        "body": [
+          "Lamination Resin is published for door, plywood and FRP-bonding applications. GP Gelcoat Resin is published for the mould-facing surface layer. Button Grade Resin is published for buttons and small decorative mouldings. Each answer starts with a different product role, not merely a different product name.",
+          "For a stated fire-performance requirement, review Fire Retardant Resin and its product data. For a stated chemical- or corrosion-resistance requirement, review Vinyl Ester Resin and its separate technical data. Do not infer a rating or performance outcome from this overview alone."
+        ]
+      },
+      {
+        "heading": "A practical selection sequence",
+        "body": [
+          "First define the component and process. Next state whether the resin is needed for the laminate, a visible surface, bonding, casting or a specialist requirement. Then compare the relevant product TDS, published packaging and quote details.",
+          "If the requirement remains unclear, share the facts available rather than guessing a grade: component, process, expected quantity, delivery location and any required finish or specification. This makes a focused technical and commercial discussion possible."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "unsaturated-polyester-resin-vs-vinyl-ester-resin",
+    "title": "Unsaturated Polyester Resin vs Vinyl Ester Resin",
+    "description": "A product-family comparison for buyers separating a standard UPR requirement from a project with stated chemical- or corrosion-resistance needs.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Unsaturated Polyester Resin vs Vinyl Ester Resin | UPR Buyer Guide",
+      "keywords": [
+        "Unsaturated Polyester Resin vs Vinyl Ester Resin",
+        "UPR vs Vinyl Ester Resin",
+        "Polyester Resin vs Vinyl Ester Resin",
+        "FRP Resin selection"
+      ],
+      "ogTitle": "Unsaturated Polyester Resin vs Vinyl Ester Resin",
+      "ogDescription": "Separate a standard UPR requirement from a project with stated chemical- or corrosion-resistance requirements before choosing a published product grade."
+    },
+    "quickFacts": {
+      "Standard UPR on this site": "Published as GP Clear Resin for general FRP work",
+      "Vinyl Ester": "A related alternative with its own published technical data",
+      "Selection trigger": "Stated chemical or corrosion requirement, process and component context",
+      "Do not assume": "That a general UPR grade and Vinyl Ester Resin are interchangeable"
+    },
+    "comparisonTable": {
+      "title": "Buyer-oriented comparison",
+      "note": "Use the individual product data and the actual project requirement for final selection. This table does not publish or infer performance values for a particular finished part.",
+      "headers": [
+        "Decision point",
+        "Standard UPR / GP Clear Resin",
+        "Vinyl Ester Resin"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "General-purpose orthophthalic resin for common FRP work",
+          "Related alternative to review for stated chemical- or corrosion-resistance requirements"
+        ],
+        [
+          "Where to begin",
+          "General FRP component and process context",
+          "Exposure, specification, component and process context"
+        ],
+        [
+          "Data to review",
+          "The GP Clear Resin TDS and product details",
+          "The Vinyl Ester Resin TDS and product details"
+        ],
+        [
+          "Safe purchasing approach",
+          "Do not assume it covers a specialist requirement",
+          "Do not select it merely from a broad performance label"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-unsaturated-polyester-resin",
+      "types-of-unsaturated-polyester-resin",
+      "gp-resin-vs-vinyl-ester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the parent UPR page to identify the right product role."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published standard clear UPR data for general FRP work."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the published technical data for a stated chemical- or corrosion-resistance requirement."
+      },
+      {
+        "href": "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
+        "label": "Explore a Vinyl Ester application guide",
+        "description": "Review an existing application context alongside the product data."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Vinyl Ester Resin simply a higher-grade UPR?",
+        "a": "It should be treated as a separate product selection. This site positions Vinyl Ester Resin as a related alternative for stated chemical- or corrosion-resistance requirements, with its own product data and applications."
+      },
+      {
+        "q": "When should a buyer start with standard UPR?",
+        "a": "Start with the standard general-purpose grade where the requirement is common FRP work and no specialist requirement has been stated. Confirm actual process fit and the relevant TDS before selection."
+      },
+      {
+        "q": "What information helps compare UPR and Vinyl Ester Resin?",
+        "a": "Share the component, exposure or stated specification, process, reinforcement, expected quantity and delivery location. These facts are more useful than a request for a generic higher-performance resin."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why this is a product-family decision",
+        "body": [
+          "Unsaturated Polyester Resin is a broad category, while Vinyl Ester Resin is a related alternative with its own published product information. The comparison should begin with the actual job requirement rather than an assumption that one material is automatically a replacement for the other.",
+          "On this site, the standard clear UPR is supplied as GP Clear Resin for general FRP work. Vinyl Ester Resin is the product to review when the project states a chemical- or corrosion-resistance requirement. Both the product role and the project context should be checked before a purchasing decision."
+        ]
+      },
+      {
+        "heading": "Start with the requirement that is actually stated",
+        "body": [
+          "For a general FRP requirement, begin with the component, process and the published GP Clear Resin data. For a project involving specified exposure, corrosion or chemical requirements, begin with the exact specification and the Vinyl Ester Resin product data.",
+          "A product name alone cannot confirm suitability. The relevant TDS, the intended process and the complete component context are the practical controls for a responsible selection discussion."
+        ]
+      },
+      {
+        "heading": "Avoid a false upgrade or downgrade",
+        "body": [
+          "Do not move from a standard UPR grade to Vinyl Ester Resin merely because it sounds more specialised, and do not replace a stated specialist requirement with a general product because the names appear related. Each choice should be connected to a documented product role and project requirement.",
+          "Where the requirement is uncertain, record the application, exposure, process and finish needed, then seek review against the published product information. This is more reliable than drawing a conclusion from a broad category label."
+        ]
+      },
+      {
+        "heading": "Prepare the comparison for a quote discussion",
+        "body": [
+          "Include the part or component, any stated medium or exposure, intended process, reinforcement, expected quantity and delivery location. If a tender or drawing names a material system or standard, share that requirement for review rather than translating it into a product name independently."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "unsaturated-polyester-resin-vs-epoxy-resin",
+    "title": "Epoxy Clear Casting Resin vs Polyester Resin: Choosing a Published Resin System",
+    "description": "A buyer guide for distinguishing a standard UPR or reinforced-FRP requirement from the separately published Epoxy Clear Casting Resin system on this site.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Epoxy Clear Casting Resin vs Polyester Resin | Buyer Guide",
+      "keywords": [
+        "Epoxy Clear Casting Resin vs Polyester Resin",
+        "Epoxy Casting Resin vs Polyester Resin",
+        "UPR vs Epoxy Resin",
+        "Polyester Resin vs Epoxy Resin",
+        "Resin system selection"
+      ],
+      "ogTitle": "Epoxy Clear Casting Resin vs Polyester Resin",
+      "ogDescription": "Understand the published distinction between standard UPR for reinforced FRP work and the separate Epoxy Clear Casting Resin system before selecting a resin system."
+    },
+    "quickFacts": {
+      "UPR on this site": "Standard clear UPR is published as GP Clear Resin for general FRP work",
+      "Epoxy on this site": "Clear Casting Resin is a separately published two-part epoxy system",
+      "Selection trigger": "The required product system, component and process",
+      "Do not transfer": "Mixing, cure or TDS information between resin systems"
+    },
+    "comparisonTable": {
+      "title": "Published system comparison",
+      "note": "This guide is limited to the product systems published on this site. It does not claim that every UPR or epoxy product in the market is equivalent to these listed grades.",
+      "headers": [
+        "Decision point",
+        "Standard UPR / GP Clear Resin",
+        "Clear Casting Resin"
+      ],
+      "rows": [
+        [
+          "Published system",
+          "Orthophthalic unsaturated polyester resin",
+          "Separate two-part epoxy system"
+        ],
+        [
+          "Published product role",
+          "General FRP work with reinforcement",
+          "Clear decorative casting and deeper-pour casting context"
+        ],
+        [
+          "Technical reference",
+          "GP Clear Resin TDS",
+          "Clear Casting Resin TDS and its own published instructions"
+        ],
+        [
+          "Selection rule",
+          "Use where the general FRP product role fits",
+          "Use only where the separate epoxy system and product role are relevant"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-unsaturated-polyester-resin",
+      "types-of-unsaturated-polyester-resin",
+      "what-is-epoxy-clear-casting-resin",
+      "casting-resin-vs-coating-resin",
+      "epoxy-clear-casting-resin-buyer-guide",
+      "button-grade-resin-vs-clear-casting-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the parent page to identify the appropriate polyester-resin product role."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published standard UPR grade for general FRP work."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Clear Casting Resin",
+        "description": "Review the separate epoxy product data where an epoxy casting system is relevant."
+      },
+      {
+        "href": "/resources/what-is-epoxy-clear-casting-resin/",
+        "label": "What is Epoxy Clear Casting Resin?",
+        "description": "Read the product-role guide for clear, contained casting requirements."
+      },
+      {
+        "href": "/resources/casting-resin-vs-coating-resin/",
+        "label": "Compare casting and coating roles",
+        "description": "Separate a contained cast from the site's self-levelling epoxy surface-coating route."
+      },
+      {
+        "href": "/resources/button-grade-resin-vs-clear-casting-resin/",
+        "label": "Read the casting-system comparison",
+        "description": "Review an existing product-role comparison for visible casting requirements."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are the published UPR and epoxy products interchangeable?",
+        "a": "No. The site publishes them as separate resin systems with different product roles and technical references. Use the relevant product TDS rather than transferring assumptions from one system to another."
+      },
+      {
+        "q": "Which product should be reviewed for reinforced general FRP work?",
+        "a": "The published standard clear UPR, supplied as GP Clear Resin, is the general FRP starting point. Confirm the actual component and process against its product data."
+      },
+      {
+        "q": "Which product should be reviewed when an epoxy system is specified?",
+        "a": "Review the separately published epoxy product information and applicable technical instructions. Do not substitute a polyester resin simply because both products are described broadly as resin."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Treat UPR and epoxy as separate published systems",
+        "body": [
+          "A resin buyer may use the terms polyester resin and epoxy resin in the same conversation, but they should not be treated as interchangeable labels. This site publishes a standard clear UPR for general FRP work and a separate two-part epoxy product for clear decorative casting contexts.",
+          "The correct starting point is the required system and product role. If a drawing, process or customer requirement specifies an epoxy system, use the applicable epoxy product data. If the requirement is a general reinforced FRP laminate, begin with the published UPR product role instead."
+        ]
+      },
+      {
+        "heading": "Match the product role before comparing details",
+        "body": [
+          "GP Clear Resin is published as the standard clear orthophthalic UPR grade for general FRP work with reinforcement. Clear Casting Resin is published as a separate epoxy system for clear decorative casting and deeper-pour casting contexts.",
+          "This role distinction is more useful than trying to compare isolated specifications across different systems. The relevant TDS and published application context should remain with the product being considered."
+        ]
+      },
+      {
+        "heading": "Keep the technical references separate",
+        "body": [
+          "Do not transfer handling, curing, ratio or process assumptions from one resin system to another. The published technical data and applicable approved instructions for the selected product are the controlling reference.",
+          "Where a buyer is unsure whether the component requires a reinforced laminate, a surface layer, a decorative cast part or a specified system, document that question first and review the relevant product page before requesting a quotation."
+        ]
+      },
+      {
+        "heading": "Information to provide before selection",
+        "body": [
+          "Share the component, whether reinforcement is involved, intended appearance or product role, process, expected quantity and delivery location. If an epoxy system is stated in the requirement, include that source document or wording for review."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-epoxy-clear-casting-resin",
+    "title": "What Is Epoxy Clear Casting Resin?",
+    "description": "A buyer guide to Samrat FRP Traders' published two-part Epoxy Clear Casting Resin role for clear, contained decorative casting requirements.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is Epoxy Clear Casting Resin? | Clear Casting Resin Guide",
+      "keywords": [
+        "What is Epoxy Clear Casting Resin",
+        "Clear Casting Resin",
+        "Epoxy Casting Resin",
+        "Crystal Clear Epoxy Resin",
+        "Transparent Epoxy Resin"
+      ],
+      "ogTitle": "What Is Epoxy Clear Casting Resin?",
+      "ogDescription": "Understand the published clear-casting product role, and separate it from a polyester FRP resin or a self-levelling epoxy coating."
+    },
+    "quickFacts": {
+      "Published product role": "Two-part epoxy system for clear, contained decorative casting",
+      "Published application context": "River tables, jewellery and decorative casting",
+      "Separate product roles": "Polyester FRP laminate resin, gelcoat and self-levelling epoxy coating",
+      "Technical control": "Use the current Clear Casting Resin TDS for the exact product"
+    },
+    "relatedSlugs": [
+      "unsaturated-polyester-resin-vs-epoxy-resin",
+      "casting-resin-vs-coating-resin",
+      "epoxy-clear-casting-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the published product details, current TDS, packaging and enquiry route."
+      },
+      {
+        "href": "/applications/epoxy-clear-casting-resin-for-river-tables/",
+        "label": "Explore river-table casting context",
+        "description": "Read the existing published clear-casting application page."
+      },
+      {
+        "href": "/applications/epoxy-clear-casting-resin-for-jewellery-casting/",
+        "label": "Explore jewellery and decorative casting context",
+        "description": "Read the existing published small decorative-casting application page."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the separate self-levelling surface-coating product role."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Epoxy Clear Casting Resin?",
+        "a": "On this site, Epoxy Clear Casting Resin is the separately published two-part epoxy product for clear, contained decorative casting contexts such as river tables, jewellery and decorative pieces."
+      },
+      {
+        "q": "Is clear casting resin the same as a polyester FRP resin?",
+        "a": "No. The site publishes Clear Casting Resin as a separate epoxy system. GP Clear Resin and Unsaturated Polyester Resin are separate published routes for polyester-family FRP requirements."
+      },
+      {
+        "q": "Is a casting resin the same as a self-levelling epoxy coating?",
+        "a": "Not automatically. This site distinguishes Epoxy Clear Casting Resin for contained casting from Epoxy Art Resin for the separately published self-levelling surface-coating role."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the finished product role",
+        "body": [
+          "Buyers may search for clear casting resin, crystal clear epoxy resin, transparent epoxy resin or epoxy casting resin. On this site, those terms lead to the separately published Epoxy Clear Casting Resin product route when the requirement is a clear, contained decorative cast piece.",
+          "The published application context includes river tables, jewellery and decorative casting. The actual part, casting geometry, required appearance and product documentation remain the basis for selection; a broad search term alone does not establish suitability."
+        ]
+      },
+      {
+        "heading": "Keep casting, coating and FRP roles separate",
+        "body": [
+          "A clear casting requirement is not automatically a self-levelling surface-coating requirement. Samrat FRP Traders publishes Epoxy Art Resin separately for a level finish on horizontal surfaces. It also publishes Unsaturated Polyester Resin and GP Clear Resin separately for polyester-family FRP applications involving reinforcement.",
+          "A buyer can avoid a false substitute by first defining whether the requirement is a contained cast, a surface coat, or a reinforced FRP component. Then review the individual product page and current TDS for that product role."
+        ]
+      },
+      {
+        "heading": "Use the product document before committing a requirement",
+        "body": [
+          "Review the current Clear Casting Resin TDS and product page before purchase or production discussion. Do not transfer mix, cure, handling or performance assumptions from a different epoxy, a coating system or a polyester resin.",
+          "For a quotation discussion, share the intended application, casting size or depth, required appearance, expected quantity and delivery location. This helps the team distinguish a clear-casting enquiry from another resin-system requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "casting-resin-vs-coating-resin",
+    "title": "Casting Resin vs Coating Resin: How to Choose the Published Epoxy Role",
+    "description": "A buyer comparison between the site's Epoxy Clear Casting Resin route for contained casts and its separate Epoxy Art Resin route for self-levelling surface coatings.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Casting Resin vs Coating Resin | Clear Epoxy Buyer Guide",
+      "keywords": [
+        "Casting Resin vs Coating Resin",
+        "Epoxy Art Resin vs Clear Casting Resin",
+        "Art Resin vs Casting Resin",
+        "Epoxy Casting Resin vs Coating Resin",
+        "Clear Casting Resin",
+        "Self Levelling Epoxy Resin",
+        "Epoxy Resin Selection"
+      ],
+      "ogTitle": "Casting Resin vs Coating Resin",
+      "ogDescription": "Separate a contained clear-casting requirement from a self-levelling surface-coating requirement before reviewing a published epoxy product route."
+    },
+    "quickFacts": {
+      "Clear Casting Resin role": "Published for clear, contained decorative casting",
+      "Epoxy Art Resin role": "Published for self-levelling horizontal surface coating",
+      "Buyer starting point": "Finished-part geometry and required surface role",
+      "Do not assume": "That two clear epoxy products have the same product role or technical data"
+    },
+    "comparisonTable": {
+      "title": "Published epoxy product-role comparison",
+      "note": "This comparison describes the published roles on this site. Check the current product data and actual project requirement before selection.",
+      "headers": [
+        "Decision point",
+        "Epoxy Clear Casting Resin",
+        "Epoxy Art Resin"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "Clear, contained decorative casting",
+          "Self-levelling horizontal surface coating"
+        ],
+        [
+          "Published application context",
+          "River tables, jewellery and decorative casting",
+          "Floor art, table tops and other horizontal surface finishes"
+        ],
+        [
+          "Buyer question to start with",
+          "Is the requirement a contained cast?",
+          "Is the requirement a level visible surface coat?"
+        ],
+        [
+          "Technical reference",
+          "Current Clear Casting Resin TDS",
+          "Current Epoxy Art Resin TDS"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-clear-casting-resin",
+      "what-is-epoxy-art-resin",
+      "applications-of-epoxy-art-resin",
+      "epoxy-art-resin-buyer-guide",
+      "unsaturated-polyester-resin-vs-epoxy-resin",
+      "epoxy-clear-casting-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the published product route for clear, contained casting."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the separate published self-levelling surface-coating route."
+      },
+      {
+        "href": "/applications/epoxy-clear-casting-resin-for-river-tables/",
+        "label": "Explore river-table casting context",
+        "description": "See the existing clear, contained casting application page."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an epoxy requirement",
+        "description": "Share the finished part, surface role, quantity and delivery location through the existing enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How is casting resin different from coating resin?",
+        "a": "The site separates the roles: Epoxy Clear Casting Resin is published for clear, contained casting, while Epoxy Art Resin is published for self-levelling horizontal surface coating. Select by the finished product role rather than by the word clear."
+      },
+      {
+        "q": "Can a buyer select by gloss alone?",
+        "a": "No. A visible finish is one input, but the part geometry and whether the product is a contained cast or a surface coat are the more useful starting checks. Review the current product data for the selected route."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The first decision is casting or coating",
+        "body": [
+          "Clear epoxy products are often grouped together in a broad enquiry, but the requirement may be either a contained cast or a visible surface coat. Samrat FRP Traders publishes separate product routes for those roles: Epoxy Clear Casting Resin for clear, contained decorative casting and Epoxy Art Resin for self-levelling horizontal surface coating.",
+          "Describe the part before choosing a product name. A cast feature, mould or contained void creates a different product-role question from a level surface finish on a table top, floor-art panel or other horizontal substrate."
+        ]
+      },
+      {
+        "heading": "Compare the published role, not a generic epoxy label",
+        "body": [
+          "The product names should not be treated as proof that the systems are interchangeable. Use the current TDS for the selected product and keep its product-specific technical information with the actual project requirement.",
+          "If an enquiry includes both a clear cast and a visible final surface, identify each requirement separately. This gives the supplier a clearer basis to discuss the applicable published product route without assuming a one-product answer."
+        ]
+      },
+      {
+        "heading": "What to include in a decision-support enquiry",
+        "body": [
+          "State the finished part or surface, whether the requirement is contained casting or a self-levelling coat, required appearance, dimensions or casting context, expected quantity and delivery location. Attach any drawing or customer specification where available.",
+          "This guide does not provide operating, mixing, curing or application instructions. Follow the current product documentation and approved technical guidance for the material ultimately selected."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-clear-casting-resin-buyer-guide",
+    "title": "Epoxy Clear Casting Resin Buyer Guide: TDS and Quote Checklist",
+    "description": "A practical buyer checklist for documenting a clear epoxy casting requirement before requesting a quotation from Samrat FRP Traders.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Epoxy Clear Casting Resin Buyer Guide | Epoxy Resin Quote Checklist",
+      "keywords": [
+        "Epoxy Clear Casting Resin Supplier",
+        "Clear Casting Resin Quote",
+        "Epoxy Casting Resin Buyer Guide",
+        "Epoxy Resin Procurement",
+        "Clear Epoxy Resin Supplier"
+      ],
+      "ogTitle": "Epoxy Clear Casting Resin Buyer Guide",
+      "ogDescription": "Prepare a focused clear-casting enquiry using the current TDS and the finished-part, appearance and commercial details that matter before quotation."
+    },
+    "quickFacts": {
+      "Start with": "The finished part and clear-casting requirement",
+      "Then document": "Casting context, appearance, quantity and delivery location",
+      "Product document": "Current Clear Casting Resin TDS",
+      "Do not infer": "Stock, lead time, samples, suitability or performance from a generic epoxy label"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-clear-casting-resin",
+      "casting-resin-vs-coating-resin",
+      "unsaturated-polyester-resin-vs-epoxy-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the published product details and current Technical Data Sheet."
+      },
+      {
+        "href": "/tds/epoxy-clear-casting-resin-tds.pdf",
+        "label": "Download Clear Casting Resin TDS",
+        "description": "Use the current product document as the controlling reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review separate resin, coating and FRP product roles before selection."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request an epoxy casting quote",
+        "description": "Share documented project and delivery details through the existing enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in an Epoxy Clear Casting Resin RFQ?",
+        "a": "Include the intended part or application, whether it is a contained cast or surface coat, casting size or depth context, required appearance, expected quantity, delivery location and any stated specification."
+      },
+      {
+        "q": "What document should be checked before purchase?",
+        "a": "Review the current Clear Casting Resin TDS for the exact published product. Do not transfer technical information from a different epoxy product or a polyester resin."
+      },
+      {
+        "q": "Does a buyer guide confirm product suitability?",
+        "a": "No. It helps document the requirement for discussion. Actual suitability must be checked against the current product data and the specific application context."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Describe the visible part and its role",
+        "body": [
+          "Start with the item being made: for example, a clear contained river-table feature, a jewellery or decorative moulded piece, or another defined casting requirement. State whether the requirement is a cast feature or a self-levelling surface coat; this separates the Clear Casting Resin route from the site's separately published Epoxy Art Resin route.",
+          "Record the intended appearance in factual terms, such as clear or finished appearance requirement. Do not assume that a broad label such as crystal clear automatically replaces review of the current product data or the complete project context."
+        ]
+      },
+      {
+        "heading": "Keep the technical document with the enquiry",
+        "body": [
+          "Use the current Clear Casting Resin TDS as the product-specific reference. Do not borrow mixing, cure, handling, performance or compatibility information from a different epoxy, a polyester FRP resin or an online generic guide.",
+          "Where a drawing, customer specification or internal production requirement exists, include its original wording. This preserves the technical question rather than converting it into an unsupported product assumption."
+        ]
+      },
+      {
+        "heading": "Prepare the commercial discussion",
+        "body": [
+          "Include the expected quantity and delivery location, together with the product role and application information. If the enquiry is for an evaluation, regular requirement or a particular purchase stage, state that context only if it is known.",
+          "This guide does not imply availability, lead time, sample policy, delivery commitment or performance guarantee. Those points should be confirmed directly for the actual requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "polyester-resin-procurement-checklist",
+    "title": "Polyester Resin Procurement Checklist: What to Confirm Before Requesting a Quote",
+    "description": "A practical B2B checklist for FRP buyers preparing a precise polyester-resin or UPR enquiry without guessing the correct grade.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Polyester Resin Procurement Checklist | UPR Buyer Guide",
+      "keywords": [
+        "Polyester Resin procurement",
+        "UPR Resin supplier",
+        "Polyester Resin supplier",
+        "FRP Resin quote",
+        "Industrial Polyester Resin buying guide"
+      ],
+      "ogTitle": "Polyester Resin Procurement Checklist",
+      "ogDescription": "Prepare the component, process, product role, quantity and delivery details needed for a more focused UPR or polyester-resin quotation discussion."
+    },
+    "quickFacts": {
+      "Start with": "Component and manufacturing process",
+      "Then clarify": "Laminate, surface, bonding, casting or specialist product role",
+      "Commercial facts": "Expected quantity and delivery location",
+      "Technical control": "The TDS for the specific shortlisted grade"
+    },
+    "relatedSlugs": [
+      "what-is-unsaturated-polyester-resin",
+      "types-of-unsaturated-polyester-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing",
+      "how-to-store-unsaturated-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Start at the UPR product hub",
+        "description": "Map the enquiry to the relevant published resin-grade role."
+      },
+      {
+        "href": "/resources/types-of-unsaturated-polyester-resin/",
+        "label": "Review polyester-resin product roles",
+        "description": "Separate general FRP, lamination, gelcoat, casting and specialist requirements."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a quote",
+        "description": "Share the documented requirement through the existing enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in a polyester resin RFQ?",
+        "a": "Include the component or application, manufacturing process, the required product role or finish, expected quantity, delivery location and any stated specification. Add the specific product name only if it has already been confirmed."
+      },
+      {
+        "q": "Should a buyer request a generic UPR quote?",
+        "a": "A broad UPR enquiry is a useful starting point, but it is stronger when it includes the application and process. This helps identify whether a general FRP, lamination, gelcoat, casting or specialist product page should be reviewed."
+      },
+      {
+        "q": "What technical document should be checked before purchase?",
+        "a": "Check the Technical Data Sheet for the specific shortlisted grade. Do not use the data from a standard UPR or GP product to assume the details of another resin grade."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Describe the part before naming a resin",
+        "body": [
+          "Start the enquiry with the actual component or product: for example, an FRP laminate, panel, door-lamination requirement, mould-facing surface or decorative casting. The part gives a clearer starting point than a broad request for the best resin.",
+          "Then state the manufacturing process if known. Hand lay-up, spray-up, lamination, casting and other processes create different product-selection questions, so this context should travel with the RFQ."
+        ]
+      },
+      {
+        "heading": "Clarify the product role",
+        "body": [
+          "State whether the purchase is for a general reinforced laminate, a visible mould-side surface, a bonding or lamination task, a button or small decorative casting, or a specialist requirement. This helps separate the published GP, Lamination, Gelcoat, Button, Fire Retardant and Vinyl Ester product roles.",
+          "If a customer drawing, tender or internal specification calls for a particular system or requirement, include the original wording. Do not translate a stated performance requirement into a product-grade assumption without review."
+        ]
+      },
+      {
+        "heading": "Add the commercial details",
+        "body": [
+          "Include the expected quantity and delivery location, plus the preferred pack or timing information only where it is genuinely known. Product pages publish grade-specific packaging and minimum-order details, so these should be checked after the product role has been narrowed down.",
+          "For an ongoing requirement, a buyer can also state whether the request is for evaluation, an initial production order or routine supply. This gives the commercial discussion context without inventing a demand forecast."
+        ]
+      },
+      {
+        "heading": "Keep the technical decision controlled",
+        "body": [
+          "Use the TDS for the exact shortlisted grade and retain the application facts with the enquiry. Do not rely on a generic category page, a different product's data or an unapproved process assumption as proof of suitability.",
+          "Where technical confirmation is needed, share the component, process, product role, specification wording and observed production context. This creates a focused basis for discussion rather than an open-ended request for any polyester resin."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-gp-white-resin",
+    "title": "What Is GP White Resin?",
+    "description": "A buyer guide to GP White Resin as a water-white general-purpose polyester grade for published FRP moulding, panel and fabrication contexts.",
+    "category": "Technical Explainer",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is GP White Resin? | Water-White Polyester Resin Guide",
+      "keywords": [
+        "What is GP White Resin",
+        "GP White Resin",
+        "White Polyester Resin",
+        "White GP Resin",
+        "FRP White Resin"
+      ],
+      "ogTitle": "What Is GP White Resin?",
+      "ogDescription": "Understand GP White Resin as a published water-white general-purpose polyester grade, and separate it from clear GP resin and white gelcoat roles."
+    },
+    "quickFacts": {
+      "Published appearance": "Water White",
+      "Product role": "General-purpose orthophthalic polyester resin for reinforced FRP contexts",
+      "Published process data": "Below 350 cPs viscosity; 6-minute gel time; medium thixotropic",
+      "Do not assume": "The supplied resin appearance alone determines the finished FRP surface colour"
+    },
+    "relatedSlugs": [
+      "applications-of-gp-white-resin",
+      "gp-white-resin-vs-gp-clear-resin",
+      "gp-white-resin-vs-gelcoat-resin",
+      "gp-white-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the published TDS, packaging, MOQ and technical data for the exact grade."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate published clear GP grade before choosing by appearance alone."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the separate white mould-facing surface-coating role."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is GP White Resin?",
+        "a": "GP White Resin is Samrat FRP Traders' published water-white, general-purpose orthophthalic polyester resin for reinforced FRP manufacture, including panels, general moulding, hand layup, spray-up, cooling towers and water storage tanks."
+      },
+      {
+        "q": "Does GP White Resin make every finished FRP part white?",
+        "a": "No. The published product appearance is water white as supplied. The final appearance of an FRP component also depends on the reinforcement, pigment, mould-side surface layer and manufacturing build-up."
+      },
+      {
+        "q": "Is GP White Resin the same as white gelcoat?",
+        "a": "No. GP White Resin is the published general-purpose laminate resin. GP Gelcoat Resin is the separate published mould-facing surface-coating product for a white, high-gloss surface role."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The buyer question behind 'white resin'",
+        "body": [
+          "Buyers may search for white polyester resin when the supplied appearance matters to a panel, moulding or general FRP requirement. On this site, GP White Resin is published as water white, medium thixotropic and general purpose. The question to resolve is whether that grade's product role and published data fit the component and process.",
+          "Water white describes the supplied resin appearance. It is not a promise that every finished FRP part will appear white, because the reinforcement, pigments and mould-facing surface layer are separate parts of the finished build-up."
+        ]
+      },
+      {
+        "heading": "Published GP White Resin role",
+        "body": [
+          "The product page publishes GP White Resin for panels and general-purpose moulding, hand layup and spray-up work, cooling towers, water storage tanks and general industrial FRP fabrication. Its published data lists viscosity below 350 cPs, a 6-minute gel time, medium thixotropy and a non-accelerated curing system.",
+          "These are product facts to review alongside the component, reinforcement, mould, production method and TDS. They are not universal process instructions or proof of suitability for every manufacturing line."
+        ]
+      },
+      {
+        "heading": "Separate GP White from clear resin and gelcoat",
+        "subsections": [
+          {
+            "heading": "GP White vs GP Clear",
+            "body": "Both are published general-purpose orthophthalic polyester grades, but the supplied appearance and published processing data differ. Compare the specific GP White and GP Clear product pages and TDS before selecting a grade."
+          },
+          {
+            "heading": "GP White vs Gelcoat",
+            "body": "GP White Resin is the general-purpose resin to review for the reinforced laminate. GP Gelcoat Resin is the separate product to review where the requirement is a white mould-facing surface layer."
+          }
+        ]
+      },
+      {
+        "heading": "Prepare a useful enquiry",
+        "body": [
+          "Share the component, manufacturing process, expected quantity, required supplied appearance or finish, and delivery location. This gives the supplier a factual basis for checking the published GP White Resin data before a quotation discussion."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-gp-white-resin",
+    "title": "Applications of GP White Resin in FRP Manufacturing",
+    "description": "Published GP White Resin application contexts for FRP panels, general moulding, hand layup, spray-up, cooling towers, water tanks and industrial fabrication.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP White Resin Uses | FRP Panels and Moulding Applications",
+      "keywords": [
+        "GP White Resin uses",
+        "White Resin for FRP",
+        "White Polyester Resin applications",
+        "FRP panels resin",
+        "FRP moulding resin"
+      ],
+      "ogTitle": "Applications of GP White Resin",
+      "ogDescription": "Review the published GP White Resin application contexts before matching a water-white general-purpose grade to an FRP requirement."
+    },
+    "quickFacts": {
+      "Published applications": "Panels, general-purpose moulding, hand layup, spray-up, cooling towers and water storage tanks",
+      "Reinforcement context": "Used with glass fibre for the published hand-layup and spray-up contexts",
+      "Appearance check": "Confirm whether water-white supplied appearance is relevant to the process or finished build-up",
+      "Technical control": "Review the GP White Resin TDS for the selected requirement"
+    },
+    "relatedSlugs": [
+      "what-is-gp-white-resin",
+      "gp-white-resin-vs-gp-clear-resin",
+      "gp-white-resin-buyer-guide",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the published TDS, 225 kg drum packaging and 1,000 kg MOQ."
+      },
+      {
+        "href": "/applications/resin-for-frp-panel-manufacturing/",
+        "label": "FRP panel guide",
+        "description": "Review the existing panel-manufacturing context before selecting a resin grade."
+      },
+      {
+        "href": "/applications/resin-for-water-tank-manufacturing/",
+        "label": "Water-tank guide",
+        "description": "Review the existing water-storage manufacturing context."
+      },
+      {
+        "href": "/applications/resin-for-cooling-tower-manufacturing/",
+        "label": "Cooling-tower guide",
+        "description": "Review the existing cooling-tower manufacturing context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can GP White Resin be used for FRP panels?",
+        "a": "FRP panels are a published GP White Resin application context. Confirm the supplied appearance, reinforcement, process and specific TDS before selection."
+      },
+      {
+        "q": "Can GP White Resin be used for hand layup or spray-up?",
+        "a": "Hand layup and spray-up are published application contexts for GP White Resin with glass-fibre reinforcement. Review the product data and actual process conditions before use."
+      },
+      {
+        "q": "Is GP White Resin published for decorative FRP products?",
+        "a": "The published product applications cover panels, general-purpose moulding, hand layup, spray-up, cooling towers, water tanks and industrial fabrication. A decorative or visible-finish requirement should be discussed against the required build-up rather than assumed from the product name."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the component",
+        "body": [
+          "The published GP White Resin applications cover panels and general-purpose moulding, plus hand layup, spray-up, cooling towers, water storage tanks and general industrial FRP fabrication. Begin by identifying the actual component, then compare it with the specific product data.",
+          "A broad request for white FRP resin is not enough on its own. The buyer should clarify whether the water-white supplied appearance matters to the process, whether the component is reinforced, and whether a visible mould-side surface is required."
+        ]
+      },
+      {
+        "heading": "Panels and general moulding",
+        "body": [
+          "Panels and general-purpose moulding are published contexts for GP White Resin. The grade should be reviewed as a general-purpose laminate resin, not as a replacement for a purpose-specific mould-surface coating or a specialist system requirement."
+        ]
+      },
+      {
+        "heading": "Water tanks and cooling towers",
+        "body": [
+          "Water storage tanks and cooling towers are also published application contexts. Use the existing application pages to describe the manufacturing context, then check the GP White Resin TDS, actual component and any stated project requirement before selection."
+        ]
+      },
+      {
+        "heading": "Hand layup and spray-up",
+        "body": [
+          "The product data names hand layup and spray-up work. Review the published viscosity, gel time and curing system with the actual reinforcement, mould, equipment and workshop conditions rather than treating a general application label as a production approval."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-white-resin-vs-gp-clear-resin",
+    "title": "GP White Resin vs GP Clear Resin",
+    "description": "Compare the published water-white GP White Resin and clear GP Clear Resin data before selecting a general-purpose polyester grade for FRP work.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP White Resin vs GP Clear Resin | White vs Clear Polyester Resin",
+      "keywords": [
+        "GP White Resin vs GP Clear Resin",
+        "White vs Clear Polyester Resin",
+        "White GP Resin",
+        "Clear GP Resin",
+        "FRP resin selection"
+      ],
+      "ogTitle": "GP White Resin vs GP Clear Resin",
+      "ogDescription": "Compare supplied appearance, published viscosity, gel time and product role before choosing a general-purpose GP polyester resin."
+    },
+    "quickFacts": {
+      "GP White Resin": "Water White; below 350 cPs; 6-minute gel time; medium thixotropic",
+      "GP Clear Resin": "Clear; 350-450 cPs; gel time under 8 minutes",
+      "Shared role": "Published general-purpose orthophthalic polyester grades for FRP work",
+      "Selection rule": "Do not use supplied colour alone to predict the final reinforced or surface-finished part"
+    },
+    "comparisonTable": {
+      "title": "Published product-data comparison",
+      "note": "Compare the relevant Technical Data Sheet, component and process before purchase. The values below are product-page facts, not a universal recommendation.",
+      "headers": [
+        "Decision factor",
+        "GP White Resin",
+        "GP Clear Resin"
+      ],
+      "rows": [
+        [
+          "Published appearance",
+          "Water White",
+          "Clear"
+        ],
+        [
+          "Published viscosity",
+          "Below 350 cPs",
+          "350-450 cPs"
+        ],
+        [
+          "Published gel time",
+          "6 minutes",
+          "Under 8 minutes"
+        ],
+        [
+          "Thixotropy",
+          "Medium Thixotropic",
+          "Not published in the GP Clear product table"
+        ],
+        [
+          "Packaging / MOQ",
+          "225 kg drum / 1,000 kg",
+          "225 kg drum / 1,000 kg"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-gp-white-resin",
+      "applications-of-gp-white-resin",
+      "gp-white-resin-vs-gelcoat-resin",
+      "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the published water-white grade and TDS."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate published clear grade and TDS."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View the UPR product hub",
+        "description": "Compare GP White and GP Clear in the broader published polyester-resin family."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the main difference between GP White Resin and GP Clear Resin?",
+        "a": "The published supplied appearance differs: GP White Resin is Water White and GP Clear Resin is Clear. Their published viscosity and gel-time data also differ, so the component and process should be reviewed before selection."
+      },
+      {
+        "q": "Does water white mean GP White Resin is a gelcoat?",
+        "a": "No. GP White Resin is the published general-purpose laminate grade. A white mould-facing surface requirement should be assessed against the separate GP Gelcoat Resin product."
+      },
+      {
+        "q": "Which grade should a buyer quote?",
+        "a": "Share the component, process, required supplied appearance or finish, quantity and delivery location, then review the selected product's TDS before a quotation discussion."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The comparison starts with supplied appearance",
+        "body": [
+          "GP White Resin and GP Clear Resin are related published general-purpose orthophthalic polyester grades for FRP work. GP White Resin is published Water White; GP Clear Resin is published Clear. This is a product-selection fact, not a guarantee of the finished part's visible colour.",
+          "The final appearance of an FRP part can also depend on reinforcement, pigments and the mould-side surface layer. A buyer should therefore identify what 'white' or 'clear' needs to mean in the actual build-up before selecting a grade."
+        ]
+      },
+      {
+        "heading": "Compare the published technical data",
+        "body": [
+          "GP White Resin is published with viscosity below 350 cPs, a 6-minute gel time and medium thixotropy. GP Clear Resin is published with 350-450 cPs viscosity and gel time under 8 minutes. Review those values with the actual mould, reinforcement, process and workshop conditions.",
+          "Do not transfer thixotropy, gel time, storage or any other figure from one grade to the other unless it is published for that exact product."
+        ]
+      },
+      {
+        "heading": "When another product role is relevant",
+        "body": [
+          "If the requirement is for a mould-facing white surface, review GP Gelcoat Resin. If it is door, plywood or FRP bonding, review Lamination Resin. If a project has a stated chemical- or corrosion-resistance requirement, review Vinyl Ester Resin and its separate product data."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-white-resin-vs-gelcoat-resin",
+    "title": "GP White Resin vs Gelcoat Resin",
+    "description": "Understand the different FRP roles of water-white GP White Resin and white GP Gelcoat Resin before selecting a laminate or mould-surface product.",
+    "category": "Comparison Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP White Resin vs Gelcoat Resin | White FRP Resin Buyer Guide",
+      "keywords": [
+        "GP White Resin vs Gelcoat Resin",
+        "White FRP Resin",
+        "White Polyester Resin vs Gelcoat",
+        "GP Gelcoat Resin",
+        "FRP surface finish"
+      ],
+      "ogTitle": "GP White Resin vs Gelcoat Resin",
+      "ogDescription": "Separate the water-white general-purpose laminate role from the white mould-facing gelcoat role in an FRP build-up."
+    },
+    "quickFacts": {
+      "GP White Resin": "Published as a water-white, general-purpose orthophthalic laminate resin",
+      "GP Gelcoat Resin": "Published as a white, high-gloss polyester surface-coating product",
+      "Key decision": "Is the requirement for the reinforced laminate or the visible mould-facing surface?",
+      "Do not assume": "A product's white appearance makes it interchangeable with the other product role"
+    },
+    "relatedSlugs": [
+      "what-is-gp-white-resin",
+      "gp-white-resin-vs-gp-clear-resin",
+      "applications-of-gp-white-resin",
+      "what-is-gel-coat-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the published water-white general-purpose grade and TDS."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the published white mould-surface product and TDS."
+      },
+      {
+        "href": "/resources/what-is-gel-coat-resin/",
+        "label": "Read the gelcoat guide",
+        "description": "Understand the mould-facing surface role in an FRP build-up."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is GP White Resin a surface-finish gelcoat?",
+        "a": "No. GP White Resin is published as a general-purpose resin for the reinforced FRP laminate. GP Gelcoat Resin is the separate published mould-facing surface-coating product."
+      },
+      {
+        "q": "Can a buyer select by colour alone?",
+        "a": "No. The buyer should first clarify whether the requirement is for the laminate or a visible mould-facing layer, then review the appropriate product's published data and TDS."
+      },
+      {
+        "q": "What should be shared for a white FRP requirement?",
+        "a": "Share the component, whether the requirement is laminate or surface finish, process, required appearance, quantity and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Two products can both be described as white and still have different roles",
+        "body": [
+          "GP White Resin is published Water White and general purpose for reinforced FRP manufacture. GP Gelcoat Resin is published as a white, high-gloss polyester surface-coating product. The shared colour language does not make them substitutes.",
+          "The first selection question is whether the requirement is for the laminate built with glass-fibre reinforcement or for the visible mould-facing surface layer."
+        ]
+      },
+      {
+        "heading": "General-purpose laminate role",
+        "body": [
+          "GP White Resin is the product to review for its published panel, moulding, hand layup, spray-up, cooling-tower, water-storage and general industrial FRP contexts. Its individual TDS and actual process remain the controlling references."
+        ]
+      },
+      {
+        "heading": "Mould-facing surface role",
+        "body": [
+          "GP Gelcoat Resin is the product to review when the requirement is the mould-facing surface layer. Review its product data, mould condition, application method and required finish separately from the reinforced laminate behind it."
+        ]
+      },
+      {
+        "heading": "A safer buying decision",
+        "body": [
+          "Avoid a broad request for 'white resin' without explaining the component and product role. State whether the requirement is structural laminate, visible surface, or both parts of a composite build-up, then use the relevant product TDS before finalising a grade."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-white-resin-buyer-guide",
+    "title": "GP White Resin Buyer Guide: Selection and Quote Checklist",
+    "description": "A practical guide for FRP buyers assessing GP White Resin by component, supplied appearance, process, product role, TDS and quote information.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP White Resin Buyer Guide | White Polyester Resin Supplier Checklist",
+      "keywords": [
+        "GP White Resin Buyer Guide",
+        "White Resin Supplier",
+        "White Polyester Resin quote",
+        "GP White Resin manufacturer",
+        "FRP White Resin"
+      ],
+      "ogTitle": "GP White Resin Buyer Guide",
+      "ogDescription": "Prepare the application, supplied appearance, process and commercial details needed for a focused GP White Resin quotation discussion."
+    },
+    "quickFacts": {
+      "Start with": "The actual FRP component and manufacturing process",
+      "Appearance check": "Water-white supplied resin versus the required finished appearance",
+      "Published commercial details": "225 kg drum packaging and 1,000 kg MOQ",
+      "Technical control": "The GP White Resin TDS for the exact shortlisted grade"
+    },
+    "relatedSlugs": [
+      "what-is-gp-white-resin",
+      "applications-of-gp-white-resin",
+      "gp-white-resin-vs-gp-clear-resin",
+      "gp-white-resin-vs-gelcoat-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-white-resin/",
+        "label": "View GP White Resin",
+        "description": "Review the exact published product data and download the TDS."
+      },
+      {
+        "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+        "label": "Read the general resin-selection guide",
+        "description": "Use the existing guide for broader FRP product-role context."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a GP White Resin quote",
+        "description": "Share the documented requirement through the existing enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What details should I include in a GP White Resin enquiry?",
+        "a": "Include the FRP component or application, expected quantity, required supplied appearance or finish, manufacturing process and delivery location. Add any stated drawing or specification wording where relevant."
+      },
+      {
+        "q": "Should I select GP White Resin only because the product is called white?",
+        "a": "No. Confirm that the published water-white appearance, general-purpose laminate role and product data match the actual requirement. A visible mould-side surface may require separate gelcoat review."
+      },
+      {
+        "q": "What document should be checked before ordering?",
+        "a": "Check the GP White Resin Technical Data Sheet for the exact shortlisted grade. Do not use a different GP or UPR product's data as a substitute."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Describe the FRP component first",
+        "body": [
+          "State whether the enquiry is for a panel, general moulding, hand layup, spray-up, water-storage, cooling-tower or another industrial FRP component. This identifies the published context to compare with GP White Resin before a quote is prepared."
+        ]
+      },
+      {
+        "heading": "Clarify what 'white' needs to mean",
+        "body": [
+          "Confirm whether water-white supplied resin is relevant to the process, or whether the actual requirement is a visible white surface. These are different questions: the general-purpose GP White laminate and the mould-facing GP Gelcoat product have separate roles."
+        ]
+      },
+      {
+        "heading": "Review the published product data",
+        "body": [
+          "The GP White Resin page publishes Water White appearance, below 350 cPs viscosity, 6-minute gel time, medium thixotropy, a non-accelerated curing system, 225 kg drum packaging and a 1,000 kg MOQ. Check the TDS for the exact grade before selection."
+        ]
+      },
+      {
+        "heading": "Send a focused quotation request",
+        "body": [
+          "Share the component, manufacturing process, quantity, required supplied appearance or finish and delivery location. This helps the sales or technical discussion start from documented needs rather than an unsupported assumption about the correct grade."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-gp-quartz-resin",
+    "title": "What Is GP Quartz Resin?",
+    "description": "A product-role guide for buyers evaluating GP Quartz Resin for artificial quartz stone, engineered stone slabs and composite mineral surfaces.",
+    "category": "Technical Explainer",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is GP Quartz Resin? | Quartz Stone Resin Guide",
+      "keywords": [
+        "GP Quartz Resin",
+        "Quartz Resin",
+        "Quartz Stone Resin",
+        "Engineered Stone Resin",
+        "Polyester Resin for Quartz"
+      ],
+      "ogTitle": "What Is GP Quartz Resin?",
+      "ogDescription": "Understand the published GP Quartz Resin role for artificial quartz stone, engineered stone slabs and composite mineral surfaces."
+    },
+    "quickFacts": {
+      "Published resin type": "Orthophthalic unsaturated polyester resin",
+      "Published applications": "Artificial quartz stone, engineered stone slabs and composite mineral surfaces",
+      "Published viscosity": "400-800 cPs",
+      "Published gel time": "7-10 minutes"
+    },
+    "relatedSlugs": [
+      "gp-quartz-resin-uses-engineered-stone-mineral-composites",
+      "gp-quartz-resin-vs-gp-clear-resin",
+      "gp-quartz-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "View GP Quartz Resin",
+        "description": "Review the published technical data and download the TDS for the exact grade."
+      },
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review the separate published route for cultured marble and artificial-stone applications."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View the UPR product hub",
+        "description": "Use the parent product family to compare broader published resin roles."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is GP Quartz Resin?",
+        "a": "GP Quartz Resin is Samrat FRP Traders' published orthophthalic unsaturated polyester resin for artificial quartz stone, engineered stone slabs and composite mineral surfaces."
+      },
+      {
+        "q": "Is GP Quartz Resin a broad general-purpose FRP grade?",
+        "a": "The published GP Quartz Resin role is for quartz-stone and composite-mineral applications. For broad general FRP selection, review the separately published GP Clear Resin or Unsaturated Polyester Resin product information."
+      },
+      {
+        "q": "What technical data is published for GP Quartz Resin?",
+        "a": "The current product information publishes 400-800 cPs viscosity, 7-10 minute gel time, a non-accelerated system, approximately two-hour cure time, 225 kg drum packaging and a 1,000 kg MOQ. Check the current TDS before selection."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A product role for quartz and mineral-filled composites",
+        "body": [
+          "GP Quartz Resin is a specialised product route for buyers evaluating artificial quartz stone, engineered stone slabs and composite mineral surfaces. The useful starting point is the finished stone product and its stated requirement, rather than the broad label 'polyester resin'.",
+          "Samrat FRP Traders publishes GP Quartz Resin as an orthophthalic unsaturated polyester resin. Its listed applications include artificial quartz stone, engineered stone slabs, quartz kitchen and vanity countertops, artificial marble and decorative cast stone, table tops, interior panels and premium composite stone. Confirm the actual component, filler or mineral type, production process and finish requirement against the current TDS before selection."
+        ]
+      },
+      {
+        "heading": "Read the published data in the correct context",
+        "body": [
+          "The GP Quartz Resin product page publishes a clear-to-pale-yellow liquid appearance, 400-800 cPs viscosity, 7-10 minute gel time, a non-accelerated curing system and an approximate two-hour cure time. These are grade-specific references, not a universal process instruction for every quartz or mineral-filled formulation.",
+          "The product data should be reviewed with the exact filler or mineral, component, finish requirement, approved inputs and actual conditions. Do not transfer figures or cure settings from a GP, lamination, gelcoat or other resin grade."
+        ]
+      },
+      {
+        "heading": "Choose by the finished product, not by a resin name",
+        "body": [
+          "For a published artificial-quartz, engineered-stone or composite-mineral requirement, GP Quartz Resin is the relevant product to review. For cultured marble and other artificial-stone contexts, Marble Resin has its own published role. For broad reinforced-FRP work, GP Clear Resin and the Unsaturated Polyester Resin product hub are more relevant starting points.",
+          "A supplied white appearance, a mould-facing surface requirement or a door, plywood or FRP-bonding application can point to a different published product role. Review GP White Resin, GP Gelcoat Resin or Lamination Resin as appropriate rather than assuming they are substitutes."
+        ]
+      },
+      {
+        "heading": "Prepare a factual technical discussion",
+        "body": [
+          "Before requesting a quote or technical discussion, record the intended product, filler or mineral type, production process if known, expected quantity, required finish, delivery location and any drawing or stated specification. This allows the product discussion to start from the actual application without making unsupported assumptions about formulation or final performance."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-quartz-resin-uses-engineered-stone-mineral-composites",
+    "title": "GP Quartz Resin Uses: Engineered Stone and Mineral-Filled Composites",
+    "description": "A buyer-focused overview of the published GP Quartz Resin application contexts, from artificial quartz stone to composite mineral surfaces.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Quartz Resin Uses | Engineered Stone Resin Applications",
+      "keywords": [
+        "GP Quartz Resin Uses",
+        "Engineered Stone Resin",
+        "Resin for Quartz Stone",
+        "Quartz Composite Resin",
+        "Mineral Filled Polyester Resin"
+      ],
+      "ogTitle": "GP Quartz Resin Uses",
+      "ogDescription": "Explore the published GP Quartz Resin applications for artificial quartz stone, engineered stone and composite mineral surfaces."
+    },
+    "quickFacts": {
+      "Artificial quartz stone": "Published application",
+      "Engineered stone slabs": "Published application",
+      "Composite mineral surfaces": "Published application",
+      "Selection check": "Confirm the actual component, filler or mineral type and TDS"
+    },
+    "relatedSlugs": [
+      "what-is-gp-quartz-resin",
+      "gp-quartz-resin-vs-marble-resin",
+      "gp-quartz-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "View GP Quartz Resin",
+        "description": "Review the published applications, technical details and TDS."
+      },
+      {
+        "href": "/products/marble-resin/",
+        "label": "Review Marble Resin",
+        "description": "Use the separate product page for its published cultured-marble and artificial-stone role."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a quartz-composite requirement",
+        "description": "Share the finished product, filler or mineral type and process context for a focused discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What are the published uses of GP Quartz Resin?",
+        "a": "The published uses include artificial quartz stone and engineered stone slabs, quartz kitchen and vanity countertops, artificial marble and decorative cast stone, table tops, interior panels and premium composite stone."
+      },
+      {
+        "q": "Does an application name alone confirm suitability?",
+        "a": "No. Confirm the intended component, filler or mineral type, process, finish requirement and current GP Quartz Resin TDS before selecting a grade."
+      },
+      {
+        "q": "Can GP Quartz Resin be selected for a general FRP laminate?",
+        "a": "GP Quartz Resin is published for quartz-stone and composite-mineral applications. Use the separate GP Clear Resin, Lamination Resin or UPR product information for their published FRP roles."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Artificial quartz stone and engineered stone slabs",
+        "body": [
+          "Artificial quartz stone manufacturing and engineered stone slabs are listed GP Quartz Resin applications. In these contexts, start by defining the actual slab or component, the filler or mineral used, the required appearance or finish, and any written specification before reviewing the product data.",
+          "The phrase 'quartz resin' identifies the broad research topic, but it does not replace the grade-specific TDS or confirm that one formulation suits every plant, filler blend or component design."
+        ]
+      },
+      {
+        "heading": "Quartz kitchen and vanity countertops",
+        "body": [
+          "Quartz kitchen and vanity countertops are included in the published application list. For an enquiry, clarify whether the requirement concerns a countertop product, its intended production process, the mineral or filler context, the planned quantity and the required finish. This makes the discussion more specific than a generic request for 'countertop resin'."
+        ]
+      },
+      {
+        "heading": "Artificial marble, decorative cast stone and interior products",
+        "body": [
+          "The published GP Quartz Resin application list also includes artificial marble, decorative cast stone, table tops and interior panels. These terms describe different finished-product contexts; they do not establish that the same product data can be used without review across every design or formulation.",
+          "For cultured marble or artificial-stone work, review the separate Marble Resin page as well. Use the product data that matches the shortlisted resin role rather than selecting only by the appearance of the final product."
+        ]
+      },
+      {
+        "heading": "Composite mineral surfaces: what to confirm",
+        "body": [
+          "For any composite mineral surface, confirm the finished component, filler or mineral type, process if known, required finish, expected quantity and delivery location. Include drawings or stated specifications where relevant. The current GP Quartz Resin TDS remains the controlling product reference for the exact grade."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-quartz-resin-vs-gp-clear-resin",
+    "title": "GP Quartz Resin vs GP Clear Resin",
+    "description": "Compare the published quartz-stone and composite-mineral role of GP Quartz Resin with the broader general-FRP role of GP Clear Resin.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Quartz Resin vs GP Clear Resin | Which Product Role Fits?",
+      "keywords": [
+        "GP Quartz Resin vs GP Clear Resin",
+        "Quartz Resin vs GP Resin",
+        "Engineered Stone Resin",
+        "GP Clear Resin",
+        "Polyester Resin for Quartz"
+      ],
+      "ogTitle": "GP Quartz Resin vs GP Clear Resin",
+      "ogDescription": "Choose between the published GP Quartz Resin stone-composite role and the broader GP Clear Resin FRP role."
+    },
+    "quickFacts": {
+      "GP Quartz Resin": "Published for artificial quartz stone, engineered stone slabs and composite mineral surfaces",
+      "GP Clear Resin": "Published as a broad general-purpose grade for common FRP work",
+      "Decision point": "The actual finished component and resin role",
+      "Technical control": "The individual current product TDS for each grade"
+    },
+    "relatedSlugs": [
+      "what-is-gp-quartz-resin",
+      "gp-quartz-resin-uses-engineered-stone-mineral-composites",
+      "gp-quartz-resin-vs-marble-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "View GP Quartz Resin",
+        "description": "Review the exact published quartz-stone and composite-mineral product data."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate published general-purpose FRP product data."
+      },
+      {
+        "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+        "label": "Read the general resin-selection guide",
+        "description": "Use this existing guide for broad FRP context, alongside the product-specific data."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the main difference between GP Quartz Resin and GP Clear Resin?",
+        "a": "GP Quartz Resin is published for artificial quartz stone, engineered stone slabs and composite mineral surfaces. GP Clear Resin is published as a broader general-purpose grade for common FRP work. The finished component and current product data should guide selection."
+      },
+      {
+        "q": "Can I select between them by supplied appearance alone?",
+        "a": "No. Start with the application and resin role. GP Quartz Resin is published clear to pale yellow and GP Clear Resin is a separate clear grade, but appearance wording alone does not make them interchangeable."
+      },
+      {
+        "q": "Which TDS should be used for a quote or trial?",
+        "a": "Use the current TDS for the exact shortlisted product. Do not transfer viscosity, gel time, cure-system or storage information from one resin grade to another."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the finished product",
+        "body": [
+          "GP Quartz Resin and GP Clear Resin are both polyester-resin products, but their published product roles differ. GP Quartz Resin is the product to review for artificial quartz stone, engineered stone slabs and composite mineral surfaces. GP Clear Resin is the broader general-purpose product to review for common FRP work.",
+          "The buying decision should begin with the component being made. A quartz-filled or mineral-filled stone-composite requirement needs a different starting discussion from a reinforced FRP laminate, even when both suppliers use the word 'polyester resin'."
+        ]
+      },
+      {
+        "heading": "Compare the published data separately",
+        "body": [
+          "GP Quartz Resin publishes 400-800 cPs viscosity, 7-10 minute gel time and a non-accelerated system. GP Clear Resin has its own published product data and TDS. Each value belongs to a specific grade and must be read in that product's technical context.",
+          "Do not treat a comparison page as a process instruction or use it to substitute one product's cure setting, storage guidance or performance expectation for the other."
+        ]
+      },
+      {
+        "heading": "When GP Quartz Resin is the relevant route",
+        "body": [
+          "Review GP Quartz Resin where the declared requirement is artificial quartz stone, engineered stone slabs or a composite mineral surface. Share the intended product, filler or mineral type, process if known, expected quantity, finish requirement and delivery location before a quotation discussion."
+        ]
+      },
+      {
+        "heading": "When GP Clear Resin is the relevant route",
+        "body": [
+          "Review GP Clear Resin for its broader published general-purpose FRP applications. If the requirement is instead a mould-facing surface, dedicated lamination role, cultured-marble context or stated chemical-resistance requirement, review the separately published Gelcoat, Lamination, Marble or Vinyl Ester information before deciding."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-quartz-resin-vs-marble-resin",
+    "title": "GP Quartz Resin vs Marble Resin",
+    "description": "A document-led comparison for buyers reviewing published quartz, engineered-stone, cultured-marble and artificial-stone contexts without inventing a performance ranking.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Quartz Resin vs Marble Resin | Artificial Stone Resin Guide",
+      "keywords": [
+        "GP Quartz Resin vs Marble Resin",
+        "Quartz Stone Resin",
+        "Artificial Marble Resin",
+        "Engineered Stone Resin",
+        "Polyester Resin for Artificial Stone"
+      ],
+      "ogTitle": "GP Quartz Resin vs Marble Resin",
+      "ogDescription": "Separate the published GP Quartz Resin quartz-composite role from the separate Marble Resin cultured-marble and artificial-stone role."
+    },
+    "quickFacts": {
+      "GP Quartz Resin": "Published for artificial quartz stone, engineered stone slabs and composite mineral surfaces",
+      "Marble Resin": "Published for cultured marble and artificial-stone applications",
+      "Document overlap": "Both source sets use some artificial-stone or artificial-marble wording",
+      "Decision rule": "Define the actual finished product, then review the individual TDS"
+    },
+    "relatedSlugs": [
+      "what-is-gp-quartz-resin",
+      "gp-quartz-resin-uses-engineered-stone-mineral-composites",
+      "gp-quartz-resin-buyer-guide",
+      "what-is-marble-resin",
+      "marble-resin-technical-specifications-and-rfq"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "View GP Quartz Resin",
+        "description": "Review the published quartz-stone and composite-mineral product role."
+      },
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review the separate published cultured-marble and artificial-stone product role."
+      },
+      {
+        "href": "/resources/what-is-gp-quartz-resin/",
+        "label": "Read the GP Quartz Resin guide",
+        "description": "Understand the quartz and mineral-composite selection context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are GP Quartz Resin and Marble Resin interchangeable?",
+        "a": "They are separately published product routes, but the documents also overlap around some artificial-stone or artificial-marble wording. GP Quartz Resin is documented for artificial quartz stone, engineered stone slabs and composite mineral surfaces; Marble Resin is documented for cultured marble and artificial stone. The repository does not publish a universal interchangeability statement or a performance ranking. Review the actual finished product and the individual TDS before selection."
+      },
+      {
+        "q": "What should I share to choose between GP Quartz Resin and Marble Resin?",
+        "a": "Share the exact finished stone product, filler or mineral type, production process if known, required finish, quantity, delivery location and any drawing or stated specification."
+      },
+      {
+        "q": "Does the word artificial stone identify the correct grade?",
+        "a": "No. Artificial-stone wording can cover different products and formulations. Use the actual component and the relevant published product data to begin the selection discussion."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Similar terminology, separate published roles",
+        "body": [
+          "A buyer may use artificial stone, quartz stone, cultured marble or decorative cast stone as broad descriptions. Those terms do not automatically identify one resin grade. Samrat FRP Traders publishes GP Quartz Resin for artificial quartz stone, engineered stone slabs and composite mineral surfaces, while Marble Resin has a separate published cultured-marble and artificial-stone role.",
+          "The source documents also overlap around some artificial-stone or artificial-marble wording. That overlap does not prove the grades are interchangeable, nor does it establish an absolute boundary or a performance ranking. The correct starting point is the actual finished component and the current document for the shortlisted grade."
+        ]
+      },
+      {
+        "heading": "Define the actual stone product",
+        "body": [
+          "State whether the requirement is for artificial quartz stone, an engineered stone slab, cultured marble, decorative cast stone, a tabletop, an interior panel or another defined composite product. Then record the filler or mineral type, required appearance or finish, process if known and any existing written specification.",
+          "This creates a factual basis for reviewing the correct product page and TDS without assuming that all mineral-filled or decorative stone products use the same resin data."
+        ]
+      },
+      {
+        "heading": "Keep technical data grade-specific",
+        "body": [
+          "GP Quartz Resin publishes 400-800 cPs viscosity, 7-10 minute gel time, a non-accelerated system and approximately two-hour cure time. Marble Resin has separate TDS data and a catalogue summary that differs from its TDS on viscosity and gel time. A buyer should review the current data sheet for the shortlisted grade rather than transfer, average or reconcile figures between products."
+        ]
+      },
+      {
+        "heading": "Prepare a quote-ready brief",
+        "body": [
+          "Include the exact finished product, filler or mineral, process if known, finish requirement, expected quantity and delivery location. If there is a customer drawing, sample or written specification, identify it in the enquiry so the product discussion can begin with the relevant facts."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-quartz-resin-viscosity-gel-time-storage-guide",
+    "title": "GP Quartz Resin Viscosity, Gel Time and Storage Guide",
+    "description": "How to read the published GP Quartz Resin viscosity, gel-time, shelf-life and storage data without treating it as a universal process recipe.",
+    "category": "Technical Guide",
+    "icon": "clock",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Quartz Resin Viscosity, Gel Time and Storage Guide",
+      "keywords": [
+        "GP Quartz Resin viscosity",
+        "GP Quartz Resin gel time",
+        "Quartz Resin storage",
+        "Quartz Stone Resin TDS",
+        "Quartz Composite Resin processing"
+      ],
+      "ogTitle": "GP Quartz Resin Viscosity, Gel Time and Storage Guide",
+      "ogDescription": "Read the published 400-800 cPs viscosity, 7-10 minute gel time and storage information for GP Quartz Resin in the correct grade-specific context."
+    },
+    "quickFacts": {
+      "Published viscosity": "400-800 cPs",
+      "Published gel time": "7-10 minutes",
+      "Published shelf life": "3 months",
+      "Published storage temperature": "30-35 C"
+    },
+    "relatedSlugs": [
+      "what-is-gp-quartz-resin",
+      "gp-quartz-resin-uses-engineered-stone-mineral-composites",
+      "gp-quartz-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "View GP Quartz Resin",
+        "description": "Review the current technical specifications and download the TDS."
+      },
+      {
+        "href": "/resources/understanding-gel-time-in-polyester-resin/",
+        "label": "Read the general gel-time guide",
+        "description": "Use the existing guide for general context without replacing the GP Quartz Resin TDS."
+      },
+      {
+        "href": "/resources/how-to-store-unsaturated-polyester-resin/",
+        "label": "Read the general storage guide",
+        "description": "Use storage history as part of a controlled material record."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the published viscosity of GP Quartz Resin?",
+        "a": "The published viscosity range is 400-800 cPs. Review the current TDS and actual product requirement before drawing a processing conclusion."
+      },
+      {
+        "q": "What is the published gel time of GP Quartz Resin?",
+        "a": "The published gel time is 7-10 minutes. This is grade-specific data, not a universal setting for every quartz or mineral-filled composite process."
+      },
+      {
+        "q": "What storage information is published for GP Quartz Resin?",
+        "a": "The published shelf life is three months and the published storage temperature is 30-35 C. Follow the current TDS and applicable safety instructions for the exact product and batch."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current TDS as the controlling reference",
+        "body": [
+          "GP Quartz Resin is published with a 400-800 cPs viscosity range, 7-10 minute gel time, non-accelerated curing system and approximate two-hour cure time. These values should be read together with the current GP Quartz Resin TDS and the actual engineered-stone or mineral-composite requirement.",
+          "They are not a substitute for approved manufacturing instructions, nor a basis for copying catalyst, accelerator or other settings from another resin grade."
+        ]
+      },
+      {
+        "heading": "Viscosity is a grade-specific discussion point",
+        "body": [
+          "For a quartz-filled or mineral-filled composite requirement, the intended component, filler or mineral type, production process and required finish should be discussed alongside the published viscosity range. The number alone does not confirm a particular filler level, mixing result, wet-out behaviour or final product outcome."
+        ]
+      },
+      {
+        "heading": "Gel time is not a universal recipe",
+        "body": [
+          "The published 7-10 minute gel time provides product-specific context for the technical conversation. Actual conditions, approved inputs and the product's specific TDS remain important. Do not change catalyst, accelerator or process inputs by guesswork to target a different timing."
+        ]
+      },
+      {
+        "heading": "Keep storage records with the material",
+        "body": [
+          "The current product information publishes a three-month shelf life and 30-35 C storage temperature. Record the product, batch, receipt date, container condition and storage history. If a process discussion is needed, those facts are more useful than relying on a general assumption about polyester resin storage."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gp-quartz-resin-buyer-guide",
+    "title": "GP Quartz Resin Buyer Guide: TDS, Packaging and Quote Checklist",
+    "description": "A procurement guide for preparing a factual GP Quartz Resin enquiry around the engineered-stone product, mineral context, TDS and delivery requirement.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "GP Quartz Resin Buyer Guide | Quartz Resin Supplier Checklist",
+      "keywords": [
+        "GP Quartz Resin Buyer Guide",
+        "Quartz Resin Supplier",
+        "Quartz Resin Manufacturer",
+        "Quartz Stone Resin quote",
+        "Mineral Filled Polyester Resin"
+      ],
+      "ogTitle": "GP Quartz Resin Buyer Guide",
+      "ogDescription": "Prepare a focused GP Quartz Resin quotation discussion using the published product data, TDS, packaging and buyer requirement details."
+    },
+    "quickFacts": {
+      "Published packaging": "225 kg drum",
+      "Published MOQ": "1,000 kg",
+      "Start with": "The actual engineered-stone or mineral-filled product",
+      "Check before ordering": "The current GP Quartz Resin TDS"
+    },
+    "relatedSlugs": [
+      "what-is-gp-quartz-resin",
+      "gp-quartz-resin-vs-gp-clear-resin",
+      "gp-quartz-resin-viscosity-gel-time-storage-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "View GP Quartz Resin",
+        "description": "Review the current published product details and TDS."
+      },
+      {
+        "href": "/tds/gp-quartz-resin-tds.pdf",
+        "label": "Download GP Quartz Resin TDS",
+        "description": "Check the current grade-specific technical data before selection or ordering."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review the wider Samrat FRP Traders product range and related product roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a GP Quartz Resin quote",
+        "description": "Share the documented stone-composite requirement through the existing enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What packaging and MOQ are published for GP Quartz Resin?",
+        "a": "GP Quartz Resin is published in 225 kg drums with a 1,000 kg minimum order quantity. Confirm the current commercial requirement when requesting a quotation."
+      },
+      {
+        "q": "What details should I share for a GP Quartz Resin quote?",
+        "a": "Share the intended engineered-stone, artificial-quartz, artificial-marble or mineral-filled product; filler or mineral type; process if known; expected quantity; finish requirement; delivery location; and any stated specification."
+      },
+      {
+        "q": "Which document should be checked before ordering?",
+        "a": "Review the current GP Quartz Resin Technical Data Sheet for the exact shortlisted grade. Do not use the data from GP Clear, Marble, Lamination, Gelcoat or another resin as a substitute."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Begin with the actual stone-composite requirement",
+        "body": [
+          "A useful GP Quartz Resin enquiry identifies the finished product first: artificial quartz stone, engineered stone slab, composite mineral surface, countertop, artificial marble, decorative cast stone, tabletop or interior panel. Then add the filler or mineral type, intended process if known, required finish and any customer drawing or stated specification.",
+          "This avoids the common procurement problem of asking for a broad 'quartz resin' without enough context to compare the application with the published GP Quartz Resin role."
+        ]
+      },
+      {
+        "heading": "Review the grade-specific data and TDS",
+        "body": [
+          "The current listing publishes an orthophthalic unsaturated polyester resin, clear-to-pale-yellow appearance, 400-800 cPs viscosity, 7-10 minute gel time, non-accelerated system, approximate two-hour cure time, three-month shelf life and 30-35 C storage temperature. Confirm the current TDS before selection.",
+          "The published figures do not authorise a process, formulation, filler level or final-performance claim. The exact application and applicable instructions must be reviewed before use."
+        ]
+      },
+      {
+        "heading": "Plan around the published commercial details",
+        "body": [
+          "GP Quartz Resin is currently published in 225 kg drums with a 1,000 kg MOQ. Include the expected quantity and delivery location in the enquiry so commercial availability can be discussed without implying an unlisted price, lead time or delivery promise."
+        ]
+      },
+      {
+        "heading": "Use the right comparison path",
+        "body": [
+          "For a broad general-FRP requirement, review GP Clear Resin or the Unsaturated Polyester Resin product hub. For cultured marble and artificial-stone work, review Marble Resin. For a water-white general-purpose FRP role, mould-facing surface layer or dedicated lamination application, review GP White Resin, GP Gelcoat Resin or Lamination Resin respectively. These are product-role checks, not claims that the grades are interchangeable."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-glass-fiber-chopped-strand-mat",
+    "title": "What Is Glass Fiber? E-Glass Chopped Strand Mat Explained",
+    "description": "A buyer-focused introduction to Glass Fiber, E-Glass and Chopped Strand Mat (CSM) as reinforcement materials for FRP manufacturing.",
+    "category": "Reinforcement Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is Glass Fiber? E-Glass Chopped Strand Mat Guide",
+      "keywords": [
+        "Glass Fiber",
+        "Fiberglass",
+        "E-Glass Fiber",
+        "Glass Fiber Mat",
+        "Fiberglass Mat",
+        "Chopped Strand Mat",
+        "CSM",
+        "FRP Glass Fiber"
+      ],
+      "ogTitle": "What Is Glass Fiber? E-Glass Chopped Strand Mat Explained",
+      "ogDescription": "Understand E-Glass Chopped Strand Mat as FRP reinforcement, including the published Samrat FRP Traders CSM 300 and CSM 450 range."
+    },
+    "quickFacts": {
+      "Published product form": "Chopped Strand Mat (CSM)",
+      "Published glass type": "E-Glass",
+      "Published area weights": "300 g/m² and 450 g/m²",
+      "Product role": "FRP reinforcement, not resin"
+    },
+    "relatedSlugs": [
+      "csm-300-vs-csm-450-glass-fiber",
+      "glass-fiber-and-polyester-resin-compatibility",
+      "glass-fiber-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber Mat",
+        "description": "Review the published CSM 300 and CSM 450 product data and download the TDS."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View the UPR product hub",
+        "description": "Use the parent product page to understand the separate resin-side decision."
+      },
+      {
+        "href": "/resources/",
+        "label": "Browse the Resource Hub",
+        "description": "Explore related product-role, application and procurement guidance."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Glass Fiber the same as resin?",
+        "a": "No. Glass Fiber is the reinforcement material. Resin is the separate liquid system that binds the reinforcement into the finished FRP laminate."
+      },
+      {
+        "q": "What is Samrat FRP Traders' published Glass Fiber product?",
+        "a": "The published product is industrial-grade E-Glass Chopped Strand Mat (CSM) with polyester-compatible sizing, available in 300 g/m² and 450 g/m² area weights."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Glass Fiber is the reinforcement part of an FRP laminate",
+        "body": [
+          "Glass Fiber, also written fiberglass, is a reinforcement material used in fibre-reinforced plastic (FRP) manufacture. It is distinct from the resin: the mat contributes reinforcement, while the resin is selected separately to bind the reinforcement into a finished composite.",
+          "This distinction matters during procurement. A request for 'fiberglass resin' can combine two separate decisions: the reinforcement form and weight, and the resin product role. The published Samrat FRP Traders Glass Fiber listing covers the reinforcement side of that discussion."
+        ]
+      },
+      {
+        "heading": "What E-Glass and Chopped Strand Mat mean",
+        "body": [
+          "The current Glass Fiber TDS identifies the material as E-Glass Chopped Strand Mat (CSM). Chopped Strand Mat is a non-woven mat made from chopped glass strands held together with a binder; the current product data lists a 50 mm fibre length and polyester-compatible sizing.",
+          "E-Glass describes the published glass type. It should not be confused with a resin chemistry, a gelcoat, a finished FRP component or an assurance of finished-laminate performance. The finished part depends on the full approved material system and the component design."
+        ]
+      },
+      {
+        "heading": "The published CSM range",
+        "body": [
+          "Samrat FRP Traders currently publishes two Glass Fiber mat weights: CSM 300 at 300 g/m² and CSM 450 at 450 g/m². Both are supplied as E-Glass Chopped Strand Mat; the TDS lists 1040 mm roll width, approximately 30 kg roll weight and a 500 kg minimum order quantity.",
+          "No other reinforcement form should be assumed from this listing. In particular, woven roving, continuous roving, carbon fibre and other glass-mat types are not presented as Samrat FRP Traders products on this page."
+        ]
+      },
+      {
+        "heading": "Start the enquiry with the component",
+        "body": [
+          "A useful Glass Fiber enquiry states the intended FRP component, whether CSM 300 or CSM 450 is being considered, the resin system under review, expected quantity, delivery location and any drawing or purchase specification. This gives the technical discussion a factual starting point without treating a generic mat name as a complete laminate design."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "csm-300-vs-csm-450-glass-fiber",
+    "title": "CSM 300 vs CSM 450 Glass Fiber: How to Compare Mat Weight",
+    "description": "Understand the published 300 g/m² and 450 g/m² E-Glass Chopped Strand Mat options without assuming a universal layer count or component design.",
+    "category": "Selection Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "CSM 300 vs CSM 450 Glass Fiber | Chopped Strand Mat Guide",
+      "keywords": [
+        "CSM 300",
+        "CSM 450",
+        "300 GSM Glass Fiber",
+        "450 GSM Glass Fiber",
+        "Glass Fiber Weight",
+        "Chopped Strand Mat Weight",
+        "Fiberglass Mat"
+      ],
+      "ogTitle": "CSM 300 vs CSM 450 Glass Fiber",
+      "ogDescription": "Compare Samrat FRP Traders' published 300 g/m² and 450 g/m² E-Glass Chopped Strand Mat options with the component and laminate requirement in mind."
+    },
+    "quickFacts": {
+      "CSM 300": "300 g/m² published area weight",
+      "CSM 450": "450 g/m² published area weight",
+      "Do not infer": "A fixed layer count or final part thickness",
+      "Start selection with": "Component drawing and laminate requirement"
+    },
+    "comparisonTable": {
+      "title": "Published CSM weights at a glance",
+      "headers": [
+        "Buyer check",
+        "CSM 300",
+        "CSM 450"
+      ],
+      "rows": [
+        [
+          "Published area weight",
+          "300 g/m²",
+          "450 g/m²"
+        ],
+        [
+          "Published glass type",
+          "E-Glass",
+          "E-Glass"
+        ],
+        [
+          "Published form",
+          "Chopped Strand Mat",
+          "Chopped Strand Mat"
+        ],
+        [
+          "Selection basis",
+          "Component and specified reinforcement build-up",
+          "Component and specified reinforcement build-up"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-glass-fiber-chopped-strand-mat",
+      "glass-fiber-for-frp-manufacturing",
+      "glass-fiber-storage-and-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View CSM 300 and CSM 450",
+        "description": "Review current product details, packaging, MOQ and the Glass Fiber TDS."
+      },
+      {
+        "href": "/applications/resin-for-frp-panel-manufacturing/",
+        "label": "Explore FRP panel context",
+        "description": "Use the existing application guide to define the component before discussing mat selection."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a Glass Fiber requirement",
+        "description": "Share the component, CSM weight under consideration, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does CSM 450 automatically mean a better choice than CSM 300?",
+        "a": "No. The figures identify different published area weights. The appropriate selection depends on the component drawing, laminate design, stated reinforcement build-up, resin system and production method."
+      },
+      {
+        "q": "Can this guide specify the number of layers to use?",
+        "a": "No. The repository does not publish a universal layer schedule, final part thickness or design approval for every FRP component. Use the applicable drawing and technical review."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "GSM is the mat's published area weight",
+        "body": [
+          "For the current Samrat FRP Traders range, CSM 300 means a published area weight of 300 g/m² and CSM 450 means 450 g/m². GSM is an area-weight reference; it is not, by itself, a complete statement of final laminate thickness, structural capacity, resin consumption or number of layers."
+        ]
+      },
+      {
+        "heading": "Compare the component before comparing the numbers",
+        "body": [
+          "Start with the part being made: roofing sheet, tank, panel, door, moulded product or another documented FRP component. Then review the drawing, required reinforcement build-up, geometry, approved resin system and process. These are the facts that turn a CSM weight into a meaningful procurement discussion.",
+          "The site does not publish a rule that assigns CSM 300 or CSM 450 to every application. Avoid treating one mat weight as a universal replacement for the other without the component requirement."
+        ]
+      },
+      {
+        "heading": "Do not convert GSM into an unsupported thickness claim",
+        "body": [
+          "Buyers may search for 'glass fiber thickness' or 'glass fiber layers'. The published product data supports the two area weights, but it does not publish a final laminate thickness, a layer count or a load rating for a particular component. Those outcomes depend on the broader material system and component design."
+        ]
+      },
+      {
+        "heading": "What to include in a CSM quotation request",
+        "body": [
+          "State whether CSM 300 or CSM 450 is requested or under consideration, the intended FRP component, expected quantity, delivery location and any drawing or purchase specification. Add the resin system under review where known. This is more useful than requesting only 'glass fibre mat' without application context."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "glass-fiber-and-polyester-resin-compatibility",
+    "title": "Glass Fiber and Polyester Resin: Understanding the FRP Material System",
+    "description": "A safe buyer guide to the separate roles of E-Glass reinforcement, polyester resin, vinyl ester resin and gelcoat in an FRP product.",
+    "category": "Compatibility Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Glass Fiber and Polyester Resin Compatibility | FRP Buyer Guide",
+      "keywords": [
+        "Polyester Resin Glass Fiber",
+        "Glass Fiber Resin Compatibility",
+        "FRP Glass Fiber",
+        "E-Glass Polyester Resin",
+        "Glass Fiber Vinyl Ester Resin"
+      ],
+      "ogTitle": "Glass Fiber and Polyester Resin: FRP Material System Guide",
+      "ogDescription": "Understand the separate reinforcement, resin and surface-finish roles in an FRP material system before discussing a Glass Fiber requirement."
+    },
+    "quickFacts": {
+      "Reinforcement role": "E-Glass Chopped Strand Mat",
+      "Published sizing": "Polyester-compatible",
+      "TDS compatibility": "UPR, Vinyl Ester and epoxy systems",
+      "Selection rule": "Confirm the complete system against current product data"
+    },
+    "relatedSlugs": [
+      "what-is-glass-fiber-chopped-strand-mat",
+      "csm-300-vs-csm-450-glass-fiber",
+      "glass-fiber-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber Mat",
+        "description": "Review the published E-Glass CSM product details and TDS."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published general-FRP resin role separately from the reinforcement decision."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the parent page to compare the resin family and individual product roles."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review this separate resin-side option where a project has a stated chemical- or corrosion-resistance requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which resin systems are named in the Glass Fiber TDS?",
+        "a": "The current Glass Fiber TDS lists UPR, Vinyl Ester and epoxy systems under binder compatibility. Confirm the final material system against the current product data and the specific component requirement."
+      },
+      {
+        "q": "Is Gelcoat a replacement for Glass Fiber Mat?",
+        "a": "No. Gelcoat is a separate mould-side surface-coating product. It does not replace the reinforcement role of Glass Fiber Mat in an FRP laminate."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Reinforcement and resin have different jobs",
+        "body": [
+          "Glass Fiber Mat is the reinforcement material. Polyester or vinyl ester resin is selected separately to bind the reinforcement into a laminate. Gelcoat, where required, is a different mould-facing surface product. Treating these materials as interchangeable can lead to an unclear quotation or the wrong product-role discussion."
+        ]
+      },
+      {
+        "heading": "What the published Glass Fiber data supports",
+        "body": [
+          "The current Glass Fiber data identifies a polyester-compatible sizing. The TDS lists compatibility with Unsaturated Polyester Resin, Vinyl Ester and epoxy systems. This identifies the compatibility discussion; it does not approve a specific formulation, mix, application setting or finished-component performance."
+        ]
+      },
+      {
+        "heading": "Use the published resin roles to narrow the conversation",
+        "body": [
+          "For a general FRP resin context, review GP Clear Resin or the parent Unsaturated Polyester Resin page. GP White Resin has its own published water-white general-purpose role. Lamination Resin has separate published bonding and lamination contexts. Vinyl Ester Resin is the page to review where the project has a stated chemical- or corrosion-resistance requirement.",
+          "GP Gelcoat Resin should be reviewed when the requirement is a mould-facing surface layer. It is not the structural reinforcement or a substitute for the resin selected for the laminate behind that surface."
+        ]
+      },
+      {
+        "heading": "Keep the request factual",
+        "body": [
+          "Before a quote or technical discussion, share the intended FRP component, CSM 300 or CSM 450 requirement, selected or proposed resin system, expected quantity, delivery location and any drawing or stated specification. Final suitability should be confirmed against the applicable product data rather than assumed from a general compatibility label."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "glass-fiber-for-frp-manufacturing",
+    "title": "Glass Fiber for FRP Manufacturing: Reinforcement Application Guide",
+    "description": "Use existing FRP application guides to define the component and reinforcement context before selecting E-Glass Chopped Strand Mat.",
+    "category": "Application Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Glass Fiber for FRP Manufacturing | CSM Application Guide",
+      "keywords": [
+        "Glass Fiber for FRP",
+        "FRP Glass Fiber",
+        "Glass Fiber Roofing Sheets",
+        "Glass Fiber Tanks",
+        "Glass Fiber Doors",
+        "Fiberglass Reinforcement"
+      ],
+      "ogTitle": "Glass Fiber for FRP Manufacturing",
+      "ogDescription": "Explore the existing FRP roofing-sheet, tank, panel, door and hand lay-up guides as component context for Glass Fiber Mat selection."
+    },
+    "quickFacts": {
+      "Published product role": "FRP reinforcement",
+      "Existing component guides": "Roofing sheets, tanks, panels and doors",
+      "Existing process guide": "Hand lay-up",
+      "Selection caution": "No fixed CSM weight is assigned by this guide"
+    },
+    "relatedSlugs": [
+      "what-is-glass-fiber-chopped-strand-mat",
+      "glass-fiber-and-polyester-resin-compatibility",
+      "glass-fiber-storage-and-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/applications/resin-for-roofing-sheet-manufacturing/",
+        "label": "FRP roofing-sheet guide",
+        "description": "Review the documented roofing-sheet component context."
+      },
+      {
+        "href": "/applications/resin-for-water-tank-manufacturing/",
+        "label": "FRP water-tank guide",
+        "description": "Review the documented tank component context."
+      },
+      {
+        "href": "/applications/resin-for-frp-panel-manufacturing/",
+        "label": "FRP panel guide",
+        "description": "Review the documented panel component context."
+      },
+      {
+        "href": "/applications/resin-for-frp-door-manufacturing/",
+        "label": "FRP door guide",
+        "description": "Review the documented door component context."
+      },
+      {
+        "href": "/applications/resin-for-hand-lay-up-process/",
+        "label": "Hand lay-up guide",
+        "description": "Review the existing process context alongside the relevant product TDS."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can one CSM weight be assigned to every FRP application?",
+        "a": "No. The site documents component and process contexts but does not publish a universal CSM 300 or CSM 450 assignment. Confirm the applicable drawing and reinforcement build-up."
+      },
+      {
+        "q": "Does this guide create a manufacturing instruction?",
+        "a": "No. It helps buyers find existing application context. The relevant TDS, component design, applicable safety requirements and technical review remain controlling."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the component to organise the reinforcement discussion",
+        "body": [
+          "Glass Fiber selection is clearer when the intended FRP component is known. The existing Samrat FRP Traders application guides provide component context for roofing sheets, water tanks, panels, doors, general moulded products and hand lay-up. These guides support discovery; they are not a universal reinforcement specification."
+        ]
+      },
+      {
+        "heading": "FRP roofing sheets, tanks, panels and doors",
+        "body": [
+          "The published application pages describe E-Glass Chopped Strand Mat within roofing-sheet, water-tank, panel and door-related FRP contexts. Each component has its own geometry, reinforcement build-up and finished-product requirement, so a material enquiry should name the specific component rather than rely on a broad 'FRP glass fibre' request."
+        ]
+      },
+      {
+        "heading": "Hand lay-up is a process context, not a fixed recipe",
+        "body": [
+          "The existing hand lay-up guide discusses the role of reinforcement and resin in an FRP laminate. It should be read with the current Glass Fiber TDS and the selected resin's own product data. This resource does not prescribe catalyst quantities, layer counts, thicknesses or processing settings."
+        ]
+      },
+      {
+        "heading": "Link the application back to product data",
+        "body": [
+          "After defining the component, review whether CSM 300 or CSM 450 is specified or should be discussed, then review the resin-side role and the published Glass Fiber product details. Add the component, expected quantity, delivery location and any drawing to the enquiry so a quote conversation can start with documented facts."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "glass-fiber-storage-and-procurement-guide",
+    "title": "Glass Fiber Storage and Procurement Guide for CSM 300 and CSM 450",
+    "description": "A practical buyer checklist for handling the published Glass Fiber Mat TDS, packaging, storage context and quotation details.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Glass Fiber Storage and Procurement Guide | CSM 300 & 450",
+      "keywords": [
+        "Glass Fiber Storage",
+        "Glass Fiber Procurement",
+        "CSM 300 Supplier",
+        "CSM 450 Supplier",
+        "Glass Fiber Mat Quote",
+        "Fiberglass Mat Packaging"
+      ],
+      "ogTitle": "Glass Fiber Storage and Procurement Guide",
+      "ogDescription": "Prepare a factual CSM 300 or CSM 450 enquiry using the published TDS, roll packaging, MOQ and storage context for Glass Fiber Mat."
+    },
+    "quickFacts": {
+      "Published packaging": "Roll, approximately 30 kg/roll",
+      "Published roll width": "1040 mm",
+      "Published MOQ": "500 kg",
+      "Published shelf life": "24 months"
+    },
+    "relatedSlugs": [
+      "what-is-glass-fiber-chopped-strand-mat",
+      "csm-300-vs-csm-450-glass-fiber",
+      "glass-fiber-and-polyester-resin-compatibility"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber Mat",
+        "description": "Review the current product details and download the Technical Data Sheet."
+      },
+      {
+        "href": "/tds/fibre-glass-mat-tds.pdf",
+        "label": "Download Glass Fiber TDS",
+        "description": "Use the current published technical data as the controlling product reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review the broader product range and separate resin roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a Glass Fiber quote",
+        "description": "Send a documented CSM 300 or CSM 450 requirement through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What packaging and MOQ are published for Glass Fiber Mat?",
+        "a": "The product is published as 1040 mm rolls at approximately 30 kg per roll, with a 500 kg minimum order quantity. Confirm the current commercial requirement when requesting a quotation."
+      },
+      {
+        "q": "What storage information is published?",
+        "a": "The current TDS states a 24-month shelf life and advises cool, dry storage away from moisture and direct sunlight. Follow the current TDS and site handling requirements for the actual material."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current Glass Fiber TDS first",
+        "body": [
+          "The Glass Fiber TDS is the product-specific reference for the published E-Glass Chopped Strand Mat. It lists CSM 300 and CSM 450, 1040 mm roll width, approximately 30 kg roll weight, polyester-compatible sizing and the other technical properties for the current product.",
+          "Do not transfer specifications, package dimensions, binder information or suitability statements from another supplier's mat to this product. Use the current Samrat FRP Traders TDS for the material being considered."
+        ]
+      },
+      {
+        "heading": "Record the published commercial details",
+        "body": [
+          "The current listing publishes roll packaging, approximately 30 kg per roll and a 500 kg MOQ. Include the total required quantity and delivery location in the enquiry. This supports a commercial discussion without implying an unlisted lead time, stock position, sample policy or delivery promise."
+        ]
+      },
+      {
+        "heading": "Keep storage context with the material record",
+        "body": [
+          "The current TDS publishes a 24-month shelf life and advises storage in a cool, dry area away from moisture and direct sunlight. Keep the product, batch or roll identification, receipt date, container condition and storage history with the procurement record. Where material condition is in doubt, review the current TDS and contact the supplier rather than assuming suitability."
+        ]
+      },
+      {
+        "heading": "Glass Fiber quote checklist",
+        "body": [
+          "State the CSM 300 or CSM 450 requirement, intended FRP component, resin system under review if known, expected quantity, delivery location and any drawing or purchase specification. This helps distinguish the reinforcement request from the separate resin, surface-finish and component-design decisions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-frp-polyester-pigment",
+    "title": "What Is FRP Polyester Pigment? A Guide to Polyester Pigment Paste",
+    "description": "Understand the published role of FRP Polyester Pigment / polyester pigment paste in a coloured FRP material system before selecting a resin or surface-finish product.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is FRP Polyester Pigment? | Polyester Pigment Paste",
+      "keywords": [
+        "FRP Polyester Pigment",
+        "Polyester Pigment Paste",
+        "FRP Colour Paste",
+        "Pigment for Polyester Resin",
+        "Resin Pigment"
+      ],
+      "ogTitle": "What Is FRP Polyester Pigment?",
+      "ogDescription": "A buyer guide to the published role of polyester pigment paste in FRP, resin and gelcoat material systems."
+    },
+    "quickFacts": {
+      "Published product form": "Polyester pigment paste for FRP",
+      "Published system context": "UPR, vinyl ester and gelcoat systems",
+      "Material-system role": "Colour component, not a structural resin or reinforcement",
+      "Product reference": "Use the current FRP Polyester Pigment TDS"
+    },
+    "relatedSlugs": [
+      "applications-of-frp-polyester-pigment",
+      "polyester-pigment-paste-vs-gelcoat",
+      "frp-pigment-compatibility-with-resin-systems"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/frp-polyester-pigment/",
+        "label": "View FRP Polyester Pigment",
+        "description": "Review the published product information, colour range context and Technical Data Sheet."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Understand the parent resin family before defining a colour requirement."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the separate surface-finish product role."
+      },
+      {
+        "href": "/tds/frp-polyester-pigment-tds.pdf",
+        "label": "Download FRP Polyester Pigment TDS",
+        "description": "Use the current published data as the controlling product reference."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is FRP Polyester Pigment the same as polyester resin?",
+        "a": "No. The published product is a polyester pigment paste for FRP. It is a colour component within a material system, whereas a resin grade has a separate product role."
+      },
+      {
+        "q": "Can pigment paste be assumed compatible with every resin?",
+        "a": "No. The product page publishes UPR, vinyl ester and gelcoat system context, but the actual base system and application should be confirmed before a requirement is finalised."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A colour component for an FRP material system",
+        "body": [
+          "FRP Polyester Pigment is the published Samrat FRP Traders product for adding colour within an FRP material-system discussion. It is supplied as a polyester pigment paste for FRP; it is not the structural resin, Glass Fiber reinforcement or finished gelcoat layer itself.",
+          "This distinction helps a buyer begin with the right question. First define the component and the required appearance, then identify the resin or gelcoat system being considered, and finally review whether the published pigment product is appropriate for that system."
+        ]
+      },
+      {
+        "heading": "Polyester pigment paste, FRP colour paste and resin pigment",
+        "body": [
+          "Industrial buyers may use several terms for the same product role: FRP polyester pigment, polyester pigment paste, FRP colour paste or resin pigment. The useful procurement detail is not the label alone; it is the actual base system, intended component, shade reference if known and the expected finished appearance.",
+          "The current product data publishes use with unsaturated polyester resin, vinyl ester and gelcoat systems. It does not make a universal compatibility statement, so the base system should be identified rather than assumed from a generic pigment-paste request."
+        ]
+      },
+      {
+        "heading": "Keep the colouring decision separate from the resin decision",
+        "body": [
+          "A GP, Lamination, Gelcoat or Vinyl Ester product has its own published role. Pigment selection does not replace selection of the underlying resin or surface-finish material. For an FRP buyer, the practical route is to review the component requirement, choose the relevant base material, then discuss the colour requirement against that documented system.",
+          "Where a visible mould-side surface is required, review the Gelcoat product role as well as the pigment discussion. Where the requirement is a pre-coloured resin grade rather than a pigment-paste system, review the relevant product data instead of assuming the two choices are interchangeable."
+        ]
+      },
+      {
+        "heading": "What to include in a pigment enquiry",
+        "body": [
+          "Share the FRP component, intended resin or gelcoat system if known, required colour reference or appearance requirement, expected quantity and delivery location. If a drawing, approved visual reference or purchase specification exists, include it in the commercial discussion. This helps separate a colour requirement from the separate decisions on resin grade, reinforcement and production process."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-frp-polyester-pigment",
+    "title": "Applications of FRP Polyester Pigment in Coloured FRP Products",
+    "description": "Review the published FRP Polyester Pigment application contexts and the questions to clarify before using a pigment-paste requirement in a coloured FRP product.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Applications of FRP Polyester Pigment | FRP Colour Paste Uses",
+      "keywords": [
+        "FRP Pigment Uses",
+        "Polyester Pigment Paste Applications",
+        "FRP Colour Paste",
+        "Pigment for Gelcoat",
+        "Polyester Resin Colouring"
+      ],
+      "ogTitle": "Applications of FRP Polyester Pigment",
+      "ogDescription": "Published application contexts for FRP polyester pigment, including tanks, pipes, gelcoat, decorative panels and electrical enclosures."
+    },
+    "quickFacts": {
+      "Published application contexts": "FRP tanks and pipes, coloured gelcoat, panels and enclosures",
+      "Decision inputs": "Component, base system, appearance requirement and quantity",
+      "Not a processing recipe": "Review current product data before use"
+    },
+    "relatedSlugs": [
+      "what-is-frp-polyester-pigment",
+      "frp-pigment-compatibility-with-resin-systems",
+      "frp-colour-variation-buyer-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/applications/resin-for-water-tank-manufacturing/",
+        "label": "FRP water-tank guide",
+        "description": "Review the existing tank manufacturing context before defining colour requirements."
+      },
+      {
+        "href": "/applications/resin-for-frp-panel-manufacturing/",
+        "label": "FRP panel guide",
+        "description": "Review the existing panel context alongside the relevant resin and pigment data."
+      },
+      {
+        "href": "/applications/gelcoat-for-general-frp-mould-finishing/",
+        "label": "FRP mould-finish guide",
+        "description": "Review the documented gelcoat surface-finish context."
+      },
+      {
+        "href": "/products/frp-polyester-pigment/",
+        "label": "View FRP Polyester Pigment",
+        "description": "Review the published product details and Technical Data Sheet."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does this guide prescribe one pigment system for every FRP component?",
+        "a": "No. The applications listed are published product contexts, not a universal formulation or compatibility instruction. Confirm the actual material system and finished-product requirement."
+      },
+      {
+        "q": "Can a buyer request pigment for a gelcoat application?",
+        "a": "The published pigment product includes gelcoat-system context. Share the gelcoat product, component and appearance requirement so the actual system can be reviewed."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Published applications start with the component",
+        "body": [
+          "Samrat FRP Traders publishes FRP Polyester Pigment application context for FRP tanks and pipes, gelcoats for boat and automotive applications, decorative and architectural panels, and electrical enclosures. These are useful starting points because the component and required appearance affect the material-system discussion.",
+          "The list does not mean that one pigment selection or one appearance outcome applies across every product. A tank, panel, enclosure and moulded surface each need their own requirement review."
+        ]
+      },
+      {
+        "heading": "FRP tanks, pipes and industrial components",
+        "body": [
+          "For tanks, pipes and industrial FRP components, begin with the component role and the selected resin system. If colour is a requirement, identify whether it relates to the bulk FRP material, a visible surface or a purchasing specification. The existing tank and general FRP application guides can support that conversation without replacing product-specific technical review."
+        ]
+      },
+      {
+        "heading": "Panels, decorative FRP and enclosures",
+        "body": [
+          "The published product information also names decorative and architectural panels and electrical enclosures. For these contexts, a buyer should state the required appearance, whether a visible surface is involved, the base system under review and the component type. This is more useful than a broad request for 'FRP colour paste' with no product context."
+        ]
+      },
+      {
+        "heading": "Gelcoat colouring is a separate surface-finish question",
+        "body": [
+          "The product information publishes gelcoat-system compatibility. Where colour is being considered for a boat, automotive or moulded FRP surface, first distinguish pigment-paste selection from the Gelcoat product's separate surface-finish role. Review the relevant published product data before confirming the combination."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "polyester-pigment-paste-vs-gelcoat",
+    "title": "Polyester Pigment Paste vs Gelcoat: Understand the Different FRP Roles",
+    "description": "A practical decision guide separating a polyester pigment paste colour requirement from the separate surface-finish role of Gelcoat Resin.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Polyester Pigment Paste vs Gelcoat | FRP Colour Guide",
+      "keywords": [
+        "Pigment Paste vs Gelcoat",
+        "Pigment for Gelcoat",
+        "FRP Colour Paste",
+        "Gelcoat Resin",
+        "Polyester Pigment Paste"
+      ],
+      "ogTitle": "Polyester Pigment Paste vs Gelcoat",
+      "ogDescription": "Separate the colour-component discussion from the surface-finish product role before selecting materials for an FRP component."
+    },
+    "quickFacts": {
+      "Pigment paste role": "Colour component within a documented material system",
+      "Gelcoat role": "Separate FRP surface-finish product role",
+      "Buyer decision": "Identify whether colour, visible surface finish or both are required"
+    },
+    "relatedSlugs": [
+      "what-is-frp-polyester-pigment",
+      "frp-pigment-compatibility-with-resin-systems",
+      "pigment-paste-vs-pre-pigmented-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/frp-polyester-pigment/",
+        "label": "View FRP Polyester Pigment",
+        "description": "Review the published pigment-paste product details."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the separate published Gelcoat Resin product role and TDS."
+      },
+      {
+        "href": "/resources/what-is-gel-coat-resin/",
+        "label": "What is Gelcoat Resin?",
+        "description": "Read the existing guide to the gelcoat product role."
+      },
+      {
+        "href": "/applications/gelcoat-for-general-frp-mould-finishing/",
+        "label": "FRP mould-finish guide",
+        "description": "Review the existing surface-finish application context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is pigment paste a replacement for gelcoat?",
+        "a": "No. The two published products have different roles: the pigment product is a colour component, while Gelcoat Resin is a separate surface-finish product. Confirm the actual component requirement before selecting either."
+      },
+      {
+        "q": "Can pigment be discussed with a gelcoat system?",
+        "a": "The pigment product publishes gelcoat-system context. Review the specific gelcoat and current TDS before treating any combination as confirmed."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the job the material must do",
+        "body": [
+          "A polyester pigment paste is a colour component in an FRP material-system discussion. GP Gelcoat Resin is a separate product role for FRP surface-finish applications. A buyer should not treat these as interchangeable simply because both relate to a coloured FRP product.",
+          "The first question is whether the requirement concerns colour within a specified system, a visible mould-side surface finish, or both. That answer determines which product data needs to be reviewed."
+        ]
+      },
+      {
+        "heading": "When the requirement is a colour discussion",
+        "body": [
+          "Use the FRP Polyester Pigment product route when the buyer needs to discuss colour against a UPR, vinyl ester or gelcoat system. Share the component, intended base system, required colour reference or appearance requirement, quantity and delivery location. The current TDS remains the product-specific reference."
+        ]
+      },
+      {
+        "heading": "When the requirement is a surface-finish discussion",
+        "body": [
+          "Use the Gelcoat Resin route when the buyer is defining the visible surface-finish role for a moulded FRP product. The product page and Gelcoat resources explain that separate role. If colour is also relevant, it should be assessed within the actual gelcoat system rather than assumed from a generic pigment request."
+        ]
+      },
+      {
+        "heading": "Avoid a one-word material request",
+        "body": [
+          "A request such as 'gelcoat colour' can mean different things: a pigment-paste requirement, a gelcoat selection question, a finished-appearance requirement or a combination of these. Naming the component and base system allows the technical and commercial discussion to start with the correct product role."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pigment-paste-vs-pre-pigmented-polyester-resin",
+    "title": "FRP Pigment Paste vs Pre-Pigmented Polyester Resin: How to Choose",
+    "description": "Compare a pigment-paste discussion with an existing pre-pigmented polyester-resin product role before specifying a coloured FRP material system.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "FRP Pigment Paste vs Pre-Pigmented Polyester Resin",
+      "keywords": [
+        "Pigment Paste vs Coloured Resin",
+        "Pre Pigmented Polyester Resin",
+        "FRP Colour Paste",
+        "Polyester Resin Colouring",
+        "Resin Pigment"
+      ],
+      "ogTitle": "FRP Pigment Paste vs Pre-Pigmented Polyester Resin",
+      "ogDescription": "A buyer guide to separate a pigment-paste requirement from a pre-pigmented polyester-resin product role."
+    },
+    "quickFacts": {
+      "Pigment-paste route": "Colour discussion against the intended system",
+      "Pre-pigmented route": "Review the separate published resin grade",
+      "Decision inputs": "Component, base system, required appearance and product data"
+    },
+    "relatedSlugs": [
+      "what-is-frp-polyester-pigment",
+      "polyester-pigment-paste-vs-gelcoat",
+      "frp-pigment-compatibility-with-resin-systems"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/frp-polyester-pigment/",
+        "label": "View FRP Polyester Pigment",
+        "description": "Review the published pigment-paste product information."
+      },
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the separate published pre-pigmented resin product role."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Review product-family selection before choosing a colouring route."
+      },
+      {
+        "href": "/tds/frp-polyester-pigment-tds.pdf",
+        "label": "Download FRP Polyester Pigment TDS",
+        "description": "Use the current published pigment data for the actual product."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is a pre-pigmented resin the same product as pigment paste?",
+        "a": "No. They are separate product roles. The appropriate route depends on the component, base resin requirement and finished-appearance requirement."
+      },
+      {
+        "q": "Does this guide recommend one route for all coloured FRP products?",
+        "a": "No. It is a decision-support guide only. Review the relevant product TDS and actual material-system requirement before specifying a product."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Two different ways a colour requirement can begin",
+        "body": [
+          "One buyer may need to discuss a polyester pigment paste within a defined FRP material system. Another may be evaluating an existing pre-pigmented polyester-resin grade. These are not interchangeable product descriptions, even when the finished component is intended to have colour.",
+          "Samrat FRP Traders publishes FRP Polyester Pigment as a pigment-paste product and Sheet Grade Yellow Resin as a separate product. Start by identifying which product role matches the actual requirement."
+        ]
+      },
+      {
+        "heading": "Use the pigment-paste route when the system needs to be identified",
+        "body": [
+          "A pigment-paste enquiry should state the intended resin or gelcoat system, component, shade or appearance requirement, quantity and delivery location. The published pigment product names UPR, vinyl ester and gelcoat system context. Compatibility still needs to be checked against the actual base material and application."
+        ]
+      },
+      {
+        "heading": "Use the pre-pigmented-resin route when evaluating that published grade",
+        "body": [
+          "Where the buyer is considering a published pre-pigmented resin grade, review that product page and its TDS on their own terms. Do not infer its technical properties, use cases or availability from the pigment-paste page. The resin grade and the colour-component discussion remain separate decisions."
+        ]
+      },
+      {
+        "heading": "Ask a product-role question before a price question",
+        "body": [
+          "Before requesting a quote, state whether the need is for pigment paste or a pre-pigmented resin grade, then include the intended FRP component, base system or published product under review, required colour reference if known, expected quantity and delivery location. This reduces the risk of comparing unlike materials."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "frp-pigment-compatibility-with-resin-systems",
+    "title": "FRP Pigment Compatibility with Polyester Resin, Vinyl Ester and Gelcoat",
+    "description": "Use the published FRP Polyester Pigment system context to frame a compatibility check without assuming every pigment works with every resin or gelcoat product.",
+    "category": "Selection Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "FRP Pigment Compatibility with Polyester Resin and Gelcoat",
+      "keywords": [
+        "Pigment Compatibility with Polyester Resin",
+        "Pigment for Gelcoat",
+        "FRP Pigment Compatibility",
+        "Polyester Pigment Paste",
+        "Vinyl Ester Pigment"
+      ],
+      "ogTitle": "FRP Pigment Compatibility with Resin Systems",
+      "ogDescription": "A cautious buyer guide to the published UPR, vinyl ester and gelcoat system context for FRP polyester pigment."
+    },
+    "quickFacts": {
+      "Published compatibility context": "UPR, vinyl ester and gelcoat systems",
+      "Important limitation": "Not a universal-compatibility claim",
+      "Check before quote": "Actual base product, component and appearance requirement"
+    },
+    "relatedSlugs": [
+      "what-is-frp-polyester-pigment",
+      "polyester-pigment-paste-vs-gelcoat",
+      "frp-pigment-storage-and-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Unsaturated Polyester Resin product hub",
+        "description": "Review the parent resin family and individual product roles."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate published GP Clear Resin product role."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the separate gelcoat product role and current TDS."
+      },
+      {
+        "href": "/products/frp-polyester-pigment/",
+        "label": "View FRP Polyester Pigment",
+        "description": "Review the published compatibility context and Technical Data Sheet."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which system types are published for FRP Polyester Pigment?",
+        "a": "The current product information publishes UPR, vinyl ester and gelcoat system compatibility context. Verify the actual product and application before treating a combination as approved."
+      },
+      {
+        "q": "Does this confirm compatibility with every GP, Lamination or Gelcoat grade?",
+        "a": "No. Product-family names do not replace a check of the actual base product, current TDS and application. Do not assume universal compatibility."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the published system context as a starting point",
+        "body": [
+          "The FRP Polyester Pigment product information publishes compatibility context for unsaturated polyester resin, vinyl ester and gelcoat systems. This helps frame the right technical question, but it is not a blanket statement that every pigment is suitable for every product within those families.",
+          "Before a requirement is finalised, identify the specific base product, component and finished-appearance requirement. Then review the current published product data and discuss any unresolved compatibility point with the supplier."
+        ]
+      },
+      {
+        "heading": "GP, Lamination and other polyester-resin discussions",
+        "body": [
+          "GP Clear, GP White, GP Yellow and Lamination Resin are separate published product roles within the site. A buyer can use those pages to understand the underlying resin requirement, but should not treat a product-family name as a substitute for checking the actual material system. The pigment conversation should include the base product under review."
+        ]
+      },
+      {
+        "heading": "Gelcoat and Vinyl Ester discussions",
+        "body": [
+          "The pigment product publishes gelcoat and vinyl ester system context. For a visible mould-side surface, use the Gelcoat page and its TDS to establish the surface-finish role first. For a Vinyl Ester requirement, review its own product information. Then state the component and appearance requirement in the pigment enquiry so the discussion remains product-specific."
+        ]
+      },
+      {
+        "heading": "A practical compatibility-check list",
+        "body": [
+          "Record the specific resin or gelcoat product, FRP component, colour reference or appearance requirement, expected quantity, delivery location and any relevant purchase specification. Avoid relying on a supplier, product family or prior project alone as proof that a pigment system is appropriate for a different component or base material."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "frp-colour-variation-buyer-checklist",
+    "title": "FRP Colour Variation: A Buyer Checklist for Uneven Appearance Questions",
+    "description": "A non-prescriptive checklist for buyers who need to document an FRP colour-variation or appearance-consistency question before discussing pigment, resin or gelcoat products.",
+    "category": "Troubleshooting Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "FRP Colour Variation Guide | Uneven Colour Buyer Checklist",
+      "keywords": [
+        "FRP Colour Variation",
+        "Uneven FRP Colour",
+        "FRP Colour Problems",
+        "Pigment Dispersion",
+        "FRP Pigment"
+      ],
+      "ogTitle": "FRP Colour Variation Buyer Checklist",
+      "ogDescription": "Document the material system and finished-appearance requirement before discussing an uneven FRP colour question."
+    },
+    "quickFacts": {
+      "Purpose": "Document an appearance-consistency question",
+      "Not included": "No dosage or mixing instructions",
+      "Useful records": "Component, base system, colour reference, batch and conditions"
+    },
+    "relatedSlugs": [
+      "what-is-frp-polyester-pigment",
+      "frp-pigment-compatibility-with-resin-systems",
+      "frp-pigment-storage-and-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/frp-polyester-pigment/",
+        "label": "View FRP Polyester Pigment",
+        "description": "Review the published pigment product and current TDS."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the separate surface-finish product role where relevant."
+      },
+      {
+        "href": "/applications/resin-for-frp-panel-manufacturing/",
+        "label": "FRP panel guide",
+        "description": "Review existing component context for FRP panels."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an appearance requirement",
+        "description": "Send the documented material-system and component details through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does uneven colour always mean there is a pigment defect?",
+        "a": "No. This guide does not diagnose a cause. An appearance question should be reviewed against the specific base system, component, colour requirement, material records and production context."
+      },
+      {
+        "q": "Does this guide provide a mixing or dosage correction?",
+        "a": "No. It deliberately avoids product-use instructions. Use the current product data and seek technical review for the actual material system."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Treat colour variation as a material-system question",
+        "body": [
+          "When an FRP product appears uneven in colour, the useful first step is to document the question rather than assume a single cause. Colour appearance can involve the selected component, base resin or gelcoat system, colour requirement, material history and production conditions. This page does not diagnose or prescribe a correction.",
+          "The FRP Polyester Pigment page can be part of the review, but a pigment product should not be assessed in isolation from the actual resin or gelcoat system."
+        ]
+      },
+      {
+        "heading": "Record what the finished component was meant to look like",
+        "body": [
+          "Keep the intended component, colour reference or approved appearance description, whether the surface is visible, and the base product under review. If the enquiry concerns a panel, tank, moulded part or gelcoat surface, identify that component precisely. A general request for 'better pigment dispersion' does not provide enough product context for a reliable discussion."
+        ]
+      },
+      {
+        "heading": "Keep the material and production record together",
+        "body": [
+          "Where available, retain the product identity, batch or container record, receipt date, storage history, component record and any photographs that fairly show the issue. These details support a factual conversation without asserting that any one material or process variable caused the appearance difference."
+        ]
+      },
+      {
+        "heading": "Know when to discuss the base material as well",
+        "body": [
+          "If the visible appearance relates to a surface-finish requirement, review the relevant Gelcoat product role. If it relates to the bulk FRP component, identify the actual resin system under review. The aim is to ensure the colour discussion, base-material discussion and finished-product requirement are evaluated together."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "frp-pigment-storage-and-procurement-guide",
+    "title": "FRP Polyester Pigment Storage and Procurement Guide",
+    "description": "Use the published FRP Polyester Pigment storage, packaging and commercial details to prepare a factual colour-paste enquiry without assuming unlisted availability or performance.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "FRP Polyester Pigment Storage and Procurement Guide",
+      "keywords": [
+        "FRP Pigment Storage",
+        "FRP Pigment Supplier",
+        "Polyester Pigment Paste Quote",
+        "FRP Colour Paste Supplier",
+        "Industrial Colour Paste"
+      ],
+      "ogTitle": "FRP Polyester Pigment Storage and Procurement Guide",
+      "ogDescription": "Prepare a factual FRP polyester pigment enquiry using the published storage, packaging, MOQ and colour-reference context."
+    },
+    "quickFacts": {
+      "Published packaging": "10 kg bottles",
+      "Published MOQ": "100 kg",
+      "Published storage": "Cool, dry conditions at 15–30°C; protect from direct sunlight",
+      "Published unopened shelf life": "12 months"
+    },
+    "relatedSlugs": [
+      "what-is-frp-polyester-pigment",
+      "frp-pigment-compatibility-with-resin-systems",
+      "frp-colour-variation-buyer-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/frp-polyester-pigment/",
+        "label": "View FRP Polyester Pigment",
+        "description": "Review the current product details and published Technical Data Sheet."
+      },
+      {
+        "href": "/tds/frp-polyester-pigment-tds.pdf",
+        "label": "Download FRP Polyester Pigment TDS",
+        "description": "Use the current published product data as the controlling reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review the wider product range and separate resin, gelcoat and reinforcement roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a pigment quote",
+        "description": "Send the colour, component, system, quantity and delivery details through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What commercial details are published for FRP Polyester Pigment?",
+        "a": "The current product data publishes 10 kg bottle packaging and a 100 kg MOQ. Confirm the actual commercial requirement when requesting a quotation."
+      },
+      {
+        "q": "What storage information is published?",
+        "a": "The current TDS publishes cool, dry storage at 15–30°C, protection from direct sunlight and a 12-month unopened shelf life. Follow the current TDS for the material being considered."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current pigment TDS first",
+        "body": [
+          "The FRP Polyester Pigment TDS is the product-specific reference for the published polyester pigment paste. It contains the current technical and storage information for that product. Do not transfer dosage, colour, compatibility or performance information from a different supplier's pigment paste to this material."
+        ]
+      },
+      {
+        "heading": "Record the published commercial details",
+        "body": [
+          "The current listing publishes 10 kg bottle packaging and a 100 kg MOQ. Include the expected quantity and delivery location in the enquiry. This supports a commercial discussion without implying an unlisted stock position, lead time, sample policy or delivery promise."
+        ]
+      },
+      {
+        "heading": "Keep storage context with the procurement record",
+        "body": [
+          "The current TDS publishes storage at 15–30°C in cool, dry conditions with protection from direct sunlight, plus a 12-month unopened shelf life. Keep receipt, container and storage records with the material. When condition is uncertain, review the current TDS and contact the supplier rather than assuming suitability."
+        ]
+      },
+      {
+        "heading": "FRP pigment quote checklist",
+        "body": [
+          "State the intended FRP component, the resin or gelcoat system under review if known, required colour reference or appearance requirement, expected quantity and delivery location. Include any purchase specification or approved visual reference where available. This makes the colour-paste discussion more precise without replacing product-specific technical review."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-mekp-hardener",
+    "title": "What Is MEKP Hardener? MEKP Catalyst and Initiator Explained",
+    "description": "Understand the published role of MEKP Hardener as a catalyst / initiator for selected polyester, vinyl ester and gelcoat systems before buying an industrial resin-system component.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is MEKP Hardener? | MEKP Catalyst and Initiator",
+      "keywords": [
+        "MEKP Hardener",
+        "MEKP Catalyst",
+        "MEKP Initiator",
+        "Polyester Resin Hardener",
+        "FRP Hardener"
+      ],
+      "ogTitle": "What Is MEKP Hardener?",
+      "ogDescription": "A buyer guide to MEKP's published catalyst / initiator role in selected polyester-family resin systems."
+    },
+    "quickFacts": {
+      "Product role": "Catalyst / initiator, not a structural resin or reinforcement",
+      "Published system context": "UPR, vinyl ester and gelcoat systems",
+      "Published product reference": "Current MEKP Hardener TDS",
+      "Buyer starting point": "Identify the actual base resin and component"
+    },
+    "relatedSlugs": [
+      "mekp-for-polyester-resin-systems",
+      "mekp-for-gelcoat-systems",
+      "mekp-hardener-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/mekp-hardener/",
+        "label": "View MEKP Hardener",
+        "description": "Review published product details and the current TDS."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Start with the base resin-family role."
+      },
+      {
+        "href": "/tds/mekp-hardener-tds.pdf",
+        "label": "Download MEKP Hardener TDS",
+        "description": "Use the current product document as the controlling reference."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is MEKP Hardener a resin?",
+        "a": "No. MEKP Hardener is the separately selected catalyst / initiator component. The base resin, Glass Fiber, gelcoat and pigment have distinct roles."
+      },
+      {
+        "q": "Why is MEKP called a hardener, catalyst or initiator?",
+        "a": "These terms describe its curing role in the selected resin system. They do not make MEKP interchangeable with the base resin or reinforcement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "One product role, several buyer terms",
+        "body": [
+          "Industrial buyers may search for MEKP Hardener, MEKP Catalyst, MEKP Initiator, polyester resin hardener or FRP hardener. On this site, these terms describe MEKP's published catalyst / initiator role in selected unsaturated polyester, vinyl ester and gelcoat systems.",
+          "MEKP is not a structural resin, Glass Fiber reinforcement, a mould-side gelcoat or a colour paste. Start by identifying the complete material-system requirement rather than treating a generic 'hardener' request as enough product information."
+        ]
+      },
+      {
+        "heading": "Why the base resin still comes first",
+        "body": [
+          "The current MEKP data sheet publishes system context for unsaturated polyester resins, vinyl ester resins and gelcoats. The individual product page and TDS for the chosen resin remain the relevant references for that product role.",
+          "Review the actual component, base resin grade and intended manufacturing context before requesting an MEKP quotation. This guide does not provide dosage, mixing, cure adjustment or handling instructions."
+        ]
+      },
+      {
+        "heading": "Documentation and quote discussion",
+        "body": [
+          "Review the current MEKP TDS and the technical data for the base resin system. For a quotation, share the resin grade or system, component or application, expected quantity, production process if known and delivery location."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mekp-for-polyester-resin-systems",
+    "title": "MEKP for Polyester Resin Systems: A Buyer Selection Guide",
+    "description": "Use the published MEKP Hardener compatibility context to frame a polyester-resin-system enquiry without assuming that all resin grades or processes are interchangeable.",
+    "category": "Selection Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "MEKP for Polyester Resin | Catalyst for Polyester Resin",
+      "keywords": [
+        "MEKP for Polyester Resin",
+        "Catalyst for Polyester Resin",
+        "Polyester Resin Hardener",
+        "MEKP Supplier",
+        "Industrial MEKP"
+      ],
+      "ogTitle": "MEKP for Polyester Resin Systems",
+      "ogDescription": "A buyer guide to discuss MEKP alongside the specific published polyester resin product being evaluated."
+    },
+    "quickFacts": {
+      "Published context": "Unsaturated polyester resin systems",
+      "Selection principle": "Confirm the specific resin grade first",
+      "Related roles": "Resin matrix, reinforcement and surface finish remain separate",
+      "Not included": "No operating or mixing instructions"
+    },
+    "relatedSlugs": [
+      "what-is-mekp-hardener",
+      "mekp-for-gelcoat-systems",
+      "mekp-hardener-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Unsaturated Polyester Resin product hub",
+        "description": "Review the parent resin family and product roles."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate published general-purpose resin data."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the separate published lamination product role."
+      },
+      {
+        "href": "/products/mekp-hardener/",
+        "label": "View MEKP Hardener",
+        "description": "Review the catalyst / initiator product data and current TDS."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does this page confirm MEKP for every polyester resin grade?",
+        "a": "No. The product pages describe separate grades and roles. Confirm the actual resin product, current data and application before treating a system as appropriate."
+      },
+      {
+        "q": "What should be included in a polyester-system enquiry?",
+        "a": "State the resin grade or product under review, component, expected quantity, process if known and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Select the resin system before the catalyst discussion",
+        "body": [
+          "Unsaturated Polyester Resin is a category, while GP Clear, GP White, GP Yellow and Lamination Resin are separate published product routes. The first buyer question is which resin role matches the component, not simply whether an MEKP hardener is required.",
+          "Use the relevant product page and current TDS to define the base material, then discuss MEKP as the separate catalyst / initiator component in that documented system."
+        ]
+      },
+      {
+        "heading": "Keep related FRP roles separate",
+        "body": [
+          "The resin supplies the matrix role. Glass Fiber is the separate reinforcement material. Gelcoat is the separately selected mould-side surface product, and FRP Polyester Pigment is a separate colour component. A complete requirement identifies each role rather than treating them as one generic FRP material."
+        ]
+      },
+      {
+        "heading": "Prepare a system-specific quotation",
+        "body": [
+          "Share the named resin product or family, the intended FRP component, expected quantity, production context if known and delivery location. Review the current MEKP TDS and the base-resin TDS before purchase. Do not transfer process settings from one resin grade to another."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mekp-for-gelcoat-systems",
+    "title": "MEKP for Gelcoat Systems: Product-Role Guidance for FRP Buyers",
+    "description": "Understand the published MEKP and Gelcoat Resin system context while keeping catalyst selection separate from the mould-side surface-finish decision.",
+    "category": "Selection Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "MEKP for Gelcoat Systems | Gelcoat Catalyst Buyer Guide",
+      "keywords": [
+        "MEKP for Gelcoat",
+        "Gelcoat Catalyst",
+        "MEKP Hardener",
+        "Polyester Gelcoat Hardener",
+        "FRP Hardener"
+      ],
+      "ogTitle": "MEKP for Gelcoat Systems",
+      "ogDescription": "Separate the MEKP catalyst role from the published Gelcoat Resin surface-finish product role."
+    },
+    "quickFacts": {
+      "Published system context": "Gelcoat systems",
+      "Gelcoat role": "Mould-side FRP surface finish",
+      "MEKP role": "Separate catalyst / initiator component",
+      "Buyer check": "Review actual gelcoat product data and component requirement"
+    },
+    "relatedSlugs": [
+      "what-is-mekp-hardener",
+      "mekp-for-polyester-resin-systems",
+      "mekp-hardener-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "View GP Gelcoat Resin",
+        "description": "Review the published mould-side surface-finish product role."
+      },
+      {
+        "href": "/resources/what-is-gel-coat-resin/",
+        "label": "What is Gelcoat Resin?",
+        "description": "Read the existing gelcoat role guide."
+      },
+      {
+        "href": "/applications/gelcoat-for-general-frp-mould-finishing/",
+        "label": "FRP mould-finish guide",
+        "description": "Review the existing application context."
+      },
+      {
+        "href": "/products/mekp-hardener/",
+        "label": "View MEKP Hardener",
+        "description": "Review the published catalyst / initiator product data."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is MEKP Hardener the gelcoat itself?",
+        "a": "No. MEKP is the separately selected catalyst / initiator. GP Gelcoat Resin is the published mould-side surface-finish product."
+      },
+      {
+        "q": "Does this guide provide gelcoat application instructions?",
+        "a": "No. It provides product-role and procurement guidance only. Review the current product data and discuss the actual system where needed."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Two separate product roles in an FRP surface system",
+        "body": [
+          "GP Gelcoat Resin is published as a mould-side polyester surface-coating product. MEKP Hardener is the separate catalyst / initiator component named in the current compatible-system context. They should not be compared as substitute products.",
+          "Begin with the required component and visible surface role, then review the specific gelcoat product data before including MEKP in a system enquiry."
+        ]
+      },
+      {
+        "heading": "Use application pages as component context",
+        "body": [
+          "The existing site application guides cover FRP mould finishing, water-tank exteriors, boat and marine hull finishing, and bathware or sanitaryware. They provide component context but do not replace review of the current gelcoat and MEKP documentation."
+        ]
+      },
+      {
+        "heading": "A focused gelcoat-system enquiry",
+        "body": [
+          "Share the moulded component, surface-finish requirement, relevant gelcoat product, expected quantity, application context if known and delivery location. This helps distinguish a gelcoat requirement from the separate structural resin, reinforcement and catalyst requirements."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mekp-hardener-procurement-guide",
+    "title": "MEKP Hardener Procurement Guide: TDS, Packaging and Quote Checklist",
+    "description": "Prepare a factual industrial MEKP enquiry using the current published packaging, MOQ, product-document and base-system information without assuming stock, lead time or operating conditions.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "MEKP Hardener Procurement Guide | MEKP Supplier Checklist",
+      "keywords": [
+        "MEKP Hardener Supplier",
+        "Industrial MEKP",
+        "MEKP Packaging",
+        "MEKP Quote",
+        "Polyester Resin Hardener"
+      ],
+      "ogTitle": "MEKP Hardener Procurement Guide",
+      "ogDescription": "Review the current MEKP TDS, 25 kg carboy packaging and 25 kg MOQ before preparing an industrial quotation request."
+    },
+    "quickFacts": {
+      "Published packaging": "25 kg carboy",
+      "Published MOQ": "25 kg",
+      "Published unopened shelf life": "6 months",
+      "Product document": "MEKP Hardener TDS (Rev. 01, July 2026)"
+    },
+    "relatedSlugs": [
+      "what-is-mekp-hardener",
+      "mekp-for-polyester-resin-systems",
+      "mekp-for-gelcoat-systems"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/mekp-hardener/",
+        "label": "View MEKP Hardener",
+        "description": "Review the published product details before enquiry."
+      },
+      {
+        "href": "/tds/mekp-hardener-tds.pdf",
+        "label": "Download MEKP Hardener TDS",
+        "description": "Use the current product document as the controlling reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review related resin, reinforcement, gelcoat and pigment product roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request an MEKP quote",
+        "description": "Share product-system and commercial details through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What commercial details are published for MEKP Hardener?",
+        "a": "The current TDS publishes 25 kg carboy packaging and a 25 kg minimum order quantity. Confirm the actual commercial requirement when requesting a quotation."
+      },
+      {
+        "q": "What documentation should be reviewed before purchase?",
+        "a": "Review the current MEKP TDS and the data for the actual base resin or gelcoat system. Do not assume another product's documentation applies."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current product document first",
+        "body": [
+          "The current MEKP Hardener TDS is the product-specific reference for the published industrial-grade product. It identifies compatible system context, properties, packaging and commercial details. The listed values are typical, not performance guarantees.",
+          "The TDS also contains safety information. This procurement guide does not restate handling procedures; follow the current official documentation for the material being considered."
+        ]
+      },
+      {
+        "heading": "Record published commercial facts",
+        "body": [
+          "The current TDS publishes 25 kg carboy packaging, a 25 kg MOQ and a six-month unopened shelf life. These facts support a quote discussion but do not imply stock availability, lead time, sample policy or delivery commitment."
+        ]
+      },
+      {
+        "heading": "MEKP quote checklist",
+        "body": [
+          "State the base resin grade or gelcoat system, intended FRP component or application, expected quantity, production context if known, delivery location and any purchase specification. Attach or reference the relevant current product data where appropriate."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-epoxy-art-resin",
+    "title": "What Is Epoxy Art Resin? Clear Art Resin Product Guide",
+    "description": "A buyer guide to Samrat FRP Traders' published Epoxy Art Resin role for water-clear, self-levelling artistic and decorative surface work.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is Epoxy Art Resin? | Clear Art Resin Guide",
+      "keywords": [
+        "What is Epoxy Art Resin",
+        "Art Resin",
+        "Clear Art Resin",
+        "Resin Art Epoxy",
+        "Epoxy Resin for Artwork"
+      ],
+      "ogTitle": "What Is Epoxy Art Resin?",
+      "ogDescription": "Understand the published self-levelling Art Resin role for decorative surface work and separate it from clear casting and polyester FRP resin systems."
+    },
+    "quickFacts": {
+      "Published product role": "Water-clear, self-levelling two-component epoxy for artistic and decorative work",
+      "Published application context": "Floor art, table tops, wood art and decorative coatings",
+      "Separate product roles": "Clear contained casting, polyester FRP resin and mould-side gelcoat",
+      "Technical reference": "Current Epoxy Art Resin TDS"
+    },
+    "relatedSlugs": [
+      "applications-of-epoxy-art-resin",
+      "casting-resin-vs-coating-resin",
+      "epoxy-art-resin-vs-polyester-resin",
+      "epoxy-art-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review published product details, current TDS, pack size and enquiry route."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Clear Casting Resin",
+        "description": "Review the separate product route where the requirement is a clear contained cast."
+      },
+      {
+        "href": "/tds/epoxy-art-resin-tds.pdf",
+        "label": "Download Epoxy Art Resin TDS",
+        "description": "Use the current product document as the controlling reference."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Epoxy Art Resin?",
+        "a": "On this site, Epoxy Art Resin is the separately published water-clear, two-component epoxy product for self-levelling artistic and decorative surface work."
+      },
+      {
+        "q": "Is Art Resin the same as Clear Casting Resin?",
+        "a": "No. The site distinguishes the published self-levelling Art Resin surface-coating role from Clear Casting Resin's separate clear contained-casting role."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the visible surface role",
+        "body": [
+          "Buyers may search for Epoxy Art Resin, Art Resin, Clear Art Resin, Resin Art Epoxy or epoxy resin for artwork. On this site, those terms lead to the separately published Epoxy Art Resin route when the requirement is a water-clear, self-levelling artistic or decorative surface finish.",
+          "The published product context includes floor art, table tops, wood art and decorative coatings. The actual substrate, finished appearance, surface geometry and current product document remain the basis for selection; a broad search term does not establish suitability."
+        ]
+      },
+      {
+        "heading": "Keep art, casting and FRP product roles separate",
+        "body": [
+          "A self-levelling Art Resin surface requirement is not automatically a clear contained-casting requirement. Samrat FRP Traders publishes Epoxy Clear Casting Resin separately for clear cast pieces, while Unsaturated Polyester Resin and GP grades are separate published routes for reinforced FRP requirements.",
+          "State whether the finished work is an open visible surface, a contained cast or a reinforced FRP component before selecting a route. Then review the current TDS for the relevant individual product."
+        ]
+      },
+      {
+        "heading": "Prepare a useful product discussion",
+        "body": [
+          "For a quotation or technical discussion, share the intended artwork or finished surface, substrate if known, whether the requirement is an open surface coat or contained cast, expected quantity, clear or finish requirement and delivery location. This guide does not provide operational instructions or confirm suitability for an unstated project."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-epoxy-art-resin",
+    "title": "Applications of Epoxy Art Resin: Decorative Surface Buyer Guide",
+    "description": "Review the published artistic and decorative application contexts for Epoxy Art Resin before selecting a self-levelling surface-coating route.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Epoxy Art Resin Applications | Art and Decorative Coating Guide",
+      "keywords": [
+        "Epoxy Art Resin Applications",
+        "Epoxy Resin for Artwork",
+        "Epoxy Resin for Wood Art",
+        "Tabletop Art Resin",
+        "Decorative Coating Resin"
+      ],
+      "ogTitle": "Applications of Epoxy Art Resin",
+      "ogDescription": "Match an artistic or decorative surface requirement with the published Epoxy Art Resin role before requesting a quotation."
+    },
+    "quickFacts": {
+      "Published surface contexts": "Floor art, table tops, wood art and decorative coatings",
+      "TDS-listed contexts": "River tables, jewellery and decorative casting, coasters, geodes, trays and canvas art",
+      "Buyer starting point": "Finished article, surface versus contained-cast role and finish requirement",
+      "Technical control": "Current Epoxy Art Resin TDS"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-art-resin",
+      "casting-resin-vs-coating-resin",
+      "epoxy-art-resin-finish-questions",
+      "epoxy-art-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the published self-levelling product route and TDS."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "Compare Clear Casting Resin",
+        "description": "Review the separate published route for clear contained casting."
+      },
+      {
+        "href": "/resources/casting-resin-vs-coating-resin/",
+        "label": "Compare casting and coating roles",
+        "description": "Start with finished-part geometry rather than a generic clear-epoxy label."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Epoxy Art Resin applications are published on this site?",
+        "a": "The product page lists floor art, table tops, river tables and wood art, jewellery and decorative casting, and decorative coatings. The current TDS also lists coasters, geodes, trays and canvas art."
+      },
+      {
+        "q": "Does an application listing confirm suitability for every project?",
+        "a": "No. Confirm the actual surface or article, product role and current TDS before purchase or production discussion."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the finished article to frame the enquiry",
+        "body": [
+          "The same broad Art Resin enquiry can describe a table-top surface, a wood-art finish, a decorative floor-art panel or a contained decorative piece. The buyer should name the finished article and state whether the material is required as an open self-levelling surface coat or a contained cast.",
+          "This preserves the published product-role distinction between Epoxy Art Resin and Clear Casting Resin. It also gives the supplier a factual starting point for product-data review without turning a general guide into a process instruction."
+        ]
+      },
+      {
+        "heading": "Published artistic and decorative contexts",
+        "body": [
+          "The Epoxy Art Resin product page publishes floor art, table tops, river tables and wood art, jewellery and decorative casting, and decorative coatings. Its current TDS additionally lists coasters, geodes, trays and canvas art as recommended applications.",
+          "These contexts should be treated as product-document references, not a promise that every substrate, design, size or commercial production method is automatically suitable. Record the exact article, surface requirement and finish expectation before requesting a quote."
+        ]
+      },
+      {
+        "heading": "When a separate product route is more relevant",
+        "body": [
+          "Where the requirement is a clear contained cast rather than an open self-levelling surface, review Epoxy Clear Casting Resin and its current TDS. Where the requirement is a reinforced FRP component, begin with the separately published Unsaturated Polyester Resin family rather than transferring Art Resin assumptions to an FRP system."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-art-resin-vs-polyester-resin",
+    "title": "Epoxy Art Resin vs Polyester Resin: Product-Role Buyer Guide",
+    "description": "Separate the published Epoxy Art Resin route for decorative surface work from polyester-resin routes for reinforced FRP manufacturing.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Epoxy Art Resin vs Polyester Resin | Buyer Comparison",
+      "keywords": [
+        "Epoxy Art Resin vs Polyester Resin",
+        "Art Resin vs Polyester Resin",
+        "Epoxy Resin for Artwork",
+        "Polyester Resin for FRP",
+        "Resin System Selection"
+      ],
+      "ogTitle": "Epoxy Art Resin vs Polyester Resin",
+      "ogDescription": "Use the published product roles to distinguish decorative Art Resin surface work from polyester FRP resin requirements."
+    },
+    "quickFacts": {
+      "Epoxy Art Resin on this site": "Two-component, water-clear self-levelling art and decorative surface product",
+      "Polyester family on this site": "Separate resin routes for published reinforced FRP applications",
+      "Selection trigger": "Finished product role and whether reinforcement is involved",
+      "Do not transfer": "Technical, cure, handling or compatibility assumptions between systems"
+    },
+    "comparisonTable": {
+      "title": "Published system comparison",
+      "note": "This guide compares only the product roles published on this site. Review the current TDS and actual requirement before selection.",
+      "headers": [
+        "Decision point",
+        "Epoxy Art Resin",
+        "Unsaturated Polyester Resin family"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "Self-levelling artistic and decorative surface work",
+          "Separate product family for published reinforced FRP requirements"
+        ],
+        [
+          "Buyer starting question",
+          "Is the requirement an open visible art or decorative surface?",
+          "Is the requirement a reinforced FRP component?"
+        ],
+        [
+          "Related product route",
+          "Epoxy Art Resin",
+          "Unsaturated Polyester Resin and the relevant grade"
+        ],
+        [
+          "Technical reference",
+          "Current Epoxy Art Resin TDS",
+          "Current product-specific polyester-resin TDS"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-art-resin",
+      "applications-of-epoxy-art-resin",
+      "unsaturated-polyester-resin-vs-epoxy-resin",
+      "epoxy-art-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the published decorative surface product route."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Start with the separate parent product family for FRP resin requirements."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the published general-purpose polyester resin route for FRP work."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Epoxy Art Resin a polyester resin?",
+        "a": "No. This site publishes Epoxy Art Resin as a separate two-component epoxy product. Polyester-family products are listed separately for their published FRP roles."
+      },
+      {
+        "q": "Which system should I ask about for a reinforced FRP component?",
+        "a": "Start with Unsaturated Polyester Resin or the relevant listed grade, then review the current product-specific data for the component and process."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Begin with the component, not a broad resin name",
+        "body": [
+          "Epoxy Art Resin and polyester resin may both be described broadly as resin, but this site publishes them for different product roles. Epoxy Art Resin is the water-clear, self-levelling route for artistic and decorative surface work; the Unsaturated Polyester Resin family is a separate route for published reinforced FRP applications.",
+          "The selection question is whether the requirement is an open decorative surface or a reinforced FRP component. Do not treat a shared word such as clear, gloss or resin as proof that systems are interchangeable."
+        ]
+      },
+      {
+        "heading": "Keep the product documents separate",
+        "body": [
+          "Use the current Epoxy Art Resin TDS for the Art Resin route and the current product-specific TDS for the polyester product under review. Do not transfer technical values, curing assumptions, handling information or compatibility claims from one system to the other.",
+          "If a buyer is unsure whether a reinforcement, mould-side surface layer, decorative surface coat or contained cast is required, document that uncertainty in the enquiry and request product-role discussion first."
+        ]
+      },
+      {
+        "heading": "A focused comparison enquiry",
+        "body": [
+          "Share the finished article, whether reinforcement is involved, surface or casting role, expected quantity, appearance requirement and delivery location. Add any drawing, purchase specification or existing material reference where available. This creates a reviewable question without implying a technical recommendation before the actual requirement is known."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-art-resin-finish-questions",
+    "title": "Epoxy Art Resin Finish Questions: Clarity, Gloss, Bubbles and Tackiness",
+    "description": "A non-operational guide for commercial buyers documenting Epoxy Art Resin appearance questions before requesting product-data review.",
+    "category": "Selection Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Epoxy Art Resin Bubbles, Clarity and Gloss | Buyer Guide",
+      "keywords": [
+        "Epoxy Art Resin Bubbles",
+        "Epoxy Art Resin Tacky",
+        "Epoxy Art Resin Yellowing",
+        "Epoxy Art Resin Clarity",
+        "Gloss Epoxy Resin"
+      ],
+      "ogTitle": "Epoxy Art Resin Finish Questions",
+      "ogDescription": "Document appearance, clarity, gloss, bubble or tackiness questions for a focused Epoxy Art Resin product-data discussion."
+    },
+    "quickFacts": {
+      "Published appearance": "Water clear, high gloss",
+      "Published product behaviour": "Self-levelling with excellent bubble release",
+      "Buyer action": "Document the finished article, visible concern and current product record",
+      "Not included": "No diagnosis, process instructions or performance guarantee"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-art-resin",
+      "applications-of-epoxy-art-resin",
+      "epoxy-art-resin-storage-and-procurement-guide",
+      "epoxy-art-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the current published product information and TDS link."
+      },
+      {
+        "href": "/tds/epoxy-art-resin-tds.pdf",
+        "label": "Download Epoxy Art Resin TDS",
+        "description": "Use the current product document as the starting reference."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an Art Resin requirement",
+        "description": "Share documented surface and finish details through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does this guide diagnose bubbles, yellowing or tackiness?",
+        "a": "No. It helps a commercial buyer document the visible concern for product-data review. It does not provide operational troubleshooting or guarantee a cause or outcome."
+      },
+      {
+        "q": "What should be recorded before a finish discussion?",
+        "a": "Record the finished article, surface or contained-cast role, appearance requirement, observed concern, product document or batch reference if available, expected quantity and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Keep the published appearance separate from a project outcome",
+        "body": [
+          "The current Epoxy Art Resin product information publishes a water-clear, high-gloss, self-levelling product with excellent bubble release. Those are product-document references, not a guarantee of a finished article's result under every substrate, design or production condition.",
+          "Professional buyers searching for Art Resin bubbles, clarity, gloss, yellowing or tackiness should first identify the exact finished article and visible concern rather than applying a generic online remedy to an unconfirmed system."
+        ]
+      },
+      {
+        "heading": "Document the question for technical review",
+        "body": [
+          "A useful record identifies whether the work is an open surface coat or contained cast, the material's current product document, the intended appearance, any observed concern and the relevant project or purchase reference. Attach photographs, drawing details or a written customer specification where those are available and appropriate.",
+          "This page does not diagnose a cause, prescribe workshop steps or make a durability, colour-retention or finish guarantee. Follow the current product documentation and request product-specific discussion for the actual requirement."
+        ]
+      },
+      {
+        "heading": "Keep product roles distinct",
+        "body": [
+          "If the requirement is a deeper clear contained cast, review Epoxy Clear Casting Resin rather than treating a surface-finish question as proof that the Art Resin route is unsuitable. If the requirement is reinforced FRP manufacture, use the separately published polyester-resin route and its own current data."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-art-resin-storage-and-procurement-guide",
+    "title": "Epoxy Art Resin Storage and Procurement Guide",
+    "description": "Use the current published Art Resin TDS, pack size, MOQ and storage facts to prepare a focused commercial enquiry without assuming stock or lead time.",
+    "category": "Procurement Guide",
+    "icon": "drum",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Epoxy Art Resin Storage Guide | Art Resin Supplier Checklist",
+      "keywords": [
+        "Epoxy Art Resin Storage",
+        "Art Resin Supplier",
+        "Art Resin Packaging",
+        "Art Resin MOQ",
+        "Clear Art Resin Quote"
+      ],
+      "ogTitle": "Epoxy Art Resin Storage and Procurement Guide",
+      "ogDescription": "Review current Epoxy Art Resin storage, packaging, MOQ and product-document facts before preparing an industrial or commercial enquiry."
+    },
+    "quickFacts": {
+      "Published packaging": "15 kg pack",
+      "Published MOQ": "100 kg",
+      "Published storage": "20–30°C",
+      "Published unopened shelf life": "12 months"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-art-resin",
+      "epoxy-art-resin-finish-questions",
+      "epoxy-art-resin-buyer-guide",
+      "casting-resin-vs-coating-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review published product details before enquiry."
+      },
+      {
+        "href": "/tds/epoxy-art-resin-tds.pdf",
+        "label": "Download Epoxy Art Resin TDS",
+        "description": "Use the current product document as the controlling reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review separate Art Resin, casting and polyester-FRP product roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request an Art Resin quote",
+        "description": "Share the finished-product and commercial details through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What commercial details are published for Epoxy Art Resin?",
+        "a": "The current listing publishes a 15 kg pack and a 100 kg MOQ. Confirm the actual commercial requirement directly when requesting a quote."
+      },
+      {
+        "q": "What storage information is published?",
+        "a": "The current Epoxy Art Resin TDS publishes storage at 20–30°C and a 12-month unopened shelf life. Follow the current product document for the material being considered."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current Art Resin TDS first",
+        "body": [
+          "The Epoxy Art Resin TDS is the product-specific reference for the published art and decorative surface product. It contains the current technical, storage and commercial information for that product. Do not transfer storage, cure, handling or compatibility information from a different epoxy or polyester resin.",
+          "The TDS also contains safety information. This procurement guide does not restate handling procedures; follow the current official documentation for the material being considered."
+        ]
+      },
+      {
+        "heading": "Record published commercial facts",
+        "body": [
+          "The current product data publishes a 15 kg pack and 100 kg MOQ. The current TDS publishes storage at 20–30°C and a 12-month unopened shelf life. These facts support a commercial discussion but do not imply stock availability, lead time, sample policy or delivery commitment."
+        ]
+      },
+      {
+        "heading": "Art Resin quote checklist",
+        "body": [
+          "State the intended artwork or finished surface, substrate if known, whether the requirement is an open surface coat or contained cast, clear or finish requirement, expected quantity and delivery location. Include any drawing, purchase specification or finished-surface reference where available."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-art-resin-buyer-guide",
+    "title": "Epoxy Art Resin Buyer Guide: TDS and Quote Checklist",
+    "description": "Prepare a factual Epoxy Art Resin enquiry around product role, finished surface, appearance, quantity and delivery location before requesting a quotation.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "Epoxy Art Resin Buyer Guide | Art Resin Quote Checklist",
+      "keywords": [
+        "Epoxy Art Resin Buyer Guide",
+        "Art Resin Supplier",
+        "Art Resin Quote",
+        "Professional Art Resin",
+        "Clear Epoxy Coating Resin"
+      ],
+      "ogTitle": "Epoxy Art Resin Buyer Guide",
+      "ogDescription": "Prepare a clear Art Resin request using the current TDS and the finished-surface, product-role and commercial details that matter before quotation."
+    },
+    "quickFacts": {
+      "Start with": "Finished artwork or decorative surface",
+      "Then document": "Surface versus contained-cast role, finish, quantity and delivery location",
+      "Product document": "Current Epoxy Art Resin TDS",
+      "Do not infer": "Stock, lead time, samples, suitability or performance from a generic Art Resin label"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-art-resin",
+      "applications-of-epoxy-art-resin",
+      "epoxy-art-resin-storage-and-procurement-guide",
+      "epoxy-art-resin-vs-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review published product details and the current Technical Data Sheet."
+      },
+      {
+        "href": "/tds/epoxy-art-resin-tds.pdf",
+        "label": "Download Epoxy Art Resin TDS",
+        "description": "Use the current product document as the controlling reference."
+      },
+      {
+        "href": "/resources/casting-resin-vs-coating-resin/",
+        "label": "Compare casting and coating roles",
+        "description": "Confirm whether the requirement is a self-levelling surface coat or clear contained cast."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request an Art Resin quote",
+        "description": "Share documented project and delivery details through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in an Epoxy Art Resin RFQ?",
+        "a": "Include the finished artwork or surface, substrate if known, whether the requirement is an open surface coat or contained cast, required appearance, expected quantity, delivery location and any stated specification."
+      },
+      {
+        "q": "Does this guide confirm product suitability?",
+        "a": "No. It helps document the requirement for discussion. Actual suitability must be checked against the current product data and specific application context."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Describe the finished surface and product role",
+        "body": [
+          "Start with the item being made: for example, floor art, a table top, wood art, a decorative coated surface or another stated product. Then confirm whether the requirement is an open self-levelling surface coat or a contained cast; this separates the Epoxy Art Resin route from the site's Clear Casting Resin route.",
+          "Record the required appearance in factual terms, such as water-clear supplied appearance or high-gloss finish requirement. Do not assume that a broad label such as Art Resin replaces review of the current product data or complete project context."
+        ]
+      },
+      {
+        "heading": "Keep the technical document with the enquiry",
+        "body": [
+          "Use the current Epoxy Art Resin TDS as the product-specific reference. Do not borrow technical values, compatibility, cure, handling or performance information from a different epoxy, an online generic guide or a polyester FRP resin.",
+          "Where a drawing, customer specification or internal production requirement exists, include its original wording. This preserves the technical question rather than converting it into an unsupported product assumption."
+        ]
+      },
+      {
+        "heading": "Prepare the commercial discussion",
+        "body": [
+          "Include the expected quantity and delivery location, together with the finished-surface and appearance information. If the enquiry is for evaluation, a regular requirement or a particular purchase stage, state that context only when it is known.",
+          "This guide does not imply availability, lead time, sample policy, delivery commitment or performance guarantee. Those points should be confirmed directly for the actual requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-uv-resin",
+    "title": "What Is UV Resin? UV Curing Resin for Commercial Buyers",
+    "description": "Understand the published UV Resin product route, its UV/LED-curable epoxy-acrylate chemistry and its separate role from two-part epoxy and polyester FRP systems.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "What Is UV Resin? | UV Curing Resin Buyer Guide",
+      "keywords": [
+        "UV Resin",
+        "UV Curing Resin",
+        "UV Cure Resin",
+        "UV Clear Resin",
+        "Ultraviolet Resin",
+        "Industrial UV Resin"
+      ],
+      "ogTitle": "What Is UV Resin?",
+      "ogDescription": "A commercial-buyer guide to the published UV/LED-curable UV Resin product route and its separate role from epoxy casting and polyester FRP."
+    },
+    "quickFacts": {
+      "Published chemistry": "Epoxy acrylate",
+      "Published curing route": "UV / LED cure",
+      "Published appearance": "Clear",
+      "Published application context": "Jewellery, encapsulation, doming and speciality coating work"
+    },
+    "relatedSlugs": [
+      "applications-of-uv-resin",
+      "uv-resin-vs-epoxy-art-resin",
+      "uv-resin-vs-polyester-resin",
+      "uv-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/uv-resin/",
+        "label": "View UV Resin",
+        "description": "Review the published product details and current Technical Data Sheet."
+      },
+      {
+        "href": "/tds/uv-resin-tds.pdf",
+        "label": "Download UV Resin TDS",
+        "description": "Use the product-specific document as the controlling reference."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the separate two-part, self-levelling surface-coating role."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a UV Resin requirement",
+        "description": "Share the finished product, equipment context and commercial details through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is UV Resin the same as every product called epoxy resin?",
+        "a": "No. This site publishes UV Resin as a UV/LED-curable epoxy-acrylate product. Epoxy Art Resin and Epoxy Clear Casting Resin are separate two-part epoxy routes with their own published roles and technical documents."
+      },
+      {
+        "q": "Is UV Resin a polyester resin for FRP manufacture?",
+        "a": "No. UV Resin is not the site's polyester FRP matrix-resin route. Review Unsaturated Polyester Resin and the relevant published grade when the requirement is reinforced FRP manufacture."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "One published UV/LED product route",
+        "body": [
+          "Buyers may use UV Resin, UV Curing Resin, UV Cure Resin, UV Clear Resin or ultraviolet resin as search terms. On this site, those terms describe the published clear epoxy-acrylate UV Resin product route, which cures under UV/LED light.",
+          "The product page publishes jewellery, encapsulation, doming and speciality coating work as its application context. A broad search term should not be treated as proof that every UV resin, finish, equipment setup or production requirement is interchangeable. Start with the actual finished product and current UV Resin TDS."
+        ]
+      },
+      {
+        "heading": "Keep UV Resin separate from other resin roles",
+        "body": [
+          "UV Resin is not the same product role as the site's two-part Epoxy Art Resin or Epoxy Clear Casting Resin. Those products are separately published for decorative surface coating and clear contained casting respectively. Their documentation and commercial details must be reviewed independently.",
+          "It is also separate from the Unsaturated Polyester Resin family, which is the site's route for published reinforced FRP applications. A product may be described broadly as a resin, but the curing route, finished role and current product document determine the relevant buyer discussion."
+        ]
+      },
+      {
+        "heading": "Start a documented UV Resin discussion",
+        "body": [
+          "Before requesting a quotation, record the intended application, industry or end use, expected quantity, required clear or finished appearance, any stated UV/LED equipment requirement and delivery location. Include a drawing, purchase specification or sample reference only when it actually exists.",
+          "This guide does not provide curing instructions, exposure times, mixing directions, compatibility approval or a performance guarantee. Use the current TDS and product-specific discussion for the actual requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-uv-resin",
+    "title": "UV Resin Applications: Clear Coating, Doming and Encapsulation Context",
+    "description": "Review the published UV Resin applications for jewellery, encapsulation, doming and speciality coating work without treating a generic resin label as a product-approval statement.",
+    "category": "Application Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "UV Resin Applications | UV Clear Resin Uses",
+      "keywords": [
+        "UV Resin Uses",
+        "UV Resin Applications",
+        "UV Clear Resin",
+        "UV Resin for Jewellery",
+        "UV Resin for Decorative Products",
+        "Industrial UV Resin"
+      ],
+      "ogTitle": "UV Resin Applications",
+      "ogDescription": "Use the published UV Resin application context to frame a professional enquiry for clear coating, doming or encapsulation requirements."
+    },
+    "quickFacts": {
+      "Published use 1": "Jewellery making and resin art",
+      "Published use 2": "Encapsulation and doming",
+      "Published use 3": "Crafts, coatings and miniature models",
+      "Also listed": "Adhesive, label, electronics, metal and wood coating work"
+    },
+    "relatedSlugs": [
+      "what-is-uv-resin",
+      "uv-resin-vs-epoxy-art-resin",
+      "uv-resin-vs-epoxy-clear-casting-resin",
+      "uv-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/uv-resin/",
+        "label": "View UV Resin",
+        "description": "Review the product details, application list and current TDS."
+      },
+      {
+        "href": "/tds/uv-resin-tds.pdf",
+        "label": "Download UV Resin TDS",
+        "description": "Use the current document before selecting a product route."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "Review Clear Casting Resin",
+        "description": "Use the separate product route where the requirement is a clear contained cast."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a UV Resin application",
+        "description": "Share the end product, appearance requirement, equipment context, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does this page approve UV Resin for every decorative or electronic product?",
+        "a": "No. It restates the published application context only. Actual suitability should be reviewed against the current TDS and the specific finished product, equipment and purchase requirement."
+      },
+      {
+        "q": "What details make an application enquiry useful?",
+        "a": "State the finished product, intended role such as coating, doming or encapsulation, required appearance, industry or end use, expected quantity, stated UV/LED equipment requirement and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Published application context",
+        "body": [
+          "The current UV Resin product information lists jewellery making and resin art; encapsulation and doming; crafts, coatings and miniature models; and adhesive, label, electronics, metal and wood coating work. These references help define the product role for a buyer discussion.",
+          "They do not expand the product into every item within those broad sectors. Where the application is unfamiliar, record the actual item, its visible-finish requirement and the relevant equipment or production context before asking whether this published UV Resin route is appropriate."
+        ]
+      },
+      {
+        "heading": "Match the application to the material role",
+        "body": [
+          "For a clear finish, doming or encapsulation requirement, begin by confirming whether UV/LED curing is part of the stated production requirement. For a self-levelling decorative surface, review the separate Epoxy Art Resin product route. For a clear contained cast, review Epoxy Clear Casting Resin instead.",
+          "If the requirement is a reinforced FRP component, start with the Unsaturated Polyester Resin product family rather than transferring a UV Resin application label into a composite-manufacturing decision. The finished role remains more useful than a generic search term."
+        ]
+      },
+      {
+        "heading": "Keep the enquiry specific",
+        "body": [
+          "Include the end product, whether the material is intended for coating, doming, encapsulation or another published role, required clear or finished appearance, expected quantity, delivery location and any stated UV/LED equipment requirement. The current UV Resin TDS should accompany the selection discussion.",
+          "This is not a curing procedure or compatibility guarantee. It deliberately avoids exposure times, layer guidance, mixing directions and operational troubleshooting."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "uv-resin-vs-epoxy-art-resin",
+    "title": "UV Resin vs Epoxy Art Resin: Choosing the Right Product Role",
+    "description": "Compare the published UV Resin and Epoxy Art Resin roles: UV/LED-curable clear finishing versus a separate two-part, self-levelling decorative surface system.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "UV Resin vs Epoxy Resin | UV Resin vs Art Resin",
+      "keywords": [
+        "UV Resin vs Epoxy Resin",
+        "UV Resin vs Art Resin",
+        "UV Cure Resin vs Epoxy",
+        "UV Clear Resin",
+        "Epoxy Art Resin"
+      ],
+      "ogTitle": "UV Resin vs Epoxy Art Resin",
+      "ogDescription": "Separate the published UV/LED-curable UV Resin route from the two-part, self-levelling Epoxy Art Resin role before product selection."
+    },
+    "quickFacts": {
+      "UV Resin route": "Published UV / LED cure",
+      "Art Resin route": "Published two-part epoxy system",
+      "UV Resin context": "Jewellery, encapsulation, doming and speciality coatings",
+      "Art Resin context": "Artistic and decorative surface work"
+    },
+    "relatedSlugs": [
+      "what-is-uv-resin",
+      "applications-of-uv-resin",
+      "uv-resin-vs-epoxy-clear-casting-resin",
+      "uv-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/uv-resin/",
+        "label": "View UV Resin",
+        "description": "Review the published UV/LED product route and TDS."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the separate two-part art and surface-coating product route."
+      },
+      {
+        "href": "/tds/uv-resin-tds.pdf",
+        "label": "Download UV Resin TDS",
+        "description": "Use the product-specific document before selection."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the product role",
+        "description": "Share the finished article, clear/finish requirement, equipment context, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is UV Resin a substitute for Epoxy Art Resin?",
+        "a": "Not automatically. The site publishes separate product roles and curing routes. Review the actual finished product, production requirement and current TDS before choosing either system."
+      },
+      {
+        "q": "Which question should a buyer ask first?",
+        "a": "First identify whether the stated requirement calls for UV/LED curing for a published UV Resin role or a two-part, self-levelling art and decorative surface route. Then review the relevant current product document."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Different curing routes, different published roles",
+        "body": [
+          "UV Resin is published as a clear epoxy-acrylate product that cures under UV/LED light. Epoxy Art Resin is published separately as a two-part epoxy system for artistic and decorative surface work. Calling both products 'epoxy resin' does not make their product roles or documentation interchangeable.",
+          "A useful comparison starts with the material role rather than a claim that one system is universally better. The buyer should identify the finished article, whether the requirement is an open decorative surface, a clear-finish detail, doming or encapsulation, and any stated equipment context."
+        ]
+      },
+      {
+        "heading": "When the UV Resin route is the question",
+        "body": [
+          "Use the UV Resin product route as the starting point when the published application context—jewellery, encapsulation, doming or speciality coating work—and UV/LED curing align with the actual requirement. Review the current UV Resin TDS before treating the route as suitable.",
+          "This page does not give a curing schedule, exposure guidance or guarantee the result on a particular surface. The specific product, equipment and finished-item requirement must still be checked together."
+        ]
+      },
+      {
+        "heading": "When the Art Resin route is the question",
+        "body": [
+          "Use the Epoxy Art Resin product route when the published requirement is its separate two-part, self-levelling art and decorative surface role. For a clear contained cast, the separate Epoxy Clear Casting Resin page is the more relevant comparison.",
+          "For either route, include the finished product, required appearance, expected quantity, delivery location and any stated specification in the enquiry. This makes the comparison a documented selection question rather than a generic resin request."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "uv-resin-vs-epoxy-clear-casting-resin",
+    "title": "UV Resin vs Clear Casting Resin: UV-Cured Finish or Two-Part Casting Role?",
+    "description": "Separate the published UV Resin route for UV/LED-curable clear finishing, doming and encapsulation from the separate two-part Epoxy Clear Casting Resin route.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "UV Resin vs Casting Resin | UV Cure Resin Comparison",
+      "keywords": [
+        "UV Resin vs Casting Resin",
+        "UV Cure Resin vs Epoxy Casting Resin",
+        "UV Clear Resin",
+        "Clear Casting Resin",
+        "UV Resin Supplier"
+      ],
+      "ogTitle": "UV Resin vs Clear Casting Resin",
+      "ogDescription": "Choose between the site's published UV/LED clear-finish route and its separate two-part clear contained-casting product role."
+    },
+    "quickFacts": {
+      "UV Resin role": "Published UV/LED-curable finish, doming and encapsulation route",
+      "Casting Resin role": "Published two-part clear contained-casting route",
+      "Shared buyer check": "Finished part and required appearance",
+      "Document to review": "Current product-specific TDS"
+    },
+    "relatedSlugs": [
+      "what-is-uv-resin",
+      "applications-of-uv-resin",
+      "uv-resin-vs-epoxy-art-resin",
+      "uv-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/uv-resin/",
+        "label": "View UV Resin",
+        "description": "Review the published UV/LED product route and TDS."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the separate published clear contained-casting role."
+      },
+      {
+        "href": "/resources/casting-resin-vs-coating-resin/",
+        "label": "Casting vs coating roles",
+        "description": "Read the existing guide for the two separate published epoxy roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a clear-resin requirement",
+        "description": "Share the finished part, material role, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does UV Resin replace a clear casting resin for every clear part?",
+        "a": "No. The site publishes UV Resin and Epoxy Clear Casting Resin as separate product routes. The choice requires review of the actual finished part, required material role and current product-specific documentation."
+      },
+      {
+        "q": "What makes a clear-resin comparison useful?",
+        "a": "Describe whether the requirement is a clear finish, doming or encapsulation role, or a clear contained cast; then add the finished-item details, quantity, required appearance, any stated equipment context and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Do not let the word clear decide the product",
+        "body": [
+          "Both routes can appear in a clear-resin search, but the site publishes them for different purposes. UV Resin is the UV/LED-curable route for jewellery, encapsulation, doming and speciality coating work. Epoxy Clear Casting Resin is the separately published two-part route for clear contained casting.",
+          "A clear appearance request alone does not establish the right product. Identify the finished item and whether its requirement is a finish, doming or encapsulation role versus a contained casting role before comparing documentation."
+        ]
+      },
+      {
+        "heading": "Use the product role to frame the discussion",
+        "body": [
+          "Where UV/LED curing is part of the stated requirement and the application matches the published UV Resin context, start with the UV Resin product page and current TDS. Where the requirement is a clear contained cast, start with the separate Clear Casting Resin page and its current TDS.",
+          "This distinction does not prescribe a processing method, confirm depth capability, state an exposure schedule or guarantee clarity. It keeps the buyer discussion aligned to the documented product route."
+        ]
+      },
+      {
+        "heading": "Prepare a clear, commercial enquiry",
+        "body": [
+          "State the finished part, whether the material is intended for clear finishing, doming, encapsulation or a contained cast, required appearance, expected quantity, delivery location and any stated specification. Include UV/LED equipment context only when the UV route is being considered.",
+          "The supplier discussion should verify the actual product role. Do not transfer technical values, compatibility assumptions or cure details from one clear-resin product to another."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "uv-resin-vs-polyester-resin",
+    "title": "UV Resin vs Polyester Resin: Separate Material Roles for Buyers",
+    "description": "Understand why the published UV/LED-curable UV Resin route is separate from the site's Unsaturated Polyester Resin family for reinforced FRP manufacture.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "UV Resin vs Polyester Resin | UV Cure Resin for Commercial Buyers",
+      "keywords": [
+        "UV Resin vs Polyester Resin",
+        "UV Curing Resin",
+        "UV Epoxy Resin",
+        "Polyester Resin",
+        "Industrial UV Resin"
+      ],
+      "ogTitle": "UV Resin vs Polyester Resin",
+      "ogDescription": "Separate the published UV Resin route from the site's polyester-resin family before selecting a material for finishing or reinforced FRP manufacture."
+    },
+    "quickFacts": {
+      "UV Resin": "Published clear epoxy-acrylate, UV / LED cure route",
+      "Polyester family": "Published UPR family for FRP and composite product roles",
+      "UV applications": "Jewellery, encapsulation, doming and speciality coating work",
+      "Buyer principle": "Select by finished-material role and current TDS"
+    },
+    "relatedSlugs": [
+      "what-is-uv-resin",
+      "applications-of-uv-resin",
+      "uv-resin-vs-epoxy-art-resin",
+      "uv-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/uv-resin/",
+        "label": "View UV Resin",
+        "description": "Review the published UV/LED product route and current TDS."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Review the parent product family for published FRP roles."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separately published general-purpose FRP resin grade."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the material role",
+        "description": "Share the component, intended use, quantity and delivery location before requesting a quote."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can UV Resin be treated as the site's general FRP polyester resin?",
+        "a": "No. UV Resin is published as a separate UV/LED-curable epoxy-acrylate route. The Unsaturated Polyester Resin family and its named grades should be reviewed for published reinforced FRP applications."
+      },
+      {
+        "q": "Which document controls the selection?",
+        "a": "Use the current product-specific TDS for the actual product under review. Do not transfer technical values, handling assumptions or performance expectations between the UV Resin and polyester-resin routes."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A shared word does not mean a shared material role",
+        "body": [
+          "UV Resin and polyester resin may both appear in broad resin searches, but this site publishes them as separate material routes. UV Resin is the clear epoxy-acrylate route that cures under UV/LED light. Unsaturated Polyester Resin is the parent family for the site's published FRP and composite product roles.",
+          "The useful first question is what is being made. A jewellery, encapsulation, doming or speciality coating requirement is not automatically an FRP laminate requirement, and a reinforced FRP component is not automatically a UV Resin application."
+        ]
+      },
+      {
+        "heading": "Choose from the finished component",
+        "body": [
+          "For the published UV Resin applications, assess the UV/LED curing requirement, finished appearance and product documentation. For reinforced FRP manufacture, begin with the Unsaturated Polyester Resin family and then the named product grade that matches the published component or application role.",
+          "Gelcoat, Glass Fiber, pigment and MEKP also have separate product roles on the site. A complete FRP requirement identifies those roles rather than treating any one broad resin name as a complete material-system specification."
+        ]
+      },
+      {
+        "heading": "Keep the technical and commercial record product-specific",
+        "body": [
+          "Use the current UV Resin TDS for the UV route and the current TDS for the particular polyester product under review. Do not borrow technical values, curing information, compatibility statements or performance expectations between them.",
+          "For a quote discussion, record the finished component, expected quantity, appearance requirement if visible, stated production or equipment context and delivery location. This supports selection without providing operating instructions or implying suitability before review."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-sheet-grade-yellow-resin",
+    "title": "What Is Sheet Grade Yellow Resin?",
+    "description": "Understand the published Sheet Grade Yellow Resin role for FRP sheet and panel manufacturing, and how it differs from general-purpose and roof-light resin routes.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "What Is Sheet Grade Yellow Resin? | FRP Sheet Resin Guide",
+      "keywords": [
+        "Sheet Grade Yellow Resin",
+        "Sheet Grade Resin",
+        "Yellow Polyester Resin",
+        "FRP Sheet Resin",
+        "FRP Panel Resin"
+      ],
+      "ogTitle": "What Is Sheet Grade Yellow Resin?",
+      "ogDescription": "A buyer guide to the published pre-pigmented yellow polyester-resin route for FRP sheet and panel requirements."
+    },
+    "quickFacts": {
+      "Product family": "Orthophthalic unsaturated polyester resin",
+      "Supplied appearance": "Pre-pigmented yellow",
+      "Published role": "Sheet moulding and laminate applications",
+      "Published packaging": "225 kg drum",
+      "Published MOQ": "1,000 kg"
+    },
+    "relatedSlugs": [
+      "applications-of-sheet-grade-yellow-resin",
+      "sheet-grade-yellow-resin-vs-gp-yellow-resin",
+      "sheet-grade-yellow-resin-vs-roof-light-resin",
+      "how-to-choose-resin-for-frp-sheet-and-panel-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the current product page and product-specific TDS."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "Review Glass Fiber Mat",
+        "description": "Identify the separate reinforcement role where it is part of the FRP sheet requirement."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore the UPR family",
+        "description": "Understand the parent polyester-resin category and other published grades."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a sheet or panel requirement",
+        "description": "Share the finished component, supplied appearance, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Sheet Grade Yellow Resin an unsaturated polyester resin?",
+        "a": "Yes. The current product information identifies it as an orthophthalic unsaturated polyester resin, supplied pre-pigmented yellow for its published sheet moulding and laminate role."
+      },
+      {
+        "q": "Why is it called sheet grade?",
+        "a": "On this site, the term identifies the published FRP sheet and panel manufacturing role. It is not a substitute for reviewing the current product-specific TDS and the actual component requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A published resin route for sheet and panel buyers",
+        "body": [
+          "Sheet Grade Yellow Resin is Samrat FRP Traders' published pre-pigmented yellow orthophthalic unsaturated polyester resin for sheet moulding and laminate applications. The useful starting point is the finished FRP sheet or panel requirement, not a broad search for any yellow resin.",
+          "For a buyer, the supplied yellow appearance is part of the product role. Confirm whether the component requires that factory-supplied appearance, the intended sheet or panel context, the reinforcement system if known and the current TDS before treating it as the correct route."
+        ]
+      },
+      {
+        "heading": "Keep the resin roles separate",
+        "body": [
+          "GP Yellow Resin is separately published as a transparent-yellow general-purpose orthophthalic grade. Sheet Grade Yellow Resin is the product to review where the request is specifically for the pre-pigmented yellow sheet and panel route. The two names should not be treated as interchangeable.",
+          "Roof Light Sheet Grade Resin is also a separate route: it is published water-white for roof-light and skylight sheet intent. A buyer deciding between the two should begin with the required finished-sheet appearance rather than borrowing technical expectations from another grade."
+        ]
+      },
+      {
+        "heading": "The material system and the quotation brief",
+        "body": [
+          "An FRP sheet requirement can involve separate material roles: the selected resin, Glass Fiber reinforcement where specified, and a Gelcoat where a mould-facing surface requirement exists. Selecting one does not automatically confirm the other roles.",
+          "For a quotation discussion, share the sheet or panel type, required supplied yellow appearance, reinforcement requirement if known, visible-surface requirement, expected quantity and delivery location. This supports document-led selection without providing operating instructions or promising suitability before review."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "applications-of-sheet-grade-yellow-resin",
+    "title": "Sheet Grade Yellow Resin Applications: FRP Sheets and Panels",
+    "description": "Published Sheet Grade Yellow Resin application contexts for FRP sheets, panels, enclosures, partitions, laminates and moulded components.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Sheet Grade Yellow Resin Uses | FRP Sheet and Panel Applications",
+      "keywords": [
+        "Sheet Grade Yellow Resin Uses",
+        "FRP Sheet Resin",
+        "FRP Panel Resin",
+        "Yellow Resin for FRP Sheets",
+        "Polyester Resin for Panels"
+      ],
+      "ogTitle": "Sheet Grade Yellow Resin Applications",
+      "ogDescription": "Review the published sheet, panel and moulded-component contexts before selecting a pre-pigmented yellow polyester resin."
+    },
+    "quickFacts": {
+      "Published applications": "FRP sheets and roofing panels; decorative panels; electrical enclosures",
+      "Additional contexts": "Partitions, construction formwork, laminates and moulded components",
+      "Selection principle": "Match the finished component and supplied appearance",
+      "Document to review": "Current product-specific TDS"
+    },
+    "relatedSlugs": [
+      "what-is-sheet-grade-yellow-resin",
+      "how-to-choose-resin-for-frp-sheet-and-panel-manufacturing",
+      "frp-sheet-resin-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the product-specific TDS, packaging and enquiry path."
+      },
+      {
+        "href": "/applications/resin-for-frp-panel-manufacturing/",
+        "label": "Explore FRP panel context",
+        "description": "Use the existing panel guide to define the broader component requirement."
+      },
+      {
+        "href": "/resources/glass-fiber-and-polyester-resin-compatibility/",
+        "label": "Review the FRP material system",
+        "description": "Keep reinforcement, resin and surface-finish roles distinct."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a sheet or panel application",
+        "description": "Share the component, supplied appearance, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Sheet Grade Yellow Resin published for FRP panels?",
+        "a": "Yes. The current TDS lists FRP sheets and roofing panels, decorative panels and electrical enclosures among the published applications. Confirm the actual component and current TDS before selection."
+      },
+      {
+        "q": "Does this guide confirm every coloured FRP product as an application?",
+        "a": "No. It summarises the published product contexts. A colour requirement alone does not establish the right resin, reinforcement or surface-finish system."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "FRP sheets and roofing panels",
+        "body": [
+          "The current TDS lists FRP sheets and roofing panels as a published application context. For this route, a buyer should define the finished sheet or panel, whether the supplied yellow appearance is required and the relevant reinforcement requirement before comparing product data.",
+          "This guide does not establish a continuous-lamination setup, weathering performance, load rating or finished-sheet performance. Those requirements need the applicable product, component and project documentation."
+        ]
+      },
+      {
+        "heading": "Panels, enclosures and partitions",
+        "body": [
+          "The published contexts also include decorative panels, electrical enclosures, washroom partitions and construction formwork. These describe component categories, not a blanket suitability claim: visible-surface expectations, reinforcement, component design and the actual production context still need to be documented.",
+          "Where the inquiry is for a mould-facing finish, review the separate Gelcoat Resin role. Where the request is for a translucent roof-light sheet, review the Roof Light Sheet Grade Resin route instead of assuming a supplied-yellow grade meets that appearance requirement."
+        ]
+      },
+      {
+        "heading": "Laminates and moulded components",
+        "body": [
+          "Sheet moulding and laminate applications are published for this grade, alongside laminates and moulded components. A buyer should use that as a reason to review the TDS, not as a reason to transfer product data to every laminate or moulded part.",
+          "For a focused quotation, include the component category, required supplied appearance, any reinforcement specification available, production context, quantity and delivery location. This keeps the conversation at product-selection level rather than turning the guide into manufacturing instructions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sheet-grade-yellow-resin-vs-gp-yellow-resin",
+    "title": "Sheet Grade Yellow Resin vs GP Yellow Resin",
+    "description": "Compare the site’s published pre-pigmented Sheet Grade Yellow Resin route with its separate transparent-yellow GP Yellow Resin role before selecting an FRP material.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Sheet Grade Yellow Resin vs GP Yellow Resin | FRP Buyer Guide",
+      "keywords": [
+        "Sheet Grade Yellow vs GP Yellow",
+        "Sheet Grade Resin vs GP Yellow Resin",
+        "Yellow Polyester Resin",
+        "FRP Sheet Resin"
+      ],
+      "ogTitle": "Sheet Grade Yellow Resin vs GP Yellow Resin",
+      "ogDescription": "Separate the published sheet/panel-specific yellow resin route from the site's transparent-yellow general-purpose GP Resin route."
+    },
+    "quickFacts": {
+      "Sheet Grade Yellow": "Pre-pigmented yellow; published for sheet moulding and laminate applications",
+      "GP Yellow": "Transparent yellow; published general-purpose orthophthalic grade",
+      "Shared check": "Actual component, supplied appearance and current TDS",
+      "Not a performance ranking": "The two roles are not interchangeable"
+    },
+    "comparisonTable": {
+      "title": "Published product roles at a glance",
+      "headers": [
+        "Buyer question",
+        "Sheet Grade Yellow Resin",
+        "GP Yellow Resin"
+      ],
+      "rows": [
+        [
+          "Starting requirement",
+          "FRP sheet or panel with the published pre-pigmented yellow route",
+          "General FRP laminate or moulded-product requirement where transparent-yellow appearance is acceptable"
+        ],
+        [
+          "Published positioning",
+          "Sheet moulding and laminate applications",
+          "General-purpose FRP lamination and moulded-product work"
+        ],
+        [
+          "Appearance decision",
+          "Supplied pre-pigmented yellow",
+          "Supplied transparent yellow"
+        ],
+        [
+          "Document to use",
+          "Sheet Grade Yellow Resin TDS",
+          "GP Yellow Resin TDS"
+        ]
+      ],
+      "note": "This is a product-role guide, not a substitute for product-specific technical review or a performance comparison."
+    },
+    "relatedSlugs": [
+      "what-is-sheet-grade-yellow-resin",
+      "applications-of-sheet-grade-yellow-resin",
+      "sheet-grade-yellow-resin-vs-roof-light-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the published sheet/panel role and current TDS."
+      },
+      {
+        "href": "/products/gp-yellow-resin/",
+        "label": "View GP Yellow Resin",
+        "description": "Review the separate transparent-yellow GP product role and TDS."
+      },
+      {
+        "href": "/resources/gp-clear-resin-vs-gp-yellow-resin/",
+        "label": "GP Yellow colour comparison",
+        "description": "Use the existing guide for GP Yellow versus GP Clear intent."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the product role",
+        "description": "Share the component, supplied appearance, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are Sheet Grade Yellow Resin and GP Yellow Resin identical products?",
+        "a": "No. They are published with different roles and supplied appearance descriptions. Start with the actual FRP component, required appearance and product-specific TDS."
+      },
+      {
+        "q": "Which one should a sheet manufacturer review first?",
+        "a": "For a stated sheet or panel requirement using the published pre-pigmented yellow route, start with Sheet Grade Yellow Resin. A general yellow-resin search without that specific role should be discussed against the component and GP Yellow Resin data."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Begin with the finished component",
+        "body": [
+          "The useful distinction is not simply that both products include the word yellow. Sheet Grade Yellow Resin is published for sheet moulding and laminate applications with a supplied pre-pigmented yellow appearance. GP Yellow Resin is the separately published transparent-yellow general-purpose orthophthalic grade.",
+          "For an FRP sheet or panel buyer, the product role and supplied appearance should be recorded before comparing figures, price or packaging. Neither a shared resin family nor a similar name confirms that one product can replace the other."
+        ]
+      },
+      {
+        "heading": "Keep sheet intent separate from broad GP intent",
+        "body": [
+          "Sheet Grade Yellow should own the sheet and panel requirement: the TDS-published sheet moulding and laminate role, the supplied yellow appearance and the relevant FRP component context. GP Yellow should remain the broad general-purpose route for its own published FRP applications.",
+          "This distinction reduces unhelpful overlap in a purchase specification. It does not state a performance advantage, confirm an operating condition or replace a trial and TDS review."
+        ]
+      },
+      {
+        "heading": "Prepare a useful comparison enquiry",
+        "body": [
+          "Share the sheet or panel type, whether the supplied yellow appearance is required, reinforcement requirement if known, visible-surface requirement, expected quantity and delivery location. If a buyer is comparing an existing GP Yellow material, include the exact product document or specification rather than assuming names describe the same formulation.",
+          "Where the finished sheet must be water-white or translucent, the next comparison is Roof Light Sheet Grade Resin—not a general GP Yellow selection."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sheet-grade-yellow-resin-vs-roof-light-resin",
+    "title": "Sheet Grade Yellow Resin vs Roof Light Sheet Grade Resin",
+    "description": "Choose between the site’s pre-pigmented yellow sheet/panel route and its separate water-white roof-light resin route by starting with the required finished-sheet appearance.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Sheet Grade Yellow vs Roof Light Resin | FRP Sheet Buyer Guide",
+      "keywords": [
+        "Sheet Grade Yellow vs Roof Light Resin",
+        "Yellow FRP Sheet Resin",
+        "Roof Light Sheet Grade Resin",
+        "FRP Sheet Resin"
+      ],
+      "ogTitle": "Sheet Grade Yellow Resin vs Roof Light Resin",
+      "ogDescription": "Use the finished-sheet appearance and published product role to separate a yellow FRP sheet/panel requirement from a water-white roof-light route."
+    },
+    "quickFacts": {
+      "Sheet Grade Yellow": "Pre-pigmented yellow sheet and panel role",
+      "Roof Light Sheet Grade": "Water-white roof-light and skylight role",
+      "First decision": "Required finished-sheet appearance",
+      "Do not assume": "Optical or weathering performance from product name alone"
+    },
+    "comparisonTable": {
+      "title": "Separate the published sheet roles",
+      "headers": [
+        "Selection question",
+        "Sheet Grade Yellow Resin",
+        "Roof Light Sheet Grade Resin"
+      ],
+      "rows": [
+        [
+          "Supplied appearance",
+          "Pre-pigmented yellow",
+          "Water-white"
+        ],
+        [
+          "Published role",
+          "Sheet moulding and laminate applications",
+          "Roof-light and skylight sheet intent"
+        ],
+        [
+          "Buyer starting point",
+          "Coloured or opaque sheet/panel requirement",
+          "Water-white/translucent sheet requirement"
+        ],
+        [
+          "Document to review",
+          "Sheet Grade Yellow Resin TDS",
+          "Roof Light Sheet Grade Resin TDS"
+        ]
+      ],
+      "note": "This comparison does not state light-transmission, UV, weathering or mechanical-performance values. Use the current product-specific data for the actual requirement."
+    },
+    "relatedSlugs": [
+      "what-is-sheet-grade-yellow-resin",
+      "applications-of-sheet-grade-yellow-resin",
+      "sheet-grade-yellow-resin-vs-gp-yellow-resin",
+      "what-is-roof-light-sheet-grade-resin",
+      "roof-light-resin-vs-gp-clear-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the current pre-pigmented yellow sheet/panel product data."
+      },
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "View Roof Light Sheet Grade Resin",
+        "description": "Review the separate water-white roof-light product route and TDS."
+      },
+      {
+        "href": "/resources/polyester-resin-for-roofing-sheets/",
+        "label": "Explore roofing-sheet context",
+        "description": "Read the existing broad guide before narrowing the product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a sheet requirement",
+        "description": "Share the sheet type, required appearance, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which resin should be reviewed for a translucent roof-light sheet?",
+        "a": "Start with the separately published Roof Light Sheet Grade Resin page and its current TDS. A pre-pigmented yellow resin has a different supplied appearance and product role."
+      },
+      {
+        "q": "Does water-white automatically state a light-transmission value?",
+        "a": "No. This guide uses the published supplied appearance and product role only. It does not assign optical-performance data that is not in the current product documentation."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The appearance requirement comes first",
+        "body": [
+          "These products are deliberately separated on the site because the buyer's finished-sheet requirement is different. Sheet Grade Yellow Resin is supplied pre-pigmented yellow for its sheet and panel role. Roof Light Sheet Grade Resin is supplied water-white for roof-light and skylight intent.",
+          "Use that supplied appearance distinction to start the selection conversation. Do not infer light-transmission percentage, UV rating, weathering life or other finished-sheet performance from the category name alone."
+        ]
+      },
+      {
+        "heading": "Two sheet routes, not one interchangeable grade",
+        "body": [
+          "A coloured or opaque sheet/panel requirement points to the Sheet Grade Yellow product route for review. A roof-light or skylight requirement that calls for a water-white/translucent route points to Roof Light Sheet Grade Resin for review.",
+          "Both products should be checked against their own current TDS. Shared base-family wording does not allow values, handling information or suitability expectations to be transferred from one product page to the other."
+        ]
+      },
+      {
+        "heading": "Document the product decision",
+        "body": [
+          "For either enquiry, provide the finished-sheet or panel type, required supplied appearance, reinforcement requirement if known, production context, expected quantity and delivery location. Add a drawing or buyer specification if one is available.",
+          "If a visible mould-facing surface is a separate requirement, also identify it so the Gelcoat Resin role can be reviewed independently. This guide does not prescribe a build-up or processing method."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-choose-resin-for-frp-sheet-and-panel-manufacturing",
+    "title": "How to Choose Resin for FRP Sheet and Panel Manufacturing",
+    "description": "A buyer-selection guide for separating an FRP sheet or panel requirement into resin role, supplied appearance, reinforcement, surface finish and documentation checks.",
+    "category": "Buying Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "How to Choose Resin for FRP Sheets and Panels | Buyer Guide",
+      "keywords": [
+        "Resin for FRP Sheet Manufacturing",
+        "FRP Panel Resin",
+        "Polyester Resin for FRP Sheets",
+        "Sheet Grade Resin Selection"
+      ],
+      "ogTitle": "How to Choose Resin for FRP Sheets and Panels",
+      "ogDescription": "A concise buyer route for choosing a published resin role for FRP sheet and panel requirements without relying on generic resin names."
+    },
+    "quickFacts": {
+      "Start with": "Finished sheet or panel",
+      "Appearance check": "Supplied yellow versus water-white/translucent route",
+      "System check": "Resin, reinforcement and surface-finish roles",
+      "Controlling document": "Current product-specific TDS"
+    },
+    "relatedSlugs": [
+      "what-is-sheet-grade-yellow-resin",
+      "applications-of-sheet-grade-yellow-resin",
+      "sheet-grade-yellow-resin-vs-gp-yellow-resin",
+      "sheet-grade-yellow-resin-vs-roof-light-resin",
+      "frp-sheet-resin-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "Review Sheet Grade Yellow Resin",
+        "description": "Use the published pre-pigmented yellow sheet/panel route where it matches the requirement."
+      },
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "Review Roof Light Sheet Grade Resin",
+        "description": "Use the separate water-white roof-light route where that appearance is specified."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "Review Glass Fiber Mat",
+        "description": "Identify reinforcement as a separate material role."
+      },
+      {
+        "href": "/resources/glass-fiber-and-polyester-resin-compatibility/",
+        "label": "Understand the FRP material system",
+        "description": "Keep resin, reinforcement and gelcoat discussions separate."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a documented sheet requirement",
+        "description": "Share the material role and commercial context for review."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Should a buyer choose a sheet resin by colour alone?",
+        "a": "No. Supplied appearance is one decision input. The sheet or panel type, product role, reinforcement, surface-finish requirement and current product-specific TDS also need review."
+      },
+      {
+        "q": "Does this guide recommend a resin for every FRP sheet?",
+        "a": "No. It provides a way to prepare the selection discussion. Suitability depends on the actual component and current product documentation."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Define the sheet or panel before naming a resin",
+        "body": [
+          "Record what is being made: the sheet or panel category, whether it is a roof-light requirement, supplied appearance requirement, visible-surface requirement and available reinforcement specification. A broad request for 'FRP sheet resin' is not enough to select a published grade safely.",
+          "This first step also separates a structural laminate question from a mould-facing surface question. Where a visible surface layer is part of the build-up, the separate Gelcoat Resin role should be reviewed rather than assumed to be included in the laminate resin selection."
+        ]
+      },
+      {
+        "heading": "Use the published product role to narrow the route",
+        "body": [
+          "For the published pre-pigmented yellow sheet and panel route, review Sheet Grade Yellow Resin. For a water-white roof-light or skylight route, review Roof Light Sheet Grade Resin. For a broader transparent-yellow general-purpose laminate requirement, review GP Yellow Resin; for a broader parent category, start at Unsaturated Polyester Resin.",
+          "These are decision paths, not claims that one grade is universally better. If a stated chemical or corrosion-resistance requirement is central, use the separate Vinyl Ester Resin product information rather than assuming a general orthophthalic grade applies."
+        ]
+      },
+      {
+        "heading": "Keep reinforcement and documentation visible",
+        "body": [
+          "Glass Fiber is a separate reinforcement product in an FRP material system. Its weight and form should be confirmed independently where specified; the resin name alone does not describe the complete component system.",
+          "Use the current TDS for the exact candidate product. Do not transfer viscosity, gel time, curing information, storage or performance expectations from a GP, roof-light, gelcoat or other resin page. A focused enquiry should include the component, supplied appearance, reinforcement requirement if known, expected quantity and delivery location."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "frp-sheet-resin-procurement-guide",
+    "title": "FRP Sheet Resin Procurement Guide: TDS and Quote Checklist",
+    "description": "Prepare a factual FRP sheet or panel resin enquiry with the finished component, supplied appearance, reinforcement context, current TDS, quantity and delivery location.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "FRP Sheet Resin Procurement Guide | Sheet Grade Resin Quote Checklist",
+      "keywords": [
+        "FRP Sheet Resin Quote",
+        "Sheet Grade Resin Supplier",
+        "FRP Panel Resin Procurement",
+        "Sheet Grade Yellow Resin MOQ"
+      ],
+      "ogTitle": "FRP Sheet Resin Procurement Guide",
+      "ogDescription": "Prepare a clear Sheet Grade Yellow Resin or related FRP sheet resin enquiry using product-specific documentation and commercial context."
+    },
+    "quickFacts": {
+      "Published package": "225 kg drum",
+      "Published MOQ": "1,000 kg",
+      "Required document": "Current product-specific TDS",
+      "Commercial inputs": "Component, supplied appearance, quantity and delivery location"
+    },
+    "relatedSlugs": [
+      "what-is-sheet-grade-yellow-resin",
+      "applications-of-sheet-grade-yellow-resin",
+      "how-to-choose-resin-for-frp-sheet-and-panel-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the current product page, TDS link, packaging and MOQ."
+      },
+      {
+        "href": "/tds/sheet-grade-yellow-resin-tds.pdf",
+        "label": "Download Sheet Grade Yellow Resin TDS",
+        "description": "Use the product-specific data as the controlling reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review separate product roles across the range."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a Sheet Grade Yellow quote",
+        "description": "Submit the documented technical and commercial context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should be included in an FRP sheet resin RFQ?",
+        "a": "Include the intended sheet or panel, supplied appearance requirement, reinforcement requirement if known, visible-surface requirement, expected quantity and delivery location. Include the current product TDS or buyer specification where available."
+      },
+      {
+        "q": "Does the published MOQ confirm stock or delivery time?",
+        "a": "No. The current Sheet Grade Yellow Resin listing publishes a 1,000 kg MOQ. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the product-specific document",
+        "body": [
+          "For the Sheet Grade Yellow route, the current product-specific TDS is the controlling reference. The site publishes an orthophthalic unsaturated polyester resin, supplied pre-pigmented yellow, for sheet moulding and laminate applications, in a 225 kg drum with a 1,000 kg MOQ.",
+          "These published commercial details do not confirm stock availability, lead time, sample availability, delivery commitment or suitability for an unreviewed component. Keep the enquiry factual and product-specific."
+        ]
+      },
+      {
+        "heading": "Record the material-system context",
+        "body": [
+          "State the finished FRP sheet or panel, supplied yellow appearance requirement, any reinforcement specification available and whether a visible mould-facing surface requirement exists. These points help distinguish the resin role from the separate Glass Fiber and Gelcoat product roles.",
+          "Where the request is for a water-white or translucent roof-light sheet, identify that clearly so the separate Roof Light Sheet Grade Resin route can be reviewed. Do not rely on a generic request for yellow polyester resin when the finished-sheet intent is known."
+        ]
+      },
+      {
+        "heading": "Quote checklist",
+        "body": [
+          "Include the component name, supplied appearance requirement, product grade under consideration, reinforcement context if known, expected quantity, delivery location and any available drawing, purchase specification or product document. This gives the supplier a clear basis for a commercial and product-data discussion.",
+          "This guide intentionally does not provide catalyst ratios, handling directions, processing instructions, performance guarantees or a promise of a particular finished-sheet outcome. Those matters must be reviewed against the actual product documentation and requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-roof-light-sheet-grade-resin",
+    "title": "What Is Roof Light Sheet Grade Resin?",
+    "description": "Understand the published water-white polyester-resin route for translucent FRP roof-light panels and skylight sheets before selecting a material system.",
+    "category": "Product Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "What Is Roof Light Sheet Grade Resin? | FRP Roofing Resin Guide",
+      "keywords": [
+        "Roof Light Sheet Grade Resin",
+        "Roof Light Resin",
+        "FRP Roof Light Resin",
+        "FRP Roofing Sheet Resin",
+        "Roofing Polyester Resin"
+      ],
+      "ogTitle": "What Is Roof Light Sheet Grade Resin?",
+      "ogDescription": "A buyer guide to the published water-white polyester-resin route for translucent roof-light panels and skylight sheets."
+    },
+    "quickFacts": {
+      "Product family": "Orthophthalic unsaturated polyester resin",
+      "Supplied appearance": "Water white",
+      "Published role": "Translucent roof-light panels and skylight sheets",
+      "Published packaging": "225 kg drum",
+      "Published MOQ": "500 kg"
+    },
+    "relatedSlugs": [
+      "roof-light-resin-applications-frp-roofing-sheets",
+      "sheet-grade-yellow-resin-vs-roof-light-resin",
+      "roof-light-resin-vs-gp-clear-resin",
+      "frp-roofing-sheet-resin-selection-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "View Roof Light Sheet Grade Resin",
+        "description": "Review the current product page and product-specific TDS."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "Review Glass Fiber Mat",
+        "description": "Identify the separate reinforcement role where it is part of the FRP sheet requirement."
+      },
+      {
+        "href": "/applications/roof-light-sheet-resin-for-frp-roofing-and-skylight-sheets/",
+        "label": "Explore roof-light sheet application context",
+        "description": "Define the finished sheet before selecting the product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a roof-light sheet requirement",
+        "description": "Share the finished sheet, supplied appearance, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Roof Light Sheet Grade Resin an unsaturated polyester resin?",
+        "a": "Yes. The current product information identifies it as an orthophthalic unsaturated polyester resin supplied water white for the published roof-light and skylight sheet role."
+      },
+      {
+        "q": "Does water white state a light-transmission percentage?",
+        "a": "No. The current TDS publishes water-white appearance and high optical clarity for light penetration, but it does not publish a transmission percentage, haze value or optical rating."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A documented roof-light sheet route",
+        "body": [
+          "Roof Light Sheet Grade Resin is Samrat FRP Traders' published water-white orthophthalic unsaturated polyester resin for translucent roof-light panels and skylight sheets. The product designation identifies a specific roofing-sheet buyer requirement, not a general search for any clear resin.",
+          "The current Technical Data Sheet describes high optical clarity for light penetration and lists skylights, roof-light panels, greenhouses, industrial and commercial roofing, and roofing-sheet production. Review the exact component and current TDS before treating the product as suitable for a requirement."
+        ]
+      },
+      {
+        "heading": "Keep the product roles separate",
+        "body": [
+          "A water-white roof-light route differs from the separately published pre-pigmented yellow Sheet Grade Yellow Resin route for sheet and panel applications. The first decision is the finished-sheet role and supplied appearance, not a broad comparison of resin family names.",
+          "GP Clear Resin is the site's general-purpose clear resin route. Roof Light Sheet Grade Resin is the product to review where the documented roof-light, skylight and translucent-sheet intent is central."
+        ]
+      },
+      {
+        "heading": "The FRP material-system discussion",
+        "body": [
+          "The resin is one material role. Glass Fiber is the separate reinforcement role where specified, while Gelcoat is a separate mould-facing surface-finish decision. A product name alone does not describe the complete FRP sheet system.",
+          "For a quotation, record the finished roof-light or roofing sheet, required supplied appearance, reinforcement context if known, expected quantity and delivery location. This keeps the discussion factual without prescribing a laminate design or production method."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "roof-light-resin-applications-frp-roofing-sheets",
+    "title": "Roof Light Resin Applications in FRP Roofing Sheets",
+    "description": "Published Roof Light Sheet Grade Resin contexts for translucent roof-light panels, skylight sheets, greenhouses and industrial or commercial roofing.",
+    "category": "Application Guide",
+    "icon": "roof",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Roof Light Resin Applications | FRP Roofing and Skylight Sheets",
+      "keywords": [
+        "Roof Light Resin Applications",
+        "FRP Roofing Sheet Resin",
+        "FRP Skylight Resin",
+        "Translucent FRP Sheet Resin",
+        "Roofing Polyester Resin"
+      ],
+      "ogTitle": "Roof Light Resin Applications in FRP Roofing Sheets",
+      "ogDescription": "Review the published roof-light, skylight and roofing-sheet contexts before selecting the water-white Roof Light Sheet Grade Resin route."
+    },
+    "quickFacts": {
+      "Published applications": "Skylights, roof-light panels and greenhouses",
+      "Further published contexts": "Industrial/commercial roofing and roofing-sheet production",
+      "Resin appearance": "Water white",
+      "Controlling document": "Current product-specific TDS"
+    },
+    "relatedSlugs": [
+      "what-is-roof-light-sheet-grade-resin",
+      "frp-roofing-sheet-resin-selection-guide",
+      "roof-light-resin-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "View Roof Light Sheet Grade Resin",
+        "description": "Review the product-specific TDS, packaging and enquiry path."
+      },
+      {
+        "href": "/applications/roof-light-sheet-resin-for-frp-roofing-and-skylight-sheets/",
+        "label": "Explore finished-sheet context",
+        "description": "Match the material discussion to the roof-light or skylight component."
+      },
+      {
+        "href": "/resources/glass-fiber-and-polyester-resin-compatibility/",
+        "label": "Review resin and Glass Fiber roles",
+        "description": "Keep resin, reinforcement and surface-finish decisions separate."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a roof-light application",
+        "description": "Share the sheet type, supplied appearance, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Roof Light Resin published for greenhouses?",
+        "a": "Yes. Greenhouses are listed in the current Roof Light Resin TDS. Confirm the actual sheet and project requirement against the current product data before selection."
+      },
+      {
+        "q": "Does this guide confirm every translucent FRP panel as an application?",
+        "a": "No. It summarises the product's published contexts. A requirement still needs review against the current TDS and finished-component specification."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Roof-light panels and skylight sheets",
+        "body": [
+          "The TDS lists skylights and roof-light panels as published applications. These are the core contexts for a buyer who needs a water-white resin route for a finished sheet intended to admit natural light.",
+          "The listing does not publish light-transmission percentage, haze, load rating or finished-sheet weathering life. Those requirements should be assessed through the relevant component and project documentation."
+        ]
+      },
+      {
+        "heading": "Greenhouses and roofing-sheet applications",
+        "body": [
+          "Greenhouses, industrial and commercial roofing, and roofing-sheet production are also published product contexts. For each, document the actual sheet profile, required supplied appearance, reinforcement context and finished-sheet requirement before product selection.",
+          "Where the finished sheet instead needs a pre-pigmented yellow appearance, review Sheet Grade Yellow Resin. Where the requirement is a broad clear general-purpose FRP laminate rather than the roof-light role, review GP Clear Resin and its own TDS."
+        ]
+      },
+      {
+        "heading": "Keep the material roles visible",
+        "body": [
+          "Roof Light Resin is the matrix-resin route under review; Glass Fiber is a separate reinforcement material where specified. A visible mould-facing surface, if required, calls for a separate Gelcoat decision. These roles should be named separately in the purchase discussion.",
+          "Share the finished application, supplied appearance requirement, any reinforcement specification, expected quantity and delivery location when requesting a quote. This guide does not provide a manufacturing recipe or guarantee finished-sheet performance."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "roof-light-resin-vs-gp-clear-resin",
+    "title": "Roof Light Resin vs GP Clear Resin",
+    "description": "Separate the published water-white Roof Light Sheet Grade Resin route for roof-light sheets from the site's general-purpose clear GP Clear Resin route.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Roof Light Resin vs GP Clear Resin | FRP Sheet Buyer Guide",
+      "keywords": [
+        "Roof Light Resin vs GP Clear Resin",
+        "Clear Sheet Grade Resin",
+        "FRP Roofing Sheet Resin",
+        "GP Clear Resin"
+      ],
+      "ogTitle": "Roof Light Resin vs GP Clear Resin",
+      "ogDescription": "Use the finished sheet, supplied appearance and published product role to distinguish Roof Light Sheet Grade Resin from GP Clear Resin."
+    },
+    "quickFacts": {
+      "Roof Light Resin": "Water-white, published for roof-light panels and skylight sheets",
+      "GP Clear Resin": "Published general-purpose clear orthophthalic FRP route",
+      "Shared check": "Actual component and current product-specific TDS",
+      "Not a ranking": "The roles are not interchangeable"
+    },
+    "comparisonTable": {
+      "title": "Published product roles at a glance",
+      "headers": [
+        "Buyer question",
+        "Roof Light Sheet Grade Resin",
+        "GP Clear Resin"
+      ],
+      "rows": [
+        [
+          "Starting requirement",
+          "Roof-light, skylight or documented translucent-sheet role",
+          "General-purpose clear FRP requirement"
+        ],
+        [
+          "Supplied appearance",
+          "Water white",
+          "Clear general-purpose grade"
+        ],
+        [
+          "Published positioning",
+          "Roof-light panels, skylight sheets and roofing contexts",
+          "General FRP lamination and moulded-product contexts"
+        ],
+        [
+          "Document to review",
+          "Roof Light Resin TDS",
+          "GP Clear Resin TDS"
+        ]
+      ],
+      "note": "This comparison is a product-role guide. It does not claim a formulation, optical, UV, weathering or mechanical-performance advantage beyond the published product data."
+    },
+    "relatedSlugs": [
+      "what-is-roof-light-sheet-grade-resin",
+      "roof-light-resin-applications-frp-roofing-sheets",
+      "sheet-grade-yellow-resin-vs-roof-light-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "View Roof Light Sheet Grade Resin",
+        "description": "Review the documented water-white roof-light route and current TDS."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate published general-purpose clear product route."
+      },
+      {
+        "href": "/applications/resin-for-roofing-sheet-manufacturing/",
+        "label": "Explore roofing-sheet context",
+        "description": "Read the existing broad application guide before narrowing the product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the product role",
+        "description": "Share the finished sheet, supplied appearance, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is GP Clear Resin automatically the same as Roof Light Resin?",
+        "a": "No. The site publishes them for different product roles. GP Clear Resin is the general-purpose clear route; Roof Light Sheet Grade Resin is the water-white roof-light and skylight-sheet route. Review the current TDS for the actual product."
+      },
+      {
+        "q": "Does this comparison state which resin has better clarity or weathering?",
+        "a": "No. It separates the documented product roles. It does not assign unverified optical or outdoor-performance values."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Begin with the finished FRP sheet",
+        "body": [
+          "A buyer searching for a clear polyester resin may actually have a roof-light sheet requirement. The useful first question is whether the finished component is a documented roof-light, skylight or translucent-sheet application, rather than whether both products appear clear.",
+          "Roof Light Sheet Grade Resin is supplied water white and published for the roof-light role. GP Clear Resin is the separately published general-purpose clear orthophthalic product route."
+        ]
+      },
+      {
+        "heading": "Do not transfer data between product routes",
+        "body": [
+          "Each product has its own TDS, technical values and published applications. A shared polyester family does not allow viscosity, gel time, storage, UV or finished-sheet expectations to be carried from one route to the other.",
+          "Use the roof-light page where its documented sheet-specific role matches the requirement. Use GP Clear where its documented general-purpose role matches the actual component. Neither route is a universal substitute for the other."
+        ]
+      },
+      {
+        "heading": "Prepare a focused comparison discussion",
+        "body": [
+          "Record the finished sheet, roof-light or skylight requirement if applicable, required supplied appearance, reinforcement context if known, expected quantity and delivery location. Include the relevant drawing or purchase specification when available.",
+          "If a sheet requires a pre-pigmented yellow route instead, review Sheet Grade Yellow Resin. If a mould-facing finish is a separate requirement, review the Gelcoat product role independently."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "frp-roofing-sheet-resin-selection-guide",
+    "title": "FRP Roofing Sheet Resin Selection Guide",
+    "description": "A buyer guide to separating a roof-light, coloured sheet, general-purpose resin, reinforcement and surface-finish requirement before requesting an FRP roofing-sheet resin quote.",
+    "category": "Buying Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "FRP Roofing Sheet Resin Selection Guide | Polyester Resin Buyer Guide",
+      "keywords": [
+        "FRP Roofing Sheet Resin",
+        "Polyester Resin for FRP Roofing Sheets",
+        "Resin for FRP Roof Sheets",
+        "Roofing Sheet Resin Selection"
+      ],
+      "ogTitle": "FRP Roofing Sheet Resin Selection Guide",
+      "ogDescription": "A concise buyer route for separating roof-light, coloured-sheet, reinforcement and technical-documentation decisions before selecting an FRP roofing-sheet resin."
+    },
+    "quickFacts": {
+      "Start with": "Finished roofing or roof-light sheet",
+      "Appearance check": "Water-white roof-light versus pre-pigmented yellow sheet route",
+      "System check": "Resin, Glass Fiber and surface-finish roles",
+      "Controlling document": "Current product-specific TDS"
+    },
+    "relatedSlugs": [
+      "what-is-roof-light-sheet-grade-resin",
+      "roof-light-resin-applications-frp-roofing-sheets",
+      "roof-light-resin-vs-gp-clear-resin",
+      "roof-light-resin-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "Review Roof Light Resin",
+        "description": "Use the published water-white roof-light product route where it matches the finished-sheet requirement."
+      },
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "Review Sheet Grade Yellow Resin",
+        "description": "Use the separate pre-pigmented yellow sheet/panel route where that supplied appearance is required."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "Review Glass Fiber Mat",
+        "description": "Keep reinforcement selection separate from resin selection."
+      },
+      {
+        "href": "/resources/glass-fiber-and-polyester-resin-compatibility/",
+        "label": "Understand the FRP material system",
+        "description": "Review the separate resin, reinforcement and surface-finish roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an FRP roofing-sheet requirement",
+        "description": "Share a documented material and commercial brief."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Should a roof-sheet buyer select resin by colour alone?",
+        "a": "No. Supplied appearance is one input. The finished sheet, published product role, reinforcement context, surface-finish requirement and current product-specific TDS also need review."
+      },
+      {
+        "q": "Does this guide provide a roofing-sheet production method?",
+        "a": "No. It is a material-selection guide. It does not provide catalyst ratios, laminate design, production instructions or finished-sheet performance claims."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Define the finished-sheet requirement",
+        "body": [
+          "State whether the product is a roof-light or skylight sheet, a coloured sheet/panel, or a broad general roofing component. Also record the required supplied appearance, any specified reinforcement and whether a separate visible surface layer is needed.",
+          "This avoids treating 'FRP roofing resin' as one interchangeable product category. The roof-light, pre-pigmented sheet, general-purpose resin, reinforcement and gelcoat roles are published separately on this site."
+        ]
+      },
+      {
+        "heading": "Match the requirement to the published route",
+        "body": [
+          "For the published water-white roof-light and skylight role, review Roof Light Sheet Grade Resin. For a pre-pigmented yellow sheet/panel requirement, review Sheet Grade Yellow Resin. For a broad general-purpose clear FRP role, review GP Clear Resin and its product-specific data.",
+          "Where a stated chemical or corrosion requirement is central, review the separate Vinyl Ester Resin documentation instead of assuming a general orthophthalic sheet grade applies. Where a mould-facing finish is specified, review Gelcoat as a separate role."
+        ]
+      },
+      {
+        "heading": "Use documents and a focused RFQ",
+        "body": [
+          "Glass Fiber is a separate reinforcement component. Confirm its specified form and weight independently where a component document provides them; a resin product name does not establish the reinforcement design.",
+          "For a quote, provide the finished roof or roof-light sheet, required supplied appearance, reinforcement context if known, expected quantity, delivery location and available drawing or buyer specification. Use the current TDS for the exact resin under consideration."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "roof-light-resin-procurement-guide",
+    "title": "Roof Light Resin Procurement Guide: TDS and Quote Checklist",
+    "description": "Prepare a factual Roof Light Sheet Grade Resin enquiry with the finished sheet, required supplied appearance, current TDS, reinforcement context, quantity and delivery location.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Roof Light Resin Procurement Guide | FRP Roofing Sheet Quote Checklist",
+      "keywords": [
+        "Roof Light Resin Supplier",
+        "Roof Light Resin Quote",
+        "FRP Roofing Sheet Resin Procurement",
+        "Roof Light Resin MOQ"
+      ],
+      "ogTitle": "Roof Light Resin Procurement Guide",
+      "ogDescription": "Prepare a documented Roof Light Sheet Grade Resin quotation discussion using the current TDS and factual FRP roofing-sheet requirements."
+    },
+    "quickFacts": {
+      "Published packaging": "225 kg drum",
+      "Published MOQ": "500 kg",
+      "Product document": "Current Roof Light Resin TDS",
+      "Commercial inputs": "Finished sheet, supplied appearance, quantity and delivery location"
+    },
+    "relatedSlugs": [
+      "what-is-roof-light-sheet-grade-resin",
+      "roof-light-resin-applications-frp-roofing-sheets",
+      "frp-roofing-sheet-resin-selection-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "View Roof Light Sheet Grade Resin",
+        "description": "Review the current product page, TDS, packaging and MOQ."
+      },
+      {
+        "href": "/tds/roof-light-resin-tds.pdf",
+        "label": "Download Roof Light Resin TDS",
+        "description": "Use the product-specific document as the controlling reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review separate product roles across the range."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a Roof Light Resin quote",
+        "description": "Submit the documented technical and commercial context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should be included in a Roof Light Resin RFQ?",
+        "a": "Include the intended roof-light or roofing sheet, required supplied appearance, reinforcement context if known, expected quantity, delivery location and any available drawing or buyer specification."
+      },
+      {
+        "q": "Does the 500 kg MOQ confirm stock or delivery time?",
+        "a": "No. The current Roof Light Resin TDS publishes a 500 kg MOQ. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current product-specific document",
+        "body": [
+          "The Roof Light Resin TDS is the controlling reference for this published water-white orthophthalic unsaturated polyester route. It lists a 225 kg drum and 500 kg minimum order quantity, alongside the grade-specific technical data and application context.",
+          "These published details do not confirm stock availability, lead time, sample policy, delivery commitment or suitability for an unreviewed finished sheet. Keep the commercial discussion factual and product-specific."
+        ]
+      },
+      {
+        "heading": "Document the FRP sheet requirement",
+        "body": [
+          "State whether the component is a roof-light, skylight, greenhouse or another documented roofing-sheet context. Record the required supplied appearance and any reinforcement information available. If a separate visible surface role exists, identify it rather than assuming the resin alone describes the full material system.",
+          "Where the requirement is a pre-pigmented yellow sheet/panel, identify that clearly so Sheet Grade Yellow Resin can be reviewed as the separate product route."
+        ]
+      },
+      {
+        "heading": "Quote checklist",
+        "body": [
+          "Provide the finished sheet, supplied appearance requirement, product grade under consideration, reinforcement context if known, expected quantity, delivery location and any relevant document or drawing. This supports a focused product-data and commercial discussion.",
+          "This guide intentionally does not provide catalyst ratios, handling directions, production instructions, optical values, outdoor-life statements or finished-sheet performance guarantees. Those matters require review against the actual product data and requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "uv-resin-buyer-guide",
+    "title": "UV Resin Buyer Guide: Selection, Documentation and Quote Checklist",
+    "description": "Prepare a factual UV Resin enquiry using the current TDS, product role, clear-finish requirement, UV/LED equipment context, quantity and delivery details.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-06",
+    "seo": {
+      "title": "UV Resin Buyer Guide | UV Resin Supplier and Procurement Checklist",
+      "keywords": [
+        "UV Resin Buyer Guide",
+        "UV Resin Procurement",
+        "UV Resin Supplier",
+        "UV Resin Storage",
+        "Industrial UV Resin",
+        "UV Clear Resin Quote"
+      ],
+      "ogTitle": "UV Resin Buyer Guide",
+      "ogDescription": "Prepare a documented UV Resin selection and quotation discussion using the current TDS and the actual product, equipment and commercial context."
+    },
+    "quickFacts": {
+      "Start with": "Finished product and material role",
+      "Product document": "Current UV Resin TDS",
+      "Published packaging": "200 kg pack",
+      "Published MOQ": "1,000 kg"
+    },
+    "relatedSlugs": [
+      "what-is-uv-resin",
+      "applications-of-uv-resin",
+      "uv-resin-vs-epoxy-art-resin",
+      "uv-resin-vs-epoxy-clear-casting-resin",
+      "uv-resin-vs-polyester-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/uv-resin/",
+        "label": "View UV Resin",
+        "description": "Review the current product details and Technical Data Sheet link."
+      },
+      {
+        "href": "/tds/uv-resin-tds.pdf",
+        "label": "Download UV Resin TDS",
+        "description": "Use the product-specific document as the controlling reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review the broader product range and separate product roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a UV Resin quote",
+        "description": "Share the documented technical and commercial context through the enquiry form."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should be included in a UV Resin RFQ?",
+        "a": "Include the intended application, industry or end use, finished product, required clear or finished appearance, stated UV/LED equipment requirement if known, expected quantity and delivery location."
+      },
+      {
+        "q": "Does this guide confirm stock, lead time, sample policy or suitability?",
+        "a": "No. It helps prepare a factual enquiry. Availability, lead time, samples, suitability and any performance expectation must be confirmed for the actual requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the actual material role",
+        "body": [
+          "Identify whether the finished product needs the published UV Resin role: UV/LED-curable jewellery, encapsulation, doming or speciality coating work. If the requirement is instead an open self-levelling decorative surface, a clear contained cast or a reinforced FRP component, start with the separate published product route before preparing an enquiry.",
+          "State the end product and visible-finish requirement in factual terms. Do not rely on a broad request for 'transparent UV resin' as a substitute for the finished-product, equipment and documentation context."
+        ]
+      },
+      {
+        "heading": "Use the current UV Resin document",
+        "body": [
+          "The current UV Resin TDS is the product-specific reference for the published epoxy-acrylate UV/LED route. It should be reviewed alongside the actual finished-product requirement. Follow the TDS for storage and handling information rather than transferring advice from another UV, epoxy or polyester product.",
+          "The current listing publishes a 200 kg pack and 1,000 kg MOQ. These are commercial reference points only; they do not imply stock availability, lead time, sample policy, delivery commitment or a guarantee of suitability."
+        ]
+      },
+      {
+        "heading": "UV Resin quotation checklist",
+        "body": [
+          "Provide the intended application, industry or end use, finished product, clear or finished appearance requirement, any stated UV/LED equipment requirement, expected quantity and delivery location. Include a drawing, purchase specification or relevant product reference only when it is available.",
+          "This guide does not provide exposure times, curing schedules, mixing directions, operating advice or a performance guarantee. The purpose is to make the selection and commercial conversation specific enough for product-data review."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-epoxy-hardener",
+    "title": "What Is Epoxy Hardener?",
+    "description": "Understand the published polyamide curing-agent role of Samrat FRP Traders' Epoxy Hardener before selecting a compatible epoxy resin system.",
+    "category": "Epoxy System Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "What Is Epoxy Hardener? | Polyamide Curing Agent Guide",
+      "keywords": [
+        "What Is Epoxy Hardener",
+        "Epoxy Hardener",
+        "Epoxy Curing Agent",
+        "Polyamide Hardener",
+        "Hardener for Epoxy Resin"
+      ],
+      "ogTitle": "What Is Epoxy Hardener?",
+      "ogDescription": "A buyer guide to the separate hardener component in a compatible epoxy resin system."
+    },
+    "quickFacts": {
+      "Published type": "Polyamide, amine-based curing agent",
+      "Product role": "Separate component for a compatible epoxy system",
+      "Not the same as": "Epoxy resin or MEKP Hardener",
+      "Technical reference": "Current Epoxy Hardener TDS"
+    },
+    "relatedSlugs": [
+      "epoxy-resin-vs-epoxy-hardener",
+      "epoxy-hardener-compatibility-guide",
+      "epoxy-hardener-vs-mekp-hardener",
+      "epoxy-hardener-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review the published product data, packaging and enquiry route."
+      },
+      {
+        "href": "/tds/epoxy-hardener-tds.pdf",
+        "label": "Download Epoxy Hardener TDS",
+        "description": "Use the current product-specific document for the supplied product data."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Clear Casting Resin",
+        "description": "Review the separately published two-component clear-casting route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an epoxy-system requirement",
+        "description": "Share the exact resin product, application and documentation requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Epoxy Hardener?",
+        "a": "Samrat FRP Traders publishes Epoxy Hardener as a polyamide, amine-based curing agent for compatible epoxy resin systems. It is the separate hardener component, not the epoxy resin itself."
+      },
+      {
+        "q": "Is Epoxy Hardener a curing agent or a catalyst?",
+        "a": "The current product TDS describes it as a polyamide curing agent. This guide does not use catalyst as a general substitute; the separately published MEKP product has a catalyst / initiator role for polyester-family systems."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A separate component in an epoxy system",
+        "body": [
+          "Epoxy resin and Epoxy Hardener are distinct components. The published Epoxy Hardener is a polyamide, amine-based curing agent selected for a compatible epoxy resin system; it is not another epoxy resin sold under a different name.",
+          "The practical buyer question is therefore not simply whether a hardener is needed. It is which exact resin and hardener are documented as a compatible system for the intended application. Do not substitute one component based on a broad material name alone."
+        ]
+      },
+      {
+        "heading": "Published product identity and documentation",
+        "body": [
+          "The current Epoxy Hardener TDS identifies a clear / transparent liquid polyamide product and publishes viscosity, specific gravity, amine value, storage, shelf life, packaging and MOQ. These are product-specific reference points, not values to transfer to another supplier's hardener or resin system.",
+          "The TDS also contains operating information. This resource intentionally does not repeat mixing, cure or pot-life instructions; review the current document and the matching resin route together before procurement or use."
+        ]
+      },
+      {
+        "heading": "Keep epoxy, MEKP and UV routes separate",
+        "body": [
+          "The published Epoxy Hardener route is for compatible two-component epoxy systems. MEKP Hardener is a separate catalyst / initiator product route for the site's published unsaturated polyester, vinyl ester and gelcoat systems. UV Resin is a separate UV/LED-curable route that does not use this hardener component.",
+          "For a quote, identify the exact epoxy resin product, intended application, quantity, required packaging, delivery location and any required technical documentation. This makes compatibility review possible without treating products from different resin families as interchangeable."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-resin-vs-epoxy-hardener",
+    "title": "Epoxy Resin vs Epoxy Hardener: Component Roles Explained",
+    "description": "Separate the epoxy resin component from the compatible Epoxy Hardener component before ordering a two-component epoxy system.",
+    "category": "Epoxy System Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Epoxy Resin vs Epoxy Hardener | Two-Component System Guide",
+      "keywords": [
+        "Epoxy Resin vs Epoxy Hardener",
+        "Epoxy Resin and Hardener",
+        "Two Component Epoxy System",
+        "Epoxy Hardener Compatibility"
+      ],
+      "ogTitle": "Epoxy Resin vs Epoxy Hardener",
+      "ogDescription": "Learn why epoxy resin and hardener are separate, matched components rather than interchangeable products."
+    },
+    "quickFacts": {
+      "Epoxy resin": "The resin component",
+      "Epoxy Hardener": "The compatible polyamide curing-agent component",
+      "Selection rule": "Confirm the exact published pair",
+      "Do not assume": "One component replaces or matches every other product"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-hardener",
+      "epoxy-hardener-compatibility-guide",
+      "epoxy-hardener-for-clear-casting-and-art-resin",
+      "epoxy-hardener-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review the hardener product and current TDS."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Clear Casting Resin",
+        "description": "Review the published clear, contained casting system."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the separate art and decorative surface product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Confirm an epoxy-system pairing",
+        "description": "Share the exact product route and intended application."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Epoxy Hardener the same as epoxy resin?",
+        "a": "No. Epoxy resin and hardener are separate components of a compatible epoxy system. The resin product and matching hardener should be identified before ordering."
+      },
+      {
+        "q": "Can I order epoxy resin without naming the hardener?",
+        "a": "A buyer can begin an enquiry with the resin product, but the matching hardener component and required documentation should be confirmed before a system is selected."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the component role",
+        "body": [
+          "An epoxy resin is the resin component. Epoxy Hardener is the separately published curing-agent component selected to work with a compatible epoxy resin system. Their names describe different roles, even when both appear in the same commercial discussion.",
+          "This distinction matters for purchasing: a hardener is not a replacement for the resin, and a resin is not a confirmation of which hardener should be used. The exact published pairing needs review before procurement."
+        ]
+      },
+      {
+        "heading": "A matched system is more useful than a generic label",
+        "body": [
+          "Samrat's Clear Casting Resin and Epoxy Art Resin product routes each identify a compatible Epoxy Hardener as part of their separately published two-component systems. That published relationship is more useful than assuming any product called epoxy or hardener can be combined.",
+          "The relationship does not establish universal compatibility with other epoxy products, suppliers or applications. Review the product-specific TDS and ask for confirmation when the component, product route or documentation requirement differs."
+        ]
+      },
+      {
+        "heading": "Keep the enquiry focused",
+        "body": [
+          "State the exact epoxy resin product under consideration, intended application, quantity, packaging need, delivery location and any technical-document requirement. If the requirement comes from a drawing, purchase specification or existing system, include that reference when available.",
+          "This guide intentionally does not provide ratios, calculations, mixing steps or cure schedules. Those are product-system instructions that must remain in the appropriate current documentation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-hardener-compatibility-guide",
+    "title": "Epoxy Hardener Compatibility Guide: What Buyers Should Confirm",
+    "description": "A procurement-focused guide to confirming the exact resin/hardener pairing and current product documentation before buying Epoxy Hardener.",
+    "category": "Selection Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Epoxy Hardener Compatibility Guide | Epoxy Resin and Hardener",
+      "keywords": [
+        "Epoxy Hardener Compatibility",
+        "Epoxy Resin and Hardener Compatibility",
+        "Compatible Epoxy Hardener",
+        "Hardener for Epoxy Resin"
+      ],
+      "ogTitle": "Epoxy Hardener Compatibility Guide",
+      "ogDescription": "Understand why the exact epoxy resin and hardener pairing should be verified before ordering."
+    },
+    "quickFacts": {
+      "Known site relationships": "Clear Casting Resin and Epoxy Art Resin identify compatible Epoxy Hardener",
+      "Universal compatibility": "Not claimed",
+      "Control document": "Current product-specific TDS",
+      "Before purchase": "Identify the exact resin, application and documentation requirement"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-hardener",
+      "epoxy-resin-vs-epoxy-hardener",
+      "epoxy-hardener-for-clear-casting-and-art-resin",
+      "epoxy-hardener-vs-mekp-hardener"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review the published hardener identity and Technical Data Sheet."
+      },
+      {
+        "href": "/resources/epoxy-hardener-for-clear-casting-and-art-resin/",
+        "label": "Review documented epoxy product routes",
+        "description": "See the site's Clear Casting and Art Resin relationships."
+      },
+      {
+        "href": "/tds/epoxy-hardener-tds.pdf",
+        "label": "Download Epoxy Hardener TDS",
+        "description": "Use the current hardener document during compatibility review."
+      },
+      {
+        "href": "/contact/",
+        "label": "Confirm compatibility before ordering",
+        "description": "Share the exact resin product and intended application."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can any hardener be used with any epoxy resin?",
+        "a": "No universal pairing is claimed. Identify the exact epoxy resin and confirm the compatible hardener against current product documentation or supplier guidance before ordering."
+      },
+      {
+        "q": "Which Samrat epoxy routes identify Epoxy Hardener?",
+        "a": "The published Epoxy Clear Casting Resin and Epoxy Art Resin product routes identify a compatible Epoxy Hardener. Confirm the current pairing before procurement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Compatibility is a product-system question",
+        "body": [
+          "A hardener name alone does not establish compatibility. Start with the exact epoxy resin product, then review the corresponding hardener information and current Technical Data Sheet together. This is more reliable than transferring assumptions from a different epoxy grade or supplier.",
+          "The site identifies a compatible Epoxy Hardener on the Clear Casting Resin and Epoxy Art Resin product routes. That is a documented relationship for those separately published systems, not a statement that the hardener is universal."
+        ]
+      },
+      {
+        "heading": "What to verify before purchasing",
+        "body": [
+          "Confirm the exact resin product, intended component or finish role, required documentation, quantity, packaging and delivery location. Where a buyer has a drawing, purchase specification or an existing material reference, that information should accompany the enquiry.",
+          "Do not turn a resin/hardener product name into a process instruction. Product-specific operating details should be checked in the current documentation for the actual system, rather than copied between product routes."
+        ]
+      },
+      {
+        "heading": "When a different product route is relevant",
+        "body": [
+          "If the requirement is UV/LED curing, review the separate UV Resin route, which does not use this Epoxy Hardener. If it is an unsaturated polyester, vinyl ester or gelcoat system, review the separate MEKP Hardener route instead.",
+          "For a clear contained casting role, begin with Clear Casting Resin. For an art or decorative surface role, begin with Epoxy Art Resin. These routes help define the resin component before the matching hardener discussion begins."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-hardener-vs-mekp-hardener",
+    "title": "Epoxy Hardener vs MEKP Hardener: Different Product Roles",
+    "description": "Separate Samrat's published epoxy-system curing agent from its MEKP catalyst / initiator route for polyester-family resin systems.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Epoxy Hardener vs MEKP Hardener | Epoxy and Polyester Guide",
+      "keywords": [
+        "Epoxy Hardener vs MEKP Hardener",
+        "MEKP vs Epoxy Hardener",
+        "Epoxy Curing Agent",
+        "Polyester Resin Catalyst"
+      ],
+      "ogTitle": "Epoxy Hardener vs MEKP Hardener",
+      "ogDescription": "Choose the correct product route by identifying whether the base system is a compatible epoxy or a polyester-family resin."
+    },
+    "quickFacts": {
+      "Epoxy Hardener": "Polyamide curing agent for compatible epoxy systems",
+      "MEKP Hardener": "Separate catalyst / initiator route for published polyester-family systems",
+      "Shared rule": "Identify the base resin first",
+      "Not substitutes": "Do not interchange the two product routes"
+    },
+    "comparisonTable": {
+      "title": "Published product roles",
+      "headers": [
+        "Buyer question",
+        "Epoxy Hardener",
+        "MEKP Hardener"
+      ],
+      "rows": [
+        [
+          "Base system",
+          "Compatible epoxy resin system",
+          "Published unsaturated polyester, vinyl ester or gelcoat system"
+        ],
+        [
+          "Published role",
+          "Polyamide curing agent",
+          "Catalyst / initiator product route"
+        ],
+        [
+          "Selection starting point",
+          "Exact epoxy resin product and current TDS",
+          "Exact polyester-family resin or gelcoat product and current TDS"
+        ]
+      ],
+      "note": "This is a product-role comparison, not operating guidance. Do not transfer product instructions or assumptions between the two routes."
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-hardener",
+      "epoxy-hardener-compatibility-guide",
+      "mekp-for-polyester-resin-systems",
+      "mekp-hardener-procurement-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review the epoxy-system hardener route and current TDS."
+      },
+      {
+        "href": "/products/mekp-hardener/",
+        "label": "View MEKP Hardener",
+        "description": "Review the separate polyester-family catalyst route."
+      },
+      {
+        "href": "/resources/what-is-mekp-hardener/",
+        "label": "What is MEKP Hardener?",
+        "description": "Understand the separate published MEKP role."
+      },
+      {
+        "href": "/contact/",
+        "label": "Identify the correct hardener route",
+        "description": "Share the base resin product and intended application."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Epoxy Hardener the same as MEKP Hardener?",
+        "a": "No. Epoxy Hardener is the published curing-agent component for compatible epoxy systems. MEKP Hardener is the separate catalyst / initiator product route for published unsaturated polyester, vinyl ester and gelcoat systems."
+      },
+      {
+        "q": "Can MEKP replace Epoxy Hardener?",
+        "a": "No substitution is claimed. Identify the base resin family and follow the current product-specific documentation for the appropriate route."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Identify the base resin before ordering",
+        "body": [
+          "The key decision is the resin system under consideration. Samrat publishes Epoxy Hardener as a polyamide curing agent for compatible epoxy systems. It publishes MEKP Hardener separately for selected unsaturated polyester, vinyl ester and gelcoat systems.",
+          "The word hardener should not override those distinct product roles. A buyer should identify the actual base resin product before asking for a hardener or catalyst."
+        ]
+      },
+      {
+        "heading": "Different routes, not a performance ranking",
+        "body": [
+          "Neither product is presented here as a universal upgrade or substitute for the other. The appropriate selection follows the documented resin family, exact product route and intended application.",
+          "Review the specific product page and TDS rather than carrying technical values, operating instructions or expectations from the epoxy route into a polyester-family route, or vice versa."
+        ]
+      },
+      {
+        "heading": "A better enquiry",
+        "body": [
+          "For an epoxy requirement, name the exact epoxy resin product, intended application and required documentation. For a polyester-family requirement, name the actual resin or gelcoat grade under review. In either case, include quantity, packaging needs and delivery location.",
+          "This guide intentionally omits ratios, catalyst dosing and curing directions. Those are not universal and should not be inferred from a comparison page."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-hardener-vs-uv-resin-curing",
+    "title": "Epoxy Hardener vs UV Resin Curing: Choosing the Correct Product Route",
+    "description": "Separate the published compatible epoxy hardener route from Samrat's separate UV/LED-curable UV Resin product route.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "3 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Epoxy Hardener vs UV Resin Curing | Buyer Guide",
+      "keywords": [
+        "Epoxy Hardener vs UV Resin",
+        "UV Resin Hardener",
+        "Epoxy Curing Agent",
+        "UV LED Resin"
+      ],
+      "ogTitle": "Epoxy Hardener vs UV Resin Curing",
+      "ogDescription": "Understand why Samrat's UV Resin is a separate UV/LED-curable route rather than a product that uses the published Epoxy Hardener."
+    },
+    "quickFacts": {
+      "Epoxy Hardener route": "Separate component in a compatible two-component epoxy system",
+      "UV Resin route": "Separate UV/LED-curable epoxy-acrylate product",
+      "Does UV Resin use this hardener?": "Not according to the published UV Resin route",
+      "Selection rule": "Begin with the required curing-system category"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-hardener",
+      "epoxy-hardener-compatibility-guide",
+      "what-is-uv-resin",
+      "uv-resin-buyer-guide"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review the separate compatible epoxy-system component."
+      },
+      {
+        "href": "/products/uv-resin/",
+        "label": "View UV Resin",
+        "description": "Review the published UV/LED-curable product route."
+      },
+      {
+        "href": "/resources/what-is-uv-resin/",
+        "label": "What is UV Resin?",
+        "description": "Read the separate product-role guide."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the correct system route",
+        "description": "Share the intended application and product requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does UV Resin need Epoxy Hardener?",
+        "a": "No. The published UV Resin route is described as UV/LED-curable and does not use this separate Epoxy Hardener component."
+      },
+      {
+        "q": "Is UV Resin the same as a two-component epoxy system?",
+        "a": "No. The site presents UV Resin as a separate product route. Review the actual required curing-system category before selecting a product."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Two different published system routes",
+        "body": [
+          "Epoxy Hardener is the separate polyamide curing-agent component for a compatible two-component epoxy system. UV Resin is published separately as an epoxy-acrylate product that cures through a UV/LED route.",
+          "This difference is a product-system distinction, not simply another hardener choice. The published UV Resin route does not identify the separate Epoxy Hardener as part of its system."
+        ]
+      },
+      {
+        "heading": "Choose by the stated product requirement",
+        "body": [
+          "Start with the finished application and the required system route. If the requirement names a compatible two-component epoxy system, identify the exact epoxy resin and review the Epoxy Hardener documentation. If it specifies a UV/LED-curable route, begin with the UV Resin product data instead.",
+          "Do not transfer claims, technical values or operating assumptions between these separate routes. Each product has its own published role and current TDS."
+        ]
+      },
+      {
+        "heading": "Keep the quote discussion specific",
+        "body": [
+          "Include the intended application, required resin-system category, exact product if known, quantity, packaging need, delivery location and required documentation. This helps confirm the product route before procurement.",
+          "This guide does not provide exposure conditions, cure schedules or handling instructions. Review the appropriate current document for the chosen system."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-hardener-for-clear-casting-and-art-resin",
+    "title": "Epoxy Hardener for Clear Casting and Art Resin: Buyer Guide",
+    "description": "Understand the documented Epoxy Hardener relationship to Samrat's separate Clear Casting Resin and Epoxy Art Resin product routes.",
+    "category": "System Selection",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Epoxy Hardener for Clear Casting and Art Resin | Buyer Guide",
+      "keywords": [
+        "Epoxy Hardener for Clear Casting Resin",
+        "Epoxy Hardener for Art Resin",
+        "Clear Casting Resin Hardener",
+        "Art Resin Hardener"
+      ],
+      "ogTitle": "Epoxy Hardener for Clear Casting and Art Resin",
+      "ogDescription": "A product-route guide for the documented Epoxy Hardener relationship to Clear Casting Resin and Epoxy Art Resin."
+    },
+    "quickFacts": {
+      "Clear Casting Resin": "Separately published clear, contained casting route",
+      "Epoxy Art Resin": "Separately published art and decorative surface route",
+      "Documented relationship": "Both product routes identify compatible Epoxy Hardener",
+      "Confirmation": "Review current product data before ordering"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-hardener",
+      "epoxy-resin-vs-epoxy-hardener",
+      "epoxy-hardener-compatibility-guide",
+      "casting-resin-vs-coating-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Clear Casting Resin",
+        "description": "Review the clear, contained casting product route."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the art and decorative surface product route."
+      },
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review the separately published hardener data."
+      },
+      {
+        "href": "/contact/",
+        "label": "Confirm the product-system pairing",
+        "description": "Share the resin route and intended application."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is this Epoxy Hardener linked to Clear Casting Resin?",
+        "a": "Yes. The published Clear Casting Resin product route identifies a compatible Epoxy Hardener. Confirm the current resin/hardener pairing and documentation before ordering."
+      },
+      {
+        "q": "Is this Epoxy Hardener linked to Epoxy Art Resin?",
+        "a": "Yes. The published Epoxy Art Resin route identifies compatible Epoxy Hardener. This does not establish compatibility with every art resin or epoxy product."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Begin with the resin product route",
+        "body": [
+          "Clear Casting Resin and Epoxy Art Resin are separate published epoxy product routes. Clear Casting Resin is positioned for clear, contained casting; Epoxy Art Resin is positioned for art and decorative surface work. Each product route identifies a compatible Epoxy Hardener.",
+          "The hardener relationship should be read alongside the exact resin product and its current data. A buyer should not treat the phrase 'art resin' or 'casting resin' as proof that a hardener from another product system is compatible."
+        ]
+      },
+      {
+        "heading": "Use the product role to narrow the discussion",
+        "body": [
+          "Where the requirement is a clear contained casting, begin with Clear Casting Resin and its own product information. Where the requirement is an art or decorative surface route, begin with Epoxy Art Resin. This helps identify the resin component before confirming the associated hardener.",
+          "The two routes are not interchangeable product labels, and this guide does not transfer casting-depth, finish, yellowing or other product-specific claims from one route to another."
+        ]
+      },
+      {
+        "heading": "What to include in the enquiry",
+        "body": [
+          "Provide the exact resin route, intended application, required finish or component, quantity, packaging requirement, delivery location and any requested documentation. Ask for confirmation if the buyer's existing resin product is not the published Samrat route.",
+          "This resource intentionally omits mixing ratios, curing times and use instructions. Use the current product-specific TDS and approved system documentation for those matters."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-dmc-smc-resin",
+    "title": "What Is DMC / SMC Resin? A Moulding-Compound Buyer Guide",
+    "description": "Understand Samrat FRP Traders' published orthophthalic UPR route for Dough Moulding Compound and Sheet Moulding Compound requirements, including what the current TDS does and does not establish.",
+    "category": "Technical Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "What Is DMC / SMC Resin? | Polyester Resin for Moulding Compounds",
+      "keywords": [
+        "What Is DMC Resin",
+        "What Is SMC Resin",
+        "DMC SMC Resin",
+        "Polyester Resin for Moulding Compound",
+        "DMC Polyester Resin",
+        "SMC Polyester Resin"
+      ],
+      "ogTitle": "What Is DMC / SMC Resin?",
+      "ogDescription": "A buyer guide to Samrat's published DMC/SMC orthophthalic unsaturated polyester resin route."
+    },
+    "quickFacts": {
+      "Published product": "One DMC/SMC Resin product route",
+      "Resin family": "Orthophthalic unsaturated polyester resin",
+      "DMC in the current TDS": "Dough Moulding Compound",
+      "SMC in the current TDS": "Sheet Moulding Compound"
+    },
+    "relatedSlugs": [
+      "dmc-vs-smc",
+      "dmc-smc-resin-vs-gp-resin",
+      "dmc-smc-resin-applications",
+      "dmc-smc-resin-technical-specifications"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/dmc-smc-resin/",
+        "label": "View DMC/SMC Resin",
+        "description": "Review the published product role, current TDS and enquiry path."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Unsaturated Polyester Resin product hub",
+        "description": "See the broader UPR family and its separate published product routes."
+      },
+      {
+        "href": "/tds/dmc-smc-resin-tds.pdf",
+        "label": "Download DMC/SMC Resin TDS",
+        "description": "Use the current grade-specific document as the technical reference."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a moulding-compound requirement",
+        "description": "Share the DMC or SMC context, finished component and required documentation."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is DMC/SMC Resin a UPR?",
+        "a": "Yes. The current DMC/SMC Resin TDS identifies an orthophthalic unsaturated polyester resin. UPR is the broader family; this product is its separately published moulding-compound route."
+      },
+      {
+        "q": "Does Samrat publish separate DMC and SMC formulations?",
+        "a": "No separate DMC-grade and SMC-grade formulations are published in the repository. The current product listing and TDS name one DMC/SMC Resin route, so the actual compound requirement should be confirmed during enquiry."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The published DMC/SMC Resin role",
+        "body": [
+          "Samrat FRP Traders publishes DMC/SMC Resin as an orthophthalic unsaturated polyester resin for Dough Moulding Compound and Sheet Moulding Compound contexts. The current TDS identifies one pale-yellow, non-accelerated liquid product with documented supply data, packaging, storage and listed application categories.",
+          "This is an application-specific product route within the broader Unsaturated Polyester Resin family. It should not be selected simply because a requirement contains the word polyester resin. Start with the moulding-compound context, finished component and current product document."
+        ]
+      },
+      {
+        "heading": "What DMC and SMC mean in the current documentation",
+        "body": [
+          "The current TDS expands DMC as Dough Moulding Compound and SMC as Sheet Moulding Compound. Those are the two named product contexts for the one published resin route.",
+          "The document does not publish a separate DMC formula, a separate SMC formula or a manufacturing recipe. It also does not make the word 'sheet' in SMC interchangeable with Samrat's separate FRP Sheet Grade Yellow Resin or Roof Light Sheet Grade Resin products."
+        ]
+      },
+      {
+        "heading": "What the published data does not establish",
+        "body": [
+          "The repository does not publish a BMC product designation, compound formulation, filler or reinforcement selection, moulding conditions, finished-part ratings or application approval for this resin. Those items should not be inferred from the DMC/SMC name.",
+          "The TDS lists low shrinkage and electrical insulation among key characteristics, but no shrinkage value, low-profile designation, electrical test value, fire rating or finished-part certification is published. Product data for the liquid resin is not the same as evidence for a finished compound or moulded component."
+        ]
+      },
+      {
+        "heading": "A practical starting point for selection",
+        "body": [
+          "Before requesting a quote, identify whether the requirement is DMC or SMC, the finished component, any stated product or finished-part specification, quantity, packaging need, delivery location and requested documentation. This gives the supplier a useful selection brief without requiring a public compound recipe.",
+          "Review the current DMC/SMC Resin TDS alongside the actual purchase requirement. If the requirement is general FRP, an FRP sheet or panel, a laminating resin, a surface gelcoat or a fire-performance grade, begin with the separate product route rather than assuming DMC/SMC Resin is interchangeable."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dmc-vs-smc",
+    "title": "DMC vs SMC: What Industrial Buyers Should Verify",
+    "description": "Separate the published Dough Moulding Compound and Sheet Moulding Compound terminology, understand the limits of the current product data, and prepare a more specific DMC or SMC resin enquiry.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "DMC vs SMC | Dough and Sheet Moulding Compound Resin Guide",
+      "keywords": [
+        "DMC vs SMC",
+        "Dough Moulding Compound vs Sheet Moulding Compound",
+        "DMC Resin",
+        "SMC Resin",
+        "Moulding Compound Resin"
+      ],
+      "ogTitle": "DMC vs SMC: What Buyers Should Verify",
+      "ogDescription": "A product-document-led DMC and SMC terminology guide for industrial resin buyers."
+    },
+    "quickFacts": {
+      "DMC": "Dough Moulding Compound in the current TDS",
+      "SMC": "Sheet Moulding Compound in the current TDS",
+      "Published resin route": "One DMC/SMC Resin listing for both contexts",
+      "Not published": "Separate formulas, process settings or finished-part ratings"
+    },
+    "relatedSlugs": [
+      "what-is-dmc-smc-resin",
+      "smc-resin-vs-sheet-grade-resin",
+      "dmc-smc-resin-vs-gp-resin",
+      "dmc-smc-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/dmc-smc-resin/",
+        "label": "View DMC/SMC Resin",
+        "description": "Review the single published DMC/SMC product route and current TDS."
+      },
+      {
+        "href": "/resources/smc-resin-vs-sheet-grade-resin/",
+        "label": "SMC Resin vs Sheet Grade Resin",
+        "description": "Keep Sheet Moulding Compound separate from FRP sheet and panel resin selection."
+      },
+      {
+        "href": "/tds/dmc-smc-resin-tds.pdf",
+        "label": "Download DMC/SMC Resin TDS",
+        "description": "Check the current document before confirming a product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Clarify a DMC or SMC requirement",
+        "description": "Share the compound context and finished component for discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the current TDS say DMC and SMC are the same formulation?",
+        "a": "It names one DMC/SMC Resin product for both contexts, but it does not publish separate formulas or prove that every DMC and SMC compound requirement uses an identical system. Confirm the actual requirement before ordering."
+      },
+      {
+        "q": "Does this guide provide moulding conditions or compound recipes?",
+        "a": "No. The repository does not publish mould temperature, pressure, cycle-time, filler, reinforcement or catalyst instructions for DMC/SMC Resin."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Begin with the terms Samrat publishes",
+        "body": [
+          "The published DMC/SMC Resin TDS uses DMC for Dough Moulding Compound and SMC for Sheet Moulding Compound. These names identify the two documented moulding-compound contexts for the product.",
+          "They should be used precisely. A buyer should not turn the DMC/SMC name into a generic label for every polyester compound, ordinary FRP sheet or unrelated resin grade."
+        ]
+      },
+      {
+        "heading": "What the current product data distinguishes",
+        "body": [
+          "The product name distinguishes a Dough Moulding Compound context from a Sheet Moulding Compound context. The current repository publishes one DMC/SMC Resin and one grade-specific TDS that names both contexts.",
+          "It does not publish a product-specific account of compound form, reinforcement type, filler system, manufacturing condition, separate grade or finished-part performance for DMC compared with SMC. That distinction must be established from the actual requirement rather than invented on a comparison page."
+        ]
+      },
+      {
+        "heading": "Where resin selection fits",
+        "body": [
+          "The resin is one part of a moulding-compound system. For a DMC or SMC enquiry, first identify the named compound context, component, any stated requirement and the document or purchase specification that controls selection.",
+          "If the requirement is actually an FRP sheet or panel, route it to the separately published Sheet Grade or Roof Light Sheet Grade products. If it is a general FRP need, use the GP or broader UPR route. Product role is more reliable than choosing by the word 'sheet' alone."
+        ]
+      },
+      {
+        "heading": "A clearer RFQ",
+        "body": [
+          "State whether the request is DMC or SMC, describe the finished component, include any material or finished-part requirement, identify quantity and delivery location, and name the required documentation. This avoids an ambiguous request for 'SMC resin' that cannot be matched to the correct published route."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "smc-resin-vs-sheet-grade-resin",
+    "title": "SMC Resin vs Sheet Grade Resin: Different Product Roles",
+    "description": "Learn why Sheet Moulding Compound resin is not the same product decision as conventional FRP Sheet Grade Resin for sheet and panel manufacturing.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "SMC Resin vs Sheet Grade Resin | Moulding Compound Buyer Guide",
+      "keywords": [
+        "SMC Resin vs Sheet Grade Resin",
+        "Sheet Moulding Compound Resin",
+        "FRP Sheet Grade Resin",
+        "SMC Polyester Resin",
+        "FRP Sheet Resin"
+      ],
+      "ogTitle": "SMC Resin vs Sheet Grade Resin",
+      "ogDescription": "Separate Sheet Moulding Compound resin selection from Samrat's published FRP sheet and panel product routes."
+    },
+    "quickFacts": {
+      "SMC Resin": "Published for Sheet Moulding Compound context",
+      "Sheet Grade Yellow": "Separate FRP sheet and panel product route",
+      "Roof Light Sheet Grade": "Separate roof-light and roofing-sheet route",
+      "Selection rule": "Do not transfer technical data between product roles"
+    },
+    "comparisonTable": {
+      "title": "Published product-role distinction",
+      "headers": [
+        "Buyer question",
+        "DMC/SMC Resin",
+        "Sheet Grade product routes"
+      ],
+      "rows": [
+        [
+          "What does 'sheet' refer to?",
+          "Sheet Moulding Compound context",
+          "Conventional FRP sheet or panel context"
+        ],
+        [
+          "Published product role",
+          "DMC/SMC moulding-compound route",
+          "Separate Sheet Grade Yellow or Roof Light Sheet Grade route"
+        ],
+        [
+          "Selection document",
+          "Current DMC/SMC Resin TDS",
+          "Current TDS for the selected sheet-grade product"
+        ]
+      ],
+      "note": "This is a product-role guide. It does not claim that the products are interchangeable or establish a performance ranking."
+    },
+    "relatedSlugs": [
+      "dmc-vs-smc",
+      "dmc-smc-resin-vs-gp-resin",
+      "what-is-sheet-grade-yellow-resin",
+      "how-to-choose-resin-for-frp-sheet-and-panel-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/dmc-smc-resin/",
+        "label": "View DMC/SMC Resin",
+        "description": "Review the moulding-compound product role and current TDS."
+      },
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the separate published yellow FRP sheet and panel route."
+      },
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "View Roof Light Sheet Grade Resin",
+        "description": "Review the separate published roof-light and roofing-sheet route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Confirm the right sheet-related product route",
+        "description": "Share whether the requirement is SMC or a finished FRP sheet or panel."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is SMC Resin interchangeable with Sheet Grade Yellow Resin?",
+        "a": "No interchangeability is published. DMC/SMC Resin is the moulding-compound route, while Sheet Grade Yellow Resin is a separately published FRP sheet and panel route. Use the relevant current TDS for the actual application."
+      },
+      {
+        "q": "Does the word sheet make Roof Light Sheet Grade Resin an SMC product?",
+        "a": "No. Roof Light Sheet Grade Resin is separately positioned for roof-light and roofing-sheet applications. 'Sheet' in its name is not evidence that it is the DMC/SMC product route."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The shared word does not create a shared product role",
+        "body": [
+          "SMC means Sheet Moulding Compound in the current DMC/SMC Resin TDS. By contrast, Samrat's Sheet Grade Yellow Resin and Roof Light Sheet Grade Resin pages are separate product routes for finished FRP sheet, panel or roofing-sheet contexts.",
+          "The same word can refer to different buyer questions. Treat the published product role and its current TDS as the selection starting point rather than assuming any resin with 'sheet' in its description uses the same data."
+        ]
+      },
+      {
+        "heading": "When the DMC/SMC route is the relevant discussion",
+        "body": [
+          "Use DMC/SMC Resin when the requirement is specifically a Dough or Sheet Moulding Compound context. The current TDS describes that route as an orthophthalic unsaturated polyester resin and publishes its own liquid-resin supply data.",
+          "It does not transfer the application, appearance, processing or performance claims from a finished FRP sheet-grade product into the moulding-compound discussion."
+        ]
+      },
+      {
+        "heading": "When a sheet-grade route is the relevant discussion",
+        "body": [
+          "Use the Sheet Grade Yellow or Roof Light Sheet Grade product pages when the buyer is selecting a resin for the separately published FRP sheet, panel or roofing-sheet application. Those products have their own documentation, supplied appearance and buyer guidance.",
+          "If the request is unclear, state whether the finished requirement is a moulding compound or a conventional FRP sheet or panel. This simple distinction improves the product and document review before quotation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dmc-smc-resin-vs-gp-resin",
+    "title": "DMC/SMC Resin vs GP Resin: Moulding Compound or General FRP?",
+    "description": "Compare Samrat's published DMC/SMC moulding-compound route with general-purpose polyester resin selection, while keeping both within the broader UPR family.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "DMC/SMC Resin vs GP Resin | Moulding Compound vs General FRP",
+      "keywords": [
+        "DMC SMC Resin vs GP Resin",
+        "DMC Grade UPR",
+        "SMC Grade UPR",
+        "General Purpose Polyester Resin",
+        "Moulding Compound Resin"
+      ],
+      "ogTitle": "DMC/SMC Resin vs GP Resin",
+      "ogDescription": "Select the published moulding-compound or general-FRP route by the actual component and current product data."
+    },
+    "quickFacts": {
+      "Shared family": "Unsaturated polyester resin",
+      "DMC/SMC route": "Published for Dough and Sheet Moulding Compound contexts",
+      "GP route": "Published for general-purpose FRP requirements",
+      "Not a ranking": "The product role and current TDS control selection"
+    },
+    "comparisonTable": {
+      "title": "Published product-role comparison",
+      "headers": [
+        "Buyer question",
+        "DMC/SMC Resin",
+        "GP Resin route"
+      ],
+      "rows": [
+        [
+          "Primary context",
+          "Dough and Sheet Moulding Compounds",
+          "General-purpose FRP requirements"
+        ],
+        [
+          "Resin-family relationship",
+          "Orthophthalic UPR product route",
+          "Separate published UPR / GP product routes"
+        ],
+        [
+          "What to review",
+          "DMC/SMC TDS, compound context and component requirement",
+          "Relevant GP product page, TDS and FRP application requirement"
+        ]
+      ],
+      "note": "Neither route is presented as universally better. Do not transfer technical values, applications or finished-part expectations between them."
+    },
+    "relatedSlugs": [
+      "what-is-dmc-smc-resin",
+      "dmc-vs-smc",
+      "smc-resin-vs-sheet-grade-resin",
+      "dmc-smc-resin-technical-specifications"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/dmc-smc-resin/",
+        "label": "View DMC/SMC Resin",
+        "description": "Review the published moulding-compound product route."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Use the parent page to understand the broader UPR family."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separately published general-purpose FRP route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss product-route selection",
+        "description": "Share the component, manufacturing context and any stated specification."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is DMC/SMC Resin unrelated to UPR?",
+        "a": "No. The current TDS identifies DMC/SMC Resin as an orthophthalic unsaturated polyester resin. The difference is the separately published moulding-compound product role, not an unrelated chemistry family."
+      },
+      {
+        "q": "Is DMC/SMC Resin automatically better than GP Resin?",
+        "a": "No universal performance ranking is published. Select by the documented product role, actual component, stated requirement and current product-specific data."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "One broader family, different published routes",
+        "body": [
+          "Unsaturated Polyester Resin is the broad product family. Samrat publishes DMC/SMC Resin as an orthophthalic UPR route for Dough and Sheet Moulding Compound contexts, while GP Resin pages serve general-purpose FRP selection.",
+          "This relationship prevents two common errors: treating the products as unrelated chemistries, or treating every UPR grade as automatically suitable for a moulding-compound requirement."
+        ]
+      },
+      {
+        "heading": "Choose by the actual manufacturing and component context",
+        "body": [
+          "Where a purchase requirement specifically names DMC or SMC, begin with DMC/SMC Resin and its current TDS. Where the question is general FRP, use the relevant GP or parent UPR product page and its document instead.",
+          "The existing product information does not support moving DMC/SMC properties into GP resin, or GP applications into the specialised moulding-compound route. Keep the documentation attached to the grade under review."
+        ]
+      },
+      {
+        "heading": "When another product route belongs in the discussion",
+        "body": [
+          "A conventional FRP sheet or panel requirement belongs to the Sheet Grade product routes, while laminate-building work belongs to the published Lamination Resin route. A specified fire-performance requirement should be handled through the separate Fire Retardant Resin route and its documentation.",
+          "These are selection boundaries, not product rankings. The buyer should state the finished application and purchase specification so the correct route can be reviewed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dmc-smc-resin-applications",
+    "title": "DMC/SMC Resin Applications: Published Industrial Contexts",
+    "description": "Review the DMC/SMC Resin applications listed in Samrat's current TDS and the finished-component questions that still require separate confirmation.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "DMC/SMC Resin Applications | Polyester Resin for Moulding Compounds",
+      "keywords": [
+        "DMC SMC Resin Applications",
+        "DMC Polyester Resin Applications",
+        "SMC Polyester Resin Applications",
+        "Moulding Compound Resin Applications",
+        "Electrical Housing Resin"
+      ],
+      "ogTitle": "DMC/SMC Resin Applications",
+      "ogDescription": "A buyer-level guide to the industrial DMC/SMC application categories listed in the current product TDS."
+    },
+    "quickFacts": {
+      "Controlling source": "Current DMC/SMC Resin TDS",
+      "Published compound context": "DMC and SMC moulding compounds",
+      "Listed component categories": "Electrical housings, manhole covers, automotive and transport components",
+      "Separate verification": "Finished-system and project requirements"
+    },
+    "relatedSlugs": [
+      "what-is-dmc-smc-resin",
+      "dmc-vs-smc",
+      "dmc-smc-resin-technical-specifications",
+      "dmc-smc-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/dmc-smc-resin/",
+        "label": "View DMC/SMC Resin",
+        "description": "Review the product details and current Technical Data Sheet."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber",
+        "description": "Review the separate reinforcement-material product role where the system requires reinforcement."
+      },
+      {
+        "href": "/tds/dmc-smc-resin-tds.pdf",
+        "label": "Download DMC/SMC Resin TDS",
+        "description": "Confirm the listed application context and liquid-resin data."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a listed application",
+        "description": "Share the finished component and any project-specific requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which DMC/SMC applications are actually published?",
+        "a": "The current TDS lists DMC and SMC moulding compounds, electrical housings, manhole covers, automotive panels and transportation components, water tanks and sanitaryware."
+      },
+      {
+        "q": "Does a listed application prove a finished-part rating or approval?",
+        "a": "No. The repository does not publish a finished-part test result, approval or performance rating for those applications. Confirm the actual component and requirement separately."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the published application list as a starting point",
+        "body": [
+          "The current DMC/SMC Resin TDS lists DMC and SMC moulding compounds, electrical housings, manhole covers, automotive panels, transportation components, water tanks and sanitaryware. These categories explain the product's published industrial context.",
+          "They are not a blanket assurance for every product within those categories. The finished component, compound system, purchase specification and any project requirement still need review before a grade is selected."
+        ]
+      },
+      {
+        "heading": "Electrical and industrial component context",
+        "body": [
+          "Electrical housings and manhole covers are listed by the current TDS. The page therefore uses those component categories, but does not add dielectric strength, tracking resistance, electrical certification or other unlisted electrical performance claims.",
+          "For an electrical component, provide the actual component identity and any stated material or finished-part requirement. A generic electrical description alone does not establish a test result for a liquid resin or a completed moulding."
+        ]
+      },
+      {
+        "heading": "Automotive, transport, water and sanitary contexts",
+        "body": [
+          "The current TDS also lists automotive panels, transportation components, water tanks and sanitaryware. This is the extent of the published application positioning used here.",
+          "No automotive Class-A surface, OEM approval, mechanical rating, weathering claim or component-specific performance result is published. If such a requirement matters, include it in the enquiry rather than inferring it from the listed application category."
+        ]
+      },
+      {
+        "heading": "Keep resin and reinforcement roles separate",
+        "body": [
+          "DMC/SMC Resin is the liquid resin or matrix-side product route. Where a composite system includes reinforcement, Glass Fiber remains a separate material decision. The current DMC/SMC documentation does not prescribe CSM 300, CSM 450, another reinforcement form or a laminate design.",
+          "Review the current product TDS and the finished-system requirement together. This page deliberately avoids compound formulation and production instructions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dmc-smc-resin-technical-specifications",
+    "title": "DMC/SMC Resin Technical Specifications: What Buyers Should Review",
+    "description": "Use the current DMC/SMC Resin TDS to review published liquid-resin specifications, understand catalogue differences, and keep product data separate from finished compound performance.",
+    "category": "Technical Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "DMC/SMC Resin Technical Specifications | DMC and SMC Resin TDS Guide",
+      "keywords": [
+        "DMC SMC Resin Technical Specifications",
+        "DMC Resin Viscosity",
+        "SMC Resin Gel Time",
+        "DMC SMC Resin TDS",
+        "Moulding Compound Resin Specifications"
+      ],
+      "ogTitle": "DMC/SMC Resin Technical Specifications",
+      "ogDescription": "Review published DMC/SMC liquid-resin data and understand why it does not replace finished-compound performance evidence."
+    },
+    "quickFacts": {
+      "Controlling document": "SPR-TDS-DMC Rev. 01, July 2026",
+      "Published viscosity": "600 cPs at 25 C",
+      "Published gel time": "12-18 minutes at 25 C; review TDS test context",
+      "Published storage": "Below 25 C; cool and dry place"
+    },
+    "propertiesTable": {
+      "headers": [
+        "Published liquid-resin property",
+        "Current TDS value"
+      ],
+      "rows": [
+        [
+          "Resin type",
+          "Orthophthalic unsaturated polyester resin"
+        ],
+        [
+          "Appearance",
+          "Pale yellow liquid"
+        ],
+        [
+          "Viscosity",
+          "600 cPs at 25 C"
+        ],
+        [
+          "Curing type",
+          "Non-accelerated"
+        ],
+        [
+          "Gel time",
+          "12-18 minutes at 25 C; review the current TDS for test context"
+        ],
+        [
+          "Styrene content",
+          "35%"
+        ],
+        [
+          "Specific gravity",
+          "1.12 g/cm3"
+        ],
+        [
+          "Flash point",
+          "32 C, closed cup"
+        ]
+      ],
+      "note": "The values above are published liquid-resin data from the current DMC/SMC TDS. They are not finished-compound or moulded-part performance ratings."
+    },
+    "relatedSlugs": [
+      "what-is-dmc-smc-resin",
+      "dmc-smc-resin-applications",
+      "dmc-smc-resin-procurement-checklist",
+      "dmc-smc-resin-vs-gp-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/dmc-smc-resin/",
+        "label": "View DMC/SMC Resin",
+        "description": "Review the product page, packaging, MOQ and current document link."
+      },
+      {
+        "href": "/tds/dmc-smc-resin-tds.pdf",
+        "label": "Download current DMC/SMC TDS",
+        "description": "Use the current product-specific document as the controlling technical reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review the wider range while keeping the current TDS as the grade reference."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a documented specification",
+        "description": "Share the actual component and requested technical or finished-part requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why does the catalogue show different DMC/SMC figures?",
+        "a": "The catalogue lists 550 cPs viscosity, 10-minute gel time and 1.13 specific gravity, while the current grade-specific TDS lists 600 cPs at 25 C, 12-18 minutes at 25 C and 1.12 g/cm3. This guide uses the current TDS and does not combine conflicting figures."
+      },
+      {
+        "q": "Do the published liquid-resin properties prove low-profile, electrical or finished-part performance?",
+        "a": "No. The repository does not publish a shrinkage value, low-profile or Class-A designation, electrical test result, fire rating or finished-compound certification for this product."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the grade-specific TDS as the technical reference",
+        "body": [
+          "The current DMC/SMC Resin TDS is the controlling document for the published liquid-resin specification. It identifies an orthophthalic unsaturated polyester resin, pale-yellow liquid appearance, 600 cPs viscosity at 25 C, non-accelerated curing type, 12-18 minute gel time at 25 C, 35% styrene content, 1.12 g/cm3 specific gravity and 32 C closed-cup flash point.",
+          "It also publishes a three-month shelf life, below-25 C cool and dry storage, 225 kg drum packaging and a 1,000 kg MOQ. Review the complete current document for test context and purchase discussion."
+        ]
+      },
+      {
+        "heading": "Do not combine conflicting catalogue figures",
+        "body": [
+          "The product catalogue lists different figures for DMC/SMC Resin: 550 cPs viscosity, 10-minute gel time and 1.13 specific gravity. The current TDS lists 600 cPs, 12-18 minutes and 1.12 g/cm3 respectively.",
+          "This guide does not average, reconcile or silently replace those figures. Buyers should use the current grade-specific TDS as the technical reference and raise any unresolved document difference during enquiry."
+        ]
+      },
+      {
+        "heading": "Liquid resin data is not finished compound data",
+        "body": [
+          "Published resin data describes the supplied liquid product. Finished DMC or SMC compound and moulded-part results can depend on the total system, including resin, reinforcement, fillers, additives, compound formulation and moulded configuration.",
+          "That is why viscosity, gel time or specific gravity should not be presented as proof of a finished component's strength, surface quality, electrical behaviour, fire performance or dimensional result. Those requirements must be specified and verified for the relevant system."
+        ]
+      },
+      {
+        "heading": "Read low-shrink and electrical wording carefully",
+        "body": [
+          "The current TDS lists low shrinkage and electrical insulation among key characteristics. It does not publish a low-shrink value, low-profile designation, Class-A claim, electrical test method, electrical value or finished-part certification.",
+          "Use the wording to frame a buyer question, not as a complete technical approval. If a project requires a defined property, provide that requirement and request the relevant product or system evidence."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dmc-smc-resin-procurement-checklist",
+    "title": "DMC/SMC Resin Procurement Checklist: TDS and RFQ Guide",
+    "description": "Prepare a specific DMC or SMC resin enquiry with the compound context, finished component, current TDS, documented commercial details and required technical information.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "DMC/SMC Resin Procurement Checklist | DMC and SMC Resin RFQ",
+      "keywords": [
+        "DMC Resin Procurement",
+        "SMC Resin Procurement",
+        "DMC SMC Resin Supplier",
+        "Moulding Compound Resin Quote",
+        "DMC SMC Resin RFQ"
+      ],
+      "ogTitle": "DMC/SMC Resin Procurement Checklist",
+      "ogDescription": "Use the current TDS and a DMC/SMC-specific RFQ checklist before requesting an industrial resin quotation."
+    },
+    "quickFacts": {
+      "Published packaging": "225 kg drum",
+      "Published MOQ": "1,000 kg",
+      "Published shelf life": "3 months",
+      "First RFQ decision": "DMC or SMC requirement and finished component"
+    },
+    "relatedSlugs": [
+      "what-is-dmc-smc-resin",
+      "dmc-vs-smc",
+      "dmc-smc-resin-applications",
+      "dmc-smc-resin-technical-specifications"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/dmc-smc-resin/",
+        "label": "View DMC/SMC Resin",
+        "description": "Review the published product role, packaging, MOQ and enquiry path."
+      },
+      {
+        "href": "/tds/dmc-smc-resin-tds.pdf",
+        "label": "Download DMC/SMC Resin TDS",
+        "description": "Use the current document as the technical reference for the grade."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review separate resin, catalyst and reinforcement product roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a DMC/SMC Resin quote",
+        "description": "Send the compound, component, commercial and documentation requirements."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in a DMC/SMC Resin RFQ?",
+        "a": "State whether the requirement is DMC or SMC, the finished component, any stated product or finished-part requirement, quantity, packaging need, delivery city/location and required documentation. Include process context if it is useful to the selection discussion."
+      },
+      {
+        "q": "Do published packaging and MOQ confirm availability or finished-part suitability?",
+        "a": "No. The current TDS publishes a 225 kg drum and 1,000 kg MOQ. Stock, lead time, delivery and system suitability must be confirmed for the actual requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the correct moulding-compound context",
+        "body": [
+          "A useful RFQ says whether the requirement is DMC or SMC. It also identifies the finished component and any stated material, project or finished-part requirement. This is more useful than a general request for polyester resin because the current product route is specifically published for DMC and SMC contexts.",
+          "If the requirement is actually a conventional FRP sheet, panel, general laminate, surface finish or fire-performance system, say so early. Those needs may belong to a separate product route and document set."
+        ]
+      },
+      {
+        "heading": "Review the current document and published commercial details",
+        "body": [
+          "Use the current DMC/SMC Resin TDS as the technical reference. It publishes a 225 kg drum, 1,000 kg MOQ, three-month shelf life and below-25 C cool and dry storage. Keep the product TDS with the purchase record rather than relying on a generic family description.",
+          "The catalogue is useful for the wider product range, but it lists different DMC/SMC viscosity, gel-time and specific-gravity figures. Do not use it to silently replace the current grade-specific TDS."
+        ]
+      },
+      {
+        "heading": "A concise RFQ checklist",
+        "body": [
+          "Include: DMC or SMC requirement; exact resin grade if known; finished component; any stated product or finished-part requirement; compound or process context if relevant; expected quantity; packaging requirement; delivery city or location; and requested documentation.",
+          "Where a buyer has a drawing, purchase specification or an existing material reference, include it with the enquiry. This improves the product-selection discussion without asking for or publishing a compound recipe."
+        ]
+      },
+      {
+        "heading": "What this guide does not establish",
+        "body": [
+          "Published packaging, MOQ and TDS data do not establish stock position, delivery promise, process compatibility, a formulation, an electrical or fire rating, or finished-part approval. Confirm those topics for the specific requirement.",
+          "This guide deliberately does not provide filler, reinforcement, catalyst or additive quantities, mould conditions, cure schedules or production troubleshooting. Those details are not documented as a universal DMC/SMC Resin instruction."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "epoxy-hardener-procurement-guide",
+    "title": "Epoxy Hardener Procurement Guide: TDS and RFQ Checklist",
+    "description": "Prepare a specific Epoxy Hardener enquiry with the exact resin product, application, current TDS, quantity, packaging and delivery requirements.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-09",
+    "seo": {
+      "title": "Epoxy Hardener Procurement Guide | Epoxy Hardener RFQ Checklist",
+      "keywords": [
+        "Epoxy Hardener Procurement",
+        "Epoxy Hardener Supplier",
+        "Epoxy Hardener Quote",
+        "Epoxy Resin Hardener RFQ"
+      ],
+      "ogTitle": "Epoxy Hardener Procurement Guide",
+      "ogDescription": "Prepare a factual epoxy hardener quotation discussion using the exact resin product and current Technical Data Sheet."
+    },
+    "quickFacts": {
+      "Published packaging": "20 kg",
+      "Published MOQ": "100 kg",
+      "Technical document": "Current Epoxy Hardener TDS",
+      "First RFQ input": "Exact epoxy resin product and intended application"
+    },
+    "relatedSlugs": [
+      "what-is-epoxy-hardener",
+      "epoxy-hardener-compatibility-guide",
+      "epoxy-hardener-for-clear-casting-and-art-resin",
+      "epoxy-hardener-vs-mekp-hardener"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review the product role, published packaging and MOQ."
+      },
+      {
+        "href": "/tds/epoxy-hardener-tds.pdf",
+        "label": "Download Epoxy Hardener TDS",
+        "description": "Use the current product-specific document as the technical reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Download Product Catalogue",
+        "description": "Review the separate published epoxy, UV and polyester-family product routes."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request an Epoxy Hardener quote",
+        "description": "Submit the resin-system and commercial details for review."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should be included in an Epoxy Hardener RFQ?",
+        "a": "Include the exact epoxy resin product, intended application, required documentation, expected quantity, packaging requirement if relevant and delivery location."
+      },
+      {
+        "q": "Do the published packaging and MOQ confirm stock or suitability?",
+        "a": "No. The current TDS publishes a 20 kg pack and 100 kg MOQ. Availability, lead time, delivery and product-system suitability require confirmation for the actual requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current hardener document",
+        "body": [
+          "The current Epoxy Hardener TDS is the technical reference for the published polyamide, amine-based hardener product. It lists the supplied form, viscosity, specific gravity, amine value, storage, shelf life, packaging and MOQ.",
+          "The TDS should be reviewed with the exact compatible resin product. The catalogue uses different chemical-type wording and some different technical figures, so it should not be used to silently replace the current TDS for product selection."
+        ]
+      },
+      {
+        "heading": "Prepare a compatibility-led RFQ",
+        "body": [
+          "State the exact Samrat epoxy resin product under consideration, intended application, required component or finish, quantity, packaging requirement if relevant, delivery city/location and any requested technical documentation. Include a drawing, purchase specification or existing product reference where available.",
+          "If the application requires a different product route, identify it early: UV/LED-curable work belongs to the separate UV Resin route, while polyester-family systems use the separate MEKP route. This avoids a vague request for 'hardener' that cannot be checked against the correct system."
+        ]
+      },
+      {
+        "heading": "What this guide does not establish",
+        "body": [
+          "Published packaging and MOQ do not confirm stock, lead time, sample policy, delivery commitment or compatibility with an unidentified resin. Confirm those points for the specific requirement.",
+          "This guide does not repeat ratios, cure schedules, mixing instructions or process troubleshooting. Refer to the current product-specific document and approved system information instead."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-pet-modified-polyester-resin",
+    "title": "What Is PET Resin / Polyester Putty Resin? Samrat's PET-Modified Resin Explained",
+    "description": "PET Resin / Polyester Putty Resin is Samrat's PET-modified liquid unsaturated polyester sheet grade. Understand what it is, how the dual name works and where it's used.",
+    "category": "Technical Guide",
+    "icon": "info",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "PET Resin / Polyester Putty Resin | Sheet Grade Guide",
+      "keywords": [
+        "PET Modified Polyester Resin",
+        "Polyester Putty Resin",
+        "PET Modified Unsaturated Polyester Resin",
+        "PET Resin Sheet Grade",
+        "Polyester Resin for Fibre Sheets",
+        "FRP Sheet Lamination Resin"
+      ],
+      "ogTitle": "What Is PET Resin / Polyester Putty Resin?",
+      "ogDescription": "A clear explanation of Samrat's PET-modified liquid unsaturated polyester sheet grade, marketed as PET Resin / Polyester Putty Resin."
+    },
+    "quickFacts": {
+      "Published product": "PET Resin / Polyester Putty Resin",
+      "Resin family": "PET-modified unsaturated polyester resin",
+      "Supplied form": "Pale-yellow liquid sheet grade",
+      "Selection reference": "Current TDS"
+    },
+    "relatedSlugs": [
+      "pet-resin-liquid-grade-vs-thermoplastic-pet",
+      "pet-resin-applications-sheet-lamination-and-panels",
+      "pet-resin-vs-gp-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-putty-resin/",
+        "label": "View PET Resin / Polyester Putty Resin",
+        "description": "Review the product role, specifications, pack and enquiry path."
+      },
+      {
+        "href": "/tds/pet-resin-tds.pdf",
+        "label": "Download the TDS",
+        "description": "Use the grade-specific technical document as the controlling reference."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Understand the broader family without transferring grade data."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a PET Resin / Polyester Putty Resin requirement",
+        "description": "Share the exact liquid form and intended sheet or laminate application."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is PET Resin / Polyester Putty Resin on this site?",
+        "a": "It's Samrat's PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade for PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing. Full technical data is on the current TDS."
+      },
+      {
+        "q": "Is this PET Resin a conventional thermoplastic PET material?",
+        "a": "No. It's a liquid, styrene-compatible unsaturated polyester resin system with polyethylene terephthalate content — not solid thermoplastic PET chips, pellets or a bottle-grade material."
+      },
+      {
+        "q": "Why does Samrat use both the PET Resin and Polyester Putty Resin names?",
+        "a": "Both names appear together on the current TDS heading and form the approved buyer-facing identity for the same Samrat grade."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The PET Resin / Polyester Putty Resin identity",
+        "body": [
+          "Samrat FRP Traders manufactures PET Resin / Polyester Putty Resin as a PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade. The current TDS describes polyethylene terephthalate content in a liquid, styrene-compatible resin system and is the controlling technical reference for this product.",
+          "It sits within the broader unsaturated polyester resin family while retaining its own grade and application context — start with your exact finished sheet or laminate requirement and the current TDS."
+        ]
+      },
+      {
+        "heading": "What PET means in the published document",
+        "body": [
+          "For this product, PET refers to the polyethylene terephthalate content described in the PET-modified liquid resin system. The document does not describe a conventional thermoplastic PET commodity product such as chips, pellets, bottle-grade material or recycled PET feedstock.",
+          "The current product catalogue separately labels a different PET item as thermoplastic chips. That difference in form and data means a buyer should not combine catalogue-chip information with the dedicated liquid PET Resin TDS."
+        ]
+      },
+      {
+        "heading": "Published application context",
+        "body": [
+          "The current TDS lists PET sheets and fibre sheet products, together with FRP sheet lamination and panel manufacturing. These are the application contexts used in this guide.",
+          "Finished-product performance depends on the complete sheet, laminate or panel system and is not established by the liquid-resin name alone."
+        ]
+      },
+      {
+        "heading": "Use the product document to start a focused enquiry",
+        "body": [
+          "Share the intended PET-sheet, fibre-sheet, FRP-sheet or panel application; required liquid-resin form; relevant technical data; quantity; packaging need; delivery location; and requested documentation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pet-resin-liquid-grade-vs-thermoplastic-pet",
+    "title": "PET Resin Material Forms: Liquid Polyester Grade vs Thermoplastic PET",
+    "description": "Distinguish Samrat's PET Resin / Polyester Putty Resin liquid sheet grade from conventional thermoplastic PET chips, pellets and commodity-plastic material.",
+    "category": "Product Selection",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "PET Resin vs Thermoplastic PET | Liquid Sheet Grade Buyer Guide",
+      "keywords": [
+        "PET Resin vs Thermoplastic PET",
+        "Liquid PET Modified Resin",
+        "PET Resin Sheet Grade",
+        "PET Resin Material Form",
+        "PET Resin vs Polyester Putty"
+      ],
+      "ogTitle": "PET Resin: Liquid Grade vs Thermoplastic PET",
+      "ogDescription": "Choose the correct material form with the dedicated PET Resin TDS rather than treating PET labels as interchangeable."
+    },
+    "quickFacts": {
+      "Samrat product form": "Liquid PET-modified unsaturated polyester sheet grade",
+      "Different PET form": "Thermoplastic chips or pellets",
+      "Also not supplied": "Ready-made putty or filler compound",
+      "Buyer action": "State the required material form"
+    },
+    "comparisonTable": {
+      "title": "Keep the material forms separate",
+      "headers": [
+        "Buyer question",
+        "Samrat PET Resin / Polyester Putty Resin",
+        "Thermoplastic PET"
+      ],
+      "rows": [
+        [
+          "Material form",
+          "Pale-yellow liquid PET-modified UPR sheet grade",
+          "Solid commodity-plastic chips or pellets"
+        ],
+        [
+          "Document to review",
+          "Current PET Resin / Polyester Putty Resin TDS",
+          "The document for the required thermoplastic grade"
+        ],
+        [
+          "Samrat grade context",
+          "PET sheets, fibre sheets, FRP sheet lamination and panels",
+          "Not the product route described by the liquid-resin TDS"
+        ]
+      ],
+      "note": "The Samrat product is a liquid raw resin, not thermoplastic chips and not a ready-made putty or filler compound."
+    },
+    "relatedSlugs": [
+      "what-is-pet-modified-polyester-resin",
+      "pet-resin-applications-sheet-lamination-and-panels",
+      "pet-resin-vs-gp-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-putty-resin/",
+        "label": "View PET Resin / Polyester Putty Resin",
+        "description": "Open the product page for the approved liquid sheet-grade route."
+      },
+      {
+        "href": "/tds/pet-resin-tds.pdf",
+        "label": "Review PET Resin TDS",
+        "description": "Confirm the current grade, liquid form and published technical data."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Use carefully: its PET chip listing is a separate material-form description."
+      },
+      {
+        "href": "/contact/",
+        "label": "Confirm the correct material form",
+        "description": "State whether the requirement is the liquid Samrat grade or a thermoplastic PET material."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is PET Resin here the same as polyethylene terephthalate chips or pellets?",
+        "a": "No. The dedicated PET Resin TDS identifies a PET-modified liquid unsaturated polyester resin. The current catalogue separately describes a thermoplastic PET chip item with different form and data."
+      },
+      {
+        "q": "Is PET Resin / Polyester Putty Resin a ready-made putty or body filler?",
+        "a": "No. Samrat supplies this grade as a liquid raw resin, not as a pre-mixed putty or body filler. Finished-product properties cannot be inferred from the liquid-resin TDS."
+      },
+      {
+        "q": "Why should material form be stated in an RFQ?",
+        "a": "The PET label appears in documents for different material forms. Naming the required form, finished application and document requirement prevents a liquid-resin enquiry from being confused with a thermoplastic or finished-product request."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The liquid PET Resin route",
+        "body": [
+          "The PET Resin page and dedicated TDS describe a PET-modified unsaturated polyester resin supplied as a pale-yellow liquid sheet grade. Its published contexts are PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing.",
+          "This is a liquid-resin selection discussion. The product document should be read with the actual sheet or laminate requirement instead of being used as a label for every material containing PET in its name."
+        ]
+      },
+      {
+        "heading": "Thermoplastic PET is a different material form",
+        "body": [
+          "Thermoplastic PET is commonly supplied as chips or pellets for melt processing. Samrat's PET Resin / Polyester Putty Resin page instead describes a liquid PET-modified unsaturated polyester sheet grade.",
+          "Buyers should identify the required material form before comparing specifications or requesting a quotation."
+        ]
+      },
+      {
+        "heading": "Liquid raw resin is not a ready-made putty",
+        "body": [
+          "Samrat's PET Resin / Polyester Putty Resin is supplied as a liquid resin. A ready-made polyester putty or body filler is a complete formulated end product.",
+          "Sanding, adhesion, shrinkage, hardness, flexibility and repair performance cannot be assigned to the liquid resin alone from the current product data."
+        ]
+      },
+      {
+        "heading": "A clearer purchase brief",
+        "body": [
+          "State the required material form first. For Samrat's liquid grade, provide the finished sheet, laminate or panel application, quantity, packaging need, delivery location and requested documentation. If the requirement is thermoplastic PET or a ready-made putty, say so at the outset so the enquiry is not routed to the wrong product."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pet-resin-applications-sheet-lamination-and-panels",
+    "title": "PET Resin Applications: Published Sheet Lamination and Panel Contexts",
+    "description": "Review the PET Resin applications listed in Samrat's current TDS and the finished-product questions that still require separate confirmation.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "PET Resin Applications | Polyester Resin for Sheet Lamination",
+      "keywords": [
+        "PET Resin Applications",
+        "PET Modified Polyester Resin Applications",
+        "Polyester Resin for Fibre Sheets",
+        "FRP Sheet Lamination Resin",
+        "Panel Manufacturing Resin"
+      ],
+      "ogTitle": "PET Resin Applications: Sheet Lamination and Panels",
+      "ogDescription": "A buyer-level guide to the sheet and panel contexts listed in Samrat's PET Resin TDS."
+    },
+    "quickFacts": {
+      "Listed application": "PET sheets and fibre sheet products",
+      "Listed FRP context": "Sheet lamination and panel manufacturing",
+      "Product form": "Liquid PET-modified UPR sheet grade",
+      "Still to verify": "Finished product and system requirement"
+    },
+    "relatedSlugs": [
+      "what-is-pet-modified-polyester-resin",
+      "pet-resin-liquid-grade-vs-thermoplastic-pet",
+      "pet-resin-vs-gp-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-putty-resin/",
+        "label": "View PET Resin",
+        "description": "Review product details, current document and quote path."
+      },
+      {
+        "href": "/tds/pet-resin-tds.pdf",
+        "label": "Download PET Resin TDS",
+        "description": "Confirm the listed application context and liquid-resin data."
+      },
+      {
+        "href": "/products/sheet-grade-yellow-resin/",
+        "label": "View Sheet Grade Yellow Resin",
+        "description": "Review the separate pre-pigmented yellow sheet and panel product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a sheet or panel requirement",
+        "description": "Share the finished product and required material form for selection."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which PET Resin applications are published?",
+        "a": "The current PET Resin TDS lists PET sheets and fibre sheet products, plus FRP sheet lamination and panel manufacturing."
+      },
+      {
+        "q": "Do the listed applications establish finished sheet performance?",
+        "a": "No. The TDS positions the supplied liquid resin for those contexts. Finished sheet or panel results depend on the complete material system and actual application requirement."
+      },
+      {
+        "q": "Is body filler or automotive putty a published PET Resin application?",
+        "a": "No. The current repository does not publish a body-filler, automotive-putty, repair-putty, wood-filler or stone-filler application for this grade."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "PET sheets and fibre sheet products",
+        "body": [
+          "PET sheets and fibre sheet products are listed in the current PET Resin TDS. This is the published starting point for a buyer evaluating the product.",
+          "A sheet description alone does not establish a formulation, reinforcement, process condition or finished-sheet performance. State the actual finished product and requirement when comparing the document with a purchase need."
+        ]
+      },
+      {
+        "heading": "FRP sheet lamination and panel manufacturing",
+        "body": [
+          "The TDS also lists FRP sheet lamination and panel manufacturing. In these contexts, PET Resin is the liquid resin product route under review; it is not a substitute for the separate reinforcement or finished-system decisions.",
+          "Where the requirement is a pre-pigmented yellow sheet or panel, use the separate Sheet Grade Yellow Resin route. Where it is general FRP or a different lamination application, review the separately published GP or Lamination Resin information rather than assuming interchangeability."
+        ]
+      },
+      {
+        "heading": "Application boundaries that are not published",
+        "body": [
+          "The available PET Resin documents do not publish use in automotive body filler, vehicle repair putty, industrial filler, metal filling, composite repair filler, wood filler, marble filler or stone filler. Those search terms are not used here as application claims.",
+          "No final sanding, adhesion, shrinkage, hardness, flexibility or surface-finish result is documented for this liquid grade. The listed sheet and panel contexts are not evidence for a finished filler or repair product."
+        ]
+      },
+      {
+        "heading": "What to provide for an application review",
+        "body": [
+          "Provide the intended PET sheet, fibre sheet, FRP sheet or panel application; required material form; applicable technical data; quantity; packaging need; delivery location; and any drawing or written specification. This creates a documented product discussion without asking for a formulation or production recipe."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pet-resin-vs-gp-resin",
+    "title": "PET Resin vs GP Resin: Sheet Grade or General FRP Route?",
+    "description": "Compare Samrat's published PET-modified liquid sheet-grade route with the separate general-purpose GP Resin route without transferring applications or technical data between them.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "PET Resin vs GP Resin | Sheet Grade vs General FRP Guide",
+      "keywords": [
+        "PET Resin vs GP Resin",
+        "PET Modified Resin vs General Purpose Resin",
+        "Sheet Grade Polyester Resin",
+        "General Purpose Polyester Resin",
+        "FRP Sheet Resin Selection"
+      ],
+      "ogTitle": "PET Resin vs GP Resin",
+      "ogDescription": "Choose the published PET sheet-grade or GP general-FRP route by the actual component and product-specific TDS."
+    },
+    "quickFacts": {
+      "PET Resin": "PET-modified liquid sheet grade for its TDS-listed contexts",
+      "GP Resin": "Separate general-purpose FRP product route",
+      "Shared family": "Polyester-resin product routes, reviewed grade by grade",
+      "Selection rule": "Start with the finished component and current TDS"
+    },
+    "comparisonTable": {
+      "title": "Published product-role comparison",
+      "headers": [
+        "Buyer question",
+        "PET Resin",
+        "GP Resin route"
+      ],
+      "rows": [
+        [
+          "Published context",
+          "PET sheets, fibre sheets, FRP sheet lamination and panels",
+          "General-purpose FRP product route"
+        ],
+        [
+          "Product identity",
+          "PET-modified liquid unsaturated polyester sheet grade",
+          "Separate published GP grade with its own data"
+        ],
+        [
+          "Document to use",
+          "Current PET Resin TDS",
+          "Current GP product page and grade-specific TDS"
+        ]
+      ],
+      "note": "This comparison does not present either product as universally better or transfer one grade's specification, application or finished-product result to the other."
+    },
+    "relatedSlugs": [
+      "what-is-pet-modified-polyester-resin",
+      "pet-resin-applications-sheet-lamination-and-panels",
+      "pet-resin-vs-lamination-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-putty-resin/",
+        "label": "View PET Resin",
+        "description": "Review the published liquid sheet-grade role and PET Resin TDS."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate general-purpose FRP route and its own technical data."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Use the parent page for broader family context."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the correct product route",
+        "description": "Share the actual component, application, quantity and documentation needs."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is PET Resin the same as a GP Resin grade?",
+        "a": "No interchangeability is published. PET Resin is documented as a PET-modified liquid sheet grade for its listed sheet and panel contexts, while GP Clear Resin is a separate general-purpose FRP route."
+      },
+      {
+        "q": "Which product is better?",
+        "a": "The repository does not publish a universal performance ranking. Start with the finished component, required product role and the current TDS for the shortlisted grade."
+      },
+      {
+        "q": "Can GP Resin data be used for PET Resin selection?",
+        "a": "No. Technical data, storage guidance and applications belong to the grade that publishes them. Review the current PET Resin TDS separately from the GP product documentation."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "One family, separate published product routes",
+        "body": [
+          "PET Resin and GP Resin sit within polyester-resin product discussions, but their published roles differ. PET Resin is a PET-modified liquid sheet grade with documented sheet, fibre-sheet, FRP sheet-lamination and panel contexts. GP Clear Resin is a separately published route for general-purpose FRP work.",
+          "This avoids treating the products as unrelated because their names differ, or treating any liquid polyester grade as automatically suitable for every GP or sheet requirement."
+        ]
+      },
+      {
+        "heading": "Start with the actual finished component",
+        "body": [
+          "For a PET-sheet, fibre-sheet, FRP-sheet or panel requirement, begin with PET Resin and the current PET Resin TDS. For a broad general-purpose FRP requirement, begin with the separately published GP product route and its own data.",
+          "If the requirement is a pre-pigmented sheet, roof-light sheet, door or plywood lamination, moulding compound, marble composite or finished putty, another published route may be more relevant. The product role should lead the selection discussion."
+        ]
+      },
+      {
+        "heading": "Do not create a performance ranking from names",
+        "body": [
+          "The repository does not publish a universal strength, shrinkage, adhesion, sanding, cure-speed, durability or cost comparison between PET Resin and GP Resin. Those statements are not used here.",
+          "Use individual technical documents for the exact grade. A liquid-resin value from one page should not become a process recommendation or finished-product result for the other."
+        ]
+      },
+      {
+        "heading": "Prepare a specific enquiry",
+        "body": [
+          "State the finished component, intended product route if known, required material form, relevant technical data, quantity, packaging need, delivery location and requested documentation. This gives Samrat FRP Traders a factual basis for checking the PET or GP route."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pet-resin-vs-lamination-resin",
+    "title": "PET Resin vs Lamination Resin: Different Sheet and Laminate Routes",
+    "description": "Separate Samrat's documented PET-modified sheet-grade route from the published Lamination Resin route for door, plywood and FRP lamination contexts.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "PET Resin vs Lamination Resin | Sheet Grade and Laminate Guide",
+      "keywords": [
+        "PET Resin vs Lamination Resin",
+        "PET Modified Polyester Resin",
+        "Lamination Resin",
+        "FRP Sheet Lamination Resin",
+        "Polyester Resin Selection"
+      ],
+      "ogTitle": "PET Resin vs Lamination Resin",
+      "ogDescription": "Select the PET sheet-grade or Lamination Resin route from the actual documented component and current TDS."
+    },
+    "quickFacts": {
+      "PET Resin": "Documented for PET sheets, fibre sheets, FRP sheet lamination and panels",
+      "Lamination Resin": "Separate published door, plywood and FRP lamination route",
+      "Selection boundary": "Finished component and product-specific document",
+      "Not established": "A universal performance ranking"
+    },
+    "comparisonTable": {
+      "title": "Published role comparison",
+      "headers": [
+        "Buyer question",
+        "PET Resin",
+        "Lamination Resin"
+      ],
+      "rows": [
+        [
+          "Published context",
+          "Sheet, fibre-sheet, FRP sheet-lamination and panel work",
+          "Door, plywood and FRP lamination route"
+        ],
+        [
+          "Product document",
+          "Current PET Resin TDS",
+          "Current Lamination Resin product document"
+        ],
+        [
+          "Selection question",
+          "Is the listed sheet-grade context required?",
+          "Is the published lamination component context required?"
+        ]
+      ],
+      "note": "The products are not ranked here. Their applications, data and finished-system results should not be treated as transferable."
+    },
+    "relatedSlugs": [
+      "what-is-pet-modified-polyester-resin",
+      "pet-resin-vs-gp-resin",
+      "pet-resin-applications-sheet-lamination-and-panels"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-putty-resin/",
+        "label": "View PET Resin",
+        "description": "Review the PET-modified liquid sheet-grade route and current TDS."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the separate published lamination product route."
+      },
+      {
+        "href": "/resources/what-is-lamination-resin/",
+        "label": "What Is Lamination Resin?",
+        "description": "Use the existing guide for the broader lamination-resin role."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss the application context",
+        "description": "Share the actual component and document requirement before selection."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is PET Resin interchangeable with Lamination Resin?",
+        "a": "No interchangeability is published. PET Resin has a documented sheet-grade context, while Lamination Resin is the separate published route for door, plywood and FRP lamination contexts."
+      },
+      {
+        "q": "Does FRP sheet lamination mean either product can be substituted?",
+        "a": "No. The shared word lamination does not transfer product data between grades. Use the finished component, published product role and current TDS to begin selection."
+      },
+      {
+        "q": "Does this comparison provide process instructions?",
+        "a": "No. It does not provide formulation, reinforcement, catalyst, cure or production instructions. It is a buyer-level product-selection guide."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Similar language does not mean the same route",
+        "body": [
+          "PET Resin is listed for FRP sheet lamination and panel manufacturing, while Lamination Resin has a separate published door, plywood and FRP lamination role. Both names can appear in a lamination discussion, but the finished component and product document remain the selection starting point.",
+          "The page does not merge products or transfer technical numbers, applications or finished-system expectations between them."
+        ]
+      },
+      {
+        "heading": "When PET Resin is the documented starting point",
+        "body": [
+          "Start with PET Resin when the requirement is one of its published PET-sheet, fibre-sheet, FRP-sheet-lamination or panel contexts. Review the current PET Resin TDS for the liquid grade under consideration.",
+          "A listed sheet context does not establish suitability for an unlisted door, plywood, general laminate or filler requirement. State the actual finished component early in the enquiry."
+        ]
+      },
+      {
+        "heading": "When Lamination Resin is the documented starting point",
+        "body": [
+          "Start with Lamination Resin when its published door, plywood or FRP lamination product route matches the finished-component question. Use that product page and technical document rather than applying PET Resin data by analogy.",
+          "If the requirement is a surface finish, general GP FRP route, sheet grade, moulding compound or stone-composite product, use the relevant separate product page instead."
+        ]
+      },
+      {
+        "heading": "Keep processing out of a product-role comparison",
+        "body": [
+          "The PET Resin documents do not publish a universal process recipe. This guide avoids catalyst level, filler loading, reinforcement schedule, curing condition and production troubleshooting content.",
+          "For a quote discussion, provide the component, product route under review, current document requirement, quantity, packaging need and delivery location."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pet-resin-technical-specifications-and-rfq",
+    "draft": true,
+    "title": "PET Resin Technical Specifications and RFQ Guide",
+    "description": "Review the liquid PET Resin properties published in the current TDS, keep them separate from finished-product performance, and prepare a focused industrial enquiry.",
+    "category": "Technical & Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "PET Resin Technical Specifications | PET Resin TDS and RFQ Guide",
+      "keywords": [
+        "PET Resin Technical Specifications",
+        "PET Resin TDS",
+        "PET Modified Polyester Resin Viscosity",
+        "PET Resin Procurement",
+        "PET Resin Supplier"
+      ],
+      "ogTitle": "PET Resin Technical Specifications and RFQ Guide",
+      "ogDescription": "Read the published PET Resin liquid-resin data and prepare a document-led quotation request."
+    },
+    "quickFacts": {
+      "Published grade": "PET-modified liquid UPR sheet grade",
+      "Published viscosity": "450-650 cPs at 25 C",
+      "Published pack / MOQ": "75 kg / 1,000 kg",
+      "First RFQ input": "Material form and sheet or laminate application"
+    },
+    "propertiesTable": {
+      "headers": [
+        "Published liquid-resin property",
+        "Current PET Resin TDS value"
+      ],
+      "rows": [
+        [
+          "Resin type",
+          "PET-modified unsaturated polyester resin (liquid)"
+        ],
+        [
+          "Grade and appearance",
+          "Sheet grade; pale-yellow liquid"
+        ],
+        [
+          "Viscosity",
+          "450-650 cPs at 25 C"
+        ],
+        [
+          "Solid content",
+          "60-64%"
+        ],
+        [
+          "Specific gravity",
+          "1.05-1.12 g/cm3 at 25 C"
+        ],
+        [
+          "HDT",
+          "70-85 C, cured"
+        ],
+        [
+          "Flash point",
+          "Approx. 30 C"
+        ],
+        [
+          "Shelf life / pack / MOQ",
+          "6 months unopened / 75 kg / 1,000 kg"
+        ]
+      ],
+      "note": "These are published liquid-resin data from the current PET Resin TDS. They are not a formulation, finished sheet or putty performance claim, or a substitute for confirming the exact material form."
+    },
+    "relatedSlugs": [
+      "what-is-pet-modified-polyester-resin",
+      "pet-resin-liquid-grade-vs-thermoplastic-pet",
+      "pet-resin-applications-sheet-lamination-and-panels",
+      "pet-resin-vs-gp-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/polyester-putty-resin/",
+        "label": "View PET Resin",
+        "description": "Review the product role, current data and enquiry path."
+      },
+      {
+        "href": "/tds/pet-resin-tds.pdf",
+        "label": "Download PET Resin TDS",
+        "description": "Use the current grade-specific document as the technical reference."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Keep its separate thermoplastic PET chip listing distinct from this liquid-grade TDS."
+      },
+      {
+        "href": "/contact/",
+        "label": "Request a PET Resin quote",
+        "description": "Send the material form, application, documentation and commercial requirements."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which PET Resin specifications are published?",
+        "a": "The current TDS publishes a PET-modified liquid UPR sheet grade, pale-yellow appearance, viscosity, solids, specific gravity, cured HDT, approximate flash point, storage, six-month unopened shelf life, 75 kg packaging and 1,000 kg MOQ."
+      },
+      {
+        "q": "Do the liquid-resin figures establish finished sheet or putty performance?",
+        "a": "No. These are supply and typical liquid-resin data. The repository does not publish a finished putty, body-filler, sanding, adhesion, shrinkage, hardness or finished-sheet performance claim for this grade."
+      },
+      {
+        "q": "What should a PET Resin RFQ include?",
+        "a": "Include the required liquid material form, intended PET-sheet, fibre-sheet, FRP-sheet or panel application, required published properties or documentation, quantity, packaging need and delivery location."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the current PET Resin TDS as the technical reference",
+        "body": [
+          "The current PET Resin TDS identifies a PET-modified liquid unsaturated polyester sheet grade and publishes its liquid-resin properties, storage and commercial details. Use this document for the exact grade being considered.",
+          "The TDS publishes 450-650 cPs viscosity at 25 C, 60-64% solid content, 1.05-1.12 g/cm3 specific gravity at 25 C, 70-85 C cured HDT, approximate 30 C flash point, six-month unopened shelf life, 75 kg packaging and 1,000 kg MOQ. Review the complete document for context."
+        ]
+      },
+      {
+        "heading": "Keep liquid data separate from finished-product results",
+        "body": [
+          "The values describe the supplied liquid resin. They do not establish the performance of a finished PET sheet, fibre sheet, FRP panel, finished putty or body filler.",
+          "No formulation, filler loading, catalyst ratio, curing schedule, sanding, adhesion, shrinkage, hardness, flexibility or repair-performance result is published for this grade. These subjects are intentionally not inferred from the liquid-resin table."
+        ]
+      },
+      {
+        "heading": "Do not combine the TDS and catalogue PET entries",
+        "body": [
+          "The current catalogue uses PET terminology for a separate thermoplastic chip item, while the grade-specific TDS describes this liquid PET-modified UPR sheet grade. The records have different forms and data.",
+          "This guide uses the dedicated TDS for the product-page route. It does not average, reconcile or silently transfer figures between documents; buyers should state the required form during enquiry."
+        ]
+      },
+      {
+        "heading": "Prepare a document-led RFQ",
+        "body": [
+          "Identify the material form, intended PET-sheet, fibre-sheet, FRP-sheet or panel application, required technical properties or document, quantity, packaging requirement and delivery location. Include a drawing or written requirement where it clarifies the finished product.",
+          "Published packaging and MOQ do not confirm stock, lead time, delivery commitment, a formulation or finished-product suitability. Those points need confirmation for the actual requirement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-vinyl-ester-resin",
+    "title": "What Is Vinyl Ester Resin?",
+    "description": "Understand Samrat FRP Traders' published industrial-grade Bisphenol-A epoxy vinyl ester route for documented FRP chemical- and corrosion-service discussions.",
+    "category": "Vinyl Ester Guide",
+    "icon": "info",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "What Is Vinyl Ester Resin? | Industrial FRP Buyer Guide",
+      "keywords": [
+        "What Is Vinyl Ester Resin",
+        "Epoxy Vinyl Ester Resin",
+        "Vinyl Ester Resin for FRP",
+        "Industrial Vinyl Ester Resin",
+        "Vinyl Ester Resin India"
+      ],
+      "ogTitle": "What Is Vinyl Ester Resin?",
+      "ogDescription": "A document-led buyer guide to Samrat FRP Traders' published industrial-grade Bisphenol-A epoxy vinyl ester route."
+    },
+    "quickFacts": {
+      "Published product": "Industrial-grade Vinyl Ester Resin",
+      "Published chemistry": "Bisphenol-A based epoxy vinyl ester",
+      "Published selection context": "Chemical- and corrosion-service FRP discussion",
+      "Documentation boundary": "No chemical-compatibility chart or finished-component approval published"
+    },
+    "relatedSlugs": [
+      "vinyl-ester-resin-vs-isophthalic-resin",
+      "vinyl-ester-resin-vs-epoxy-resin",
+      "vinyl-ester-resin-for-chemical-service-frp",
+      "vinyl-ester-resin-technical-specifications",
+      "vinyl-ester-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the published product role, technical data and industrial enquiry path."
+      },
+      {
+        "href": "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
+        "label": "Chemical storage tank context",
+        "description": "See how a documented application should be matched to the actual service requirement."
+      },
+      {
+        "href": "/tds/vinyl-ester-resin-tds.pdf",
+        "label": "Download Vinyl Ester Resin TDS",
+        "description": "Use the current product-specific document for the exact grade under review."
+      },
+      {
+        "href": "/resources/",
+        "label": "Explore the Resource Hub",
+        "description": "Find comparison, application and procurement guidance by product role."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Vinyl Ester Resin on this site?",
+        "a": "Samrat FRP Traders publishes one industrial-grade Vinyl Ester Resin identified in the current TDS as a Bisphenol-A based epoxy vinyl ester product for chemical- and corrosion-service FRP discussions."
+      },
+      {
+        "q": "What does Epoxy Vinyl Ester mean here?",
+        "a": "The phrase is part of the current Vinyl Ester Resin TDS nomenclature. It does not make this product the same as Samrat's separately published conventional epoxy resin routes, which have their own product data and intended uses."
+      },
+      {
+        "q": "Is Vinyl Ester Resin a finished FRP tank or pipe system?",
+        "a": "No. The product is the resin or matrix component. Finished FRP performance can depend on the reinforcement, construction, thickness, surface or corrosion-barrier system, cure state and tested configuration."
+      },
+      {
+        "q": "Does Samrat publish a Vinyl Ester chemical-compatibility chart?",
+        "a": "No chart, concentration limits or application-specific approval is present in the current Vinyl Ester documentation. Share the actual medium, concentration, temperature and component requirement before selecting a resin system."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the documented product identity",
+        "body": [
+          "Samrat FRP Traders publishes Vinyl Ester Resin as one industrial-grade product. Its current Technical Data Sheet identifies the resin type as a Bisphenol-A based epoxy vinyl ester and positions it for industrial FRP discussions where chemical or corrosion service is part of material selection.",
+          "This is a specialist resin route to review alongside the finished component and current documentation. It is not a generic label for every polyester resin, every composite application or every conventional epoxy system."
+        ]
+      },
+      {
+        "heading": "What 'epoxy vinyl ester' means on this product page",
+        "body": [
+          "The words 'epoxy vinyl ester' are the current TDS terminology for this Vinyl Ester product. They describe the published product family; they do not mean that the material is interchangeable with Samrat's separately listed Epoxy Clear Casting Resin, Epoxy Art Resin, Fiberglass Epoxy Resin or Epoxy Hardener.",
+          "The useful buyer question is which documented material route matches the component and service requirement. Decorative casting, art or a conventional epoxy-system requirement should be reviewed against those separate product pages and TDS documents rather than inferred from the word 'epoxy' in Vinyl Ester Resin."
+        ]
+      },
+      {
+        "heading": "Published industrial FRP context",
+        "body": [
+          "The Vinyl Ester TDS lists FRP tanks and chemical storage vessels; pipelines, ducts and scrubbers; cooling towers, pressure vessels and offshore structures; and marine, pultrusion and filament-winding contexts. These are product-selection categories, not approvals for every component within those categories.",
+          "The same TDS describes resistance to water, acids, alkalis and solvents at product-data level. It does not identify a chemical concentration, exposure duration, finished laminate design or accepted service condition for a particular project."
+        ]
+      },
+      {
+        "heading": "Keep product data separate from finished FRP performance",
+        "body": [
+          "Vinyl Ester Resin is the matrix or resin component in an FRP system. Glass Fiber is a separate reinforcement decision, while laminate construction, thickness, surface or corrosion-barrier system, cure state and tested configuration can affect the finished component.",
+          "For that reason, the published resin data is a starting point for selection, not a finished-tank, pipe, duct or profile approval. Review the current TDS and share the actual application requirement before procurement."
+        ]
+      },
+      {
+        "heading": "What the current documents do not establish",
+        "body": [
+          "The repository does not contain a Vinyl Ester chemical-compatibility chart, a chemical-specific recommendation, concentration limit, product-specific continuous-service-temperature limit, fire rating, mechanical-property table or finished-system test report. These absences matter when a buyer has a mandatory project requirement.",
+          "Where a project names a fire class, test method, service temperature or chemical duty, provide that information in the enquiry. Do not convert a broad chemical- or corrosion-resistance product position into an unverified project approval."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vinyl-ester-resin-vs-isophthalic-resin",
+    "title": "Vinyl Ester Resin vs Isophthalic Resin",
+    "description": "A cautious buyer comparison between Samrat's published Vinyl Ester route and an isophthalic-resin requirement where the exact product data still matters.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Vinyl Ester Resin vs Isophthalic Resin | Buyer Guide",
+      "keywords": [
+        "Vinyl Ester Resin vs Isophthalic Resin",
+        "Isophthalic Resin vs Vinyl Ester",
+        "Vinyl Ester Resin Selection",
+        "Industrial FRP Resin Comparison"
+      ],
+      "ogTitle": "Vinyl Ester Resin vs Isophthalic Resin",
+      "ogDescription": "Use documented product roles and the actual service requirement instead of assuming a performance hierarchy."
+    },
+    "quickFacts": {
+      "Vinyl Ester product": "Bisphenol-A epoxy vinyl ester, industrial grade",
+      "Published isophthalic route": "ISO Fire Retardant Resin is a separate isophthalic FR product",
+      "No standalone comparison data": "No non-FR general isophthalic product TDS is published in this repository",
+      "Selection starting point": "Actual component, service requirement and current product data"
+    },
+    "comparisonTable": {
+      "title": "Compare the published product routes carefully",
+      "note": "This is not a chemical-resistance, temperature or durability ranking. The repository does not publish a general non-FR isophthalic product data set for a direct performance comparison with Vinyl Ester Resin.",
+      "headers": [
+        "Buyer check",
+        "Vinyl Ester Resin",
+        "Isophthalic-resin requirement"
+      ],
+      "rows": [
+        [
+          "Published Samrat product context",
+          "Industrial-grade Bisphenol-A epoxy vinyl ester for stated chemical- or corrosion-service FRP discussions",
+          "The site publishes ISO Fire Retardant Resin as a separate isophthalic FR route"
+        ],
+        [
+          "What to review",
+          "Vinyl Ester Resin TDS, finished component and actual service conditions",
+          "The exact isophthalic product TDS, including whether a fire requirement is part of the specification"
+        ],
+        [
+          "What not to assume",
+          "A broad resistance statement is not chemical-specific approval",
+          "An isophthalic label alone does not establish Vinyl Ester performance or a finished-system result"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-vinyl-ester-resin",
+      "vinyl-ester-resin-for-chemical-service-frp",
+      "vinyl-ester-resin-technical-specifications",
+      "vinyl-ester-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the specialist Vinyl Ester product route and current TDS."
+      },
+      {
+        "href": "/products/iso-fire-retardant-resin/",
+        "label": "View ISO Fire Retardant Resin",
+        "description": "Review the separately published isophthalic FR product route where that requirement is stated."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the broader UPR route to separate parent-family terminology from an exact product choice."
+      },
+      {
+        "href": "/tds/vinyl-ester-resin-tds.pdf",
+        "label": "Download Vinyl Ester Resin TDS",
+        "description": "Use the current document before comparing a project requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Vinyl Ester Resin the same as isophthalic resin?",
+        "a": "No interchangeability is published. The Vinyl Ester TDS identifies a Bisphenol-A based epoxy vinyl ester product, while the site's ISO Fire Retardant TDS identifies a separate isophthalic FR product route."
+      },
+      {
+        "q": "Does this site publish a general isophthalic resin TDS for direct comparison?",
+        "a": "No standalone non-FR general isophthalic product data set was found in the repository. A buyer should share the exact chemistry or grade requirement rather than infer it from a broad category term."
+      },
+      {
+        "q": "Which route should a buyer review for a fire requirement?",
+        "a": "Review the separately published Fire Retardant or ISO Fire Retardant product data when a fire requirement is stated. Vinyl Ester Resin is not presented as a fire-retardant grade on this site."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with a product requirement, not a family label",
+        "body": [
+          "'Isophthalic resin' can be a buyer search term, but it is not enough information to select a Samrat product. The repository does not publish a standalone, non-fire-retardant general isophthalic product page or TDS that could support a direct value-by-value comparison with Vinyl Ester Resin.",
+          "The site does publish ISO Fire Retardant Resin as a separate isophthalic product route. In that product name, ISO refers to isophthalic chemistry, not ISO certification. Its fire-retardant context must remain separate from a Vinyl Ester chemical- or corrosion-service discussion."
+        ]
+      },
+      {
+        "heading": "What the current Vinyl Ester data establishes",
+        "body": [
+          "Samrat's Vinyl Ester TDS identifies an industrial-grade Bisphenol-A epoxy vinyl ester product and lists industrial FRP application categories where chemical or corrosion service is relevant. It provides typical product data, not a performance chart against an unspecified isophthalic grade.",
+          "No direct chemical-resistance hierarchy, temperature ranking, corrosion-life comparison or mechanical comparison with a general isophthalic resin is published in the repository. This guide does not invent one."
+        ]
+      },
+      {
+        "heading": "Frame the selection around the actual service requirement",
+        "body": [
+          "For a stated chemical- or corrosion-service requirement, review the Vinyl Ester Resin TDS alongside the actual medium, concentration, operating temperature where relevant, finished component and project documentation. For a stated isophthalic or fire-performance requirement, review the exact separately published product data instead.",
+          "If both a service environment and a fire requirement are present, communicate both. One label does not automatically satisfy the other, and the finished FRP system may need its own verification."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vinyl-ester-resin-vs-epoxy-resin",
+    "title": "Vinyl Ester Resin vs Epoxy Resin",
+    "description": "Separate Samrat's published epoxy vinyl ester route from its conventional epoxy resin products before selecting a material system for an industrial requirement.",
+    "category": "Comparison Guide",
+    "icon": "grid",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Vinyl Ester Resin vs Epoxy Resin | Product-Role Guide",
+      "keywords": [
+        "Vinyl Ester Resin vs Epoxy Resin",
+        "Epoxy Vinyl Ester Resin vs Epoxy",
+        "Vinyl Ester vs Fiberglass Epoxy Resin",
+        "Industrial Resin Selection"
+      ],
+      "ogTitle": "Vinyl Ester Resin vs Epoxy Resin",
+      "ogDescription": "Understand why 'epoxy vinyl ester' does not make Vinyl Ester Resin interchangeable with a conventional epoxy system."
+    },
+    "quickFacts": {
+      "Vinyl Ester wording": "Bisphenol-A epoxy vinyl ester in the current TDS",
+      "Vinyl Ester role": "Industrial FRP chemical- and corrosion-service discussion",
+      "Separate epoxy routes": "Clear Casting, Epoxy Art and Fiberglass Epoxy products have their own pages and documents",
+      "Selection control": "Match the exact product route to the finished application"
+    },
+    "comparisonTable": {
+      "title": "Different published product routes",
+      "note": "Neither material family is presented here as a universal upgrade. Review the exact product TDS and intended application rather than relying on the shared word 'epoxy'.",
+      "headers": [
+        "Buyer question",
+        "Vinyl Ester Resin",
+        "Separate epoxy product routes"
+      ],
+      "rows": [
+        [
+          "Published identity",
+          "Industrial-grade Bisphenol-A epoxy vinyl ester",
+          "Separately listed conventional epoxy products with their own system documents"
+        ],
+        [
+          "Published starting context",
+          "Industrial FRP where chemical or corrosion service is part of the discussion",
+          "Clear casting, art/decorative work or structural fiberglass context according to the named product"
+        ],
+        [
+          "Documentation to review",
+          "Vinyl Ester Resin TDS",
+          "The exact epoxy product page and matching document"
+        ],
+        [
+          "What not to assume",
+          "That 'epoxy vinyl ester' is a conventional epoxy product",
+          "That a conventional epoxy product is a replacement for a Vinyl Ester chemical-service route"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-vinyl-ester-resin",
+      "vinyl-ester-resin-for-chemical-service-frp",
+      "vinyl-ester-resin-technical-specifications",
+      "vinyl-ester-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the published industrial FRP and chemical-service context."
+      },
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the separately published structural fiberglass epoxy route."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the separately published decorative casting route."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the separately published art and decorative surface route."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Epoxy Vinyl Ester Resin the same as Epoxy Resin?",
+        "a": "No. Samrat's Vinyl Ester TDS uses 'Bisphenol-A epoxy vinyl ester' to identify its Vinyl Ester product. The site separately publishes conventional epoxy product routes, each with its own documentation and intended-use context."
+      },
+      {
+        "q": "Can an epoxy casting product be used instead of Vinyl Ester Resin for a chemical-service FRP requirement?",
+        "a": "No substitution is published. Start with the actual finished component, service requirement and exact product documentation rather than transferring a decorative casting product into an industrial FRP selection."
+      },
+      {
+        "q": "Does this comparison provide resin mixing or cure instructions?",
+        "a": "No. It is a material-selection guide only. Review the current document for the exact system and do not transfer operating instructions between product routes."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The shared word 'epoxy' does not make these products interchangeable",
+        "body": [
+          "The current Vinyl Ester TDS identifies a Bisphenol-A based epoxy vinyl ester product. Samrat also lists conventional epoxy products, including Clear Casting Resin, Epoxy Art Resin and Fiberglass Epoxy Resin. Those are separate product routes with their own product data and intended-use context.",
+          "A buyer should therefore use the product name as a starting point, not a shortcut. 'Epoxy vinyl ester' is supported terminology for this Vinyl Ester grade; it is not a statement that the product is the same as every conventional epoxy material on the site."
+        ]
+      },
+      {
+        "heading": "Start with the documented application role",
+        "body": [
+          "Vinyl Ester Resin is the product route to review when the industrial FRP component has a stated chemical- or corrosion-service requirement. The Vinyl Ester TDS lists tanks, chemical storage vessels, pipelines, ducts, scrubbers, pultrusion and filament-winding contexts.",
+          "The separate epoxy products have published roles of their own, such as decorative casting, art and structural fiberglass laminating. These labels do not establish a performance ranking or make one product a substitute for another."
+        ]
+      },
+      {
+        "heading": "Use the correct document before procurement",
+        "body": [
+          "For Vinyl Ester Resin, review the Vinyl Ester TDS and provide the component, service medium, concentration and temperature where relevant. For a conventional epoxy requirement, identify the exact epoxy product and review its matching current document.",
+          "This comparison intentionally excludes mixing ratios, catalyst information, cure schedules and fabrication instructions. Those details are system-specific and are not a safe basis for a general product comparison."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vinyl-ester-resin-for-chemical-service-frp",
+    "title": "Vinyl Ester Resin for Chemical-Service FRP: Buyer Guide",
+    "description": "Use Samrat's published Vinyl Ester chemical- and corrosion-service position to prepare the right technical questions without assuming chemical compatibility.",
+    "category": "Service Requirement Guide",
+    "icon": "shield",
+    "readingTime": "6 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Vinyl Ester Resin for Chemical-Service FRP | Buyer Guide",
+      "keywords": [
+        "Vinyl Ester Resin for Chemical Service",
+        "Chemical Resistant Vinyl Ester Resin",
+        "Corrosion Resistant Vinyl Ester Resin",
+        "Vinyl Ester Resin for Industrial FRP",
+        "Chemical Service FRP Resin"
+      ],
+      "ogTitle": "Vinyl Ester Resin for Chemical-Service FRP",
+      "ogDescription": "A cautious buyer guide to framing a chemical-service FRP requirement without inventing compatibility claims."
+    },
+    "quickFacts": {
+      "Published position": "Chemical and corrosion resistance",
+      "Published broad media wording": "Water, acids, alkalis and solvents",
+      "Not published": "Chemical-compatibility chart, concentration limits or project approvals",
+      "Best enquiry input": "Medium, concentration, temperature, component and documentation requirement"
+    },
+    "relatedSlugs": [
+      "what-is-vinyl-ester-resin",
+      "vinyl-ester-resin-technical-specifications",
+      "vinyl-ester-resin-procurement-checklist",
+      "vinyl-ester-resin-vs-isophthalic-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the published product role and current technical data."
+      },
+      {
+        "href": "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
+        "label": "Chemical storage tank guide",
+        "description": "Review a documented application without treating it as a component approval."
+      },
+      {
+        "href": "/applications/vinyl-ester-resin-for-pipelines-ducts-scrubbers/",
+        "label": "Pipelines, ducts and scrubbers",
+        "description": "Review other published industrial FRP application categories."
+      },
+      {
+        "href": "/tds/vinyl-ester-resin-tds.pdf",
+        "label": "Download Vinyl Ester Resin TDS",
+        "description": "Use the published product data as the technical starting point."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Vinyl Ester Resin compatible with every acid, alkali or solvent?",
+        "a": "No universal compatibility claim is published. The TDS gives broad chemical-resistance wording but does not contain a chemical-specific chart, concentration limits or application approval."
+      },
+      {
+        "q": "What should I provide for a chemical-service FRP discussion?",
+        "a": "Provide the service medium, concentration where relevant, operating temperature where relevant, exposure context, finished component, project specification, quantity and documentation requirement."
+      },
+      {
+        "q": "Does Vinyl Ester Resin alone establish tank, pipe or duct performance?",
+        "a": "No. The resin is one part of the finished FRP system. Reinforcement, construction, thickness, surface or corrosion-barrier system, cure state and tested configuration can also matter."
+      },
+      {
+        "q": "Is Vinyl Ester Resin automatically fire retardant?",
+        "a": "No. The Vinyl Ester product is not presented as a fire-retardant grade. If fire performance is part of the project requirement, identify it separately and review the appropriate Fire Retardant product route."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the published chemical-service position correctly",
+        "body": [
+          "The current Vinyl Ester TDS describes chemical and corrosion resistance and lists resistance to water, acids, alkalis and solvents at product-data level. It also lists industrial FRP contexts such as tanks, pipelines, ducts and scrubbers.",
+          "This makes Vinyl Ester Resin a relevant product route to review when chemical or corrosion service is stated. It does not make a chemical-specific suitability decision for every medium, concentration, temperature or finished component."
+        ]
+      },
+      {
+        "heading": "A chemical-compatibility question needs service details",
+        "body": [
+          "A useful enquiry should identify the actual service medium, concentration where relevant, operating temperature where relevant, exposure context, finished component and any project standard or buyer specification. State whether the exposure concerns contents, fumes, splash, external contact or another defined condition.",
+          "The buyer should also identify the required documentation and any mandatory finished-system test or approval. This is more useful than a request for a generic 'chemical-proof' or 'corrosion-proof' resin."
+        ]
+      },
+      {
+        "heading": "Separate product data from the finished FRP system",
+        "body": [
+          "The published resin data describes the supplied Vinyl Ester product. A finished FRP tank, vessel, pipeline, duct or scrubber can depend on the full material system and its tested configuration.",
+          "This guide does not specify reinforcement, laminate construction, a corrosion barrier, thickness, cure schedule or a design method. Those subjects cannot be inferred from a broad product description or a generic service label."
+        ]
+      },
+      {
+        "heading": "When another product discussion is relevant",
+        "body": [
+          "For general FRP work without a stated specialist service requirement, review the separate GP Clear Resin or Unsaturated Polyester Resin data. Where a fire requirement is stated, review the separate Fire Retardant or ISO Fire Retardant product route as well as the exact project requirement.",
+          "A separate Bisphenol Resin product is also listed on the site, but its catalogue and TDS use different chemistry and curing descriptions. This guide does not use that product as a compatibility substitute for Vinyl Ester Resin."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vinyl-ester-resin-technical-specifications",
+    "title": "Vinyl Ester Resin Technical Specifications Explained",
+    "description": "A buyer-level explanation of the current Vinyl Ester TDS values, what they identify about the supplied resin, and what they do not prove about a finished FRP component.",
+    "category": "Technical Data Guide",
+    "icon": "grid",
+    "readingTime": "6 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Vinyl Ester Resin Technical Specifications | TDS Guide",
+      "keywords": [
+        "Vinyl Ester Resin Technical Specifications",
+        "Vinyl Ester Resin TDS",
+        "Vinyl Ester Resin Viscosity",
+        "Vinyl Ester Resin Gel Time",
+        "Vinyl Ester Resin Density"
+      ],
+      "ogTitle": "Vinyl Ester Resin Technical Specifications Explained",
+      "ogDescription": "Understand the published Vinyl Ester Resin TDS values without turning them into a finished-system guarantee."
+    },
+    "quickFacts": {
+      "Viscosity": "350 cPs at 25 C",
+      "Gel-time test value": "15-20 minutes at 25 C; see current TDS context",
+      "Density": "1.05 g/cm3",
+      "Thermal data": "110 C typical TDS data, not a stated service-temperature limit"
+    },
+    "comparisonTable": {
+      "title": "Published Vinyl Ester Resin data to review",
+      "note": "The TDS describes typical product data, not guaranteed specifications, a chemical-compatibility chart, a finished-component rating or a continuous-service-temperature recommendation.",
+      "headers": [
+        "TDS item",
+        "Current published value",
+        "Buyer reading"
+      ],
+      "rows": [
+        [
+          "Resin type",
+          "Bisphenol-A based epoxy vinyl ester",
+          "Identify the exact product route before comparing another grade"
+        ],
+        [
+          "Viscosity",
+          "350 cPs at 25 C",
+          "A supplied-resin property to review against the actual process and document"
+        ],
+        [
+          "Gel time",
+          "15-20 minutes at 25 C",
+          "A documented test value, not an instruction for changing cure behaviour"
+        ],
+        [
+          "Styrene content",
+          "40%",
+          "Published product data; do not transfer it to another resin grade"
+        ],
+        [
+          "Specific gravity / density",
+          "1.05 g/cm3",
+          "A supplied-material property, not a finished-laminate value"
+        ],
+        [
+          "Thermal data",
+          "110 C",
+          "Typical TDS thermal data; not a stated operating-service limit"
+        ],
+        [
+          "Supply data",
+          "6 months; below 25 C storage; 225 kg drum; 225 kg MOQ",
+          "Review current commercial and storage details before ordering"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-vinyl-ester-resin",
+      "vinyl-ester-resin-for-chemical-service-frp",
+      "vinyl-ester-resin-procurement-checklist",
+      "vinyl-ester-resin-vs-isophthalic-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "See the published product role and industrial FRP selection path."
+      },
+      {
+        "href": "/tds/vinyl-ester-resin-tds.pdf",
+        "label": "Download current Vinyl Ester TDS",
+        "description": "Read the exact document, test context and disclaimer before procurement."
+      },
+      {
+        "href": "/resources/vinyl-ester-resin-for-chemical-service-frp/",
+        "label": "Review chemical-service questions",
+        "description": "Keep service requirements separate from broad product data."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a technical requirement",
+        "description": "Share the component, specification and documentation requirement for a focused review."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Vinyl Ester Resin specifications are published?",
+        "a": "The current TDS publishes resin type, grade, viscosity, gel-time test value, styrene content, density, thermal data, flash point, storage, shelf life, packaging and MOQ."
+      },
+      {
+        "q": "Is 110 C a published continuous service-temperature limit?",
+        "a": "No. The TDS labels 110 C as HDT / thermal data. The repository does not publish a product-specific continuous-service-temperature recommendation."
+      },
+      {
+        "q": "Does the TDS publish mechanical properties for a finished FRP component?",
+        "a": "No mechanical-property table or finished-component test context is published for this Vinyl Ester product in the repository."
+      },
+      {
+        "q": "Can the gel-time value be used as operating guidance?",
+        "a": "No. It is a published test value to review in the current TDS. This guide does not provide catalyst ratios, cure adjustment or production instructions."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Read the TDS as product data, not a performance promise",
+        "body": [
+          "The current Vinyl Ester TDS identifies the resin type, industrial grade, chemical- and corrosion-resistance positioning, processing categories and supply data. Its stated values are typical and the document says they are not guaranteed specifications.",
+          "When comparing suppliers or grades, use the exact document for the exact product. Do not transfer viscosity, density, gel time or storage expectations from a GP, isophthalic, fire-retardant or conventional epoxy product route."
+        ]
+      },
+      {
+        "heading": "Use the test context that is actually published",
+        "body": [
+          "The TDS lists 350 cPs viscosity at 25 C and a 15-20 minute gel-time value at 25 C. These are selection and document-review points; this guide does not turn them into catalyst, cure or process instructions.",
+          "The published density is 1.05 g/cm3 and the styrene content is 40%. These values describe the supplied Vinyl Ester resin, not the properties of a finished reinforced laminate, tank, pipe, duct or profile."
+        ]
+      },
+      {
+        "heading": "Do not turn thermal data into a service limit",
+        "body": [
+          "The current TDS lists 110 C under HDT / thermal data. It does not state a continuous operating-service-temperature range or a chemical-specific temperature recommendation.",
+          "A service-temperature requirement should therefore be part of the enquiry together with the actual medium, concentration where relevant, finished application and required documentation. Do not infer an operating limit from a single thermal-data entry."
+        ]
+      },
+      {
+        "heading": "Keep finished-system questions separate",
+        "body": [
+          "No product-specific mechanical-property table, chemical-compatibility chart or finished-component test report is present in the repository. A finished FRP system can depend on reinforcement, construction, thickness, surface or corrosion-barrier system, cure state and tested configuration.",
+          "Use the product TDS to frame a technical discussion, then confirm which additional evidence a particular project requires. This guide intentionally does not provide a laminate design, cure schedule or process recipe."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vinyl-ester-resin-procurement-checklist",
+    "title": "Vinyl Ester Resin Procurement Checklist",
+    "description": "Prepare a focused industrial Vinyl Ester Resin RFQ with the service, component, documentation and commercial details needed for an evidence-led discussion.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Vinyl Ester Resin Procurement Checklist | RFQ Guide",
+      "keywords": [
+        "Vinyl Ester Resin Procurement",
+        "Vinyl Ester Resin RFQ",
+        "Vinyl Ester Resin Quote",
+        "Vinyl Ester Resin Supplier India",
+        "Industrial Vinyl Ester Resin"
+      ],
+      "ogTitle": "Vinyl Ester Resin Procurement Checklist",
+      "ogDescription": "What industrial buyers should specify before requesting a Vinyl Ester Resin quotation."
+    },
+    "quickFacts": {
+      "Published pack": "225 kg drum",
+      "Published MOQ": "225 kg",
+      "Current TDS shelf life": "6 months",
+      "RFQ starting point": "Component, service conditions, documents and commercial requirement"
+    },
+    "relatedSlugs": [
+      "what-is-vinyl-ester-resin",
+      "vinyl-ester-resin-for-chemical-service-frp",
+      "vinyl-ester-resin-technical-specifications",
+      "vinyl-ester-resin-vs-epoxy-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "Request Vinyl Ester Resin Quote",
+        "description": "Use the product enquiry route after reviewing the actual requirement."
+      },
+      {
+        "href": "/tds/vinyl-ester-resin-tds.pdf",
+        "label": "Download Vinyl Ester Resin TDS",
+        "description": "Use the current technical document before naming a grade."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Keep the Vinyl Ester route distinct from other Samrat product roles."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an industrial requirement",
+        "description": "Share the component, service requirement, quantity and delivery location."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in a Vinyl Ester Resin RFQ?",
+        "a": "Include the finished FRP component, exact grade or chemistry if specified, service medium, concentration and operating temperature where relevant, technical or fire requirement, quantity, packaging need, delivery location and required documentation."
+      },
+      {
+        "q": "Should a chemical-service buyer name the actual medium?",
+        "a": "Yes. The current Vinyl Ester documents do not publish a chemical-compatibility chart, so the actual medium and relevant service conditions are important to a focused discussion."
+      },
+      {
+        "q": "Does the published MOQ establish stock or delivery timing?",
+        "a": "No. The TDS publishes a 225 kg minimum order quantity and 225 kg drum packaging. Availability, lead time and delivery need confirmation for the actual enquiry."
+      },
+      {
+        "q": "Should a buyer request fire documentation for Vinyl Ester Resin?",
+        "a": "If the project has a fire requirement, state it clearly. Vinyl Ester Resin is not presented as a fire-retardant grade, and a separate Fire Retardant product route should be reviewed."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Define the finished FRP requirement first",
+        "body": [
+          "Begin with the actual component: for example, the documented tank, vessel, pipeline, duct, scrubber, filament-winding or pultrusion context that matches the project. State the exact Vinyl Ester grade or chemistry if it is already named in a buyer specification.",
+          "A generic request for a high-performance or chemical-resistant resin is usually not enough to select a system responsibly. The component and stated service requirement make the product discussion specific."
+        ]
+      },
+      {
+        "heading": "Make the service requirement visible",
+        "body": [
+          "For chemical or corrosion-service work, identify the service medium, concentration where relevant, operating temperature where relevant, exposure context and any project standard or required documentation. Attach the drawing, specification or existing material reference when it helps clarify the requirement.",
+          "This is not a request for a manufacturing formula. It gives the supplier the information needed to discuss the documented product route without turning broad resistance wording into a chemical-specific approval."
+        ]
+      },
+      {
+        "heading": "Confirm published product and commercial details",
+        "body": [
+          "Review the current Vinyl Ester TDS for the published industrial-grade Bisphenol-A epoxy vinyl ester identity, 225 kg drum packaging, 225 kg MOQ, six-month shelf life and below-25 C storage statement. The TDS values are typical and should be confirmed for the current order.",
+          "Then provide the expected quantity, packaging requirement if any, delivery city or location, timing requirement and required technical documentation. These details keep the commercial discussion as focused as the technical one."
+        ]
+      },
+      {
+        "heading": "Keep other product roles distinct",
+        "body": [
+          "For general FRP without a stated specialist service requirement, review the separate GP Clear Resin or broader UPR route. For a project with a fire-performance requirement, review the separate Fire Retardant or ISO Fire Retardant route. For conventional epoxy, decorative casting or art work, identify the separately published epoxy product instead.",
+          "Do not ask for a resin, Glass Fiber reinforcement, a mould-side gelcoat and a catalyst as though they are one interchangeable product. Identify each material role and use the current document for the exact product under consideration."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-bisphenol-resin",
+    "title": "What Is Bisphenol Resin?",
+    "description": "An introduction to Samrat FRP Traders' Bisphenol Resin, its current product-specific TDS identity, listed applications and key selection boundaries.",
+    "category": "Bisphenol Resin Guide",
+    "icon": "info",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "What Is Bisphenol Resin? | Industrial Buyer Guide",
+      "keywords": [
+        "What Is Bisphenol Resin",
+        "Bisphenol Resin",
+        "Bisphenol A Resin System",
+        "Industrial Bisphenol Resin",
+        "Bisphenol Resin India"
+      ],
+      "ogTitle": "What Is Bisphenol Resin?",
+      "ogDescription": "Understand the current product-specific TDS identity, published application contexts and selection boundaries for Samrat Bisphenol Resin."
+    },
+    "quickFacts": {
+      "Current TDS identity": "Bisphenol A & epichlorohydrin based (thermosetting)",
+      "Grade": "Premium grade",
+      "TDS-listed contexts": "Laminating, casting, coating and encapsulation",
+      "Technical authority": "Current product-specific Bisphenol Resin TDS"
+    },
+    "relatedSlugs": [
+      "bisphenol-resin-applications",
+      "bisphenol-resin-vs-upr-and-gp-resin",
+      "bisphenol-resin-vs-epoxy-resin",
+      "bisphenol-resin-data-vs-finished-component-performance",
+      "bisphenol-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/bisphenol-resin/",
+        "label": "View Bisphenol Resin",
+        "description": "Review the current product page, published supplied-resin data and enquiry route."
+      },
+      {
+        "href": "/tds/bisphenol-resin-tds.pdf",
+        "label": "Download Bisphenol Resin TDS",
+        "description": "Use the detailed TDS as the starting technical document."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Explore Samrat's wider product range; use the product-specific TDS for this grade's technical data."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View separate Vinyl Ester Resin",
+        "description": "Review its own product route and TDS instead of assuming interchangeability."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Bisphenol Resin on this site?",
+        "a": "The current Bisphenol Resin TDS identifies a premium-grade Bisphenol A & epichlorohydrin-based thermosetting resin system. It lists laminating, casting, coating and encapsulation as product contexts."
+      },
+      {
+        "q": "Is Bisphenol-A terminology supported?",
+        "a": "Yes. The current product-specific TDS uses the exact wording 'Bisphenol A & epichlorohydrin based (thermosetting)'."
+      },
+      {
+        "q": "Is this product an Unsaturated Polyester Resin or Vinyl Ester Resin?",
+        "a": "The current product-specific TDS does not identify it as either and lists styrene content as not applicable. Vinyl Ester Resin and UPR remain separate Samrat product routes with their own TDS documents."
+      },
+      {
+        "q": "Does this guide establish a chemical-service or finished-FRP approval?",
+        "a": "No. The repository does not publish a chemical-compatibility chart, chemical-specific approval or finished-component test result for the current Bisphenol Resin route."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the exact current TDS wording",
+        "body": [
+          "Samrat FRP Traders' current Bisphenol Resin TDS identifies a premium-grade 'Bisphenol A & epichlorohydrin based (thermosetting)' resin system. It describes a low-viscosity liquid and lists a room-temperature cure with amine hardener. This guide uses that exact document wording instead of assigning a broader family label from general market terminology.",
+          "The TDS lists laminating, casting, coating and encapsulation as processing contexts. It also names laminating and FRP composites; industrial flooring and protective coatings; electrical encapsulation, tooling and structural bonding; and high-end casting and coating applications."
+        ]
+      },
+      {
+        "heading": "Use the product-specific TDS as the technical authority",
+        "body": [
+          "The current Bisphenol Resin TDS controls the product identity and typical supplied-resin data presented by this product route. The catalogue is a general overview of the wider Samrat range rather than a substitute for the detailed grade-specific TDS.",
+          "Review the TDS with the intended application and any stated project or technical requirement before procurement."
+        ]
+      },
+      {
+        "heading": "Keep neighbouring product routes separate",
+        "body": [
+          "Unsaturated Polyester Resin and GP Clear Resin are separately published polyester routes. The current Bisphenol TDS does not identify this product as UPR, and its listed styrene content is not applicable. A buyer with a general-purpose FRP requirement should review those separate product documents rather than assuming a shared category.",
+          "Vinyl Ester Resin is also a separate Samrat route with its own TDS. Bisphenol Resin is not presented as an automatic substitute for Vinyl Ester Resin, conventional epoxy products or a fire-retardant grade."
+        ]
+      },
+      {
+        "heading": "Use this route for a focused discussion",
+        "body": [
+          "Use the current TDS to begin a discussion for a listed application context. Share the finished component, any stated chemistry or technical requirement, quantity, packaging need, delivery location and required documentation.",
+          "Where the application has a service medium, concentration or temperature requirement, include it in the enquiry. The current TDS does not establish chemical compatibility, a continuous service-temperature limit, a fire rating or a finished-system approval."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bisphenol-resin-technical-data-and-document-check",
+    "draft": true,
+    "title": "Bisphenol Resin Technical Data and Document Check",
+    "description": "Understand the current Bisphenol Resin TDS data, the different BPR catalogue entry and why buyers should confirm the exact document route instead of combining values.",
+    "category": "Technical Data Guide",
+    "icon": "grid",
+    "readingTime": "6 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Bisphenol Resin Technical Data | TDS and Catalogue Guide",
+      "keywords": [
+        "Bisphenol Resin Technical Data",
+        "Bisphenol Resin TDS",
+        "Bisphenol Resin Viscosity",
+        "Bisphenol Resin Gel Time",
+        "Bisphenol Resin Specifications"
+      ],
+      "ogTitle": "Bisphenol Resin Technical Data and Document Check",
+      "ogDescription": "Read the current Bisphenol Resin TDS and conflicting catalogue entry without silently transferring values between documents."
+    },
+    "quickFacts": {
+      "TDS viscosity": "600 cPs at 25 C",
+      "TDS gel-time value": "35-45 minutes at 25 C",
+      "TDS density": "1.10 g/cm3 at 25 C",
+      "Critical check": "Catalogue BPR values differ and are not combined with TDS values"
+    },
+    "comparisonTable": {
+      "title": "Read the BPR documents as separate records",
+      "note": "The table reports what each current repository document states. It is not a reconciliation, equivalence statement or specification hierarchy.",
+      "headers": [
+        "Document item",
+        "Detailed Bisphenol Resin TDS",
+        "Catalogue BPR entry",
+        "Buyer action"
+      ],
+      "rows": [
+        [
+          "Product description",
+          "Bisphenol A & epichlorohydrin based (thermosetting)",
+          "Bisphenol-A Epoxy Vinyl Ester Resin",
+          "Identify the exact document or grade reference before selection"
+        ],
+        [
+          "Viscosity",
+          "600 cPs at 25 C",
+          "400 cPs",
+          "Do not transfer one value to the other route"
+        ],
+        [
+          "Gel time",
+          "35-45 minutes at 25 C",
+          "20 minutes",
+          "Treat both as document-specific data, not processing instruction"
+        ],
+        [
+          "Specific gravity / density",
+          "1.10 g/cm3 at 25 C",
+          "1.06 g/cm3",
+          "Confirm the material actually being quoted"
+        ],
+        [
+          "Listed applications",
+          "Laminating, casting, coating and encapsulation contexts",
+          "Chemical processing and marine",
+          "Do not turn either list into a cross-document approval"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-bisphenol-resin",
+      "bisphenol-resin-applications",
+      "bisphenol-resin-data-vs-finished-component-performance",
+      "bisphenol-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/bisphenol-resin/",
+        "label": "View Bisphenol Resin",
+        "description": "See the TDS-led product page and its document-discrepancy notice."
+      },
+      {
+        "href": "/tds/bisphenol-resin-tds.pdf",
+        "label": "Download current Bisphenol Resin TDS",
+        "description": "Review the full table, typical-data disclaimer, storage and supply information."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Use the BPR catalogue card as a separately identified document record."
+      },
+      {
+        "href": "/resources/bisphenol-resin-procurement-checklist/",
+        "label": "Prepare a document-led RFQ",
+        "description": "Include the reference and project requirement that need confirmation."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Bisphenol Resin values are published in the detailed TDS?",
+        "a": "The current TDS publishes resin type, grade, viscosity, gel-time value, styrene content, density, thermal data, flash point, shelf life, storage, packaging and MOQ."
+      },
+      {
+        "q": "Which value should I use when the TDS and catalogue differ?",
+        "a": "Do not choose or average a value on this website. State the exact document reference and requirement during enquiry so the current product route can be confirmed."
+      },
+      {
+        "q": "Is the 80 C thermal-data entry a continuous service-temperature limit?",
+        "a": "No. The current TDS lists 80 C as fully cured thermal data. It does not publish a continuous service-temperature limit."
+      },
+      {
+        "q": "Can the gel-time value be used as process guidance?",
+        "a": "No. It is reported as typical TDS data at 25 C. This guide does not provide hardener ratio, cure adjustment or processing instructions."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the detailed TDS for the published supplied-resin data",
+        "body": [
+          "The current detailed TDS publishes 600 cPs viscosity at 25 C, a 35-45 minute gel-time value at 25 C, 1.10 g/cm3 density at 25 C, not-applicable styrene content, 80 C fully cured thermal data and flash point above 100 C. It also lists 12-month unopened shelf life, 20-30 C storage, 20 kg packaging and 100 kg MOQ.",
+          "These are document-level, typical product-data points. They identify the supplied resin route being described; they do not provide a chemical-compatibility chart, mechanical-property table, certificate or finished-component guarantee."
+        ]
+      },
+      {
+        "heading": "Do not silently combine the TDS and catalogue",
+        "body": [
+          "The current catalogue BPR card uses a different description and lists 400 cPs viscosity, 20-minute gel time and 1.06 g/cm3 specific gravity. It also names chemical processing and marine, which are not listed as product-specific approvals in the detailed TDS.",
+          "A data conflict is an important buyer fact. This guide does not choose the more convenient figure, infer that the entries are variants of the same grade or treat one source as a silent correction to the other."
+        ]
+      },
+      {
+        "heading": "Read the limits of each number",
+        "body": [
+          "Viscosity, density and gel-time values identify documented supplied-material conditions. They do not describe a finished reinforced laminate, coating, casting, bonded assembly or electrical component. The TDS says values are typical and should not be interpreted as guaranteed specifications.",
+          "The 80 C entry is explicitly presented as fully cured thermal data, not a recommended operating range. No test specimen, continuous service limit or chemical-exposure temperature guidance is published for this product route."
+        ]
+      },
+      {
+        "heading": "Use the discrepancy to improve the RFQ",
+        "body": [
+          "Attach or name the TDS or catalogue reference, state the finished application, required properties or chemistry if specified, quantity, packaging need, delivery location and documentation required. Where a service environment matters, provide the medium, concentration and temperature where relevant.",
+          "That information lets Samrat FRP Traders confirm the actual product record without asking the buyer to supply a formulation, cure method, laminate design or chemical-compatibility conclusion."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bisphenol-resin-applications",
+    "title": "Bisphenol Resin Applications: Documented Industrial Contexts",
+    "description": "Review the current TDS-listed Bisphenol Resin contexts for laminating, casting, coating and encapsulation without turning broad categories into unverified project approvals.",
+    "category": "Application Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Bisphenol Resin Applications | Industrial Buyer Guide",
+      "keywords": [
+        "Bisphenol Resin Applications",
+        "Bisphenol Resin for FRP",
+        "Bisphenol Resin for Coating",
+        "Bisphenol Resin for Encapsulation",
+        "Industrial Bisphenol Resin Applications"
+      ],
+      "ogTitle": "Bisphenol Resin Applications: Documented Industrial Contexts",
+      "ogDescription": "Use the current TDS-listed Bisphenol Resin contexts as a starting point for a documented product discussion."
+    },
+    "quickFacts": {
+      "FRP context": "Laminating and FRP composites",
+      "Coating context": "Industrial flooring and protective coatings",
+      "Electrical context": "Electrical encapsulation and tooling",
+      "Boundary": "No tank, pipe, marine or chemical-specific approval in detailed TDS"
+    },
+    "relatedSlugs": [
+      "what-is-bisphenol-resin",
+      "bisphenol-resin-data-vs-finished-component-performance",
+      "bisphenol-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/bisphenol-resin/",
+        "label": "View Bisphenol Resin",
+        "description": "Review the product data, current document caveat and enquiry route."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber",
+        "description": "Keep reinforcement selection separate from the resin decision for an FRP composite."
+      },
+      {
+        "href": "/tds/bisphenol-resin-tds.pdf",
+        "label": "Download Bisphenol Resin TDS",
+        "description": "Confirm the published application language before discussing a project."
+      },
+      {
+        "href": "/resources/bisphenol-resin-procurement-checklist/",
+        "label": "Prepare a Bisphenol Resin RFQ",
+        "description": "Share the exact application, technical requirement and commercial details."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What applications are documented for Bisphenol Resin?",
+        "a": "The detailed TDS lists laminating and FRP composites; industrial flooring and protective coatings; electrical encapsulation, tooling and structural bonding; and high-end casting and coating applications."
+      },
+      {
+        "q": "Does the current TDS approve Bisphenol Resin for tanks, pipes, ducts or scrubbers?",
+        "a": "No. Those application approvals are not published in the current product-specific TDS. Do not infer them from broad resin-family terminology or a general range overview."
+      },
+      {
+        "q": "Does a listed FRP context determine the reinforcement or laminate construction?",
+        "a": "No. Glass Fiber is a separate reinforcement decision. The current document does not prescribe a mat grade, resin-to-glass ratio, laminate schedule or finished-component design."
+      },
+      {
+        "q": "Does a listed coating or encapsulation context establish final performance?",
+        "a": "No. Final performance can depend on the complete system, substrate, construction, cure state and tested configuration. The supplied resin document is not an application approval."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Laminating and FRP composites",
+        "body": [
+          "The current TDS lists laminating and FRP composites. In that context, Bisphenol Resin is the resin or matrix product and Glass Fiber is a separate reinforcement product. This establishes a material-role discussion, not a prescribed laminate design.",
+          "A buyer should identify the finished composite component, any stated technical requirement, expected quantity and required documentation. The TDS does not publish glass type, mat weight, reinforcement ratio, thickness or cure schedule."
+        ]
+      },
+      {
+        "heading": "Industrial flooring and protective coatings",
+        "body": [
+          "Industrial flooring and protective coatings are TDS-listed contexts. The listing supports a product discussion for that broad application category; it does not establish substrate compatibility, coating thickness, chemical exposure suitability, adhesion result or a project approval.",
+          "Share the actual substrate, exposure context, required system specification and technical documentation requirement. Do not convert the broad TDS application name into a universal protective-coating claim."
+        ]
+      },
+      {
+        "heading": "Electrical encapsulation, tooling and structural bonding",
+        "body": [
+          "The TDS lists electrical encapsulation, tooling and structural bonding as application contexts. It does not publish electrical test values, a bonding-performance table, substrate-specific compatibility or a finished-assembly approval.",
+          "For a project in one of these categories, provide the finished part, required specification, environmental requirement and documentation needed. This keeps a category-level application list distinct from verified end-product performance."
+        ]
+      },
+      {
+        "heading": "Casting and coating contexts",
+        "body": [
+          "The TDS lists high-end casting and coating applications. It does not provide casting depth, pot life, mixing sequence, cure schedule, finish result or decorative-art guidance. Those details must not be inferred from a general casting label.",
+          "Samrat's separately listed epoxy casting and art products have their own product roles and documents. A buyer should state which finished application is required rather than moving a value or claim between routes."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bisphenol-resin-vs-upr-and-gp-resin",
+    "title": "Bisphenol Resin vs UPR and GP Resin",
+    "description": "A document-led comparison that keeps the current Bisphenol Resin route distinct from Samrat's broad Unsaturated Polyester Resin and general-purpose GP Clear Resin routes.",
+    "category": "Comparison Guide",
+    "icon": "compare",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Bisphenol Resin vs UPR and GP Resin | Buyer Guide",
+      "keywords": [
+        "Bisphenol Resin vs UPR",
+        "Bisphenol Resin vs GP Resin",
+        "Bisphenol Resin Comparison",
+        "Unsaturated Polyester Resin vs Bisphenol Resin",
+        "GP Resin Comparison"
+      ],
+      "ogTitle": "Bisphenol Resin vs UPR and GP Resin",
+      "ogDescription": "Compare documented product roles without assuming that a specialist name is a universal performance upgrade."
+    },
+    "quickFacts": {
+      "Bisphenol TDS": "Does not identify the product as UPR; styrene content listed as not applicable",
+      "UPR role": "Broad product-family route",
+      "GP Clear role": "Published general-purpose FRP route",
+      "Selection control": "Use the exact TDS and finished application, not a generic hierarchy"
+    },
+    "comparisonTable": {
+      "title": "Compare the documented product routes",
+      "note": "This is a product-role comparison, not a strength, chemical-resistance, temperature or service-life ranking.",
+      "headers": [
+        "Buyer check",
+        "Bisphenol Resin",
+        "UPR / GP Clear Resin"
+      ],
+      "rows": [
+        [
+          "Published identity",
+          "Bisphenol A & epichlorohydrin based thermosetting system in current TDS",
+          "UPR is the broad category; GP Clear is separately published as a general-purpose polyester route"
+        ],
+        [
+          "Styrene wording",
+          "Not applicable in current TDS",
+          "Review the exact UPR or GP product document"
+        ],
+        [
+          "Published starting context",
+          "Laminating, casting, coating and encapsulation",
+          "General-purpose FRP selection according to the named product data"
+        ],
+        [
+          "What to verify",
+          "Current Bisphenol Resin TDS, application and stated requirement",
+          "Required GP or UPR product role, process and stated technical requirement"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-bisphenol-resin",
+      "bisphenol-resin-applications",
+      "bisphenol-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/bisphenol-resin/",
+        "label": "View Bisphenol Resin",
+        "description": "Review its current TDS-led identity and document-discrepancy warning."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the parent category route for broad polyester-resin selection."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separately published general-purpose FRP route."
+      },
+      {
+        "href": "/resources/what-is-unsaturated-polyester-resin/",
+        "label": "Understand UPR",
+        "description": "Keep category terminology separate from an exact Bisphenol product choice."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Bisphenol Resin an Unsaturated Polyester Resin?",
+        "a": "The current Bisphenol TDS does not identify it as UPR and lists styrene content as not applicable. It should not be described as UPR from the current repository evidence."
+      },
+      {
+        "q": "Is Bisphenol Resin a substitute for GP Clear Resin?",
+        "a": "No automatic substitution is published. GP Clear Resin is the separately documented general-purpose FRP route. Select from the exact product document and finished application."
+      },
+      {
+        "q": "Which route should a general FRP buyer start with?",
+        "a": "For a broad general-purpose FRP requirement, review UPR and GP Clear documentation. Review Bisphenol Resin where its current TDS-listed product context and technical data match the requirement."
+      },
+      {
+        "q": "Does this comparison rank the products by strength or resistance?",
+        "a": "No. The repository does not publish direct comparative mechanical, chemical, temperature or service-life data for these product routes."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "UPR is a category; Bisphenol Resin is a document-specific route",
+        "body": [
+          "Unsaturated Polyester Resin is Samrat's broader product-family route. The current Bisphenol Resin TDS identifies a different Bisphenol A and epichlorohydrin-based thermosetting system, not UPR, and lists styrene content as not applicable.",
+          "That distinction reduces the risk of ordering Bisphenol Resin because a broad polyester search term appears to be similar. The useful decision is whether the exact published product route fits the documented application and requirement."
+        ]
+      },
+      {
+        "heading": "GP Clear Resin retains general-purpose FRP intent",
+        "body": [
+          "GP Clear Resin is the published general-purpose FRP route and has its own technical document, applications and buyer guidance. The current Bisphenol TDS instead lists laminating, casting, coating and encapsulation contexts.",
+          "Neither product is presented here as universally stronger, more durable, more chemical resistant or better for every application. Use the actual component, specification and TDS rather than a generic grade hierarchy."
+        ]
+      },
+      {
+        "heading": "What to compare before ordering",
+        "body": [
+          "Compare the exact product identity, current product-specific TDS, application role and stated technical requirement. The catalogue can help buyers navigate Samrat's broader range but does not replace the Bisphenol Resin TDS.",
+          "Do not transfer viscosity, gel-time or density figures from a GP or UPR grade to Bisphenol Resin. Do not transfer a Bisphenol value to a general-purpose resin requirement either."
+        ]
+      },
+      {
+        "heading": "When another route should be reviewed",
+        "body": [
+          "For a defined fire requirement, review the separate Fire Retardant or ISO Fire Retardant product routes. For a separately specified Vinyl Ester requirement, use the Vinyl Ester TDS. For an isophthalic requirement, the site publishes ISO Fire Retardant Resin as a separate isophthalic FR route.",
+          "These are distinct buyer journeys. A shared industrial-resin context is not proof that the products are interchangeable."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bisphenol-resin-vs-epoxy-resin",
+    "title": "Bisphenol Resin vs Epoxy Resin: Product-Route Check",
+    "description": "Clarify why the current Bisphenol Resin TDS terminology does not make it automatically interchangeable with Samrat's separate conventional epoxy product routes.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Bisphenol Resin vs Epoxy Resin | Product-Route Guide",
+      "keywords": [
+        "Bisphenol Resin vs Epoxy Resin",
+        "Bisphenol A Resin vs Epoxy",
+        "Bisphenol Resin Epoxy Comparison",
+        "Industrial Bisphenol Resin",
+        "Epoxy Resin Product Selection"
+      ],
+      "ogTitle": "Bisphenol Resin vs Epoxy Resin: Product-Route Check",
+      "ogDescription": "Use the current product documents to distinguish Bisphenol Resin from Samrat's separate epoxy routes without assuming interchangeability."
+    },
+    "quickFacts": {
+      "Bisphenol TDS chemistry wording": "Bisphenol A & epichlorohydrin based (thermosetting)",
+      "Bisphenol cure wording": "Room-temperature cure with amine hardener",
+      "Separate site routes": "Clear Casting, Epoxy Art and Fiberglass Epoxy have their own product data",
+      "Boundary": "Current Bisphenol TDS does not label the product as a conventional epoxy substitute"
+    },
+    "relatedSlugs": [
+      "what-is-bisphenol-resin",
+      "bisphenol-resin-data-vs-finished-component-performance",
+      "bisphenol-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/bisphenol-resin/",
+        "label": "View Bisphenol Resin",
+        "description": "Review the current product-specific TDS wording, application context and quote path."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the separate published clear-casting product route."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Review the separate decorative and art product route."
+      },
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the separately published structural fiberglass route."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Bisphenol Resin the same as a conventional epoxy resin on this site?",
+        "a": "No automatic equivalence is published. The current Bisphenol TDS uses Bisphenol A, epichlorohydrin and amine-hardener wording, but it does not label the product as interchangeable with Samrat's separate conventional epoxy product routes."
+      },
+      {
+        "q": "Can Epoxy Clear Casting Resin replace Bisphenol Resin?",
+        "a": "No substitution is published. Epoxy Clear Casting Resin has its own product role and documentation. Select the exact product route for the actual finished application."
+      },
+      {
+        "q": "Does the Bisphenol TDS provide an amine hardener ratio?",
+        "a": "The TDS includes a hardener reference, but this guide does not reproduce ratios, mixing instructions, cure schedules or process guidance."
+      },
+      {
+        "q": "Does the shared word 'Bisphenol' make this product interchangeable with every epoxy or Vinyl Ester Resin?",
+        "a": "No. The current Bisphenol Resin TDS and each separate product route must be reviewed for the stated application. A shared chemistry word does not establish interchangeability."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the TDS wording without over-labelling the product",
+        "body": [
+          "The current Bisphenol Resin TDS identifies a Bisphenol A and epichlorohydrin-based thermosetting system and lists room-temperature cure with amine hardener. Those are the documented words this guide carries forward.",
+          "The document does not state that Bisphenol Resin is the same as every conventional epoxy product on the site. It also does not establish that a decorative casting, art or structural-fiberglass epoxy route is interchangeable with this product."
+        ]
+      },
+      {
+        "heading": "Separate epoxy product routes have separate documents",
+        "body": [
+          "Samrat lists Epoxy Clear Casting Resin, Epoxy Art Resin, Fiberglass Epoxy Resin and Epoxy Hardener as separate routes. Each has its own published intended-use context and technical documentation.",
+          "A buyer should therefore state the actual finished application and product document rather than requesting an epoxy product based only on a shared chemistry word. This prevents decorative casting, art, structural fiberglass and Bisphenol requirements from being collapsed into one enquiry."
+        ]
+      },
+      {
+        "heading": "Do not turn cure terminology into operating guidance",
+        "body": [
+          "The Bisphenol TDS identifies an amine-hardener curing method. That is a system-identification point, not a public recipe. This guide does not provide hardener amounts, mixing order, cure schedule, cure temperature or adjustment guidance.",
+          "A buyer who needs an exact system should request the current document and state the required application, documentation and commercial requirement. The website should not transfer operating instructions between separate resin routes."
+        ]
+      },
+      {
+        "heading": "Keep finished performance separate",
+        "body": [
+          "No direct comparative mechanical table, adhesion result, chemical-compatibility chart, temperature limit or finished-component approval is published between Bisphenol Resin and the separate epoxy products. No performance hierarchy is claimed here.",
+          "Use the current product-specific TDS and project specification to define the conversation. If the project also specifies fire performance, identify that separately rather than assuming it from either Bisphenol or epoxy terminology."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bisphenol-resin-data-vs-finished-component-performance",
+    "title": "Bisphenol Resin Data vs Finished Component Performance",
+    "description": "Understand the difference between published Bisphenol Resin supplied-material data and the separate performance of a finished laminate, coating, casting, bonded assembly or encapsulated component.",
+    "category": "Technical Selection Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Bisphenol Resin Data vs Finished FRP Performance | Buyer Guide",
+      "keywords": [
+        "Bisphenol Resin FRP Performance",
+        "Bisphenol Resin Technical Data",
+        "Bisphenol Resin FRP",
+        "Bisphenol Resin Selection",
+        "Industrial Resin System Performance"
+      ],
+      "ogTitle": "Bisphenol Resin Data vs Finished Component Performance",
+      "ogDescription": "Why supplied-resin data is a selection starting point, not a finished FRP, coating, casting or encapsulation approval."
+    },
+    "quickFacts": {
+      "Published data": "Supplied-resin identity and typical physical data",
+      "Finished outcomes": "Depend on the complete component or system",
+      "FRP reinforcement": "Glass Fiber is a separate material decision",
+      "Not published": "Finished-component test report or approval"
+    },
+    "relatedSlugs": [
+      "what-is-bisphenol-resin",
+      "bisphenol-resin-applications",
+      "bisphenol-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/bisphenol-resin/",
+        "label": "View Bisphenol Resin",
+        "description": "Review the current technical table and product-selection boundary."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber",
+        "description": "Understand the separate reinforcement product role for an FRP composite."
+      },
+      {
+        "href": "/tds/bisphenol-resin-tds.pdf",
+        "label": "Download Bisphenol Resin TDS",
+        "description": "Read the typical-data disclaimer and exact published context."
+      },
+      {
+        "href": "/resources/bisphenol-resin-procurement-checklist/",
+        "label": "Prepare a Bisphenol Resin RFQ",
+        "description": "Turn the current product data and application requirement into a focused enquiry."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Bisphenol Resin viscosity establish finished FRP strength?",
+        "a": "No. Viscosity is supplied-resin data. The current repository does not publish a finished-laminate mechanical-property result for this product."
+      },
+      {
+        "q": "Does the TDS application list establish coating, bonding or encapsulation approval?",
+        "a": "No. The listed contexts identify where a product discussion may begin. Final results can depend on the complete system, substrate, construction, cure state and tested configuration."
+      },
+      {
+        "q": "Does Glass Fiber determine a finished FRP result by itself?",
+        "a": "No. Glass Fiber is the reinforcement component and Bisphenol Resin is the matrix or resin component. The document does not prescribe their combination, ratio or laminate design."
+      },
+      {
+        "q": "Does the 80 C TDS entry establish component service temperature?",
+        "a": "No. It is fully cured thermal data, not a published continuous service-temperature or chemical-exposure limit."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What the current TDS actually describes",
+        "body": [
+          "The detailed TDS describes the supplied Bisphenol Resin route: its identity wording, typical viscosity, gel-time value, density, thermal data, storage and commercial information. These are useful for product identification and documentation review.",
+          "They are not a finished-FRP mechanical table, a coating qualification, a structural-bonding result, an electrical test certificate or a service-environment approval. The TDS itself says the values are typical rather than guaranteed specifications."
+        ]
+      },
+      {
+        "heading": "A finished component is a complete system",
+        "body": [
+          "A finished laminate, coating, casting, bonded assembly or encapsulated component can depend on the resin, reinforcement or substrate, component construction, thickness, cure state, service environment and tested configuration. In an FRP context, Glass Fiber is a separate reinforcement decision.",
+          "The current Bisphenol documents do not prescribe mat grade, resin-to-glass ratio, laminate schedule, coating thickness, casting geometry, adhesive joint design or electrical assembly configuration. This guide intentionally does not invent them."
+        ]
+      },
+      {
+        "heading": "Keep service questions separate from product data",
+        "body": [
+          "A broad TDS statement is not a chemical-specific compatibility conclusion. If a project has a service medium, concentration, temperature, exposure mode or mandatory standard, those details should be supplied during enquiry.",
+          "The repository does not publish a chemical-compatibility chart, continuous service-temperature recommendation, fire rating, mechanical test context or finished-system test report for this Bisphenol Resin route."
+        ]
+      },
+      {
+        "heading": "Use the information to ask a better question",
+        "body": [
+          "Review the current product-specific TDS, then state the component, required performance or documentation, quantity and delivery location. For a composite or coating requirement, state the relevant system or application requirement without asking the website to supply a fabrication recipe.",
+          "This moves the buyer from a product label to a verifiable technical discussion while keeping resin data separate from final-component claims."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bisphenol-resin-procurement-checklist",
+    "title": "Bisphenol Resin Procurement Checklist",
+    "description": "Prepare a focused Bisphenol Resin RFQ with the application, service requirement, current product-specific TDS, documentation and commercial details needed for review.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Bisphenol Resin Procurement Checklist | RFQ Guide",
+      "keywords": [
+        "Bisphenol Resin Procurement",
+        "Bisphenol Resin RFQ",
+        "Bisphenol Resin Buying Checklist",
+        "Bisphenol Resin Technical Documents"
+      ],
+      "ogTitle": "Bisphenol Resin Procurement Checklist",
+      "ogDescription": "What buyers should provide before requesting a Bisphenol Resin quote, from the intended application to technical and commercial requirements."
+    },
+    "quickFacts": {
+      "Published TDS packaging": "20 kg pack",
+      "Published TDS MOQ": "100 kg",
+      "Published TDS shelf life": "12 months unopened",
+      "RFQ priority": "State the application and required technical properties"
+    },
+    "relatedSlugs": [
+      "what-is-bisphenol-resin",
+      "bisphenol-resin-applications",
+      "bisphenol-resin-data-vs-finished-component-performance"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/bisphenol-resin/#enquire",
+        "label": "Request Bisphenol Resin Quote",
+        "description": "Use the product enquiry route after preparing the document and application details."
+      },
+      {
+        "href": "/tds/bisphenol-resin-tds.pdf",
+        "label": "Download Bisphenol Resin TDS",
+        "description": "Review the current product-specific document before naming a grade."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Explore Samrat's broader resin range before confirming the product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a Bisphenol Resin requirement",
+        "description": "Share the technical and commercial details for a focused review."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in a Bisphenol Resin RFQ?",
+        "a": "Include the intended finished application, stated chemistry or technical requirement, service medium, concentration and temperature where relevant, quantity, packaging need, delivery location and documentation requirement."
+      },
+      {
+        "q": "Which technical document should I review?",
+        "a": "Use the current product-specific Bisphenol Resin TDS for this grade's identity, typical data, storage, packaging and MOQ. The catalogue is a general range overview."
+      },
+      {
+        "q": "Do the published TDS pack and MOQ confirm availability?",
+        "a": "No. The detailed TDS lists a 20 kg pack and 100 kg MOQ. Stock, lead time, delivery and order-specific documentation require confirmation for the actual enquiry."
+      },
+      {
+        "q": "Should a buyer provide a chemical-service requirement?",
+        "a": "Where relevant, yes. Provide the actual service medium, concentration, temperature, exposure context and required documentation. This does not assume chemical compatibility from the current broad product wording."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the current product-specific TDS",
+        "body": [
+          "Use the current Bisphenol Resin TDS for this grade's chemistry wording, typical supplied-resin data, storage, packaging and MOQ. Use the product catalogue only as an overview of Samrat's broader resin range.",
+          "If the enquiry is governed by a buyer specification or item code, attach it so Samrat FRP Traders can review the exact requirement alongside the current TDS."
+        ]
+      },
+      {
+        "heading": "Define the finished application and technical requirement",
+        "body": [
+          "State whether the requirement concerns the TDS-listed laminating, FRP composite, flooring or protective-coating, electrical encapsulation, tooling, structural-bonding, casting or coating context. Include any stated chemistry, technical property, finished-component requirement or documentation request.",
+          "This is a product-selection discussion, not a request for a formulation, hardener ratio, laminate design, coating thickness or cure schedule."
+        ]
+      },
+      {
+        "heading": "Make service conditions visible when relevant",
+        "body": [
+          "For a service environment, provide the medium, concentration where relevant, temperature where relevant, exposure mode and project specification. State any fire-performance or other mandatory requirement separately.",
+          "The current documents do not publish chemical-specific compatibility, a continuous service-temperature limit, a fire rating or a finished-component approval. These details help define what additional verification may be needed."
+        ]
+      },
+      {
+        "heading": "Complete the commercial and documentation request",
+        "body": [
+          "The current TDS publishes a 20 kg pack, 100 kg MOQ, 12-month unopened shelf life and 20-30 C storage statement. Provide expected quantity, packaging requirement, delivery city or location, timing requirement and documents required for the actual order.",
+          "Published commercial data does not guarantee stock, lead time, order-specific test documents or delivery. Confirm those items during the commercial discussion."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-marble-resin",
+    "title": "What Is Marble Resin? Samrat Marble Resin Explained",
+    "description": "Understand Samrat Marble Resin as a documented liquid unsaturated polyester resin route for cultured marble and artificial stone, with product-specific data and selection limits.",
+    "category": "Technical Explainer",
+    "icon": "info",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "What Is Marble Resin? | Polyester Marble Resin Guide",
+      "keywords": [
+        "Marble Resin",
+        "Polyester Marble Resin",
+        "Cultured Marble Resin",
+        "Artificial Marble Resin",
+        "Polyester Resin for Marble",
+        "Marble Resin Manufacturer India"
+      ],
+      "ogTitle": "What Is Marble Resin?",
+      "ogDescription": "A document-led guide to Samrat Marble Resin, its published cultured-marble and artificial-stone role, and what buyers should verify."
+    },
+    "quickFacts": {
+      "Published resin family": "Unsaturated polyester resin in the TDS; Orthophthalic UPR in the catalogue",
+      "Supplied form": "Water-white liquid resin",
+      "Published contexts": "Cultured marble and artificial stone",
+      "Not supplied": "A finished slab, countertop, basin or other completed marble product"
+    },
+    "relatedSlugs": [
+      "marble-resin-raw-resin-vs-finished-marble-composite",
+      "marble-resin-applications-cultured-marble-artificial-stone",
+      "gp-quartz-resin-vs-marble-resin",
+      "marble-resin-technical-specifications-and-rfq"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review the product-specific technical table, TDS and quotation route."
+      },
+      {
+        "href": "/tds/marble-resin-tds.pdf",
+        "label": "Download Marble Resin TDS",
+        "description": "Use the detailed current document for the published supplied-resin data."
+      },
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "Review GP Quartz Resin",
+        "description": "Keep an engineered-quartz or composite-mineral requirement on its separate product route."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a Marble Resin requirement",
+        "description": "Share the actual finished product, documentation need and commercial requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Marble Resin?",
+        "a": "Samrat Marble Resin is a water-white liquid unsaturated polyester resin. The current TDS identifies cultured marble and artificial stone as its product contexts. It is supplied as raw resin, not as a finished marble product."
+      },
+      {
+        "q": "Is Marble Resin an unsaturated polyester resin?",
+        "a": "Yes. The detailed TDS identifies unsaturated polyester resin. The catalogue additionally labels the product Orthophthalic Unsaturated Polyester Resin. The documents are kept distinct rather than being silently reconciled."
+      },
+      {
+        "q": "Is Marble Resin used for artificial or cultured marble?",
+        "a": "Yes. The TDS explicitly lists cultured marble and artificial stone; the catalogue also mentions cultured marble and onyx production. These are documented starting points for selection, not a formulation, finished-product qualification or universal stone-system approval."
+      },
+      {
+        "q": "Is Marble Resin a finished marble product?",
+        "a": "No. Samrat supplies the liquid resin. The finished slab, vanity, countertop, basin, panel or other composite can depend on the complete system and its tested configuration."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A document-led Marble Resin product route",
+        "body": [
+          "Samrat Marble Resin is a product-specific route for buyers evaluating the TDS-listed cultured-marble and artificial-stone contexts. The detailed TDS describes a water-white liquid unsaturated polyester resin. The catalogue calls its Marble Resin card a filled resin for cultured marble and onyx production and labels it Orthophthalic Unsaturated Polyester Resin.",
+          "Those documents establish a useful shared product family and use case, but they do not publish a filler type, filler level, formulation or finished-system approval. The right starting point is therefore the actual marble or stone product and the current Marble Resin document, not a generic assumption about every polyester resin."
+        ]
+      },
+      {
+        "heading": "Raw resin is not the finished marble component",
+        "body": [
+          "Samrat supplies the liquid resin component, not finished marble slabs, vanity tops, countertops, wash basins, wall panels, statues, railings or balusters. The TDS application list identifies finished-product contexts where a product discussion may begin.",
+          "A finished marble or mineral composite can depend on the complete material system, including the selected mineral or filler system, other formulation components, cure state, surface system and tested configuration. This guide does not turn liquid-resin data into a guarantee of a finished component's appearance, hardness, polish, shrinkage or service performance."
+        ]
+      },
+      {
+        "heading": "Published contexts and selection boundaries",
+        "body": [
+          "The TDS lists cultured-marble slabs and vanity tops; kitchen and bathroom countertops and wash basins; wall panels, window sills and architectural components; and marble sheets, statues, railings and balusters. The catalogue separately refers to cultured marble, onyx production and decorative panels.",
+          "For artificial quartz, engineered-stone slabs or composite-mineral surfaces, review the separately published GP Quartz Resin route. For broad reinforced-FRP work, use the GP Clear Resin or Unsaturated Polyester Resin route. Product roles are selection aids, not claims that one grade is universally better than another."
+        ]
+      },
+      {
+        "heading": "Verify the exact document before ordering",
+        "body": [
+          "The Marble TDS lists water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time, 1.12 g/cm3 specific gravity, storage, shelf life, 200 kg packaging and a 200 kg MOQ. The catalogue lists 300 cPs viscosity and 15-minute gel time. These values must not be averaged or treated as a single confirmed specification.",
+          "Share the intended finished product, any current TDS or catalogue reference, required supplied appearance or finish, technical-document requirement, expected quantity, packaging need and delivery location when requesting a quote."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marble-resin-raw-resin-vs-finished-marble-composite",
+    "title": "Marble Resin: Raw Liquid Resin vs Finished Marble Composite",
+    "description": "Separate the supplied Marble Resin data from the finished cultured-marble or artificial-stone composite so buyers can verify the right product and documentation.",
+    "category": "Product Selection",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Marble Resin vs Finished Artificial Marble | Buyer Guide",
+      "keywords": [
+        "Marble Resin Raw Material",
+        "Marble Resin for Artificial Marble",
+        "Cultured Marble Resin",
+        "Finished Marble Composite",
+        "Polyester Resin for Marble"
+      ],
+      "ogTitle": "Raw Marble Resin vs Finished Marble Composite",
+      "ogDescription": "What Samrat supplies as liquid Marble Resin, what the TDS describes, and which finished-product results require separate verification."
+    },
+    "quickFacts": {
+      "Samrat supplies": "Liquid Marble Resin",
+      "TDS role": "Typical supplied-resin data and listed product contexts",
+      "Finished outcome": "Depends on the complete marble or mineral-composite system",
+      "Not published": "A formulation, filler ratio or finished-product performance guarantee"
+    },
+    "relatedSlugs": [
+      "what-is-marble-resin",
+      "marble-resin-applications-cultured-marble-artificial-stone",
+      "marble-resin-technical-specifications-and-rfq",
+      "gp-quartz-resin-vs-marble-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review supplied-resin data and the documented product role."
+      },
+      {
+        "href": "/tds/marble-resin-tds.pdf",
+        "label": "Download Marble Resin TDS",
+        "description": "Check the current grade-specific data before selection."
+      },
+      {
+        "href": "/resources/marble-resin-technical-specifications-and-rfq/",
+        "label": "Read the technical-data and RFQ guide",
+        "description": "Keep the TDS and different catalogue values visible before enquiry."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Marble Resin determine finished marble hardness or gloss?",
+        "a": "No. The TDS describes the supplied resin and uses product-positioning terms such as high-gloss finish and low shrinkage. The finished composite can also depend on the complete system and tested configuration; no finished-product guarantee is published."
+      },
+      {
+        "q": "Does the catalogue's filled-resin wording publish a formulation?",
+        "a": "No. The catalogue identifies a filled-resin role for cultured marble and onyx production, but it does not publish the filler type, filler level, pigment content, resin-to-filler ratio or a manufacturing recipe."
+      },
+      {
+        "q": "Can a buyer use liquid-resin data as a finished countertop or basin approval?",
+        "a": "No. The TDS does not publish a finished countertop, basin, panel or architectural-product approval. State the exact finished application and documentation requirement during enquiry."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What the supplied product is",
+        "body": [
+          "The current Marble Resin TDS identifies a water-white liquid unsaturated polyester resin. This is the resin product supplied by Samrat FRP Traders for the listed cultured-marble and artificial-stone contexts.",
+          "It is not a ready-made marble slab, countertop, vanity top, wash basin, wall panel or other completed stone product. That distinction matters because a raw resin data sheet and a finished component's performance record answer different buyer questions."
+        ]
+      },
+      {
+        "heading": "What the current documents describe",
+        "body": [
+          "The TDS publishes supplied-resin form, colour, typical viscosity, gel time, curing time, density, styrene content, flash point, storage, shelf life, packaging and MOQ. It also uses broad product-positioning terms including filler compatibility, smooth flow, high-gloss finish, low shrinkage and water or chemical resistance after full cure.",
+          "These statements should be read in their documented context. They are not a published filler-loading limit, chemical-compatibility chart, UV or non-yellowing result, substrate-adhesion result, scratch or stain rating, or finished-product approval."
+        ]
+      },
+      {
+        "heading": "What remains part of the finished system",
+        "body": [
+          "Finished appearance, gloss, shrinkage, hardness, polishability, dimensional result and service performance can depend on the complete marble or mineral-composite system. The current documents do not publish the mineral or filler type, other formulation components, processing conditions, surface system or tested final configuration.",
+          "This is why the page does not provide a recipe, filler percentage, pigment amount, catalyst instruction, cure schedule, casting method or polishing procedure. Those details are outside the published product documentation and this buyer guide's scope."
+        ]
+      },
+      {
+        "heading": "Turn the distinction into a better enquiry",
+        "body": [
+          "Identify the intended finished marble or stone product, the exact TDS or catalogue record under review, any required supplied appearance or finish, technical-document requirement, expected quantity, packaging need and delivery location. If the requirement is actually quartz, engineered stone, a broad FRP laminate or a two-part epoxy casting system, say so explicitly so the correct product route can be reviewed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marble-resin-applications-cultured-marble-artificial-stone",
+    "title": "Marble Resin Applications: Cultured Marble and Artificial Stone",
+    "description": "Review the cultured-marble and artificial-stone application contexts published for Samrat Marble Resin, plus the finished-product information buyers still need to verify.",
+    "category": "Application Guide",
+    "icon": "grid",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Marble Resin Applications | Cultured Marble and Artificial Stone",
+      "keywords": [
+        "Marble Resin Applications",
+        "Cultured Marble Resin",
+        "Artificial Marble Resin",
+        "Resin for Artificial Marble",
+        "Marble Resin for Countertops",
+        "Marble Resin Supplier India"
+      ],
+      "ogTitle": "Marble Resin Applications",
+      "ogDescription": "The documented Marble Resin contexts for cultured marble and artificial stone, and the buyer checks required before grade selection."
+    },
+    "quickFacts": {
+      "TDS-listed contexts": "Cultured-marble slabs, vanity tops, countertops, wash basins and architectural components",
+      "Catalogue contexts": "Cultured marble, onyx production and decorative panels",
+      "Resin role": "Supplied liquid resin component",
+      "Always verify": "The actual finished product and current grade-specific TDS"
+    },
+    "relatedSlugs": [
+      "what-is-marble-resin",
+      "marble-resin-raw-resin-vs-finished-marble-composite",
+      "gp-quartz-resin-vs-marble-resin",
+      "marble-resin-technical-specifications-and-rfq"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review the current supplied-resin data and published product contexts."
+      },
+      {
+        "href": "/products/gp-quartz-resin/",
+        "label": "Review GP Quartz Resin",
+        "description": "Use the separate route for its documented artificial-quartz and engineered-stone contexts."
+      },
+      {
+        "href": "/tds/marble-resin-tds.pdf",
+        "label": "Download Marble Resin TDS",
+        "description": "Verify the current product record before ordering."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss an application",
+        "description": "Share the finished component, requirement and commercial details for review."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Marble Resin applications are published?",
+        "a": "The TDS lists cultured-marble slabs and vanity tops; kitchen and bathroom countertops and wash basins; wall panels, window sills and architectural components; and marble sheets, statues, railings and balusters. The catalogue separately names cultured marble, onyx production and decorative panels."
+      },
+      {
+        "q": "Does a published application establish a finished-product approval?",
+        "a": "No. The application list identifies product contexts for discussion. It does not establish a formulation, universal suitability statement, technical approval or finished-system performance guarantee."
+      },
+      {
+        "q": "Should a quartz or engineered-stone buyer use this application list?",
+        "a": "State that exact requirement first. GP Quartz Resin has its own published artificial-quartz, engineered-stone and composite-mineral contexts. The Marble and Quartz documents overlap in some terminology, so the finished product and current TDS should guide selection."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Published cultured-marble and artificial-stone contexts",
+        "body": [
+          "The Marble Resin TDS lists cultured-marble slabs and vanity tops, kitchen and bathroom countertops and wash basins, wall panels and window sills, decorative architectural components, marble sheets, statues, railings and balusters. These are the verified application contexts used in this guide.",
+          "The catalogue separately describes a filled-resin role for cultured marble and onyx production and names decorative panels. It does not publish a formulation or finished-system qualification for every artificial-stone design."
+        ]
+      },
+      {
+        "heading": "What Marble Resin contributes to the conversation",
+        "body": [
+          "Marble Resin is the supplied liquid resin component within the documented marble or artificial-stone context. Its TDS publishes water-white supplied appearance and typical liquid-resin data. The document also uses high-level terms including filler compatibility, smooth flow, high-gloss finish and low shrinkage.",
+          "Those statements do not transfer all final appearance, surface, hardness, shrinkage or service claims to every slab, countertop, basin, panel or architectural component. The finished product needs its own system-level review."
+        ]
+      },
+      {
+        "heading": "Choose by the actual finished product",
+        "body": [
+          "For a cultured-marble or artificial-stone requirement, begin with the Marble Resin product and its current TDS. For an artificial-quartz, engineered-stone slab or composite-mineral surface, review GP Quartz Resin. For broad FRP, door or plywood lamination, or a specified two-part epoxy casting system, use the respective published product route instead.",
+          "The documentation does not create a universal marble-versus-quartz boundary, performance ranking or mineral-compatibility recommendation. Describe the actual component and requirement before a grade discussion."
+        ]
+      },
+      {
+        "heading": "Information to provide before a quotation",
+        "body": [
+          "Provide the finished marble or stone component, intended product context, any available TDS, catalogue reference, drawing or written requirement, desired supplied appearance or finish, required technical documents, expected quantity, packaging need and delivery location. This makes the application discussion specific without requesting or publishing a manufacturing formula."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marble-resin-vs-pet-resin",
+    "title": "Marble Resin vs PET Resin / Polyester Putty Resin",
+    "description": "Separate Samrat Marble Resin's cultured-marble and artificial-stone route from the PET Resin / Polyester Putty Resin liquid sheet-grade route.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Marble Resin vs PET Resin / Polyester Putty Resin",
+      "keywords": [
+        "Marble Resin vs PET Resin",
+        "Polyester Marble Resin",
+        "PET Modified Polyester Resin",
+        "Marble Composite Resin",
+        "Sheet Grade Polyester Resin"
+      ],
+      "ogTitle": "Marble Resin vs PET Resin / Polyester Putty Resin",
+      "ogDescription": "Choose between the Marble Resin stone-composite route and the PET Resin / Polyester Putty Resin liquid sheet-grade route by product role and TDS."
+    },
+    "quickFacts": {
+      "Marble Resin": "Liquid UPR for documented cultured-marble and artificial-stone contexts",
+      "PET Resin / Polyester Putty Resin": "PET-modified liquid UPR sheet grade",
+      "Selection rule": "Start with the finished component and its current product document",
+      "Material-form boundary": "Both products are supplied resins, not finished marble or ready-made putty"
+    },
+    "relatedSlugs": [
+      "what-is-marble-resin",
+      "marble-resin-applications-cultured-marble-artificial-stone",
+      "marble-resin-vs-gp-resin",
+      "marble-resin-technical-specifications-and-rfq"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review the documented cultured-marble and artificial-stone product role."
+      },
+      {
+        "href": "/products/polyester-putty-resin/",
+        "label": "View PET Resin / Polyester Putty Resin",
+        "description": "Review the separate liquid PET-modified sheet-grade role."
+      },
+      {
+        "href": "/resources/pet-resin-liquid-grade-vs-thermoplastic-pet/",
+        "label": "Clarify PET Resin material form",
+        "description": "Keep the liquid Samrat grade separate from thermoplastic PET and ready-made putty."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Marble Resin the same as PET Resin?",
+        "a": "No interchangeability is published. Marble Resin is the documented cultured-marble and artificial-stone route. PET Resin is separately documented as a PET-modified liquid UPR sheet grade for its listed sheet and panel contexts."
+      },
+      {
+        "q": "Is PET Resin / Polyester Putty Resin supplied as ready-made putty?",
+        "a": "No. It is supplied as a liquid PET-modified UPR sheet grade, not as a pre-mixed putty or body filler. Confirm the required material form before enquiry."
+      },
+      {
+        "q": "Can PET Resin technical data be used to select Marble Resin?",
+        "a": "No. Each product publishes its own data and applications. Use the current Marble Resin TDS for a cultured-marble or artificial-stone discussion rather than transferring PET sheet-grade values."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Separate product identities",
+        "body": [
+          "Marble Resin is the supplied water-white liquid UPR route for the TDS-listed cultured-marble and artificial-stone contexts. PET Resin is separately documented as a PET-modified liquid UPR sheet grade for PET sheets, fibre sheets, FRP sheet lamination and panels.",
+          "Both sit within polyester-resin discussions, but the product role—not the shared word resin—should lead selection. Neither document says the grades are interchangeable."
+        ]
+      },
+      {
+        "heading": "Keep product and material form clear",
+        "body": [
+          "PET Resin and Polyester Putty Resin are the approved names for Samrat's liquid PET-modified sheet grade. That liquid raw resin is different from a ready-made putty or thermoplastic PET chips.",
+          "Marble Resin has its own supplied-resin role for cultured-marble and artificial-stone contexts. Confirm the required material form and finished component before product selection."
+        ]
+      },
+      {
+        "heading": "Keep the documents and data separate",
+        "body": [
+          "Marble Resin and PET Resin publish different product data, storage information and application contexts. A liquid-resin value from one product must not become a technical specification, process setting or finished-product performance claim for the other.",
+          "For cultured-marble or artificial-stone work, start with the current Marble Resin TDS. For published sheet or panel work, start with the PET Resin TDS. For another resin role, identify the exact finished product so a separate GP, Lamination, Quartz or epoxy route can be reviewed."
+        ]
+      },
+      {
+        "heading": "Prepare a focused enquiry",
+        "body": [
+          "State whether the requirement is a cultured-marble or artificial-stone component, a sheet or panel, the liquid PET Resin / Polyester Putty Resin grade, a ready-made putty, thermoplastic PET or another product. Then include the applicable product document, required data, quantity, packaging need, delivery location and documentation request."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marble-resin-vs-gp-resin",
+    "title": "Marble Resin vs GP Resin: Marble Composite or General FRP Route?",
+    "description": "Compare the documented Marble Resin cultured-marble and artificial-stone route with the separately published GP Resin route for broad general FRP selection.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Marble Resin vs GP Resin | Marble Composite vs General FRP",
+      "keywords": [
+        "Marble Resin vs GP Resin",
+        "Polyester Marble Resin",
+        "GP Polyester Resin",
+        "General Purpose Polyester Resin",
+        "Resin for Marble"
+      ],
+      "ogTitle": "Marble Resin vs GP Resin",
+      "ogDescription": "Choose the published Marble Resin or GP Resin route by the actual finished component and the grade-specific technical document."
+    },
+    "quickFacts": {
+      "Marble Resin": "Published for cultured-marble and artificial-stone contexts",
+      "GP Resin": "Separate general-purpose FRP product route",
+      "Shared family": "Polyester-resin product routes with grade-specific data",
+      "Decision rule": "Start with the actual component and current product TDS"
+    },
+    "relatedSlugs": [
+      "what-is-marble-resin",
+      "marble-resin-applications-cultured-marble-artificial-stone",
+      "marble-resin-vs-pet-resin",
+      "marble-resin-technical-specifications-and-rfq"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review the Marble Resin TDS and its documented stone-product contexts."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separate general-purpose FRP product route and its own data."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Explore Unsaturated Polyester Resin",
+        "description": "Use the parent product family for broader polyester-resin context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Marble Resin the same as GP Resin?",
+        "a": "No interchangeability is published. Marble Resin is documented for cultured-marble and artificial-stone contexts, while GP Clear Resin is a separate general-purpose FRP route. Start with the finished component and current grade-specific TDS."
+      },
+      {
+        "q": "Is Marble Resin better than GP Resin?",
+        "a": "The repository does not publish a universal strength, shrinkage, hardness, cure-speed, durability or cost ranking. The two routes should be selected by their documented product role and the actual requirement."
+      },
+      {
+        "q": "Can GP Resin data be used for a Marble Resin enquiry?",
+        "a": "No. Viscosity, gel time, storage and application information belong to the grade that publishes them. Review the current Marble Resin document for a marble or artificial-stone requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "One resin family, different published product roles",
+        "body": [
+          "Marble Resin and GP Resin both appear within polyester-resin discussions, but their published roles are different. The Marble Resin TDS names cultured marble and artificial stone. GP Clear Resin is the separately published route for broad general-purpose FRP work.",
+          "This is a selection distinction, not a generic performance hierarchy. Use the actual product being made to decide which document is relevant first."
+        ]
+      },
+      {
+        "heading": "Start with the finished component",
+        "body": [
+          "For the documented cultured-marble or artificial-stone contexts, begin with Marble Resin and its current TDS. For broad general FRP, begin with GP Clear Resin and the grade-specific information for that route.",
+          "A quartz or engineered-stone surface, PET sheet, mould-facing finish, door or plywood lamination, or specified two-part epoxy casting requirement can point to another published product route. The resin name alone is not sufficient for selection."
+        ]
+      },
+      {
+        "heading": "Do not transfer grade-specific data",
+        "body": [
+          "Marble Resin has its own supplied-resin data and a catalogue summary that differs from its detailed TDS on viscosity and gel time. GP Clear Resin has separate product data. Do not transfer values, storage statements, product applications or finished-product expectations across the grades.",
+          "No source publishes a universal superiority claim between Marble Resin and GP Resin. This comparison intentionally avoids one."
+        ]
+      },
+      {
+        "heading": "Make the RFQ product-specific",
+        "body": [
+          "State the finished component, intended product route if known, relevant TDS or catalogue reference, required supplied appearance or technical data, quantity, packaging need, delivery location and documentation requested. That lets the discussion begin with the published role rather than a broad request for polyester resin."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marble-resin-vs-epoxy-clear-casting-resin",
+    "title": "Marble Resin vs Epoxy Clear Casting Resin",
+    "description": "Separate the published Marble Resin polyester route for cultured marble and artificial stone from Samrat's separate two-part Epoxy Clear Casting Resin system.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Marble Resin vs Epoxy Clear Casting Resin | Buyer Guide",
+      "keywords": [
+        "Marble Resin vs Epoxy Resin",
+        "Marble Resin vs Epoxy Casting Resin",
+        "Polyester Marble Resin",
+        "Epoxy Clear Casting Resin",
+        "Resin for Marble"
+      ],
+      "ogTitle": "Marble Resin vs Epoxy Clear Casting Resin",
+      "ogDescription": "A documented material-family and product-role comparison for Marble Resin buyers evaluating a separate epoxy casting system."
+    },
+    "quickFacts": {
+      "Marble Resin": "Liquid unsaturated polyester route for documented cultured-marble and artificial-stone contexts",
+      "Clear Casting Resin": "Separate published two-part epoxy system",
+      "Selection basis": "The specified material system and finished application",
+      "Not published": "A universal material-performance ranking"
+    },
+    "relatedSlugs": [
+      "what-is-marble-resin",
+      "marble-resin-raw-resin-vs-finished-marble-composite",
+      "marble-resin-vs-gp-resin",
+      "marble-resin-technical-specifications-and-rfq"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/marble-resin/",
+        "label": "View Marble Resin",
+        "description": "Review the documented marble and artificial-stone product role."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Review the separately published two-part epoxy casting route."
+      },
+      {
+        "href": "/resources/what-is-epoxy-clear-casting-resin/",
+        "label": "Read the epoxy casting guide",
+        "description": "Understand the separate epoxy-system product context."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Marble Resin the same as Epoxy Clear Casting Resin?",
+        "a": "No. Marble Resin is a documented liquid unsaturated polyester route for cultured marble and artificial stone. Epoxy Clear Casting Resin is a separately published two-part epoxy system. The material-family and product-role documents should be reviewed separately."
+      },
+      {
+        "q": "Which one is stronger, clearer or lower shrinkage?",
+        "a": "The repository does not publish a product-specific, like-for-like comparison that establishes a universal strength, clarity, shrinkage, cure-speed, cost or durability ranking. Those claims are not made here."
+      },
+      {
+        "q": "Can the Marble Resin TDS be used to select an epoxy system?",
+        "a": "No. Technical data and product instructions are system-specific. Use the current product document for the actual resin system named in the requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Different material systems and published roles",
+        "body": [
+          "Marble Resin is the documented water-white liquid unsaturated polyester route for cultured marble and artificial stone. Epoxy Clear Casting Resin is a separate two-part epoxy route with its own product data and published decorative-casting contexts.",
+          "A comparison is useful when a buyer is choosing between product families, but the documents do not establish that one material is universally better. The specified system and finished application should lead the discussion."
+        ]
+      },
+      {
+        "heading": "Keep a marble-composite requirement specific",
+        "body": [
+          "For the TDS-listed cultured-marble or artificial-stone requirement, review Marble Resin first. The supplied liquid resin is one component of the finished marble or mineral composite; the final product remains system-dependent.",
+          "Do not change the product route based on generic assumptions about clarity, hardness, price, UV performance, shrinkage, cure speed or durability. The current Marble documents do not publish a like-for-like comparison with the separate epoxy system."
+        ]
+      },
+      {
+        "heading": "Keep an epoxy requirement specific",
+        "body": [
+          "Where the requirement explicitly names a two-part epoxy casting system, review Epoxy Clear Casting Resin and its product-specific documentation. It is not a shortcut label for the Marble Resin TDS or for a cultured-marble formulation.",
+          "No formulation, mix ratio, casting method, curing sequence or process recommendation is supplied in this comparison. Use the exact published document for the system being evaluated."
+        ]
+      },
+      {
+        "heading": "Ask for the correct document route",
+        "body": [
+          "State whether the finished requirement is cultured marble, artificial stone, a specified epoxy cast, another mineral composite or another product entirely. Include the current product document, technical requirement, quantity, packaging need, delivery location and documentation required in the enquiry."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-is-fiberglass-epoxy-resin",
+    "title": "What Is Fiberglass Epoxy Resin?",
+    "description": "A document-led guide to Samrat FRP Traders' Fiberglass Epoxy Resin route for published fabric-reinforcement, hand lay-up and lamination contexts.",
+    "category": "Epoxy & Composite Guide",
+    "icon": "info",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "What Is Fiberglass Epoxy Resin? | Composite Buyer Guide",
+      "keywords": [
+        "What Is Fiberglass Epoxy Resin",
+        "Fibreglass Epoxy Resin",
+        "Epoxy Resin for Fiberglass",
+        "Epoxy Resin for Composite Laminates",
+        "Composite Epoxy Resin"
+      ],
+      "ogTitle": "What Is Fiberglass Epoxy Resin?",
+      "ogDescription": "Understand the documented product identity, reinforcement role, listed applications and document boundary before selecting Fiberglass Epoxy Resin."
+    },
+    "quickFacts": {
+      "Current TDS role": "General-purpose epoxy system for fibreglass reinforcement and lamination",
+      "Published reinforcement form": "Fabric",
+      "Published TDS processes": "Hand lay-up and lamination",
+      "Hardener status": "Amine hardener named; no specific compatible Samrat pairing or pack inclusion stated"
+    },
+    "relatedSlugs": [
+      "fiberglass-epoxy-resin-system-and-hardener",
+      "fiberglass-epoxy-resin-applications",
+      "fiberglass-epoxy-resin-technical-specifications-and-document-check",
+      "fiberglass-epoxy-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the current product page, published data and industrial enquiry route."
+      },
+      {
+        "href": "/tds/fiberglass-epoxy-resin-tds.pdf",
+        "label": "Download Fiberglass Epoxy Resin TDS",
+        "description": "Use the detailed current document as the starting point for the grade under review."
+      },
+      {
+        "href": "/resources/fiberglass-epoxy-resin-system-and-hardener/",
+        "label": "Clarify resin and hardener roles",
+        "description": "Understand what the documents do and do not establish about the epoxy system."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber",
+        "description": "Keep the reinforcement product decision separate from the epoxy matrix decision."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Fiberglass Epoxy Resin on this site?",
+        "a": "The current Fiberglass Epoxy Resin TDS identifies a general-purpose epoxy system for fibreglass reinforcement, composite manufacturing, hand lay-up and lamination. It names fabric as the published reinforcement form."
+      },
+      {
+        "q": "Is this product a laminating epoxy?",
+        "a": "Lamination is listed in the current TDS, and the catalogue calls the product an epoxy system for structural fiberglass laminating. Use that terminology for the documented application context, not as proof that every epoxy-laminating requirement is interchangeable."
+      },
+      {
+        "q": "Is Fiberglass Epoxy Resin the same as Glass Fiber?",
+        "a": "No. Fiberglass Epoxy Resin is the resin or matrix-system route. Glass Fiber is a separate reinforcement product. The current Fiberglass Epoxy TDS names fabric but does not prescribe a CSM weight, fabric type or laminate construction."
+      },
+      {
+        "q": "What applications are published for this resin?",
+        "a": "The detailed TDS lists boat or marine components, wind-turbine components, and construction, electrical and automotive FRP laminates. The catalogue separately lists structural laminates and filament winding. These are application contexts, not project approvals."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the published Fiberglass Epoxy identity",
+        "body": [
+          "Samrat FRP Traders publishes Fiberglass Epoxy Resin as a general-purpose epoxy-system route. The detailed current TDS places it in fibreglass reinforcement, composite manufacturing, hand lay-up and lamination contexts, and names fabric as the reinforcement form.",
+          "This is a composite-epoxy product route, not a broad label for every resin containing the word epoxy. It is separate from Samrat's Clear Casting Resin, Epoxy Art Resin, Epoxy Hardener, polyester Lamination Resin, Unsaturated Polyester Resin and Glass Fiber product routes."
+        ]
+      },
+      {
+        "heading": "Use laminating terminology only within the documented boundary",
+        "body": [
+          "The TDS lists hand lay-up and lamination as processing contexts. The catalogue separately describes an epoxy system for structural fiberglass laminating. These records support a buyer-level laminating-epoxy discussion for the published product role.",
+          "They do not publish a universal process qualification, a reinforcement schedule, a resin-to-glass ratio, a cure schedule or a finished composite approval. State the actual component and the document reference being evaluated before treating a laminating requirement as a match."
+        ]
+      },
+      {
+        "heading": "Keep the resin, hardener and reinforcement roles separate",
+        "body": [
+          "The TDS identifies an amine hardener as part of the epoxy system, but does not name a specific compatible Samrat hardener or say whether it is supplied in the commercial pack. The separate Epoxy Hardener page is therefore a product route to discuss, not proof of a confirmed pairing.",
+          "Glass Fiber is the reinforcement product. Its own published CSM route cannot be converted into an automatic recommendation for this Fiberglass Epoxy grade: the Fiberglass Epoxy TDS says fabric and does not name CSM 300, CSM 450, a fabric style or a laminate design."
+        ]
+      },
+      {
+        "heading": "Treat listed applications as selection contexts",
+        "body": [
+          "The detailed TDS lists boat or marine components, wind-turbine components, and construction, electrical and automotive FRP laminates. The catalogue lists structural laminates and filament winding. These descriptions can help a buyer identify the type of conversation to have.",
+          "They do not establish marine-grade certification, automotive approval, structural certification, a finished mechanical result, or suitability for every component in those categories. Review the current product document and the finished composite requirement together."
+        ]
+      },
+      {
+        "heading": "Read product data separately from a finished composite",
+        "body": [
+          "Published resin data helps identify the supplied grade. The final fiberglass laminate or component can also depend on the confirmed resin-and-hardener system, reinforcement, laminate construction, cure state, thickness, component design and tested configuration.",
+          "For that reason, a supplied-resin document is not a finished-part approval. The technical-document check and procurement guide in this cluster make the published data and quotation inputs easier to use without publishing a fabrication recipe."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-system-and-hardener",
+    "title": "Fiberglass Epoxy Resin System: Resin and Hardener Questions",
+    "description": "Clarify the documented Fiberglass Epoxy Resin system boundary, separate hardener role and the information buyers need to confirm before procurement.",
+    "category": "System Selection Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy Resin and Hardener | System Buyer Guide",
+      "keywords": [
+        "Fiberglass Epoxy Resin Hardener",
+        "Epoxy Resin for Fiberglass Hardener",
+        "Fiberglass Epoxy System",
+        "Epoxy Laminating Resin Hardener",
+        "Composite Epoxy System"
+      ],
+      "ogTitle": "Fiberglass Epoxy Resin System: Resin and Hardener Questions",
+      "ogDescription": "Separate the published epoxy resin, hardener and reinforcement roles without assuming an undocumented compatible pair or mix instruction."
+    },
+    "quickFacts": {
+      "TDS curing wording": "Amine hardener",
+      "Published inclusion status": "Not stated",
+      "Named compatible Samrat hardener": "Not stated in the Fiberglass Epoxy TDS",
+      "Public guidance boundary": "No mixing ratio, cure schedule or operating procedure"
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-technical-specifications-and-document-check",
+      "fiberglass-epoxy-resin-data-vs-finished-composite-performance",
+      "fiberglass-epoxy-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the published epoxy-system product route and technical document."
+      },
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View Epoxy Hardener",
+        "description": "Review Samrat's separate polyamide curing-agent product route; confirm compatibility for this specific requirement."
+      },
+      {
+        "href": "/resources/epoxy-hardener-compatibility-guide/",
+        "label": "Read Epoxy Hardener compatibility guidance",
+        "description": "Use the established compatibility route without treating it as an automatic pairing declaration."
+      },
+      {
+        "href": "/contact/",
+        "label": "Confirm the system requirement",
+        "description": "Share the resin reference, finished application and documentation requirement before ordering."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Fiberglass Epoxy Resin supplied as resin only or as a complete system?",
+        "a": "The current TDS identifies an amine hardener as part of the system, but it does not say whether hardener is included in the Fiberglass Epoxy Resin pack. Confirm resin-only or complete-system supply for the actual order."
+      },
+      {
+        "q": "Which hardener is compatible with Fiberglass Epoxy Resin?",
+        "a": "No named compatible Samrat hardener is published in the Fiberglass Epoxy TDS. Epoxy Hardener is a separate listed product, but the page does not use that listing as proof of a confirmed pairing. Ask for confirmation against the exact current resin document."
+      },
+      {
+        "q": "Does this guide provide an epoxy mix ratio or cure schedule?",
+        "a": "No. The product TDS includes system information, but this buyer guide does not publish ratios, mixing instructions, cure schedules, temperatures or process adjustments."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The published epoxy system is not fully specified as a commercial kit",
+        "body": [
+          "The current Fiberglass Epoxy Resin TDS identifies an amine hardener as part of the curing system. It does not name a specific hardener product, state that the hardener is included in the pack, or declare a pre-approved resin-and-hardener commercial kit.",
+          "That boundary matters for procurement. A buyer should identify whether the requirement is for resin only or for a confirmed complete system rather than assuming an accessory or separately listed product is already included."
+        ]
+      },
+      {
+        "heading": "Epoxy Hardener is a separate product route",
+        "body": [
+          "Samrat publishes Epoxy Hardener as a separate polyamide, amine-based curing-agent product. This establishes a separate product role: it does not prove that it is the exact compatible hardener for every Samrat epoxy route.",
+          "For Fiberglass Epoxy Resin, share the current resin TDS or catalogue reference, the intended composite application, the required system form and any requested documentation. Compatibility should be confirmed for that actual requirement."
+        ]
+      },
+      {
+        "heading": "Do not turn system identity into operating instructions",
+        "body": [
+          "A resin-and-hardener system description is useful for identifying the material route. It is not a public instruction to mix components, adjust working time, change cure speed, select a hardener amount or design a laminate.",
+          "This guide intentionally excludes ratios, mixing order, pot-life adjustment, cure schedules, post-cure conditions and troubleshooting. Those details should not be transferred between product families or inferred from a broad epoxy label."
+        ]
+      },
+      {
+        "heading": "Reinforcement remains a separate decision",
+        "body": [
+          "The current Fiberglass Epoxy TDS names fabric reinforcement. Glass Fiber is a separate reinforcement route, and its CSM 300 or CSM 450 listings do not establish a recommendation for this specific epoxy product.",
+          "The finished composite requirement should identify the reinforcement form if known, but this page does not prescribe fabric type, mat weight, laminate thickness, resin-to-glass ratio or ply sequence."
+        ]
+      },
+      {
+        "heading": "What to confirm before procurement",
+        "body": [
+          "State the finished fiberglass or composite component, whether resin only or a complete system is required, the exact current resin document, reinforcement form if known, any listed process context relevant to the requirement, quantity, packaging, delivery location and documentation need.",
+          "This creates a focused technical and commercial enquiry without asking a buyer to disclose or receive a manufacturing recipe."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-vs-clear-casting-and-art-resin",
+    "title": "Fiberglass Epoxy Resin vs Clear Casting and Art Resin",
+    "description": "Compare three separate Samrat epoxy product routes by their published roles: fiberglass reinforcement and lamination, clear contained casting, and decorative surface work.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy Resin vs Clear Casting and Art Resin",
+      "keywords": [
+        "Fiberglass Epoxy Resin vs Clear Casting Resin",
+        "Fiberglass Epoxy Resin vs Art Resin",
+        "Laminating Epoxy vs Casting Epoxy",
+        "Composite Epoxy vs Art Resin"
+      ],
+      "ogTitle": "Fiberglass Epoxy Resin vs Clear Casting and Art Resin",
+      "ogDescription": "Choose the documented epoxy product route by its intended role without asserting an unsupported performance ranking."
+    },
+    "quickFacts": {
+      "Fiberglass Epoxy": "Published fabric-reinforcement and lamination route",
+      "Clear Casting": "Separate published clear contained-casting route",
+      "Epoxy Art": "Separate published decorative open-surface route",
+      "Selection basis": "Finished application and matching current product document"
+    },
+    "comparisonTable": {
+      "title": "Compare the published product roles",
+      "note": "This is a role-and-document comparison, not a universal ranking for strength, adhesion, clarity, shrinkage, cure speed, cost, durability or chemical resistance.",
+      "headers": [
+        "Buyer check",
+        "Fiberglass Epoxy Resin",
+        "Epoxy Clear Casting Resin",
+        "Epoxy Art Resin"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "Fibreglass fabric reinforcement, composite manufacturing, hand lay-up and lamination",
+          "Clear contained-casting product route",
+          "Decorative, self-levelling open-surface route"
+        ],
+        [
+          "Start with",
+          "Composite or fiberglass component and document reference",
+          "Casting size, contained-cast requirement and finish",
+          "Open surface, artwork or decorative coating requirement"
+        ],
+        [
+          "Do not assume",
+          "Finished laminate performance or a universal hardener pairing",
+          "Fiberglass laminate role or a reinforcement design",
+          "Composite laminate suitability or a casting-system equivalence"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-vs-polyester-lamination-upr-gp",
+      "fiberglass-epoxy-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Use the published fabric-reinforcement and lamination product route."
+      },
+      {
+        "href": "/products/clear-casting-resin/",
+        "label": "View Epoxy Clear Casting Resin",
+        "description": "Use the separate clear contained-casting product route."
+      },
+      {
+        "href": "/products/epoxy-art-resin/",
+        "label": "View Epoxy Art Resin",
+        "description": "Use the separate decorative open-surface product route."
+      },
+      {
+        "href": "/resources/what-is-epoxy-clear-casting-resin/",
+        "label": "Read the casting-resin guide",
+        "description": "Keep casting and composite selection journeys separate."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Fiberglass Epoxy Resin the same as Clear Casting Resin?",
+        "a": "No. Fiberglass Epoxy Resin is published for fiberglass reinforcement and lamination. Epoxy Clear Casting Resin is a separately published clear contained-casting route with its own product data and intended use."
+      },
+      {
+        "q": "Is Fiberglass Epoxy Resin the same as Epoxy Art Resin?",
+        "a": "No. Epoxy Art Resin is a separate decorative, self-levelling surface route. The current Fiberglass Epoxy documentation does not make it a substitute for art or decorative coating work."
+      },
+      {
+        "q": "Which product is stronger or better?",
+        "a": "The repository does not publish a like-for-like comparison establishing a universal strength, adhesion, clarity, shrinkage, durability, cost or cure-speed ranking. The documented product role and finished requirement should decide the starting route."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The shared word epoxy is not a product-selection shortcut",
+        "body": [
+          "Samrat publishes separate Fiberglass Epoxy Resin, Epoxy Clear Casting Resin and Epoxy Art Resin routes. They may share an epoxy-system context, but each product has its own documentation and intended-use language.",
+          "A buyer should begin with the finished product: a reinforced composite or laminate, a clear contained cast, or an open decorative surface. That distinction is more useful than treating all epoxy names as interchangeable."
+        ]
+      },
+      {
+        "heading": "When the documented Fiberglass Epoxy route is the relevant starting point",
+        "body": [
+          "Review Fiberglass Epoxy Resin where the requirement is for the current TDS-listed fibreglass fabric reinforcement, composite manufacturing, hand lay-up or lamination context. The catalogue separately mentions structural fiberglass laminating.",
+          "The documentation does not publish a decorative clarity result, a contained-casting performance, an art coating approval or a universal ranking against the other epoxy products."
+        ]
+      },
+      {
+        "heading": "Keep casting and decorative requirements on their own routes",
+        "body": [
+          "Use Epoxy Clear Casting Resin for its published clear contained-casting role. Use Epoxy Art Resin for its published self-levelling decorative-surface role. Review their matching documents when those are the actual requirements.",
+          "Do not transfer a Fiberglass Epoxy viscosity, gel-time, hardener, reinforcement or application statement into a casting or art requirement, and do not transfer casting or art claims into a fiberglass laminate enquiry."
+        ]
+      },
+      {
+        "heading": "Ask for the relevant document and system",
+        "body": [
+          "A useful enquiry identifies the finished component or surface, whether reinforcement is required, the exact product document under review, required finish or technical data, quantity, packaging and delivery location.",
+          "This comparison does not provide mixing ratios, cure schedules, casting methods, art techniques or laminate instructions. Those are not interchangeable product-selection information."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-vs-polyester-lamination-upr-gp",
+    "title": "Fiberglass Epoxy Resin vs Polyester Lamination Resin, UPR and GP Resin",
+    "description": "A buyer-level comparison between Samrat's Fiberglass Epoxy route and its separate polyester Lamination, UPR and GP resin routes for fiberglass and composite questions.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy vs Polyester Lamination Resin, UPR and GP",
+      "keywords": [
+        "Epoxy vs Polyester Resin for Fiberglass",
+        "Fiberglass Epoxy vs Lamination Resin",
+        "Fiberglass Epoxy vs UPR",
+        "Fiberglass Epoxy vs GP Resin",
+        "Epoxy Laminating Resin vs Polyester Resin"
+      ],
+      "ogTitle": "Fiberglass Epoxy vs Polyester Lamination Resin, UPR and GP",
+      "ogDescription": "Separate the documented epoxy and polyester product routes without an unsupported performance hierarchy."
+    },
+    "quickFacts": {
+      "Fiberglass Epoxy": "Published general-purpose epoxy-system route",
+      "Lamination Resin": "Separate polyester lamination product route",
+      "UPR": "Broad unsaturated-polyester-resin family route",
+      "GP Clear": "Separate general-purpose FRP polyester route"
+    },
+    "comparisonTable": {
+      "title": "Start with the documented resin-system role",
+      "note": "This table does not claim that epoxy or polyester is universally stronger, more adhesive, lower shrinkage, longer-lasting, easier to process or lower cost. Review the current document for the actual grade.",
+      "headers": [
+        "Buyer check",
+        "Fiberglass Epoxy Resin",
+        "Lamination Resin",
+        "UPR / GP Resin"
+      ],
+      "rows": [
+        [
+          "Published family / route",
+          "General-purpose epoxy system",
+          "Separate polyester lamination route",
+          "Broad polyester family / general-purpose FRP route"
+        ],
+        [
+          "Published application starting point",
+          "Fabric reinforcement, composites, hand lay-up and lamination",
+          "Its own published door, plywood and FRP lamination contexts",
+          "The relevant UPR or GP product page and TDS"
+        ],
+        [
+          "Selection question",
+          "Is an epoxy composite-system route actually specified?",
+          "Is the documented polyester lamination role the requirement?",
+          "Is a broad polyester or general FRP role the requirement?"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-vs-clear-casting-and-art-resin",
+      "fiberglass-epoxy-resin-vs-vinyl-ester-resin",
+      "fiberglass-epoxy-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the separate published epoxy-system route."
+      },
+      {
+        "href": "/products/lamination-resin/",
+        "label": "View Lamination Resin",
+        "description": "Review the separate polyester lamination product data and application role."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "View Unsaturated Polyester Resin",
+        "description": "Use the broad UPR route for parent-family context."
+      },
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "View GP Clear Resin",
+        "description": "Review the separately published general-purpose FRP polyester route."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Fiberglass Epoxy Resin a polyester resin?",
+        "a": "No. The current TDS identifies Fiberglass Epoxy Resin as an epoxy system. Lamination Resin, UPR and GP Clear Resin are separate polyester product routes with their own current documents."
+      },
+      {
+        "q": "Is Fiberglass Epoxy Resin interchangeable with Lamination Resin?",
+        "a": "No interchangeability is published. Both may appear in a laminating discussion, but the documents identify separate resin families, product roles and technical data routes."
+      },
+      {
+        "q": "Is epoxy always better than polyester for fiberglass?",
+        "a": "No universal ranking is published. The appropriate starting route depends on the actual specified system, finished component, product data and application requirement."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the resin-system requirement",
+        "body": [
+          "Fiberglass Epoxy Resin is published as an epoxy-system route. Lamination Resin, Unsaturated Polyester Resin and GP Clear Resin are separate polyester routes. The first selection question is therefore which product family and documented role the requirement actually names.",
+          "The comparison does not turn a shared use of glass reinforcement or the word lamination into evidence that all products are equivalent. Each route has its own current product document."
+        ]
+      },
+      {
+        "heading": "Fiberglass Epoxy and Lamination Resin have different documented routes",
+        "body": [
+          "The Fiberglass Epoxy TDS lists fabric reinforcement, hand lay-up and lamination. The separate Lamination Resin documentation has its own polyester resin family and published door, plywood and FRP lamination contexts.",
+          "Where a buyer says only 'lamination', the component, specified resin system and current TDS should decide the next step. This site does not claim an automatic strength, adhesion, shrinkage, processability, life or cost advantage for either route."
+        ]
+      },
+      {
+        "heading": "UPR and GP are broader polyester selection paths",
+        "body": [
+          "UPR is the broad Unsaturated Polyester Resin family route. GP Clear Resin is the site's published general-purpose FRP polyester route. These can be relevant where the component calls for their own documented polyester role.",
+          "They do not become an epoxy-system substitute merely because the end product includes fiberglass. Avoid combining data, hardener terminology, cure information or performance expectations across the product families."
+        ]
+      },
+      {
+        "heading": "Use a requirement-led comparison",
+        "body": [
+          "A focused enquiry should state the finished fiberglass or composite component, whether an epoxy or polyester system is named, the current document reference, reinforcement form if known, relevant product role, required technical data, quantity, packaging and delivery location.",
+          "This guide intentionally does not provide catalyst amounts, hardener ratios, process adjustments, cure schedules, resin-to-glass ratios or laminate design. Those are not safe general comparison content."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-vs-vinyl-ester-resin",
+    "title": "Fiberglass Epoxy Resin vs Vinyl Ester Resin",
+    "description": "Separate Samrat's documented Fiberglass Epoxy composite route from its specialist Vinyl Ester industrial FRP route without assuming a chemical-service or performance hierarchy.",
+    "category": "Comparison Guide",
+    "icon": "layers",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy Resin vs Vinyl Ester Resin | Buyer Guide",
+      "keywords": [
+        "Fiberglass Epoxy vs Vinyl Ester",
+        "Epoxy Resin vs Vinyl Ester for Fiberglass",
+        "Composite Epoxy vs Vinyl Ester Resin",
+        "Industrial FRP Resin Selection"
+      ],
+      "ogTitle": "Fiberglass Epoxy Resin vs Vinyl Ester Resin",
+      "ogDescription": "Use the documented resin family and service requirement instead of a generic epoxy-versus-vinyl-ester ranking."
+    },
+    "quickFacts": {
+      "Fiberglass Epoxy route": "General-purpose epoxy system for published fabric-reinforcement and lamination contexts",
+      "Vinyl Ester route": "Separate industrial-grade Bisphenol-A epoxy vinyl ester route",
+      "Vinyl Ester selection context": "Published chemical- and corrosion-service FRP discussion",
+      "Not published": "A like-for-like product comparison, compatibility chart or universal ranking"
+    },
+    "comparisonTable": {
+      "title": "Separate product roles before comparing service requirements",
+      "note": "No product-specific, like-for-like comparison establishes universal chemical resistance, strength, adhesion, temperature, shrinkage or finished-component performance between these routes.",
+      "headers": [
+        "Buyer check",
+        "Fiberglass Epoxy Resin",
+        "Vinyl Ester Resin"
+      ],
+      "rows": [
+        [
+          "Published role",
+          "Fabric reinforcement, composite manufacturing, hand lay-up and lamination",
+          "Industrial FRP route for stated chemical- or corrosion-service discussions"
+        ],
+        [
+          "Documented chemical boundary",
+          "Broad TDS wording only; no compatibility chart or service-condition limits",
+          "Specialist TDS positioning; no chemical-specific compatibility chart or finished-system approval"
+        ],
+        [
+          "Selection input",
+          "Composite component, system status, reinforcement and current document",
+          "Component, actual service medium, concentration and temperature where relevant, and current document"
+        ]
+      ]
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-applications",
+      "fiberglass-epoxy-resin-procurement-checklist",
+      "vinyl-ester-resin-vs-epoxy-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the published composite and fabric-reinforcement route."
+      },
+      {
+        "href": "/products/vinyl-ester-resin/",
+        "label": "View Vinyl Ester Resin",
+        "description": "Review the separate specialist industrial FRP product route and TDS."
+      },
+      {
+        "href": "/resources/what-is-vinyl-ester-resin/",
+        "label": "Read the Vinyl Ester guide",
+        "description": "Keep Vinyl Ester's documented chemical-service positioning on its own authority route."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Fiberglass Epoxy Resin the same as Vinyl Ester Resin?",
+        "a": "No. The Fiberglass Epoxy TDS identifies an epoxy-system route for fabric reinforcement and lamination, while Vinyl Ester Resin has a separate TDS and specialist industrial FRP product route."
+      },
+      {
+        "q": "Which route is more chemical resistant?",
+        "a": "The repository does not publish a like-for-like comparison, a Fiberglass Epoxy compatibility chart, or an application-specific recommendation that establishes a universal ranking. Start with the actual service requirement and the relevant current product document."
+      },
+      {
+        "q": "Is either product automatically fire retardant?",
+        "a": "No fire classification, rating or fire-retardant claim is established for Fiberglass Epoxy Resin on this site. A fire requirement should be identified separately and reviewed against the appropriate documented product route."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Different specialist product routes",
+        "body": [
+          "Fiberglass Epoxy Resin and Vinyl Ester Resin are separate Samrat product routes with different published documentation. The Fiberglass Epoxy TDS focuses on fabric reinforcement, composites, hand lay-up and lamination. Vinyl Ester Resin is published for industrial FRP discussion where a chemical- or corrosion-service requirement is stated.",
+          "A shared composite or fiberglass context is not proof of interchangeability. Start with the finished component and the actual requirement, then review the matching product document."
+        ]
+      },
+      {
+        "heading": "Do not turn broad resistance wording into a compatibility ranking",
+        "body": [
+          "The Fiberglass Epoxy TDS uses broad chemical-resistance wording but does not publish a chemical-compatibility chart, concentration limit, exposure condition, continuous-service temperature or finished-component approval. It should not be used to recommend the resin for a named chemical service.",
+          "Vinyl Ester has its own specialist chemical- and corrosion-service product position, but its current documentation also does not publish a chemical-specific compatibility chart or a finished-system approval. The comparison therefore makes no chemical-resistance hierarchy."
+        ]
+      },
+      {
+        "heading": "Keep fire requirements separate",
+        "body": [
+          "Neither a composite-epoxy requirement nor a Vinyl Ester requirement automatically establishes a fire-performance requirement. Fiberglass Epoxy Resin is not presented as fire retardant on this site.",
+          "If a project names a fire classification, test method or rating alongside a service requirement, include both requirements in the enquiry. They should not be inferred from a product family name."
+        ]
+      },
+      {
+        "heading": "Use a service-led RFQ when Vinyl Ester is being evaluated",
+        "body": [
+          "For a Fiberglass Epoxy discussion, identify the finished composite, system status, reinforcement form if known and current document. For a Vinyl Ester discussion, also identify the actual service medium, concentration and temperature where relevant.",
+          "This guide does not provide a chemical recommendation, a service-temperature limit, a resin-and-hardener recipe, a laminate build-up or a fabrication method."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-applications",
+    "title": "Fiberglass Epoxy Resin Applications: Published Composite Contexts",
+    "description": "Use the current TDS and catalogue-listed fiberglass and composite contexts to frame a product discussion without turning them into certifications or fabrication instructions.",
+    "category": "Application Selection Guide",
+    "icon": "grid",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy Resin Applications | Composite Buyer Guide",
+      "keywords": [
+        "Fiberglass Epoxy Resin Applications",
+        "Epoxy Resin for Composite Laminates",
+        "Epoxy Resin for FRP",
+        "Fiberglass Epoxy Marine Components",
+        "Fiberglass Epoxy Wind Turbine Components"
+      ],
+      "ogTitle": "Fiberglass Epoxy Resin Applications: Published Composite Contexts",
+      "ogDescription": "Review the documented composite application contexts and the requirement details buyers should confirm before selecting the product route."
+    },
+    "quickFacts": {
+      "Detailed TDS contexts": "Boat or marine, wind-turbine, construction, electrical and automotive FRP laminates",
+      "Catalogue contexts": "Structural laminates and filament winding",
+      "Published reinforcement form": "Fabric in the detailed TDS",
+      "Application boundary": "Contexts for selection, not project approvals or manufacturing instructions"
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-system-and-hardener",
+      "fiberglass-epoxy-resin-data-vs-finished-composite-performance",
+      "fiberglass-epoxy-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the product page, TDS and composite-system enquiry route."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber",
+        "description": "Understand the separate reinforcement product route without assuming a specific CSM recommendation."
+      },
+      {
+        "href": "/tds/fiberglass-epoxy-resin-tds.pdf",
+        "label": "Download Fiberglass Epoxy TDS",
+        "description": "Use the detailed document for published application and processing context."
+      },
+      {
+        "href": "/resources/fiberglass-epoxy-resin-procurement-checklist/",
+        "label": "Prepare a focused RFQ",
+        "description": "Provide the document, component and commercial details required for discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Fiberglass Epoxy applications are documented?",
+        "a": "The current TDS lists boat or marine components, wind-turbine components, and construction, electrical and automotive FRP laminates. The catalogue separately lists structural laminates and filament winding."
+      },
+      {
+        "q": "Does a listed marine or automotive application mean the resin is approved for that industry?",
+        "a": "No. The documents list application contexts, not marine-grade certification, automotive OEM approval or project-specific finished-component approval."
+      },
+      {
+        "q": "Is filament winding a published process for this product?",
+        "a": "The catalogue lists filament winding, while the detailed TDS lists hand lay-up and lamination. The documents use different process descriptions, so identify the exact reference and confirm the route before selection."
+      },
+      {
+        "q": "Can this guide tell me how to build a laminate?",
+        "a": "No. It intentionally does not prescribe hardener amounts, reinforcement type, resin-to-glass ratio, thickness, ply count, cure schedule or fabrication sequence."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use applications as document-led selection contexts",
+        "body": [
+          "The detailed TDS lists boat or marine components, wind-turbine components, and construction, electrical and automotive FRP laminates. These categories help establish the type of finished composite a buyer is discussing.",
+          "They do not prove that every boat, wind component, construction part, electrical enclosure or automotive laminate is approved. The finished component, project requirement and documented product system still need review."
+        ]
+      },
+      {
+        "heading": "The published reinforcement and process language is limited",
+        "body": [
+          "The detailed TDS identifies fabric as the reinforcement form and lists hand lay-up and lamination. The catalogue separately names structural laminates and filament winding. These are the only product-specific application and process statements carried into this guide.",
+          "The TDS does not prescribe CSM 300, CSM 450, a fabric construction, woven roving, a resin-to-glass ratio, vacuum processing, infusion, RTM, pultrusion, thickness or laminate sequence. Those subjects are intentionally deferred."
+        ]
+      },
+      {
+        "heading": "Marine, automotive and structural language needs a strict boundary",
+        "body": [
+          "The word marine in the TDS is treated here as an application context only. It is not used as a marine-grade claim, a water-service guarantee, a UV result, a weathering result or a certification.",
+          "Likewise, automotive and structural wording is not presented as OEM approval, crash-performance evidence, structural certification, a numerical strength result or a project approval. No customer projects or test results are created from the listed categories."
+        ]
+      },
+      {
+        "heading": "Plan the application discussion without a fabrication manual",
+        "body": [
+          "For a documented composite context, state what is being made, whether the requirement is resin only or a confirmed system, the reinforcement form if known, the current TDS or catalogue reference, and any required technical document. Include quantity, packaging and delivery location.",
+          "This supports material selection without teaching a fabrication method. It does not provide mixing instructions, cure settings, laminate design, equipment parameters or repair guidance."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-technical-specifications-and-document-check",
+    "title": "Fiberglass Epoxy Resin Technical Specifications and Document Check",
+    "description": "Read the current Fiberglass Epoxy Resin TDS and catalogue side by side, keep their differing labels and values visible, and avoid turning supplied-resin data into finished-composite claims.",
+    "category": "Technical & Documentation Guide",
+    "icon": "checklist",
+    "readingTime": "6 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy Resin Technical Specifications | TDS Guide",
+      "keywords": [
+        "Fiberglass Epoxy Resin Technical Specifications",
+        "Fiberglass Epoxy Resin TDS",
+        "Composite Epoxy Resin Viscosity",
+        "Epoxy Laminating Resin Technical Data",
+        "Fiberglass Epoxy Resin Supplier"
+      ],
+      "ogTitle": "Fiberglass Epoxy Resin Technical Specifications and Document Check",
+      "ogDescription": "Use the detailed TDS and catalogue carefully; their resin wording and selected values are not identical."
+    },
+    "quickFacts": {
+      "Detailed TDS viscosity": "700 cPs at 25 C",
+      "Catalogue viscosity": "900 cPs",
+      "Detailed TDS density": "1.15 g/cm3",
+      "Catalogue density": "1.16 g/cm3"
+    },
+    "propertiesTable": {
+      "headers": [
+        "Published item",
+        "Detailed TDS",
+        "Catalogue"
+      ],
+      "rows": [
+        [
+          "Resin wording",
+          "Epoxy",
+          "Bisphenol-A Epoxy Resin"
+        ],
+        [
+          "Product role",
+          "General-purpose epoxy system for fibreglass reinforcement and lamination",
+          "Epoxy system for structural fiberglass laminating"
+        ],
+        [
+          "Processing / application wording",
+          "Hand lay-up and lamination; fabric reinforcement",
+          "Structural laminates and filament winding"
+        ],
+        [
+          "Viscosity",
+          "700 cPs at 25 C",
+          "900 cPs"
+        ],
+        [
+          "Gel / pot-life wording",
+          "35-45 minutes at 25 C, gel time",
+          "35 minutes, Gel Time / Pot Life"
+        ],
+        [
+          "Specific gravity",
+          "1.15 g/cm3",
+          "1.16 g/cm3"
+        ]
+      ],
+      "note": "The repository does not explain these differences. This table keeps the two records visible and does not average, reconcile or treat either as a finished-composite specification."
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-system-and-hardener",
+      "fiberglass-epoxy-resin-data-vs-finished-composite-performance",
+      "fiberglass-epoxy-resin-procurement-checklist"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the product route and TDS access before preparing a quote."
+      },
+      {
+        "href": "/tds/fiberglass-epoxy-resin-tds.pdf",
+        "label": "Download detailed Fiberglass Epoxy TDS",
+        "description": "Use the current detailed document for supplied-resin data and its stated context."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Keep the catalogue summary separate from the detailed TDS record."
+      },
+      {
+        "href": "/resources/fiberglass-epoxy-resin-procurement-checklist/",
+        "label": "Prepare a document-led RFQ",
+        "description": "State which product record and data requirement you are evaluating."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Fiberglass Epoxy specifications are published?",
+        "a": "The detailed TDS publishes epoxy type, general-purpose grade, room-temperature cure, hand lay-up and lamination, 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 density, 75 C HDT / thermal data, flash point above 100 C, storage, shelf life, 20 kg packaging and 100 kg MOQ."
+      },
+      {
+        "q": "Why are TDS and catalogue values different?",
+        "a": "The catalogue uses a Bisphenol-A epoxy label, 900 cPs viscosity, 35 minutes as Gel Time / Pot Life and 1.16 specific gravity. The repository does not explain the differences, so this guide does not merge the records or infer a new specification."
+      },
+      {
+        "q": "Does the published 75 C HDT establish a continuous service temperature?",
+        "a": "No. The TDS lists 75 C as HDT / thermal data but does not publish a test context or a continuous-service temperature limit. This guide does not convert it into one."
+      },
+      {
+        "q": "Are tensile or flexural laminate results published?",
+        "a": "No numerical tensile, flexural, compressive, impact, elongation, hardness or finished-laminate test values were found in the Fiberglass Epoxy TDS or catalogue. Broad marketing wording is not treated as a test result."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Use the detailed TDS as the product-data starting point",
+        "body": [
+          "The current detailed TDS identifies an epoxy general-purpose grade for fibreglass reinforcement and lamination. It publishes 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 specific gravity, 75 C HDT / thermal data, flash point above 100 C, 12-month unopened shelf life, 20-30 C storage, 20 kg packaging and 100 kg MOQ.",
+          "These are supplied-resin and commercial data points. The TDS states that values are typical and not guaranteed. They should be reviewed with the full document and actual purchase requirement."
+        ]
+      },
+      {
+        "heading": "Keep the catalogue record visible",
+        "body": [
+          "The catalogue labels the same Fiberglass Epoxy Resin entry as Bisphenol-A Epoxy Resin and lists 900 cPs viscosity, 35 minutes as Gel Time / Pot Life, 1.16 specific gravity, structural laminates and filament winding. The detailed TDS does not use the same chemistry wording or identical figures.",
+          "The repository provides no explanation for these differences. This guide does not average values, silently choose a chemistry label, or state that the detailed TDS and catalogue are equivalent specifications. State the exact document reference during enquiry."
+        ]
+      },
+      {
+        "heading": "Read thermal and broad performance wording cautiously",
+        "body": [
+          "The TDS lists 75 C under HDT / thermal data but does not give a test specimen, test method or continuous-service limit. The figure is not presented here as an operating-temperature recommendation.",
+          "No numerical mechanical test table, adhesion test, shrinkage result, UV or weathering result, chemical-compatibility chart, concentration limit or finished-laminate approval is published. The document's broad descriptive language is not converted into a quantified component-performance claim."
+        ]
+      },
+      {
+        "heading": "Supplied data does not equal finished composite data",
+        "body": [
+          "A finished fiberglass laminate or component can depend on the confirmed resin-and-hardener system, reinforcement, laminate construction, cure state, thickness, geometry and tested configuration. These decisions can change the relevant finished performance.",
+          "Do not use a supplied-resin viscosity, density or thermal entry as a finished boat, vehicle, electrical or structural-component rating. This site does not publish a laminate design or guarantee for those contexts."
+        ]
+      },
+      {
+        "heading": "Prepare a document-specific enquiry",
+        "body": [
+          "Include the TDS or catalogue record being evaluated, the finished composite component, whether resin only or a complete system is required, reinforcement form if known, required published technical property, quantity, packaging, delivery location and documentation need.",
+          "This focuses a procurement discussion while avoiding an unsupported technical reconciliation, a hardener recipe or a fabrication instruction."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-data-vs-finished-composite-performance",
+    "title": "Fiberglass Epoxy Resin Data vs Finished Composite Performance",
+    "description": "Understand why published Fiberglass Epoxy Resin data is not automatically a finished-laminate, marine, automotive, electrical or structural-component result.",
+    "category": "Technical Selection Guide",
+    "icon": "shield",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy Resin Data vs Finished Composite Performance",
+      "keywords": [
+        "Fiberglass Epoxy Resin Composite Performance",
+        "Epoxy Resin vs Fiberglass Laminate Performance",
+        "Fiberglass Composite Resin Data",
+        "Composite Epoxy Technical Data"
+      ],
+      "ogTitle": "Fiberglass Epoxy Resin Data vs Finished Composite Performance",
+      "ogDescription": "Separate published supplied-resin data from the system, construction and testing factors that affect a finished fiberglass component."
+    },
+    "quickFacts": {
+      "Published resin data": "Typical supplied-resin and document data",
+      "System component": "Amine hardener is named but a specific pairing is not published",
+      "Reinforcement boundary": "Fabric named; no grade, schedule or ratio prescribed",
+      "Not published": "Finished laminate test result or component approval"
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-system-and-hardener",
+      "fiberglass-epoxy-resin-technical-specifications-and-document-check",
+      "fiberglass-epoxy-resin-applications"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/",
+        "label": "View Fiberglass Epoxy Resin",
+        "description": "Review the supplied product data and current documentation."
+      },
+      {
+        "href": "/products/glass-fiber-mat/",
+        "label": "View Glass Fiber",
+        "description": "Keep reinforcement selection separate from the resin-system discussion."
+      },
+      {
+        "href": "/tds/fiberglass-epoxy-resin-tds.pdf",
+        "label": "Download Fiberglass Epoxy TDS",
+        "description": "Review the exact published resin data rather than a finished-product assumption."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a component requirement",
+        "description": "Share the final component and any test or document requirement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Fiberglass Epoxy Resin data establish finished laminate strength?",
+        "a": "No. The current documents do not publish numerical finished-laminate strength or a component approval. Finished properties can depend on the resin-and-hardener system, reinforcement, construction, cure state, thickness, geometry and tested configuration."
+      },
+      {
+        "q": "Does the Fiberglass Epoxy TDS establish marine or automotive approval?",
+        "a": "No. Marine and automotive appear as listed application contexts in the detailed TDS. They are not presented as a certification, OEM approval or project-specific performance result."
+      },
+      {
+        "q": "Does this guide specify a glass fiber design?",
+        "a": "No. The TDS names fabric reinforcement but does not prescribe a fabric type, CSM grade, resin-to-glass ratio, laminate thickness or ply count."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Published resin data describes the supplied product",
+        "body": [
+          "The detailed TDS publishes a general-purpose epoxy-system identity, selected typical physical data, storage, shelf life, packaging, MOQ and application or processing context. This is useful information when identifying the supplied material.",
+          "It is not a full description of the finished composite. The document does not publish a final laminate construction, component drawing, structural calculation, finished mechanical table or project-specific approval."
+        ]
+      },
+      {
+        "heading": "A finished fiberglass component is a complete system",
+        "body": [
+          "At a high level, finished performance can depend on the confirmed resin-and-hardener system, reinforcement, laminate construction, thickness, cure state, geometry, environmental requirement and tested configuration.",
+          "Glass Fiber is the reinforcement component; Fiberglass Epoxy Resin is the matrix or resin-system route. The two roles should be considered together for a completed composite without turning this guide into a material schedule or design manual."
+        ]
+      },
+      {
+        "heading": "Application language is not a performance certificate",
+        "body": [
+          "Boat or marine, wind-turbine, construction, electrical and automotive contexts appear in the detailed TDS. Structural laminates and filament winding appear in the catalogue. These terms do not become marine-grade, automotive-approved, structural-certified or electrically approved performance claims.",
+          "The repository does not provide test reports, standards references, quantified strength, adhesion, shrinkage, water resistance, chemical compatibility, UV performance or finished-system ratings for those component categories."
+        ]
+      },
+      {
+        "heading": "Use finished-requirement questions in the RFQ",
+        "body": [
+          "State the exact finished component, required test, standard or document if one exists, the current product document being considered, system status, reinforcement form if known, quantity, packaging and delivery location.",
+          "This allows an informed discussion while avoiding laminate schedules, resin-to-glass ratios, ply counts, hardener ratios, cure programs or fabrication instructions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fiberglass-epoxy-resin-procurement-checklist",
+    "title": "Fiberglass Epoxy Resin Procurement Checklist",
+    "description": "Prepare a document-led Fiberglass Epoxy Resin RFQ with the application, system, reinforcement, technical and commercial details needed for a focused discussion.",
+    "category": "Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "4 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Fiberglass Epoxy Resin Procurement Checklist | RFQ Guide",
+      "keywords": [
+        "Fiberglass Epoxy Resin Procurement",
+        "Fiberglass Epoxy Resin Quote",
+        "Fiberglass Epoxy Resin Manufacturer India",
+        "Fiberglass Epoxy Resin Supplier India",
+        "Composite Epoxy Resin RFQ"
+      ],
+      "ogTitle": "Fiberglass Epoxy Resin Procurement Checklist",
+      "ogDescription": "Request Fiberglass Epoxy Resin with a clear composite application, document reference, system status and commercial requirement."
+    },
+    "quickFacts": {
+      "Published pack": "20 kg",
+      "Published MOQ": "100 kg",
+      "Published shelf life": "12 months unopened",
+      "First RFQ check": "State the TDS or catalogue reference being evaluated"
+    },
+    "relatedSlugs": [
+      "what-is-fiberglass-epoxy-resin",
+      "fiberglass-epoxy-resin-system-and-hardener",
+      "fiberglass-epoxy-resin-applications",
+      "fiberglass-epoxy-resin-technical-specifications-and-document-check"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/fiberglass-epoxy-resin/#enquire",
+        "label": "Request Fiberglass Epoxy Resin Quote",
+        "description": "Use the product enquiry form with the document and application details below."
+      },
+      {
+        "href": "/tds/fiberglass-epoxy-resin-tds.pdf",
+        "label": "Download Fiberglass Epoxy TDS",
+        "description": "Review the detailed current record before specifying supplied-resin data."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "State if this is the record being evaluated because its summary differs from the detailed TDS."
+      },
+      {
+        "href": "/products/epoxy-hardener/",
+        "label": "View separate Epoxy Hardener",
+        "description": "Confirm an exact compatible pair rather than assuming a hardener is included."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I include in a Fiberglass Epoxy Resin quote request?",
+        "a": "Include the finished fiberglass or composite application; whether resin only or a complete system is required; current TDS or catalogue reference; reinforcement form if known; relevant listed process context; required published properties or documents; quantity; packaging need; and delivery location."
+      },
+      {
+        "q": "What packaging and MOQ are published?",
+        "a": "The detailed TDS lists a 20 kg pack and 100 kg minimum order quantity. Availability, lead time, delivery terms, exact system supply and order-specific documents require confirmation for the actual enquiry."
+      },
+      {
+        "q": "Should I request a chemical compatibility or service-temperature approval?",
+        "a": "If a project requires one, state the actual service condition or required document. The Fiberglass Epoxy documentation does not publish a chemical-compatibility chart, concentration limits or a continuous-service temperature limit."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the document route",
+        "body": [
+          "The detailed TDS and product catalogue are both available, but they use different resin wording and selected values. Identify which record you are evaluating rather than treating them as a silently merged specification.",
+          "For the detailed TDS route, the published commercial information is a 20 kg pack, 100 kg MOQ, 12-month unopened shelf life and 20-30 C cool, dry storage. Order-specific availability and terms still require confirmation."
+        ]
+      },
+      {
+        "heading": "Describe the finished composite requirement",
+        "body": [
+          "State what is being manufactured or supplied: for example, a TDS-listed marine, wind, construction, electrical or automotive FRP laminate, or a catalogue-listed structural laminate or filament-winding requirement. Use these only as application categories, not as certifications.",
+          "Identify whether the requirement is resin only or a confirmed complete system. The TDS names an amine hardener but does not name a specific compatible Samrat hardener or say that one is included in the Fiberglass Epoxy pack."
+        ]
+      },
+      {
+        "heading": "Include material and documentation checks",
+        "body": [
+          "Include reinforcement form if known; the detailed TDS names fabric but does not prescribe a CSM weight, fabric type, resin-to-glass ratio or laminate construction. State any required published property, drawing, written technical requirement, test requirement or document request.",
+          "Where chemical service, water exposure, heat, UV, fire, strength or adhesion is central, state the actual project requirement. Do not rely on broad product wording as an approval, compatibility recommendation or finished-composite guarantee."
+        ]
+      },
+      {
+        "heading": "Include the commercial essentials",
+        "body": [
+          "Add expected quantity, packaging requirement, delivery city or location, timing requirement and documentation requirement. This allows Samrat FRP Traders to understand the scope without requesting proprietary manufacturing details.",
+          "The enquiry route intentionally does not ask for or provide hardener ratios, resin-to-glass ratios, cure schedules, laminate designs, process settings or troubleshooting information."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marble-resin-technical-specifications-and-rfq",
+    "title": "Marble Resin Technical Specifications and RFQ Guide",
+    "description": "Review Marble Resin's published liquid-resin data, keep the TDS and catalogue differences visible, and prepare a focused cultured-marble or artificial-stone enquiry.",
+    "category": "Technical & Procurement Guide",
+    "icon": "checklist",
+    "readingTime": "5 min read",
+    "publishDate": "2026-08-10",
+    "seo": {
+      "title": "Marble Resin Technical Specifications and RFQ Guide",
+      "keywords": [
+        "Marble Resin Technical Specifications",
+        "Marble Resin Viscosity",
+        "Marble Resin Gel Time",
+        "Marble Resin Procurement",
+        "Marble Resin Quote",
+        "Marble Resin Supplier India"
+      ],
+      "ogTitle": "Marble Resin Technical Specifications and RFQ Guide",
+      "ogDescription": "Use the current Marble Resin TDS and catalogue carefully, then prepare a document-led industrial quotation request."
+    },
+    "quickFacts": {
+      "Detailed TDS viscosity": "450 cPs at 25 C",
+      "Catalogue viscosity": "300 cPs",
+      "Detailed TDS gel time": "15-20 minutes at 25 C",
+      "Catalogue gel time": "15 minutes"
+    },
+    "relatedSlugs": [
+      "what-is-marble-resin",
+      "marble-resin-raw-resin-vs-finished-marble-composite",
+      "marble-resin-applications-cultured-marble-artificial-stone",
+      "gp-quartz-resin-vs-marble-resin"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/marble-resin/#enquire",
+        "label": "Request Marble Resin Quote",
+        "description": "Use the product enquiry route after preparing the application and document details."
+      },
+      {
+        "href": "/tds/marble-resin-tds.pdf",
+        "label": "Download Marble Resin TDS",
+        "description": "Review the detailed product-specific document for the current grade."
+      },
+      {
+        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "label": "Review Product Catalogue",
+        "description": "Keep its short Marble Resin summary separate from the detailed TDS."
+      },
+      {
+        "href": "/contact/",
+        "label": "Discuss a Marble Resin requirement",
+        "description": "Share technical and commercial information for an evidence-led discussion."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Marble Resin values are published?",
+        "a": "The detailed TDS lists water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene, a 32 C closed-cup flash point, storage, shelf life, 200 kg packaging and a 200 kg MOQ. Treat the values as typical TDS data."
+      },
+      {
+        "q": "Why do the TDS and catalogue differ?",
+        "a": "The current Marble Resin catalogue card lists 300 cPs viscosity and 15-minute gel time, whereas the detailed TDS lists 450 cPs and 15-20 minutes. The repository does not explain the difference, so this guide does not average, replace or silently reconcile them."
+      },
+      {
+        "q": "What should I include in a Marble Resin RFQ?",
+        "a": "Include the intended finished marble or stone product; exact TDS or catalogue reference; required supplied appearance or finish; required published technical data or documentation; quantity; packaging need; delivery location; and any drawing or written requirement. State quartz, engineered stone, putty, epoxy or another route explicitly where relevant."
+      },
+      {
+        "q": "Do published pack and MOQ values guarantee availability or delivery timing?",
+        "a": "No. The detailed TDS lists 200 kg packaging and a 200 kg MOQ. Stock, lead time, delivery and order-specific documents require confirmation for the actual enquiry."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Read the detailed Marble Resin TDS first",
+        "body": [
+          "The detailed TDS is the product-specific source for water-white liquid form, typical 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene content, 32 C closed-cup flash point, three-month shelf life, 20-30 C storage, 200 kg packaging and 200 kg MOQ.",
+          "These are supplied-resin and commercial references. They are not a formulation, a finished-component test certificate, a chemical-compatibility chart, a UV result, a filler-loading limit or a guarantee for a finished marble product."
+        ]
+      },
+      {
+        "heading": "Keep the catalogue differences visible",
+        "body": [
+          "The catalogue identifies Marble Resin as a filled resin for cultured marble and onyx production and labels it Orthophthalic Unsaturated Polyester Resin. It lists 300 cPs viscosity and 15-minute gel time. The detailed TDS calls the product unsaturated polyester resin and lists 450 cPs and 15-20 minutes.",
+          "The repository does not provide a reason for the differences. A buyer should identify the exact document or product reference being evaluated and request confirmation, rather than combining the figures into a new claimed specification."
+        ]
+      },
+      {
+        "heading": "Use technical data for selection, not process instruction",
+        "body": [
+          "Appearance, viscosity, gel-time and storage information help a buyer identify and compare a supplied grade. They do not establish the mineral system, filler level, pigment amount, resin-to-filler ratio, catalyst quantity, moulding method, cure schedule or polishing procedure for a finished marble composite.",
+          "Where the TDS uses high-level terms such as filler compatibility, smooth flow, high-gloss finish, low shrinkage and fully cured water or chemical resistance, it does not publish test methods, numerical limits or a finished-system approval. Keep those distinctions visible in internal requirements and procurement discussions."
+        ]
+      },
+      {
+        "heading": "Prepare a quote-ready Marble Resin brief",
+        "body": [
+          "Start with the actual finished marble or stone component. State whether it is a cultured-marble, artificial-stone, quartz, engineered-stone, broad-FRP, PET sheet, putty or epoxy-system requirement. Then attach the current TDS, catalogue card, drawing or written specification if available.",
+          "Include required supplied appearance or finish, required published property or document, expected quantity, packaging requirement, delivery city or location and timing requirement. This supports an evidence-led grade discussion without asking for or publishing proprietary formulation details."
+        ]
+      }
+    ]
+  }
+]);

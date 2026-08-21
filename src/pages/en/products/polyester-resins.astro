@@ -1,0 +1,75 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CatalogCard from '../../../components/CatalogCard.astro';
+import StatusNotice from '../../../components/StatusNotice.astro';
+import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
+import Base from '../../../layouts/Base.astro';
+
+const group = getGroup('polyester-resins');
+const items = productsInGroup('polyester-resins');
+---
+<Base
+  title="Polyester Resins — Supplier & Importer in Nepal"
+  description="Explore the Polyester Resins range supplied and imported by Samrat FRP Traders for buyers across Nepal."
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Product category</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">{group.summary}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'Home', href: '/en/' },
+          { label: 'Products', href: '/en/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          Unsaturated polyester resin (UPR) is the broader family represented in this section. Samrat FRP Traders supplies and imports products in this family for buyers across Nepal. Individual grades are listed separately so each product can carry its own verified technical information.
+        </p>
+      </div>
+
+      <StatusNotice
+        title="Supplier documentation"
+        message="Technical data sheets and safety data sheets are linked from each product page. Supplier technical data is attributed to the issuer and is not a Samrat FRP Traders certification."
+      />
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard name={product.name} eyebrow={group.name} href={productHref(product, '/en')} />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/en/products/">View full catalogue</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.75rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>
