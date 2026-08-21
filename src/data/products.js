@@ -136,7 +136,35 @@ export const products = Object.freeze([
   Object.freeze({ name: 'Roof Light Resin', slug: 'roof-light-resin', group: 'sheet-grade-resins', tier: 'B' }),
 
   // Gelcoat
-  Object.freeze({ name: 'GP Gelcoat Resin', slug: 'gp-gelcoat-resin', group: 'gelcoat', tier: 'A' }),
+  Object.freeze({
+    name: 'GP Gelcoat Resin',
+    slug: 'gp-gelcoat-resin',
+    group: 'gelcoat',
+    tier: 'A',
+    titleInput: 'GP Gelcoat Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'GP Gelcoat Resin is a polyester surface-coating gelcoat supplied and imported for Nepal by Samrat FRP Traders.',
+    descriptor:
+      'Polyester surface-coating gelcoat for the mould-facing / outer-layer role.',
+    overview:
+      'Current Samrat Poly Resins, India documentation identifies GP Gelcoat Resin as a polyester surface-coating gelcoat for the mould-facing / outer-layer role in FRP laminate systems. The supplier\u2019s listed product characteristics \u2014 white, high-gloss and thixotropic \u2014 are supplier product facts, not performance guarantees for any finished laminate.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Type', value: 'Polyester surface-coating gelcoat' }),
+      Object.freeze({ label: 'Role', value: 'Mould-facing / outer-layer' }),
+      Object.freeze({ label: 'Colour', value: 'White' }),
+      Object.freeze({ label: 'Finish characteristic', value: 'High-gloss' }),
+      Object.freeze({ label: 'Rheology', value: 'Thixotropic' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
+    documents: Object.freeze([
+      Object.freeze({ type: 'Technical Data Sheet', issuer: 'Samrat Poly Resins, India' }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
 
   // Fire Retardant Resins
   Object.freeze({ name: 'Fire Retardant Resin', slug: 'fire-retardant-resin', group: 'fire-retardant-resins', tier: 'B' }),
@@ -190,7 +218,37 @@ export const products = Object.freeze([
   Object.freeze({ name: 'Bisphenol Resin', slug: 'bisphenol-resin', group: 'industrial-specialty-resins', tier: 'C' }),
 
   // Hardeners & Catalysts
-  Object.freeze({ name: 'MEKP Hardener', slug: 'mekp-hardener', group: 'hardeners-catalysts', tier: 'A' }),
+  Object.freeze({
+    name: 'MEKP Hardener',
+    slug: 'mekp-hardener',
+    group: 'hardeners-catalysts',
+    tier: 'A',
+    titleInput: 'MEKP Hardener \u2014 Nepal Supplier',
+    metaDescription:
+      'MEKP Hardener (Methyl Ethyl Ketone Peroxide) is an organic peroxide initiator supplied and imported for Nepal by Samrat FRP Traders.',
+    descriptor:
+      'Methyl Ethyl Ketone Peroxide (MEKP) \u2014 organic peroxide initiator / catalyst.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, MEKP (Methyl Ethyl Ketone Peroxide) is an organic peroxide initiator used in selected unsaturated polyester, vinyl ester and gelcoat systems. For safety, handling and storage information, refer to the current supplier Safety Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Full name', value: 'Methyl Ethyl Ketone Peroxide (MEKP)' }),
+      Object.freeze({ label: 'Product role', value: 'Organic peroxide initiator / catalyst' }),
+      Object.freeze({
+        label: 'Supplier-listed system context',
+        value: 'Unsaturated polyester, vinyl ester and gelcoat systems',
+      }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
+    documents: Object.freeze([
+      Object.freeze({ type: 'Technical Data Sheet', issuer: 'Samrat Poly Resins, India' }),
+      Object.freeze({ type: 'Safety Data Sheet', issuer: 'Samrat Poly Resins, India' }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
 ]);
 
 export function getGroup(slug) {
