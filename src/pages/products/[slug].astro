@@ -1,0 +1,159 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import StatusNotice from '../../components/StatusNotice.astro';
+import {
+  getGroup,
+  productHref,
+  productParentGroup,
+  products,
+  productsInGroup,
+} from '../../data/products.js';
+import Base from '../../layouts/Base.astro';
+
+export function getStaticPaths() {
+  return products.map((product) => ({
+    params: { slug: product.slug },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const group = getGroup(product.group);
+const parent = productParentGroup(product);
+const siblings = productsInGroup(product.group).filter((p) => p.slug !== product.slug);
+
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Products', href: '/products/' },
+  ...(parent ? [{ label: parent.name, href: `/products/${parent.slug}/` }] : []),
+  { label: product.name },
+];
+---
+<Base
+  title={product.name}
+  description={`${product.name} — supplied and imported for Nepal by Samrat FRP Traders. Product details and technical documentation are being verified.`}
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">{group.name}</p>
+      <h1>{product.name}</h1>
+      <p class="page-lead">
+        Supplied and imported by Samrat FRP Traders for the Nepal market.
+        Detailed product information is being verified before publication.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={breadcrumbItems} />
+
+      <StatusNotice
+        title="Information being verified"
+        message="Detailed product information and technical documentation for the Nepal catalogue are being verified and are not yet published."
+      />
+
+      <div class="product-facts" data-reveal>
+        <div class="fact">
+          <span>Product group</span>
+          <strong>{group.name}</strong>
+        </div>
+        <div class="fact">
+          <span>Technical documentation</span>
+          <strong>Pending verification</strong>
+        </div>
+        <div class="fact">
+          <span>Product details</span>
+          <strong>Pending verification</strong>
+        </div>
+        <div class="fact">
+          <span>Enquiry</span>
+          <strong><a href="/contact/">Via contact page</a></strong>
+        </div>
+      </div>
+
+      {siblings.length > 0 && (
+        <div class="related" data-reveal>
+          <p class="related-title">More in {group.name}</p>
+          <div class="related-grid">
+            {siblings.map((sibling) => (
+              <CatalogCard name={sibling.name} eyebrow={group.name} href={productHref(sibling)} />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .product-facts {
+    margin-top: 2rem;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+  }
+
+  .fact {
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 1.05rem 1.3rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .fact:last-child {
+    border-bottom: 0;
+  }
+
+  .fact span {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .fact strong {
+    color: var(--ink);
+    font-size: 0.94rem;
+  }
+
+  .fact strong a {
+    color: var(--accent-gold-light);
+    text-decoration: none;
+    transition: color 180ms var(--ease-premium);
+  }
+
+  .fact strong a:hover {
+    color: var(--ink);
+  }
+
+  .related {
+    margin-top: 3rem;
+  }
+
+  .related-title {
+    margin-bottom: 1rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+  }
+
+  @media (max-width: 40rem) {
+    .fact {
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
+  }
+</style>

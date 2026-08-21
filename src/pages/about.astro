@@ -3,17 +3,17 @@ import StatusNotice from '../components/StatusNotice.astro';
 import Base from '../layouts/Base.astro';
 ---
 <Base
-  title="About scaffold"
-  description="Provisional About-page foundation for Samrat FRP Traders Nepal. Company information remains pending verification."
+  title="About"
+  description="Samrat FRP Traders is a trader, supplier, importer and reseller serving Nepal. Business facts are stated only where confirmed."
 >
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
-      <p class="eyebrow">About foundation</p>
+      <p class="eyebrow">About</p>
       <h1>Business facts follow <span class="metal-text">verification.</span></h1>
       <p class="page-lead">
-        Samrat FRP Traders is represented in this local foundation only as a trader and supplier project.
-        Company information remains intentionally limited.
+        Samrat FRP Traders is a trader, supplier, importer and reseller serving Nepal.
+        Company information remains limited until verified.
       </p>
     </div>
   </section>
@@ -27,16 +27,16 @@ import Base from '../layouts/Base.astro';
         </div>
 
         <p>
-          This page demonstrates the intended editorial hierarchy without presenting company history, location,
-          registration, supplier relationships, coverage, or business statistics as established facts.
+          Samrat FRP Traders sources its resin and FRP product portfolio from Samrat Poly Resins, India — a trusted supplier.
+          Business location, registration, contact details and other commercial facts remain pending verification.
         </p>
 
         <StatusNotice
-          title="Provisional content"
-          message="This is a reusable page shell and routing proof, not final company copy."
+          title="Confirmed facts only"
+          message="This page states only confirmed business facts. Remaining details are pending verification."
         />
 
-        <a class="button" href="/products/">Review product foundation</a>
+        <a class="button" href="/products/">Browse product catalogue</a>
       </div>
 
       <aside class="info-rail" aria-label="Current website boundaries" data-reveal style="--reveal-delay: 120ms">
@@ -46,7 +46,11 @@ import Base from '../layouts/Base.astro';
         </div>
         <div class="info-row">
           <span>Current representation</span>
-          <strong>Trader / supplier</strong>
+          <strong>Trader / supplier / importer / reseller</strong>
+        </div>
+        <div class="info-row">
+          <span>Supplier relationship</span>
+          <strong>Samrat Poly Resins, India</strong>
         </div>
         <div class="info-row">
           <span>Business details</span>

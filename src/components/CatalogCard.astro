@@ -1,0 +1,74 @@
+---
+const { name, eyebrow, href, description } = Astro.props;
+---
+<a class="catalog-card" href={href}>
+  <span class="catalog-card-eyebrow">{eyebrow}</span>
+  <span class="catalog-card-name">{name}</span>
+  {description && <span class="catalog-card-desc">{description}</span>}
+  <span class="catalog-card-arrow" aria-hidden="true">→</span>
+</a>
+
+<style>
+  .catalog-card {
+    position: relative;
+    min-height: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.85rem;
+    padding: 1.3rem 1.35rem;
+    padding-right: 2.6rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+    color: var(--ink);
+    text-decoration: none;
+    transition:
+      border-color 220ms var(--ease-premium),
+      transform 220ms var(--ease-premium),
+      box-shadow 220ms var(--ease-premium);
+  }
+
+  .catalog-card:hover {
+    transform: translateY(-0.2rem);
+    border-color: rgba(var(--gold-rgb), 0.65);
+    box-shadow: var(--surface-shadow-hover);
+  }
+
+  .catalog-card-eyebrow {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .catalog-card-name {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .catalog-card-desc {
+    color: var(--ink-dim);
+    font-size: 0.85rem;
+    line-height: 1.55;
+  }
+
+  .catalog-card-arrow {
+    position: absolute;
+    top: 1.15rem;
+    right: 1.2rem;
+    color: var(--accent-gold);
+    font-size: 1.05rem;
+    line-height: 1;
+    transition: transform 220ms var(--ease-premium);
+  }
+
+  .catalog-card:hover .catalog-card-arrow {
+    transform: translateX(0.2rem);
+  }
+</style>

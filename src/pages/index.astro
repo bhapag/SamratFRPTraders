@@ -1,8 +1,11 @@
 ---
-import ProductPreviewCard from '../components/ProductPreviewCard.astro';
-import StatusNotice from '../components/StatusNotice.astro';
-import { productPlaceholders } from '../data/productPlaceholders.js';
+import CatalogCard from '../components/CatalogCard.astro';
+import { catalogGroups, getGroup, productHref, products } from '../data/products.js';
 import Base from '../layouts/Base.astro';
+
+const indexableCategories = catalogGroups.filter((group) => group.indexable);
+const featuredProducts = products.filter((product) => product.tier === 'A');
+const groupName = (slug) => getGroup(slug)?.name;
 ---
 <Base description="Development scaffold for the Samrat FRP Traders Nepal website. Verified business and product information is pending.">
   <section class="hero-shell hero-home">
@@ -103,22 +106,41 @@ import Base from '../layouts/Base.astro';
     <div class="container">
       <div class="section-heading section-heading-split" data-reveal>
         <div>
-          <p class="eyebrow">Product-card foundation</p>
-          <h2>Presentation shell, not a catalogue</h2>
+          <p class="eyebrow">Product catalogue</p>
+          <h2>FRP materials for Nepal</h2>
         </div>
         <p class="section-lead">
-          These records demonstrate reusable proportions and hierarchy. They do not identify stocked items, brands, or supply commitments.
+          The full product range supplied and imported by Samrat FRP Traders, grouped by product family.
+          Detailed product information is being verified before publication.
         </p>
       </div>
 
-      <div class="product-preview-grid">
-        {productPlaceholders.map((record, index) => (
-          <ProductPreviewCard record={record} revealDelay={index * 80} />
+      <div class="catalogue-categories" data-reveal>
+        {indexableCategories.map((group) => (
+          <CatalogCard
+            name={group.name}
+            eyebrow="Product category"
+            href={`/products/${group.slug}/`}
+            description={group.summary}
+          />
         ))}
       </div>
 
-      <div class="section-actions" data-reveal style="--reveal-delay: 240ms">
-        <a class="button" href="/products/">Open products foundation</a>
+      <div class="featured-heading" data-reveal>
+        <p class="eyebrow">Featured products</p>
+      </div>
+      <div class="catalogue-grid" data-reveal>
+        {featuredProducts.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={groupName(product.group)}
+            href={productHref(product)}
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 200ms">
+        <a class="button button-primary" href="/products/">View full product catalogue</a>
       </div>
     </div>
   </section>
@@ -184,6 +206,22 @@ import Base from '../layouts/Base.astro';
     margin-bottom: 0;
     color: var(--ink-dim);
     font-size: 0.9rem;
+  }
+
+  .catalogue-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    gap: 1rem;
+  }
+
+  .featured-heading {
+    margin: 2.5rem 0 1.1rem;
+  }
+
+  .catalogue-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
   }
 
   @media (max-width: 53.75rem) {

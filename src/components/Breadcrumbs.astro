@@ -1,0 +1,56 @@
+---
+const { items } = Astro.props;
+---
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    {items.map((item, index) => {
+      const isLast = index === items.length - 1;
+      return (
+        <li class:list={[{ current: isLast }]}>
+          {isLast ? <span aria-current="page">{item.label}</span> : <a href={item.href}>{item.label}</a>}
+        </li>
+      );
+    })}
+  </ol>
+</nav>
+
+<style>
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .breadcrumbs li {
+    display: inline-flex;
+    align-items: center;
+    color: var(--ink-faint);
+  }
+
+  .breadcrumbs li + li::before {
+    content: '›';
+    margin-right: 0.55rem;
+    color: var(--accent-gold);
+  }
+
+  .breadcrumbs a {
+    color: var(--ink-dim);
+    text-decoration: none;
+    transition: color 180ms var(--ease-premium);
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--accent-gold-light);
+  }
+
+  .breadcrumbs .current {
+    color: var(--ink);
+  }
+</style>
