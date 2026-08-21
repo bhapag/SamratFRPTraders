@@ -500,6 +500,24 @@ export const products = Object.freeze([
     slug: 'clear-casting-resin',
     group: 'epoxy-casting-resins',
     tier: 'C',
+    titleInput: 'Clear Casting Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Clear Casting Resin \u2014 a two-part epoxy system supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Two-part epoxy system; supplier-listed for clear casting work.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Clear Casting Resin is a two-part epoxy system. The supplier lists it for river tables, jewellery making and decorative casting. Technical specifications are published in the supplier\u2019s Technical Data Sheet; mixing and application details remain document-level information.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Epoxy, two-part system' }),
+      Object.freeze({ label: 'Viscosity', value: '900 cPs (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Initial cure time', value: '24 hours (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Full cure time', value: '72 hours (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Hardness (fully cured)', value: 'Shore D 82' }),
+      Object.freeze({ label: 'Shrinkage', value: '< 0.2%' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -512,12 +530,29 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/epoxy-clear-casting-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Epoxy Art Resin',
     slug: 'epoxy-art-resin',
     group: 'epoxy-casting-resins',
     tier: 'C',
+    titleInput: 'Epoxy Art Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'Epoxy Art Resin \u2014 a two-component epoxy supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Two-component epoxy; supplier-listed for art and decorative coating work.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Epoxy Art Resin is a two-component epoxy. The supplier lists it for floor art, table tops, river tables and decorative coatings. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Component type', value: 'Two component' }),
+      Object.freeze({ label: 'Curing time', value: '24 hours' }),
+      Object.freeze({ label: 'UV resistance', value: 'Yes (per supplier TDS)' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -530,12 +565,30 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/epoxy-art-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'UV Resin',
     slug: 'uv-resin',
     group: 'epoxy-casting-resins',
     tier: 'C',
+    titleInput: 'UV Resin \u2014 Nepal Supplier',
+    metaDescription:
+      'UV Resin \u2014 an epoxy acrylate resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Epoxy acrylate resin; UV/LED curing.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, UV Resin is an epoxy acrylate resin cured with UV/LED light. The supplier lists it for jewellery making, encapsulation, crafts and coatings. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin chemistry', value: 'Epoxy acrylate' }),
+      Object.freeze({ label: 'Curing type', value: 'UV LED cure' }),
+      Object.freeze({ label: 'Viscosity', value: 'Low' }),
+      Object.freeze({ label: 'Hardness', value: 'Medium' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -548,12 +601,34 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/uv-resin-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
     name: 'Epoxy Hardener',
     slug: 'epoxy-hardener',
     group: 'epoxy-casting-resins',
     tier: 'B',
+    titleInput: 'Epoxy Hardener \u2014 Nepal Supplier',
+    metaDescription:
+      'Epoxy Hardener \u2014 a polyamide curing agent supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+    descriptor: 'Polyamide (amine-based) curing agent for compatible epoxy resin systems.',
+    overview:
+      'According to current Samrat Poly Resins, India documentation, Epoxy Hardener is a polyamide (amine-based) curing agent. The supplier notes that it is used with compatible epoxy resin systems and that the resin/hardener pairing should be confirmed before ordering. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Hardener type', value: 'Polyamide (amine-based curing agent)' }),
+      Object.freeze({ label: 'Viscosity', value: '500 cPs (at 25\u00B0C)' }),
+      Object.freeze({ label: 'Specific gravity / density', value: '0.97 g/cm\u00B3' }),
+      Object.freeze({ label: 'Amine value', value: '320 mg KOH/g' }),
+      Object.freeze({
+        label: 'System compatibility',
+        value: 'Compatible epoxy resin systems \u2014 confirm the resin/hardener pairing before ordering (per supplier documentation)',
+      }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -566,6 +641,8 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/epoxy-hardener-sds.pdf',
       }),
     ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
   }),
 
   // Industrial & Specialty Resins
