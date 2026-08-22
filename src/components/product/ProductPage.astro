@@ -44,13 +44,24 @@ const canonicalUrl = buildCanonicalUrl(Astro.url.pathname);
 const t = isNe
   ? {
       docsTitle: 'प्राविधिक कागजातहरू',
-      tdsLabel: 'Technical Data Sheet हेर्नुहोस्',
-      sdsLabel: 'Safety Data Sheet हेर्नुहोस्',
-      catalogueLabel: 'उत्पादन क्याटलग',
-      catalogueNote: 'आपूर्तिकर्ता उत्पादन क्याटलग — Samrat Poly Resins, India',
-      issuedBy: 'जारीकर्ता',
+      tdsButton: 'प्राविधिक डाटा शीट (TDS) डाउनलोड गर्नुहोस् (PDF)',
+      sdsButton: 'सुरक्षा डाटा शीट (SDS) डाउनलोड गर्नुहोस् (PDF)',
+      catalogueTitle: 'पूर्ण उत्पादन दायरा चाहिन्छ?',
+      catalogueDesc: 'हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।',
+      catalogueLabel: 'उत्पादन क्याटलग डाउनलोड गर्नुहोस्',
+      issuedBy: 'TDS/SDS जारीकर्ता',
+      priceHeading: 'मूल्य',
+      priceValue: 'मूल्य: अनुरोधमा',
+      priceNote: `${product.name} को मूल्य निम्न कुरामा निर्भर गर्दछ:`,
+      priceFactors: ['अर्डर परिमाण', 'उत्पादन / Resin ग्रेड', 'हालको कच्चा पदार्थ दर'],
+      bulkQuote: 'थोक कोटेशन माग्नुहोस्',
+      enquire: 'सोधपुछ / कोटेशन',
+      whatsapp: 'WhatsApp',
+      mediaNote: 'उत्पादन फोटो — स्वामीबाट प्राप्त भएपछि यहाँ देखाइनेछ।',
       aboutTitle: 'उत्पादनबारे थप',
       buyerTitle: 'खरिदकर्ताका लागि यसको अर्थ',
+      featuresTitle: 'मुख्य विशेषताहरू',
+      industriesTitle: 'सेवा क्षेत्रहरू',
       specsTitle: 'प्राविधिक विवरण',
       specsSource: 'स्रोत',
       detailsTitle: 'उत्पादन विवरण',
@@ -69,22 +80,27 @@ const t = isNe
       relatedTitle: 'सम्बन्धित उत्पादनहरू',
       hubTitle: 'प्राविधिक जानकारी केन्द्र',
       hubMore: 'सबै स्रोतहरू',
-      quoteTitle: 'मूल्य: अनुरोधमा',
-      quoteBody:
-        'हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सोधपुछ पठाउनुहोस् — प्रमाणित नभएसम्म व्यावसायिक शर्तहरू प्रकाशित गरिँदैन।',
-      quoteCta: 'कोटेशन माग्नुहोस्',
-      quoteWhatsApp: 'WhatsApp मा सोध्नुहोस्',
-      quoteCall: 'फोन गर्नुहोस्',
     }
   : {
       docsTitle: 'Technical documents',
-      tdsLabel: 'View Technical Data Sheet',
-      sdsLabel: 'View Safety Data Sheet',
-      catalogueLabel: 'Product catalogue',
-      catalogueNote: 'Supplier product catalogue — Samrat Poly Resins, India',
-      issuedBy: 'Issued by',
+      tdsButton: 'Download Technical Data Sheet (PDF)',
+      sdsButton: 'Download Safety Data Sheet (SDS) (PDF)',
+      catalogueTitle: 'Need our complete product range?',
+      catalogueDesc: 'Explore our complete FRP materials and resin range.',
+      catalogueLabel: 'Download Product Catalogue',
+      issuedBy: 'TDS/SDS issued by',
+      priceHeading: 'Price',
+      priceValue: 'PRICE ON REQUEST',
+      priceNote: `${product.name} pricing varies based on:`,
+      priceFactors: ['Order Quantity', 'Product / Resin Grade', 'Current Raw Material Rates'],
+      bulkQuote: 'Request Bulk Quote',
+      enquire: 'Enquire / get quote',
+      whatsapp: 'WhatsApp',
+      mediaNote: 'Product photography — owner input required. This area is reserved for the official product visual.',
       aboutTitle: 'About this product',
       buyerTitle: 'What this means for buyers',
+      featuresTitle: 'Key features',
+      industriesTitle: 'Industries served',
       specsTitle: 'Technical specifications',
       specsSource: 'Source',
       detailsTitle: 'Product details',
@@ -103,13 +119,9 @@ const t = isNe
       relatedTitle: 'Related products',
       hubTitle: 'Technical resource hub',
       hubMore: 'All resources',
-      quoteTitle: 'Price on request',
-      quoteBody:
-        'For current pricing, availability and packaging options in Nepal, send an enquiry — commercial terms are only published once verified.',
-      quoteCta: 'Request a quote',
-      quoteWhatsApp: 'Ask on WhatsApp',
-      quoteCall: 'Call us',
     };
+
+const bulkWa = buildProductQuoteLink(product.name, lang);
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -129,41 +141,122 @@ const productSchema = {
   description: description || product.metaDescription || product.descriptor || '',
   ...(group ? { category: group.name } : {}),
   url: canonicalUrl,
+  brand: { '@type': 'Brand', name: 'Samrat Poly Resins' },
+  ...(highlights.length > 0
+    ? {
+        additionalProperty: highlights.map((item) => ({
+          '@type': 'PropertyValue',
+          name: item.label,
+          value: item.value,
+        })),
+      }
+    : {}),
 };
+
+const faqSchema =
+  localized?.faqs && localized.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: localized.faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.q,
+          acceptedAnswer: { '@type': 'Answer', text: faq.a },
+        })),
+      }
+    : null;
 ---
 
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
 <Breadcrumbs items={breadcrumbItems} />
+
+<div class="product-top" data-reveal>
+  <div class="product-media">
+    <div
+      class="media-frame"
+      role="img"
+      aria-label={isNe ? 'उत्पादन फोटोको लागि आरक्षित क्षेत्र' : 'Reserved product photography area'}
+    >
+      <img class="media-mark" src="/brand/samrat-frp-traders-mark.png" alt="" width="320" height="320" />
+      <p class="media-note">{t.mediaNote}</p>
+    </div>
+  </div>
+
+  <div class="product-actions">
+    <div class="prod-quote">
+      <p class="prod-quote-heading">{t.priceHeading}</p>
+      <p class="prod-quote-value">{t.priceValue}</p>
+      <p class="prod-quote-note">{t.priceNote}</p>
+      <ul class="prod-quote-list">
+        {t.priceFactors.map((factor) => <li>{factor}</li>)}
+      </ul>
+      <a class="button button-primary prod-quote-cta" href={bulkWa} target="_blank" rel="noopener">
+        {t.bulkQuote}
+      </a>
+    </div>
+
+    {tds && (
+      <div class="prod-cta">
+        <a
+          class="button button-primary"
+          href={tdsLocal ?? tds.url}
+          target="_blank"
+          rel="noopener"
+          download
+          aria-label={`${t.tdsButton} — ${product.name}`}
+        >
+          {t.tdsButton}
+        </a>
+      </div>
+    )}
+
+    {sds && (
+      <div class="prod-cta">
+        <a
+          class="button button-primary"
+          href={sdsLocal ?? sds.url}
+          target="_blank"
+          rel="noopener"
+          download
+          aria-label={`${t.sdsButton} — ${product.name}`}
+        >
+          {t.sdsButton}
+        </a>
+      </div>
+    )}
+
+    <div class="prod-cta prod-cta-row">
+      <a class="button button-primary" href={`${prefix}/contact/`}>{t.enquire}</a>
+      <a class="button wa-button" href={bulkWa} target="_blank" rel="noopener">{t.whatsapp}</a>
+    </div>
+
+    <div class="prod-catalogue-note">
+      <p class="prod-catalogue-heading">{t.catalogueTitle}</p>
+      <a
+        class="prod-catalogue-link"
+        href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+        target="_blank"
+        rel="noopener"
+        download
+        aria-label={isNe
+          ? 'Samrat FRP Traders उत्पादन क्याटलग (PDF) डाउनलोड गर्नुहोस्'
+          : 'Download Samrat FRP Traders Product Catalogue (PDF)'}
+      >
+        📘 {t.catalogueLabel} (PDF)
+      </a>
+      <p class="prod-catalogue-desc">{t.catalogueDesc}</p>
+    </div>
+
+    <p class="doc-note">{t.issuedBy}: Samrat Poly Resins, India</p>
+  </div>
+</div>
 
 <div class="product-layout">
   <div class="product-main">
     {product.descriptor && <p class="product-descriptor" data-reveal>{product.descriptor}</p>}
-
-    <div class="doc-actions" data-reveal>
-      {tds && (
-        <a class="button button-primary doc-action" href={tdsLocal ?? tds.url} target="_blank" rel="noopener">
-          {t.tdsLabel} ↗
-        </a>
-      )}
-      {sds && (
-        <a class="button doc-action" href={sdsLocal ?? sds.url} target="_blank" rel="noopener">
-          {t.sdsLabel} ↗
-        </a>
-      )}
-      <a
-        class="button doc-action"
-        href="/downloads/samrat-poly-resins-product-catalogue.pdf"
-        target="_blank"
-        rel="noopener"
-      >
-        {t.catalogueLabel} ↗
-      </a>
-    </div>
-    <p class="doc-note" data-reveal>
-      {t.issuedBy}: Samrat Poly Resins, India — {t.catalogueNote}
-    </p>
 
     {localized?.intro && localized.intro.length > 0 && (
       <section class="panel" data-reveal>
@@ -185,6 +278,15 @@ const productSchema = {
             </div>
           ))}
         </div>
+      </section>
+    )}
+
+    {localized?.features && localized.features.length > 0 && (
+      <section class="panel" data-reveal>
+        <h2 class="panel-title">{t.featuresTitle}</h2>
+        <ul class="feature-list">
+          {localized.features.map((item) => <li>{item}</li>)}
+        </ul>
       </section>
     )}
 
@@ -267,6 +369,15 @@ const productSchema = {
       </section>
     )}
 
+    {localized?.industries && localized.industries.length > 0 && (
+      <section class="panel" data-reveal>
+        <h2 class="panel-title">{t.industriesTitle}</h2>
+        <ul class="feature-list feature-list-grid">
+          {localized.industries.map((item) => <li>{item}</li>)}
+        </ul>
+      </section>
+    )}
+
     {comparisons.length > 0 && (
       <section class="panel" data-reveal>
         <h2 class="panel-title">{t.compareTitle}</h2>
@@ -304,21 +415,6 @@ const productSchema = {
   </div>
 
   <aside class="product-side" data-reveal>
-    <div class="quote-box">
-      <p class="quote-heading">{t.quoteTitle}</p>
-      <p>{t.quoteBody}</p>
-      <a
-        class="button button-primary"
-        href={buildProductQuoteLink(product.name, lang)}
-        target="_blank"
-        rel="noopener"
-      >
-        {t.quoteWhatsApp}
-      </a>
-      <a class="button" href={`${prefix}/contact/`}>{t.quoteCta}</a>
-      <a class="button" href="tel:+9779805526904">{t.quoteCall}: +977 9805526904</a>
-    </div>
-
     {related.length > 0 && (
       <div class="side-block">
         <p class="side-title">{t.relatedTitle}</p>
@@ -353,6 +449,157 @@ const productSchema = {
 </div>
 
 <style>
+  .product-top {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: clamp(2rem, 5vw, 3.5rem);
+    align-items: start;
+    margin-top: 2rem;
+  }
+
+  .media-frame {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    aspect-ratio: 4 / 5;
+    border: 1px solid var(--line);
+    background: linear-gradient(160deg, var(--bg-3), var(--bg));
+    text-align: center;
+  }
+
+  .media-mark {
+    width: 5.5rem;
+    height: auto;
+    opacity: 0.3;
+  }
+
+  .media-note {
+    max-width: 22ch;
+    margin: 0;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.08em;
+    line-height: 1.7;
+    text-transform: uppercase;
+  }
+
+  .product-actions {
+    display: grid;
+    gap: 1rem;
+  }
+
+  /* Source-style price block */
+  .prod-quote {
+    padding: 1.2rem 1.3rem;
+    border: 1px solid rgba(var(--gold-rgb), 0.45);
+    border-left-width: 0.26rem;
+    background: rgba(var(--gold-rgb), 0.065);
+  }
+
+  .prod-quote-heading {
+    margin: 0;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .prod-quote-value {
+    margin: 0.3rem 0 0.4rem;
+    color: var(--accent-gold-light);
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .prod-quote-note {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+  }
+
+  .prod-quote-list {
+    display: grid;
+    gap: 0.35rem;
+    margin: 0.8rem 0 1.1rem;
+    padding: 0 0 0 1.1rem;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+    line-height: 1.5;
+  }
+
+  .prod-quote-cta {
+    width: 100%;
+  }
+
+  .prod-cta {
+    display: grid;
+  }
+
+  .prod-cta .button {
+    width: 100%;
+    justify-content: center;
+    min-height: 3.3rem;
+    text-align: center;
+  }
+
+  .prod-cta-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+
+  .wa-button {
+    background: #25d366;
+    border-color: #25d366;
+    color: #062b14;
+    font-weight: 700;
+  }
+
+  .wa-button:hover {
+    background: #2ee87a;
+    border-color: #2ee87a;
+    color: #062b14;
+  }
+
+  /* Source-style catalogue note */
+  .prod-catalogue-note {
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+  }
+
+  .prod-catalogue-heading {
+    margin: 0;
+    color: var(--ink);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .prod-catalogue-link {
+    display: inline-block;
+    margin-top: 0.4rem;
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+
+  .prod-catalogue-link:hover {
+    color: var(--accent-gold);
+  }
+
+  .prod-catalogue-desc {
+    margin: 0.4rem 0 0;
+    color: var(--ink-dim);
+    font-size: 0.84rem;
+  }
+
   .product-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(15rem, 19rem);
@@ -373,14 +620,8 @@ const productSchema = {
     text-transform: uppercase;
   }
 
-  .doc-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-  }
-
   .doc-note {
-    margin: 0.7rem 0 0;
+    margin: 0;
     color: var(--ink-faint);
     font-family: var(--font-mono);
     font-size: 0.62rem;
@@ -421,6 +662,33 @@ const productSchema = {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
     gap: 1rem;
+  }
+
+  .feature-list {
+    display: grid;
+    gap: 0.7rem;
+    margin: 0;
+    padding-left: 1.3rem;
+  }
+
+  .feature-list li {
+    color: var(--ink-dim);
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .feature-list-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+    padding-left: 0;
+    list-style: none;
+    gap: 0.6rem;
+  }
+
+  .feature-list-grid li {
+    padding: 0.65rem 0.9rem;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    font-size: 0.88rem;
   }
 
   .note-card {
@@ -662,32 +930,6 @@ const productSchema = {
     gap: 1.25rem;
   }
 
-  .quote-box {
-    padding: 1.3rem 1.25rem 1.35rem;
-    border: 1px solid rgba(var(--gold-rgb), 0.45);
-    background: linear-gradient(160deg, rgba(var(--gold-rgb), 0.09), rgba(var(--gold-rgb), 0.03));
-  }
-
-  .quote-heading {
-    margin-bottom: 0.55rem;
-    color: var(--accent-gold-light);
-    font-family: var(--font-display);
-    font-size: 1.05rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .quote-box p {
-    color: var(--ink-dim);
-    font-size: 0.84rem;
-    line-height: 1.6;
-  }
-
-  .quote-box .button {
-    width: 100%;
-    margin-top: 0.3rem;
-  }
-
   .side-block {
     border: 1px solid var(--line);
     background: var(--bg-2);
@@ -751,6 +993,14 @@ const productSchema = {
   }
 
   @media (max-width: 53.75rem) {
+    .product-top {
+      grid-template-columns: 1fr;
+    }
+
+    .media-frame {
+      aspect-ratio: 4 / 3;
+    }
+
     .product-layout {
       grid-template-columns: 1fr;
     }
@@ -762,6 +1012,12 @@ const productSchema = {
     .spec-row {
       grid-template-columns: 1fr;
       gap: 0.3rem;
+    }
+  }
+
+  @media (max-width: 24rem) {
+    .prod-cta-row {
+      grid-template-columns: 1fr;
     }
   }
 </style>

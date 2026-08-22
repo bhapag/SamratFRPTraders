@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "GP Quartz Resin in Nepal | Samrat FRP Traders",
+    seoTitle: "GP Quartz Resin in Nepal",
     seoDescription: "GP Quartz Resin is an orthophthalic polyester resin for artificial quartz and engineered stone casting, supplied and imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports GP Quartz Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies GP Quartz Resin as an orthophthalic unsaturated polyester resin published for artificial quartz stone, engineered stone slabs and composite mineral surfaces.",
@@ -45,9 +45,22 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in artificial quartz stone manufacturing, engineered stone slabs, quartz kitchen and vanity countertops, artificial marble, decorative cast stone, table tops and interior panels.",
+    features: [
+      "Published for artificial quartz stone, engineered stone slabs and composite mineral surfaces",
+      "Clear to pale yellow liquid appearance",
+      "Published viscosity: 400–800 cPs",
+      "Non-accelerated curing system with 7–10 minute gel time",
+      "Published purity: 99%; approximate cure time: 2 hours",
+    ],
+    industries: [
+      "Engineered & quartz stone manufacturing",
+      "Countertop & surface manufacturing",
+      "Interior décor & architectural panels",
+      "Composite stone products",
+    ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Quartz Resin | Samrat FRP Traders",
+    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Quartz Resin",
     seoDescription: "GP Quartz Resin artificial quartz \u0930 engineered stone casting \u0915\u093e \u0932\u093e\u0917\u093f orthophthalic unsaturated polyester resin \u0939\u094b, \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
     intro: [
       "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f GP Quartz Resin \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP Quartz Resin \u0932\u093e\u0908 artificial quartz stone, engineered stone slab \u0930 composite mineral surface \u0915\u093e \u0932\u093e\u0917\u093f \u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 orthophthalic unsaturated polyester resin \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
@@ -91,5 +104,18 @@ export default {
       },
     ],
     applicationsIntro: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 artificial quartz stone \u0928\u093f\u0930\u094d\u092e\u093e\u0923, engineered stone slab, quartz \u0915\u093f\u091a\u0928 \u0930 vanity countertop, artificial marble, decorative cast stone, table top \u0930 interior panel \u092e\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964",
+    features: [
+      "\u0915\u0943\u0924\u094d\u0930\u093f\u092e quartz stone, engineered stone slabs \u0930 composite mineral \u0938\u0924\u0939\u0915\u093e \u0932\u093e\u0917\u093f \u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924",
+      "Clear \u0926\u0947\u0916\u093f \u0939\u0932\u094d\u0915\u093e \u092a\u0939\u0947\u0902\u0932\u094b liquid \u0930\u0942\u092a",
+      "\u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 viscosity: 400\u2013800 cPs",
+      "7\u201310 \u092e\u093f\u0928\u0947\u091f gel time \u0938\u0939\u093f\u0924 non-accelerated curing \u092a\u094d\u0930\u0923\u093e\u0932\u0940",
+      "\u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 purity: 99%; \u0932\u0917\u092d\u0917 cure time: 2 \u0918\u0923\u094d\u091f\u093e",
+    ],
+    industries: [
+      "Engineered \u0930 quartz stone \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "Countertop \u0930 \u0938\u0924\u0939 \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "\u092d\u093f\u0924\u094d\u0930\u0940 \u0938\u091c\u093e\u0935\u091f \u0930 architectural panels",
+      "Composite stone \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u0939\u0930\u0942",
+    ],
   },
 };

@@ -44,7 +44,17 @@ export default {
         a: "This grade is a PET-modified sheet resin documented for sheet and panel work. GP Resin is the supplier's general-purpose FRP route, while Lamination Resin is tuned for door, plywood and FRP lamination. Compare the current product-specific TDS for each against your finished product before choosing."
       }
     ],
-    applicationsIntro: "Supplier documentation lists use in PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing."
+    applicationsIntro: "Supplier documentation lists use in PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing.",
+    features: [
+      "Published and marketed as PET Resin / Polyester Putty Resin — a PET-modified unsaturated polyester sheet grade",
+      "Pale-yellow liquid supply with 450–650 cPs viscosity at 25°C",
+      "Suited to sheet, fibre-sheet, FRP sheet-lamination and panel-manufacturing work",
+      "Current Technical Data Sheet and Safety Data Sheet available for review",
+    ],
+    industries: [
+      "FRP sheet & panel manufacturing",
+      "Fibre & sheet manufacturing",
+    ],
   },
   ne: {
     seoTitle: "Polyester Putty Resin नेपाल आपूर्तिकर्ता | PET-Modified UPR",
@@ -90,6 +100,16 @@ export default {
         a: "यो sheet र panel कामका लागि कागजातमा चिनाइएको PET-modified sheet resin हो। GP Resin general-purpose FRP route हो भने Lamination Resin door, plywood र FRP lamination का लागि बनाइएको हो। छनोट गर्नुअघि आफ्नो finished उत्पादनसँग प्रत्येकको TDS तुलना गर्नुहोस्।"
       }
     ],
-    applicationsIntro: "आपूर्तिकर्ताको कागजातले PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "आपूर्तिकर्ताको कागजातले PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "PET Resin / Polyester Putty Resin भनी प्रकाशित र बजारमा उपलब्ध — PET-modified unsaturated polyester sheet grade",
+      "25°C मा 450–650 cPs viscosity सहित हल्का-पहेंलो liquid आपूर्ति",
+      "Sheet, fibre-sheet, FRP sheet-lamination र panel-निर्माण कामका लागि उपयुक्त",
+      "समीक्षाका लागि हालको Technical Data Sheet र Safety Data Sheet उपलब्ध",
+    ],
+    industries: [
+      "FRP sheet र panel निर्माण",
+      "Fibre र sheet निर्माण",
+    ],
   }
 };

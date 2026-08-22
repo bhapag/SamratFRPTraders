@@ -20,7 +20,20 @@ export default {
       { q: "Which resin systems is the mat used with?", a: "Its polyester-compatible sizing wets out cleanly with polyester-family systems such as unsaturated polyester and vinyl ester. The mat is a reinforcement, so the resin is selected separately for the finished part." },
       { q: "What documents and commercial details are available?", a: "Supplier Technical Data Sheet and Safety Data Sheet documents are available. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page." }
     ],
-    applicationsIntro: "Supplier documentation lists use in FRP laminate reinforcement, marine, automotive and construction composites, moulded fibreglass parts, and hand layup and spray-up reinforcement."
+    applicationsIntro: "Supplier documentation lists use in FRP laminate reinforcement, marine, automotive and construction composites, moulded fibreglass parts, and hand layup and spray-up reinforcement.",
+    features: [
+      "E-glass chopped strand mat, 50 mm fibre length",
+      "300 g/m² and 450 g/m² weights available",
+      "1040 mm roll width, polyester-compatible sizing",
+      "High filament-level tensile strength for laminate reinforcement",
+      "Reliable resin wet-out for consistent laminate strength"
+    ],
+    industries: [
+      "FRP & composites manufacturing",
+      "Marine & automotive fabrication",
+      "Construction & panel manufacturing",
+      "General moulding & fabrication"
+    ]
   },
   ne: {
     seoTitle: "Glass Fiber Mat नेपाल — E-Glass CSM 300/450 GSM आपूर्तिकर्ता",
@@ -42,6 +55,19 @@ export default {
       { q: "यो म्याट कुन resin प्रणालीसँग प्रयोग हुन्छ?", a: "यसको polyester-compatible sizing ले unsaturated polyester र vinyl ester जस्ता polyester-family प्रणालीमा राम्रो wet-out दिन्छ। यो reinforcement मात्र भएकाले resin finished part का लागि छुट्टै छानिन्छ।" },
       { q: "कस्ता दस्तावेज र व्यावसायिक विवरण उपलब्ध छन्?", a: "Supplier Technical Data Sheet र Safety Data Sheet उपलब्ध छन्। नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्।" }
     ],
-    applicationsIntro: "Supplier दस्तावेजले FRP laminate reinforcement, marine, automotive र construction composites, moulded fibreglass parts, तथा hand layup र spray-up reinforcement मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "Supplier दस्तावेजले FRP laminate reinforcement, marine, automotive र construction composites, moulded fibreglass parts, तथा hand layup र spray-up reinforcement मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "E-glass chopped strand mat, 50 mm fibre length",
+      "300 g/m² र 450 g/m² weights उपलब्ध",
+      "1040 mm roll width, polyester-compatible sizing",
+      "Laminate reinforcement का लागि उच्च filament-level tensile strength",
+      "सुसंगत laminate strength का लागि भरपर्दो resin wet-out"
+    ],
+    industries: [
+      "FRP र composites निर्माण",
+      "Marine र automotive fabrication",
+      "निर्माण र panel निर्माण",
+      "सामान्य moulding र fabrication"
+    ]
   }
 };

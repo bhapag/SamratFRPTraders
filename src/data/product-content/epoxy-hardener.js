@@ -21,7 +21,20 @@ export default {
       { q: "How do I confirm the right resin and hardener pairing?", a: "Share the exact epoxy resin route, intended application, expected quantity and any documentation requirement through the enquiry page, so the pairing can be confirmed against the supplier documentation before ordering." },
       { q: "What documents and commercial details are available?", a: "Supplier Technical Data Sheet and Safety Data Sheet documents are available. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page." }
     ],
-    applicationsIntro: "Supplier documentation lists use in epoxy art and river tables, clear casting and laminating, FRP composites and industrial flooring, and adhesives and protective coatings."
+    applicationsIntro: "Supplier documentation lists use in epoxy art and river tables, clear casting and laminating, FRP composites and industrial flooring, and adhesives and protective coatings.",
+    features: [
+      "Published polyamide (amine-based) epoxy curing-agent type",
+      "Clear / transparent liquid supplied form",
+      "Current TDS publishes viscosity, specific gravity and amine value",
+      "Compatible epoxy-system selection should be confirmed before ordering",
+      "Current Technical Data Sheet available for product review"
+    ],
+    industries: [
+      "Furniture & river table manufacturing",
+      "Art & decorative casting",
+      "FRP & composites manufacturing",
+      "Industrial flooring & adhesives"
+    ]
   },
   ne: {
     seoTitle: "Epoxy Hardener नेपाल — Polyamide Curing Agent आपूर्तिकर्ता",
@@ -45,6 +58,19 @@ export default {
       { q: "सही resin र hardener pairing कसरी पुष्टि गर्ने?", a: "सम्पर्क पृष्ठमार्फत exact epoxy resin मार्ग, आवश्यक प्रयोग, अपेक्षित परिमाण र दस्तावेज आवश्यकता उल्लेख गर्नुहोस्, ताकि अर्डरअघि supplier दस्तावेज अनुसार pairing पुष्टि गर्न सकियोस्।" },
       { q: "कस्ता दस्तावेज र व्यावसायिक विवरण उपलब्ध छन्?", a: "Supplier Technical Data Sheet र Safety Data Sheet उपलब्ध छन्। नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्।" }
     ],
-    applicationsIntro: "Supplier दस्तावेजले epoxy art र river table, clear casting र laminating, FRP composite र industrial flooring, तथा adhesive र protective coating मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "Supplier दस्तावेजले epoxy art र river table, clear casting र laminating, FRP composite र industrial flooring, तथा adhesive र protective coating मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "प्रकाशित polyamide (amine-आधारित) epoxy curing-agent प्रकार",
+      "Clear / पारदर्शी liquid आपूर्ति रूप",
+      "हालको TDS ले viscosity, specific gravity र amine value प्रकाशित गर्छ",
+      "अर्डरअघि compatible epoxy-प्रणाली छनोट पुष्टि गर्नुपर्छ",
+      "उत्पादन समीक्षाका लागि हालको Technical Data Sheet उपलब्ध"
+    ],
+    industries: [
+      "Furniture र river table निर्माण",
+      "Art र सजावटी casting",
+      "FRP र composites निर्माण",
+      "औद्योगिक flooring र adhesives"
+    ]
   }
 };

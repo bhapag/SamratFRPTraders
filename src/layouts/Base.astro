@@ -66,10 +66,14 @@ const nav = isNe
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content={isNe ? 'ne_NP' : 'en_NP'} />
+    {!is404 && <meta property="og:locale:alternate" content={isNe ? 'en_NP' : 'ne_NP'} />}
     <meta property="og:image" content={buildCanonicalUrl('/brand/og-default.png')} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={buildCanonicalUrl('/brand/og-default.png')} />
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': ['Organization', 'LocalBusiness'],
@@ -209,6 +213,13 @@ const nav = isNe
             <a href={isNe ? '/resources/' : '/en/resources/'}>{isNe ? 'जानकारी केन्द्र' : 'Resources'}</a>
             <a href={isNe ? '/about/' : '/en/about/'}>{isNe ? 'हाम्रोबारे' : 'About'}</a>
             <a href={isNe ? '/contact/' : '/en/contact/'}>{isNe ? 'सम्पर्क' : 'Contact'}</a>
+            <a
+              href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              {isNe ? 'उत्पादन क्याटलग (PDF)' : 'Product catalogue (PDF)'}
+            </a>
           </nav>
         </div>
         <div class="footer-col">
@@ -221,7 +232,12 @@ const nav = isNe
       </div>
       <div class="container footer-bottom">
         <span>© {new Date().getFullYear()} Samrat FRP Traders · Pre-publication foundation</span>
-        <span>PAN {site.business.pan} · VAT {site.business.vat} · EXIM {site.business.exim}</span>
+        <span class="footer-legal">
+          <span class="legal-item" data-copy-value={site.business.pan}>PAN {site.business.pan}</span> ·
+          <span class="legal-item" data-copy-value={site.business.vat}>VAT {site.business.vat}</span> ·
+          <span class="legal-item" data-copy-value={site.business.exim}>EXIM {site.business.exim}</span>
+        </span>
+        <span class="visually-hidden" role="status" aria-live="polite" data-copy-status></span>
       </div>
     </footer>
 
@@ -270,6 +286,14 @@ const nav = isNe
     <script>
       import { initReveal } from '../scripts/reveal.js';
       initReveal();
+    </script>
+    <script>
+      import { wireFaqAccordions } from '../scripts/faq-accordion.js';
+      wireFaqAccordions();
+    </script>
+    <script>
+      import { wireFooterCopy } from '../scripts/footer-copy.js';
+      wireFooterCopy();
     </script>
   </body>
 </html>
@@ -666,6 +690,38 @@ const nav = isNe
     font-size: 0.62rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+
+  .footer-legal .legal-item.is-copyable {
+    cursor: pointer;
+    border-bottom: 1px dotted currentColor;
+    transition: color 180ms var(--ease-premium);
+  }
+
+  .footer-legal .legal-item.is-copyable:hover,
+  .footer-legal .legal-item.is-copyable:focus-visible {
+    color: var(--accent-gold-light);
+  }
+
+  .footer-legal .legal-item.is-copyable:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+
+  .footer-legal .legal-item.is-copied {
+    color: var(--accent-gold-light);
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   @media (max-width: 860px) {

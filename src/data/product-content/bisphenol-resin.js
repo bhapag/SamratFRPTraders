@@ -44,7 +44,19 @@ export default {
         a: "No fire classification, rating, test result or fire-retardant claim is published for this product. Where a project specifies fire performance, share the exact requirement and review the supplier's separate fire-retardant resin route."
       }
     ],
-    applicationsIntro: "Supplier documentation lists use in laminating and FRP composites, industrial flooring and protective coatings, electrical encapsulation, tooling and structural bonding, and high-end casting and coating applications."
+    applicationsIntro: "Supplier documentation lists use in laminating and FRP composites, industrial flooring and protective coatings, electrical encapsulation, tooling and structural bonding, and high-end casting and coating applications.",
+    features: [
+      "Current TDS identifies a Bisphenol A & epichlorohydrin-based thermosetting resin system",
+      "Published typical viscosity, gel-time, density and thermal data",
+      "TDS-listed laminating, casting, coating and encapsulation contexts",
+      "Current product-specific TDS available as the technical selection reference",
+    ],
+    industries: [
+      "FRP composite laminating",
+      "Industrial flooring and protective coatings",
+      "Electrical encapsulation and tooling",
+      "Casting and coating procurement",
+    ],
   },
   ne: {
     seoTitle: "Bisphenol Resin नेपाल आपूर्तिकर्ता | Thermosetting Resin",
@@ -90,6 +102,18 @@ export default {
         a: "यस उत्पादनका लागि कुनै fire classification, rating, test result वा fire-retardant दाबी प्रकाशित छैन। परियोजनामा fire performance तोकिएको छ भने सही आवश्यकता खुलाउनुहोस् र आपूर्तिकर्ताको छुट्टै fire-retardant resin route हेर्नुहोस्।"
       }
     ],
-    applicationsIntro: "आपूर्तिकर्ताको कागजातले laminating र FRP composites, industrial flooring र protective coatings, electrical encapsulation, tooling र structural bonding, र high-end casting र coating प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "आपूर्तिकर्ताको कागजातले laminating र FRP composites, industrial flooring र protective coatings, electrical encapsulation, tooling र structural bonding, र high-end casting र coating प्रयोग उल्लेख गर्छ।",
+    features: [
+      "हालको TDS ले Bisphenol A र epichlorohydrin-आधारित thermosetting resin प्रणाली पहिचान गर्छ",
+      "प्रकाशित typical viscosity, gel-time, density र thermal डाटा",
+      "TDS-सूचीबद्ध laminating, casting, coating र encapsulation सन्दर्भ",
+      "प्राविधिक छनोट सन्दर्भको रूपमा हालको उत्पादन-विशिष्ट TDS उपलब्ध",
+    ],
+    industries: [
+      "FRP composite laminating",
+      "औद्योगिक flooring र protective coatings",
+      "Electrical encapsulation र tooling",
+      "Casting र coating खरिद",
+    ],
   }
 };

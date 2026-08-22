@@ -1,0 +1,101 @@
+---
+// `items` is [{ id, label }] — the id must match the `id` set on the
+// corresponding section heading in the page. Using a caller-supplied,
+// script-agnostic id (rather than slugifying the heading text here) avoids
+// collapsing every Devanagari heading to the same empty anchor.
+const { items, label = 'Table of Contents' } = Astro.props;
+---
+<nav class="toc" aria-label={label}>
+  <details class="toc-details" open>
+    <summary class="toc-summary">
+      <span class="toc-label">{label}</span>
+      <span class="toc-toggle-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+      </span>
+    </summary>
+    <ol class="toc-list">
+      {items.map((item) => (
+        <li class="toc-item"><a href={`#${item.id}`} data-toc-link>{item.label}</a></li>
+      ))}
+    </ol>
+  </details>
+</nav>
+
+<script>
+  const wireToc = () => {
+    document.querySelectorAll('.toc').forEach((toc) => {
+      if (toc.dataset.wired === 'true') return;
+      toc.dataset.wired = 'true';
+
+      const links = Array.from(toc.querySelectorAll('[data-toc-link]'));
+      if (!links.length) return;
+
+      const targets = links
+        .map((link) => document.getElementById(decodeURIComponent(link.hash.slice(1))))
+        .filter((el) => !!el);
+      if (!targets.length) return;
+
+      const setActive = (id) => {
+        links.forEach((link) => {
+          link.parentElement?.classList.toggle('is-active', link.hash === `#${id}`);
+        });
+      };
+
+      const io = new IntersectionObserver(
+        (entries) => {
+          const visible = entries.filter((e) => e.isIntersecting);
+          if (visible.length > 0) {
+            setActive(visible[0].target.id);
+          }
+        },
+        { rootMargin: '-90px 0px -70% 0px', threshold: 0 }
+      );
+
+      targets.forEach((el) => io.observe(el));
+    });
+  };
+  wireToc();
+</script>
+
+<style>
+  .toc { background: var(--bg-3); border: 1px solid var(--line); box-shadow: var(--surface-shadow-rest); padding: 1.3rem 1.4rem; }
+
+  .toc-summary {
+    display: flex; align-items: center; justify-content: space-between; gap: 0.6rem;
+    list-style: none; margin-bottom: 0.9rem;
+  }
+  .toc-summary::-webkit-details-marker { display: none; }
+  .toc-label {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink-faint);
+  }
+  .toc-toggle-icon { display: none; color: var(--ink-faint); transition: transform .3s var(--ease-premium); }
+  .toc-details[open] .toc-toggle-icon { transform: rotate(180deg); }
+
+  .toc-list { list-style: none; counter-reset: toc; display: flex; flex-direction: column; gap: 0.2rem; margin: 0; padding: 0; }
+  .toc-item {
+    counter-increment: toc; border-left: 2px solid transparent;
+    padding-left: 0.7rem; margin-left: -0.9rem; transition: border-color .3s var(--ease-premium);
+  }
+  .toc-item.is-active { border-left-color: var(--accent-gold); }
+  .toc-list a {
+    display: flex; gap: 0.6rem; padding-block: 0.4rem; color: var(--ink-dim); font-size: 0.9rem;
+    text-decoration: none;
+    transition: color .25s var(--ease-premium);
+  }
+  .toc-list a::before {
+    content: counter(toc, decimal-leading-zero);
+    font-family: var(--font-mono); font-size: 0.76rem; color: var(--accent-gold); flex-shrink: 0;
+  }
+  .toc-list a:hover { color: var(--accent-gold-light); }
+  .toc-item.is-active a { color: var(--ink); font-weight: 600; }
+  .toc-item.is-active a::before { color: var(--accent-gold-light); }
+
+  @media (max-width: 820px) {
+    .toc-summary { cursor: pointer; padding-block: 0.6rem; margin-bottom: 0.3rem; }
+    .toc-toggle-icon { display: flex; }
+  }
+  @media (min-width: 821px) {
+    .toc-summary { pointer-events: none; }
+  }
+</style>

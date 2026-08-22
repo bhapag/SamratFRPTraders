@@ -21,7 +21,20 @@ export default {
       { q: "What safety and handling information is available?", a: "As an organic peroxide, MEKP requires careful handling and storage. Refer to the current supplier Safety Data Sheet, and confirm handling and storage details before use." },
       { q: "What documents and commercial details are available?", a: "Supplier Technical Data Sheet and Safety Data Sheet documents are available. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page." }
     ],
-    applicationsIntro: "Supplier documentation lists use in published polyester resin systems for FRP products and laminates, gelcoat systems for moulded FRP surface-finish work, vinyl ester resin systems, and composite manufacturing where the base resin is confirmed first."
+    applicationsIntro: "Supplier documentation lists use in published polyester resin systems for FRP products and laminates, gelcoat systems for moulded FRP surface-finish work, vinyl ester resin systems, and composite manufacturing where the base resin is confirmed first.",
+    features: [
+      "Published catalyst / initiator role for selected polyester-family resin systems",
+      "Compatible-system guidance for unsaturated polyester, vinyl ester and gelcoat buyers",
+      "Separate material role from structural resin, glass-fibre reinforcement and surface gelcoat",
+      "Industrial-grade product with a published Technical Data Sheet",
+      "Quote discussion can begin with the resin grade, application and expected quantity",
+    ],
+    industries: [
+      "FRP & composites manufacturing",
+      "FRP roofing, panel and tank manufacturing",
+      "FRP moulded-product and surface-finish manufacture",
+      "Industrial composite and resin-system procurement",
+    ],
   },
   ne: {
     seoTitle: "MEKP Hardener नेपाल — Organic Peroxide Catalyst आपूर्तिकर्ता",
@@ -45,6 +58,19 @@ export default {
       { q: "कस्तो सुरक्षा र ह्यान्डलिङ जानकारी उपलब्ध छ?", a: "Organic peroxide भएकाले MEKP लाई सावधानीपूर्वक ह्यान्डलिङ र भण्डारण आवश्यक पर्छ। हालको supplier Safety Data Sheet हेर्नुहोस् र प्रयोगअघि ह्यान्डलिङ तथा भण्डारण विवरण पुष्टि गर्नुहोस्।" },
       { q: "कस्ता दस्तावेज र व्यावसायिक विवरण उपलब्ध छन्?", a: "Supplier Technical Data Sheet र Safety Data Sheet उपलब्ध छन्। नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्।" }
     ],
-    applicationsIntro: "Supplier दस्तावेजले FRP उत्पादन र laminate का लागि published polyester resin प्रणाली, moulded FRP surface-finish कामका लागि gelcoat प्रणाली, vinyl ester resin प्रणाली, तथा base resin पहिले पुष्टि भएको composite manufacturing मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "Supplier दस्तावेजले FRP उत्पादन र laminate का लागि published polyester resin प्रणाली, moulded FRP surface-finish कामका लागि gelcoat प्रणाली, vinyl ester resin प्रणाली, तथा base resin पहिले पुष्टि भएको composite manufacturing मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "चयनित polyester-family resin प्रणालीका लागि प्रकाशित catalyst / initiator भूमिका",
+      "Unsaturated polyester, vinyl ester र gelcoat खरिदकर्ताका लागि compatible-प्रणाली मार्गदर्शन",
+      "Structural resin, glass-fibre reinforcement र surface gelcoat भन्दा छुट्टै material भूमिका",
+      "प्रकाशित Technical Data Sheet सहित Industrial-grade उत्पादन",
+      "resin grade, application र अपेक्षित परिमाणबाट Quote छलफल सुरु गर्न सकिन्छ",
+    ],
+    industries: [
+      "FRP र composites निर्माण",
+      "FRP roofing, panel र tank निर्माण",
+      "FRP moulded-उत्पादन र surface-finish निर्माण",
+      "औद्योगिक composite र resin-प्रणाली खरिद",
+    ],
   }
 };

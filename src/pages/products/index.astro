@@ -22,11 +22,49 @@ import Base from '../../layouts/Base.astro';
 
   <section class="section">
     <div class="container">
-      <div class="catalogue">
+      <div class="catalogue-download" data-reveal>
+        <div>
+          <p class="eyebrow">PDF क्याटलग</p>
+          <h2>पूर्ण उत्पादन क्याटलग डाउनलोड गर्नुहोस्।</h2>
+          <p>हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।</p>
+        </div>
+        <a
+          class="button button-primary"
+          href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+          target="_blank"
+          rel="noopener"
+          download
+        >
+          उत्पादन क्याटलग डाउनलोड गर्नुहोस् (PDF)
+        </a>
+      </div>
+
+      <div class="catalogue-toolbar" data-reveal>
+        <div class="catalogue-search">
+          <label class="visually-hidden" for="product-search">उत्पादन खोज्नुहोस्</label>
+          <input
+            type="search"
+            id="product-search"
+            class="catalogue-search-input"
+            placeholder="उत्पादनको नाम खोज्नुहोस्..."
+            autocomplete="off"
+            aria-label="उत्पादन खोज्नुहोस्"
+          />
+        </div>
+        <div class="catalogue-chips" role="group" aria-label="उत्पादन वर्ग फिल्टर">
+          <button type="button" class="catalogue-chip is-active" data-chip-cat="all" aria-pressed="true">सबै</button>
+          {catalogGroups.map((group) => (
+            <button type="button" class="catalogue-chip" data-chip-cat={group.slug} aria-pressed="false">{group.name}</button>
+          ))}
+        </div>
+      </div>
+      <p class="catalogue-empty" data-catalogue-empty hidden>कुनै उत्पादन फेला परेन। खोज वा फिल्टर मिलाउनुहोस्।</p>
+
+      <div class="catalogue" data-catalogue-index>
         {catalogGroups.map((group) => {
           const items = productsInGroup(group.slug);
           return (
-            <section class="catalogue-group" data-reveal>
+            <section class="catalogue-group" data-reveal data-cat-block={group.slug}>
               <header class="catalogue-group-head">
                 <h2>{group.name}</h2>
                 <span class="catalogue-count">{items.length} {items.length === 1 ? 'उत्पादन' : 'उत्पादनहरू'}</span>
@@ -38,6 +76,7 @@ import Base from '../../layouts/Base.astro';
                     name={product.name}
                     eyebrow={group.name}
                     href={`/products/${product.slug}/`}
+                    category={group.slug}
                   />
                 ))}
               </div>
@@ -49,7 +88,176 @@ import Base from '../../layouts/Base.astro';
   </section>
 </Base>
 
+<script>
+  function initProductFilter() {
+    const root = document.querySelector('[data-catalogue-index]');
+    if (!root) return;
+
+    const searchInput = document.getElementById('product-search');
+    const chips = document.querySelectorAll('[data-chip-cat]');
+    const emptyNotice = document.querySelector('[data-catalogue-empty]');
+    const blocks = root.querySelectorAll('[data-cat-block]');
+    let activeCategory = 'all';
+
+    function applyFilter() {
+      const query = (searchInput && searchInput.value ? searchInput.value : '').trim().toLowerCase();
+      let totalVisible = 0;
+
+      blocks.forEach((block) => {
+        const blockCat = block.getAttribute('data-cat-block');
+        const catMatches = activeCategory === 'all' || blockCat === activeCategory;
+        let blockVisible = 0;
+
+        block.querySelectorAll('[data-catalog-card]').forEach((card) => {
+          const haystack = card.getAttribute('data-search') || '';
+          const searchMatches = !query || haystack.includes(query);
+          const visible = catMatches && searchMatches;
+          card.hidden = !visible;
+          if (visible) blockVisible += 1;
+        });
+
+        block.hidden = blockVisible === 0;
+        totalVisible += blockVisible;
+      });
+
+      if (emptyNotice) emptyNotice.hidden = totalVisible !== 0;
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', applyFilter);
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener('click', () => {
+        activeCategory = chip.getAttribute('data-chip-cat') || 'all';
+        chips.forEach((c) => {
+          const isActive = c === chip;
+          c.classList.toggle('is-active', isActive);
+          c.setAttribute('aria-pressed', String(isActive));
+        });
+        applyFilter();
+      });
+    });
+
+    applyFilter();
+  }
+
+  initProductFilter();
+</script>
+
 <style>
+  .catalogue-download {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+    padding: 1.3rem 1.5rem;
+    border: 1px solid rgba(var(--gold-rgb), 0.4);
+    border-left-width: 0.26rem;
+    background: rgba(var(--gold-rgb), 0.05);
+  }
+
+  .catalogue-download h2 {
+    margin: 0.35rem 0 0.25rem;
+    font-size: 1.35rem;
+  }
+
+  .catalogue-download p:last-child {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .catalogue-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem 1.25rem;
+    margin-top: 2.5rem;
+  }
+
+  .catalogue-search {
+    flex: 1 1 16rem;
+    min-width: 14rem;
+  }
+
+  .catalogue-search-input {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    color: var(--ink);
+    font-family: var(--font-sans, inherit);
+    font-size: 0.92rem;
+    transition: border-color 180ms var(--ease-premium);
+  }
+
+  .catalogue-search-input:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+    border-color: rgba(var(--gold-rgb), 0.65);
+  }
+
+  .catalogue-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .catalogue-chip {
+    padding: 0.5rem 0.95rem;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink-dim);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:
+      border-color 180ms var(--ease-premium),
+      color 180ms var(--ease-premium),
+      background 180ms var(--ease-premium);
+  }
+
+  .catalogue-chip:hover {
+    border-color: rgba(var(--gold-rgb), 0.5);
+    color: var(--ink);
+  }
+
+  .catalogue-chip:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+
+  .catalogue-chip.is-active {
+    border-color: var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.12);
+    color: var(--ink);
+  }
+
+  .catalogue-empty {
+    margin-top: 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px dashed var(--line);
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+  }
+
   .catalogue {
     display: grid;
     gap: clamp(2.5rem, 7vw, 4.5rem);

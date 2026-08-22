@@ -17,7 +17,7 @@ const SLUG_ALIASES = {
 const alias = (slug) => SLUG_ALIASES[slug] ?? slug;
 
 // Product slugs referenced by a resource's recommendedLinks (product hrefs).
-const hrefProductSlug = (href) => {
+export const hrefProductSlug = (href) => {
   if (!href || typeof href !== 'string') return null;
   const match = href.match(/\/products\/([^/?#]+)\/?$/);
   return match ? alias(match[1]) : null;
@@ -27,6 +27,7 @@ const hrefProductSlug = (href) => {
 export function applicationsFor(product) {
   const seen = new Set();
   return applications.filter((app) => {
+    if (app.draft) return false;
     const slugs = (app.relatedProductSlugs ?? []).map(alias);
     if (slugs.includes(product.slug) && !seen.has(app.slug)) {
       seen.add(app.slug);
@@ -40,6 +41,7 @@ export function applicationsFor(product) {
 export function resourcesFor(product) {
   const seen = new Set();
   return resources.filter((r) => {
+    if (r.draft) return false;
     const slugs = (r.recommendedLinks ?? []).map((link) => hrefProductSlug(link.href)).filter(Boolean);
     if (slugs.includes(product.slug) && !seen.has(r.slug)) {
       seen.add(r.slug);
@@ -66,6 +68,7 @@ export function relatedProductsFor(product) {
   const siblings = products.filter((p) => p.slug !== product.slug && p.group === product.group);
   const partners = new Map();
   for (const r of resources) {
+    if (r.draft) continue;
     const slugs = [...new Set((r.recommendedLinks ?? []).map((link) => hrefProductSlug(link.href)).filter(Boolean))];
     if (!slugs.includes(product.slug)) continue;
     for (const s of slugs) {

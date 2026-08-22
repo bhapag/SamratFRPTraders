@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "FRP Polyester Pigment — Nepal Supplier | Samrat FRP Traders",
+    seoTitle: "FRP Polyester Pigment — Nepal Supplier",
     seoDescription: "FRP Polyester Pigment — colour paste for UPR, vinyl ester and gelcoat systems. Imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports FRP Polyester Pigment for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as a polyester pigment paste — the colour component blended into unsaturated polyester, vinyl ester and gelcoat systems.",
@@ -45,9 +45,22 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in FRP tanks and pipes, gelcoats for boats and automotive parts, decorative and architectural panels, and electrical enclosures.",
+    features: [
+      "Blends seamlessly with unsaturated polyester, vinyl ester and gelcoat systems",
+      "High tinting strength (≥95%) delivers full colour at a low 2–5% dosage",
+      "Withstands exothermic curing heat, rated up to 180°C",
+      "7–8 Blue Wool Scale light-fastness for the pigment's own colour retention",
+      "Available in RAL and Pantone custom matches",
+    ],
+    industries: [
+      "FRP tank & pipe manufacturing",
+      "Marine & automotive gelcoat",
+      "Architectural & decorative panels",
+      "Electrical enclosure manufacturing",
+    ],
   },
   ne: {
-    seoTitle: "FRP Polyester Pigment — नेपालका लागि आपूर्ति | Samrat FRP Traders",
+    seoTitle: "FRP Polyester Pigment — नेपालका लागि आपूर्ति",
     seoDescription: "FRP Polyester Pigment — UPR, vinyl ester र gelcoat system मा रङ मिसाउने colour paste। Samrat FRP Traders ले नेपालका लागि आयात गर्दछ।",
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि FRP Polyester Pigment आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India को हालको कागजातले यसलाई polyester pigment paste का रूपमा चिनाउँछ — जुन unsaturated polyester, vinyl ester र gelcoat system मा रङ मिसाउन प्रयोग गरिन्छ।",
@@ -91,5 +104,18 @@ export default {
       },
     ],
     applicationsIntro: "Supplier को कागजातले FRP tanks र pipes, boat र automotive parts का gelcoat, सजावटी र architectural panels, तथा electrical enclosures मा प्रयोग सूचीबद्ध गर्दछ।",
+    features: [
+      "Unsaturated polyester, vinyl ester र gelcoat प्रणालीसँग सहजै मिसिन्छ",
+      "उच्च tinting strength (≥95%) ले कम 2–5% dosage मा पूर्ण रंग दिन्छ",
+      "Exothermic curing heat, 180°C सम्म रेट गरिएको सहन्छ",
+      "Pigment को आफ्नै रंग स्थायित्वका लागि 7–8 Blue Wool Scale light-fastness",
+      "RAL र Pantone custom matches मा उपलब्ध",
+    ],
+    industries: [
+      "FRP tank र pipe निर्माण",
+      "Marine र automotive gelcoat",
+      "Architectural र सजावटी panels",
+      "Electrical enclosure निर्माण",
+    ],
   },
 };

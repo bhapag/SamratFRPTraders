@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "Button Grade Resin in Nepal | Samrat FRP Traders",
+    seoTitle: "Button Grade Resin in Nepal",
     seoDescription: "Button Grade Resin is a transparent unsaturated polyester casting resin for buttons and small mouldings, supplied and imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports Button Grade Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies Button Grade Resin as an unsaturated polyester casting resin formulated for buttons and other small decorative mouldings.",
@@ -45,9 +45,22 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in buttons and fashion accessories, small decorative mouldings and novelty items, and transparent and pigmented casting work.",
+    features: [
+      "Transparent, glass-clear casting resin with a fine, polishable finish",
+      "Semi-liquid consistency suited to button and small-mould casting",
+      "Gel time of 9.5 minutes for controlled, predictable casting cycles",
+      "Cures with MEKP catalyst and cobalt octoate accelerator in around 2 hours",
+      "33% styrene content for consistent casting performance",
+    ],
+    industries: [
+      "Button & fashion accessory manufacturing",
+      "Garment & apparel trims",
+      "Decorative casting & novelty moulding",
+      "General small-parts casting",
+    ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e Button Grade Resin | Samrat FRP Traders",
+    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e Button Grade Resin",
     seoDescription: "Button Grade Resin \u092c\u091f\u0928 \u0930 \u0938\u093e\u0928\u093e moulding \u0915\u093e \u0932\u093e\u0917\u093f transparent unsaturated polyester casting resin \u0939\u094b, \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
     intro: [
       "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f Button Grade Resin \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 Button Grade Resin \u0932\u093e\u0908 \u092c\u091f\u0928 \u0930 \u0905\u0928\u094d\u092f \u0938\u093e\u0928\u093e decorative moulding \u0915\u093e \u0932\u093e\u0917\u093f \u092c\u0928\u093e\u0907\u090f\u0915\u094b unsaturated polyester casting resin \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
@@ -91,5 +104,18 @@ export default {
       },
     ],
     applicationsIntro: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 \u092c\u091f\u0928 \u0930 fashion accessory, \u0938\u093e\u0928\u093e decorative moulding \u0930 novelty \u0935\u0938\u094d\u0924\u0941, \u0924\u0925\u093e transparent \u0930 pigmented casting \u0915\u093e\u0930\u094d\u092f\u092e\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964",
+    features: [
+      "\u092a\u093e\u0930\u0926\u0930\u094d\u0936\u0940, glass-clear casting resin, \u0930\u093e\u092e\u094d\u0930\u094b polish \u0939\u0941\u0928\u0947 finish \u0938\u0939\u093f\u0924",
+      "Button \u0930 \u0938\u093e\u0928\u093e-mould casting \u0915\u093e \u0932\u093e\u0917\u093f \u0909\u092a\u092f\u0941\u0915\u094d\u0924 semi-liquid consistency",
+      "\u0928\u093f\u092f\u0928\u094d\u0924\u094d\u0930\u093f\u0924, \u0905\u0928\u0941\u092e\u093e\u0928\u092f\u094b\u0917\u094d\u092f casting cycles \u0915\u093e \u0932\u093e\u0917\u093f 9.5-\u092e\u093f\u0928\u0947\u091f gel time",
+      "\u0932\u0917\u092d\u0917 2 \u0918\u0923\u094d\u091f\u093e\u092e\u093e MEKP catalyst \u0930 cobalt octoate accelerator \u0932\u0947 cure \u0939\u0941\u0928\u094d\u091b",
+      "\u0938\u0941\u0938\u0902\u0917\u0924 casting \u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928\u0915\u093e \u0932\u093e\u0917\u093f 33% styrene content",
+    ],
+    industries: [
+      "Button \u0930 fashion accessory \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "Garment \u0930 apparel trims",
+      "\u0938\u091c\u093e\u0935\u091f\u0940 casting \u0930 novelty moulding",
+      "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0938\u093e\u0928\u093e-\u092d\u093e\u0917 casting",
+    ],
   },
 };

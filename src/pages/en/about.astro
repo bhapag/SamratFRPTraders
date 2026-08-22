@@ -4,7 +4,7 @@ import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
 import Base from '../../layouts/Base.astro';
 ---
 <Base
-  title="About — Samrat FRP Traders"
+  title="About"
   description="Samrat FRP Traders is a trader, supplier, importer and reseller based in Biratnagar, Nepal — supplying FRP materials and industrial resins across all of Nepal."
 >
   <section class="page-hero hero-shell">
@@ -46,6 +46,15 @@ import Base from '../../layouts/Base.astro';
 
         <div class="button-row">
           <a class="button button-primary" href="/en/products/">Browse product catalogue</a>
+          <a
+            class="button"
+            href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+            target="_blank"
+            rel="noopener"
+            download
+          >
+            Product catalogue (PDF)
+          </a>
           <a
             class="button"
             href={buildWhatsAppLink(whatsAppMessages.en)}

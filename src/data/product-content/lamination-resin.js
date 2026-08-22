@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "Lamination Resin (LR Resin) in Nepal | Samrat FRP Traders",
+    seoTitle: "Lamination Resin (LR Resin) in Nepal",
     seoDescription: "Lamination Resin (LR Resin) is an orthophthalic unsaturated polyester resin for door, plywood and FRP lamination, supplied for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports Lamination Resin \u2014 also known as LR Resin \u2014 for the Nepal market. Current Samrat Poly Resins, India documentation identifies Lamination Resin as a transparent orthophthalic unsaturated polyester resin developed for door lamination, plywood lamination and other FRP bonding work.",
@@ -45,9 +45,23 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in door-skin lamination and decorative door panels, plywood and laminate bonding, FRP bonding and composite panel lamination, and hand layup work requiring a clear, glossy finish.",
+    features: [
+      "Transparent, glass-like finish with 100% purity",
+      "Fast gel time of 5 minutes for efficient lamination cycles",
+      "Room-temperature cure — no external heat required",
+      "Excellent wet-out and adhesion for door skins and FRP bonding",
+      "Balanced 35% styrene content for consistent processing",
+    ],
+    industries: [
+      "Plywood & door lamination",
+      "Decorative laminates & panels",
+      "FRP bonding & composite fabrication",
+      "Furniture & interior surface manufacturing",
+      "General FRP moulding & hand layup",
+    ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e Lamination Resin (LR Resin) | Samrat FRP Traders",
+    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e Lamination Resin (LR Resin)",
     seoDescription: "Lamination Resin (LR Resin) \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0939\u0941\u0928\u0947 orthophthalic unsaturated polyester resin \u0939\u094b, \u0922\u094b\u0915\u093e, \u092a\u094d\u0932\u093e\u0908\u0935\u0941\u0921 \u0930 FRP \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928\u0915\u093e \u0932\u093e\u0917\u093f\u0964",
     intro: [
       "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f Lamination Resin \u2014 \u091c\u0938\u0932\u093e\u0908 LR Resin \u092a\u0928\u093f \u092d\u0928\u093f\u0928\u094d\u091b \u2014 \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 \u092f\u0938\u0932\u093e\u0908 \u0922\u094b\u0915\u093e\u0915\u094b \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928, \u092a\u094d\u0932\u093e\u0908\u0935\u0941\u0921 \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928 \u0930 \u0905\u0928\u094d\u092f FRP bonding \u0915\u093e\u0930\u094d\u092f\u0915\u093e \u0932\u093e\u0917\u093f \u0935\u093f\u0915\u0938\u093f\u0924 \u0917\u0930\u093f\u090f\u0915\u094b transparent orthophthalic unsaturated polyester resin \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
@@ -91,5 +105,19 @@ export default {
       },
     ],
     applicationsIntro: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 \u0922\u094b\u0915\u093e-\u0938\u094d\u0915\u093f\u0928 \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928, \u092a\u094d\u0932\u093e\u0908\u0935\u0941\u0921 bonding, FRP bonding \u0930 \u0938\u092b\u093e \u091a\u092e\u094d\u0915\u093f\u0932\u094b \u092b\u093f\u0928\u093f\u0938 \u091a\u093e\u0939\u093f\u0928\u0947 hand layup \u0915\u093e\u0930\u094d\u092f\u092e\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964",
+    features: [
+      "\u092a\u093e\u0930\u0926\u0930\u094d\u0936\u0940, glass-\u091c\u0938\u094d\u0924\u094b finish, 100% purity \u0938\u0939\u093f\u0924",
+      "\u0915\u0941\u0936\u0932 lamination cycles \u0915\u093e \u0932\u093e\u0917\u093f \u091b\u093f\u091f\u094b 5-\u092e\u093f\u0928\u0947\u091f gel time",
+      "Room-temperature cure \u2014 \u092c\u093e\u0939\u093f\u0930\u0940 \u0924\u093e\u092a \u0906\u0935\u0936\u094d\u092f\u0915 \u092a\u0930\u094d\u0926\u0948\u0928",
+      "door skins \u0930 FRP bonding \u0915\u093e \u0932\u093e\u0917\u093f \u0909\u0924\u094d\u0915\u0943\u0937\u094d\u091f wet-out \u0930 adhesion",
+      "\u0938\u0941\u0938\u0902\u0917\u0924 processing \u0915\u093e \u0932\u093e\u0917\u093f \u0938\u0928\u094d\u0924\u0941\u0932\u093f\u0924 35% styrene content",
+    ],
+    industries: [
+      "Plywood \u0930 door lamination",
+      "\u0938\u091c\u093e\u0935\u091f\u0940 laminates \u0930 panels",
+      "FRP bonding \u0930 composite fabrication",
+      "Furniture \u0930 \u092d\u093f\u0924\u094d\u0930\u0940 \u0938\u0924\u0939 \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "\u0938\u093e\u092e\u093e\u0928\u094d\u092f FRP moulding \u0930 hand layup",
+    ],
   },
 };

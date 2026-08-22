@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "GP White Resin in Nepal | Samrat FRP Traders",
+    seoTitle: "GP White Resin in Nepal",
     seoDescription: "GP White Resin is a water-white orthophthalic polyester resin for FRP moulding, panels and hand layup, supplied and imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports GP White Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies GP White Resin as a water-white, general-purpose orthophthalic polyester resin for FRP panels, moulding, hand layup, spray-up, cooling towers and water storage tanks.",
@@ -45,9 +45,23 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in FRP panels and general-purpose moulding, hand layup and spray-up work, cooling towers and water storage tanks.",
+    features: [
+      "Water-white colour, low viscosity (<350 cPs)",
+      "Medium-thixotropic body resists sagging on angled surfaces",
+      "Fast 6-minute gel time for efficient production cycles",
+      "Non-accelerated system — dose MEKP and cobalt accelerator to suit workshop conditions",
+      "30–35% styrene content for consistent processing",
+      "Excellent fibreglass wet-out and mechanical strength",
+    ],
+    industries: [
+      "FRP & composites manufacturing",
+      "Water tanks & storage",
+      "Cooling towers & industrial plants",
+      "General moulding & fabrication",
+    ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP White Resin | Samrat FRP Traders",
+    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP White Resin",
     seoDescription: "GP White Resin \u090f\u0909\u091f\u093e water-white orthophthalic polyester resin \u0939\u094b, FRP moulding \u0930 panel \u0915\u093e \u0932\u093e\u0917\u093f, \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
     intro: [
       "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f GP White Resin \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP White Resin \u0932\u093e\u0908 FRP panel, moulding, hand layup, spray-up, cooling tower \u0930 \u092a\u093e\u0928\u0940 \u092d\u0923\u094d\u0921\u093e\u0930\u0923 \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940\u0915\u093e \u0932\u093e\u0917\u093f water-white, general-purpose orthophthalic polyester resin \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
@@ -91,5 +105,19 @@ export default {
       },
     ],
     applicationsIntro: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 FRP panel \u0930 \u0938\u093e\u092e\u093e\u0928\u094d\u092f moulding, hand layup \u0930 spray-up \u0915\u093e\u0930\u094d\u092f, cooling tower \u0930 \u092a\u093e\u0928\u0940 \u092d\u0923\u094d\u0921\u093e\u0930\u0923 \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940\u092e\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964",
+    features: [
+      "Water-white \u0930\u0902\u0917, \u0915\u092e viscosity (<350 cPs)",
+      "Medium-thixotropic body \u0932\u0947 angled \u0938\u0924\u0939\u092e\u093e sagging \u0930\u094b\u0915\u094d\u091b",
+      "\u0915\u0941\u0936\u0932 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 cycles \u0915\u093e \u0932\u093e\u0917\u093f \u091b\u093f\u091f\u094b 6-\u092e\u093f\u0928\u0947\u091f gel time",
+      "Non-accelerated \u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u2014 workshop \u0905\u0935\u0938\u094d\u0925\u093e \u0905\u0928\u0941\u0938\u093e\u0930 MEKP \u0930 cobalt accelerator dose \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d",
+      "\u0938\u0941\u0938\u0902\u0917\u0924 processing \u0915\u093e \u0932\u093e\u0917\u093f 30\u201335% styrene content",
+      "\u0909\u0924\u094d\u0915\u0943\u0937\u094d\u091f fibreglass wet-out \u0930 mechanical strength",
+    ],
+    industries: [
+      "FRP \u0930 composites \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "\u092a\u093e\u0928\u0940 \u091f\u094d\u092f\u093e\u0902\u0915\u0940 \u0930 \u092d\u0923\u094d\u0921\u093e\u0930\u0923",
+      "Cooling towers \u0930 \u0914\u0926\u094d\u092f\u094b\u0917\u093f\u0915 plants",
+      "\u0938\u093e\u092e\u093e\u0928\u094d\u092f moulding \u0930 fabrication",
+    ],
   },
 };

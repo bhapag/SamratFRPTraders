@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "GP Gelcoat Resin — Nepal Supplier | Samrat FRP Traders",
+    seoTitle: "GP Gelcoat Resin — Nepal Supplier",
     seoDescription: "GP Gelcoat Resin — white, high-gloss thixotropic polyester gelcoat for mould-facing FRP surfaces. Imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports GP Gelcoat Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as a polyester surface-coating gelcoat for the mould-facing, outer-layer role in FRP laminate systems.",
@@ -45,9 +45,25 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use on mould surfaces for FRP boat hulls and body panels, bathware and sanitaryware, water tank exteriors, and FRP furniture, panels and moulded components.",
+    features: [
+      "White, high-gloss finish with 100% purity, as supplied",
+      "Accepts polyester pigment for coloured finishes beyond standard white",
+      "Thixotropic — resists sagging and running on vertical mould surfaces",
+      "Fast gel time of 8.5 minutes for efficient mould-release cycles",
+      "Cures with MEKP catalyst and cobalt octoate accelerator at room temperature",
+      "30% styrene content for consistent, controlled application viscosity",
+    ],
+    industries: [
+      "FRP mould manufacturing",
+      "Boat & marine hull building",
+      "Automotive body panels",
+      "Bathware & sanitaryware",
+      "Water tanks & storage",
+      "General FRP moulding & fabrication",
+    ],
   },
   ne: {
-    seoTitle: "GP Gelcoat Resin — नेपालका लागि आपूर्ति | Samrat FRP Traders",
+    seoTitle: "GP Gelcoat Resin — नेपालका लागि आपूर्ति",
     seoDescription: "GP Gelcoat Resin — सेतो, high-gloss, thixotropic polyester gelcoat, FRP को mould-facing सतहका लागि। Samrat FRP Traders ले नेपालका लागि आयात गर्दछ।",
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि GP Gelcoat Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India को हालको कागजातले यसलाई FRP laminate को mould-facing, outer-layer भूमिकाका लागि polyester surface-coating gelcoat का रूपमा चिनाउँछ।",
@@ -91,5 +107,21 @@ export default {
       },
     ],
     applicationsIntro: "Supplier को कागजातले FRP boat hull र body panel का mould surface, bathware र sanitaryware, water tank बाहिरी सतह, तथा FRP furniture, panels र moulded components मा प्रयोग सूचीबद्ध गर्दछ।",
+    features: [
+      "आपूर्ति गरिएको सेतो, high-gloss finish 100% purity सहित",
+      "Standard सेतोभन्दा बाहिर रंगीन finish का लागि polyester pigment स्वीकार गर्छ",
+      "Thixotropic — vertical mould सतहमा sagging र चुहिनबाट रोक्छ",
+      "कुशल mould-release cycles का लागि छिटो 8.5-मिनेट gel time",
+      "Room temperature मा MEKP catalyst र cobalt octoate accelerator ले cure हुन्छ",
+      "सुसंगत, नियन्त्रित application viscosity का लागि 30% styrene content",
+    ],
+    industries: [
+      "FRP mould निर्माण",
+      "Boat र marine hull निर्माण",
+      "Automotive body panels",
+      "Bathware र sanitaryware",
+      "पानी ट्यांकी र भण्डारण",
+      "सामान्य FRP moulding र fabrication",
+    ],
   },
 };

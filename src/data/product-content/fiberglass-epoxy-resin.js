@@ -44,7 +44,18 @@ export default {
         a: "The supplier TDS lists epoxy type, room-temperature cure, hand lay-up and lamination, 700 cPs viscosity at 25°C, a 35–45 minute gel time at 25°C, 1.15 g/cm³ density and 75°C HDT data. Confirm the resin/hardener pairing and your finished composite requirement before ordering."
       }
     ],
-    applicationsIntro: "Supplier documentation lists use in boat building and marine components, wind-turbine components, and construction, electrical and automotive FRP laminates."
+    applicationsIntro: "Supplier documentation lists use in boat building and marine components, wind-turbine components, and construction, electrical and automotive FRP laminates.",
+    features: [
+      "Current TDS identifies an epoxy system and a general-purpose grade",
+      "TDS-listed fabric-reinforcement, hand lay-up and lamination contexts",
+      "Catalogue-versus-TDS chemistry and property differences disclosed before ordering",
+      "Separate resin, hardener and reinforcement roles made clear for RFQs",
+    ],
+    industries: [
+      "Fibreglass composite and laminating buyers",
+      "Marine, wind, construction, electrical and automotive requirements named in the TDS",
+      "Structural-laminate and filament-winding enquiries named in the catalogue",
+    ],
   },
   ne: {
     seoTitle: "Fiberglass Epoxy Resin नेपाल आपूर्तिकर्ता | Epoxy Lamination",
@@ -90,6 +101,17 @@ export default {
         a: "आपूर्तिकर्ताको TDS ले epoxy type, room-temperature cure, hand lay-up र lamination, 25°C मा 700 cPs viscosity, 25°C मा 35–45 मिनेट gel time, 1.15 g/cm³ density र 75°C HDT data उल्लेख गर्छ। अर्डरअघि resin/hardener pairing र आफ्नो finished composite आवश्यकता पक्का गर्नुहोस्।"
       }
     ],
-    applicationsIntro: "आपूर्तिकर्ताको कागजातले boat building र marine components, wind-turbine components, र construction, electrical र automotive FRP laminates मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "आपूर्तिकर्ताको कागजातले boat building र marine components, wind-turbine components, र construction, electrical र automotive FRP laminates मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "हालको TDS ले epoxy प्रणाली र general-purpose grade पहिचान गर्छ",
+      "TDS-सूचीबद्ध fabric-reinforcement, hand lay-up र lamination सन्दर्भ",
+      "अर्डरअघि Catalogue-बनाम-TDS chemistry र property भिन्नता खुलासा गरिन्छ",
+      "RFQs का लागि छुट्टै resin, hardener र reinforcement भूमिका स्पष्ट गरिएको",
+    ],
+    industries: [
+      "Fibreglass composite र laminating खरिदकर्ता",
+      "TDS मा नामाकरण गरिएका Marine, wind, construction, electrical र automotive आवश्यकता",
+      "Catalogue मा नामाकरण गरिएका Structural-laminate र filament-winding सोधपुछ",
+    ],
   }
 };

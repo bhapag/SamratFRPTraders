@@ -44,7 +44,21 @@ export default {
         a: "Share the finished FRP component, the exact grade if known, the service medium and concentration where relevant, the operating temperature where relevant, any stated fire or technical requirement, and your expected quantity and delivery location."
       }
     ],
-    applicationsIntro: "Supplier documentation lists use in FRP tanks and chemical storage vessels, pipelines, ducts and scrubbers, cooling towers, pressure vessels and offshore structures, and marine, pultrusion and filament-winding applications."
+    applicationsIntro: "Supplier documentation lists use in FRP tanks and chemical storage vessels, pipelines, ducts and scrubbers, cooling towers, pressure vessels and offshore structures, and marine, pultrusion and filament-winding applications.",
+    features: [
+      "Documented industrial-grade Bisphenol-A epoxy vinyl ester chemistry",
+      "TDS lists chemical and corrosion resistance to water, acids, alkalis and solvents",
+      "Published 350 cPs viscosity at 25°C",
+      "TDS identifies low shrinkage on cure without publishing a percentage",
+      "Published for documented industrial FRP applications",
+      "Product-specific Technical Data Sheet available",
+    ],
+    industries: [
+      "Chemical storage & processing",
+      "Cooling towers & industrial plants",
+      "Pipelines, ducts & scrubbers",
+      "Marine & industrial composite applications",
+    ],
   },
   ne: {
     seoTitle: "Vinyl Ester Resin नेपाल आपूर्तिकर्ता | Bisphenol-A Epoxy VE",
@@ -90,6 +104,20 @@ export default {
         a: "finished FRP component, थाहा भए exact grade, सान्दर्भिक भए service medium र concentration, सान्दर्भिक भए operating temperature, कुनै fire वा technical आवश्यकता, र अपेक्षित quantity तथा delivery location खुलाउनुहोस्।"
       }
     ],
-    applicationsIntro: "आपूर्तिकर्ताको कागजातले FRP tanks र chemical storage vessels, pipelines, ducts र scrubbers, cooling towers, pressure vessels र offshore structures, साथै marine, pultrusion र filament-winding प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "आपूर्तिकर्ताको कागजातले FRP tanks र chemical storage vessels, pipelines, ducts र scrubbers, cooling towers, pressure vessels र offshore structures, साथै marine, pultrusion र filament-winding प्रयोग उल्लेख गर्छ।",
+    features: [
+      "दस्तावेजीकृत industrial-grade Bisphenol-A epoxy vinyl ester chemistry",
+      "TDS ले पानी, acids, alkalis र solvents प्रति chemical र corrosion resistance सूचीबद्ध गर्छ",
+      "25°C मा प्रकाशित 350 cPs viscosity",
+      "TDS ले percentage प्रकाशित नगरी cure मा कम shrinkage पहिचान गर्छ",
+      "दस्तावेजीकृत industrial FRP प्रयोगका लागि प्रकाशित",
+      "उत्पादन-विशिष्ट Technical Data Sheet उपलब्ध",
+    ],
+    industries: [
+      "Chemical भण्डारण र processing",
+      "Cooling towers र औद्योगिक plants",
+      "Pipelines, ducts र scrubbers",
+      "Marine र औद्योगिक composite प्रयोगहरू",
+    ],
   }
 };

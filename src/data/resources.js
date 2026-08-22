@@ -19,7 +19,7 @@ export const resources = Object.freeze([
         "unsaturated polyester resin",
         "UPR resin",
         "FRP resin",
-        "polyester resin manufacturer India",
+        "polyester resin supplier Nepal",
         "GP resin applications",
         "GP resin properties"
       ],
@@ -254,9 +254,9 @@ export const resources = Object.freeze([
       {
         "heading": "How GP Polyester Resin Is Manufactured",
         "photo": {
-          "src": "production-infrastructure.jpg",
-          "alt": "Stainless-steel resin processing reactors at the Samrat FRP Traders manufacturing facility",
-          "caption": "Our production reactors — Doraha, Ludhiana"
+          "src": "supplier-production.jpg",
+          "alt": "Stainless-steel resin processing reactors at the Samrat Poly Resins, India manufacturing facility",
+          "caption": "Supplier production reactors — Samrat Poly Resins, India"
         },
         "body": [
           "GP polyester resin manufacturing begins with a small number of core raw materials: unsaturated dibasic acids or anhydrides (typically maleic anhydride, sometimes combined with phthalic anhydride), saturated dibasic acids such as phthalic anhydride, which contribute rigidity and control the degree of unsaturation, and glycols, commonly propylene glycol or ethylene glycol, which provide the flexible backbone linking the acid units together.",
@@ -591,7 +591,549 @@ export const resources = Object.freeze([
           "GP polyester resin remains one of the most practical and widely used resin systems in FRP manufacturing because it offers a dependable balance of mechanical performance, processability and cost. It is not designed to outperform speciality resin systems in any single demanding property, but for the broad range of general industrial applications — from water tanks and roofing sheets to industrial mouldings and construction products — it continues to provide manufacturers with a reliable, economical and well-understood material. Selecting the right grade, and following correct storage and handling practices, remains essential to achieving consistent results in production."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "GP Polyester Resin भनेको के हो?",
+      "description": "General Purpose (GP) polyester resin बारे पूर्ण गाइड — यो के हो, कसरी बनाइन्छ, मुख्य गुणहरू, प्रयोगहरू र सही grade कसरी छान्ने।",
+      "quickFacts": {
+        "Resin प्रकार": "Unsaturated Polyester Resin (UPR)",
+        "Material वर्ग": "Thermosetting resin",
+        "Curing प्रणाली": "Peroxide catalyst (सामान्यतया MEKP) मार्फत room-temperature cure",
+        "सामान्य Reinforcement": "Glass fibre — chopped strand mat, woven roving",
+        "सामान्य प्रयोगहरू": "FRP tanks, roofing sheets, door skins, industrial mouldings",
+        "रूप": "Viscous liquid, grade अनुसार पहेंलो देखि water-white सम्म"
+      },
+      "propertiesTable": {
+        "headers": [
+          "गुण",
+          "सामान्य प्रदर्शन"
+        ],
+        "rows": [
+          [
+            "Mechanical Strength",
+            "राम्रो — अधिकांश सामान्य structural र semi-structural FRP components का लागि उपयुक्त"
+          ],
+          [
+            "Chemical Resistance",
+            "मध्यम — सामान्य वातावरणीय exposure का लागि पर्याप्त; आक्रामक chemicals का लागि speciality grades चाहिन्छ"
+          ],
+          [
+            "Processability",
+            "उत्कृष्ट — hand lay-up, spray-up र अधिकांश open-mould processes सँग compatible"
+          ],
+          [
+            "सतह Finish",
+            "राम्रो — compatible gel coat सँग प्रयोग गर्दा सफा, paintable finish"
+          ],
+          [
+            "Adhesion",
+            "राम्रो — glass fibre reinforcement र सामान्य core materials सँग राम्रो bond हुन्छ"
+          ],
+          [
+            "Cost Effectiveness",
+            "धेरै राम्रो — उपलब्ध सबैभन्दा किफायती resin प्रणालीमध्ये एक"
+          ],
+          [
+            "Curing विशेषता",
+            "भरपर्दो — standard peroxide catalysts सँग room temperature मा cure हुन्छ"
+          ],
+          [
+            "Glass Fibre Compatibility",
+            "उत्कृष्ट — chopped strand mat, woven roving र combination reinforcements सँग राम्रो मिल्छ"
+          ]
+        ],
+        "note": "Exact अंक निर्माता र grade अनुसार फरक हुन्छ। सधैं विशेष उत्पादनको technical data sheet (TDS) सँग पुष्टि गर्नुहोस्।"
+      },
+      "resinFamilyTable": {
+        "headers": [
+          "Resin प्रकार",
+          "सामान्य स्थिति"
+        ],
+        "rows": [
+          [
+            "GP Polyester Resin",
+            "General purpose प्रयोगहरू"
+          ],
+          [
+            "Isophthalic Polyester Resin",
+            "सुधारिएको पानी र chemical resistance"
+          ],
+          [
+            "Vinyl Ester Resin",
+            "उच्च chemical resistance"
+          ],
+          [
+            "Epoxy Resin",
+            "उच्च structural प्रदर्शन"
+          ]
+        ],
+        "note": "यो सामान्य positioning गाइड हो, क्रम होइन — कुनै resin प्रणाली विश्वव्यापी रूपमा 'राम्रो' हुँदैन, र सही छनोट प्रयोगमा निर्भर गर्दछ।"
+      },
+      "comparisonTable": {
+        "title": "GP Polyester Resin बनाम Epoxy Resin बनाम Vinyl Ester Resin",
+        "note": "यो तुलना सामान्य प्रकृतिको हो। कुनै एउटा resin प्रणाली विश्वव्यापी रूपमा 'राम्रो' हुँदैन — वास्तविक प्रदर्शन विशिष्ट grade, formulation र प्रयोग गरिएको reinforcement मा निर्भर गर्दछ, र निर्माताको डाटासँग पुष्टि गर्नुपर्छ।",
+        "headers": [
+          "गुण",
+          "GP Polyester Resin",
+          "Epoxy Resin",
+          "Vinyl Ester Resin"
+        ],
+        "rows": [
+          [
+            "लागत",
+            "कम",
+            "उच्च",
+            "मध्यम देखि उच्च"
+          ],
+          [
+            "Strength",
+            "सामान्य प्रयोगका लागि राम्रो",
+            "धेरै राम्रो — उच्च strength-to-weight ratio",
+            "धेरै राम्रो — राम्रो toughness"
+          ],
+          [
+            "Chemical Resistance",
+            "मध्यम",
+            "राम्रो देखि धेरै राम्रो, प्रयोगमा निर्भर",
+            "धेरै राम्रो — बलियो corrosion resistance"
+          ],
+          [
+            "Processing सजिलोपना",
+            "सजिलो — room-temperature cure, परिचित प्रविधि",
+            "बढी सटीक मिश्रण र cure नियन्त्रण चाहिन्छ",
+            "polyester जस्तै, processing अवस्थाप्रति अलि बढी संवेदनशील"
+          ],
+          [
+            "सामान्य प्रयोगहरू",
+            "Tanks, roofing sheets, mouldings, सामान्य FRP",
+            "Structural composites, adhesives, high-performance parts",
+            "Chemical storage tanks, pipework, corrosion-resistant structures"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "q": "GP polyester resin मा GP को अर्थ के हो?",
+          "a": "GP ले General Purpose जनाउँछ। यसले fire retardancy वा बढाइएको chemical resistance जस्ता विशेष गुणका लागि engineered गरिएका speciality resins को विपरीत, व्यापक, दैनिक FRP प्रयोगहरूका लागि formulate गरिएको standard-grade unsaturated polyester resin जनाउँछ।"
+        },
+        {
+          "q": "के GP resin cure हुन MEKP चाहिन्छ?",
+          "a": "हो। GP polyester resin सामान्यतया peroxide catalyst, प्रायः Methyl Ethyl Ketone Peroxide (MEKP) प्रयोग गरी cure गरिन्छ, जुन curing सुरु गर्न प्रयोगअघि सानो प्रतिशतमा थपिन्छ। सही dosage सधैं निर्माताको technical data sheet अनुसार हुनुपर्छ।"
+        },
+        {
+          "q": "के GP resin लाई glass fibre ले reinforce गर्न सकिन्छ?",
+          "a": "हो। GP resin chopped strand mat, woven roving र combination fabrics सहित glass fibre reinforcement सँग प्रयोग गर्न designed गरिएको छ, र यही reinforcement ले cured laminate लाई structural strength दिन्छ।"
+        },
+        {
+          "q": "के GP resin waterproof हो?",
+          "a": "Cured GP resin laminates ले सामान्यतया पानीलाई राम्रोसँग प्रतिरोध गर्छन् र सामान्य भण्डारण तथा बाहिरी प्रयोगका लागि राम्रो barrier दिन्छन्। तथापि, GP resin ले specialised भन्दा मध्यम chemical resistance मात्र दिन्छ, त्यसैले लामो immersion वा आक्रामक chemical exposure का लागि isophthalic वा vinyl ester grade उपयुक्त हुन सक्छ।"
+        },
+        {
+          "q": "के GP resin मा रंग लगाउन सकिन्छ?",
+          "a": "हो। पूर्ण रूपमा cure भएपछि, GP resin laminate सतहमा compatible coating प्रणाली प्रयोग गरी सामान्यतया रंग लगाउन सकिन्छ, विशेष गरी उपयुक्त सतह तयारी जस्तै हल्का abrasion र सफाइपछि।"
+        },
+        {
+          "q": "कुन उद्योगहरूले GP polyester resin प्रयोग गर्छन्?",
+          "a": "GP resin अन्य FRP प्रयोगहरूका साथै FRP water tank निर्माण, roofing sheet उत्पादन, door skin निर्माण, industrial mouldings, सजावटी panels, marine components, automotive parts र सामान्य निर्माण उत्पादनहरूमा प्रयोग हुन्छ।"
+        },
+        {
+          "q": "GP resin cure भएपछि कति समय टिक्छ?",
+          "a": "Cured GP resin laminates दीर्घकालीन structural प्रयोगका लागि डिजाइन गरिएका छन् र सही रूपमा formulate र reinforce गरिएमा, सामान्य सेवा अवस्थामा वर्षौंसम्म भरपर्दो रूपमा काम गर्न सक्छन्। वास्तविक सेवा जीवन प्रयोग, वातावरणीय exposure र उत्पादन डिजाइनमा निर्भर गर्दछ।"
+        },
+        {
+          "q": "प्रयोगअघि GP resin कसरी भण्डारण गर्नुपर्छ?",
+          "a": "नकुरिएको GP resin राम्रोसँग सिल गरिएका containers मा, प्रत्यक्ष सूर्यको किरण र heat sources बाट टाढा चिसो, सुख्खा, राम्रो हावा-प्रवाह भएको ठाउँमा भण्डारण गर्नुपर्छ, र उत्पादनको technical data sheet मा तोकिएको shelf life भित्र प्रयोग गर्नुपर्छ।"
+        },
+        {
+          "q": "GP resin र gel coat resin बीच के फरक छ?",
+          "a": "GP resin एउटा laminating resin हो जुन composite भागमा structural मोटाइ बनाउन reinforcement सँग प्रयोग हुन्छ, जबकि gel coat resin एउटा surface-coating resin हो जुन lamination अघि mould को सबैभन्दा बाहिरी तहको रूपमा लगाइन्छ, सफा, सुरक्षात्मक र प्रायः pigmented finish दिन।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "परिचय",
+          "body": [
+            "General Purpose (GP) polyester resin fibre-reinforced plastics (FRP) र composites उद्योगमा सबैभन्दा व्यापक रूपमा प्रयोग हुने thermosetting resin प्रणालीहरूमध्ये एक हो। यो unsaturated dibasic acids वा anhydrides लाई glycols सँग प्रतिक्रिया गराई, त्यसपछि परिणामस्वरूप polyester लाई styrene monomer मा घोलेर निर्माण गरिन्छ। उपयुक्त catalyst सँग मिसाएपछि, यो free-radical crosslinking मार्फत कडा, अघुलनशील thermoset संरचनामा cure हुन्छ।",
+            "यसको लोकप्रियता संयोग होइन। GP resin ले mechanical प्रदर्शन, processing सजिलोपना र लागतको व्यावहारिक सन्तुलन प्रदान गर्दछ, त्यसैले यो पानी भण्डारण tanks र roofing sheets देखि industrial mouldings र निर्माण उत्पादनहरूसम्म FRP प्रयोगहरूको व्यापक दायराका लागि default छनोट रहन्छ। बढाइएको chemical resistance, fire retardancy वा उत्कृष्ट toughness जस्ता विशेष प्रदर्शन आवश्यकताका लागि विकसित speciality resin प्रणालीहरूको विपरीत, GP resin general-purpose composite निर्माणका लागि उपयुक्त बहुमुखी, all-round material को रूपमा formulate गरिएको छ।",
+            "यो लेखले GP polyester resin के हो, यो कसरी निर्माण गरिन्छ, यसका मुख्य गुण र फाइदाहरू, यो कहाँ प्रयोग हुन्छ, र निर्माताहरूले यसलाई कसरी सही रूपमा छनोट र ह्यान्डल गर्ने भन्ने व्याख्या गर्दछ।"
+          ]
+        },
+        {
+          "heading": "General Purpose (GP) Polyester Resin भनेको के हो?",
+          "body": [
+            "'GP' शब्दले सामान्यतया General Purpose जनाउँछ। यसले यो resin grade लाई isophthalic, fire-retardant, वा gel coat resins जस्ता विशेष प्रदर्शन विशेषताका लागि engineer गरिएका speciality polyester प्रणालीहरूबाट छुट्याउँछ। यसको विपरीत, GP resin विशेष additives वा परिमार्जित backbone chemistry बिना नै दैनिक FRP प्रयोगहरूको व्यापक दायरामा भरपर्दो रूपमा काम गर्न formulate गरिएको हुन्छ।",
+            "रासायनिक रूपमा, GP resin unsaturated polyester resin (UPR) family को हो। Unsaturated polyester resins सामान्यतया maleic anhydride जस्ता unsaturated dibasic acids वा anhydrides लाई glycols सँग प्रतिक्रिया गराई reactive carbon-carbon double bonds भएको polyester backbone बनाएर उत्पादन गरिन्छ। यो polyester त्यसपछि styrene monomer मा घोलिन्छ, जसले viscosity-घटाउने solvent र curing को क्रममा resin लाई crosslink गर्ने reactive comonomer दुवैको काम गर्छ। peroxide catalyst — प्रायः Methyl Ethyl Ketone Peroxide (MEKP) — सँग मिसाउँदा, resin room temperature मा कडा, thermoset polymer network मा cure हुन्छ।",
+            "GP resin सामान्यतया orthophthalic acid chemistry मा आधारित हुन्छ, जुन isophthalic वा vinyl ester विकल्पहरूभन्दा उत्पादन गर्न बढी किफायती हुन्छ। Isophthalic resins ले सुधारिएको पानी र chemical resistance दिन्छन्; vinyl ester resins ले उत्कृष्ट corrosion resistance र toughness दिन्छन्; fire-retardant grades ले flammability standards पूरा गर्न halogenated वा halogen-free additives समावेश गर्छन्; gel coat resins structural lamination भन्दा surface finish र weatherability का लागि formulate गरिन्छन्। GP resin यो स्पेक्ट्रमको general-purpose छेउमा बस्छ — यो यी विशेष क्षेत्रहरूमध्ये कुनैमा उत्कृष्ट हुन engineer गरिएको छैन, तर कम लागतमा तिनका अधिकांशमा पर्याप्त प्रदर्शन गर्दछ।",
+            "निर्माताहरूले GP resin छान्छन् किनभने यसले speciality प्रणालीहरूको बढाइएको गुण नचाहिने प्रयोगहरूका लागि processability, mechanical प्रदर्शन र cost-effectiveness को भरपर्दो संयोजन दिन्छ। यो सामान्य reinforcement materials सँग compatible छ, standard workshop अवस्थामा भरपर्दो रूपमा cure हुन्छ, र व्यापक रूपमा उपलब्ध छ, जसले tanks, panels, roofing sheets र सामान्य mouldings उत्पादन गर्ने FRP fabricators का लागि यसलाई व्यावहारिक default बनाउँछ।"
+          ],
+          "visuals": [
+            {
+              "type": "steps",
+              "caption": "How catalysed GP resin cures from a liquid into a rigid composite",
+              "items": [
+                {
+                  "label": "Liquid GP Resin + MEKP Catalyst"
+                },
+                {
+                  "label": "Cross-Linking Reaction"
+                },
+                {
+                  "label": "Gel Stage"
+                },
+                {
+                  "label": "Hard Cure"
+                },
+                {
+                  "label": "Finished Composite Product"
+                }
+              ]
+            }
+          ],
+          "table": "resinFamilyTable",
+          "callouts": [
+            {
+              "variant": "info",
+              "text": "GP ले General Purpose जनाउँछ — एउटा standard-grade unsaturated polyester resin, व्यापक, दैनिक FRP प्रयोगका लागि formulate गरिएको, कुनै एउटा विशेष गुणका लागि engineer गरिएको speciality प्रणाली होइन।"
+            }
+          ]
+        },
+        {
+          "heading": "GP Polyester Resin कसरी निर्माण गरिन्छ",
+          "photo": {
+            "src": "supplier-production.jpg",
+            "alt": "Stainless-steel resin processing reactors at the Samrat Poly Resins, India manufacturing facility",
+            "caption": "Supplier production reactors — Samrat Poly Resins, India"
+          },
+          "body": [
+            "GP polyester resin निर्माण थोरै मुख्य कच्चा पदार्थबाट सुरु हुन्छ: unsaturated dibasic acids वा anhydrides (सामान्यतया maleic anhydride, कहिलेकाहीं phthalic anhydride सँग संयोजित), phthalic anhydride जस्ता saturated dibasic acids, जसले कठोरता योगदान गर्छन् र unsaturation को मात्रा नियन्त्रण गर्छन्, र glycols, सामान्यतया propylene glycol वा ethylene glycol, जसले acid units लाई जोड्ने लचिलो backbone दिन्छन्।",
+            "यी कच्चा पदार्थहरूलाई resin reactor भित्र नियन्त्रित polycondensation प्रक्रियामा सँगै प्रतिक्रिया गराइन्छ, सामान्यतया तापको साथ र esterification प्रतिक्रियाको उपोत्पादन पानीको निरन्तर हटाइसँगै। यसले backbone मा फैलिएका reactive double bonds भएको linear unsaturated polyester chain उत्पादन गर्छ। प्रतिक्रियालाई target acid value र molecular weight हासिल गर्न निगरानी र नियन्त्रण गरिन्छ, जसले resin को अन्तिम viscosity र reactivity लाई असर गर्छ।",
+            "Polyester base बनेपछि र सुरक्षित ह्यान्डलिङ तापक्रममा चिसो भएपछि, यसलाई styrene monomer मा घोलिन्छ, सामान्यतया viscosity, reactivity र cured mechanical गुणहरू सन्तुलन गर्ने ratio मा। Styrene ले दुई काम गर्छ: यसले अन्यथा धेरै viscous polyester को viscosity घटाउँछ ताकि यसलाई ambient temperature मा process गर्न सकियोस्, र यो cure को क्रममा polyester को unsaturation sites सँग प्रतिक्रिया गर्ने crosslinking agent को काम गर्छ। यस चरणमा resin लाई पर्याप्त shelf life र नियन्त्रणयोग्य gel time दिन थोरै मात्रामा inhibitor पनि थपिन्छ, यसलाई प्रयोगका लागि catalyse गर्नुअघि।",
+            "प्याकेजिङअघि, प्रत्येक batch लाई viscosity, acid value, रंग र gel time सामान्यतया समावेश गर्ने गुणस्तर मापदण्डहरूविरुद्ध जाँचिन्छ। यी जाँचले batch अघिल्लो उत्पादनसँग सुसंगत छ र यसको तोकिएको प्रयोगका लागि उपयुक्त छ भनी पुष्टि गर्छन्, fabricators लाई drum-देखि-drum दोहोरिने परिणाम हासिल गर्न मद्दत गर्छ।",
+            "तयार GP resin सामान्यतया moisture, contamination र प्रकाश exposure बाट सुरक्षित राख्न सिल गरिएका drums मा प्याक गरिन्छ, जसले resin गलत रूपमा भण्डारण गरिएमा shelf life र प्रदर्शनलाई असर गर्न सक्छ।"
+          ],
+          "visuals": [
+            {
+              "type": "steps",
+              "caption": "GP polyester resin manufacturing process",
+              "items": [
+                {
+                  "label": "Raw Materials"
+                },
+                {
+                  "label": "Polyester Formation"
+                },
+                {
+                  "label": "Styrene Addition"
+                },
+                {
+                  "label": "Quality Control"
+                },
+                {
+                  "label": "Packaging"
+                },
+                {
+                  "label": "Industrial Customer"
+                }
+              ]
+            }
+          ],
+          "callouts": [
+            {
+              "variant": "technical",
+              "text": "प्रत्येक batch लाई प्याकेजिङअघि viscosity, acid value, रंग र gel time विरुद्ध जाँचिन्छ — यी जाँचले batch specification र अघिल्लो उत्पादन दौडसँग मिल्छ भनी पुष्टि गर्छन्, केवल सही देखिन्छ भनेर मात्र होइन।"
+            }
+          ]
+        },
+        {
+          "heading": "GP Polyester Resin का मुख्य गुणहरू",
+          "body": [
+            "GP resin का गुणहरूले यसलाई specialised material भन्दा all-round material को भूमिका झल्काउँछन्। तलको तालिकाले FRP fabricators का लागि सबैभन्दा महत्त्वपूर्ण गुणहरूमा यो सामान्यतया कसरी तुलना गर्छ भनी सारांशित गर्दछ।"
+          ],
+          "table": "propertiesTable"
+        },
+        {
+          "heading": "GP Polyester Resin का फाइदाहरू",
+          "subsections": [
+            {
+              "heading": "किफायती",
+              "body": "GP resin उपलब्ध सबैभन्दा cost-effective resin प्रणालीहरूमध्ये एक हो, जसले यसलाई speciality प्रदर्शन नचाहिने high-volume वा price-sensitive FRP उत्पादनका लागि व्यावहारिक छनोट बनाउँछ।"
+            },
+            {
+              "heading": "सजिलो Processing",
+              "body": "यो सीधा, room-temperature curing प्रक्रिया र सामान्य catalyst प्रणालीहरूसँग compatible छ, जसले fabricators लाई विशेष curing infrastructure बिना नै परिचित प्रविधि र उपकरणसँग काम गर्न दिन्छ।"
+            },
+            {
+              "heading": "राम्रो Mechanical गुणहरू",
+              "body": "glass fibre ले राम्रोसँग reinforce गरिएमा, GP resin laminates ले structural र semi-structural प्रयोगहरूको व्यापक दायराका लागि उपयुक्त mechanical गुणहरू हासिल गर्छन्।"
+            },
+            {
+              "heading": "राम्रो आयामिक स्थिरता",
+              "body": "Cured GP resin laminates ले सामान्य सेवा अवस्थामा आफ्नो आकार र आयाम राम्रोसँग कायम राख्छन्, जुन tanks र panels जस्ता सटीक geometry कायम राख्नुपर्ने उत्पादनका लागि महत्त्वपूर्ण हुन्छ।"
+            },
+            {
+              "heading": "सफा Finish",
+              "body": "GP resin, विशेष गरी compatible gel coat सँग जोडिँदा, functional र semi-decorative प्रयोग दुवैका लागि उपयुक्त सफा, सुसंगत सतह finish उत्पादन गर्दछ।"
+            },
+            {
+              "heading": "कुशल उत्पादन",
+              "body": "अनुमानयोग्य gel time र cure व्यवहारले fabricators लाई विश्वासका साथ उत्पादन तालिका योजना बनाउन दिन्छ, कुशल, दोहोरिने निर्माणलाई समर्थन गर्दछ।"
+            }
+          ],
+          "callouts": [
+            {
+              "variant": "takeaway",
+              "items": [
+                "किफायती",
+                "सजिलो processing",
+                "राम्रो mechanical गुणहरू",
+                "राम्रो आयामिक स्थिरता",
+                "सफा finish",
+                "कुशल उत्पादन"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "सामान्य औद्योगिक प्रयोगहरू",
+          "visuals": [
+            {
+              "type": "steps",
+              "caption": "Typical manufacturing workflow for GP resin composites",
+              "items": [
+                {
+                  "label": "GP Resin + Glass Fibre Reinforcement"
+                },
+                {
+                  "label": "Composite Laminate"
+                },
+                {
+                  "label": "Finished Product"
+                }
+              ],
+              "branchLabel": "Typical Applications",
+              "branchItems": [
+                "Water Tanks",
+                "Roofing Sheets",
+                "Door Skins",
+                "FRP Components",
+                "Decorative Panels"
+              ]
+            }
+          ],
+          "subsections": [
+            {
+              "heading": "FRP पानी Tanks",
+              "body": "GP resin FRP पानी भण्डारण tanks निर्माणमा व्यापक रूपमा प्रयोग हुन्छ, जहाँ यसको राम्रो mechanical strength, आयामिक स्थिरता र glass fibre reinforcement सँगको compatibility ले टिकाउ, corrosion-free भण्डारण भाँडो दिन्छ। Tank fabrication का लागि आवश्यक अपेक्षाकृत ठूलो resin परिमाणलाई हेर्दा यसको cost-effectiveness विशेष महत्त्वपूर्ण हुन्छ।"
+            },
+            {
+              "heading": "Roofing Sheets",
+              "body": "FRP र translucent roofing sheets मा, उपयुक्त formulations मा GP resin को स्पष्टता, UV-stabilised grades र सफा cured finish ले प्राकृतिक प्रकाश छिराउँदै मौसम प्रतिरोध कायम राख्ने structural roofing panels र roof-light sheets दुवैलाई समर्थन गर्दछ।"
+            },
+            {
+              "heading": "Door Skins",
+              "body": "FRP door skins ले GP resin को राम्रो mould विवरण reproduce गर्ने र सफा, paintable वा textured सतह हासिल गर्ने क्षमताबाट फाइदा लिन्छन्, जबकि यसका mechanical गुणहरूले door facing बाट अपेक्षित कठोरता र impact resistance दिन्छन्।"
+            },
+            {
+              "heading": "Industrial Mouldings",
+              "body": "GP resin सामान्य industrial mouldings — enclosures, covers, ducting र समान components — का लागि व्यावहारिक छनोट हो, जहाँ मध्यम mechanical र chemical प्रदर्शन पर्याप्त हुन्छ र cost efficiency प्राथमिकता हो।"
+            },
+            {
+              "heading": "सजावटी Panels",
+              "body": "सजावटी र architectural panels का लागि, GP resin को pigments सँगको compatibility र यसको सफा सतह finish ले fabricators लाई उत्पादन दौडमा सुसंगत रंग र texture उत्पादन गर्न दिन्छ।"
+            },
+            {
+              "heading": "Marine Components",
+              "body": "कम मागिने marine प्रयोगहरूमा, GP resin पूर्ण marine-grade isophthalic वा vinyl ester प्रदर्शन नचाहिने components का लागि प्रयोग हुन्छ, लामो immersion वा उच्च mechanical loading नहुने भागहरूका लागि किफायती विकल्प दिँदै।"
+            },
+            {
+              "heading": "Automotive Components",
+              "body": "GP resin केही automotive FRP components, जस्तै body panels र covers मा प्रयोग हुन्छ, जहाँ यसको processability र finish ले speciality resin प्रणालीको लागतबिना मध्यम-volume उत्पादनलाई समर्थन गर्दछ।"
+            },
+            {
+              "heading": "निर्माण उत्पादनहरू",
+              "body": "Tanks र roofing बाहेक, GP resin cladding, formwork र structural liners लगायत विभिन्न निर्माण-सम्बन्धित FRP उत्पादनहरूमा प्रयोग हुन्छ, जहाँ यसको strength, लागत र workability को सन्तुलन सामान्य building प्रयोगका लागि उपयुक्त हुन्छ।"
+            }
+          ],
+          "visualsAfter": [
+            {
+              "type": "icongrid",
+              "label": "Infographic: industrial applications of GP polyester resin",
+              "caption": "GP polyester resin — industrial applications",
+              "items": [
+                {
+                  "icon": "tank",
+                  "label": "Water Tanks"
+                },
+                {
+                  "icon": "roof",
+                  "label": "Roofing Sheets"
+                },
+                {
+                  "icon": "door",
+                  "label": "Door Skins"
+                },
+                {
+                  "icon": "marine",
+                  "label": "Marine Components"
+                },
+                {
+                  "icon": "moulding",
+                  "label": "Industrial Mouldings"
+                },
+                {
+                  "icon": "decorative",
+                  "label": "Decorative Panels"
+                },
+                {
+                  "icon": "construction",
+                  "label": "Construction Products"
+                },
+                {
+                  "icon": "automotive",
+                  "label": "Automotive Components"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "निर्माण प्रक्रियाहरू",
+          "visuals": [
+            {
+              "type": "icongrid",
+              "label": "Diagram: manufacturing methods compatible with GP polyester resin",
+              "caption": "Manufacturing methods used with GP polyester resin",
+              "items": [
+                {
+                  "icon": "hand-layup",
+                  "label": "Hand Lay-Up"
+                },
+                {
+                  "icon": "spray-up",
+                  "label": "Spray-Up"
+                },
+                {
+                  "icon": "compression",
+                  "label": "Compression Moulding"
+                },
+                {
+                  "icon": "pultrusion",
+                  "label": "Pultrusion"
+                },
+                {
+                  "icon": "lamination",
+                  "label": "Continuous Lamination"
+                },
+                {
+                  "icon": "vacuum",
+                  "label": "Vacuum Bagging"
+                }
+              ]
+            }
+          ],
+          "subsections": [
+            {
+              "heading": "Hand Lay-Up",
+              "body": "सबैभन्दा सामान्य र सुलभ FRP प्रक्रिया, जसमा catalysed resin लाई brush वा roller ले open mould मा राखिएको reinforcement माथि लगाइन्छ। GP resin को workable gel time र viscosity यो manual, श्रम-गहन विधिका लागि राम्रोसँग उपयुक्त हुन्छ।"
+            },
+            {
+              "heading": "Spray-Up",
+              "body": "Spray-up मा, catalysed resin र chopped glass fibre लाई spray उपकरण प्रयोग गरी mould मा एकैसाथ राखिन्छ। GP resin को viscosity र cure विशेषताहरू यो छिटो, अर्ध-मेकानिकल प्रक्रियासँग compatible छन्, जुन सामान्यतया tanks र ठूला components का लागि प्रयोग हुन्छ।"
+            },
+            {
+              "heading": "Compression Moulding",
+              "body": "GP resin formulations, प्रायः sheet moulding compound (SMC) वा dough moulding compound (DMC) प्रणालीको भागको रूपमा, compression moulding मा प्रयोग हुन्छन्, जहाँ ताप र दबाबले बन्द mould मा resin लाई छिटो cure गर्छ — सुसंगत भागहरूको उच्च-volume उत्पादनका लागि उपयुक्त।"
+            },
+            {
+              "heading": "Continuous Lamination",
+              "body": "roofing sheets जस्ता समतल वा corrugated sheet उत्पादनका लागि, GP resin continuous lamination lines मा प्रयोग हुन्छ, जहाँ resin-impregnated reinforcement continuous panel लम्बाइ उत्पादन गर्न curing प्रक्रियाबाट गुज्रन्छ।"
+            },
+            {
+              "heading": "Pultrusion (जहाँ उपयुक्त Grades प्रयोग हुन्छन्)",
+              "body": "उपयुक्त reactivity र viscosity सहित formulate गरिएका केही GP resin grades pultrusion मा प्रयोग हुन्छन् — निरन्तर प्रक्रिया जसले resin-impregnated reinforcement लाई तताइएको die मार्फत तानेर स्थिर cross-section profiles बनाउँछ। सबै GP grades उपयुक्त हुँदैनन्; pultrusion लाई सामान्यतया प्रक्रियाको छिटो, नियन्त्रित cure आवश्यकताका लागि विशेष रूपमा formulate गरिएको resin चाहिन्छ।"
+            },
+            {
+              "heading": "Vacuum Bagging",
+              "body": "GP resin लाई vacuum bagging प्रक्रियाहरूमा प्रयोग गर्न सकिन्छ, जहाँ वायुमण्डलीय दबाबले laminate लाई consolidate गर्छ र अतिरिक्त resin र फसेको हावा हटाउँछ, आधारभूत hand lay-up को तुलनामा fibre-to-resin ratio सुधार्दै र voids घटाउँदै।"
+            }
+          ]
+        },
+        {
+          "heading": "सही GP Polyester Resin कसरी छान्ने",
+          "subsections": [
+            {
+              "heading": "प्रयोग",
+              "body": "Component को अन्तिम-प्रयोगबाट सुरु गर्नुहोस्। Structural parts, भण्डारण tanks, सजावटी panels र roofing उत्पादनहरू प्रत्येकले mechanical प्रदर्शन, सतह finish र chemical exposure मा फरक माग राख्छन्, जसले grade छनोटलाई डोर्याउनुपर्छ।"
+            },
+            {
+              "heading": "Gel Time",
+              "body": "Gel time — catalysed resin कति छिटो cure सुरु गर्छ — उत्पादन प्रक्रिया र component आकारसँग मिल्नुपर्छ। ठूला components वा manual lay-up ले सामान्यतया लामो working time चाहिन्छ, जबकि छिटो-cycle प्रक्रियाहरूलाई छोटो gel time चाहिन सक्छ।"
+            },
+            {
+              "heading": "Viscosity",
+              "body": "Resin viscosity ले यसले reinforcement लाई कति सजिलै wet out गर्छ र mould विवरणमा कति बग्छ भन्नेमा असर गर्छ। कम-viscosity grades ले सूक्ष्म विवरण र पूर्ण fibre wet-out लाई उपयुक्त हुन्छन्; उच्च-viscosity वा thixotropic grades ले resin लाई vertical वा overhead mould सतहमा टिक्न मद्दत गर्छन्।"
+            },
+            {
+              "heading": "Mechanical गुणहरू",
+              "body": "अन्तिम भागको भार-वहन र impact आवश्यकता विचार गर्नुहोस्, र प्रयोग, reinforcement प्रकार र अपेक्षित सेवा अवस्थाका लागि उपयुक्त mechanical गुण भएको grade छान्नुहोस्।"
+            },
+            {
+              "heading": "Chemical Resistance",
+              "body": "पानी, हल्का chemicals वा बाहिरी मौसमको सम्पर्कमा आउने components का लागि, standard GP resin को मध्यम chemical resistance पर्याप्त छ कि isophthalic वा vinyl ester grade बढी उपयुक्त छ मूल्याङ्कन गर्नुहोस्।"
+            },
+            {
+              "heading": "Processing विधि",
+              "body": "Resin grade लाई तोकिएको निर्माण प्रक्रियासँग मिलाउनुहोस् — hand lay-up, spray-up, compression moulding, continuous lamination, pultrusion वा vacuum bagging — किनभने सबै GP grades हरेक प्रक्रियाका लागि formulate गरिएका हुँदैनन्।"
+            },
+            {
+              "heading": "वातावरणीय अवस्था",
+              "body": "तयार उत्पादनले सेवामा सामना गर्ने तापक्रम, आर्द्रता र UV exposure, साथै fabrication को क्रममा workshop अवस्थाको हिसाब राख्नुहोस्, दुवैले cure व्यवहार र दीर्घकालीन प्रदर्शनलाई असर गर्छन्।"
+            }
+          ],
+          "callouts": [
+            {
+              "variant": "practice",
+              "items": [
+                "ठूलो अर्डर दिनुअघि आफ्नो process विरुद्ध gel time र viscosity पुष्टि गर्नुहोस्",
+                "सामान्य GP resin अंकमा भर नपरी विशेष grade को technical data sheet (TDS) माग्नुहोस्",
+                "scale up गर्नुअघि वास्तविक उत्पादन अवस्थामा सानो batch trial गर्नुहोस्"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "भण्डारण र ह्यान्डलिङ",
+          "body": [
+            "GP polyester resin लाई प्रत्यक्ष सूर्यको किरण, heat sources र खुला आगोबाट टाढा चिसो, सुख्खा, राम्रो हावा-प्रवाह भएको ठाउँमा भण्डारण गर्नुपर्छ। धेरै तापक्रममा resin भण्डारण गर्दा यसको inhibitor प्रणालीको उमेर छिटो बढ्छ, जसले shelf life घटाउन सक्छ र drum मा समयअघि नै gelling हुन सक्छ।",
+            "सिफारिस गरिएको भण्डारण तापक्रम दायरा निर्माता र grade अनुसार फरक हुन्छ, त्यसैले resin लाई सामान्यतया अत्यधिक तातो वा चिसोको सट्टा मध्यम, स्थिर तापक्रम दायरामा राख्नुपर्छ। विशेष सिफारिस गरिएको भण्डारण तापक्रमका लागि सधैं उत्पादनको technical data sheet (TDS) हेर्नुहोस्।",
+            "प्रयोगमा नभएको बेला drums राम्रोसँग सिल गरेर राख्नुपर्छ। हावाको सम्पर्कले styrene monomer वाष्पीकरण हुन दिन्छ, जसले resin को viscosity र reactivity परिवर्तन गर्छ, र container भित्र नमी वा प्रदूषक तत्व प्रवेश गर्न पनि दिन सक्छ।",
+            "Unsaturated polyester resin को सीमित shelf life हुन्छ, सामान्यतया वर्षभन्दा महिनामा मापिन्छ, र भण्डारण अवस्था पालना नगरेमा यो झन् घट्छ। सधैं batch निर्माण मिति जाँच गर्नुहोस् र स्थिर अंक नठानी निर्माताले तोकेको shelf life का लागि SDS/TDS हेर्नुहोस्, किनकि यो उत्पादन अनुसार फरक हुन्छ।",
+            "GP resin मा styrene monomer हुन्छ, जुन ज्वलनशील छ र हावा-प्रवाह नभएको ठाउँमा नस्वास्नुपर्ने वाष्प दिन्छ। Resin र catalyst ह्यान्डल गर्दा, उपयुक्त व्यक्तिगत सुरक्षा उपकरण प्रयोग गर्नुपर्छ, सामान्यतया chemical-resistant gloves, आँखा सुरक्षा, र हावा-प्रवाह सीमित भएमा श्वासप्रश्वास सुरक्षा समावेश गर्दै। Resin र peroxide catalyst, जस्तै MEKP, सधैं छुट्टाछुट्टै भण्डारण, ह्यान्डल र मिश्रण गर्नुपर्छ, किनकि concentrated peroxide र accelerator बीचको प्रत्यक्ष सम्पर्क खतरनाक हुन सक्छ। प्रयोगअघि उत्पादनको Safety Data Sheet (SDS) बाट पूर्ण ह्यान्डलिङ, भण्डारण र आपतकालीन मार्गदर्शन सधैं पढ्नुपर्छ।"
+          ],
+          "callouts": [
+            {
+              "variant": "practice",
+              "items": [
+                "चिसो, सुख्खा, राम्रो हावा-प्रवाह भएको ठाउँ — प्रत्यक्ष सूर्यको किरण र heat sources बाट टाढा",
+                "प्रयोगमा नभएको बेला drums राम्रोसँग सिल गरेर राख्नुहोस्",
+                "batch मिति जाँच गरी TDS मा तोकिएको shelf life भित्र प्रयोग गर्नुहोस्",
+                "resin र peroxide catalyst कहिल्यै सँगै भण्डारण नगर्नुहोस्"
+              ]
+            },
+            {
+              "variant": "warning",
+              "text": "Resin र peroxide catalyst (जस्तै MEKP) सधैं छुट्टाछुट्टै भण्डारण, ह्यान्डल र मिश्रण गर्नुपर्छ — concentrated peroxide र accelerator बीचको प्रत्यक्ष सम्पर्क खतरनाक हुन सक्छ। प्रयोगअघि सधैं उत्पादनको Safety Data Sheet (SDS) पढ्नुहोस्।"
+            }
+          ]
+        },
+        {
+          "heading": "निष्कर्ष",
+          "body": [
+            "GP polyester resin FRP निर्माणमा सबैभन्दा व्यावहारिक र व्यापक रूपमा प्रयोग हुने resin प्रणालीहरूमध्ये एक रहन्छ किनभने यसले mechanical प्रदर्शन, processability र लागतको भरपर्दो सन्तुलन दिन्छ। यो कुनै एउटा मागिलो गुणमा speciality resin प्रणालीहरूलाई उछिन्न designed गरिएको छैन, तर पानी tanks र roofing sheets देखि industrial mouldings र निर्माण उत्पादनहरूसम्म सामान्य औद्योगिक प्रयोगहरूको व्यापक दायराका लागि, यसले निर्माताहरूलाई भरपर्दो, किफायती र राम्रोसँग बुझिएको material दिन जारी राख्छ। सही grade छनोट गर्नु, र सही भण्डारण तथा ह्यान्डलिङ अभ्यास पालना गर्नु, उत्पादनमा दोहोरिने परिणाम हासिल गर्न आवश्यक रहन्छ।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "applications-of-gp-polyester-resin",
@@ -1856,7 +2398,7 @@ export const resources = Object.freeze([
         "Fire Retardant Unsaturated Polyester Resin"
       ],
       "ogTitle": "What Is Fire Retardant Resin?",
-      "ogDescription": "A buyer-level explanation of Samrat's published halogenated Fire Retardant Unsaturated Polyester Resin product role."
+      "ogDescription": "A buyer-level explanation of Samrat Poly Resins, India's published halogenated Fire Retardant Unsaturated Polyester Resin product role."
     },
     "quickFacts": {
       "Published family": "Unsaturated polyester",
@@ -1900,7 +2442,7 @@ export const resources = Object.freeze([
       {
         "heading": "A specialist product role within the UPR family",
         "body": [
-          "Unsaturated Polyester Resin is the broader family. Samrat's Fire Retardant Resin is a published specialist halogenated unsaturated polyester grade within that broader family, intended for an industrial FRP discussion where fire-performance criteria are stated.",
+          "Unsaturated Polyester Resin is the broader family. Samrat Poly Resins, India's Fire Retardant Resin is a published specialist halogenated unsaturated polyester grade within that broader family, intended for an industrial FRP discussion where fire-performance criteria are stated.",
           "This does not make FR Resin unrelated to polyester resin, and it does not make every polyester resin an FR grade. Product names, technical data and the finished-component requirement must stay connected."
         ]
       },
@@ -2018,7 +2560,7 @@ export const resources = Object.freeze([
         "heading": "Do not compare by a single marketing word",
         "body": [
           "A buyer may see both products in the polyester-resin family and assume that FR Resin is a universal upgrade. That is not the right decision framework. Compare the actual grade-specific TDS, the component role and the specified requirement.",
-          "For Samrat's current Fire Retardant Resin, the TDS publishes the listed supply and technical information. It does not replace confirmation of a project-specific test, standard or finished-system classification."
+          "For Samrat Poly Resins, India's current Fire Retardant Resin, the TDS publishes the listed supply and technical information. It does not replace confirmation of a project-specific test, standard or finished-system classification."
         ]
       },
       {
@@ -2230,7 +2772,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/glass-fiber-mat/",
         "label": "View Glass Fiber",
-        "description": "Review Samrat's separate reinforcement product."
+        "description": "Review Samrat FRP Traders' separate reinforcement product."
       },
       {
         "href": "/contact/",
@@ -2448,7 +2990,7 @@ export const resources = Object.freeze([
         "Fire Retardant Polyester Resin comparison"
       ],
       "ogTitle": "ISO Fire Retardant Resin vs Standard Fire Retardant Resin",
-      "ogDescription": "A document-led comparison of Samrat's separately published ISO / isophthalic and standard FR resin routes."
+      "ogDescription": "A document-led comparison of Samrat Poly Resins, India's separately published ISO / isophthalic and standard FR resin routes."
     },
     "quickFacts": {
       "ISO FR TDS identity": "Halogen-free, ATH-filled isophthalic-based FR grade",
@@ -2594,7 +3136,7 @@ export const resources = Object.freeze([
   {
     "slug": "iso-fire-retardant-resin-vs-upr",
     "title": "ISO Fire Retardant Resin vs UPR: Isophthalic FR Grade Buyer Guide",
-    "description": "Clarify the relationship between broad unsaturated polyester resin terminology and Samrat's specialised ISO / isophthalic Fire Retardant Resin grade.",
+    "description": "Clarify the relationship between broad unsaturated polyester resin terminology and Samrat Poly Resins, India's specialised ISO / isophthalic Fire Retardant Resin grade.",
     "category": "Comparison Guide",
     "icon": "checklist",
     "readingTime": "4 min read",
@@ -3065,7 +3607,7 @@ export const resources = Object.freeze([
   {
     "slug": "gp-yellow-resin-uses-in-frp-manufacturing",
     "title": "GP Yellow Resin Uses in FRP Manufacturing",
-    "description": "Published GP Yellow Resin applications for Indian FRP fabricators where an intentionally transparent-yellow general-purpose grade is suitable for the process or build-up.",
+    "description": "Published GP Yellow Resin applications for FRP fabricators where an intentionally transparent-yellow general-purpose grade is suitable for the process or build-up.",
     "category": "Application Guide",
     "icon": "grid",
     "readingTime": "5 min read",
@@ -3202,7 +3744,71 @@ export const resources = Object.freeze([
           "Before requesting a quote, record the finished FRP component, reinforcement and process, expected quantity, resin colour or surface-finish context, required delivery location and any existing grade in use. Review the GP Yellow Resin TDS and its published packaging, MOQ, shelf life and storage information before finalising a requirement."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "FRP निर्माणमा GP Yellow Resin प्रयोगहरू",
+      "description": "process वा build-up का लागि जानाजानी पारदर्शी-पहेंलो general-purpose grade उपयुक्त हुने FRP fabricators का लागि प्रकाशित GP Yellow Resin प्रयोगहरू।",
+      "quickFacts": {
+        "प्रकाशित resin प्रकार": "पारदर्शी-पहेंलो, orthophthalic unsaturated polyester resin",
+        "प्रकाशित application भूमिका": "glass-fibre reinforcement सहित general-purpose FRP lamination र moulded-उत्पादन काम",
+        "प्रकाशित processing डाटा": "25 C मा 450-600 cPs viscosity; 10-15 मिनेट gel time",
+        "रंग जाँच": "आपूर्ति गरिएको पारदर्शी-पहेंलो रंग process वा build-up मा स्वीकार्य छ पुष्टि गर्नुहोस्",
+        "पहिलो छनोट जाँच": "finished भाग, process, रूप आवश्यकता र उत्पादन TDS पुष्टि गर्नुहोस्"
+      },
+      "faqs": [
+        {
+          "q": "GP Yellow Resin के का लागि प्रयोग हुन्छ?",
+          "a": "Samrat FRP Traders ले roofing sheets, water tanks, cooling towers, door skins, hand lay-up, spray-up र सामान्य FRP moulded उत्पादन लगायत सामान्य FRP lamination र moulded-उत्पादन प्रयोगका लागि GP Yellow Resin प्रकाशित गर्दछ।"
+        },
+        {
+          "q": "के GP Yellow Resin हरेक FRP आवश्यकताका लागि उपयुक्त छ?",
+          "a": "होइन। यो प्रकाशित general-purpose orthophthalic grade हो। तोकिएको chemical- वा corrosion-resistance, fire-प्रदर्शन, mould-surface coating वा अन्य विशेष आवश्यकता भएको project छनोटअघि सान्दर्भिक उत्पादन डाटाविरुद्ध समीक्षा गर्नुपर्छ।"
+        },
+        {
+          "q": "quote माग्नुअघि FRP खरिदकर्ताले के साझा गर्नुपर्छ?",
+          "a": "finished component, उत्पादन विधि, अपेक्षित परिमाण, resin रंग finished build-up मा उपयुक्त छ कि छैन र डेलिभरी स्थान साझा गर्नुहोस्। यसले आपूर्तिकर्तालाई उत्पादन छलफलका लागि आवश्यक सन्दर्भ दिन्छ।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "FRP निर्माणमा GP Yellow Resin कहाँ मिल्छ",
+          "body": [
+            "GP Yellow Resin Samrat FRP Traders को सामान्य FRP lamination र moulded-उत्पादन कामका लागि प्रकाशित पारदर्शी-पहेंलो, orthophthalic unsaturated polyester grade हो। यो mould-facing सतह coating को रूपमा भन्दा structural laminate बनाउन glass-fibre reinforcement सँग प्रयोग हुन्छ।",
+            "उत्पादन-विशिष्ट रंग निर्णय पहिले आउँछ: यसको जानाजानी पारदर्शी-पहेंलो आपूर्ति गरिएको रूप process वा build-up मा स्वीकार्य छ पुष्टि गर्नुहोस्। प्रकाशित applications मा roofing sheets, water tanks, cooling towers, door skins, hand lay-up, spray-up र सामान्य FRP moulded उत्पादन समावेश छन्; हरेक route अझै TDS र वास्तविक line अवस्थाविरुद्ध जाँच्नुपर्छ।"
+          ]
+        },
+        {
+          "heading": "प्रकाशित application क्षेत्रहरू",
+          "subsections": [
+            {
+              "heading": "Roofing sheets, water tanks र cooling towers",
+              "body": "यी अवस्थित application पृष्ठले GP Yellow Resin लाई FRP sheet lamination र tank वा cooling-tower उत्पादनका लागि कहाँ छलफल गरिएको छ देखाउँछन्। grade छनोटअघि खरिदकर्ताले component design, reinforcement, process र finished-surface आवश्यकता पुष्टि गर्नुपर्छ।"
+            },
+            {
+              "heading": "Door skins र सामान्य moulded उत्पादन",
+              "body": "Door skins, panels र सामान्य FRP moulded उत्पादनका लागि, उत्पादन भूमिका reinforced laminate हो। जहाँ देखिने सतह महत्त्वपूर्ण छ, surface-finish आवश्यकतालाई structural laminate आवश्यकताबाट छुट्टै विचार गर्नुपर्छ।"
+            },
+            {
+              "heading": "Hand lay-up र spray-up",
+              "body": "प्रकाशित GP Yellow Resin application पृष्ठले hand lay-up र spray-up दुवै समेट्छ। उत्पादनको प्रकाशित viscosity र gel time उत्पादन प्रयोगअघि equipment, reinforcement, part geometry र working window विरुद्ध समीक्षा गर्नुपर्छ।"
+            }
+          ]
+        },
+        {
+          "heading": "Finished भागका लागि grade छनोट गर्दै",
+          "body": [
+            "GP Yellow Resin जानाजानी पारदर्शी पहेंलो हो, त्यसैले खरिदकर्ताले पहिले त्यो आपूर्ति गरिएको रंग process वा build-up मा स्वीकार्य छ कि छैन पुष्टि गर्नुपर्छ। यसले आफैँमा reinforced, pigmented वा surface-finished component को अन्तिम रूप परिभाषित गर्दैन। त्यसपछि प्रकाशित 25 C मा 450-600 cPs viscosity र 10-15 मिनेट gel time लाई तोकिएको processसँग तुलना गर्नुहोस्।",
+            "general-purpose grade स्वतः हरेक project का लागि सही छनोट होइन। जहाँ clear grade, lamination-केन्द्रित उत्पादन, chemical-resistance प्रणाली वा mould-surface coating आवश्यक छ, आफ्नो प्रकाशित उत्पादन डाटासहित GP Clear Resin, Lamination Resin, Vinyl Ester Resin वा GP Gelcoat Resin उपयुक्त अनुसार समीक्षा गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "खरिद र process checklist",
+          "body": [
+            "quote माग्नुअघि, finished FRP component, reinforcement र process, अपेक्षित परिमाण, resin रंग वा surface-finish सन्दर्भ, आवश्यक डेलिभरी स्थान र प्रयोगमा भएको कुनै अवस्थित grade रेकर्ड गर्नुहोस्। आवश्यकता अन्तिम गर्नुअघि GP Yellow Resin TDS र यसको प्रकाशित प्याकेजिङ, MOQ, shelf life र storage जानकारी समीक्षा गर्नुहोस्।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "gp-resin-vs-lamination-resin",
@@ -4509,7 +5115,7 @@ export const resources = Object.freeze([
         "Gelcoat vs Vinyl Ester",
         "FRP surface finish resin",
         "Vinyl Ester Resin",
-        "Gelcoat Resin manufacturer India"
+        "Gelcoat Resin supplier Nepal"
       ],
       "ogTitle": "Gelcoat Resin vs Vinyl Ester Resin",
       "ogDescription": "Understand the different roles of Gelcoat Resin and Vinyl Ester Resin in an FRP product before selecting either material."
@@ -5275,7 +5881,60 @@ export const resources = Object.freeze([
           "Share the expected quantity, intended button or small decorative moulding, clarity or pigment-colour requirement, casting method if known and delivery location. This gives the supplier enough context to direct the enquiry to the relevant product data without making assumptions about an unverified application."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Button Grade Resin भनेको के हो?",
+      "description": "Button Grade Resin बारे खरिदकर्ता गाइड — बटन र साना सजावटी mouldings का लागि एक पारदर्शी unsaturated polyester casting grade।",
+      "quickFacts": {
+        "प्रकाशित resin भूमिका": "बटन र साना सजावटी mouldings का लागि पारदर्शी polyester casting grade",
+        "भौतिक रूप": "अर्ध-तरल (Semi-liquid)",
+        "प्रकाशित gel time": "9.5 मिनेट",
+        "प्रकाशित प्याकेजिङ": "225 kg drum"
+      },
+      "sections": [
+        {
+          "heading": "उत्पादनको भूमिका",
+          "body": [
+            "Button Grade Resin बटन र साना सजावटी moulding निर्माणका लागि तोकिएको एक विशेष unsaturated polyester resin हो। प्रकाशित उत्पादन जानकारीले यसलाई पारदर्शी, अर्ध-तरल casting grade भनी वर्णन गर्दछ — cast गरिएको भाग नै अन्तिम देखिने component हुने अपेक्षा गरिन्छ, glass fibre-reinforced structural laminate होइन।",
+            "यो भिन्नता खरिदको क्रममा महत्त्वपूर्ण हुन्छ। 'polyester resin' भनिने उत्पादनले धेरै फरक भूमिका खेल्न सक्छ। बटन निर्माताका लागि उपयोगी सुरुवात बिन्दु भनेको देखिने casting आवश्यकता, चाहिने रूप-रङ्ग र उत्पादन विधि हो, हरेक general-purpose resin उस्तै व्यवहार गर्छ भन्ने नठान्नु नै राम्रो हो।"
+          ]
+        },
+        {
+          "heading": "समीक्षा गर्नुपर्ने प्रकाशित विशेषताहरू",
+          "body": [
+            "यस grade का लागि, Samrat FRP Traders ले पारदर्शी रूप, अर्ध-तरल भौतिक रूप, 1,100 cPs viscosity, 9.5-मिनेट gel time, लगभग दुई घण्टा curing time, 33% styrene content र 225 kg drum प्रकाशित गर्दछ। हालको उत्पादन जानकारीले सफा, पालिस गर्न मिल्ने finish र प्राकृतिक पारदर्शी बटन तथा pigment रंगीन कामका लागि प्रयोगको वर्णन पनि गर्दछ।",
+            "यी विवरणहरू प्राविधिक तथा खरिद वार्ताको सुरुवात बिन्दु हुन्। यिनले प्रयोगअघि exact TDS, batch जानकारी र वास्तविक उत्पादन अवस्था पुष्टि गर्ने काम प्रतिस्थापन गर्दैनन्।"
+          ]
+        },
+        {
+          "heading": "फरक resin उपयुक्त हुन सक्ने ठाउँ",
+          "body": [
+            "Reinforced FRP निर्माणका लागि, प्रकाशित GP Clear Resin वा Unsaturated Polyester Resin जानकारी हेर्नुहोस्। Pre-pigmented FRP sheet वा panel आवश्यकताका लागि, Sheet Grade Yellow Resin समीक्षा गर्नुहोस्। जहाँ specifically दुई-भाग epoxy प्रणाली आवश्यक पर्छ, Clear Casting Resin आफ्नै mix ratio र cure schedule भएको छुट्टै उत्पादन प्रणाली हो।",
+            "यी फरक material भूमिकाहरू हुन्, एकअर्काको साटो प्रयोग गर्न मिल्ने नाम होइनन्। एउटा resin category बाट अर्कोमा साट्नुअघि component र process बारे छलफल गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "Quote-तयार आवश्यकता तयार गर्नुहोस्",
+          "body": [
+            "अपेक्षित परिमाण, चाहिएको बटन वा साना सजावटी moulding, स्पष्टता वा pigment-रंग आवश्यकता, थाहा भए casting विधि र डेलिभरी स्थान साझा गर्नुहोस्। यसले आपूर्तिकर्तालाई अपुष्ट प्रयोगबारे अनुमान नगरी सान्दर्भिक उत्पादन डाटामा सोधपुछ निर्देशित गर्न पर्याप्त सन्दर्भ दिन्छ।"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Button Grade Resin भनेको के हो?",
+          "a": "Button Grade Resin Samrat FRP Traders ले प्रकाशित गरेको पारदर्शी, अर्ध-तरल unsaturated polyester casting grade हो, जुन बटन र अन्य साना सजावटी mouldings निर्माणका लागि हो।"
+        },
+        {
+          "q": "के Button Grade Resin सामान्य FRP laminating resin हो?",
+          "a": "होइन। प्रकाशित उत्पादन जानकारीले यसलाई बटन र साना सजावटी moulding का लागि casting र moulding grade को रूपमा राख्छ, structural FRP laminate का लागि glass-fibre reinforcement wet out गर्न छानिने resin को रूपमा होइन।"
+        },
+        {
+          "q": "Button Grade Resin छनोट गर्नुअघि खरिदकर्ताले के जाँच गर्नुपर्छ?",
+          "a": "चाहिएको बटन वा moulded भाग, स्पष्टता वा pigment-रंग आवश्यकता, casting विधि, परिमाण र डेलिभरी स्थान पुष्टि गर्नुहोस्, त्यसपछि खरिदअघि उत्पादन TDS समीक्षा गर्नुहोस्।"
+        }
+      ]
+    }
   },
   {
     "slug": "button-resin-for-polyester-button-manufacturing",
@@ -5292,7 +5951,7 @@ export const resources = Object.freeze([
         "Polyester Button Resin",
         "Resin for Polyester Buttons",
         "Button Grade Resin Supplier",
-        "Button Resin Manufacturer India"
+        "Button Resin supplier Nepal"
       ],
       "ogTitle": "Button Resin for Polyester Button Manufacturing",
       "ogDescription": "A practical guide to matching a transparent polyester button-resin requirement to the published product data and procurement discussion."
@@ -5367,7 +6026,60 @@ export const resources = Object.freeze([
           "A useful request includes the intended part, transparency or pigment-colour requirement, expected quantity, casting method if known, delivery location and any current material issue. Attach the product data request to the commercial enquiry so technical and purchasing teams work from the same requirement."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Polyester Button निर्माणका लागि Button Resin",
+      "description": "Polyester button निर्माणका लागि resin आवश्यकता कसरी तय गर्ने — देखिने casting आवश्यकताबाट प्राविधिक-डाटा र quote जाँचसम्म।",
+      "quickFacts": {
+        "प्रकाशित प्रयोग": "बटन र साना सजावटी mouldings",
+        "रूप": "पारदर्शी",
+        "रंग सन्दर्भ": "प्राकृतिक पारदर्शी बटन र pigment रंगीन काम",
+        "Cure प्रणाली": "प्रकाशित MEKP र cobalt octoate प्रणाली"
+      },
+      "sections": [
+        {
+          "heading": "देखिने अन्तिम भागबाट सुरु गर्नुहोस्",
+          "body": [
+            "बटन निर्माणका लागि, resin छनोट यो तथ्यबाट सुरु हुन्छ कि cast गरिएको भाग देखिने हुन्छ। खरिदकर्ताले material छनोटबारे छलफल अघि आवश्यकता पारदर्शी रूपको हो, pigment रंगीन कामको हो वा अर्को स्वीकृत दृश्य आवश्यकताको हो भनी परिभाषित गर्नुपर्छ।",
+            "Samrat FRP Traders ले बटन र साना सजावटी mouldings का लागि Button Grade Resin प्रकाशित गर्दछ। यसको पारदर्शी, अर्ध-तरल casting भूमिका structural FRP laminate मा glass fibre wet out गर्न प्रयोग हुने resin भन्दा फरक हुन्छ।"
+          ]
+        },
+        {
+          "heading": "छलफललाई प्रकाशित उत्पादन डाटासँग मिलाउनुहोस्",
+          "body": [
+            "प्रकाशित Button Grade Resin जानकारीमा 1,100 cPs viscosity, 9.5-मिनेट gel time, लगभग दुई घण्टा cure, MEKP र cobalt octoate dosage जानकारी, दुई महिनाको shelf life र 225 kg drum प्याकेजिङ समावेश छ। उत्पादन योजना अघि exact grade र batch का लागि TDS समीक्षा गर्नुहोस्।",
+            "अर्को resin बाट लिइएको gel-time अंक, viscosity अंक वा cure प्रणाली Button Grade Resin मा स्वतः लागू गर्नु हुँदैन। उत्पादनको आफ्नै डाटा नै सान्दर्भिक सुरुवात बिन्दु हो।"
+          ]
+        },
+        {
+          "heading": "Process दाबीहरू स्पष्ट राख्नुहोस्",
+          "body": [
+            "हालको catalogue ले बटन र साना सजावटी mouldings समर्थन गर्दछ, तर यसले यस grade का लागि button-sheet, button-blank, rod, cutting वा polishing process प्रकाशित गर्दैन। त्यो अभावलाई अनुमानले भर्नुभन्दा प्राविधिक प्रश्नको रूपमा लिनुपर्छ।",
+            "कारखानासँग निश्चित mould, casting क्रम वा finishing operation भएमा, application छलफलको क्रममा साझा गर्नुहोस्। यसले व्यापक category label भन्दा वास्तविक आवश्यकताविरुद्ध उपयुक्तता समीक्षा गर्न दिन्छ।"
+          ]
+        },
+        {
+          "heading": "खरिदका लागि जानकारी",
+          "body": [
+            "उपयोगी अनुरोधमा चाहिएको भाग, पारदर्शिता वा pigment-रंग आवश्यकता, अपेक्षित परिमाण, थाहा भए casting विधि, डेलिभरी स्थान र हालको कुनै material समस्या समावेश हुन्छ। प्राविधिक र खरिद टिमले एउटै आवश्यकतामा काम गरून् भनेर व्यावसायिक सोधपुछसँगै उत्पादन डाटा अनुरोध जोड्नुहोस्।"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Polyester button निर्माणका लागि कुन resin प्रकाशित गरिएको छ?",
+          "a": "Samrat FRP Traders ले बटन र साना सजावटी mouldings का लागि पारदर्शी unsaturated polyester casting grade को रूपमा Button Grade Resin प्रकाशित गर्दछ।"
+        },
+        {
+          "q": "के खरिदकर्ताले पारदर्शी र रंगीन बटन आवश्यकता दुवैबारे छलफल गर्न सक्छन्?",
+          "a": "हो। उत्पादन जानकारीले प्राकृतिक पारदर्शी बटन र pigment रंगीन काम दुवै वर्णन गर्दछ। चाहिएको रूप साझा गर्नुहोस् ताकि उत्पादन डाटाविरुद्ध छलफल गर्न सकियोस्।"
+        },
+        {
+          "q": "के यो उत्पादन पृष्ठले button sheet वा button blank पुष्टि गर्छ?",
+          "a": "होइन। हालको प्रकाशित उत्पादन डाटाले बटन र साना सजावटी mouldings मात्र पुष्टि गर्दछ। Sheet, blank, rod र अन्य process-विशिष्ट प्रयोग छनोटअघि प्राविधिक स्वीकृतिसँग पुष्टि गर्नुपर्छ।"
+        }
+      ]
+    }
   },
   {
     "slug": "how-to-choose-resin-for-button-manufacturing",
@@ -5459,7 +6171,60 @@ export const resources = Object.freeze([
           "Before asking for a quote or trial discussion, write down the intended button or small moulded part, transparency or pigment-colour requirement, casting method if known, expected quantity, delivery location and any current process observation. This turns an ambiguous material enquiry into a decision-ready brief."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Button निर्माणका लागि Resin कसरी छान्ने",
+      "description": "खरिदअघि resin भूमिका, देखिने-finish आवश्यकता, process जानकारी र उत्पादन डाटा तुलना गर्ने बटन निर्माताका लागि निर्णय गाइड।",
+      "quickFacts": {
+        "पहिलो निर्णय": "देखिने button casting विरुद्ध reinforced FRP laminate",
+        "रूप": "पारदर्शिता वा pigment-रंग आवश्यकता पुष्टि गर्नुहोस्",
+        "प्राविधिक सन्दर्भ": "विशिष्ट उत्पादन TDS र batch जानकारी",
+        "Quote सन्दर्भ": "भाग, process, परिमाण र डेलिभरी स्थान"
+      },
+      "sections": [
+        {
+          "heading": "पहिले material भूमिकाअनुसार छान्नुहोस्",
+          "body": [
+            "उपयोगी छनोट प्रक्रियाले button-casting आवश्यकतालाई reinforced FRP आवश्यकताबाट छुट्याउँछ। Samrat FRP Traders ले Button Grade Resin लाई बटन र साना सजावटी mouldings का लागि पारदर्शी, अर्ध-तरल polyester casting grade को रूपमा प्रकाशित गर्दछ। यो glass-fibre-reinforced structural laminate का लागि general-purpose resin को रूपमा तोकिएको छैन।",
+            "यो पहिलो निर्णयले एउटा सामान्य खरिद गल्ती रोक्छ: finished part मा resin ले के गर्नुपर्छ भनी परिभाषित नगरी असम्बन्धित उत्पादन नामको तुलना गर्नु।"
+          ]
+        },
+        {
+          "heading": "देखिने आवश्यकता परिभाषित गर्नुहोस्",
+          "body": [
+            "बटन उत्पादनका लागि, resin को रूप पारदर्शी हुने अपेक्षा हो वा pigment-रंग कामसँग प्रयोग हुने हो रेकर्ड गर्नुहोस्। Button Grade Resin जानकारीले प्राकृतिक पारदर्शी बटन र pigment रंगीन कामलाई समर्थन गर्छ; कुनै थप दृश्य, finishing वा प्रदर्शन आवश्यकता प्राविधिक टिमसँग पुष्टि गर्नुपर्छ।",
+            "'clear' वा 'casting resin' जस्ता सामान्य वाक्यांशलाई हरेक finish, mould design वा तल्लो process का लागि उपयुक्तताको प्रमाण नठान्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "प्रकाशित processing जानकारी समीक्षा गर्नुहोस्",
+          "body": [
+            "विशिष्ट grade का लागि Button Grade Resin को TDS र प्रकाशित डाटा प्रयोग गर्नुहोस्: 1,100 cPs viscosity, 9.5-मिनेट gel time, लगभग दुई घण्टा cure, र सूचीबद्ध MEKP र cobalt octoate प्रणाली। उत्पादन डाटालाई वास्तविक shop-floor अवस्था र casting विधिसँगै मूल्याङ्कन गर्नुपर्छ।",
+            "फरक resin प्रणाली तोकिएमा, जस्तै site को दुई-भाग epoxy Clear Casting Resin, polyester-resin अनुमानहरू नसारी त्यो उत्पादनको छुट्टै mix ratio र cure schedule समीक्षा गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "छनोट brief तयार गर्नुहोस्",
+          "body": [
+            "Quote वा trial छलफल माग्नुअघि, चाहिएको बटन वा साना moulded भाग, पारदर्शिता वा pigment-रंग आवश्यकता, थाहा भए casting विधि, अपेक्षित परिमाण, डेलिभरी स्थान र हालको कुनै process अवलोकन लेख्नुहोस्। यसले अस्पष्ट material सोधपुछलाई निर्णय-तयार brief मा बदल्छ।"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "के स्पष्ट general-purpose resin स्वतः button casting का लागि उपयुक्त हुन्छ?",
+          "a": "होइन। material भूमिकाबाट सुरु गर्नुहोस्। Button Grade Resin बटन र साना सजावटी mouldings का लागि पारदर्शी polyester casting grade को रूपमा प्रकाशित छ, जबकि GP Clear Resin सामान्य reinforced FRP काम का लागि प्रकाशित छ।"
+        },
+        {
+          "q": "trial अघि उत्पादन प्रबन्धकले के पुष्टि गर्नुपर्छ?",
+          "a": "चाहिएको भाग, आवश्यक रूप, उत्पादन TDS, casting विधि, अपेक्षित परिमाण र हालको process सन्दर्भ पुष्टि गर्नुहोस्। स्वीकृतिबिना अर्को grade बाट catalyst वा cure अभ्यास नबदल्नुहोस्।"
+        },
+        {
+          "q": "दुई-भाग epoxy प्रणाली कहिले सान्दर्भिक हुन्छ?",
+          "a": "epoxy प्रणाली तोकिएको वा अन्यथा प्राविधिक रूपमा उपयुक्त भएको ठाउँमा मात्र। Clear Casting Resin आफ्नै mix ratio र cure schedule भएको छुट्टै दुई-भाग epoxy उत्पादन हो।"
+        }
+      ]
+    }
   },
   {
     "slug": "button-grade-resin-vs-gp-resin",
@@ -5586,12 +6351,100 @@ export const resources = Object.freeze([
           "Share the finished part, whether reinforcement is involved, visible appearance requirement, process method, expected quantity and delivery location. This creates enough context for a focused product and quote discussion."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Button Grade Resin बनाम GP Resin",
+      "description": "देखिने polyester casting र reinforced FRP निर्माणबीच छनोट गर्ने खरिदकर्ताका लागि Button Grade Resin र GP Resin को व्यावहारिक तुलना।",
+      "quickFacts": {
+        "Button Grade Resin": "बटन र साना सजावटी mouldings का लागि पारदर्शी, अर्ध-तरल polyester casting grade",
+        "GP Clear Resin": "reinforced FRP कामका लागि general-purpose polyester grade",
+        "छनोट सिद्धान्त": "अन्तिम भाग र resin भूमिकाबाट सुरु गर्नुहोस्",
+        "नठान्नुहोस्": "एउटा grade अर्कोको विकल्प हो"
+      },
+      "comparisonTable": {
+        "title": "प्रकाशित उत्पादन-भूमिका तुलना",
+        "note": "grade छनोटअघि exact उत्पादन TDS र वास्तविक component आवश्यकता प्रयोग गर्नुहोस्। यो तुलनाले एक grade बाट अर्कोमा process वा प्रदर्शन दाबी सार्दैन।",
+        "headers": [
+          "निर्णय कारक",
+          "Button Grade Resin",
+          "GP Clear Resin"
+        ],
+        "rows": [
+          [
+            "प्रकाशित भूमिका",
+            "बटन र साना सजावटी mouldings",
+            "General-purpose reinforced FRP काम"
+          ],
+          [
+            "भौतिक रूप / रूप",
+            "अर्ध-तरल / पारदर्शी",
+            "तरल / clear"
+          ],
+          [
+            "प्रकाशित viscosity",
+            "1,100 cPs",
+            "350-450 cPs"
+          ],
+          [
+            "प्रकाशित gel time",
+            "9.5 मिनेट",
+            "8 मिनेटभन्दा कम"
+          ],
+          [
+            "प्रकाशित प्याकेज",
+            "225 kg drum",
+            "225 kg drum"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "q": "के Button Grade Resin ले reinforced FRP काममा GP Resin लाई प्रतिस्थापन गर्न सक्छ?",
+          "a": "सक्छ भनी नठान्नुहोस्। Button Grade Resin बटन र साना सजावटी mouldings का लागि प्रकाशित छ, जबकि GP Clear Resin सामान्य reinforced FRP काम का लागि प्रकाशित छ।"
+        },
+        {
+          "q": "साझा polyester family भन्दा resin भूमिका किन बढी महत्त्वपूर्ण छ?",
+          "a": "दुवै उत्पादन polyester-resin प्रयोगभित्र पर्छन्, तर तिनका प्रकाशित प्रयोग, रूप र processing डाटा फरक छन्। चाहिएको भाग र process ले तुलना निर्धारण गर्नुपर्छ।"
+        },
+        {
+          "q": "खरिद टिमले कुन जानकारी तुलना गर्नुपर्छ?",
+          "a": "सामान्य resin नाम मात्र तुलना नगरी चाहिएको component, उत्पादन भूमिका, TDS, प्रकाशित processing डाटा, परिमाण र डेलिभरी आवश्यकता तुलना गर्नुहोस्।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "खरिदकर्ताको निर्णय",
+          "body": [
+            "Button Grade Resin र GP Resin लाई एउटै काम भएको जस्तो गरी तुलना गर्नु हुँदैन। Button Grade Resin सूची बटन र साना सजावटी mouldings को पारदर्शी casting का लागि हो। GP Clear Resin reinforced FRP निर्माणका लागि समीक्षा गर्ने general-purpose उत्पादन हो।",
+            "व्यावहारिक प्रश्न हो कि resin देखिने cast बटन बन्नेछ वा laminate बनाउन glass fibre सँग प्रयोग हुनेछ। त्यो भिन्नताले खरिद छलफल डोर्याउनुपर्छ।"
+          ]
+        },
+        {
+          "heading": "प्रकाशित डाटालाई सन्दर्भको रूपमा प्रयोग गर्नुहोस्",
+          "body": [
+            "Button Grade Resin 1,100 cPs मा 9.5-मिनेट gel time सहित प्रकाशित छ, जबकि GP Clear Resin 350-450 cPs मा gel time आठ मिनेटभन्दा कम सहित प्रकाशित छ। यी मानले छुट्टै grade वर्णन गर्छन् र सान्दर्भिक TDS र process सन्दर्भबिना line प्रदर्शन अनुमान गर्न प्रयोग गर्नु हुँदैन।",
+            "फरक रूप र प्याकेजिङ विवरणलाई पनि उत्पादन-विशिष्ट जानकारीको रूपमा पढ्नुपर्छ, एक resin अर्कोभन्दा माथि छ भन्ने विश्वव्यापी क्रमको रूपमा होइन।"
+          ]
+        },
+        {
+          "heading": "गलत प्रतिस्थापनबाट बच्नुहोस्",
+          "body": [
+            "यदि कामलाई reinforced FRP चाहिन्छ भने, GP Clear Resin वा Unsaturated Polyester Resin उत्पादन डाटाबाट सुरु गर्नुहोस्। यदि देखिने बटन वा साना सजावटी moulding चाहिन्छ भने, Button Grade Resin बाट सुरु गर्नुहोस्। फरक तोकिएको material प्रणालीका लागि, GP-बनाम-Button छनोटमा जबरजस्ती नगरी सान्दर्भिक dedicated उत्पादन तुलना गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "निर्णयका लागि के साझा गर्ने",
+          "body": [
+            "अन्तिम भाग, reinforcement संलग्न छ कि छैन, देखिने रूप आवश्यकता, process विधि, अपेक्षित परिमाण र डेलिभरी स्थान साझा गर्नुहोस्। यसले केन्द्रित उत्पादन र quote छलफलका लागि पर्याप्त सन्दर्भ सिर्जना गर्छ।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "button-grade-resin-vs-clear-casting-resin",
     "title": "Button Grade Resin vs Clear Casting Resin",
-    "description": "Compare Samrat's polyester Button Grade Resin with its separate two-part epoxy Clear Casting Resin before selecting a casting system.",
+    "description": "Compare Samrat Poly Resins, India's polyester Button Grade Resin with its separate two-part epoxy Clear Casting Resin before selecting a casting system.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "3 min read",
@@ -5708,7 +6561,90 @@ export const resources = Object.freeze([
           "Share the intended part, required resin system if specified, appearance requirement, process method, expected quantity and delivery location. This enables a product-specific discussion without an unsupported performance promise."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Button Grade Resin बनाम Clear Casting Resin",
+      "description": "Casting प्रणाली छान्नुअघि Samrat Poly Resins, India को polyester Button Grade Resin लाई यसको छुट्टै दुई-भाग epoxy Clear Casting Resin सँग तुलना गर्नुहोस्।",
+      "quickFacts": {
+        "Button Grade Resin": "बटन र साना सजावटी mouldings का लागि unsaturated polyester casting grade",
+        "Clear Casting Resin": "सजावटी र clear casting का लागि दुई-भाग epoxy प्रणाली",
+        "Cure दृष्टिकोण": "छुट्टै प्रकाशित cure जानकारी भएका फरक उत्पादन प्रणाली",
+        "छनोट नियम": "'casting' शब्दको आधारमा मात्र नबदल्नुहोस्"
+      },
+      "comparisonTable": {
+        "title": "प्रकाशित उत्पादन-प्रणाली तुलना",
+        "note": "यो उत्पादन-भूमिका तुलना हो, प्रदर्शन क्रम होइन। कुनै पनि प्रणाली छनोट गर्नुअघि exact TDS र चाहिएको भाग समीक्षा गर्नुहोस्।",
+        "headers": [
+          "निर्णय कारक",
+          "Button Grade Resin",
+          "Clear Casting Resin"
+        ],
+        "rows": [
+          [
+            "Resin प्रणाली",
+            "Unsaturated polyester",
+            "दुई-भाग epoxy"
+          ],
+          [
+            "प्रकाशित भूमिका",
+            "बटन र साना सजावटी mouldings",
+            "River tables, gहना र सजावटी casting"
+          ],
+          [
+            "प्रकाशित cure जानकारी",
+            "MEKP र cobalt octoate प्रणाली; 9.5-मिनेट gel time; लगभग 2-घण्टा cure",
+            "2:1 मिश्रण तौलमा; 24-घण्टा प्रारम्भिक cure; 72-घण्टा पूर्ण cure"
+          ],
+          [
+            "प्रकाशित प्याकेजिङ",
+            "225 kg drum",
+            "20 kg प्याक"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "q": "के Button Grade Resin र Clear Casting Resin उस्तै material हुन्?",
+          "a": "होइन। Button Grade Resin unsaturated polyester casting grade को रूपमा प्रकाशित छ; Clear Casting Resin छुट्टै दुई-भाग epoxy प्रणाली हो।"
+        },
+        {
+          "q": "के खरिदकर्ताले दुवैलाई 'casting resin' भनिएकै आधारमा छान्न सक्छन्?",
+          "a": "होइन। छनोटअघि चाहिएको component, आवश्यक प्रणाली, cure विधि, रूप आवश्यकता र सान्दर्भिक TDS पुष्टि गर्नुहोस्।"
+        },
+        {
+          "q": "बटनका लागि कुन उत्पादन प्रकाशित छ?",
+          "a": "Button Grade Resin बटन र साना सजावटी mouldings का लागि प्रकाशित उत्पादन हो। कुनै वैकल्पिक प्रणाली प्रयोगअघि वास्तविक application का लागि पुष्टि गर्नुपर्छ।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Casting भूमिका हो, एउटै chemistry होइन",
+          "body": [
+            "'casting resin' वाक्यांशले दुई उत्पादनको chemistry वा process उस्तै छ भनी स्थापित गर्दैन। Samrat FRP Traders ले Button Grade Resin लाई बटन र साना सजावटी mouldings का लागि unsaturated polyester grade को रूपमा प्रकाशित गर्दछ। Clear Casting Resin सजावटी र clear casting प्रयोगका लागि छुट्टै दुई-भाग epoxy प्रणाली हो।",
+            "त्यसैले खरिदकर्ताले व्यापक शब्द 'casting' बाट होइन, आवश्यक resin प्रणाली र अन्तिम component बाट सुरु गर्नुपर्छ।"
+          ]
+        },
+        {
+          "heading": "प्रकाशित cure प्रणालीहरू तुलना गर्नुहोस्",
+          "body": [
+            "Button Grade Resin MEKP र cobalt octoate प्रणाली, 9.5-मिनेट gel time र लगभग दुई घण्टा curing time सहित सूचीबद्ध छ। Clear Casting Resin 2:1 resin-देखि-hardener प्रणाली, 24-घण्टा प्रारम्भिक cure र 72-घण्टा पूर्ण cure सहित सूचीबद्ध छ। यी छुट्टै प्रकाशित निर्देशन हुन् र अदलबदल गर्नु हुँदैन।",
+            "exact प्रक्रिया, सुरक्षा आवश्यकता र उपयुक्तता सान्दर्भिक TDS र स्वीकृत process कागजातबाट लिनुपर्छ।"
+          ]
+        },
+        {
+          "heading": "सही छनोट प्रश्न तय गर्नुहोस्",
+          "body": [
+            "बटन वा साना सजावटी moulding आवश्यकताका लागि, Button Grade Resin सान्दर्भिक प्रकाशित सुरुवात बिन्दु हो। यदि drawing, ग्राहक specification वा trial ले epoxy प्रणाली माग्छ भने, Clear Casting Resin लाई छुट्टै उत्पादनको रूपमा समीक्षा गरी समान विकल्प नठानी application विरुद्ध पुष्टि गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "खरिदका लागि दिनुपर्ने जानकारी",
+          "body": [
+            "चाहिएको भाग, तोकिएको भए आवश्यक resin प्रणाली, रूप आवश्यकता, process विधि, अपेक्षित परिमाण र डेलिभरी स्थान साझा गर्नुहोस्। यसले असमर्थित प्रदर्शन दाबीबिना उत्पादन-विशिष्ट छलफल सक्षम बनाउँछ।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "button-resin-gel-time-and-viscosity-guide",
@@ -5798,7 +6734,58 @@ export const resources = Object.freeze([
           "When discussing a process question, share the product and batch, storage history, casting method, timing, ambient conditions, catalyst and accelerator information used under approved procedures, photographs where relevant and the observed result. This provides a factual starting point without assuming a cause."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Button Resin Gel Time र Viscosity गाइड",
+      "description": "Button-casting छलफल तयार गर्दा Button Grade Resin का लागि प्रकाशित viscosity र gel-time डाटा कसरी पढ्ने।",
+      "quickFacts": {
+        "प्रकाशित viscosity": "1,100 cPs",
+        "प्रकाशित gel time": "9.5 मिनेट",
+        "प्रकाशित cure": "लगभग 2 घण्टा",
+        "नियन्त्रक सन्दर्भ": "Button Grade Resin TDS र वास्तविक process अवस्था"
+      },
+      "sections": [
+        {
+          "heading": "अंकहरूलाई उत्पादन-विशिष्ट डाटाको रूपमा पढ्नुहोस्",
+          "body": [
+            "Button Grade Resin 1,100 cPs viscosity मा प्रकाशित छ, 9.5-मिनेट gel time र लगभग दुई घण्टा curing time सहित। यी मान यही विशिष्ट पारदर्शी polyester casting grade का हुन् र उत्पादन TDS सँगै समीक्षा गर्नुपर्छ।",
+            "GP resin, sheet resin वा epoxy प्रणालीबाट लिइएको अंक विकल्प होइन। फरक grade का फरक formulation, cure प्रणाली र तोकिएको भूमिका हुन्छ।"
+          ]
+        },
+        {
+          "heading": "Viscosity लाई छलफल बिन्दुको रूपमा प्रयोग गर्नुहोस्",
+          "body": [
+            "Viscosity processing छलफलको एक भाग मात्र हो। बटन वा साना सजावटी-mould casting का लागि, वास्तविक casting विधि, mould विवरण, चाहिने रूप र material प्रयोग हुने अवस्था रेकर्ड गर्नुहोस्। प्रकाशित 1,100 cPs मानले आपूर्तिकर्तालाई साझा सन्दर्भ बिन्दु दिन्छ, तर यसले आफैँमा कुनै निश्चित mould वा तल्लो प्रक्रिया पुष्टि गर्दैन।"
+          ]
+        },
+        {
+          "heading": "Gel time लाई योजना सन्दर्भको रूपमा प्रयोग गर्नुहोस्",
+          "body": [
+            "प्रकाशित 9.5-मिनेट gel time ले working-window छलफललाई आकार दिन मद्दत गर्छ। परिवेश अवस्था, catalyst प्रणाली र वास्तविक process रेकर्ड पनि महत्त्वपूर्ण हुन्छन्। अपुष्ट परिवर्तनद्वारा timing सुधार्ने प्रयास नगरी उत्पादन TDS र स्वीकृत निर्देशन पालना गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "प्राविधिक सहयोगका लागि सही तथ्यहरू रेकर्ड गर्नुहोस्",
+          "body": [
+            "Process प्रश्नबारे छलफल गर्दा, उत्पादन र batch, storage history, casting विधि, timing, परिवेश अवस्था, स्वीकृत प्रक्रियाअन्तर्गत प्रयोग गरिएको catalyst र accelerator जानकारी, सान्दर्भिक भए फोटो र देखिएको परिणाम साझा गर्नुहोस्। यसले कारण नअनुमान गरी तथ्यगत सुरुवात बिन्दु दिन्छ।"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Button Grade Resin को प्रकाशित viscosity कति हो?",
+          "a": "प्रकाशित viscosity 1,100 cPs हो।"
+        },
+        {
+          "q": "Button Grade Resin को प्रकाशित gel time कति हो?",
+          "a": "प्रकाशित gel time 9.5 मिनेट हो। त्यो अंकको वरिपरि process योजना बनाउनुअघि उत्पादन TDS र वास्तविक अवस्था समीक्षा गर्नुहोस्।"
+        },
+        {
+          "q": "के टिमले gel time परिवर्तन गर्न catalyst dosage फेर्नुपर्छ?",
+          "a": "अनुमानले परिवर्तन नगर्नुहोस्। grade र process का लागि विशिष्ट उत्पादन TDS र स्वीकृत प्राविधिक मार्गदर्शन पालना गर्नुहोस्।"
+        }
+      ]
+    }
   },
   {
     "slug": "button-resin-storage-and-quote-guide",
@@ -5888,7 +6875,58 @@ export const resources = Object.freeze([
           "Resin, catalyst and accelerator handling must follow the product's applicable safety and technical instructions. This procurement guide does not replace those instructions or authorise a mixing or storage procedure."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Button Resin भण्डारण र Quote गाइड",
+      "description": "Button Grade Resin को प्रकाशित shelf life, storage दायरा, प्याकेजिङ र केन्द्रित quote अनुरोधका लागि आवश्यक जानकारीबारे खरिद गाइड।",
+      "quickFacts": {
+        "प्रकाशित shelf life": "2 महिना",
+        "प्रकाशित storage तापक्रम": "30-35 C",
+        "प्रकाशित प्याकेजिङ": "225 kg drum",
+        "MOQ": "यस grade का लागि प्रकाशित छैन"
+      },
+      "faqs": [
+        {
+          "q": "Button Grade Resin को प्रकाशित shelf life कति हो?",
+          "a": "प्रकाशित shelf life निर्माणदेखि दुई महिना हो।"
+        },
+        {
+          "q": "Button Grade Resin का लागि कुन storage तापक्रम प्रकाशित छ?",
+          "a": "प्रकाशित storage तापक्रम 30-35 C हो। उत्पादन र batch का लागि TDS र लागू सुरक्षा निर्देशन पालना गर्नुहोस्।"
+        },
+        {
+          "q": "Button Grade Resin का लागि कुन MOQ प्रकाशित छ?",
+          "a": "यस grade का लागि न्यूनतम अर्डर परिमाण प्रकाशित छैन। अपेक्षित परिमाण र डेलिभरी स्थानसहित quote माग्नुहोस्।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Grade-विशिष्ट storage जानकारी प्रयोग गर्नुहोस्",
+          "body": [
+            "Button Grade Resin दुई महिना shelf life र 30-35 C storage तापक्रमसहित प्रकाशित छ। यी grade-विशिष्ट विवरण विश्वव्यापी polyester-resin अनुमानभन्दा बढी सान्दर्भिक हुन्छन्। exact TDS र लागू सुरक्षा निर्देशन प्राप्ति र उत्पादन रेकर्डसँगै राख्नुहोस्।",
+            "पछि process छलफल आवश्यक भएमा storage history उपयोगी सन्दर्भ हुन सक्छ, त्यसैले उत्पादन, batch, निर्माण वा प्राप्ति मिति, container अवस्था र storage स्थान रेकर्ड गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "प्रकाशित प्याकेजिङको वरिपरि योजना बनाउनुहोस्",
+          "body": [
+            "हालको उत्पादन सूचीले Button Grade Resin लाई 225 kg drum मा प्रकाशित गर्दछ। यसले न्यूनतम अर्डर परिमाण प्रकाशित गर्दैन, त्यसैले site ले कुनै एक बताउँदैन वा संकेत गर्दैन। अनुमानित MOQ मा भर परी नबसी अपेक्षित आवश्यकता साझा गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "केन्द्रित quote अनुरोध तयार गर्नुहोस्",
+          "body": [
+            "चाहिएको बटन वा साना सजावटी moulding, पारदर्शिता वा pigment-रंग आवश्यकता, अपेक्षित परिमाण, थाहा भए casting विधि र डेलिभरी स्थान समावेश गर्नुहोस्। अनुरोध trial वा process प्रश्नपछि आएको भए, सान्दर्भिक उत्पादन र batch जानकारी छुट्टै समावेश गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "सुरक्षा र ह्यान्डलिङ नियन्त्रित राख्नुहोस्",
+          "body": [
+            "Resin, catalyst र accelerator ह्यान्डलिङले उत्पादनको लागू सुरक्षा र प्राविधिक निर्देशन पालना गर्नुपर्छ। यो खरिद गाइडले ती निर्देशन प्रतिस्थापन गर्दैन वा कुनै मिश्रण वा storage प्रक्रिया अख्तियार गर्दैन।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "button-resin-processing-checklist",
@@ -5978,7 +7016,58 @@ export const resources = Object.freeze([
           "Do not add chemicals or change catalyst, accelerator or process inputs by guesswork. Share the documented record with the supplier or technical team so the discussion can focus on verifiable details and the actual application."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Button Resin Processing Checklist: प्राविधिक छलफलअघि के रेकर्ड गर्ने",
+      "description": "तथ्यगत Button Grade Resin processing वा troubleshooting छलफल तयार गर्ने बटन निर्माताका लागि record-पहिलो checklist।",
+      "quickFacts": {
+        "पहिलो प्रतिक्रिया": "उत्पादन, batch, process र देखिएको परिणाम रेकर्ड गर्नुहोस्",
+        "नठान्नुहोस्": "देखिने भिन्नताले एउटै मूल कारण प्रमाणित गर्छ",
+        "यससँग जाँच गर्नुहोस्": "उत्पादन TDS, storage history र स्वीकृत process रेकर्ड",
+        "बच्नुहोस्": "अस्वीकृत catalyst, accelerator वा process परिवर्तन"
+      },
+      "faqs": [
+        {
+          "q": "के देखिने process भिन्नताले Button Grade Resin नै दोषी प्रमाणित गर्छ?",
+          "a": "होइन। देखिने परिणाम मात्रले मूल कारण पहिचान गर्दैन। निष्कर्ष निकाल्नुअघि उत्पादन, batch, storage history, process, अवस्था र देखिएको परिणाम रेकर्ड गर्नुहोस्।"
+        },
+        {
+          "q": "Button Grade Resin प्राविधिक छलफलका लागि के साझा गर्नुपर्छ?",
+          "a": "उत्पादन र batch, चाहिएको भाग, casting विधि, timing, परिवेश अवस्था, storage history, स्वीकृत catalyst र accelerator रेकर्ड, सान्दर्भिक भए फोटो र देखिएको परिणाम साझा गर्नुहोस्।"
+        },
+        {
+          "q": "के टिमले अनुमानका आधारमा catalyst वा accelerator इनपुट बदल्नुपर्छ?",
+          "a": "होइन। विशिष्ट उत्पादन TDS र स्वीकृत प्राविधिक मार्गदर्शन पालना गर्नुहोस्। अपुष्ट परिवर्तनले नयाँ चर सिर्जना गर्न सक्छ र समस्या मूल्याङ्कन गर्न झन् गाह्रो बनाउन सक्छ।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "देखिएको परिणामलाई संकेतको रूपमा लिनुहोस्",
+          "body": [
+            "रूप, casting timing वा ह्यान्डलिङमा परिवर्तनलाई विश्वव्यापी कारणको प्रमाणको रूपमा नभई process दस्तावेज गर्ने संकेतको रूपमा लिनुपर्छ। बटन निर्माणमा विशिष्ट grade, material अवस्था, स्वीकृत इनपुट, casting विधि र उत्पादन अवस्था संलग्न हुन्छन्।",
+            "record-पहिलो दृष्टिकोणले आवश्यक तथ्य उपलब्ध नहुँदै निष्कर्ष निकाल्नबाट उत्पादन टिमलाई जोगाउँछ।"
+          ]
+        },
+        {
+          "heading": "उपयोगी process रेकर्ड बनाउनुहोस्",
+          "body": [
+            "उत्पादन नाम र batch, चाहिएको बटन वा साना सजावटी moulding, उत्पादन प्राप्ति र storage history, casting विधि, process timing, परिवेश अवस्था, प्रयोग गरिएको स्वीकृत catalyst र accelerator जानकारी, र देखिएको परिणाम रेकर्ड गर्नुहोस्। फोटोले निदान नठानी के देखियो भन्ने दस्तावेज गर्न मद्दत गर्न सक्छ।"
+          ]
+        },
+        {
+          "heading": "नियन्त्रक सन्दर्भसँग तुलना गर्नुहोस्",
+          "body": [
+            "Button Grade Resin TDS र स्वीकृत आन्तरिक process रेकर्ड समीक्षा गर्नुहोस्। प्रकाशित उत्पादन विवरणमा 1,100 cPs viscosity, 9.5-मिनेट gel time र लगभग दुई घण्टा curing time समावेश छ, तर लागू उत्पादन निर्देशन र वास्तविक अवस्था नै नियन्त्रक सन्दर्भ रहन्छ।"
+          ]
+        },
+        {
+          "heading": "सुधारात्मक कारबाही नियन्त्रित राख्नुहोस्",
+          "body": [
+            "अनुमानका आधारमा रसायन नथप्नुहोस् वा catalyst, accelerator वा process इनपुट नबदल्नुहोस्। छलफल verifiable विवरण र वास्तविक application मा केन्द्रित हुन सकोस् भनी दस्तावेजीकरण गरिएको रेकर्ड आपूर्तिकर्ता वा प्राविधिक टिमसँग साझा गर्नुहोस्।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "what-is-unsaturated-polyester-resin",
@@ -6003,7 +7092,7 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "UPR": "A broad polyester-resin category used across FRP and composite manufacturing",
-      "Published standard grade": "Samrat's standard clear orthophthalic UPR is supplied as GP Clear Resin",
+      "Published standard grade": "Samrat Poly Resins, India's standard clear orthophthalic UPR is supplied as GP Clear Resin",
       "Selection starts with": "The component, process, product role and stated requirement",
       "Always confirm": "The individual product TDS, packaging and commercial details"
     },
@@ -11699,7 +12788,7 @@ export const resources = Object.freeze([
       {
         "heading": "A matched system is more useful than a generic label",
         "body": [
-          "Samrat's Clear Casting Resin and Epoxy Art Resin product routes each identify a compatible Epoxy Hardener as part of their separately published two-component systems. That published relationship is more useful than assuming any product called epoxy or hardener can be combined.",
+          "Samrat Poly Resins, India's Clear Casting Resin and Epoxy Art Resin product routes each identify a compatible Epoxy Hardener as part of their separately published two-component systems. That published relationship is more useful than assuming any product called epoxy or hardener can be combined.",
           "The relationship does not establish universal compatibility with other epoxy products, suppliers or applications. Review the product-specific TDS and ask for confirmation when the component, product route or documentation requirement differs."
         ]
       },
@@ -11802,7 +12891,7 @@ export const resources = Object.freeze([
   {
     "slug": "epoxy-hardener-vs-mekp-hardener",
     "title": "Epoxy Hardener vs MEKP Hardener: Different Product Roles",
-    "description": "Separate Samrat's published epoxy-system curing agent from its MEKP catalyst / initiator route for polyester-family resin systems.",
+    "description": "Separate Samrat Poly Resins, India's published epoxy-system curing agent from its MEKP catalyst / initiator route for polyester-family resin systems.",
     "category": "Comparison Guide",
     "icon": "grid",
     "readingTime": "4 min read",
@@ -11915,7 +13004,7 @@ export const resources = Object.freeze([
   {
     "slug": "epoxy-hardener-vs-uv-resin-curing",
     "title": "Epoxy Hardener vs UV Resin Curing: Choosing the Correct Product Route",
-    "description": "Separate the published compatible epoxy hardener route from Samrat's separate UV/LED-curable UV Resin product route.",
+    "description": "Separate the published compatible epoxy hardener route from Samrat Poly Resins, India's separate UV/LED-curable UV Resin product route.",
     "category": "Comparison Guide",
     "icon": "grid",
     "readingTime": "3 min read",
@@ -11929,7 +13018,7 @@ export const resources = Object.freeze([
         "UV LED Resin"
       ],
       "ogTitle": "Epoxy Hardener vs UV Resin Curing",
-      "ogDescription": "Understand why Samrat's UV Resin is a separate UV/LED-curable route rather than a product that uses the published Epoxy Hardener."
+      "ogDescription": "Understand why Samrat Poly Resins, India's UV Resin is a separate UV/LED-curable route rather than a product that uses the published Epoxy Hardener."
     },
     "quickFacts": {
       "Epoxy Hardener route": "Separate component in a compatible two-component epoxy system",
@@ -12002,7 +13091,7 @@ export const resources = Object.freeze([
   {
     "slug": "epoxy-hardener-for-clear-casting-and-art-resin",
     "title": "Epoxy Hardener for Clear Casting and Art Resin: Buyer Guide",
-    "description": "Understand the documented Epoxy Hardener relationship to Samrat's separate Clear Casting Resin and Epoxy Art Resin product routes.",
+    "description": "Understand the documented Epoxy Hardener relationship to Samrat Poly Resins, India's separate Clear Casting Resin and Epoxy Art Resin product routes.",
     "category": "System Selection",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -12105,7 +13194,7 @@ export const resources = Object.freeze([
         "SMC Polyester Resin"
       ],
       "ogTitle": "What Is DMC / SMC Resin?",
-      "ogDescription": "A buyer guide to Samrat's published DMC/SMC orthophthalic unsaturated polyester resin route."
+      "ogDescription": "A buyer guide to Samrat Poly Resins, India's published DMC/SMC orthophthalic unsaturated polyester resin route."
     },
     "quickFacts": {
       "Published product": "One DMC/SMC Resin product route",
@@ -12163,7 +13252,7 @@ export const resources = Object.freeze([
         "heading": "What DMC and SMC mean in the current documentation",
         "body": [
           "The current TDS expands DMC as Dough Moulding Compound and SMC as Sheet Moulding Compound. Those are the two named product contexts for the one published resin route.",
-          "The document does not publish a separate DMC formula, a separate SMC formula or a manufacturing recipe. It also does not make the word 'sheet' in SMC interchangeable with Samrat's separate FRP Sheet Grade Yellow Resin or Roof Light Sheet Grade Resin products."
+          "The document does not publish a separate DMC formula, a separate SMC formula or a manufacturing recipe. It also does not make the word 'sheet' in SMC interchangeable with Samrat Poly Resins, India's separate FRP Sheet Grade Yellow Resin or Roof Light Sheet Grade Resin products."
         ]
       },
       {
@@ -12294,7 +13383,7 @@ export const resources = Object.freeze([
         "FRP Sheet Resin"
       ],
       "ogTitle": "SMC Resin vs Sheet Grade Resin",
-      "ogDescription": "Separate Sheet Moulding Compound resin selection from Samrat's published FRP sheet and panel product routes."
+      "ogDescription": "Separate Sheet Moulding Compound resin selection from Samrat Poly Resins, India's published FRP sheet and panel product routes."
     },
     "quickFacts": {
       "SMC Resin": "Published for Sheet Moulding Compound context",
@@ -12370,7 +13459,7 @@ export const resources = Object.freeze([
       {
         "heading": "The shared word does not create a shared product role",
         "body": [
-          "SMC means Sheet Moulding Compound in the current DMC/SMC Resin TDS. By contrast, Samrat's Sheet Grade Yellow Resin and Roof Light Sheet Grade Resin pages are separate product routes for finished FRP sheet, panel or roofing-sheet contexts.",
+          "SMC means Sheet Moulding Compound in the current DMC/SMC Resin TDS. By contrast, Samrat Poly Resins, India's Sheet Grade Yellow Resin and Roof Light Sheet Grade Resin pages are separate product routes for finished FRP sheet, panel or roofing-sheet contexts.",
           "The same word can refer to different buyer questions. Treat the published product role and its current TDS as the selection starting point rather than assuming any resin with 'sheet' in its description uses the same data."
         ]
       },
@@ -12393,7 +13482,7 @@ export const resources = Object.freeze([
   {
     "slug": "dmc-smc-resin-vs-gp-resin",
     "title": "DMC/SMC Resin vs GP Resin: Moulding Compound or General FRP?",
-    "description": "Compare Samrat's published DMC/SMC moulding-compound route with general-purpose polyester resin selection, while keeping both within the broader UPR family.",
+    "description": "Compare Samrat Poly Resins, India's published DMC/SMC moulding-compound route with general-purpose polyester resin selection, while keeping both within the broader UPR family.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -12507,7 +13596,7 @@ export const resources = Object.freeze([
   {
     "slug": "dmc-smc-resin-applications",
     "title": "DMC/SMC Resin Applications: Published Industrial Contexts",
-    "description": "Review the DMC/SMC Resin applications listed in Samrat's current TDS and the finished-component questions that still require separate confirmation.",
+    "description": "Review the DMC/SMC Resin applications listed in Samrat Poly Resins, India's current TDS and the finished-component questions that still require separate confirmation.",
     "category": "Application Guide",
     "icon": "grid",
     "readingTime": "4 min read",
@@ -12919,8 +14008,8 @@ export const resources = Object.freeze([
   },
   {
     "slug": "what-is-pet-modified-polyester-resin",
-    "title": "What Is PET Resin / Polyester Putty Resin? Samrat's PET-Modified Resin Explained",
-    "description": "PET Resin / Polyester Putty Resin is Samrat's PET-modified liquid unsaturated polyester sheet grade. Understand what it is, how the dual name works and where it's used.",
+    "title": "What Is PET Resin / Polyester Putty Resin? Samrat Poly Resins, India's PET-Modified Resin Explained",
+    "description": "PET Resin / Polyester Putty Resin is Samrat Poly Resins, India's PET-modified liquid unsaturated polyester sheet grade. Understand what it is, how the dual name works and where it's used.",
     "category": "Technical Guide",
     "icon": "info",
     "readingTime": "4 min read",
@@ -12936,7 +14025,7 @@ export const resources = Object.freeze([
         "FRP Sheet Lamination Resin"
       ],
       "ogTitle": "What Is PET Resin / Polyester Putty Resin?",
-      "ogDescription": "A clear explanation of Samrat's PET-modified liquid unsaturated polyester sheet grade, marketed as PET Resin / Polyester Putty Resin."
+      "ogDescription": "A clear explanation of Samrat Poly Resins, India's PET-modified liquid unsaturated polyester sheet grade, marketed as PET Resin / Polyester Putty Resin."
     },
     "quickFacts": {
       "Published product": "PET Resin / Polyester Putty Resin",
@@ -12974,7 +14063,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "What is PET Resin / Polyester Putty Resin on this site?",
-        "a": "It's Samrat's PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade for PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing. Full technical data is on the current TDS."
+        "a": "It's Samrat Poly Resins, India's PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade for PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing. Full technical data is on the current TDS."
       },
       {
         "q": "Is this PET Resin a conventional thermoplastic PET material?",
@@ -12989,7 +14078,7 @@ export const resources = Object.freeze([
       {
         "heading": "The PET Resin / Polyester Putty Resin identity",
         "body": [
-          "Samrat FRP Traders manufactures PET Resin / Polyester Putty Resin as a PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade. The current TDS describes polyethylene terephthalate content in a liquid, styrene-compatible resin system and is the controlling technical reference for this product.",
+          "Samrat FRP Traders supplies and imports PET Resin / Polyester Putty Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as a PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade. The current TDS describes polyethylene terephthalate content in a liquid, styrene-compatible resin system and is the controlling technical reference for this product.",
           "It sits within the broader unsaturated polyester resin family while retaining its own grade and application context — start with your exact finished sheet or laminate requirement and the current TDS."
         ]
       },
@@ -13018,7 +14107,7 @@ export const resources = Object.freeze([
   {
     "slug": "pet-resin-liquid-grade-vs-thermoplastic-pet",
     "title": "PET Resin Material Forms: Liquid Polyester Grade vs Thermoplastic PET",
-    "description": "Distinguish Samrat's PET Resin / Polyester Putty Resin liquid sheet grade from conventional thermoplastic PET chips, pellets and commodity-plastic material.",
+    "description": "Distinguish Samrat Poly Resins, India's PET Resin / Polyester Putty Resin liquid sheet grade from conventional thermoplastic PET chips, pellets and commodity-plastic material.",
     "category": "Product Selection",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -13119,21 +14208,21 @@ export const resources = Object.freeze([
       {
         "heading": "Thermoplastic PET is a different material form",
         "body": [
-          "Thermoplastic PET is commonly supplied as chips or pellets for melt processing. Samrat's PET Resin / Polyester Putty Resin page instead describes a liquid PET-modified unsaturated polyester sheet grade.",
+          "Thermoplastic PET is commonly supplied as chips or pellets for melt processing. Samrat Poly Resins, India's PET Resin / Polyester Putty Resin page instead describes a liquid PET-modified unsaturated polyester sheet grade.",
           "Buyers should identify the required material form before comparing specifications or requesting a quotation."
         ]
       },
       {
         "heading": "Liquid raw resin is not a ready-made putty",
         "body": [
-          "Samrat's PET Resin / Polyester Putty Resin is supplied as a liquid resin. A ready-made polyester putty or body filler is a complete formulated end product.",
+          "Samrat Poly Resins, India's PET Resin / Polyester Putty Resin is supplied as a liquid resin. A ready-made polyester putty or body filler is a complete formulated end product.",
           "Sanding, adhesion, shrinkage, hardness, flexibility and repair performance cannot be assigned to the liquid resin alone from the current product data."
         ]
       },
       {
         "heading": "A clearer purchase brief",
         "body": [
-          "State the required material form first. For Samrat's liquid grade, provide the finished sheet, laminate or panel application, quantity, packaging need, delivery location and requested documentation. If the requirement is thermoplastic PET or a ready-made putty, say so at the outset so the enquiry is not routed to the wrong product."
+          "State the required material form first. For Samrat Poly Resins, India's liquid grade, provide the finished sheet, laminate or panel application, quantity, packaging need, delivery location and requested documentation. If the requirement is thermoplastic PET or a ready-made putty, say so at the outset so the enquiry is not routed to the wrong product."
         ]
       }
     ]
@@ -13141,7 +14230,7 @@ export const resources = Object.freeze([
   {
     "slug": "pet-resin-applications-sheet-lamination-and-panels",
     "title": "PET Resin Applications: Published Sheet Lamination and Panel Contexts",
-    "description": "Review the PET Resin applications listed in Samrat's current TDS and the finished-product questions that still require separate confirmation.",
+    "description": "Review the PET Resin applications listed in Samrat Poly Resins, India's current TDS and the finished-product questions that still require separate confirmation.",
     "category": "Application Guide",
     "icon": "grid",
     "readingTime": "4 min read",
@@ -13156,7 +14245,7 @@ export const resources = Object.freeze([
         "Panel Manufacturing Resin"
       ],
       "ogTitle": "PET Resin Applications: Sheet Lamination and Panels",
-      "ogDescription": "A buyer-level guide to the sheet and panel contexts listed in Samrat's PET Resin TDS."
+      "ogDescription": "A buyer-level guide to the sheet and panel contexts listed in Samrat Poly Resins, India's PET Resin TDS."
     },
     "quickFacts": {
       "Listed application": "PET sheets and fibre sheet products",
@@ -13238,7 +14327,7 @@ export const resources = Object.freeze([
   {
     "slug": "pet-resin-vs-gp-resin",
     "title": "PET Resin vs GP Resin: Sheet Grade or General FRP Route?",
-    "description": "Compare Samrat's published PET-modified liquid sheet-grade route with the separate general-purpose GP Resin route without transferring applications or technical data between them.",
+    "description": "Compare Samrat Poly Resins, India's published PET-modified liquid sheet-grade route with the separate general-purpose GP Resin route without transferring applications or technical data between them.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -13361,7 +14450,7 @@ export const resources = Object.freeze([
   {
     "slug": "pet-resin-vs-lamination-resin",
     "title": "PET Resin vs Lamination Resin: Different Sheet and Laminate Routes",
-    "description": "Separate Samrat's documented PET-modified sheet-grade route from the published Lamination Resin route for door, plywood and FRP lamination contexts.",
+    "description": "Separate Samrat Poly Resins, India's documented PET-modified sheet-grade route from the published Lamination Resin route for door, plywood and FRP lamination contexts.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -13638,7 +14727,7 @@ export const resources = Object.freeze([
         "Epoxy Vinyl Ester Resin",
         "Vinyl Ester Resin for FRP",
         "Industrial Vinyl Ester Resin",
-        "Vinyl Ester Resin India"
+        "Vinyl Ester Resin Nepal"
       ],
       "ogTitle": "What Is Vinyl Ester Resin?",
       "ogDescription": "A document-led buyer guide to Samrat FRP Traders' published industrial-grade Bisphenol-A epoxy vinyl ester route."
@@ -13685,7 +14774,7 @@ export const resources = Object.freeze([
       },
       {
         "q": "What does Epoxy Vinyl Ester mean here?",
-        "a": "The phrase is part of the current Vinyl Ester Resin TDS nomenclature. It does not make this product the same as Samrat's separately published conventional epoxy resin routes, which have their own product data and intended uses."
+        "a": "The phrase is part of the current Vinyl Ester Resin TDS nomenclature. It does not make this product the same as Samrat Poly Resins, India's separately published conventional epoxy resin routes, which have their own product data and intended uses."
       },
       {
         "q": "Is Vinyl Ester Resin a finished FRP tank or pipe system?",
@@ -13707,7 +14796,7 @@ export const resources = Object.freeze([
       {
         "heading": "What 'epoxy vinyl ester' means on this product page",
         "body": [
-          "The words 'epoxy vinyl ester' are the current TDS terminology for this Vinyl Ester product. They describe the published product family; they do not mean that the material is interchangeable with Samrat's separately listed Epoxy Clear Casting Resin, Epoxy Art Resin, Fiberglass Epoxy Resin or Epoxy Hardener.",
+          "The words 'epoxy vinyl ester' are the current TDS terminology for this Vinyl Ester product. They describe the published product family; they do not mean that the material is interchangeable with Samrat Poly Resins, India's separately listed Epoxy Clear Casting Resin, Epoxy Art Resin, Fiberglass Epoxy Resin or Epoxy Hardener.",
           "The useful buyer question is which documented material route matches the component and service requirement. Decorative casting, art or a conventional epoxy-system requirement should be reviewed against those separate product pages and TDS documents rather than inferred from the word 'epoxy' in Vinyl Ester Resin."
         ]
       },
@@ -13732,12 +14821,77 @@ export const resources = Object.freeze([
           "Where a project names a fire class, test method, service temperature or chemical duty, provide that information in the enquiry. Do not convert a broad chemical- or corrosion-resistance product position into an unverified project approval."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Vinyl Ester Resin भनेको के हो?",
+      "description": "दस्तावेजीकृत FRP chemical- र corrosion-service छलफलका लागि Samrat FRP Traders को प्रकाशित industrial-grade Bisphenol-A epoxy vinyl ester route बुझ्नुहोस्।",
+      "quickFacts": {
+        "प्रकाशित उत्पादन": "Industrial-grade Vinyl Ester Resin",
+        "प्रकाशित chemistry": "Bisphenol-A आधारित epoxy vinyl ester",
+        "प्रकाशित छनोट सन्दर्भ": "Chemical- र corrosion-service FRP छलफल",
+        "दस्तावेज सीमा": "कुनै chemical-compatibility chart वा finished-component स्वीकृति प्रकाशित छैन"
+      },
+      "faqs": [
+        {
+          "q": "यस site मा Vinyl Ester Resin भनेको के हो?",
+          "a": "Samrat FRP Traders ले हालको TDS मा Bisphenol-A आधारित epoxy vinyl ester उत्पादनको रूपमा पहिचान गरिएको एउटा industrial-grade Vinyl Ester Resin chemical- र corrosion-service FRP छलफलका लागि प्रकाशित गर्दछ।"
+        },
+        {
+          "q": "यहाँ 'Epoxy Vinyl Ester' को अर्थ के हो?",
+          "a": "यो वाक्यांश हालको Vinyl Ester Resin TDS को नामाकरणको भाग हो। यसले यो उत्पादनलाई Samrat Poly Resins, India ले छुट्टै प्रकाशित गरेको परम्परागत epoxy resin routes जस्तै बनाउँदैन, जसका आफ्नै उत्पादन डाटा र तोकिएको प्रयोग छन्।"
+        },
+        {
+          "q": "के Vinyl Ester Resin एउटा तयार FRP tank वा pipe प्रणाली हो?",
+          "a": "होइन। उत्पादन resin वा matrix component हो। तयार FRP प्रदर्शन reinforcement, निर्माण, मोटाइ, सतह वा corrosion-barrier प्रणाली, cure अवस्था र परीक्षण गरिएको configuration मा निर्भर हुन सक्छ।"
+        },
+        {
+          "q": "के Samrat Poly Resins, India ले Vinyl Ester chemical-compatibility chart प्रकाशित गर्छ?",
+          "a": "हालको Vinyl Ester दस्तावेजमा कुनै chart, concentration सीमा वा application-विशिष्ट स्वीकृति छैन। resin प्रणाली छनोटअघि वास्तविक माध्यम, concentration, तापक्रम र component आवश्यकता साझा गर्नुहोस्।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "दस्तावेजीकृत उत्पादन पहिचानबाट सुरु गर्नुहोस्",
+          "body": [
+            "Samrat FRP Traders ले Vinyl Ester Resin लाई एउटा industrial-grade उत्पादनको रूपमा प्रकाशित गर्दछ। यसको हालको Technical Data Sheet ले resin प्रकारलाई Bisphenol-A आधारित epoxy vinyl ester भनी पहिचान गर्दछ र यसलाई industrial FRP छलफलका लागि तय गर्दछ जहाँ chemical वा corrosion service material छनोटको भाग हो।",
+            "यो विशेषज्ञ resin route हो जुन finished component र हालको दस्तावेजसँगै समीक्षा गर्नुपर्छ। यो हरेक polyester resin, हरेक composite प्रयोग वा हरेक परम्परागत epoxy प्रणालीका लागि सामान्य label होइन।"
+          ]
+        },
+        {
+          "heading": "यस उत्पादन पृष्ठमा 'epoxy vinyl ester' को अर्थ",
+          "body": [
+            "'epoxy vinyl ester' शब्दहरू यस Vinyl Ester उत्पादनका लागि हालको TDS terminology हुन्। यिनले प्रकाशित उत्पादन परिवार वर्णन गर्छन्; यिनले material Samrat Poly Resins, India ले छुट्टै सूचीबद्ध गरेको Epoxy Clear Casting Resin, Epoxy Art Resin, Fiberglass Epoxy Resin वा Epoxy Hardener सँग अदलबदल गर्न मिल्छ भन्ने अर्थ दिँदैनन्।",
+            "उपयोगी खरिदकर्ता प्रश्न हो कि कुन दस्तावेजीकृत material route ले component र सेवा आवश्यकता मिलाउँछ। सजावटी casting, art वा परम्परागत epoxy-प्रणाली आवश्यकता ती छुट्टै उत्पादन पृष्ठ र TDS दस्तावेजविरुद्ध समीक्षा गर्नुपर्छ, Vinyl Ester Resin मा 'epoxy' शब्दबाट अनुमान गर्नु हुँदैन।"
+          ]
+        },
+        {
+          "heading": "प्रकाशित industrial FRP सन्दर्भ",
+          "body": [
+            "Vinyl Ester TDS ले FRP tanks र chemical storage vessels; pipelines, ducts र scrubbers; cooling towers, pressure vessels र offshore संरचना; र marine, pultrusion र filament-winding सन्दर्भ सूचीबद्ध गर्दछ। यी उत्पादन-छनोट categories हुन्, ती categories भित्रका हरेक component का लागि स्वीकृति होइनन्।",
+            "उही TDS ले उत्पादन-डाटा स्तरमा पानी, acids, alkalis र solvents प्रतिरोध वर्णन गर्दछ। यसले कुनै विशेष project का लागि chemical concentration, exposure अवधि, finished laminate design वा स्वीकृत सेवा अवस्था पहिचान गर्दैन।"
+          ]
+        },
+        {
+          "heading": "उत्पादन डाटालाई finished FRP प्रदर्शनबाट छुट्टै राख्नुहोस्",
+          "body": [
+            "Vinyl Ester Resin FRP प्रणालीमा matrix वा resin component हो। Glass Fiber छुट्टै reinforcement निर्णय हो, जबकि laminate निर्माण, मोटाइ, सतह वा corrosion-barrier प्रणाली, cure अवस्था र परीक्षण गरिएको configuration ले finished component लाई असर गर्न सक्छ।",
+            "त्यसैले, प्रकाशित resin डाटा छनोटको सुरुवात बिन्दु हो, finished tank, pipe, duct वा profile को स्वीकृति होइन। खरिदअघि हालको TDS समीक्षा गरी वास्तविक application आवश्यकता साझा गर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "हालका दस्तावेजले के स्थापित गर्दैनन्",
+          "body": [
+            "यस repository मा Vinyl Ester chemical-compatibility chart, chemical-विशिष्ट सिफारिस, concentration सीमा, उत्पादन-विशिष्ट continuous-service-temperature सीमा, fire rating, mechanical-property table वा finished-system test report छैन। खरिदकर्तासँग अनिवार्य project आवश्यकता हुँदा यी अभावहरू महत्त्वपूर्ण हुन्छन्।",
+            "जहाँ project ले fire class, test method, service temperature वा chemical duty तोक्छ, त्यो जानकारी सोधपुछमा दिनुहोस्। व्यापक chemical- वा corrosion-resistance उत्पादन स्थितिलाई अपुष्ट project स्वीकृतिमा नबदल्नुहोस्।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "vinyl-ester-resin-vs-isophthalic-resin",
     "title": "Vinyl Ester Resin vs Isophthalic Resin",
-    "description": "A cautious buyer comparison between Samrat's published Vinyl Ester route and an isophthalic-resin requirement where the exact product data still matters.",
+    "description": "A cautious buyer comparison between Samrat Poly Resins, India's published Vinyl Ester route and an isophthalic-resin requirement where the exact product data still matters.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "5 min read",
@@ -13838,7 +14992,7 @@ export const resources = Object.freeze([
       {
         "heading": "What the current Vinyl Ester data establishes",
         "body": [
-          "Samrat's Vinyl Ester TDS identifies an industrial-grade Bisphenol-A epoxy vinyl ester product and lists industrial FRP application categories where chemical or corrosion service is relevant. It provides typical product data, not a performance chart against an unspecified isophthalic grade.",
+          "Samrat Poly Resins, India's Vinyl Ester TDS identifies an industrial-grade Bisphenol-A epoxy vinyl ester product and lists industrial FRP application categories where chemical or corrosion service is relevant. It provides typical product data, not a performance chart against an unspecified isophthalic grade.",
           "No direct chemical-resistance hierarchy, temperature ranking, corrosion-life comparison or mechanical comparison with a general isophthalic resin is published in the repository. This guide does not invent one."
         ]
       },
@@ -13849,12 +15003,85 @@ export const resources = Object.freeze([
           "If both a service environment and a fire requirement are present, communicate both. One label does not automatically satisfy the other, and the finished FRP system may need its own verification."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Vinyl Ester Resin बनाम Isophthalic Resin",
+      "description": "Samrat Poly Resins, India को प्रकाशित Vinyl Ester route र isophthalic-resin आवश्यकताबीच सावधान खरिदकर्ता तुलना, जहाँ exact उत्पादन डाटा अझै महत्त्वपूर्ण हुन्छ।",
+      "quickFacts": {
+        "Vinyl Ester उत्पादन": "Bisphenol-A epoxy vinyl ester, industrial grade",
+        "प्रकाशित isophthalic route": "ISO Fire Retardant Resin छुट्टै isophthalic FR उत्पादन हो",
+        "स्वतन्त्र तुलना डाटा छैन": "यस repository मा कुनै non-FR सामान्य isophthalic उत्पादन TDS प्रकाशित छैन",
+        "छनोट सुरुवात बिन्दु": "वास्तविक component, सेवा आवश्यकता र हालको उत्पादन डाटा"
+      },
+      "comparisonTable": {
+        "title": "प्रकाशित उत्पादन routes सावधानीपूर्वक तुलना गर्नुहोस्",
+        "note": "यो chemical-प्रतिरोध, तापक्रम वा टिकाउपनको क्रम होइन। repository ले Vinyl Ester Resin सँग प्रत्यक्ष प्रदर्शन तुलनाका लागि सामान्य non-FR isophthalic उत्पादन डाटा सेट प्रकाशित गर्दैन।",
+        "headers": [
+          "खरिदकर्ता जाँच",
+          "Vinyl Ester Resin",
+          "Isophthalic-resin आवश्यकता"
+        ],
+        "rows": [
+          [
+            "प्रकाशित Samrat उत्पादन सन्दर्भ",
+            "तोकिएको chemical- वा corrosion-service FRP छलफलका लागि Industrial-grade Bisphenol-A epoxy vinyl ester",
+            "site ले ISO Fire Retardant Resin लाई छुट्टै isophthalic FR route को रूपमा प्रकाशित गर्दछ"
+          ],
+          [
+            "के समीक्षा गर्ने",
+            "Vinyl Ester Resin TDS, finished component र वास्तविक सेवा अवस्था",
+            "exact isophthalic उत्पादन TDS, fire आवश्यकता specification को भाग हो कि छैन सहित"
+          ],
+          [
+            "के नठान्ने",
+            "व्यापक प्रतिरोध कथन chemical-विशिष्ट स्वीकृति होइन",
+            "isophthalic label मात्रले Vinyl Ester प्रदर्शन वा finished-system परिणाम स्थापित गर्दैन"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "q": "के Vinyl Ester Resin isophthalic resin जस्तै हो?",
+          "a": "कुनै अदलबदलयोग्यता प्रकाशित छैन। Vinyl Ester TDS ले Bisphenol-A आधारित epoxy vinyl ester उत्पादन पहिचान गर्दछ, जबकि site को ISO Fire Retardant TDS ले छुट्टै isophthalic FR उत्पादन route पहिचान गर्दछ।"
+        },
+        {
+          "q": "के यस site ले प्रत्यक्ष तुलनाका लागि सामान्य isophthalic resin TDS प्रकाशित गर्छ?",
+          "a": "repository मा कुनै स्वतन्त्र non-FR सामान्य isophthalic उत्पादन डाटा सेट भेटिएन। खरिदकर्ताले व्यापक category शब्दबाट अनुमान नगरी exact chemistry वा grade आवश्यकता साझा गर्नुपर्छ।"
+        },
+        {
+          "q": "fire आवश्यकताका लागि खरिदकर्ताले कुन route समीक्षा गर्नुपर्छ?",
+          "a": "fire आवश्यकता तोकिएको बेला छुट्टै प्रकाशित Fire Retardant वा ISO Fire Retardant उत्पादन डाटा समीक्षा गर्नुहोस्। यस site मा Vinyl Ester Resin fire-retardant grade को रूपमा प्रस्तुत गरिएको छैन।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "family label होइन, उत्पादन आवश्यकताबाट सुरु गर्नुहोस्",
+          "body": [
+            "'Isophthalic resin' खरिदकर्ताको खोज शब्द हुन सक्छ, तर Samrat उत्पादन छनोटका लागि यो पर्याप्त जानकारी होइन। repository ले Vinyl Ester Resin सँग प्रत्यक्ष value-by-value तुलना समर्थन गर्ने स्वतन्त्र, non-fire-retardant सामान्य isophthalic उत्पादन पृष्ठ वा TDS प्रकाशित गर्दैन।",
+            "site ले ISO Fire Retardant Resin लाई छुट्टै isophthalic उत्पादन route को रूपमा प्रकाशित गर्दछ। त्यो उत्पादन नाममा, ISO ले isophthalic chemistry जनाउँछ, ISO certification होइन। यसको fire-retardant सन्दर्भ Vinyl Ester chemical- वा corrosion-service छलफलबाट छुट्टै रहनुपर्छ।"
+          ]
+        },
+        {
+          "heading": "हालको Vinyl Ester डाटाले के स्थापित गर्दछ",
+          "body": [
+            "Samrat Poly Resins, India को Vinyl Ester TDS ले industrial-grade Bisphenol-A epoxy vinyl ester उत्पादन पहिचान गर्दछ र chemical वा corrosion service सान्दर्भिक भएका industrial FRP application categories सूचीबद्ध गर्दछ। यसले typical उत्पादन डाटा दिन्छ, नतोकिएको isophthalic grade विरुद्ध प्रदर्शन chart होइन।",
+            "सामान्य isophthalic resin सँग कुनै प्रत्यक्ष chemical-प्रतिरोध क्रम, तापक्रम क्रम, corrosion-life तुलना वा mechanical तुलना repository मा प्रकाशित छैन। यो गाइडले त्यस्तो केही आविष्कार गर्दैन।"
+          ]
+        },
+        {
+          "heading": "छनोटलाई वास्तविक सेवा आवश्यकतामा केन्द्रित गर्नुहोस्",
+          "body": [
+            "तोकिएको chemical- वा corrosion-service आवश्यकताका लागि, वास्तविक माध्यम, concentration, सान्दर्भिक भए operating तापक्रम, finished component र project दस्तावेजसँगै Vinyl Ester Resin TDS समीक्षा गर्नुहोस्। तोकिएको isophthalic वा fire-प्रदर्शन आवश्यकताका लागि, त्यसको साटो exact छुट्टै प्रकाशित उत्पादन डाटा समीक्षा गर्नुहोस्।",
+            "यदि सेवा वातावरण र fire आवश्यकता दुवै छन् भने, दुवै सञ्चार गर्नुहोस्। एउटा label ले स्वतः अर्को पूरा गर्दैन, र finished FRP प्रणालीलाई आफ्नै verification चाहिन सक्छ।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "vinyl-ester-resin-vs-epoxy-resin",
     "title": "Vinyl Ester Resin vs Epoxy Resin",
-    "description": "Separate Samrat's published epoxy vinyl ester route from its conventional epoxy resin products before selecting a material system for an industrial requirement.",
+    "description": "Separate Samrat Poly Resins, India's published epoxy vinyl ester route from its conventional epoxy resin products before selecting a material system for an industrial requirement.",
     "category": "Comparison Guide",
     "icon": "grid",
     "readingTime": "5 min read",
@@ -13938,7 +15165,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "Is Epoxy Vinyl Ester Resin the same as Epoxy Resin?",
-        "a": "No. Samrat's Vinyl Ester TDS uses 'Bisphenol-A epoxy vinyl ester' to identify its Vinyl Ester product. The site separately publishes conventional epoxy product routes, each with its own documentation and intended-use context."
+        "a": "No. Samrat Poly Resins, India's Vinyl Ester TDS uses 'Bisphenol-A epoxy vinyl ester' to identify its Vinyl Ester product. The site separately publishes conventional epoxy product routes, each with its own documentation and intended-use context."
       },
       {
         "q": "Can an epoxy casting product be used instead of Vinyl Ester Resin for a chemical-service FRP requirement?",
@@ -13971,12 +15198,90 @@ export const resources = Object.freeze([
           "This comparison intentionally excludes mixing ratios, catalyst information, cure schedules and fabrication instructions. Those details are system-specific and are not a safe basis for a general product comparison."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Vinyl Ester Resin बनाम Epoxy Resin",
+      "description": "Industrial आवश्यकताका लागि material प्रणाली छनोट गर्नुअघि Samrat Poly Resins, India को प्रकाशित epoxy vinyl ester route लाई यसको परम्परागत epoxy resin उत्पादनहरूबाट छुट्टै राख्नुहोस्।",
+      "quickFacts": {
+        "Vinyl Ester शब्दावली": "हालको TDS मा Bisphenol-A epoxy vinyl ester",
+        "Vinyl Ester भूमिका": "Industrial FRP chemical- र corrosion-service छलफल",
+        "छुट्टै epoxy routes": "Clear Casting, Epoxy Art र Fiberglass Epoxy उत्पादनका आफ्नै पृष्ठ र दस्तावेज छन्",
+        "छनोट नियन्त्रण": "exact उत्पादन route लाई finished application सँग मिलाउनुहोस्"
+      },
+      "comparisonTable": {
+        "title": "फरक प्रकाशित उत्पादन routes",
+        "note": "यहाँ कुनै material परिवारलाई विश्वव्यापी उन्नयनको रूपमा प्रस्तुत गरिएको छैन। साझा शब्द 'epoxy' मा भर नपरी exact उत्पादन TDS र तोकिएको application समीक्षा गर्नुहोस्।",
+        "headers": [
+          "खरिदकर्ता प्रश्न",
+          "Vinyl Ester Resin",
+          "छुट्टै epoxy उत्पादन routes"
+        ],
+        "rows": [
+          [
+            "प्रकाशित पहिचान",
+            "Industrial-grade Bisphenol-A epoxy vinyl ester",
+            "आफ्नै प्रणाली दस्तावेज भएका छुट्टै सूचीबद्ध परम्परागत epoxy उत्पादन"
+          ],
+          [
+            "प्रकाशित सुरुवात सन्दर्भ",
+            "Chemical वा corrosion service भाग भएको Industrial FRP",
+            "तोकिएको उत्पादन अनुसार clear casting, art/सजावटी काम वा structural fiberglass सन्दर्भ"
+          ],
+          [
+            "समीक्षा गर्ने दस्तावेज",
+            "Vinyl Ester Resin TDS",
+            "exact epoxy उत्पादन पृष्ठ र मिल्दो दस्तावेज"
+          ],
+          [
+            "के नठान्ने",
+            "'epoxy vinyl ester' परम्परागत epoxy उत्पादन हो",
+            "परम्परागत epoxy उत्पादन Vinyl Ester chemical-service route को विकल्प हो"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "q": "के Epoxy Vinyl Ester Resin Epoxy Resin जस्तै हो?",
+          "a": "होइन। Samrat Poly Resins, India को Vinyl Ester TDS ले आफ्नो Vinyl Ester उत्पादन पहिचान गर्न 'Bisphenol-A epoxy vinyl ester' प्रयोग गर्दछ। site ले छुट्टै परम्परागत epoxy उत्पादन routes प्रकाशित गर्दछ, हरेकको आफ्नै दस्तावेज र तोकिएको-प्रयोग सन्दर्भ।"
+        },
+        {
+          "q": "के chemical-service FRP आवश्यकताका लागि epoxy casting उत्पादन Vinyl Ester Resin को साटो प्रयोग गर्न सकिन्छ?",
+          "a": "कुनै प्रतिस्थापन प्रकाशित छैन। सजावटी casting उत्पादनलाई industrial FRP छनोटमा नसारी वास्तविक finished component, सेवा आवश्यकता र exact उत्पादन दस्तावेजबाट सुरु गर्नुहोस्।"
+        },
+        {
+          "q": "के यो तुलनाले resin मिश्रण वा cure निर्देशन दिन्छ?",
+          "a": "होइन। यो material-छनोट गाइड मात्र हो। exact प्रणालीका लागि हालको दस्तावेज समीक्षा गर्नुहोस् र उत्पादन routes बीच operating निर्देशन नसार्नुहोस्।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "साझा शब्द 'epoxy' ले यी उत्पादनहरू अदलबदल गर्न मिल्ने बनाउँदैन",
+          "body": [
+            "हालको Vinyl Ester TDS ले Bisphenol-A आधारित epoxy vinyl ester उत्पादन पहिचान गर्दछ। Samrat Poly Resins, India ले Clear Casting Resin, Epoxy Art Resin र Fiberglass Epoxy Resin लगायत परम्परागत epoxy उत्पादन पनि सूचीबद्ध गर्दछ। ती छुट्टै उत्पादन routes हुन्, आफ्नै उत्पादन डाटा र तोकिएको-प्रयोग सन्दर्भसहित।",
+            "त्यसैले खरिदकर्ताले उत्पादन नामलाई सुरुवात बिन्दुको रूपमा प्रयोग गर्नुपर्छ, शॉर्टकटको रूपमा होइन। 'epoxy vinyl ester' यस Vinyl Ester grade का लागि समर्थित शब्दावली हो; यसले site मा भएको हरेक परम्परागत epoxy material जस्तै छ भन्ने भनाइ होइन।"
+          ]
+        },
+        {
+          "heading": "दस्तावेजीकृत application भूमिकाबाट सुरु गर्नुहोस्",
+          "body": [
+            "industrial FRP component मा तोकिएको chemical- वा corrosion-service आवश्यकता हुँदा Vinyl Ester Resin समीक्षा गर्नुपर्ने उत्पादन route हो। Vinyl Ester TDS ले tanks, chemical storage vessels, pipelines, ducts, scrubbers, pultrusion र filament-winding सन्दर्भ सूचीबद्ध गर्दछ।",
+            "छुट्टै epoxy उत्पादनहरूको आफ्नै प्रकाशित भूमिका छ, जस्तै सजावटी casting, art र structural fiberglass laminating। यी label ले प्रदर्शन क्रम स्थापित गर्दैनन् वा एउटा उत्पादनलाई अर्कोको विकल्प बनाउँदैनन्।"
+          ]
+        },
+        {
+          "heading": "खरिदअघि सही दस्तावेज प्रयोग गर्नुहोस्",
+          "body": [
+            "Vinyl Ester Resin का लागि, Vinyl Ester TDS समीक्षा गरी सान्दर्भिक component, सेवा माध्यम, concentration र तापक्रम दिनुहोस्। परम्परागत epoxy आवश्यकताका लागि, exact epoxy उत्पादन पहिचान गरी यसको मिल्दो हालको दस्तावेज समीक्षा गर्नुहोस्।",
+            "यो तुलनाले जानाजानी mixing ratio, catalyst जानकारी, cure schedule र fabrication निर्देशन बाहिर राख्छ। ती विवरण प्रणाली-विशिष्ट हुन् र सामान्य उत्पादन तुलनाको सुरक्षित आधार होइनन्।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "vinyl-ester-resin-for-chemical-service-frp",
     "title": "Vinyl Ester Resin for Chemical-Service FRP: Buyer Guide",
-    "description": "Use Samrat's published Vinyl Ester chemical- and corrosion-service position to prepare the right technical questions without assuming chemical compatibility.",
+    "description": "Use Samrat Poly Resins, India's published Vinyl Ester chemical- and corrosion-service position to prepare the right technical questions without assuming chemical compatibility.",
     "category": "Service Requirement Guide",
     "icon": "shield",
     "readingTime": "6 min read",
@@ -14074,7 +15379,65 @@ export const resources = Object.freeze([
           "A separate Bisphenol Resin product is also listed on the site, but its catalogue and TDS use different chemistry and curing descriptions. This guide does not use that product as a compatibility substitute for Vinyl Ester Resin."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Chemical-Service FRP का लागि Vinyl Ester Resin: खरिदकर्ता गाइड",
+      "description": "Chemical compatibility अनुमान नगरी सही प्राविधिक प्रश्न तयार गर्न Samrat Poly Resins, India को प्रकाशित Vinyl Ester chemical- र corrosion-service स्थिति प्रयोग गर्नुहोस्।",
+      "quickFacts": {
+        "प्रकाशित स्थिति": "Chemical र corrosion प्रतिरोध",
+        "प्रकाशित व्यापक माध्यम शब्दावली": "पानी, acids, alkalis र solvents",
+        "प्रकाशित छैन": "Chemical-compatibility chart, concentration सीमा वा project स्वीकृति",
+        "उत्तम सोधपुछ इनपुट": "माध्यम, concentration, तापक्रम, component र दस्तावेज आवश्यकता"
+      },
+      "faqs": [
+        {
+          "q": "के Vinyl Ester Resin हरेक acid, alkali वा solvent सँग compatible छ?",
+          "a": "कुनै विश्वव्यापी compatibility दाबी प्रकाशित छैन। TDS ले व्यापक chemical-प्रतिरोध शब्दावली दिन्छ तर chemical-विशिष्ट chart, concentration सीमा वा application स्वीकृति समावेश गर्दैन।"
+        },
+        {
+          "q": "chemical-service FRP छलफलका लागि मैले के दिनुपर्छ?",
+          "a": "सेवा माध्यम, सान्दर्भिक भए concentration, सान्दर्भिक भए operating तापक्रम, exposure सन्दर्भ, finished component, project specification, परिमाण र दस्तावेज आवश्यकता दिनुहोस्।"
+        },
+        {
+          "q": "के Vinyl Ester Resin एक्लैले tank, pipe वा duct प्रदर्शन स्थापित गर्छ?",
+          "a": "होइन। resin finished FRP प्रणालीको एक भाग हो। Reinforcement, निर्माण, मोटाइ, सतह वा corrosion-barrier प्रणाली, cure अवस्था र परीक्षण गरिएको configuration पनि महत्त्वपूर्ण हुन सक्छन्।"
+        },
+        {
+          "q": "के Vinyl Ester Resin स्वतः fire retardant हो?",
+          "a": "होइन। Vinyl Ester उत्पादन fire-retardant grade को रूपमा प्रस्तुत गरिएको छैन। यदि fire प्रदर्शन project आवश्यकताको भाग हो भने, यसलाई छुट्टै पहिचान गरी उपयुक्त Fire Retardant उत्पादन route समीक्षा गर्नुहोस्।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "प्रकाशित chemical-service स्थिति सही रूपमा प्रयोग गर्नुहोस्",
+          "body": [
+            "हालको Vinyl Ester TDS ले chemical र corrosion प्रतिरोध वर्णन गर्दछ र उत्पादन-डाटा स्तरमा पानी, acids, alkalis र solvents प्रतिरोध सूचीबद्ध गर्दछ। यसले tanks, pipelines, ducts र scrubbers जस्ता industrial FRP सन्दर्भ पनि सूचीबद्ध गर्दछ।",
+            "यसले Vinyl Ester Resin लाई chemical वा corrosion service भनिएको बेला समीक्षा गर्नुपर्ने सान्दर्भिक उत्पादन route बनाउँछ। यसले हरेक माध्यम, concentration, तापक्रम वा finished component का लागि chemical-विशिष्ट उपयुक्तता निर्णय गर्दैन।"
+          ]
+        },
+        {
+          "heading": "Chemical-compatibility प्रश्नलाई सेवा विवरण चाहिन्छ",
+          "body": [
+            "उपयोगी सोधपुछले वास्तविक सेवा माध्यम, सान्दर्भिक भए concentration, सान्दर्भिक भए operating तापक्रम, exposure सन्दर्भ, finished component र कुनै project standard वा खरिदकर्ता specification पहिचान गर्नुपर्छ। exposure सामग्री, धुवाँ, splash, बाहिरी सम्पर्क वा अर्को परिभाषित अवस्थासँग सम्बन्धित छ कि छैन बताउनुहोस्।",
+            "खरिदकर्ताले आवश्यक दस्तावेज र कुनै अनिवार्य finished-system test वा स्वीकृति पनि पहिचान गर्नुपर्छ। यो सामान्य 'chemical-proof' वा 'corrosion-proof' resin अनुरोधभन्दा बढी उपयोगी हुन्छ।"
+          ]
+        },
+        {
+          "heading": "उत्पादन डाटालाई finished FRP प्रणालीबाट छुट्टै राख्नुहोस्",
+          "body": [
+            "प्रकाशित resin डाटाले आपूर्ति गरिएको Vinyl Ester उत्पादन वर्णन गर्दछ। तयार FRP tank, vessel, pipeline, duct वा scrubber पूर्ण material प्रणाली र यसको परीक्षण गरिएको configuration मा निर्भर हुन सक्छ।",
+            "यो गाइडले reinforcement, laminate निर्माण, corrosion barrier, मोटाइ, cure schedule वा design विधि तोक्दैन। यी विषय व्यापक उत्पादन विवरण वा सामान्य सेवा label बाट अनुमान गर्न सकिँदैन।"
+          ]
+        },
+        {
+          "heading": "अर्को उत्पादन छलफल सान्दर्भिक हुने बेला",
+          "body": [
+            "तोकिएको विशेषज्ञ सेवा आवश्यकताबिना सामान्य FRP कामका लागि, छुट्टै GP Clear Resin वा Unsaturated Polyester Resin डाटा समीक्षा गर्नुहोस्। जहाँ fire आवश्यकता तोकिएको छ, exact project आवश्यकतासँगै छुट्टै Fire Retardant वा ISO Fire Retardant उत्पादन route पनि समीक्षा गर्नुहोस्।",
+            "site मा छुट्टै Bisphenol Resin उत्पादन पनि सूचीबद्ध छ, तर यसको catalogue र TDS ले फरक chemistry र curing वर्णन प्रयोग गर्दछ। यो गाइडले त्यो उत्पादनलाई Vinyl Ester Resin को compatibility विकल्पको रूपमा प्रयोग गर्दैन।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "vinyl-ester-resin-technical-specifications",
@@ -14223,7 +15586,111 @@ export const resources = Object.freeze([
           "Use the product TDS to frame a technical discussion, then confirm which additional evidence a particular project requires. This guide intentionally does not provide a laminate design, cure schedule or process recipe."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Vinyl Ester Resin प्राविधिक विशेषताहरू व्याख्या",
+      "description": "हालको Vinyl Ester TDS मानहरूको खरिदकर्ता-स्तर व्याख्या — यिनले आपूर्ति गरिएको resin बारे के पहिचान गर्छन्, र finished FRP component बारे के प्रमाणित गर्दैनन्।",
+      "quickFacts": {
+        "Viscosity": "25 C मा 350 cPs",
+        "Gel-time test मान": "25 C मा 15-20 मिनेट; हालको TDS सन्दर्भ हेर्नुहोस्",
+        "Density": "1.05 g/cm3",
+        "Thermal डाटा": "110 C typical TDS डाटा, तोकिएको service-temperature सीमा होइन"
+      },
+      "comparisonTable": {
+        "title": "समीक्षा गर्ने प्रकाशित Vinyl Ester Resin डाटा",
+        "note": "TDS ले typical उत्पादन डाटा वर्णन गर्दछ, ग्यारेण्टी गरिएको specification, chemical-compatibility chart, finished-component rating वा continuous-service-temperature सिफारिस होइन।",
+        "headers": [
+          "TDS वस्तु",
+          "हालको प्रकाशित मान",
+          "खरिदकर्ता पढाइ"
+        ],
+        "rows": [
+          [
+            "Resin प्रकार",
+            "Bisphenol-A आधारित epoxy vinyl ester",
+            "अर्को grade तुलना गर्नुअघि exact उत्पादन route पहिचान गर्नुहोस्"
+          ],
+          [
+            "Viscosity",
+            "25 C मा 350 cPs",
+            "वास्तविक process र दस्तावेजविरुद्ध समीक्षा गर्ने आपूर्ति गरिएको-resin विशेषता"
+          ],
+          [
+            "Gel time",
+            "25 C मा 15-20 मिनेट",
+            "दस्तावेजीकृत test मान, cure व्यवहार बदल्ने निर्देशन होइन"
+          ],
+          [
+            "Styrene content",
+            "40%",
+            "प्रकाशित उत्पादन डाटा; यसलाई अर्को resin grade मा नसार्नुहोस्"
+          ],
+          [
+            "Specific gravity / density",
+            "1.05 g/cm3",
+            "आपूर्ति गरिएको-material विशेषता, finished-laminate मान होइन"
+          ],
+          [
+            "Thermal डाटा",
+            "110 C",
+            "Typical TDS thermal डाटा; तोकिएको operating-service सीमा होइन"
+          ],
+          [
+            "आपूर्ति डाटा",
+            "6 महिना; 25 C भन्दा कम storage; 225 kg drum; 225 kg MOQ",
+            "अर्डरअघि हालको व्यावसायिक र storage विवरण समीक्षा गर्नुहोस्"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "q": "कुन Vinyl Ester Resin specifications प्रकाशित छन्?",
+          "a": "हालको TDS ले resin प्रकार, grade, viscosity, gel-time test मान, styrene content, density, thermal डाटा, flash point, storage, shelf life, प्याकेजिङ र MOQ प्रकाशित गर्दछ।"
+        },
+        {
+          "q": "के 110 C प्रकाशित continuous service-temperature सीमा हो?",
+          "a": "होइन। TDS ले 110 C लाई HDT / thermal डाटा भनी label गर्दछ। repository ले उत्पादन-विशिष्ट continuous-service-temperature सिफारिस प्रकाशित गर्दैन।"
+        },
+        {
+          "q": "के TDS ले finished FRP component का लागि mechanical properties प्रकाशित गर्छ?",
+          "a": "यस Vinyl Ester उत्पादनका लागि repository मा कुनै mechanical-property table वा finished-component test सन्दर्भ प्रकाशित छैन।"
+        },
+        {
+          "q": "के gel-time मान operating मार्गदर्शनको रूपमा प्रयोग गर्न सकिन्छ?",
+          "a": "होइन। यो हालको TDS मा समीक्षा गर्ने प्रकाशित test मान हो। यो गाइडले catalyst ratio, cure समायोजन वा उत्पादन निर्देशन दिँदैन।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "TDS लाई उत्पादन डाटाको रूपमा पढ्नुहोस्, प्रदर्शन वाचाको रूपमा होइन",
+          "body": [
+            "हालको Vinyl Ester TDS ले resin प्रकार, industrial grade, chemical- र corrosion-resistance स्थिति, processing categories र आपूर्ति डाटा पहिचान गर्दछ। यसका तोकिएका मान typical हुन् र दस्तावेजले तिनलाई ग्यारेण्टी गरिएका specification होइनन् भन्छ।",
+            "आपूर्तिकर्ता वा grade तुलना गर्दा, exact उत्पादनका लागि exact दस्तावेज प्रयोग गर्नुहोस्। GP, isophthalic, fire-retardant वा परम्परागत epoxy उत्पादन route बाट viscosity, density, gel time वा storage अपेक्षा नसार्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "वास्तवमा प्रकाशित test सन्दर्भ प्रयोग गर्नुहोस्",
+          "body": [
+            "TDS ले 25 C मा 350 cPs viscosity र 25 C मा 15-20 मिनेट gel-time मान सूचीबद्ध गर्दछ। यी छनोट र दस्तावेज-समीक्षा बिन्दु हुन्; यो गाइडले तिनलाई catalyst, cure वा process निर्देशनमा बदल्दैन।",
+            "प्रकाशित density 1.05 g/cm3 हो र styrene content 40% हो। यी मानले आपूर्ति गरिएको Vinyl Ester resin वर्णन गर्दछ, finished reinforced laminate, tank, pipe, duct वा profile का गुण होइनन्।"
+          ]
+        },
+        {
+          "heading": "Thermal डाटालाई service सीमामा नबदल्नुहोस्",
+          "body": [
+            "हालको TDS ले HDT / thermal डाटा अन्तर्गत 110 C सूचीबद्ध गर्दछ। यसले continuous operating-service-temperature दायरा वा chemical-विशिष्ट तापक्रम सिफारिस बताउँदैन।",
+            "त्यसैले service-temperature आवश्यकता वास्तविक माध्यम, सान्दर्भिक भए concentration, finished application र आवश्यक दस्तावेजसँगै सोधपुछको भाग हुनुपर्छ। एउटै thermal-डाटा entry बाट operating सीमा अनुमान नगर्नुहोस्।"
+          ]
+        },
+        {
+          "heading": "Finished-system प्रश्नहरू छुट्टै राख्नुहोस्",
+          "body": [
+            "repository मा कुनै उत्पादन-विशिष्ट mechanical-property table, chemical-compatibility chart वा finished-component test report उपस्थित छैन। finished FRP प्रणाली reinforcement, निर्माण, मोटाइ, सतह वा corrosion-barrier प्रणाली, cure अवस्था र परीक्षण गरिएको configuration मा निर्भर हुन सक्छ।",
+            "प्राविधिक छलफल तय गर्न उत्पादन TDS प्रयोग गरी कुनै विशेष project लाई कुन थप प्रमाण चाहिन्छ पुष्टि गर्नुहोस्। यो गाइडले जानाजानी laminate design, cure schedule वा process recipe दिँदैन।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "vinyl-ester-resin-procurement-checklist",
@@ -14239,7 +15706,7 @@ export const resources = Object.freeze([
         "Vinyl Ester Resin Procurement",
         "Vinyl Ester Resin RFQ",
         "Vinyl Ester Resin Quote",
-        "Vinyl Ester Resin Supplier India",
+        "Vinyl Ester Resin supplier Nepal",
         "Industrial Vinyl Ester Resin"
       ],
       "ogTitle": "Vinyl Ester Resin Procurement Checklist",
@@ -14326,7 +15793,65 @@ export const resources = Object.freeze([
           "Do not ask for a resin, Glass Fiber reinforcement, a mould-side gelcoat and a catalyst as though they are one interchangeable product. Identify each material role and use the current document for the exact product under consideration."
         ]
       }
-    ]
+    ],
+    "ne": {
+      "title": "Vinyl Ester Resin खरिद Checklist",
+      "description": "प्रमाण-आधारित छलफलका लागि आवश्यक सेवा, component, दस्तावेज र व्यावसायिक विवरणसहित केन्द्रित industrial Vinyl Ester Resin RFQ तयार गर्नुहोस्।",
+      "quickFacts": {
+        "प्रकाशित प्याक": "225 kg drum",
+        "प्रकाशित MOQ": "225 kg",
+        "हालको TDS shelf life": "6 महिना",
+        "RFQ सुरुवात बिन्दु": "Component, सेवा अवस्था, दस्तावेज र व्यावसायिक आवश्यकता"
+      },
+      "faqs": [
+        {
+          "q": "मैले Vinyl Ester Resin RFQ मा के समावेश गर्नुपर्छ?",
+          "a": "Finished FRP component, तोकिएको भए exact grade वा chemistry, सेवा माध्यम, सान्दर्भिक भए concentration र operating तापक्रम, प्राविधिक वा fire आवश्यकता, परिमाण, प्याकेजिङ आवश्यकता, डेलिभरी स्थान र आवश्यक दस्तावेज समावेश गर्नुहोस्।"
+        },
+        {
+          "q": "के chemical-service खरिदकर्ताले वास्तविक माध्यम नाम दिनुपर्छ?",
+          "a": "हो। हालको Vinyl Ester दस्तावेजले chemical-compatibility chart प्रकाशित गर्दैन, त्यसैले वास्तविक माध्यम र सान्दर्भिक सेवा अवस्था केन्द्रित छलफलका लागि महत्त्वपूर्ण हुन्छन्।"
+        },
+        {
+          "q": "के प्रकाशित MOQ ले stock वा delivery timing स्थापित गर्छ?",
+          "a": "होइन। TDS ले 225 kg न्यूनतम अर्डर परिमाण र 225 kg drum प्याकेजिङ प्रकाशित गर्दछ। वास्तविक सोधपुछका लागि उपलब्धता, lead time र डेलिभरी पुष्टि आवश्यक छ।"
+        },
+        {
+          "q": "के खरिदकर्ताले Vinyl Ester Resin का लागि fire दस्तावेज माग्नुपर्छ?",
+          "a": "यदि project मा fire आवश्यकता छ भने, यसलाई स्पष्ट रूपमा बताउनुहोस्। Vinyl Ester Resin fire-retardant grade को रूपमा प्रस्तुत गरिएको छैन, र छुट्टै Fire Retardant उत्पादन route समीक्षा गर्नुपर्छ।"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "पहिले finished FRP आवश्यकता परिभाषित गर्नुहोस्",
+          "body": [
+            "वास्तविक component बाट सुरु गर्नुहोस्: उदाहरणका लागि, project सँग मिल्ने दस्तावेजीकृत tank, vessel, pipeline, duct, scrubber, filament-winding वा pultrusion सन्दर्भ। यदि खरिदकर्ता specification मा पहिले नै नामाकरण गरिएको छ भने exact Vinyl Ester grade वा chemistry तोक्नुहोस्।",
+            "high-performance वा chemical-resistant resin को सामान्य अनुरोध प्रायः जिम्मेवारीपूर्वक प्रणाली छनोट गर्न पर्याप्त हुँदैन। component र तोकिएको सेवा आवश्यकताले उत्पादन छलफल विशिष्ट बनाउँछ।"
+          ]
+        },
+        {
+          "heading": "सेवा आवश्यकता देखिने बनाउनुहोस्",
+          "body": [
+            "Chemical वा corrosion-service कामका लागि, सेवा माध्यम, सान्दर्भिक भए concentration, सान्दर्भिक भए operating तापक्रम, exposure सन्दर्भ र कुनै project standard वा आवश्यक दस्तावेज पहिचान गर्नुहोस्। आवश्यकता स्पष्ट पार्न मद्दत गर्दा drawing, specification वा हालको material सन्दर्भ संलग्न गर्नुहोस्।",
+            "यो manufacturing formula को अनुरोध होइन। यसले आपूर्तिकर्तालाई व्यापक प्रतिरोध शब्दावलीलाई chemical-विशिष्ट स्वीकृतिमा नबदली दस्तावेजीकृत उत्पादन route छलफल गर्न आवश्यक जानकारी दिन्छ।"
+          ]
+        },
+        {
+          "heading": "प्रकाशित उत्पादन र व्यावसायिक विवरण पुष्टि गर्नुहोस्",
+          "body": [
+            "प्रकाशित industrial-grade Bisphenol-A epoxy vinyl ester पहिचान, 225 kg drum प्याकेजिङ, 225 kg MOQ, छ-महिना shelf life र 25 C भन्दा कम storage कथनका लागि हालको Vinyl Ester TDS समीक्षा गर्नुहोस्। TDS मान typical हुन् र हालको अर्डरका लागि पुष्टि गर्नुपर्छ।",
+            "त्यसपछि अपेक्षित परिमाण, कुनै भए प्याकेजिङ आवश्यकता, डेलिभरी शहर वा स्थान, timing आवश्यकता र आवश्यक प्राविधिक दस्तावेज दिनुहोस्। यी विवरणले व्यावसायिक छलफललाई प्राविधिक छलफल जत्तिकै केन्द्रित राख्छ।"
+          ]
+        },
+        {
+          "heading": "अन्य उत्पादन भूमिका छुट्टै राख्नुहोस्",
+          "body": [
+            "तोकिएको विशेषज्ञ सेवा आवश्यकताबिना सामान्य FRP का लागि, छुट्टै GP Clear Resin वा व्यापक UPR route समीक्षा गर्नुहोस्। fire-प्रदर्शन आवश्यकता भएको project का लागि, छुट्टै Fire Retardant वा ISO Fire Retardant route समीक्षा गर्नुहोस्। परम्परागत epoxy, सजावटी casting वा art काम का लागि, त्यसको साटो छुट्टै प्रकाशित epoxy उत्पादन पहिचान गर्नुहोस्।",
+            "resin, Glass Fiber reinforcement, mould-side gelcoat र catalyst लाई एउटै अदलबदलयोग्य उत्पादन जस्तो गरी नमाग्नुहोस्। हरेक material भूमिका पहिचान गरी विचाराधीन exact उत्पादनका लागि हालको दस्तावेज प्रयोग गर्नुहोस्।"
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "what-is-bisphenol-resin",
@@ -14343,7 +15868,7 @@ export const resources = Object.freeze([
         "Bisphenol Resin",
         "Bisphenol A Resin System",
         "Industrial Bisphenol Resin",
-        "Bisphenol Resin India"
+        "Bisphenol Resin Nepal"
       ],
       "ogTitle": "What Is Bisphenol Resin?",
       "ogDescription": "Understand the current product-specific TDS identity, published application contexts and selection boundaries for Samrat Bisphenol Resin."
@@ -14375,7 +15900,7 @@ export const resources = Object.freeze([
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
         "label": "Review Product Catalogue",
-        "description": "Explore Samrat's wider product range; use the product-specific TDS for this grade's technical data."
+        "description": "Explore Samrat FRP Traders' wider product range; use the product-specific TDS for this grade's technical data."
       },
       {
         "href": "/products/vinyl-ester-resin/",
@@ -14675,7 +16200,7 @@ export const resources = Object.freeze([
         "heading": "Casting and coating contexts",
         "body": [
           "The TDS lists high-end casting and coating applications. It does not provide casting depth, pot life, mixing sequence, cure schedule, finish result or decorative-art guidance. Those details must not be inferred from a general casting label.",
-          "Samrat's separately listed epoxy casting and art products have their own product roles and documents. A buyer should state which finished application is required rather than moving a value or claim between routes."
+          "Samrat Poly Resins, India's separately listed epoxy casting and art products have their own product roles and documents. A buyer should state which finished application is required rather than moving a value or claim between routes."
         ]
       }
     ]
@@ -14683,7 +16208,7 @@ export const resources = Object.freeze([
   {
     "slug": "bisphenol-resin-vs-upr-and-gp-resin",
     "title": "Bisphenol Resin vs UPR and GP Resin",
-    "description": "A document-led comparison that keeps the current Bisphenol Resin route distinct from Samrat's broad Unsaturated Polyester Resin and general-purpose GP Clear Resin routes.",
+    "description": "A document-led comparison that keeps the current Bisphenol Resin route distinct from Samrat Poly Resins, India's broad Unsaturated Polyester Resin and general-purpose GP Clear Resin routes.",
     "category": "Comparison Guide",
     "icon": "compare",
     "readingTime": "5 min read",
@@ -14786,7 +16311,7 @@ export const resources = Object.freeze([
       {
         "heading": "UPR is a category; Bisphenol Resin is a document-specific route",
         "body": [
-          "Unsaturated Polyester Resin is Samrat's broader product-family route. The current Bisphenol Resin TDS identifies a different Bisphenol A and epichlorohydrin-based thermosetting system, not UPR, and lists styrene content as not applicable.",
+          "Unsaturated Polyester Resin is Samrat Poly Resins, India's broader product-family route. The current Bisphenol Resin TDS identifies a different Bisphenol A and epichlorohydrin-based thermosetting system, not UPR, and lists styrene content as not applicable.",
           "That distinction reduces the risk of ordering Bisphenol Resin because a broad polyester search term appears to be similar. The useful decision is whether the exact published product route fits the documented application and requirement."
         ]
       },
@@ -14800,7 +16325,7 @@ export const resources = Object.freeze([
       {
         "heading": "What to compare before ordering",
         "body": [
-          "Compare the exact product identity, current product-specific TDS, application role and stated technical requirement. The catalogue can help buyers navigate Samrat's broader range but does not replace the Bisphenol Resin TDS.",
+          "Compare the exact product identity, current product-specific TDS, application role and stated technical requirement. The catalogue can help buyers navigate Samrat FRP Traders' broader range but does not replace the Bisphenol Resin TDS.",
           "Do not transfer viscosity, gel-time or density figures from a GP or UPR grade to Bisphenol Resin. Do not transfer a Bisphenol value to a general-purpose resin requirement either."
         ]
       },
@@ -14816,7 +16341,7 @@ export const resources = Object.freeze([
   {
     "slug": "bisphenol-resin-vs-epoxy-resin",
     "title": "Bisphenol Resin vs Epoxy Resin: Product-Route Check",
-    "description": "Clarify why the current Bisphenol Resin TDS terminology does not make it automatically interchangeable with Samrat's separate conventional epoxy product routes.",
+    "description": "Clarify why the current Bisphenol Resin TDS terminology does not make it automatically interchangeable with Samrat Poly Resins, India's separate conventional epoxy product routes.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "5 min read",
@@ -14831,7 +16356,7 @@ export const resources = Object.freeze([
         "Epoxy Resin Product Selection"
       ],
       "ogTitle": "Bisphenol Resin vs Epoxy Resin: Product-Route Check",
-      "ogDescription": "Use the current product documents to distinguish Bisphenol Resin from Samrat's separate epoxy routes without assuming interchangeability."
+      "ogDescription": "Use the current product documents to distinguish Bisphenol Resin from Samrat Poly Resins, India's separate epoxy routes without assuming interchangeability."
     },
     "quickFacts": {
       "Bisphenol TDS chemistry wording": "Bisphenol A & epichlorohydrin based (thermosetting)",
@@ -14869,7 +16394,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "Is Bisphenol Resin the same as a conventional epoxy resin on this site?",
-        "a": "No automatic equivalence is published. The current Bisphenol TDS uses Bisphenol A, epichlorohydrin and amine-hardener wording, but it does not label the product as interchangeable with Samrat's separate conventional epoxy product routes."
+        "a": "No automatic equivalence is published. The current Bisphenol TDS uses Bisphenol A, epichlorohydrin and amine-hardener wording, but it does not label the product as interchangeable with Samrat Poly Resins, India's separate conventional epoxy product routes."
       },
       {
         "q": "Can Epoxy Clear Casting Resin replace Bisphenol Resin?",
@@ -15061,7 +16586,7 @@ export const resources = Object.freeze([
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
         "label": "Review Product Catalogue",
-        "description": "Explore Samrat's broader resin range before confirming the product route."
+        "description": "Explore Samrat FRP Traders' broader resin range before confirming the product route."
       },
       {
         "href": "/contact/",
@@ -15091,7 +16616,7 @@ export const resources = Object.freeze([
       {
         "heading": "Start with the current product-specific TDS",
         "body": [
-          "Use the current Bisphenol Resin TDS for this grade's chemistry wording, typical supplied-resin data, storage, packaging and MOQ. Use the product catalogue only as an overview of Samrat's broader resin range.",
+          "Use the current Bisphenol Resin TDS for this grade's chemistry wording, typical supplied-resin data, storage, packaging and MOQ. Use the product catalogue only as an overview of Samrat FRP Traders' broader resin range.",
           "If the enquiry is governed by a buyer specification or item code, attach it so Samrat FRP Traders can review the exact requirement alongside the current TDS."
         ]
       },
@@ -15134,7 +16659,7 @@ export const resources = Object.freeze([
         "Cultured Marble Resin",
         "Artificial Marble Resin",
         "Polyester Resin for Marble",
-        "Marble Resin Manufacturer India"
+        "Marble Resin supplier Nepal"
       ],
       "ogTitle": "What Is Marble Resin?",
       "ogDescription": "A document-led guide to Samrat Marble Resin, its published cultured-marble and artificial-stone role, and what buyers should verify."
@@ -15331,7 +16856,7 @@ export const resources = Object.freeze([
         "Artificial Marble Resin",
         "Resin for Artificial Marble",
         "Marble Resin for Countertops",
-        "Marble Resin Supplier India"
+        "Marble Resin supplier Nepal"
       ],
       "ogTitle": "Marble Resin Applications",
       "ogDescription": "The documented Marble Resin contexts for cultured marble and artificial stone, and the buyer checks required before grade selection."
@@ -15488,7 +17013,7 @@ export const resources = Object.freeze([
       {
         "heading": "Keep product and material form clear",
         "body": [
-          "PET Resin and Polyester Putty Resin are the approved names for Samrat's liquid PET-modified sheet grade. That liquid raw resin is different from a ready-made putty or thermoplastic PET chips.",
+          "PET Resin and Polyester Putty Resin are the approved names for Samrat Poly Resins, India's liquid PET-modified sheet grade. That liquid raw resin is different from a ready-made putty or thermoplastic PET chips.",
           "Marble Resin has its own supplied-resin role for cultured-marble and artificial-stone contexts. Confirm the required material form and finished component before product selection."
         ]
       },
@@ -15603,7 +17128,7 @@ export const resources = Object.freeze([
   {
     "slug": "marble-resin-vs-epoxy-clear-casting-resin",
     "title": "Marble Resin vs Epoxy Clear Casting Resin",
-    "description": "Separate the published Marble Resin polyester route for cultured marble and artificial stone from Samrat's separate two-part Epoxy Clear Casting Resin system.",
+    "description": "Separate the published Marble Resin polyester route for cultured marble and artificial stone from Samrat Poly Resins, India's separate two-part Epoxy Clear Casting Resin system.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -15770,7 +17295,7 @@ export const resources = Object.freeze([
         "heading": "Start with the published Fiberglass Epoxy identity",
         "body": [
           "Samrat FRP Traders publishes Fiberglass Epoxy Resin as a general-purpose epoxy-system route. The detailed current TDS places it in fibreglass reinforcement, composite manufacturing, hand lay-up and lamination contexts, and names fabric as the reinforcement form.",
-          "This is a composite-epoxy product route, not a broad label for every resin containing the word epoxy. It is separate from Samrat's Clear Casting Resin, Epoxy Art Resin, Epoxy Hardener, polyester Lamination Resin, Unsaturated Polyester Resin and Glass Fiber product routes."
+          "This is a composite-epoxy product route, not a broad label for every resin containing the word epoxy. It is separate from Samrat Poly Resins, India's Clear Casting Resin, Epoxy Art Resin, Epoxy Hardener, polyester Lamination Resin, Unsaturated Polyester Resin and Glass Fiber product routes."
         ]
       },
       {
@@ -15844,7 +17369,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/epoxy-hardener/",
         "label": "View Epoxy Hardener",
-        "description": "Review Samrat's separate polyamide curing-agent product route; confirm compatibility for this specific requirement."
+        "description": "Review Samrat FRP Traders' separate polyamide curing-agent product route; confirm compatibility for this specific requirement."
       },
       {
         "href": "/resources/epoxy-hardener-compatibility-guide/",
@@ -16039,7 +17564,7 @@ export const resources = Object.freeze([
   {
     "slug": "fiberglass-epoxy-resin-vs-polyester-lamination-upr-gp",
     "title": "Fiberglass Epoxy Resin vs Polyester Lamination Resin, UPR and GP Resin",
-    "description": "A buyer-level comparison between Samrat's Fiberglass Epoxy route and its separate polyester Lamination, UPR and GP resin routes for fiberglass and composite questions.",
+    "description": "A buyer-level comparison between Samrat Poly Resins, India's Fiberglass Epoxy route and its separate polyester Lamination, UPR and GP resin routes for fiberglass and composite questions.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "5 min read",
@@ -16168,7 +17693,7 @@ export const resources = Object.freeze([
   {
     "slug": "fiberglass-epoxy-resin-vs-vinyl-ester-resin",
     "title": "Fiberglass Epoxy Resin vs Vinyl Ester Resin",
-    "description": "Separate Samrat's documented Fiberglass Epoxy composite route from its specialist Vinyl Ester industrial FRP route without assuming a chemical-service or performance hierarchy.",
+    "description": "Separate Samrat Poly Resins, India's documented Fiberglass Epoxy composite route from its specialist Vinyl Ester industrial FRP route without assuming a chemical-service or performance hierarchy.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -16648,8 +18173,8 @@ export const resources = Object.freeze([
       "keywords": [
         "Fiberglass Epoxy Resin Procurement",
         "Fiberglass Epoxy Resin Quote",
-        "Fiberglass Epoxy Resin Manufacturer India",
-        "Fiberglass Epoxy Resin Supplier India",
+        "Fiberglass Epoxy Resin supplier Nepal",
+        "Fiberglass Epoxy Resin supplier Nepal",
         "Composite Epoxy Resin RFQ"
       ],
       "ogTitle": "Fiberglass Epoxy Resin Procurement Checklist",
@@ -16750,7 +18275,7 @@ export const resources = Object.freeze([
         "Marble Resin Gel Time",
         "Marble Resin Procurement",
         "Marble Resin Quote",
-        "Marble Resin Supplier India"
+        "Marble Resin supplier Nepal"
       ],
       "ogTitle": "Marble Resin Technical Specifications and RFQ Guide",
       "ogDescription": "Use the current Marble Resin TDS and catalogue carefully, then prepare a document-led industrial quotation request."

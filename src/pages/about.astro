@@ -5,7 +5,7 @@ import Base from '../layouts/Base.astro';
 ---
 <Base
   lang="ne"
-  title="हाम्रोबारे — Samrat FRP Traders"
+  title="हाम्रोबारे"
   description="Samrat FRP Traders विराटनगर, नेपालबाट सञ्चालित व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो — नेपालभर FRP सामग्री तथा औद्योगिक रेजिन आपूर्ति।"
 >
   <section class="page-hero hero-shell">
@@ -46,6 +46,15 @@ import Base from '../layouts/Base.astro';
 
         <div class="button-row">
           <a class="button button-primary" href="/products/">उत्पादन सूची हेर्नुहोस्</a>
+          <a
+            class="button"
+            href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+            target="_blank"
+            rel="noopener"
+            download
+          >
+            उत्पादन क्याटलग (PDF)
+          </a>
           <a
             class="button"
             href={buildWhatsAppLink(whatsAppMessages.ne)}

@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "ISO Fire Retardant Resin — Nepal | Samrat FRP Traders",
+    seoTitle: "ISO Fire Retardant Resin — Nepal",
     seoDescription: "ISO Fire Retardant Resin — isophthalic, halogen-free ATH-filled fire-retardant UPR. Imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports ISO Fire Retardant Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as an unsaturated polyester resin with a halogen-free, ATH-filled fire-retardant formulation.",
@@ -45,9 +45,21 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in railway and marine applications, automotive fire-performance component discussions, FRP panels, electrical enclosures, tunnels and construction applications reviewed against the project requirement.",
+    features: [
+      "Halogen-free, ATH-filled formulation identified in the current TDS",
+      "Published isophthalic-based product designation; ISO is not a certification claim",
+      "White liquid with published 400 cPs viscosity and 5.5-minute gel time",
+      "Product-specific Technical Data Sheet available for review",
+    ],
+    industries: [
+      "Railway and transport FRP",
+      "Marine FRP",
+      "Automotive FRP components",
+      "Panels and industrial FRP where requirements are specified",
+    ],
   },
   ne: {
-    seoTitle: "ISO Fire Retardant Resin — नेपालका लागि आपूर्ति | Samrat FRP Traders",
+    seoTitle: "ISO Fire Retardant Resin — नेपालका लागि आपूर्ति",
     seoDescription: "ISO Fire Retardant Resin — isophthalic, halogen-free ATH-filled fire-retardant UPR। Samrat FRP Traders ले नेपालका लागि आयात गर्दछ।",
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि ISO Fire Retardant Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India को हालको कागजातले यसलाई halogen-free, ATH-filled fire-retardant formulation भएको unsaturated polyester resin का रूपमा चिनाउँछ।",
@@ -91,5 +103,17 @@ export default {
       },
     ],
     applicationsIntro: "Supplier को कागजातले railway र marine applications, automotive fire-performance component, FRP panels, electrical enclosures, tunnels र construction applications मा प्रयोग सूचीबद्ध गर्दछ।",
+    features: [
+      "हालको TDS मा पहिचान गरिएको Halogen-free, ATH-filled formulation",
+      "प्रकाशित isophthalic-आधारित उत्पादन नामाकरण; ISO प्रमाणीकरण दाबी होइन",
+      "प्रकाशित 400 cPs viscosity र 5.5-मिनेट gel time सहित सेतो liquid",
+      "समीक्षाका लागि उत्पादन-विशिष्ट Technical Data Sheet उपलब्ध",
+    ],
+    industries: [
+      "Railway र transport FRP",
+      "Marine FRP",
+      "Automotive FRP components",
+      "आवश्यकता तोकिएका Panels र औद्योगिक FRP",
+    ],
   },
 };

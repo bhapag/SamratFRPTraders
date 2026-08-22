@@ -21,7 +21,19 @@ export default {
       { q: "How is it different from Epoxy Art Resin?", a: "UV Resin cures in seconds to minutes under UV/LED light and suits thin layers and fast production, while Epoxy Art Resin is a room-temperature, roughly 24-hour-cure system better suited to thicker, self-levelling table-top pours." },
       { q: "What documents and commercial details are available?", a: "Supplier Technical Data Sheet and Safety Data Sheet documents are available. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page." }
     ],
-    applicationsIntro: "Supplier documentation lists use in jewellery making and resin art, encapsulation and doming, crafts, coatings and miniature models, and adhesive, label, electronics, metal and wood coating work."
+    applicationsIntro: "Supplier documentation lists use in jewellery making and resin art, encapsulation and doming, crafts, coatings and miniature models, and adhesive, label, electronics, metal and wood coating work.",
+    features: [
+      "Fast UV/LED curing",
+      "Low viscosity, clear finish",
+      "Excellent scratch resistance, low shrinkage",
+      "Medium hardness for durable coated and encapsulated surfaces"
+    ],
+    industries: [
+      "Jewellery & fashion accessories",
+      "Electronics & component encapsulation",
+      "Craft & decorative coatings",
+      "Wood & metal finishing"
+    ]
   },
   ne: {
     seoTitle: "UV Resin नेपाल — Epoxy Acrylate UV/LED Cure आपूर्तिकर्ता",
@@ -45,6 +57,18 @@ export default {
       { q: "Epoxy Art Resin भन्दा कसरी फरक छ?", a: "UV Resin UV/LED light मा सेकेन्डदेखि मिनेटमा cure हुन्छ र पातलो layer र छिटो उत्पादनका लागि उपयुक्त छ, जबकि Epoxy Art Resin करिब 24 घण्टामा cure हुने room-temperature प्रणाली हो जुन बाक्लो, self-levelling table-top pour का लागि बढी उपयुक्त छ।" },
       { q: "कस्ता दस्तावेज र व्यावसायिक विवरण उपलब्ध छन्?", a: "Supplier Technical Data Sheet र Safety Data Sheet उपलब्ध छन्। नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्।" }
     ],
-    applicationsIntro: "Supplier दस्तावेजले jewellery र resin art, encapsulation र doming, crafts, coatings र miniature models, तथा adhesive, label, electronics, metal र wood coating काममा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "Supplier दस्तावेजले jewellery र resin art, encapsulation र doming, crafts, coatings र miniature models, तथा adhesive, label, electronics, metal र wood coating काममा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "छिटो UV/LED curing",
+      "कम viscosity, clear finish",
+      "उत्कृष्ट scratch resistance, कम shrinkage",
+      "टिकाउ coated र encapsulated सतहका लागि medium hardness"
+    ],
+    industries: [
+      "गहना र fashion accessories",
+      "Electronics र component encapsulation",
+      "Craft र सजावटी coatings",
+      "काठ र धातु finishing"
+    ]
   }
 };

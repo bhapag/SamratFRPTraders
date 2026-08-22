@@ -4,7 +4,7 @@ import Base from '../layouts/Base.astro';
 ---
 <Base
   lang="ne"
-  title="सम्पर्क — Samrat FRP Traders"
+  title="सम्पर्क"
   description="Samrat FRP Traders लाई सम्पर्क गर्नुहोस् — विराटनगर, नेपाल। WhatsApp: +977 9805526904, इमेल: samratfrptraders@gmail.com।"
 >
   <section class="page-hero hero-shell">
@@ -38,6 +38,21 @@ import Base from '../layouts/Base.astro';
           </a>
           <a class="button" href={`tel:${site.business.tel}`}>{site.business.phone}</a>
           <a class="button" href={`mailto:${site.business.email}`}>इमेल</a>
+        </div>
+
+        <div class="contact-catalogue-note">
+          <p class="contact-catalogue-heading">पूर्ण उत्पादन दायरा चाहिन्छ?</p>
+          <p class="contact-catalogue-desc">नवीनतम Samrat FRP Traders उत्पादन क्याटलग डाउनलोड गर्नुहोस्।</p>
+          <a
+            class="contact-catalogue-link"
+            href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+            target="_blank"
+            rel="noopener"
+            download
+            aria-label="Samrat FRP Traders उत्पादन क्याटलग (PDF) डाउनलोड गर्नुहोस्"
+          >
+            📘 उत्पादन क्याटलग डाउनलोड गर्नुहोस्
+          </a>
         </div>
 
         <div class="contact-lines" aria-label="व्यावसायिक विवरण">
@@ -104,7 +119,7 @@ import Base from '../layouts/Base.astro';
     </div>
   </section>
 
-  <script>
+  <script define:vars={{ waNumber: site.business.whatsapp }}>
     const form = document.getElementById('waForm');
     if (form && form.dataset.wired !== 'true') {
       form.dataset.wired = 'true';
@@ -120,7 +135,7 @@ import Base from '../layouts/Base.astro';
           'सन्देश: ' + (fd.get('message') || ''),
         ].filter((line) => !line.endsWith(': '));
         window.open(
-          'https://wa.me/{site.business.whatsapp}?text=' + encodeURIComponent(lines.join('\n')),
+          'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(lines.join('\n')),
           '_blank',
           'noopener',
         );
@@ -152,6 +167,38 @@ import Base from '../layouts/Base.astro';
     flex-wrap: wrap;
     gap: 0.8rem;
     margin: 1.4rem 0 2rem;
+  }
+
+  .contact-catalogue-note {
+    margin-bottom: 2rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+  }
+
+  .contact-catalogue-heading {
+    margin: 0;
+    color: var(--ink);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .contact-catalogue-desc {
+    margin: 0.4rem 0 0.6rem;
+    color: var(--ink-dim);
+    font-size: 0.85rem;
+  }
+
+  .contact-catalogue-link {
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+
+  .contact-catalogue-link:hover {
+    color: var(--accent-gold);
   }
 
   .contact-lines {

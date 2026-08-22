@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "GP Clear Resin in Nepal | Samrat FRP Traders",
+    seoTitle: "GP Clear Resin in Nepal",
     seoDescription: "GP Clear Resin is Samrat Poly Resins' published clear orthophthalic unsaturated polyester resin, supplied and imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports GP Clear Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies GP Clear Resin as its published standard clear orthophthalic unsaturated polyester resin grade for everyday FRP and composite manufacturing.",
@@ -45,9 +45,25 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in hand layup and spray-up laminates, FRP water tanks, roofing sheets, sanitaryware, panels, moulding, cooling-tower components and general-purpose composite products.",
+    features: [
+      "Clear orthophthalic unsaturated polyester base for general-purpose FRP work",
+      "Low viscosity (350–450 cPs) for excellent wet-out and easy impregnation",
+      "Fast gel time under 8 minutes for quicker layup cycles",
+      "Non-accelerated system — dose MEKP and cobalt accelerator to suit workshop conditions",
+      "Balanced 33–40% styrene content and 1.20 g/cm³ density",
+      "Consistent 99% purity with batch-to-batch reliability",
+    ],
+    industries: [
+      "FRP & composites manufacturing",
+      "Water tanks & storage",
+      "Construction, roofing & panels",
+      "Sanitaryware & bathware moulding",
+      "Cooling towers & industrial FRP",
+      "General moulding & fabrication",
+    ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Clear Resin | Samrat FRP Traders",
+    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Clear Resin",
     seoDescription: "GP Clear Resin Samrat Poly Resins \u0915\u094b \u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 standard clear orthophthalic unsaturated polyester resin grade \u0939\u094b, \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
     intro: [
       "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f GP Clear Resin \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP Clear Resin \u0932\u093e\u0908 \u0926\u0948\u0928\u093f\u0915 FRP \u0930 composite \u0928\u093f\u0930\u094d\u092e\u093e\u0923\u0915\u093e \u0932\u093e\u0917\u093f \u092f\u0938\u0915\u094b \u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 standard clear orthophthalic unsaturated polyester resin grade \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
@@ -91,5 +107,21 @@ export default {
       },
     ],
     applicationsIntro: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 hand layup \u0930 spray-up laminate, FRP \u092a\u093e\u0928\u0940 \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940, roofing sheet, sanitaryware, panel, moulding \u0930 cooling-tower \u0915\u092e\u094d\u092a\u094b\u0928\u0947\u0928\u094d\u091f\u092e\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964",
+    features: [
+      "\u0938\u093e\u092e\u093e\u0928\u094d\u092f-\u092a\u094d\u0930\u092f\u094b\u091c\u0928 FRP \u0915\u093e\u092e\u0915\u093e \u0932\u093e\u0917\u093f clear orthophthalic unsaturated polyester \u0906\u0927\u093e\u0930",
+      "\u0909\u0924\u094d\u0915\u0943\u0937\u094d\u091f wet-out \u0930 \u0938\u091c\u093f\u0932\u094b impregnation \u0915\u093e \u0932\u093e\u0917\u093f \u0915\u092e viscosity (350\u2013450 cPs)",
+      "\u091b\u093f\u091f\u094b layup cycles \u0915\u093e \u0932\u093e\u0917\u093f 8 \u092e\u093f\u0928\u0947\u091f\u092d\u0928\u094d\u0926\u093e \u0915\u092e gel time",
+      "Non-accelerated \u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u2014 workshop \u0905\u0935\u0938\u094d\u0925\u093e \u0905\u0928\u0941\u0938\u093e\u0930 MEKP \u0930 cobalt accelerator dose \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d",
+      "\u0938\u0928\u094d\u0924\u0941\u0932\u093f\u0924 33\u201340% styrene content \u0930 1.20 g/cm\u00b3 density",
+      "batch-\u0926\u0947\u0916\u093f-batch \u092d\u0930\u092a\u0930\u094d\u0926\u094b 99% purity",
+    ],
+    industries: [
+      "FRP \u0930 composites \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "\u092a\u093e\u0928\u0940 \u091f\u094d\u092f\u093e\u0902\u0915\u0940 \u0930 \u092d\u0923\u094d\u0921\u093e\u0930\u0923",
+      "\u0928\u093f\u0930\u094d\u092e\u093e\u0923, roofing \u0930 panels",
+      "Sanitaryware \u0930 bathware moulding",
+      "Cooling towers \u0930 \u0914\u0926\u094d\u092f\u094b\u0917\u093f\u0915 FRP",
+      "\u0938\u093e\u092e\u093e\u0928\u094d\u092f moulding \u0930 fabrication",
+    ],
   },
 };

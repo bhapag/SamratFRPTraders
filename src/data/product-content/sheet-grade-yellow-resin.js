@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "Sheet Grade Yellow Resin — Nepal | Samrat FRP Traders",
+    seoTitle: "Sheet Grade Yellow Resin — Nepal",
     seoDescription: "Sheet Grade Yellow Resin — orthophthalic UPR supplied pre-pigmented yellow for FRP sheet and panel work. Imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports Sheet Grade Yellow Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as an orthophthalic unsaturated polyester resin supplied pre-pigmented yellow, with its published role in FRP sheet and panel production.",
@@ -45,9 +45,21 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in FRP sheets and panels, decorative and coloured composite panels, and sheet production contexts including compression moulding and hand lay-up.",
+    features: [
+      "Pre-pigmented yellow supplied appearance for the published sheet and panel role",
+      "Orthophthalic unsaturated polyester resin",
+      "Published for sheet moulding and laminate applications",
+      "Current product-specific Technical Data Sheet available",
+    ],
+    industries: [
+      "FRP sheet & panel manufacturing",
+      "Electrical & switchgear enclosures",
+      "Construction formwork & partitions",
+      "General industrial moulding",
+    ],
   },
   ne: {
-    seoTitle: "Sheet Grade Yellow Resin — नेपालका लागि आपूर्ति | Samrat FRP Traders",
+    seoTitle: "Sheet Grade Yellow Resin — नेपालका लागि आपूर्ति",
     seoDescription: "Sheet Grade Yellow Resin — पहेँलो रङमै आपूर्ति हुने orthophthalic UPR, FRP sheet र panel निर्माणका लागि। Samrat FRP Traders ले नेपालका लागि आयात गर्दछ।",
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि Sheet Grade Yellow Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India को हालको कागजातले यसलाई orthophthalic unsaturated polyester resin का रूपमा चिनाउँछ, जुन पहेँलो रङमै आपूर्ति गरिन्छ र FRP sheet तथा panel उत्पादनमा प्रयोग गरिन्छ।",
@@ -91,5 +103,17 @@ export default {
       },
     ],
     applicationsIntro: "Supplier को कागजातले FRP sheets र panels, सजावटी composite panels, तथा compression moulding र hand lay-up जस्ता sheet उत्पादनमा प्रयोग सूचीबद्ध गर्दछ।",
+    features: [
+      "प्रकाशित sheet र panel भूमिकाका लागि pre-pigmented पहेंलो आपूर्ति गरिएको रूप",
+      "Orthophthalic unsaturated polyester resin",
+      "Sheet moulding र laminate प्रयोगका लागि प्रकाशित",
+      "हालको उत्पादन-विशिष्ट Technical Data Sheet उपलब्ध",
+    ],
+    industries: [
+      "FRP sheet र panel निर्माण",
+      "विद्युतीय र switchgear enclosures",
+      "निर्माण formwork र partitions",
+      "सामान्य औद्योगिक moulding",
+    ],
   },
 };

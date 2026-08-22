@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "GP Yellow Resin in Nepal | Samrat FRP Traders",
+    seoTitle: "GP Yellow Resin in Nepal",
     seoDescription: "GP Yellow Resin is a transparent yellow orthophthalic polyester laminating resin for roofing, tanks and FRP panels, supplied for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports GP Yellow Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies GP Yellow Resin as a transparent yellow, orthophthalic unsaturated polyester resin \u2014 a general-purpose structural laminating resin, not a surface coating.",
@@ -45,9 +45,23 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in roofing sheets and daylighting panels, water tanks and storage vessels, FRP doors and decorative panels, and general lamination and FRP moulded products.",
+    features: [
+      "Transparent yellow orthophthalic base, sharing GP Clear Resin's cure chemistry",
+      "Wets out glass fibre reinforcement for a consistent, well-bonded laminate",
+      "Thicker body and slightly slower cure than GP Clear Resin (450–600 cPs, 10–15 minute gel)",
+      "Cures at room temperature with the same MEKP and cobalt octoate system as GP Clear Resin",
+      "34–38% styrene content and 99% purity for consistent, batch-to-batch processing",
+    ],
+    industries: [
+      "FRP & composites manufacturing",
+      "Roofing & construction",
+      "Water tanks & storage",
+      "Door & panel manufacturing",
+      "General industrial moulding",
+    ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Yellow Resin | Samrat FRP Traders",
+    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Yellow Resin",
     seoDescription: "GP Yellow Resin transparent yellow orthophthalic unsaturated polyester laminating resin \u0939\u094b, roofing, \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940 \u0930 FRP panel \u0915\u093e \u0932\u093e\u0917\u093f, \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
     intro: [
       "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f GP Yellow Resin \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP Yellow Resin \u0932\u093e\u0908 transparent yellow, orthophthalic unsaturated polyester resin \u2014 \u0938\u093e\u092e\u093e\u0928\u094d\u092f structural laminating resin, surface coating \u0939\u094b\u0907\u0928 \u2014 \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
@@ -91,5 +105,19 @@ export default {
       },
     ],
     applicationsIntro: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 roofing sheet \u0930 daylighting panel, \u092a\u093e\u0928\u0940 \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940 \u0930 \u092d\u0923\u094d\u0921\u093e\u0930\u0923 vessel, FRP \u0922\u094b\u0915\u093e \u0930 decorative panel, \u0924\u0925\u093e \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928 \u0930 FRP moulded \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u092e\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964",
+    features: [
+      "\u092a\u093e\u0930\u0926\u0930\u094d\u0936\u0940 \u092a\u0939\u0947\u0902\u0932\u094b orthophthalic \u0906\u0927\u093e\u0930, GP Clear Resin \u0915\u094b cure chemistry \u0938\u093e\u091d\u093e \u0917\u0930\u094d\u0926\u0948",
+      "\u0938\u0941\u0938\u0902\u0917\u0924, \u0930\u093e\u092e\u094d\u0930\u094b-bonded laminate \u0915\u093e \u0932\u093e\u0917\u093f glass fibre reinforcement wet out \u0917\u0930\u094d\u091b",
+      "GP Clear Resin \u092d\u0928\u094d\u0926\u093e \u092c\u093e\u0915\u094d\u0932\u094b body \u0930 \u0905\u0932\u093f \u0922\u093f\u0932\u094b cure (450\u2013600 cPs, 10\u201315 \u092e\u093f\u0928\u0947\u091f gel)",
+      "GP Clear Resin \u091c\u0938\u094d\u0924\u0948 MEKP \u0930 cobalt octoate \u092a\u094d\u0930\u0923\u093e\u0932\u0940\u0932\u0947 room temperature \u092e\u093e cure \u0939\u0941\u0928\u094d\u091b",
+      "\u0938\u0941\u0938\u0902\u0917\u0924, batch-\u0926\u0947\u0916\u093f-batch processing \u0915\u093e \u0932\u093e\u0917\u093f 34\u201338% styrene content \u0930 99% purity",
+    ],
+    industries: [
+      "FRP \u0930 composites \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "Roofing \u0930 \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "\u092a\u093e\u0928\u0940 \u091f\u094d\u092f\u093e\u0902\u0915\u0940 \u0930 \u092d\u0923\u094d\u0921\u093e\u0930\u0923",
+      "Door \u0930 panel \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
+      "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0914\u0926\u094d\u092f\u094b\u0917\u093f\u0915 moulding",
+    ],
   },
 };

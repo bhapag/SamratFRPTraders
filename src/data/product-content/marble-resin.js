@@ -44,7 +44,19 @@ export default {
         a: "The supplier TDS describes water and chemical resistance after full cure at a general level, but it does not publish a chemical-compatibility chart, a specific chemical recommendation or a finished-product approval. Share your actual service requirement before selecting a system."
       }
     ],
-    applicationsIntro: "Supplier documentation lists use in cultured marble slabs and vanity tops, countertops and wash basins, wall panels and architectural components, and marble sheets, statues, railings and balusters."
+    applicationsIntro: "Supplier documentation lists use in cultured marble slabs and vanity tops, countertops and wash basins, wall panels and architectural components, and marble sheets, statues, railings and balusters.",
+    features: [
+      "TDS-identified water-white liquid unsaturated polyester resin",
+      "TDS-listed cultured-marble and artificial-stone product contexts",
+      "Published typical TDS data for viscosity, gel time, curing time, density, storage and shelf life",
+      "TDS describes fully cured water and chemical resistance at a general level; it does not publish a chemical-compatibility chart or application approval",
+    ],
+    industries: [
+      "Cultured marble & artificial stone manufacturing",
+      "Countertop & vanity top manufacturing",
+      "Wash-basin and bathroom-product manufacturing",
+      "Architectural & decorative components",
+    ],
   },
   ne: {
     seoTitle: "Marble Resin नेपाल आपूर्तिकर्ता | Cultured Marble UPR",
@@ -90,6 +102,18 @@ export default {
         a: "आपूर्तिकर्ताको TDS ले full cure पछि पानी र रसायन प्रतिरोध सामान्य रूपमा मात्र वर्णन गर्छ; chemical-compatibility chart, विशेष रसायन सिफारिस वा finished-product approval प्रकाशित गर्दैन। प्रणाली छनोटअघि वास्तविक service आवश्यकता खुलाउनुहोस्।"
       }
     ],
-    applicationsIntro: "आपूर्तिकर्ताको कागजातले cultured marble slabs र vanity tops, countertops र wash basins, wall panels र architectural components, साथै marble sheets, statues, railings र balusters मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "आपूर्तिकर्ताको कागजातले cultured marble slabs र vanity tops, countertops र wash basins, wall panels र architectural components, साथै marble sheets, statues, railings र balusters मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "TDS-पहिचान गरिएको water-white liquid unsaturated polyester resin",
+      "TDS-सूचीबद्ध cultured-marble र artificial-stone उत्पादन सन्दर्भ",
+      "viscosity, gel time, curing time, density, storage र shelf life का लागि प्रकाशित typical TDS डाटा",
+      "TDS ले सामान्य स्तरमा पूर्ण cure भएको पानी र chemical resistance वर्णन गर्छ; यसले chemical-compatibility chart वा application स्वीकृति प्रकाशित गर्दैन",
+    ],
+    industries: [
+      "Cultured marble र artificial stone निर्माण",
+      "Countertop र vanity top निर्माण",
+      "Wash-basin र bathroom-उत्पादन निर्माण",
+      "Architectural र सजावटी components",
+    ],
   }
 };

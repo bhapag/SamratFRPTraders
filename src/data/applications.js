@@ -68,7 +68,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your water tank production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your tank fabrication line."
@@ -90,7 +90,7 @@ export const applications = Object.freeze([
         "Industrial Cooling Tower Resin"
       ]
     },
-    "intro": "Industrial cooling towers run around the clock, circulating warm water across a structure that never really dries out. Steel corrodes under that kind of exposure and timber eventually rots, which is why most cooling tower manufacturers in India build the casing, louvers and internal structure from FRP instead — it shrugs off the constant moisture, needs almost no maintenance coating, and holds its shape through years of thermal cycling. Getting that outcome depends on starting with a resin laminate that cures into a consistent, structurally sound shell.",
+    "intro": "Industrial cooling towers run around the clock, circulating warm water across a structure that never really dries out. Steel corrodes under that kind of exposure and timber eventually rots, which is why most cooling tower manufacturers build the casing, louvers and internal structure from FRP instead — it shrugs off the constant moisture, needs almost no maintenance coating, and holds its shape through years of thermal cycling. Getting that outcome depends on starting with a resin laminate that cures into a consistent, structurally sound shell.",
     "whatTheyManufacture": "Cooling tower fabricators build the casing panels and shell sections that enclose the tower, along with louvers, air inlet screens, the cold water collection basin, internal partition walls, fan cylinders/stacks, and structural components such as ladders and handrails. Towers range from small packaged units serving a single chiller plant to large induced-draft towers built for power stations, refineries and process industries.",
     "whySuitable": "FRP cooling tower components are built the same way as most general-purpose FRP laminates — layers of glass reinforcement wetted out with resin and cured at room temperature — so the resin needs to behave predictably across large, often flat or gently curved panels. <a href=\"/products/gp-clear-resin/\">GP Clear Resin</a>'s 350–450 cPs viscosity wets out reinforcement evenly over these panel areas without pooling, and its non-accelerated cure gives fabricators control over gel timing when several panels are being laminated in the same shift. Where the circulating water is dosed with aggressive biocides or scale inhibitors, some fabricators step up to a <a href=\"/products/vinyl-ester-resin/\">vinyl ester resin</a> for extra chemical resistance — but for standard treated cooling water, GP Clear Resin's cured laminate holds up well within its intended service life.",
     "requiredCharacteristics": [
@@ -138,7 +138,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your cooling tower production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your panel fabrication line."
@@ -207,7 +207,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "frp-polyester-pigment",
       "roof-light-resin"
     ],
@@ -278,7 +278,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your FRP door production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your door fabrication line."
@@ -347,7 +347,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your door skin production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your skin moulding line."
@@ -416,7 +416,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "frp-polyester-pigment"
     ],
     "ctaHeading": "Need resin for your FRP panel production?",
@@ -439,7 +439,7 @@ export const applications = Object.freeze([
         "Polyester Resin for Lamination"
       ]
     },
-    "intro": "Hand lay-up is the process behind more FRP products than any other manufacturing method — it's how most water tanks, panels, boat hulls, door skins and moulded parts in India are actually built, using nothing more than a brush or roller, resin, reinforcement and a mould. Its popularity comes down to low tooling cost and flexibility: the same basic technique can build a two-metre tank shell or a small decorative moulding, provided the resin behaves predictably in the fabricator's hands.",
+    "intro": "Hand lay-up is the process behind more FRP products than any other manufacturing method — it's how most water tanks, panels, boat hulls, door skins and moulded parts are actually built, using nothing more than a brush or roller, resin, reinforcement and a mould. Its popularity comes down to low tooling cost and flexibility: the same basic technique can build a two-metre tank shell or a small decorative moulding, provided the resin behaves predictably in the fabricator's hands.",
     "whatTheyManufacture": "Hand lay-up is used across almost every category of FRP product — water tanks, cooling tower panels, roofing sheets, boat hulls, door skins, general panels and moulded items are all commonly built this way. Rather than being tied to one product category, it's the fabrication method that underlies most general-purpose FRP manufacturing in a typical workshop.",
     "whySuitable": "What every hand lay-up job has in common is a fabricator working resin into reinforcement by hand, layer by layer, so the resin has to behave consistently under manual application — not too thick to drag or leave dry patches, not so fast-gelling that it sets before the layer is fully wet out. <a href=\"/products/gp-clear-resin/\">GP Clear Resin</a>'s 350–450 cPs viscosity is calibrated for exactly this kind of manual work, spreading evenly under a roller or brush, while its sub-8-minute gel time gives fabricators a workable window to complete each layer before moving to the next.",
     "requiredCharacteristics": [
@@ -486,7 +486,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your hand lay-up production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your lay-up process."
@@ -555,7 +555,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your spray-up production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your spray-up process."
@@ -624,7 +624,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your boat or marine component production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your marine lamination line."
@@ -693,7 +693,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need a dependable resin for varied FRP lamination work?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your lamination jobs."
@@ -762,7 +762,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "frp-polyester-pigment"
     ],
     "ctaHeading": "Need resin for your moulded FRP products?",
@@ -897,7 +897,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need resin for your door skin assembly line?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right dosage for your skin-to-core bonding process."
@@ -1296,7 +1296,7 @@ export const applications = Object.freeze([
     "relatedProductSlugs": [
       "gp-clear-resin",
       "mekp-hardener",
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "frp-polyester-pigment"
     ],
     "ctaHeading": "Need gelcoat for your bathware or sanitaryware production?",
@@ -1366,7 +1366,7 @@ export const applications = Object.freeze([
     "relatedProductSlugs": [
       "gp-clear-resin",
       "mekp-hardener",
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "frp-polyester-pigment"
     ],
     "ctaHeading": "Need gelcoat for your water tank exterior production?",
@@ -1437,7 +1437,7 @@ export const applications = Object.freeze([
       "gp-clear-resin",
       "mekp-hardener",
       "frp-polyester-pigment",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need gelcoat for your general FRP mould production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your moulded product."
@@ -1459,7 +1459,7 @@ export const applications = Object.freeze([
         "Transport Panel Surface Coating"
       ]
     },
-    "intro": "Bus, commercial and utility vehicle body fabricators across India build exterior panels from FRP, and — as with any open-mould FRP part — the finished, visible surface of those panels comes from gelcoat, applied to the mould before the structural laminate is built up behind it. This page covers that finishing step for buses, commercial vehicles, utility vehicles and truck bodies specifically.",
+    "intro": "Bus, commercial and utility vehicle body fabricators build exterior panels from FRP, and — as with any open-mould FRP part — the finished, visible surface of those panels comes from gelcoat, applied to the mould before the structural laminate is built up behind it. This page covers that finishing step for buses, commercial vehicles, utility vehicles and truck bodies specifically.",
     "whatTheyManufacture": "Gelcoat finishes the visible surface of FRP body panels for buses, tourist and staff coaches, commercial and utility vehicle bodies, and truck bodies — including insulated panel bodies for goods transport — applied to the mould before the structural laminate behind it is built up.",
     "whySuitable": "<a href=\"/products/gp-gelcoat-resin/\">GP Gelcoat Resin</a>'s thixotropic body and high gloss finish suit the flat and gently curved panel moulds typical of bus and commercial vehicle body fabrication. It is not the structural material of the panel: <a href=\"/products/glass-fiber-mat/\">glass fibre</a> reinforcement wet out with <a href=\"/products/gp-clear-resin/\">GP Clear Resin</a> forms the structural laminate behind it, often over a foam or honeycomb core for insulated panel bodies. Because transport body panels are exposed outdoors for the vehicle's working life, the same caution applies here as with any long-term outdoor gelcoat use: GP Gelcoat Resin has no UV-stabiliser package confirmed in its specification, so where long-term outdoor colour stability matters, discuss UV-stabilised formulation requirements with our technical team before specifying.",
     "requiredCharacteristics": [
@@ -1506,7 +1506,7 @@ export const applications = Object.freeze([
       "gp-clear-resin",
       "mekp-hardener",
       "frp-polyester-pigment",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "ctaHeading": "Need gelcoat for your bus or commercial vehicle body panel production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your body panels."
@@ -2013,12 +2013,12 @@ export const applications = Object.freeze([
       ]
     },
     "ogImage": "/og-images/epoxy-clear-casting-resin-for-river-tables.jpg",
-    "ogImageAlt": "Samrat FRP Traders — manufacturer of polyester resins and FRP composite raw materials",
+    "ogImageAlt": "Samrat FRP Traders — supplier of polyester and epoxy resins and FRP composite raw materials in Nepal",
     "ogImageWidth": 1360,
     "ogImageHeight": 765,
     "draft": false,
     "intro": "A river table is built by casting clear resin into the gaps of a live-edge wood slab — sealed edges, a clear void where bark or sapwood grain runs, or an intentional channel down the centre — then flush-sanding the cured resin level with the wood. Getting a river table right depends on a resin that stays optically clear against the wood grain, bonds securely to the timber edge without pulling away as it cures, and can be poured in stages to reach the depth most tabletop channels actually need. Epoxy Clear Casting Resin, Samrat FRP Traders' 2:1 two-part epoxy system, is built for exactly this kind of medium-depth decorative casting.",
-    "whatTheyManufacture": "River table makers and furniture workshops build dining and coffee tables, benches, shelving and decorative panels from live-edge wood slabs — walnut, mango, acacia and similar timbers are common in India — cast with a clear or lightly tinted resin channel or void. The same technique extends to smaller wood-resin pieces: cheese boards, coasters, clocks and wall art built around a wood-and-resin combination.",
+    "whatTheyManufacture": "River table makers and furniture workshops build dining and coffee tables, benches, shelving and decorative panels from live-edge wood slabs — walnut, mango, acacia and similar timbers are common choices — cast with a clear or lightly tinted resin channel or void. The same technique extends to smaller wood-resin pieces: cheese boards, coasters, clocks and wall art built around a wood-and-resin combination.",
     "whySuitable": "A river table's resin channel is rarely a single 30 mm pour — most river channels or tabletop pours are built up in successive stages, each poured once the previous layer has reached its initial cure, which keeps exotherm heat manageable and avoids the cracking risk of trying to pour a whole table's depth in one go. Epoxy Clear Casting Resin's 2:1 mix ratio, 900 cPs viscosity and under 0.2% shrinkage support this staged approach: because it shrinks so little on cure, it holds its bond to the wood edge rather than pulling away and leaving a visible gap line — the most visible flaw a finished river table can have. Its UV-stabilised formulation resists yellowing better than a standard, unstabilised epoxy, genuinely useful for a tabletop that sits under window light for years, though like any clear epoxy it is not permanently immune to gradual colour change under prolonged, intense UV exposure.",
     "requiredCharacteristics": [
       "Low shrinkage to keep a tight, gap-free bond against the wood edge as the resin cures",
@@ -2283,7 +2283,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "vinyl-ester-resin",
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "gp-clear-resin"
     ],
     "relatedLinksHeading": "Verify Vinyl Ester Resin requirements before ordering",
@@ -2353,7 +2353,7 @@ export const applications = Object.freeze([
       },
       {
         "q": "Can this page confirm compatibility with a particular chemical or fume?",
-        "a": "No. Samrat's published material provides broad positioning, not a chemical-by-chemical compatibility chart. Share the medium, concentration where relevant, operating temperature, exposure context and project requirement for review."
+        "a": "No. Samrat Poly Resins, India's published material provides broad positioning, not a chemical-by-chemical compatibility chart. Share the medium, concentration where relevant, operating temperature, exposure context and project requirement for review."
       },
       {
         "q": "Does the liquid resin data determine the finished FRP component performance?",
@@ -2366,7 +2366,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "vinyl-ester-resin",
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "gp-clear-resin"
     ],
     "relatedLinksHeading": "Verify a Vinyl Ester FRP service requirement",
@@ -2452,7 +2452,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "vinyl-ester-resin",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "relatedLinksHeading": "Review Vinyl Ester Resin before a filament-winding RFQ",
     "recommendedLinks": [
@@ -2536,7 +2536,7 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "vinyl-ester-resin",
-      "fibre-glass-mat"
+      "glass-fiber-mat"
     ],
     "relatedLinksHeading": "Review Vinyl Ester Resin before a pultrusion RFQ",
     "recommendedLinks": [
@@ -2614,7 +2614,7 @@ export const applications = Object.freeze([
       }
     ],
     "relatedProductSlugs": [
-      "fibre-glass-mat",
+      "glass-fiber-mat",
       "sheet-grade-yellow-resin",
       "gp-clear-resin",
       "gp-gelcoat-resin"

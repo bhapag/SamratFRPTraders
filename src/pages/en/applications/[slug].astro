@@ -2,11 +2,14 @@
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import { applications } from '../../../data/applications.js';
 import { getProduct } from '../../../data/products.js';
+import { buildCanonicalUrl } from '../../../data/site.js';
 import Base from '../../../layouts/Base.astro';
 import { enHtml } from '../../../utils/lang.js';
 
 export function getStaticPaths() {
-  return applications.map((app) => ({ params: { slug: app.slug }, props: { app } }));
+  return applications
+    .filter((app) => !app.draft)
+    .map((app) => ({ params: { slug: app.slug }, props: { app } }));
 }
 
 const { app } = Astro.props;
@@ -27,8 +30,40 @@ const relatedProducts = (app.relatedProductSlugs ?? [])
     return null;
   })
   .filter(Boolean);
+
+const breadcrumbItems = [
+  { label: 'Home', href: '/en/' },
+  { label: 'Applications', href: '/en/applications/' },
+  { label: app.title },
+];
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbItems.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.label,
+    ...(item.href ? { item: buildCanonicalUrl(item.href) } : {}),
+  })),
+};
+
+const faqSchema =
+  app.faqs && app.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: app.faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.q,
+          acceptedAnswer: { '@type': 'Answer', text: faq.a },
+        })),
+      }
+    : null;
 ---
-<Base title={app.title} description={app.cardDescription}>
+<Base title={app.seo?.title ?? app.title} description={app.seo?.description ?? app.cardDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
@@ -40,13 +75,7 @@ const relatedProducts = (app.relatedProductSlugs ?? [])
 
   <section class="section">
     <div class="container">
-      <Breadcrumbs
-        items={[
-          { label: 'Home', href: '/en/' },
-          { label: 'Applications', href: '/en/applications/' },
-          { label: app.title },
-        ]}
-      />
+      <Breadcrumbs items={breadcrumbItems} />
 
       <div class="app-layout">
         <div class="app-main">
@@ -66,10 +95,12 @@ const relatedProducts = (app.relatedProductSlugs ?? [])
             </div>
           )}
 
-          {app.requiredCharacteristics && (
+          {app.requiredCharacteristics && app.requiredCharacteristics.length > 0 && (
             <div class="block" data-reveal>
               <h2 class="block-title">Required resin characteristics</h2>
-              <div set:html={enHtml(app.requiredCharacteristics)} />
+              <ul class="feature-list">
+                {app.requiredCharacteristics.map((item) => <li set:html={enHtml(item)} />)}
+              </ul>
             </div>
           )}
 
@@ -80,10 +111,21 @@ const relatedProducts = (app.relatedProductSlugs ?? [])
             </div>
           )}
 
-          {app.advantages && (
+          {app.advantages && app.advantages.length > 0 && (
             <div class="block" data-reveal>
               <h2 class="block-title">Advantages</h2>
-              <div set:html={enHtml(app.advantages)} />
+              <ul class="feature-list">
+                {app.advantages.map((item) => <li set:html={enHtml(item)} />)}
+              </ul>
+            </div>
+          )}
+
+          {app.commonProducts && app.commonProducts.length > 0 && (
+            <div class="block" data-reveal>
+              <h2 class="block-title">Common products</h2>
+              <ul class="feature-list">
+                {app.commonProducts.map((item) => <li set:html={enHtml(item)} />)}
+              </ul>
             </div>
           )}
 
@@ -156,6 +198,19 @@ const relatedProducts = (app.relatedProductSlugs ?? [])
 
   .block {
     margin-top: 2rem;
+  }
+
+  .feature-list {
+    display: grid;
+    gap: 0.6rem;
+    margin: 0;
+    padding-left: 1.3rem;
+  }
+
+  .feature-list li {
+    color: var(--ink-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
   }
 
   .block-title {

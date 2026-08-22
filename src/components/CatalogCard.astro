@@ -1,7 +1,14 @@
 ---
-const { name, eyebrow, href, description } = Astro.props;
+const { name, eyebrow, href, description, search, category } = Astro.props;
+const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
 ---
-<a class="catalog-card" href={href}>
+<a
+  class="catalog-card"
+  href={href}
+  data-catalog-card
+  data-search={searchValue}
+  data-category={category}
+>
   <span class="catalog-card-eyebrow">{eyebrow}</span>
   <span class="catalog-card-name">{name}</span>
   {description && <span class="catalog-card-desc">{description}</span>}

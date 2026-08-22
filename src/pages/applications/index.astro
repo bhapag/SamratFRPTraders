@@ -21,7 +21,7 @@ import Base from '../../layouts/Base.astro';
   <section class="section">
     <div class="container">
       <div class="app-grid">
-        {applications.map((app) => (
+        {applications.filter((app) => !app.draft).map((app) => (
           <a class="app-card" href={`/applications/${app.slug}/`} data-reveal>
             <span class="app-media">
               <img

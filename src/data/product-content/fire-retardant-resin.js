@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "Fire Retardant Resin — Nepal Supplier | Samrat FRP Traders",
+    seoTitle: "Fire Retardant Resin — Nepal Supplier",
     seoDescription: "Fire Retardant Resin — halogenated fire-retardant unsaturated polyester resin for industrial FRP. Imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports Fire Retardant Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as an unsaturated polyester resin with a halogenated fire-retardant formulation, supplied as a white liquid.",
@@ -45,9 +45,22 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in automotive and railway components, marine and electrical applications, FRP panels and building components, and tunnels and infrastructure.",
+    features: [
+      "Halogenated fire-retardant formulation listed in the current TDS",
+      "Unsaturated polyester resin supplied as a white liquid",
+      "Published 400 cPs viscosity and 5.5-minute gel time",
+      "Room-temperature cure with an MEKP catalyst",
+      "Product-specific Technical Data Sheet available for review",
+    ],
+    industries: [
+      "Automotive and railway components",
+      "Marine FRP applications",
+      "Electrical FRP applications",
+      "FRP panels and building components",
+    ],
   },
   ne: {
-    seoTitle: "Fire Retardant Resin — नेपालका लागि आपूर्ति | Samrat FRP Traders",
+    seoTitle: "Fire Retardant Resin — नेपालका लागि आपूर्ति",
     seoDescription: "Fire Retardant Resin — halogenated fire-retardant unsaturated polyester resin, industrial FRP का लागि। Samrat FRP Traders ले नेपालका लागि आयात गर्दछ।",
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि Fire Retardant Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India को हालको कागजातले यसलाई halogenated fire-retardant formulation भएको unsaturated polyester resin का रूपमा चिनाउँछ, जुन सेतो liquid मा आपूर्ति हुन्छ।",
@@ -91,5 +104,18 @@ export default {
       },
     ],
     applicationsIntro: "Supplier को कागजातले automotive र railway components, marine र electrical applications, FRP panels र building components मा प्रयोग सूचीबद्ध गर्दछ।",
+    features: [
+      "हालको TDS मा सूचीबद्ध Halogenated fire-retardant formulation",
+      "सेतो liquid रूपमा आपूर्ति हुने Unsaturated polyester resin",
+      "प्रकाशित 400 cPs viscosity र 5.5-मिनेट gel time",
+      "MEKP catalyst सहित room-temperature cure",
+      "समीक्षाका लागि उत्पादन-विशिष्ट Technical Data Sheet उपलब्ध",
+    ],
+    industries: [
+      "Automotive र railway components",
+      "Marine FRP प्रयोगहरू",
+      "Electrical FRP प्रयोगहरू",
+      "FRP panels र building components",
+    ],
   },
 };

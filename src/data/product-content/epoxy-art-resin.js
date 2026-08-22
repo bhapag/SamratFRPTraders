@@ -21,7 +21,19 @@ export default {
       { q: "How is it different from Clear Casting Resin?", a: "Both are 2:1 epoxy systems with a similar cure schedule. Epoxy Art Resin is supplier-listed for self-levelling surface coats, while Clear Casting Resin is listed for deeper pours up to 30 mm per stage. Choose based on whether you need a level surface coat or a deeper cast." },
       { q: "What documents and commercial details are available?", a: "Supplier Technical Data Sheet and Safety Data Sheet documents are available. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page." }
     ],
-    applicationsIntro: "Supplier documentation lists use in floor art and table tops, river tables and wood art, jewellery and decorative casting, and decorative coatings."
+    applicationsIntro: "Supplier documentation lists use in floor art and table tops, river tables and wood art, jewellery and decorative casting, and decorative coatings.",
+    features: [
+      "Water-clear, high-gloss finish",
+      "2:1 mix ratio, 24-hour cure",
+      "Self-levelling with excellent bubble release",
+      "UV resistant — holds clarity and gloss over time"
+    ],
+    industries: [
+      "Furniture & table top manufacturing",
+      "Flooring & decorative coatings",
+      "Jewellery & fashion accessories",
+      "Art & decorative casting"
+    ]
   },
   ne: {
     seoTitle: "Epoxy Art Resin नेपाल — Self-Levelling Epoxy आपूर्तिकर्ता",
@@ -45,6 +57,18 @@ export default {
       { q: "Clear Casting Resin भन्दा कसरी फरक छ?", a: "दुवै 2:1 epoxy प्रणाली हुन् र cure schedule उस्तै छ। Epoxy Art Resin self-levelling सतह कोटका लागि, Clear Casting Resin प्रति चरण 30 mm सम्म गहिरो pour का लागि उल्लेख गरिएका छन्। समतल सतह कोट चाहिए वा गहिरो cast चाहिए अनुसार छान्नुहोस्।" },
       { q: "कस्ता दस्तावेज र व्यावसायिक विवरण उपलब्ध छन्?", a: "Supplier Technical Data Sheet र Safety Data Sheet उपलब्ध छन्। नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्।" }
     ],
-    applicationsIntro: "Supplier दस्तावेजले floor art र table top, river table र wood art, jewellery र सजावटी casting, तथा decorative coatings मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "Supplier दस्तावेजले floor art र table top, river table र wood art, jewellery र सजावटी casting, तथा decorative coatings मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "Water-clear, high-gloss finish",
+      "2:1 mix ratio, 24-घण्टा cure",
+      "Self-levelling, उत्कृष्ट bubble release सहित",
+      "UV प्रतिरोधी — समयसँगै clarity र gloss कायम राख्छ"
+    ],
+    industries: [
+      "Furniture र table top निर्माण",
+      "Flooring र सजावटी coatings",
+      "गहना र fashion accessories",
+      "Art र सजावटी casting"
+    ]
   }
 };

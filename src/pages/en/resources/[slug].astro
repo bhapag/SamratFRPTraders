@@ -1,11 +1,19 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Callout from '../../../components/Callout.astro';
+import DataTable from '../../../components/DataTable.astro';
+import ReadingProgress from '../../../components/ReadingProgress.astro';
+import TableOfContents from '../../../components/TableOfContents.astro';
+import TechIcon from '../../../components/TechIcon.astro';
 import { resources } from '../../../data/resources.js';
+import { buildCanonicalUrl } from '../../../data/site.js';
 import Base from '../../../layouts/Base.astro';
 import { enHref, enHtml } from '../../../utils/lang.js';
 
 export function getStaticPaths() {
-  return resources.map((resource) => ({ params: { slug: resource.slug }, props: { resource } }));
+  return resources
+    .filter((resource) => !resource.draft)
+    .map((resource) => ({ params: { slug: resource.slug }, props: { resource } }));
 }
 
 const { resource } = Astro.props;
@@ -19,10 +27,39 @@ const recommendedLinks = (resource.recommendedLinks ?? []).map((link) => ({
   href: enHref(link.href),
 }));
 
-const tableRows = (table) =>
-  table && typeof table === 'object' && !Array.isArray(table)
-    ? Object.entries(table).filter(([key]) => key !== 'title' && key !== 'note')
-    : [];
+const sections = (resource.sections ?? []).map((s, i) => ({ ...s, id: `section-${i + 1}` }));
+const tocItems = sections.filter((s) => s.heading).map((s) => ({ id: s.id, label: s.heading }));
+const isLongForm = sections.length >= 4;
+
+const breadcrumbItems = [
+  { label: 'Home', href: '/en/' },
+  { label: 'Resources', href: '/en/resources/' },
+  { label: resource.title },
+];
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbItems.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.label,
+    ...(item.href ? { item: buildCanonicalUrl(item.href) } : {}),
+  })),
+};
+
+const faqSchema =
+  resource.faqs && resource.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: resource.faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.q,
+          acceptedAnswer: { '@type': 'Answer', text: faq.a },
+        })),
+      }
+    : null;
 ---
 <Base title={resource.title} description={resource.description}>
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -34,6 +71,9 @@ const tableRows = (table) =>
     datePublished: resource.publishDate,
     publisher: { '@type': 'Organization', name: 'Samrat FRP Traders' },
   })} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+  {isLongForm && <ReadingProgress />}
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
@@ -45,79 +85,183 @@ const tableRows = (table) =>
 
   <section class="section">
     <div class="container">
-      <Breadcrumbs
-        items={[
-          { label: 'Home', href: '/en/' },
-          { label: 'Resources', href: '/en/resources/' },
-          { label: resource.title },
-        ]}
-      />
+      <Breadcrumbs items={breadcrumbItems} />
 
-      <article class="article" data-reveal>
-        {resource.quickFacts && Object.keys(resource.quickFacts).length > 0 && (
-          <div class="quick-facts">
-            <h2 class="block-title">Quick facts</h2>
-            <dl>
-              {Object.entries(resource.quickFacts).map(([label, value]) => (
-                <div class="qf-row">
-                  <dt>{label}</dt>
-                  <dd>{value}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
+      <div class:list={['article-body', { 'article-body-wide': isLongForm }]}>
+        {isLongForm && (
+          <aside class="article-side" data-reveal>
+            {resource.quickFacts && Object.keys(resource.quickFacts).length > 0 && (
+              <div class="quick-facts">
+                <h2 class="block-title">Quick facts</h2>
+                <dl>
+                  {Object.entries(resource.quickFacts).map(([label, value]) => (
+                    <div class="qf-row">
+                      <dt>{label}</dt>
+                      <dd>{value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            )}
+            <TableOfContents items={tocItems} label="Table of Contents" />
+          </aside>
         )}
 
-        {resource.sections?.map((section) => (
-          <div class="block">
-            {section.heading && <h2 class="block-title">{section.heading}</h2>}
-            {section.body?.map((paragraph) => <p set:html={enHtml(paragraph)} />)}
-          </div>
-        ))}
-
-        {resource.propertiesTable && tableRows(resource.propertiesTable).length > 0 && (
-          <div class="block">
-            <h2 class="block-title">Key properties</h2>
-            <dl class="data-table">
-              {tableRows(resource.propertiesTable).map(([label, value]) => (
-                <div class="dt-row">
-                  <dt>{label}</dt>
-                  <dd>{value}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        )}
-
-        {resource.comparisonTable && typeof resource.comparisonTable === 'object' && (
-          <div class="block">
-            <h2 class="block-title">{resource.comparisonTable.title ?? 'Comparison'}</h2>
-            {resource.comparisonTable.note && <p class="table-note">{resource.comparisonTable.note}</p>}
-            <dl class="data-table">
-              {tableRows(resource.comparisonTable).map(([label, value]) => (
-                <div class="dt-row">
-                  <dt>{label}</dt>
-                  <dd>{value}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        )}
-
-        {resource.faqs?.length > 0 && (
-          <div class="block">
-            <h2 class="block-title">Frequently asked questions</h2>
-            <div class="faq-list">
-              {resource.faqs.map((faq) => (
-                <div class="faq-item">
-                  <strong>{faq.q}</strong>
-                  <p>{faq.a}</p>
-                </div>
-              ))}
+        <article class="article" data-reveal>
+          {!isLongForm && resource.quickFacts && Object.keys(resource.quickFacts).length > 0 && (
+            <div class="quick-facts">
+              <h2 class="block-title">Quick facts</h2>
+              <dl>
+                {Object.entries(resource.quickFacts).map(([label, value]) => (
+                  <div class="qf-row">
+                    <dt>{label}</dt>
+                    <dd>{value}</dd>
+                  </div>
+                ))}
+              </dl>
             </div>
-          </div>
-        )}
-      </article>
+          )}
+
+          {sections.map((section) => {
+            const table = section.table ? resource[section.table] : null;
+            return (
+              <div class="block" id={section.id}>
+                {section.heading && <h2 class="block-title">{section.heading}</h2>}
+                {section.body?.map((paragraph) => <p set:html={enHtml(paragraph)} />)}
+
+                {section.photo && (
+                  <figure class="article-photo">
+                    <img
+                      src={`/images/supplier/${section.photo.src}`}
+                      alt={section.photo.alt}
+                      loading="lazy"
+                      width="1200"
+                      height="800"
+                    />
+                    {section.photo.caption && <figcaption>{section.photo.caption}</figcaption>}
+                  </figure>
+                )}
+
+                {table && <DataTable headers={table.headers} rows={table.rows} note={table.note} />}
+
+                {section.visuals?.map((visual) => (
+                  visual.type === 'steps' ? (
+                    <div class="process-block">
+                      <ol class="process-list">
+                        {visual.items.map((item, i) => (
+                          <li class="process-step">
+                            <span class="process-num">{String(i + 1).padStart(2, '0')}</span>
+                            <span class="process-label">{item.label}</span>
+                          </li>
+                        ))}
+                      </ol>
+                      {visual.branchItems && (
+                        <div class="process-branch">
+                          <p class="process-branch-label">{visual.branchLabel}</p>
+                          <div class="process-branch-chips">
+                            {visual.branchItems.map((b) => <span class="process-chip">{b}</span>)}
+                          </div>
+                        </div>
+                      )}
+                      {visual.caption && <p class="diagram-caption">{visual.caption}</p>}
+                    </div>
+                  ) : visual.type === 'icongrid' ? (
+                    <div class="diagram-block">
+                      <div class="diagram-icongrid">
+                        {visual.items.map((item) => (
+                          <div class="diagram-icon-card">
+                            <span class="diagram-icon" aria-hidden="true"><TechIcon name={item.icon} /></span>
+                            <span class="diagram-icon-label">{item.label}</span>
+                          </div>
+                        ))}
+                      </div>
+                      {visual.caption && <p class="diagram-caption">{visual.caption}</p>}
+                    </div>
+                  ) : null
+                ))}
+
+                {section.subsections?.map((sub) => (
+                  <div class="article-subsection">
+                    <h3>{sub.heading}</h3>
+                    <p set:html={enHtml(sub.body)} />
+                  </div>
+                ))}
+
+                {section.visualsAfter?.map((visual) => (
+                  visual.type === 'steps' ? (
+                    <div class="process-block">
+                      <ol class="process-list">
+                        {visual.items.map((item, i) => (
+                          <li class="process-step">
+                            <span class="process-num">{String(i + 1).padStart(2, '0')}</span>
+                            <span class="process-label">{item.label}</span>
+                          </li>
+                        ))}
+                      </ol>
+                      {visual.caption && <p class="diagram-caption">{visual.caption}</p>}
+                    </div>
+                  ) : visual.type === 'icongrid' ? (
+                    <div class="diagram-block">
+                      <div class="diagram-icongrid">
+                        {visual.items.map((item) => (
+                          <div class="diagram-icon-card">
+                            <span class="diagram-icon" aria-hidden="true"><TechIcon name={item.icon} /></span>
+                            <span class="diagram-icon-label">{item.label}</span>
+                          </div>
+                        ))}
+                      </div>
+                      {visual.caption && <p class="diagram-caption">{visual.caption}</p>}
+                    </div>
+                  ) : null
+                ))}
+
+                {section.callouts?.map((c) => (
+                  <Callout label={c.label} variant={c.variant}>
+                    {c.text && <p set:html={enHtml(c.text)} />}
+                    {c.items && <ul>{c.items.map((item) => <li>{item}</li>)}</ul>}
+                  </Callout>
+                ))}
+              </div>
+            );
+          })}
+
+          {resource.propertiesTable && (
+            <div class="block">
+              <h2 class="block-title">Key properties</h2>
+              <DataTable
+                headers={resource.propertiesTable.headers}
+                rows={resource.propertiesTable.rows}
+                note={resource.propertiesTable.note}
+              />
+            </div>
+          )}
+
+          {resource.comparisonTable && (
+            <div class="block">
+              <h2 class="block-title">{resource.comparisonTable.title ?? 'Comparison'}</h2>
+              <DataTable
+                headers={resource.comparisonTable.headers}
+                rows={resource.comparisonTable.rows}
+                note={resource.comparisonTable.note}
+              />
+            </div>
+          )}
+
+          {resource.faqs?.length > 0 && (
+            <div class="block">
+              <h2 class="block-title">Frequently asked questions</h2>
+              <div class="faq-list">
+                {resource.faqs.map((faq) => (
+                  <details class="faq-item">
+                    <summary>{faq.q}</summary>
+                    <p>{faq.a}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          )}
+        </article>
+      </div>
 
       <div class="article-foot" data-reveal>
         <p class="note">
@@ -162,8 +306,25 @@ const tableRows = (table) =>
 </Base>
 
 <style>
-  .article {
+  .article-body {
     margin-top: 2rem;
+  }
+
+  .article-body-wide {
+    display: grid;
+    grid-template-columns: 17rem minmax(0, 1fr);
+    gap: clamp(2rem, 5vw, 3.5rem);
+    align-items: start;
+  }
+
+  .article-side {
+    display: grid;
+    gap: 1.4rem;
+    position: sticky;
+    top: 5.5rem;
+  }
+
+  .article {
     max-width: 52rem;
   }
 
@@ -179,6 +340,7 @@ const tableRows = (table) =>
 
   .block {
     margin-top: 2rem;
+    scroll-margin-top: 5.5rem;
   }
 
   .block-title {
@@ -194,12 +356,22 @@ const tableRows = (table) =>
     background: var(--bg-2);
   }
 
+  .quick-facts .block-title {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+
   .qf-row {
     display: grid;
     grid-template-columns: minmax(9rem, 14rem) 1fr;
     gap: 1rem;
     padding: 0.55rem 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .article-body-wide .qf-row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
   }
 
   .qf-row:last-child {
@@ -220,41 +392,205 @@ const tableRows = (table) =>
     font-size: 0.9rem;
   }
 
-  .data-table {
-    margin: 0;
-    border: 1px solid var(--line);
-    background: var(--bg-2);
+  .article-photo {
+    border: 1px solid var(--line-2);
+    box-shadow: var(--surface-shadow-rest);
+    overflow: hidden;
+    margin-block: 1.6rem;
   }
 
-  .dt-row {
-    display: grid;
-    grid-template-columns: minmax(9rem, 14rem) 1fr;
-    gap: 1rem;
-    padding: 0.75rem 1.2rem;
-    border-bottom: 1px solid var(--line);
+  .article-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
-  .dt-row:last-child {
-    border-bottom: 0;
-  }
-
-  .dt-row dt {
-    color: var(--ink-faint);
+  .article-photo figcaption {
+    padding: 0.7rem 0.9rem;
+    border-top: 1px solid var(--line);
+    background: var(--bg-3);
     font-family: var(--font-mono);
-    font-size: 0.64rem;
-    letter-spacing: 0.1em;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-  }
-
-  .dt-row dd {
-    margin: 0;
-    color: var(--ink);
-    font-size: 0.9rem;
-  }
-
-  .table-note {
     color: var(--ink-faint);
-    font-size: 0.8rem;
+  }
+
+  .article-subsection {
+    margin-top: 1.6rem;
+  }
+
+  .article-subsection h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--ink);
+  }
+
+  .article-subsection p {
+    margin-bottom: 0;
+  }
+
+  .process-block,
+  .diagram-block {
+    background: var(--bg-3);
+    border: 1px solid var(--line);
+    box-shadow: var(--surface-shadow-rest);
+    padding: clamp(1.4rem, 4vw, 2rem);
+    margin-block: 1.6rem;
+  }
+
+  .process-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 1.4rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .process-step {
+    position: relative;
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.45rem;
+    padding: 1.1rem 0.7rem;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-top: 2px solid var(--accent-gold);
+  }
+
+  .process-step:not(:last-child)::after {
+    content: '→';
+    position: absolute;
+    right: -1.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--accent-gold);
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+
+  .process-num {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    color: var(--accent-gold-light);
+  }
+
+  .process-label {
+    font-size: 0.9rem;
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  @media (max-width: 700px) {
+    .process-list {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .process-step {
+      flex: 1 1 auto;
+    }
+
+    .process-step:not(:last-child)::after {
+      content: '↓';
+      right: auto;
+      left: 50%;
+      top: auto;
+      bottom: -1.1rem;
+      transform: translateX(-50%);
+    }
+  }
+
+  .process-branch {
+    margin-top: 1.6rem;
+    padding-top: 1.3rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .process-branch-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 0.8rem;
+  }
+
+  .process-branch-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .process-chip {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--accent-gold-dark);
+    color: var(--accent-gold-light);
+  }
+
+  .diagram-icongrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 0.9rem;
+  }
+
+  .diagram-icon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    text-align: center;
+    padding: 1.1rem 0.8rem;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-top: 2px solid var(--accent-gold);
+    transition: transform 0.3s var(--ease-premium), box-shadow 0.3s var(--ease-premium);
+  }
+
+  .diagram-icon-card:hover {
+    transform: translateY(-3px) scale(1.015);
+    box-shadow: var(--surface-shadow-hover);
+  }
+
+  .diagram-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    color: var(--accent-gold);
+  }
+
+  .diagram-icon :global(svg) {
+    width: 24px;
+    height: 24px;
+  }
+
+  .diagram-icon-label {
+    font-size: 0.86rem;
+    color: var(--ink);
+  }
+
+  .diagram-caption {
+    text-align: center;
+    margin-top: 1.3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    color: var(--ink-faint);
+    letter-spacing: 0.03em;
   }
 
   .faq-item {
@@ -262,15 +598,15 @@ const tableRows = (table) =>
     border-bottom: 1px solid var(--line);
   }
 
-  .faq-item strong {
-    display: block;
-    margin-bottom: 0.35rem;
+  .faq-item summary {
+    cursor: pointer;
     color: var(--ink);
     font-size: 0.92rem;
+    font-weight: 600;
   }
 
   .faq-item p {
-    margin: 0;
+    margin: 0.6rem 0 0;
     color: var(--ink-dim);
     font-size: 0.88rem;
     line-height: 1.65;
@@ -337,9 +673,18 @@ const tableRows = (table) =>
     font-size: 0.78rem;
   }
 
+  @media (max-width: 820px) {
+    .article-body-wide {
+      grid-template-columns: 1fr;
+    }
+
+    .article-side {
+      position: static;
+    }
+  }
+
   @media (max-width: 40rem) {
-    .qf-row,
-    .dt-row {
+    .qf-row {
       grid-template-columns: 1fr;
       gap: 0.3rem;
     }

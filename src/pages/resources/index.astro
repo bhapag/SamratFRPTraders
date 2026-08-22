@@ -1,12 +1,19 @@
 ---
+import ResourceCard from '../../components/ResourceCard.astro';
 import { resources } from '../../data/resources.js';
 import Base from '../../layouts/Base.astro';
+import { localizeResource, readingTimeNe } from '../../utils/resource-i18n.js';
+import { clusterByProduct, foundationResources } from '../../utils/resource-hub.js';
 
-const grouped = {};
-for (const resource of resources) {
-  const category = resource.category ?? 'Guides';
-  (grouped[category] ??= []).push(resource);
-}
+const published = resources.filter((r) => !r.draft).map((r) => localizeResource(r));
+const featured = foundationResources(published);
+const featuredSlugs = new Set(featured.map((r) => r.slug));
+
+const { clusters, ungrouped } = clusterByProduct(published);
+const nonFeaturedClusters = clusters
+  .map((cluster) => ({ ...cluster, resources: cluster.resources.filter((r) => !featuredSlugs.has(r.slug)) }))
+  .filter((cluster) => cluster.resources.length > 0);
+const nonFeaturedUngrouped = ungrouped.filter((r) => !featuredSlugs.has(r.slug));
 ---
 <Base
   lang="ne"
@@ -19,85 +26,196 @@ for (const resource of resources) {
       <p class="eyebrow">जानकारी केन्द्र</p>
       <h1>नेपाली खरिदकर्ताका लागि <span class="metal-text">स्रोतहरू।</span></h1>
       <p class="page-lead">
-        FRP सामग्री सूचीका लागि छनोट गाइड, तुलना, खरिद चेकलिस्ट र प्राविधिक व्याख्याहरू।
+        FRP सामग्री सूचीका लागि छनोट गाइड, तुलना, खरिद चेकलिस्ट र प्राविधिक व्याख्याहरू — {published.length} गाइड, उत्पादन अनुसार व्यवस्थित।
       </p>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      {Object.entries(grouped).map(([category, items]) => (
-        <div class="resource-group" data-reveal>
-          <h2 class="group-title">{category}</h2>
+      <div class="kc-downloads" data-reveal>
+        <div>
+          <h2 class="kc-downloads-title">Samrat FRP Traders उत्पादन क्याटलग</h2>
+          <p class="kc-downloads-desc">हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।</p>
+          <p class="kc-downloads-meta">PDF</p>
+        </div>
+        <a
+          class="button button-primary"
+          href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+          target="_blank"
+          rel="noopener"
+          download
+          aria-label="Samrat FRP Traders उत्पादन क्याटलग (PDF) डाउनलोड गर्नुहोस्"
+        >
+          उत्पादन क्याटलग डाउनलोड गर्नुहोस्
+        </a>
+      </div>
+
+      <nav class="jump-nav" aria-label="उत्पादन अनुसार जानकारी">
+        <a href="#featured">फिचर्ड गाइड</a>
+        {nonFeaturedClusters.map((cluster) => (
+          <a href={`#cluster-${cluster.productSlug}`}>{cluster.productName}</a>
+        ))}
+        {nonFeaturedUngrouped.length > 0 && <a href="#general">सामान्य गाइड</a>}
+      </nav>
+
+      <div class="resource-group" id="featured" data-reveal>
+        <h2 class="group-title">फिचर्ड गाइड</h2>
+        <p class="group-lead">प्रत्येक उत्पादनको आधारभूत जानकारी — यहीँबाट सुरु गर्नुहोस्।</p>
+        <div class="resource-grid">
+          {featured.map((resource) => (
+            <ResourceCard
+              href={`/resources/${resource.slug}/`}
+              title={resource.title}
+              description={resource.description}
+              readingTime={readingTimeNe(resource.readingTime)}
+              icon={resource.icon}
+              readMoreLabel="पूरा लेख पढ्नुहोस् →"
+            />
+          ))}
+        </div>
+      </div>
+
+      {nonFeaturedClusters.map((cluster) => (
+        <div class="resource-group" id={`cluster-${cluster.productSlug}`} data-reveal>
+          <h2 class="group-title">
+            {cluster.productName}
+            {cluster.productSlug && (
+              <a class="group-title-link" href={`/products/${cluster.productSlug}/`}>उत्पादन पृष्ठ हेर्नुहोस् →</a>
+            )}
+          </h2>
           <div class="resource-grid">
-            {items.map((resource) => (
-              <a class="resource-card" href={`/resources/${resource.slug}/`}>
-                <span class="resource-title">{resource.title}</span>
-                <span class="resource-desc">{resource.description}</span>
-                <span class="resource-meta">{resource.readingTime} · {resource.publishDate}</span>
-              </a>
+            {cluster.resources.map((resource) => (
+              <ResourceCard
+                href={`/resources/${resource.slug}/`}
+                title={resource.title}
+                description={resource.description}
+                readingTime={readingTimeNe(resource.readingTime)}
+                icon={resource.icon}
+                readMoreLabel="पूरा लेख पढ्नुहोस् →"
+              />
             ))}
           </div>
         </div>
       ))}
+
+      {nonFeaturedUngrouped.length > 0 && (
+        <div class="resource-group" id="general" data-reveal>
+          <h2 class="group-title">सामान्य गाइड</h2>
+          <div class="resource-grid">
+            {nonFeaturedUngrouped.map((resource) => (
+              <ResourceCard
+                href={`/resources/${resource.slug}/`}
+                title={resource.title}
+                description={resource.description}
+                readingTime={readingTimeNe(resource.readingTime)}
+                icon={resource.icon}
+                readMoreLabel="पूरा लेख पढ्नुहोस् →"
+              />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   </section>
 </Base>
 
 <style>
+  .kc-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+    padding: 1.3rem 1.5rem;
+    border: 1px solid rgba(var(--gold-rgb), 0.4);
+    border-left-width: 0.26rem;
+    background: rgba(var(--gold-rgb), 0.05);
+  }
+
+  .kc-downloads-title {
+    margin: 0;
+    font-size: 1.15rem;
+  }
+
+  .kc-downloads-desc {
+    margin: 0.3rem 0 0.25rem;
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+  }
+
+  .kc-downloads-meta {
+    margin: 0;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .jump-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+  }
+
+  .jump-nav a {
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    color: var(--ink-dim);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: border-color 180ms var(--ease-premium), color 180ms var(--ease-premium);
+  }
+
+  .jump-nav a:hover {
+    border-color: var(--accent-gold);
+    color: var(--accent-gold-light);
+  }
+
   .resource-group {
     margin-bottom: clamp(2.5rem, 6vw, 4rem);
+    scroll-margin-top: 5.5rem;
   }
 
   .group-title {
-    margin-bottom: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.9rem;
+    margin-bottom: 0.4rem;
     padding-bottom: 0.7rem;
     border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
     font-size: 1.5rem;
+  }
+
+  .group-title-link {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    color: var(--accent-gold-light);
+    text-decoration: none;
+  }
+
+  .group-title-link:hover {
+    color: var(--accent-gold);
+  }
+
+  .group-lead {
+    margin-bottom: 1.1rem;
+    color: var(--ink-faint);
+    font-size: 0.88rem;
   }
 
   .resource-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
     gap: 1.1rem;
-  }
-
-  .resource-card {
-    display: grid;
-    gap: 0.5rem;
-    padding: 1.2rem 1.3rem;
-    border: 1px solid var(--line);
-    background: var(--bg-3);
-    box-shadow: var(--surface-shadow-rest);
-    color: var(--ink);
-    text-decoration: none;
-    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium);
-  }
-
-  .resource-card:hover {
-    transform: translateY(-0.2rem);
-    border-color: rgba(var(--gold-rgb), 0.65);
-  }
-
-  .resource-title {
-    font-family: var(--font-display);
-    font-size: 1.02rem;
-    font-weight: 700;
-    line-height: 1.1;
-    text-transform: uppercase;
-  }
-
-  .resource-desc {
-    color: var(--ink-dim);
-    font-size: 0.84rem;
-    line-height: 1.5;
-  }
-
-  .resource-meta {
-    color: var(--ink-faint);
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
   }
 </style>

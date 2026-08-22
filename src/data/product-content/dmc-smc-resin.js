@@ -44,7 +44,19 @@ export default {
         a: "For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page and share whether your requirement is DMC or SMC, the finished component and your expected quantity."
       }
     ],
-    applicationsIntro: "Supplier documentation lists use in DMC and SMC moulding compounds, electrical housings and manhole covers, automotive and transport components, and water tanks and sanitaryware."
+    applicationsIntro: "Supplier documentation lists use in DMC and SMC moulding compounds, electrical housings and manhole covers, automotive and transport components, and water tanks and sanitaryware.",
+    features: [
+      "One published orthophthalic unsaturated polyester route for DMC and SMC moulding-compound applications",
+      "Pale-yellow, non-accelerated liquid resin with 600 cPs viscosity published in the current TDS",
+      "Current Technical Data Sheet lists 12–18 minute gel time at 25°C, 35% styrene content and 1.12 g/cm³ specific gravity",
+      "TDS-published applications include DMC/SMC moulding compounds, electrical housings, manhole covers, automotive panels, transport components, water tanks and sanitaryware",
+    ],
+    industries: [
+      "DMC / SMC moulding-compound procurement",
+      "Electrical-housing and manhole-cover manufacturing",
+      "Automotive and transportation-component manufacturing",
+      "Water-tank and sanitaryware manufacturing",
+    ],
   },
   ne: {
     seoTitle: "DMC/SMC Resin नेपाल आपूर्तिकर्ता | Moulding Compound Resin",
@@ -90,6 +102,18 @@ export default {
         a: "नेपालमा हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट Samrat FRP Traders लाई सम्पर्क गरी आफ्नो आवश्यकता DMC हो कि SMC, finished component र अपेक्षित quantity खुलाउनुहोस्।"
       }
     ],
-    applicationsIntro: "आपूर्तिकर्ताको कागजातले DMC र SMC moulding compounds, electrical housings र manhole covers, automotive र transport components, साथै water tanks र sanitaryware मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "आपूर्तिकर्ताको कागजातले DMC र SMC moulding compounds, electrical housings र manhole covers, automotive र transport components, साथै water tanks र sanitaryware मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "DMC र SMC moulding-compound प्रयोगका लागि एउटा प्रकाशित orthophthalic unsaturated polyester route",
+      "हालको TDS मा प्रकाशित 600 cPs viscosity सहित हल्का-पहेंलो, non-accelerated liquid resin",
+      "हालको Technical Data Sheet मा 25°C मा 12–18 मिनेट gel time, 35% styrene content र 1.12 g/cm³ specific gravity उल्लेख",
+      "TDS-प्रकाशित प्रयोगमा DMC/SMC moulding compounds, electrical housings, manhole covers, automotive panels, transport components, water tanks र sanitaryware समावेश",
+    ],
+    industries: [
+      "DMC / SMC moulding-compound खरिद",
+      "Electrical-housing र manhole-cover निर्माण",
+      "Automotive र transportation-component निर्माण",
+      "Water-tank र sanitaryware निर्माण",
+    ],
   }
 };

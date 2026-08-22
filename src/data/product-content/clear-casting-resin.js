@@ -21,7 +21,20 @@ export default {
       { q: "Is it UV resistant and non-yellowing?", a: "The supplier documentation describes a UV-stabilised formulation that is more yellowing-resistant than a standard epoxy, but no clear epoxy is entirely immune to gradual colour change under prolonged UV exposure." },
       { q: "What documents and commercial details are available?", a: "Supplier Technical Data Sheet and Safety Data Sheet documents are available. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page." }
     ],
-    applicationsIntro: "Supplier documentation lists use in river tables and wood-resin furniture, jewellery making and small decorative casting, art and industrial casting, and decor items requiring optical clarity and casting depth."
+    applicationsIntro: "Supplier documentation lists use in river tables and wood-resin furniture, jewellery making and small decorative casting, art and industrial casting, and decor items requiring optical clarity and casting depth.",
+    features: [
+      "Crystal-clear, high-gloss finish with low bubble formation",
+      "2:1 mix ratio by weight; 24-hour initial cure, 72-hour full cure",
+      "Casting depths up to 30 mm per pour, built up in stages for deeper work",
+      "Shore D 82 hardness and under 0.2% shrinkage once fully cured",
+      "UV-stabilised formulation, more yellowing-resistant than standard epoxy"
+    ],
+    industries: [
+      "Furniture & river table manufacturing",
+      "Jewellery & fashion accessories",
+      "Art & decorative casting",
+      "Industrial casting applications"
+    ]
   },
   ne: {
     seoTitle: "Clear Casting Resin नेपाल — Two-Part Epoxy आपूर्तिकर्ता",
@@ -45,6 +58,19 @@ export default {
       { q: "यो UV प्रतिरोधी र non-yellowing हो?", a: "Supplier दस्तावेजले UV-stabilised formulation सामान्य epoxy भन्दा बढी yellowing-प्रतिरोधी भनी वर्णन गर्छ, तर लामो UV एक्सपोजरमा कुनै पनि clear epoxy रंग परिवर्तनबाट पूर्ण मुक्त हुँदैन।" },
       { q: "कस्ता दस्तावेज र व्यावसायिक विवरण उपलब्ध छन्?", a: "Supplier Technical Data Sheet र Safety Data Sheet उपलब्ध छन्। नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्।" }
     ],
-    applicationsIntro: "Supplier दस्तावेजले river table र wood-resin furniture, jewellery र साना सजावटी casting, art र industrial casting, तथा optical clarity र casting depth चाहिने decor items मा प्रयोग उल्लेख गर्छ।"
+    applicationsIntro: "Supplier दस्तावेजले river table र wood-resin furniture, jewellery र साना सजावटी casting, art र industrial casting, तथा optical clarity र casting depth चाहिने decor items मा प्रयोग उल्लेख गर्छ।",
+    features: [
+      "Crystal-clear, high-gloss finish, कम bubble formation सहित",
+      "तौलमा 2:1 mix ratio; 24-घण्टा प्रारम्भिक cure, 72-घण्टा पूर्ण cure",
+      "प्रति pour 30 mm सम्म casting depth, गहिरो कामका लागि चरणमा बनाइन्छ",
+      "पूर्ण cure भएपछि Shore D 82 hardness र 0.2%भन्दा कम shrinkage",
+      "UV-stabilised formulation, standard epoxy भन्दा बढी yellowing-प्रतिरोधी"
+    ],
+    industries: [
+      "Furniture र river table निर्माण",
+      "गहना र fashion accessories",
+      "Art र सजावटी casting",
+      "औद्योगिक casting प्रयोगहरू"
+    ]
   }
 };

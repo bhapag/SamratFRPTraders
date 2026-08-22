@@ -1,6 +1,6 @@
 export default {
   en: {
-    seoTitle: "Roof Light Resin — Nepal Supplier | Samrat FRP Traders",
+    seoTitle: "Roof Light Resin — Nepal Supplier",
     seoDescription: "Roof Light Resin — water-white orthophthalic UPR for translucent roof light and skylight sheets. Imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports Roof Light Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as an orthophthalic unsaturated polyester resin supplied water-white, with its published role in translucent roof light panels and skylight sheets.",
@@ -45,9 +45,21 @@ export default {
       },
     ],
     applicationsIntro: "Supplier documentation lists use in roof light panels and skylight sheets, greenhouse roofing, industrial and commercial roofing, and roofing sheet production.",
+    features: [
+      "Water-white appearance with high optical clarity published for roof-light panels",
+      "Published for skylights, roof-light panels, greenhouses and industrial/commercial roofing",
+      "Current product-specific Technical Data Sheet available",
+      "280 cPs viscosity and 6.5-minute gel time published in the current TDS",
+    ],
+    industries: [
+      "Roofing sheet & panel manufacturing",
+      "Industrial & commercial roofing",
+      "Greenhouse & agricultural structures",
+      "Roof-light & skylight components",
+    ],
   },
   ne: {
-    seoTitle: "Roof Light Resin — नेपालका लागि आपूर्ति | Samrat FRP Traders",
+    seoTitle: "Roof Light Resin — नेपालका लागि आपूर्ति",
     seoDescription: "Roof Light Resin — पारदर्शी roof light र skylight sheet का लागि water-white orthophthalic UPR। Samrat FRP Traders ले नेपालका लागि आयात गर्दछ।",
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि Roof Light Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India को हालको कागजातले यसलाई water-white orthophthalic unsaturated polyester resin का रूपमा चिनाउँछ, जुन पारदर्शी roof light panel र skylight sheet का लागि हो।",
@@ -91,5 +103,17 @@ export default {
       },
     ],
     applicationsIntro: "Supplier को कागजातले roof light panel, skylight sheet, greenhouse roofing, industrial तथा commercial roofing मा प्रयोग सूचीबद्ध गर्दछ।",
+    features: [
+      "roof-light panels का लागि प्रकाशित उच्च optical clarity सहित water-white रूप",
+      "Skylights, roof-light panels, greenhouses र industrial/commercial roofing का लागि प्रकाशित",
+      "हालको उत्पादन-विशिष्ट Technical Data Sheet उपलब्ध",
+      "हालको TDS मा प्रकाशित 280 cPs viscosity र 6.5-मिनेट gel time",
+    ],
+    industries: [
+      "Roofing sheet र panel निर्माण",
+      "औद्योगिक र commercial roofing",
+      "Greenhouse र कृषि संरचना",
+      "Roof-light र skylight components",
+    ],
   },
 };
