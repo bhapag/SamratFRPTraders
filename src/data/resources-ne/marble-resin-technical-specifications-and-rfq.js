@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Marble Resin Technical Specifications र RFQ गाइड",
+    ogTitle: "Marble Resin Technical Specifications र RFQ गाइड",
+    ogDescription: "Marble Resin को published liquid-resin data समीक्षा गर्नुहोस्, TDS र catalogue का भिन्नताहरू देखिने राख्नुहोस्, र focused cultured-marble वा artificial-stone enquiry तयार गर्नुहोस्।",
+  },
   title: "Marble Resin Technical Specifications र RFQ गाइड",
   description: "Marble Resin को published liquid-resin data समीक्षा गर्नुहोस्, TDS र catalogue का भिन्नताहरू देखिने राख्नुहोस्, र focused cultured-marble वा artificial-stone enquiry तयार गर्नुहोस्।",
   quickFacts: {
@@ -58,22 +63,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/marble-resin/#enquire",
-      label: "Request Marble Resin Quote",
+      label: "Marble Resin Quote माग्नुहोस्",
       description: "Application र document विवरण तयार गरेपछि product enquiry route प्रयोग गर्नुहोस्।"
     },
     {
       href: "/tds/marble-resin-tds.pdf",
-      label: "Download Marble Resin TDS",
+      label: "Marble Resin TDS डाउनलोड गर्नुहोस्",
       description: "हालको grade का लागि विस्तृत product-specific document समीक्षा गर्नुहोस्।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      label: "उत्पादन क्याटलग समीक्षा गर्नुहोस्",
       description: "यसको छोटो Marble Resin summary लाई विस्तृत TDS बाट छुट्टै राख्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a Marble Resin requirement",
+      label: "Marble Resin आवश्यकताबारे छलफल गर्नुहोस्",
       description: "Evidence-led छलफलका लागि प्राविधिक र commercial जानकारी साझा गर्नुहोस्।"
     }
   ]

@@ -1,6 +1,18 @@
 export default {
   title: "PET Resin बनाम GP Resin: Sheet Grade कि General FRP Route?",
   description: "Application वा प्राविधिक data एकअर्कोमा transfer नगरी Samrat Poly Resins, India को published PET-modified liquid sheet-grade route लाई छुट्टै general-purpose GP Resin route सँग तुलना गर्नुहोस्।",
+  seo: {
+    title: "PET Resin बनाम GP Resin | Sheet Grade बनाम General FRP गाइड",
+    ogTitle: "PET Resin बनाम GP Resin",
+    ogDescription: "वास्तविक component र product-specific TDS का आधारमा published PET sheet-grade वा GP general-FRP मार्ग छान्नुहोस्।",
+    keywords: [
+      "PET Resin vs GP Resin",
+      "PET Modified Resin vs General Purpose Resin",
+      "Sheet Grade Polyester Resin",
+      "General Purpose Polyester Resin",
+      "FRP Sheet Resin Selection"
+    ],
+  },
   quickFacts: {
     "PET Resin": "यसको TDS-listed contexts का लागि PET-modified liquid sheet grade",
     "GP Resin": "छुट्टै general-purpose FRP product route",
@@ -89,12 +101,12 @@ export default {
     },
     {
       href: "/products/polyester-resins/",
-      label: "Explore Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "व्यापक family सन्दर्भका लागि parent page प्रयोग गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss the correct product route",
+      label: "सही product route बारे छलफल गर्नुहोस्",
       description: "वास्तविक component, application, quantity र documentation आवश्यकता साझा गर्नुहोस्।"
     }
   ]

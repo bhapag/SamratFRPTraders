@@ -14,7 +14,7 @@ export default {
   },
   quickFacts: {
     "Sheet Grade Yellow": "Pre-pigmented yellow sheet and panel role",
-    "Roof Light Sheet Grade": "Water-white roof-light and skylight role",
+    "Roof Light Sheet Grade उत्पादन": "Water-white roof-light and skylight role",
     "पहिलो निर्णय": "Required finished-sheet appearance",
     "अनुमान नगर्नुहोस्": "Optical or weathering performance from product name alone"
   },

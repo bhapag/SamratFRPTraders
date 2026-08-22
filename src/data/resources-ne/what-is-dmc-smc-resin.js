@@ -17,8 +17,8 @@ export default {
   quickFacts: {
     "Published product": "एउटा DMC/SMC Resin product route",
     "Resin family": "Orthophthalic unsaturated polyester resin",
-    "DMC in the current TDS": "Dough Moulding Compound",
-    "SMC in the current TDS": "Sheet Moulding Compound"
+    "हालको TDS मा DMC": "Dough Moulding Compound",
+    "हालको TDS मा SMC": "Sheet Moulding Compound"
   },
   recommendedLinks: [
     {
@@ -28,7 +28,7 @@ export default {
     },
     {
       href: "/products/polyester-resins/",
-      label: "Unsaturated Polyester Resin product hub",
+      label: "Unsaturated Polyester Resin उत्पादन hub",
       description: "व्यापक UPR family र त्यसका छुट्टाछुट्टै प्रकाशित product route हरू हेर्नुहोस्।"
     },
     {

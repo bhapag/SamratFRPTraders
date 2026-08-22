@@ -34,7 +34,7 @@ export default {
       ]
     },
     {
-      heading: "MEKP quote checklist",
+      heading: "MEKP quote जाँचसूची",
       body: [
         "Base resin grade वा gelcoat system, अभिप्रेत FRP component वा application, अपेक्षित quantity, थाहा भएमा production context, delivery location र कुनै खरिद specification बताउनुहोस्। उपयुक्त भएमा सान्दर्भिक हालको उत्पादन डाटा संलग्न वा सन्दर्भ गर्नुहोस्।"
       ]
@@ -62,7 +62,7 @@ export default {
       description: "हालको उत्पादन कागजातलाई नियन्त्रक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
       label: "Product Catalogue डाउनलोड गर्नुहोस्",
       description: "सम्बन्धित resin, reinforcement, gelcoat र pigment उत्पादन भूमिकाहरू समीक्षा गर्नुहोस्।"
     },

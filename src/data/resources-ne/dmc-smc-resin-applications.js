@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "DMC/SMC Resin Applications: प्रकाशित औद्योगिक सन्दर्भ",
+    ogTitle: "DMC/SMC Resin Applications: प्रकाशित औद्योगिक सन्दर्भ",
+    ogDescription: "Samrat Poly Resins, India को हालको TDS मा सूचीबद्ध DMC/SMC Resin applications र अझै छुट्टै पुष्टि चाहिने finished-component प्रश्नहरू समीक्षा गर्नुहोस्।",
+  },
   title: "DMC/SMC Resin Applications: प्रकाशित औद्योगिक सन्दर्भ",
   description: "Samrat Poly Resins, India को हालको TDS मा सूचीबद्ध DMC/SMC Resin applications र अझै छुट्टै पुष्टि चाहिने finished-component प्रश्नहरू समीक्षा गर्नुहोस्।",
   quickFacts: {
@@ -60,12 +65,12 @@ export default {
     },
     {
       href: "/tds/dmc-smc-resin-tds.pdf",
-      label: "Download DMC/SMC Resin TDS",
+      label: "DMC/SMC Resin TDS डाउनलोड गर्नुहोस्",
       description: "सूचीबद्ध application सन्दर्भ र liquid-resin data पुष्टि गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a listed application",
+      label: "सूचीकृत प्रयोगबारे छलफल गर्नुहोस्",
       description: "finished component र कुनै project-विशिष्ट आवश्यकता साझा गर्नुहोस्।"
     }
   ]

@@ -1,6 +1,18 @@
 export default {
   title: "Bisphenol Resin बनाम Epoxy Resin: Product-Route जाँच",
   description: "हालको Bisphenol Resin TDS शब्दावलीले यसलाई Samrat का छुट्टै conventional epoxy product routes सँग स्वतः interchangeable नबनाउने कारण स्पष्ट पार्नुहोस्।",
+  seo: {
+    title: "Bisphenol Resin बनाम Epoxy Resin | Product-Route गाइड",
+    keywords: [
+      "Bisphenol Resin vs Epoxy Resin",
+      "Bisphenol A Resin vs Epoxy",
+      "Bisphenol Resin Epoxy Comparison",
+      "Industrial Bisphenol Resin",
+      "Epoxy Resin Product Selection"
+    ],
+    ogTitle: "Bisphenol Resin बनाम Epoxy Resin: Product-Route जाँच",
+    ogDescription: "Interchangeability नठानी Bisphenol Resin लाई Samrat Poly Resins, India का छुट्टै epoxy routes बाट छुट्याउन हालका product documents प्रयोग गर्नुहोस्।"
+  },
   quickFacts: {
     "Bisphenol TDS chemistry शब्दावली": "Bisphenol A र epichlorohydrin based (thermosetting)",
     "Bisphenol cure शब्दावली": "Amine hardener सहित Room-temperature cure",
@@ -58,22 +70,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/bisphenol-resin/",
-      label: "View Bisphenol Resin",
+      label: "Bisphenol Resin हेर्नुहोस्",
       description: "हालको product-specific TDS शब्दावली, application context र quote path समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/clear-casting-resin/",
-      label: "View Epoxy Clear Casting Resin",
+      label: "Epoxy Clear Casting Resin हेर्नुहोस्",
       description: "छुट्टै published clear-casting product route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/epoxy-art-resin/",
-      label: "View Epoxy Art Resin",
+      label: "Epoxy Art Resin हेर्नुहोस्",
       description: "छुट्टै decorative र art product route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "छुट्टै published structural fiberglass route समीक्षा गर्नुहोस्।"
     }
   ]

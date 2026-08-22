@@ -1,6 +1,17 @@
 export default {
   title: "FRP मा ISO Fire Retardant Resin का प्रयोगहरू",
   description: "Samrat ISO Fire Retardant Resin का लागि प्रकाशित प्रयोग वर्गहरू र industrial FRP छनोटसँगै हुनुपर्ने आवश्यकता जाँचहरू समीक्षा गर्नुहोस्।",
+  seo: {
+    title: "FRP मा ISO Fire Retardant Resin का प्रयोगहरू | ISO FR Resin",
+    keywords: [
+      "ISO Fire Retardant Resin applications",
+      "Isophthalic FR Resin applications",
+      "ISO FR Resin for FRP",
+      "Fire Retardant Isophthalic Resin"
+    ],
+    ogTitle: "FRP मा ISO Fire Retardant Resin का प्रयोगहरू",
+    ogDescription: "प्रकाशित ISO FR प्रयोग वर्गहरू र छनोट गर्नुअघि पुष्टि गर्नुपर्ने जानकारीबारे buyer-level गाइड।"
+  },
   quickFacts: {
     "प्रकाशित प्रयोग वर्गहरू": "Railway, marine, automotive, FRP panels, electrical enclosures र construction-सम्बन्धित FRP",
     "प्रयोगको स्थिति": "उत्पादन positioning, project approval होइन",
@@ -10,7 +21,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/iso-fire-retardant-resin/",
-      label: "View ISO Fire Retardant Resin",
+      label: "ISO Fire Retardant Resin हेर्नुहोस्",
       description: "प्रकाशित grade भूमिका र हालको TDS समीक्षा गर्नुहोस्।"
     },
     {
@@ -20,7 +31,7 @@ export default {
     },
     {
       href: "/contact/",
-      label: "Discuss an ISO FR application",
+      label: "ISO FR प्रयोगबारे छलफल गर्नुहोस्",
       description: "तयार FRP component र project आवश्यकता साझा गर्नुहोस्।"
     }
   ],

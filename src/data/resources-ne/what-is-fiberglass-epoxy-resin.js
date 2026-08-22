@@ -1,6 +1,18 @@
 export default {
   title: "Fiberglass Epoxy Resin के हो?",
   description: "प्रकाशित fabric-reinforcement, hand lay-up र lamination सन्दर्भका लागि Samrat FRP Traders को Fiberglass Epoxy Resin route को document-led guide।",
+  seo: {
+    title: "Fiberglass Epoxy Resin के हो? | Composite खरिदकर्ता Guide",
+    keywords: [
+      "What Is Fiberglass Epoxy Resin",
+      "Fibreglass Epoxy Resin",
+      "Epoxy Resin for Fiberglass",
+      "Epoxy Resin for Composite Laminates",
+      "Composite Epoxy Resin"
+    ],
+    ogTitle: "Fiberglass Epoxy Resin के हो?",
+    ogDescription: "Fiberglass Epoxy Resin छान्नुअघि documented product पहिचान, reinforcement भूमिका, सूचीकृत applications र document सीमा बुझ्नुहोस्।"
+  },
   quickFacts: {
     "हालको TDS भूमिका": "Fibreglass reinforcement र lamination का लागि general-purpose epoxy system",
     "प्रकाशित reinforcement रूप": "Fabric",
@@ -10,17 +22,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "हालको product page, प्रकाशित data र industrial सोधपुछ route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/fiberglass-epoxy-resin-tds.pdf",
-      label: "Download Fiberglass Epoxy Resin TDS",
+      label: "Fiberglass Epoxy Resin TDS डाउनलोड गर्नुहोस्",
       description: "समीक्षा भइरहेको grade का लागि विस्तृत हालको document लाई सुरुवाती बिन्दुको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
       href: "/resources/fiberglass-epoxy-resin-system-and-hardener/",
-      label: "Clarify resin and hardener roles",
+      label: "resin र hardener भूमिकाहरू स्पष्ट पार्नुहोस्",
       description: "epoxy system बारे documents ले के स्थापित गर्छन् र के गर्दैनन् भनेर बुझ्नुहोस्।"
     },
     {

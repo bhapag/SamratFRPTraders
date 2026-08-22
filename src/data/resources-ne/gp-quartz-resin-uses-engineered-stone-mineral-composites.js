@@ -14,9 +14,9 @@ export default {
     "ogDescription": "Artificial quartz stone, engineered stone र composite mineral surfaces का लागि प्रकाशित GP Quartz Resin प्रयोगहरू अन्वेषण गर्नुहोस्।"
   },
   "quickFacts": {
-    "Artificial quartz stone": "प्रकाशित प्रयोग",
-    "Engineered stone slabs": "प्रकाशित प्रयोग",
-    "Composite mineral surfaces": "प्रकाशित प्रयोग",
+    "कृत्रिम quartz stone": "प्रकाशित प्रयोग",
+    "इन्जिनियर्ड stone slabs": "प्रकाशित प्रयोग",
+    "मिश्रित mineral surfaces": "प्रकाशित प्रयोग",
     "चयन जाँच": "वास्तविक component, filler वा mineral प्रकार र TDS पुष्टि गर्नुहोस्"
   },
   "sections": [

@@ -1,6 +1,18 @@
 export default {
   title: "PET Resin Material Forms: Liquid Polyester Grade बनाम Thermoplastic PET",
   description: "Samrat Poly Resins, India को PET Resin / Polyester Putty Resin liquid sheet grade लाई परम्परागत thermoplastic PET chips, pellets र commodity-plastic material बाट छुट्याउनुहोस्।",
+  seo: {
+    title: "PET Resin बनाम Thermoplastic PET | Liquid Sheet Grade खरिदकर्ता गाइड",
+    ogTitle: "PET Resin: Liquid Grade बनाम Thermoplastic PET",
+    ogDescription: "PET labels लाई interchangeable मान्नुको सट्टा समर्पित PET Resin TDS सहित सही material form छान्नुहोस्।",
+    keywords: [
+      "PET Resin vs Thermoplastic PET",
+      "Liquid PET Modified Resin",
+      "PET Resin Sheet Grade",
+      "PET Resin Material Form",
+      "PET Resin vs Polyester Putty"
+    ],
+  },
   quickFacts: {
     "Samrat उत्पादन रूप": "Liquid PET-modified unsaturated polyester sheet grade",
     "फरक PET रूप": "Thermoplastic chips वा pellets",
@@ -20,22 +32,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-putty-resin/",
-      label: "View PET Resin / Polyester Putty Resin",
+      label: "PET Resin / Polyester Putty Resin हेर्नुहोस्",
       description: "स्वीकृत liquid sheet-grade route को उत्पादन page खोल्नुहोस्।"
     },
     {
       href: "/tds/pet-resin-tds.pdf",
-      label: "Review PET Resin TDS",
+      label: "PET Resin TDS समीक्षा गर्नुहोस्",
       description: "हालको grade, liquid रूप र प्रकाशित प्राविधिक data पुष्टि गर्नुहोस्।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      label: "Product Catalogue समीक्षा गर्नुहोस्",
       description: "सावधानीपूर्वक प्रयोग गर्नुहोस्: यसको PET chip listing छुट्टै material-form विवरण हो।"
     },
     {
       href: "/contact/",
-      label: "Confirm the correct material form",
+      label: "सही material form पुष्टि गर्नुहोस्",
       description: "आवश्यकता liquid Samrat grade हो कि thermoplastic PET material हो भनेर बताउनुहोस्।"
     }
   ],
@@ -55,7 +67,7 @@ export default {
   ],
   sections: [
     {
-      heading: "Liquid PET Resin route",
+      heading: "Liquid PET Resin मार्ग",
       body: [
         "PET Resin page र समर्पित TDS ले pale-yellow liquid sheet grade को रूपमा आपूर्ति गरिने PET-modified unsaturated polyester resin वर्णन गर्छन्। यसका प्रकाशित सन्दर्भहरू PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing हुन्।",
         "यो एउटा liquid-resin selection छलफल हो। नाममा PET भएको हरेक material को label को रूपमा प्रयोग गर्नुको सट्टा, उत्पादन document लाई वास्तविक sheet वा laminate आवश्यकतासँगै पढ्नुपर्छ।"

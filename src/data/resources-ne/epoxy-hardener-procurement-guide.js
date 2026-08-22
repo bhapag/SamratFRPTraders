@@ -1,6 +1,17 @@
 export default {
   title: "Epoxy Hardener Procurement गाइड: TDS र RFQ Checklist",
   description: "सटीक resin product, application, हालको TDS, quantity, packaging र delivery requirement सहित specific Epoxy Hardener enquiry तयार गर्नुहोस्।",
+  seo: {
+    title: "Epoxy Hardener Procurement गाइड | Epoxy Hardener RFQ Checklist",
+    keywords: [
+      "Epoxy Hardener Procurement",
+      "Epoxy Hardener Supplier",
+      "Epoxy Hardener Quote",
+      "Epoxy Resin Hardener RFQ"
+    ],
+    ogTitle: "Epoxy Hardener Procurement गाइड",
+    ogDescription: "सटीक resin product र हालको Technical Data Sheet प्रयोग गरेर factual epoxy hardener quotation छलफल तयार गर्नुहोस्।"
+  },
   quickFacts: {
     "Published packaging": "20 kg",
     "Published MOQ": "100 kg",
@@ -48,17 +59,17 @@ export default {
     },
     {
       href: "/tds/epoxy-hardener-tds.pdf",
-      label: "Download Epoxy Hardener TDS",
+      label: "Epoxy Hardener TDS डाउनलोड गर्नुहोस्",
       description: "हालको product-specific document लाई प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Download Product Catalogue",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
+      label: "Product Catalogue डाउनलोड गर्नुहोस्",
       description: "छुट्टै published epoxy, UV र polyester-family product routes समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Request an Epoxy Hardener quote",
+      label: "Epoxy Hardener quote अनुरोध गर्नुहोस्",
       description: "समीक्षाका लागि resin-system र commercial विवरण पेश गर्नुहोस्।"
     }
   ]

@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Roof Light Resin बनाम GP Clear Resin",
+    ogTitle: "Roof Light Resin बनाम GP Clear Resin",
+    ogDescription: "roof-light sheets का लागि प्रकाशित water-white Roof Light Sheet Grade Resin मार्गलाई site को general-purpose clear GP Clear Resin मार्गबाट अलग गर्नुहोस्।",
+  },
   title: "Roof Light Resin बनाम GP Clear Resin",
   description: "roof-light sheets का लागि प्रकाशित water-white Roof Light Sheet Grade Resin मार्गलाई site को general-purpose clear GP Clear Resin मार्गबाट अलग गर्नुहोस्।",
   quickFacts: {
@@ -74,7 +79,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/roof-light-resin/",
-      label: "View Roof Light Sheet Grade Resin",
+      label: "Roof Light Sheet Grade Resin हेर्नुहोस्",
       description: "दस्तावेजीकृत water-white roof-light मार्ग र हालको TDS समीक्षा गर्नुहोस्।"
     },
     {
@@ -84,12 +89,12 @@ export default {
     },
     {
       href: "/applications/resin-for-roofing-sheet-manufacturing/",
-      label: "Explore roofing-sheet context",
+      label: "Roofing-sheet सन्दर्भ हेर्नुहोस्",
       description: "उत्पादन मार्ग साँघुर्याउनुअघि विद्यमान व्यापक application गाइड पढ्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss the product role",
+      label: "उत्पादन भूमिकाबारे छलफल गर्नुहोस्",
       description: "finished sheet, आपूर्ति गरिएको स्वरूप, quantity र डेलिभरी स्थान साझा गर्नुहोस्।"
     }
   ]

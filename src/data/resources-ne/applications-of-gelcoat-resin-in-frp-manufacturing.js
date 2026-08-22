@@ -27,7 +27,7 @@ export default {
       ]
     },
     {
-      "heading": "Published Gelcoat application areas",
+      "heading": "Published Gelcoat application क्षेत्रहरू",
       "subsections": [
         {
           "heading": "Boat र marine hull finishing",
@@ -78,7 +78,7 @@ export default {
     },
     {
       "href": "/applications/gelcoat-for-general-frp-mould-finishing/",
-      "label": "General FRP mould finishing",
+      "label": "सामान्य FRP mould finishing",
       "description": "existing gelcoat application page हेर्नुहोस्।"
     },
     {

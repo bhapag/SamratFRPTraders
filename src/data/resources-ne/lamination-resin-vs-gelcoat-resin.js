@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Lamination Resin बनाम Gelcoat Resin",
+    ogTitle: "Lamination Resin बनाम Gelcoat Resin",
+    ogDescription: "उत्पादन छनोट अघि FRP build-up मा Lamination Resin र Gelcoat Resin ले खेल्ने फरक-फरक भूमिका बुझ्नुहोस्।",
+  },
   title: "Lamination Resin बनाम Gelcoat Resin",
   description: "उत्पादन छनोट अघि FRP build-up मा Lamination Resin र Gelcoat Resin ले खेल्ने फरक-फरक भूमिका बुझ्नुहोस्।",
   quickFacts: {
@@ -76,17 +81,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "lamination र FRP bonding कामका लागि प्रकाशित grade समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/gp-gelcoat-resin/",
-      label: "View GP Gelcoat Resin",
+      label: "GP Gelcoat Resin हेर्नुहोस्",
       description: "अलग रूपमा प्रकाशित mould-surface उत्पादन भूमिका र TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss your FRP build-up",
+      label: "तपाईंको FRP build-up बारे छलफल गर्नुहोस्",
       description: "उत्पादन छनोट अघि laminate र surface आवश्यकता साझा गर्नुहोस्।"
     }
   ]

@@ -1,0 +1,41 @@
+export default {
+  title: 'डुङ्गा र Marine Hull Finishing का लागि Gelcoat',
+  cardDescription: 'डुङ्गा र marine hull लाई पहिले mould मा लगाइने चिल्लो, चम्किलो सजावट skin चाहिन्छ — hull लाई बल दिने structural laminate होइन, सतह कोटिंग।',
+  cardBenefit: 'चम्किलो, mould-तयार hull फिनिश।',
+  cardImageAlt: 'चिल्लो gelcoat फिनिश देखाउँदै चम्किलो सेतो fiberglass डुङ्गाको hull',
+  seo: {
+    title: 'डुङ्गा र Marine Hull Finishing का लागि Gelcoat',
+    description: 'GP Gelcoat Resin ले FRP डुङ्गाको hull को बाहिरी फिनिश कसरी बनाउँछ — structural laminate भन्दा पहिले लगाइने — र पानीमा रहने hull का लागि Vinyl Ester Resin कहिले उपयुक्त हुन्छ।',
+  },
+  intro: 'हरेक FRP डुङ्गाको hull mould भित्रबाट सुरु हुन्छ, र mould सतहलाई सबैभन्दा पहिले छुने सामग्री structural laminate होइन — gelcoat हो। अरू केही हुनुअघि mould मा spray वा brush गरिने यसले डुङ्गा demould भएपछि hull को समाप्त, देखिने बाहिरी सतह बन्छ। यो पृष्ठ त्यही बाहिरी skin चरण समेट्छ — हाम्रो Boat & Marine Components पृष्ठमा समेटिएको structural lay-up होइन।',
+  whatTheyManufacture: 'Marine gelcoat ले FRP डुङ्गाको hull, deck, cabin संरचना र अन्य बाहिरी marine component को बाहिरी सतह समाप्त गर्छ — समाप्त डुङ्गामा देखिने चिल्लो, चम्किलो, रङ्गीन skin — structural laminate पछाडि बनाउनुअघि mould मा लगाइने।',
+  whySuitable: 'GP Gelcoat Resin thixotropic छ र laminating resin भन्दा धेरै बाक्लो (लगभग 11,000 cPs) छ — वक्र, प्रायः ठाडो hull mould लाई यही चाहिन्छ: gel हुँदासम्म यो mould सतहमा नझरेर, नबगेर टाँसिन्छ। यो hull को structural सामग्री होइन: gel भएपछि <a href="/products/glass-fiber-mat/">glass fibre</a> reinforcement लाई <a href="/products/gp-clear-resin/">GP Clear Resin</a> ले भिजाएर पछाडि बनाइन्छ — जसले hull लाई बल दिने वास्तविक structural laminate बनाउँछ। निरन्तर पानीमा रहने hull का लागि कतिपय निर्माताले gelcoat पछाडि GP Clear Resin को सट्टा <a href="/products/vinyl-ester-resin/">Vinyl Ester Resin</a> laminate प्रयोग गर्छन्, किनभने vinyl ester ले निरन्तर डुबानले गराउने osmotic blistering विरुद्ध अर्थपूर्ण रूपमा राम्रो प्रतिरोध दिन्छ — यो laminate-तर्फको निर्णय हो, gelcoat मा परिवर्तन होइन।',
+  requiredCharacteristics: [
+    'वक्र, ठाडो hull mould सतहमा नझरेर टाँसिने thixotropic body',
+    'Mould सतहबाटै उच्च चमक, चिल्लो cured फिनिश',
+    'ठूला hull क्षेत्रमा spray वा brush application सँग मिल्ने',
+    'सादा सेतो मात्र होइन, रङ्गीन hull का लागि pigment गर्न मिल्ने',
+    'मानक hand lay-up workflow सँग मिल्ने room-temperature MEKP cure',
+  ],
+  manufacturingProcess: 'पहिले खुला hull mould मा wax release agent लगाइन्छ, त्यसपछि <a href="/products/gp-gelcoat-resin/">GP Gelcoat Resin</a>, <a href="/products/mekp-hardener/">MEKP hardener</a> र cobalt octoate accelerator ले catalysed गरेर, spray वा brush गरी gel हुन छोडिन्छ। Gel भएपछि <a href="/products/glass-fiber-mat/">glass fibre</a> लाई <a href="/products/gp-clear-resin/">GP Clear Resin</a> ले भिजाएर सिधै पछाडि लगाइन्छ, अनि पूरा hull मोटाइ बनाउन बाँकी structural laminate तहहरू थपिन्छन्। पूर्ण cure भएपछि hull mould बाट निकालिन्छ — gelcoat अब यसको समाप्त, देखिने बाहिरी सतह बनेको हुन्छ; थप सतह फिनिशिङ आवश्यक पर्दैन।',
+  advantages: [
+    'Post-finishing बिना mould बाटै चम्किलो, तयार-प्रयोग hull फिनिश',
+    'विशेष उपकरण बिना ठूला, वक्र hull सतहका लागि उपयुक्त thixotropic body',
+    'एकै application चरणमा रङ्गीन hull का लागि pigment गर्न मिल्ने',
+    'बाँकी hand lay-up workflow सँग मिल्ने मानक MEKP/cobalt cure',
+  ],
+  commonProducts: [
+    'FRP डुङ्गाको hull र deck',
+    'Cabin संरचना र marine component बाहिरी सतह',
+    'रङ्गीन वा सेतो gelcoated hull सतह',
+  ],
+  faqs: [
+    { q: 'GP Gelcoat Resin डुङ्गाको hull को structural सामग्री हो?', a: 'होइन। यो बाहिरी सजावट र सुरक्षात्मक skin हो — पहिले mould मा लगाइन्छ। Hull लाई बल दिने structural laminate gelcoat पछाडि बन्छ, सामान्यतया glass fibre ले सुदृढ GP Clear Resin प्रयोग गरेर।' },
+    { q: 'Hull laminate हुनुअघि gelcoat mould मा किन लगाइन्छ?', a: 'पहिले चिल्लो mould सतहमा लगाउनाले demould भएपछि hull लाई चम्किलो, तयार-प्रयोग सतह मिल्छ — gelcoat mould विरुद्ध cure हुन्छ, र structural laminate त्यसपछि माथि बनाइन्छ।' },
+    { q: 'डुङ्गाको hull gelcoat रङ्गीन बनाउन सकिन्छ?', a: 'सकिन्छ। GP Gelcoat Resin सादा सेतो आपूर्ति हुन्छ, तर catalysing गर्नुअघि FRP Polyester Pigment मिसाएर रङ्गीन hull फिनिश बनाउन सकिन्छ।' },
+    { q: 'बाहिर राखिने डुङ्गामा GP Gelcoat Resin ले UV फिक्कापन रोक्छ?', a: 'यसको specification मा कुनै UV-stabiliser package पुष्टि छैन। जुनसुकै unstabilised polyester सतहजस्तै, लामो प्रत्यक्ष घाममा बिस्तारै पहेँलिन वा chalk हुन सक्छ। लामो समय रङ कायम राख्नुपर्ने hull का लागि UV-stabilised formulation आवश्यकताबारे तोक्नुअघि हाम्रो प्राविधिक टोलीसँग छलफल गर्नुहोस्।' },
+    { q: 'स्थायी रूपमा पानीमा रहने hull का लागि gelcoat पछाडि GP Clear Resin को सट्टा Vinyl Ester Resin प्रयोग गर्ने?', a: 'निरन्तर पानीमा डुबान हुने hull का लागि gelcoat पछाडिको Vinyl Ester Resin laminate ले मानक polyester laminate भन्दा osmotic blistering विरुद्ध अर्थपूर्ण रूपमा राम्रो प्रतिरोध दिन्छ। यसले gelcoat पछाडिको laminate परिवर्तन गर्छ, gelcoat तह आफैँ होइन।' },
+  ],
+  ctaHeading: 'तपाईंको डुङ्गा वा marine hull उत्पादनका लागि gelcoat चाहिन्छ?',
+  ctaText: 'तपाईंको hull का लागि सही gelcoat र laminate संयोजनबारे थोक quote पाउनुहोस् वा हाम्रो प्राविधिक टोलीसँग कुरा गर्नुहोस्।',
+};

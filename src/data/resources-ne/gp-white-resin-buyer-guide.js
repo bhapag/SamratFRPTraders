@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
+    ogTitle: "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
+    ogDescription: "component, supplied appearance, process, उत्पादन भूमिका, TDS र quote जानकारीअनुसार GP White Resin मूल्याङ्कन गर्ने FRP खरिदकर्ताहरूका लागि व्यावहारिक गाइड।",
+  },
   title: "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
   description: "component, supplied appearance, process, उत्पादन भूमिका, TDS र quote जानकारीअनुसार GP White Resin मूल्याङ्कन गर्ने FRP खरिदकर्ताहरूका लागि व्यावहारिक गाइड।",
   quickFacts: {
@@ -15,12 +20,12 @@ export default {
     },
     {
       href: "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
-      label: "Read the general resin-selection guide",
+      label: "सामान्य resin-छनोट गाइड पढ्नुहोस्",
       description: "व्यापक FRP उत्पादन-भूमिका सन्दर्भका लागि अवस्थित गाइड प्रयोग गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Request a GP White Resin quote",
+      label: "GP White Resin को quote माग्नुहोस्",
       description: "अवस्थित enquiry form मार्फत दस्तावेजीकृत आवश्यकता साझा गर्नुहोस्।"
     }
   ],

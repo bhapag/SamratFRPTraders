@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Sheet Grade Yellow Resin के हो?",
+    ogTitle: "Sheet Grade Yellow Resin के हो?",
+    ogDescription: "FRP sheet र panel manufacturing का लागि प्रकाशित Sheet Grade Yellow Resin को भूमिका बुझ्नुहोस्, र यो general-purpose र roof-light resin routes भन्दा कसरी फरक छ भनेर जान्नुहोस्।",
+  },
   title: "Sheet Grade Yellow Resin के हो?",
   description: "FRP sheet र panel manufacturing का लागि प्रकाशित Sheet Grade Yellow Resin को भूमिका बुझ्नुहोस्, र यो general-purpose र roof-light resin routes भन्दा कसरी फरक छ भनेर जान्नुहोस्।",
   quickFacts: {
@@ -11,22 +16,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/sheet-grade-yellow-resin/",
-      label: "View Sheet Grade Yellow Resin",
+      label: "Sheet Grade Yellow Resin हेर्नुहोस्",
       description: "हालको product page र product-specific TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/glass-fiber-mat/",
-      label: "Review Glass Fiber Mat",
+      label: "Glass Fiber Mat समीक्षा गर्नुहोस्",
       description: "जब यो FRP sheet आवश्यकताको हिस्सा हुन्छ, छुट्टै reinforcement भूमिका पहिचान गर्नुहोस्।"
     },
     {
       href: "/products/polyester-resins/",
-      label: "Explore the UPR family",
+      label: "UPR परिवार हेर्नुहोस्",
       description: "parent polyester-resin category र अन्य प्रकाशित grades बुझ्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a sheet or panel requirement",
+      label: "Sheet वा panel आवश्यकताबारे छलफल गर्नुहोस्",
       description: "तयार component, आपूर्ति appearance, परिमाण र डेलिभरी स्थान साझा गर्नुहोस्।"
     }
   ],

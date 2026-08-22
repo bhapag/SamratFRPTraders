@@ -3,6 +3,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { applications } from '../../data/applications.js';
 import { getProduct } from '../../data/products.js';
 import { buildCanonicalUrl } from '../../data/site.js';
+import { localizeApplication } from '../../utils/application-i18n.js';
 import Base from '../../layouts/Base.astro';
 
 export function getStaticPaths() {
@@ -11,7 +12,7 @@ export function getStaticPaths() {
     .map((app) => ({ params: { slug: app.slug }, props: { app } }));
 }
 
-const { app } = Astro.props;
+const app = localizeApplication(Astro.props.app);
 
 const slugAlias = {
   'fibre-glass-mat': 'glass-fiber-mat',

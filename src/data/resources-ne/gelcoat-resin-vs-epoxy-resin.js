@@ -72,7 +72,7 @@ export default {
     },
     {
       "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
-      "label": "Resin selection guide",
+      "label": "Resin छनोट गाइड",
       "description": "process र component requirement बाट सुरु गर्नुहोस्।"
     }
   ]

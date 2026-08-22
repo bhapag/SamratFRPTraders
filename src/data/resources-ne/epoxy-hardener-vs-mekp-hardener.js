@@ -1,6 +1,17 @@
 export default {
   title: "Epoxy Hardener बनाम MEKP Hardener: फरक-फरक उत्पादन भूमिका",
   description: "Samrat Poly Resins, India को प्रकाशित epoxy-system curing agent लाई polyester-family resin systems का लागि यसको MEKP catalyst / initiator route बाट छुट्याउनुहोस्।",
+  seo: {
+    title: "Epoxy Hardener बनाम MEKP Hardener | Epoxy र Polyester गाइड",
+    keywords: [
+      "Epoxy Hardener vs MEKP Hardener",
+      "MEKP vs Epoxy Hardener",
+      "Epoxy Curing Agent",
+      "Polyester Resin Catalyst"
+    ],
+    ogTitle: "Epoxy Hardener बनाम MEKP Hardener",
+    ogDescription: "Base system compatible epoxy वा polyester-family resin हो कि भनी पहिचान गरेर सही उत्पादन route छान्नुहोस्।"
+  },
   quickFacts: {
     "Epoxy Hardener": "Compatible epoxy systems का लागि polyamide curing agent",
     "MEKP Hardener": "प्रकाशित polyester-family systems का लागि छुट्टै catalyst / initiator route",
@@ -46,12 +57,12 @@ export default {
     },
     {
       href: "/resources/what-is-mekp-hardener/",
-      label: "What is MEKP Hardener?",
+      label: "MEKP Hardener के हो?",
       description: "छुट्टै प्रकाशित MEKP भूमिका बुझ्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Identify the correct hardener route",
+      label: "सही hardener route पहिचान गर्नुहोस्",
       description: "Base resin उत्पादन र अभिप्रेत application साझा गर्नुहोस्।"
     }
   ],

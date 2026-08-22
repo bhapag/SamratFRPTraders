@@ -36,7 +36,7 @@ export default {
       ]
     },
     {
-      heading: "UV Resin quotation checklist",
+      heading: "UV Resin quotation चेकलिस्ट",
       body: [
         "अभिप्रेत application, industry वा end use, finished product, clear वा finished appearance आवश्यकता, कुनै तोकिएको UV/LED equipment आवश्यकता, अपेक्षित परिमाण र delivery स्थान दिनुहोस्। Drawing, purchase specification वा सान्दर्भिक उत्पादन सन्दर्भ उपलब्ध भएमा मात्र समावेश गर्नुहोस्।",
         "यो गाइडले exposure समय, curing schedule, mixing निर्देशन, operating सल्लाह वा प्रदर्शन guarantee दिँदैन। उद्देश्य भनेको छनोट र व्यावसायिक कुराकानीलाई product-data समीक्षाका लागि पर्याप्त विशिष्ट बनाउनु हो।"
@@ -65,7 +65,7 @@ export default {
       description: "उत्पादन-विशिष्ट कागजातलाई नियन्त्रक सन्दर्भका रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
       label: "Product Catalogue डाउनलोड गर्नुहोस्",
       description: "फराकिलो उत्पादन दायरा र छुट्टै उत्पादन भूमिकाहरू हेर्नुहोस्।"
     },

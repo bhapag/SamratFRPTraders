@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "DMC/SMC Resin प्राविधिक Specifications: खरिदकर्ताले के समीक्षा गर्नुपर्छ",
+    ogTitle: "DMC/SMC Resin प्राविधिक Specifications: खरिदकर्ताले के समीक्षा गर्नुपर्छ",
+    ogDescription: "प्रकाशित liquid-resin specifications समीक्षा गर्न, catalogue भिन्नताहरू बुझ्न, र उत्पादन डाटालाई finished compound performance बाट अलग राख्न हालको DMC/SMC Resin TDS प्रयोग गर्नुहोस्।",
+  },
   title: "DMC/SMC Resin प्राविधिक Specifications: खरिदकर्ताले के समीक्षा गर्नुपर्छ",
   description: "प्रकाशित liquid-resin specifications समीक्षा गर्न, catalogue भिन्नताहरू बुझ्न, र उत्पादन डाटालाई finished compound performance बाट अलग राख्न हालको DMC/SMC Resin TDS प्रयोग गर्नुहोस्।",
   quickFacts: {
@@ -56,17 +61,17 @@ export default {
     },
     {
       href: "/tds/dmc-smc-resin-tds.pdf",
-      label: "Download current DMC/SMC TDS",
+      label: "हालको DMC/SMC TDS डाउनलोड गर्नुहोस्",
       description: "हालको उत्पादन-विशिष्ट कागजातलाई नियन्त्रक प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Download Product Catalogue",
+      label: "उत्पादन क्याटलग डाउनलोड गर्नुहोस्",
       description: "हालको TDS लाई grade सन्दर्भको रूपमा राख्दै व्यापक range समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a documented specification",
+      label: "दस्तावेज गरिएको specification बारे छलफल गर्नुहोस्",
       description: "वास्तविक component र अनुरोध गरिएको प्राविधिक वा finished-part आवश्यकता साझा गर्नुहोस्।"
     }
   ],

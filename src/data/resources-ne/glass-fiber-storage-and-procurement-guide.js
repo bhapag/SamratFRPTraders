@@ -41,7 +41,7 @@ export default {
       ]
     },
     {
-      "heading": "Glass Fiber quote checklist",
+      "heading": "Glass Fiber quote चेकलिस्ट",
       "body": [
         "CSM 300 वा CSM 450 आवश्यकता, intended FRP component, थाहा भएमा समीक्षाधीन resin system, अपेक्षित quantity, delivery location र कुनै पनि drawing वा purchase specification उल्लेख गर्नुहोस्। यसले reinforcement अनुरोधलाई छुट्टाछुट्टै resin, surface-finish र component-design निर्णयहरूबाट छुट्याउन मद्दत गर्छ।"
       ]
@@ -69,7 +69,7 @@ export default {
       "description": "हालको प्रकाशित technical data लाई controlling product reference को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
       "label": "Product Catalogue डाउनलोड गर्नुहोस्",
       "description": "फराकिलो product range र छुट्टाछुट्टै resin roles समीक्षा गर्नुहोस्।"
     },

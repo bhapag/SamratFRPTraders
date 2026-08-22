@@ -10,7 +10,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-resins/",
-      label: "View Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "प्रकाशित grade पहिचान गर्नुअघि भण्डारण विवरण जाँच्न UPR को parent page प्रयोग गर्नुहोस्।"
     },
     {
@@ -25,12 +25,12 @@ export default {
     },
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "यसको प्रकाशित 3-महिने shelf life र 30–35 °C भण्डारण तापक्रम जाँच्नुहोस्।"
     },
     {
       href: "/resources/why-gp-resin-turns-yellow/",
-      label: "Why GP Resin Turns Yellow",
+      label: "GP Resin किन पहेंलो हुन्छ",
       description: "अपेक्षित grade रंग र भण्डारणसँग सम्बन्धित जाँचहरू समीक्षा गर्नुहोस्।"
     }
   ],

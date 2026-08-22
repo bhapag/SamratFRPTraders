@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Gelcoat समस्याहरू: Peeling, Cracking र Tackiness",
+    ogTitle: "Gelcoat समस्याहरू: Peeling, Cracking र Tackiness",
+    ogDescription: "प्राविधिक छलफल गर्नुअघि Gelcoat Resin मा देखिने peeling, cracking, pinholes, fisheyes वा tackiness अभिलेख गर्न व्यावहारिक, सुरक्षा-सचेत framework।",
+  },
   title: "Gelcoat समस्याहरू: Peeling, Cracking र Tackiness",
   description: "प्राविधिक छलफल गर्नुअघि Gelcoat Resin मा देखिने peeling, cracking, pinholes, fisheyes वा tackiness अभिलेख गर्न व्यावहारिक, सुरक्षा-सचेत framework।",
   quickFacts: {
@@ -10,22 +15,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/gp-gelcoat-resin/",
-      label: "View GP Gelcoat Resin",
+      label: "GP Gelcoat Resin हेर्नुहोस्",
       description: "सटीक grade का लागि प्रकाशित उत्पादन डाटा र TDS जाँच्नुहोस्।"
     },
     {
       href: "/resources/how-to-store-unsaturated-polyester-resin/",
-      label: "Read storage guidance",
+      label: "Storage मार्गदर्शन पढ्नुहोस्",
       description: "अभिलेखको भागको रूपमा ह्यान्डलिङ र storage history समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/how-to-choose-gelcoat-resin-for-frp-products/",
-      label: "Review surface-finish selection",
+      label: "सतह-फिनिश छनोट समीक्षा गर्नुहोस्",
       description: "Mould-side आवश्यकतालाई laminate आवश्यकताबाट छुट्याउनुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a documented concern",
+      label: "दस्तावेज गरिएको चिन्ताबारे छलफल गर्नुहोस्",
       description: "केन्द्रित छलफलका लागि batch, process र देखिएको नतिजा साझा गर्नुहोस्।"
     }
   ],

@@ -1,10 +1,15 @@
 export default {
+  seo: {
+    title: "SMC Resin बनाम Sheet Grade Resin: फरक-फरक Product भूमिकाहरू",
+    ogTitle: "SMC Resin बनाम Sheet Grade Resin: फरक-फरक Product भूमिकाहरू",
+    ogDescription: "sheet र panel manufacturing का लागि Sheet Moulding Compound resin किन conventional FRP Sheet Grade Resin जस्तै product निर्णय होइन भन्ने बुझ्नुहोस्।",
+  },
   title: "SMC Resin बनाम Sheet Grade Resin: फरक-फरक Product भूमिकाहरू",
   description: "sheet र panel manufacturing का लागि Sheet Moulding Compound resin किन conventional FRP Sheet Grade Resin जस्तै product निर्णय होइन भन्ने बुझ्नुहोस्।",
   quickFacts: {
     "SMC Resin": "Sheet Moulding Compound context का लागि प्रकाशित",
     "Sheet Grade Yellow": "छुट्टै FRP sheet र panel product route",
-    "Roof Light Sheet Grade": "छुट्टै roof-light र roofing-sheet route",
+    "Roof Light Sheet Grade उत्पादन": "छुट्टै roof-light र roofing-sheet route",
     "छनोट नियम": "product भूमिकाहरू बीच technical data नसार्नुहोस्"
   },
   comparisonTable: {
@@ -41,17 +46,17 @@ export default {
     },
     {
       href: "/products/sheet-grade-yellow-resin/",
-      label: "View Sheet Grade Yellow Resin",
+      label: "Sheet Grade Yellow Resin हेर्नुहोस्",
       description: "छुट्टै प्रकाशित yellow FRP sheet र panel route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/roof-light-resin/",
-      label: "View Roof Light Sheet Grade Resin",
+      label: "Roof Light Sheet Grade Resin हेर्नुहोस्",
       description: "छुट्टै प्रकाशित roof-light र roofing-sheet route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Confirm the right sheet-related product route",
+      label: "सही sheet-सम्बन्धित उत्पादन मार्ग पुष्टि गर्नुहोस्",
       description: "requirement SMC हो वा तयार FRP sheet वा panel हो भनी साझा गर्नुहोस्।"
     }
   ],

@@ -1,8 +1,13 @@
 export default {
+  seo: {
+    title: "Fiberglass Epoxy Resin बनाम Vinyl Ester Resin",
+    ogTitle: "Fiberglass Epoxy Resin बनाम Vinyl Ester Resin",
+    ogDescription: "chemical-service वा performance hierarchy नमानी Samrat Poly Resins, India को documented Fiberglass Epoxy composite route लाई यसको specialist Vinyl Ester industrial FRP route बाट छुट्याउनुहोस्।",
+  },
   title: "Fiberglass Epoxy Resin बनाम Vinyl Ester Resin",
   description: "chemical-service वा performance hierarchy नमानी Samrat Poly Resins, India को documented Fiberglass Epoxy composite route लाई यसको specialist Vinyl Ester industrial FRP route बाट छुट्याउनुहोस्।",
   quickFacts: {
-    "Fiberglass Epoxy route": "प्रकाशित fabric-reinforcement र lamination सन्दर्भका लागि general-purpose epoxy system",
+    "Fiberglass Epoxy मार्ग": "प्रकाशित fabric-reinforcement र lamination सन्दर्भका लागि general-purpose epoxy system",
     "Vinyl Ester route": "छुट्टै industrial-grade Bisphenol-A epoxy vinyl ester route",
     "Vinyl Ester selection सन्दर्भ": "प्रकाशित chemical- र corrosion-service FRP छलफल",
     "प्रकाशित नगरिएको": "like-for-like product comparison, compatibility chart वा विश्वव्यापी ranking"
@@ -20,17 +25,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "प्रकाशित composite र fabric-reinforcement route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View Vinyl Ester Resin",
+      label: "Vinyl Ester Resin हेर्नुहोस्",
       description: "छुट्टै specialist industrial FRP product route र TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/what-is-vinyl-ester-resin/",
-      label: "Read the Vinyl Ester guide",
+      label: "Vinyl Ester गाइड पढ्नुहोस्",
       description: "Vinyl Ester को documented chemical-service positioning लाई यसको आफ्नै authority route मा राख्नुहोस्।"
     }
   ],

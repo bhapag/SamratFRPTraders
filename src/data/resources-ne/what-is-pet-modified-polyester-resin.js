@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "PET Resin / Polyester Putty Resin के हो? PET-Modified Resin व्याख्या",
+    ogTitle: "PET Resin / Polyester Putty Resin के हो? PET-Modified Resin व्याख्या",
+    ogDescription: "PET Resin / Polyester Putty Resin Samrat Poly Resins, India द्वारा प्रकाशित PET-modified liquid unsaturated polyester sheet grade हो, Samrat FRP Traders ले नेपालका लागि आपूर्ति गर्दछ। यो के हो, dual नाम कसरी काम गर्छ र यो कहाँ प्रयोग हुन्छ भन्ने बुझ्नुहोस्।",
+  },
   title: "PET Resin / Polyester Putty Resin के हो? PET-Modified Resin व्याख्या",
   description: "PET Resin / Polyester Putty Resin Samrat Poly Resins, India द्वारा प्रकाशित PET-modified liquid unsaturated polyester sheet grade हो, Samrat FRP Traders ले नेपालका लागि आपूर्ति गर्दछ। यो के हो, dual नाम कसरी काम गर्छ र यो कहाँ प्रयोग हुन्छ भन्ने बुझ्नुहोस्।",
   quickFacts: {
@@ -10,7 +15,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-putty-resin/",
-      label: "View PET Resin / Polyester Putty Resin",
+      label: "PET Resin / Polyester Putty Resin हेर्नुहोस्",
       description: "product भूमिका, specifications, pack र enquiry path समीक्षा गर्नुहोस्।"
     },
     {
@@ -20,12 +25,12 @@ export default {
     },
     {
       href: "/products/polyester-resins/",
-      label: "Explore Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "grade data नसारी व्यापक family बुझ्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a PET Resin / Polyester Putty Resin requirement",
+      label: "PET Resin / Polyester Putty Resin आवश्यकताबारे छलफल गर्नुहोस्",
       description: "exact liquid form र अपेक्षित sheet वा laminate application साझा गर्नुहोस्।"
     }
   ],

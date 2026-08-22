@@ -1,6 +1,18 @@
 export default {
   title: "ISO Fire Retardant Resin भनेको के हो? Isophthalic FR Resin बारे विस्तृत जानकारी",
   description: "Samrat FRP Traders को प्रकाशित ISO Fire Retardant Resin बुझ्नुहोस्: एउटा isophthalic-based, halogen-free FR polyester grade। यहाँ, ISO ले chemistry जनाउँछ, certification होइन।",
+  seo: {
+    title: "ISO Fire Retardant Resin भनेको के हो? | Isophthalic FR Resin",
+    keywords: [
+      "ISO Fire Retardant Resin",
+      "ISO FR Resin",
+      "Isophthalic Fire Retardant Resin",
+      "Isophthalic FR Resin",
+      "FR Isophthalic Polyester Resin"
+    ],
+    ogTitle: "ISO Fire Retardant Resin भनेको के हो?",
+    ogDescription: "छनोटअघि प्रकाशित isophthalic FR resin भूमिका, ISO terminology र document जाँचबारे buyer guide।"
+  },
   quickFacts: {
     "यस उत्पादन नाममा ISO": "Isophthalic-based resin chemistry, ISO certification होइन",
     "प्रकाशित resin family": "Unsaturated polyester resin, fire-retardant grade",
@@ -10,17 +22,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/iso-fire-retardant-resin/",
-      label: "View ISO Fire Retardant Resin",
+      label: "ISO Fire Retardant Resin हेर्नुहोस्",
       description: "Published product data र हालको TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/fire-retardant-resin/",
-      label: "View standard Fire Retardant Resin",
+      label: "standard Fire Retardant Resin हेर्नुहोस्",
       description: "छुट्टै प्रकाशित standard FR उत्पादन route तुलना गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss an ISO FR requirement",
+      label: "ISO FR आवश्यकताबारे छलफल गर्नुहोस्",
       description: "Component, आवश्यक documentation र delivery details साझा गर्नुहोस्।"
     }
   ],

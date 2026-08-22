@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Marble Resin भनेको के हो? Samrat Marble Resin व्याख्या",
+    ogTitle: "Marble Resin भनेको के हो? Samrat Marble Resin व्याख्या",
+    ogDescription: "Samrat Marble Resin लाई cultured marble र artificial stone का लागि documented liquid unsaturated polyester resin route को रूपमा बुझ्नुहोस्, उत्पादन-विशिष्ट डाटा र छनोट सीमाहरूसहित।",
+  },
   title: "Marble Resin भनेको के हो? Samrat Marble Resin व्याख्या",
   description: "Samrat Marble Resin लाई cultured marble र artificial stone का लागि documented liquid unsaturated polyester resin route को रूपमा बुझ्नुहोस्, उत्पादन-विशिष्ट डाटा र छनोट सीमाहरूसहित।",
   quickFacts: {
@@ -15,17 +20,17 @@ export default {
     },
     {
       href: "/tds/marble-resin-tds.pdf",
-      label: "Download Marble Resin TDS",
+      label: "Marble Resin TDS डाउनलोड गर्नुहोस्",
       description: "प्रकाशित आपूर्ति-गरिएको-resin डाटाका लागि विस्तृत हालको कागजात प्रयोग गर्नुहोस्।"
     },
     {
       href: "/products/gp-quartz-resin/",
-      label: "Review GP Quartz Resin",
+      label: "GP Quartz Resin समीक्षा गर्नुहोस्",
       description: "engineered-quartz वा composite-mineral आवश्यकतालाई यसको छुट्टै उत्पादन route मा राख्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a Marble Resin requirement",
+      label: "Marble Resin आवश्यकताबारे छलफल गर्नुहोस्",
       description: "वास्तविक तयार उत्पादन, documentation आवश्यकता र commercial आवश्यकता साझा गर्नुहोस्।"
     }
   ],

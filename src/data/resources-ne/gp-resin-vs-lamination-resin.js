@@ -1,6 +1,18 @@
 export default {
   title: "GP Resin बनाम Lamination Resin (LR Resin)",
   description: "FRP काम, door lamination र bonding आवश्यकताहरूका लागि general-purpose GP resin र Lamination Resin बीचको फरक बुझ्नुहोस्।",
+  seo: {
+    title: "GP Resin बनाम Lamination Resin (LR Resin) | FRP खरिदकर्ता गाइड",
+    keywords: [
+      "GP Resin vs LR Resin",
+      "GP Resin vs Lamination Resin",
+      "Lamination Resin",
+      "FRP bonding resin",
+      "door lamination resin"
+    ],
+    ogTitle: "GP Resin बनाम Lamination Resin (LR Resin)",
+    ogDescription: "manufacturing आवश्यकताका लागि general-purpose GP resin वा Lamination Resin छान्ने व्यावहारिक गाइड।"
+  },
   quickFacts: {
     "GP Clear Resin": "व्यापक general-purpose FRP grade",
     "Lamination Resin": "door lamination, plywood lamination र FRP bonding का लागि positioned उत्पादन",
@@ -51,12 +63,12 @@ export default {
     },
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "door, plywood र FRP bonding आवश्यकताहरूका लागि।"
     },
     {
       href: "/applications/resin-for-general-frp-lamination/",
-      label: "General FRP lamination guide",
+      label: "सामान्य FRP lamination गाइड",
       description: "grade निर्णय गर्नुअघि process समीक्षा गर्नुहोस्।"
     }
   ],

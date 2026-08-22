@@ -1,6 +1,17 @@
 export default {
-  title: "Bisphenol Resin Procurement Checklist",
+  title: "Bisphenol Resin खरिद जाँचसूची",
   description: "application, service आवश्यकता, हालको product-specific TDS, documentation र समीक्षाका लागि आवश्यक commercial विवरणहरू सहित केन्द्रित Bisphenol Resin RFQ तयार गर्नुहोस्।",
+  seo: {
+    title: "Bisphenol Resin खरिद जाँचसूची | RFQ गाइड",
+    keywords: [
+      "Bisphenol Resin Procurement",
+      "Bisphenol Resin RFQ",
+      "Bisphenol Resin Buying Checklist",
+      "Bisphenol Resin Technical Documents"
+    ],
+    ogTitle: "Bisphenol Resin खरिद जाँचसूची",
+    ogDescription: "Bisphenol Resin quote माग्नुअघि खरिदकर्ताहरूले के उपलब्ध गराउनुपर्छ, अभिप्रेत application देखि प्राविधिक र commercial आवश्यकताहरूसम्म।"
+  },
   quickFacts: {
     "प्रकाशित TDS packaging": "20 kg pack",
     "प्रकाशित TDS MOQ": "100 kg",
@@ -10,22 +21,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/bisphenol-resin/#enquire",
-      label: "Request Bisphenol Resin Quote",
+      label: "Bisphenol Resin Quote अनुरोध गर्नुहोस्",
       description: "document र application विवरणहरू तयार गरेपछि उत्पादन सोधपुछ route प्रयोग गर्नुहोस्।"
     },
     {
       href: "/tds/bisphenol-resin-tds.pdf",
-      label: "Download Bisphenol Resin TDS",
+      label: "Bisphenol Resin TDS डाउनलोड गर्नुहोस्",
       description: "grade नामाकरण गर्नुअघि हालको product-specific document समीक्षा गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
+      label: "Product Catalogue समीक्षा गर्नुहोस्",
       description: "product route पुष्टि गर्नुअघि Samrat FRP Traders को व्यापक resin दायरा अन्वेषण गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a Bisphenol Resin requirement",
+      label: "Bisphenol Resin आवश्यकता छलफल गर्नुहोस्",
       description: "केन्द्रित समीक्षाका लागि प्राविधिक र commercial विवरणहरू साझा गर्नुहोस्।"
     }
   ],

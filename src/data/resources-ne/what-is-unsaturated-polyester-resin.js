@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Unsaturated Polyester Resin (UPR) भनेको के हो?",
+    ogTitle: "Unsaturated Polyester Resin (UPR) भनेको के हो?",
+    ogDescription: "Unsaturated Polyester Resin (UPR) को खरिदकर्ता-केन्द्रित व्याख्या, यो FRP निर्माणसँग कसरी सम्बन्धित छ, र grade छनोट गर्नुअघि चाहिने उत्पादन भूमिका किन महत्त्वपूर्ण छ।",
+  },
   title: "Unsaturated Polyester Resin (UPR) भनेको के हो?",
   description: "Unsaturated Polyester Resin (UPR) को खरिदकर्ता-केन्द्रित व्याख्या, यो FRP निर्माणसँग कसरी सम्बन्धित छ, र grade छनोट गर्नुअघि चाहिने उत्पादन भूमिका किन महत्त्वपूर्ण छ।",
   quickFacts: {
@@ -10,7 +15,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-resins/",
-      label: "View Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "आवश्यकतालाई सान्दर्भिक प्रकाशित grade सँग जोड्न parent UPR उत्पादन पेज प्रयोग गर्नुहोस्।"
     },
     {
@@ -20,7 +25,7 @@ export default {
     },
     {
       href: "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
-      label: "Read the FRP resin-selection guide",
+      label: "FRP resin-छनोट गाइड पढ्नुहोस्",
       description: "अभिप्रेत process लाई सान्दर्भिक उत्पादन डाटासँग तुलना गर्नुहोस्।"
     }
   ],
@@ -57,7 +62,7 @@ export default {
       heading: "उत्पादन भूमिकाले resin छलफल कसरी बदल्छ",
       subsections: [
         {
-          heading: "General FRP laminate",
+          heading: "सामान्य FRP laminate",
           body: "आवश्यकता general FRP काम भएमा प्रकाशित GP Clear वा GP Yellow उत्पादन भूमिकाबाट सुरु गर्नुहोस्, त्यसपछि छानिएको grade को appearance, process सन्दर्भ र TDS जाँच्नुहोस्।"
         },
         {

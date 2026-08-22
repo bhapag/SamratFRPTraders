@@ -1,6 +1,18 @@
 export default {
   title: "Marble Resin बनाम GP Resin: Marble Composite वा General FRP मार्ग?",
   description: "दस्तावेजीकृत Marble Resin cultured-marble र artificial-stone मार्गलाई व्यापक general FRP छनोटका लागि अलग रूपमा प्रकाशित GP Resin मार्गसँग तुलना गर्नुहोस्।",
+  seo: {
+    title: "Marble Resin बनाम GP Resin | Marble Composite बनाम General FRP",
+    ogTitle: "Marble Resin बनाम GP Resin",
+    ogDescription: "वास्तविक finished component र grade-विशिष्ट प्राविधिक document का आधारमा प्रकाशित Marble Resin वा GP Resin मार्ग छान्नुहोस्।",
+    keywords: [
+      "Marble Resin vs GP Resin",
+      "Polyester Marble Resin",
+      "GP Polyester Resin",
+      "General Purpose Polyester Resin",
+      "Resin for Marble"
+    ],
+  },
   quickFacts: {
     "Marble Resin": "cultured-marble र artificial-stone सन्दर्भका लागि प्रकाशित",
     "GP Resin": "अलग general-purpose FRP उत्पादन मार्ग",
@@ -63,7 +75,7 @@ export default {
     },
     {
       href: "/products/polyester-resins/",
-      label: "Explore Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "व्यापक polyester-resin सन्दर्भका लागि parent product family प्रयोग गर्नुहोस्।"
     }
   ]

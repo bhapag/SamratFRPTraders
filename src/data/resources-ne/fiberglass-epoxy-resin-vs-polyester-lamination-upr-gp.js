@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Fiberglass Epoxy Resin बनाम Polyester Lamination Resin, UPR र GP Resin",
+    ogTitle: "Fiberglass Epoxy Resin बनाम Polyester Lamination Resin, UPR र GP Resin",
+    ogDescription: "Fiberglass र composite प्रश्नहरूका लागि Samrat Poly Resins, India को Fiberglass Epoxy route र यसका छुट्टै polyester Lamination, UPR र GP resin routes बीचको buyer-level तुलना।",
+  },
   title: "Fiberglass Epoxy Resin बनाम Polyester Lamination Resin, UPR र GP Resin",
   description: "Fiberglass र composite प्रश्नहरूका लागि Samrat Poly Resins, India को Fiberglass Epoxy route र यसका छुट्टै polyester Lamination, UPR र GP resin routes बीचको buyer-level तुलना।",
   quickFacts: {
@@ -84,17 +89,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "छुट्टै published epoxy-system route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "छुट्टै polyester lamination product data र application भूमिका समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/polyester-resins/",
-      label: "View Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "Parent-family सन्दर्भका लागि व्यापक UPR route प्रयोग गर्नुहोस्।"
     },
     {

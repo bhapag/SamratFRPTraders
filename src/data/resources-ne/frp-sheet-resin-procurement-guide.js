@@ -63,7 +63,7 @@ export default {
       description: "Product-specific data लाई नियन्त्रक सन्दर्भका रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
       label: "Product Catalogue डाउनलोड गर्नुहोस्",
       description: "Range भरिका अलग product भूमिकाहरूको समीक्षा गर्नुहोस्।"
     },

@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Polyester Resin मा Gel Time बुझ्ने",
+    ogTitle: "Polyester Resin मा Gel Time बुझ्ने",
+    ogDescription: "Gel time को अर्थ, यो किन महत्त्वपूर्ण छ, र यसले manufacturing efficiency लाई कसरी असर गर्छ भन्ने बुझ्नुहोस्।",
+  },
   title: "Polyester Resin मा Gel Time बुझ्ने",
   description: "Gel time को अर्थ, यो किन महत्त्वपूर्ण छ, र यसले manufacturing efficiency लाई कसरी असर गर्छ भन्ने बुझ्नुहोस्।",
   quickFacts: {

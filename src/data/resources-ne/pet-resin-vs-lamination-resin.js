@@ -1,6 +1,18 @@
 export default {
   title: "PET Resin बनाम Lamination Resin: फरक Sheet र Laminate Routes",
   description: "Samrat Poly Resins, India को documented PET-modified sheet-grade route लाई door, plywood र FRP lamination सन्दर्भका लागि प्रकाशित Lamination Resin route बाट अलग गर्नुहोस्।",
+  seo: {
+    title: "PET Resin बनाम Lamination Resin | Sheet Grade र Laminate गाइड",
+    ogTitle: "PET Resin बनाम Lamination Resin",
+    ogDescription: "वास्तविक documented component र हालको TDS बाट PET sheet-grade वा Lamination Resin मार्ग छान्नुहोस्।",
+    keywords: [
+      "PET Resin vs Lamination Resin",
+      "PET Modified Polyester Resin",
+      "Lamination Resin",
+      "FRP Sheet Lamination Resin",
+      "Polyester Resin Selection"
+    ],
+  },
   quickFacts: {
     "PET Resin": "PET sheets, fibre sheets, FRP sheet lamination र panels का लागि documented",
     "Lamination Resin": "door, plywood र FRP lamination का लागि छुट्टै प्रकाशित route",
@@ -41,17 +53,17 @@ export default {
     },
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "छुट्टै प्रकाशित lamination उत्पादन route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/what-is-lamination-resin/",
-      label: "What Is Lamination Resin?",
+      label: "Lamination Resin के हो?",
       description: "व्यापक lamination-resin भूमिकाका लागि अवस्थित गाइड प्रयोग गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss the application context",
+      label: "application context बारे छलफल गर्नुहोस्",
       description: "छनोटअघि वास्तविक component र कागजात आवश्यकता साझा गर्नुहोस्।"
     }
   ],

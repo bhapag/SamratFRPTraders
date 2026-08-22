@@ -1,6 +1,18 @@
 export default {
   title: "Bisphenol Resin Applications: दस्तावेजीकृत Industrial Contexts",
   description: "व्यापक categories लाई अपुष्ट project approvals मा नबदली, laminating, casting, coating र encapsulation का लागि हालको TDS-listed Bisphenol Resin contexts समीक्षा गर्नुहोस्।",
+  seo: {
+    title: "Bisphenol Resin Applications | औद्योगिक खरिद गाइड",
+    keywords: [
+      "Bisphenol Resin Applications",
+      "Bisphenol Resin for FRP",
+      "Bisphenol Resin for Coating",
+      "Bisphenol Resin for Encapsulation",
+      "Industrial Bisphenol Resin Applications"
+    ],
+    ogTitle: "Bisphenol Resin Applications: दस्तावेजीकृत औद्योगिक Contexts",
+    ogDescription: "Documented product छलफलका लागि सुरुवाती बिन्दुको रूपमा हालको TDS-listed Bisphenol Resin contexts प्रयोग गर्नुहोस्।"
+  },
   quickFacts: {
     "FRP context": "Laminating र FRP composites",
     "Coating context": "Industrial flooring र protective coatings",
@@ -10,7 +22,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/bisphenol-resin/",
-      label: "View Bisphenol Resin",
+      label: "Bisphenol Resin हेर्नुहोस्",
       description: "product data, हालको document caveat र enquiry route समीक्षा गर्नुहोस्।"
     },
     {
@@ -20,12 +32,12 @@ export default {
     },
     {
       href: "/tds/bisphenol-resin-tds.pdf",
-      label: "Download Bisphenol Resin TDS",
+      label: "Bisphenol Resin TDS डाउनलोड गर्नुहोस्",
       description: "project छलफल गर्नुअघि प्रकाशित application भाषा पुष्टि गर्नुहोस्।"
     },
     {
       href: "/resources/bisphenol-resin-procurement-checklist/",
-      label: "Prepare a Bisphenol Resin RFQ",
+      label: "Bisphenol Resin RFQ तयार गर्नुहोस्",
       description: "exact application, technical requirement र commercial details साझा गर्नुहोस्।"
     }
   ],

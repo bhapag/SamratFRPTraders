@@ -31,7 +31,7 @@ export default {
       "description": "Selection वा ordering अघि हालको grade-specific technical data जाँच गर्नुहोस्।"
     },
     {
-      "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
       "label": "Product Catalogue डाउनलोड गर्नुहोस्",
       "description": "Samrat FRP Traders को व्यापक product range र सम्बन्धित product roles हेर्नुहोस्।"
     },

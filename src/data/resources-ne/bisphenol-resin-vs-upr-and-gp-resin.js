@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Bisphenol Resin बनाम UPR र GP Resin",
+    ogTitle: "Bisphenol Resin बनाम UPR र GP Resin",
+    ogDescription: "हालको Bisphenol Resin मार्गलाई Samrat Poly Resins, India को व्यापक Unsaturated Polyester Resin र general-purpose GP Clear Resin मार्गबाट अलग राख्ने document-आधारित तुलना।",
+  },
   title: "Bisphenol Resin बनाम UPR र GP Resin",
   description: "हालको Bisphenol Resin मार्गलाई Samrat Poly Resins, India को व्यापक Unsaturated Polyester Resin र general-purpose GP Clear Resin मार्गबाट अलग राख्ने document-आधारित तुलना।",
   quickFacts: {
@@ -89,12 +94,12 @@ export default {
   recommendedLinks: [
     {
       href: "/products/bisphenol-resin/",
-      label: "View Bisphenol Resin",
+      label: "Bisphenol Resin हेर्नुहोस्",
       description: "यसको हालको TDS-आधारित पहिचान र document-असंगति चेतावनी समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/polyester-resins/",
-      label: "View Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "व्यापक polyester-resin छनोटका लागि parent category मार्ग प्रयोग गर्नुहोस्।"
     },
     {

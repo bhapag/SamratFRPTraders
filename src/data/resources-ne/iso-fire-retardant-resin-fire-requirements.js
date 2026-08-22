@@ -1,6 +1,17 @@
 export default {
   title: "ISO Fire Retardant Resin: Fire आवश्यकता र तयार FRP गाइड",
   description: "ISO FR resin उत्पादन डाटालाई तयार FRP प्रणालीको fire-performance आवश्यकताबाट अलग गर्ने खरिदकर्ता-स्तरको गाइड।",
+  seo: {
+    title: "ISO Fire Retardant Resin Fire आवश्यकताहरू | FRP खरिदकर्ता गाइड",
+    keywords: [
+      "ISO Fire Retardant Resin fire requirements",
+      "ISO FR Resin fire rating",
+      "Isophthalic FR Resin",
+      "FRP fire performance requirement"
+    ],
+    ogTitle: "ISO Fire Retardant Resin: Fire आवश्यकता गाइड",
+    ogDescription: "ISO FR resin को designation किन स्वतः तयार FRP fire classification वा project approval होइन भनी बुझ्नुहोस्।"
+  },
   quickFacts: {
     "Fire-retardant": "स्वतः fireproof वा non-combustible होइन",
     "हालको TDS": "यस repository मा test-report सन्दर्भ बिना fire-performance statement देखाउँछ",
@@ -10,17 +21,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/iso-fire-retardant-resin/",
-      label: "Review ISO FR product data",
+      label: "ISO FR उत्पादन डाटा समीक्षा गर्नुहोस्",
       description: "हालको product page र TDS खोल्नुहोस्।"
     },
     {
       href: "/resources/frp-fire-performance-requirements-buyer-guide/",
-      label: "Read the broader FRP requirement guide",
+      label: "विस्तृत FRP आवश्यकता गाइड पढ्नुहोस्",
       description: "तयार-प्रणाली आवश्यकता जाँचका लागि अवस्थित गाइड प्रयोग गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss an ISO FR requirement",
+      label: "ISO FR आवश्यकताबारे छलफल गर्नुहोस्",
       description: "मूल specification र तयार component साझा गर्नुहोस्।"
     }
   ],

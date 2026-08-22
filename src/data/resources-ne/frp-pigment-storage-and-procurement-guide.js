@@ -39,7 +39,7 @@ export default {
       ]
     },
     {
-      heading: "FRP pigment quote checklist",
+      heading: "FRP pigment quote चेकलिस्ट",
       body: [
         "अभिप्रेत FRP component, थाहा भएमा समीक्षा भइरहेको resin वा gelcoat system, आवश्यक रंग reference वा appearance आवश्यकता, अपेक्षित quantity र delivery location बताउनुहोस्। उपलब्ध भएमा कुनै खरिद specification वा approved visual reference समावेश गर्नुहोस्। यसले उत्पादन-विशिष्ट प्राविधिक समीक्षालाई प्रतिस्थापन नगरी colour-paste छलफललाई बढी सटीक बनाउँछ।"
       ]
@@ -67,7 +67,7 @@ export default {
       description: "हालको प्रकाशित उत्पादन डाटालाई नियन्त्रक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
       label: "Product Catalogue डाउनलोड गर्नुहोस्",
       description: "व्यापक उत्पादन दायरा र छुट्टाछुट्टै resin, gelcoat र reinforcement भूमिकाहरू समीक्षा गर्नुहोस्।"
     },

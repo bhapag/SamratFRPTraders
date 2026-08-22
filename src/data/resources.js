@@ -595,6 +595,21 @@ export const resources = Object.freeze([
     "ne": {
       "title": "GP Polyester Resin भनेको के हो?",
       "description": "General Purpose (GP) polyester resin बारे पूर्ण गाइड — यो के हो, कसरी बनाइन्छ, मुख्य गुणहरू, प्रयोगहरू र सही grade कसरी छान्ने।",
+      "seo": {
+        "title": "GP Polyester Resin — गुणहरू, प्रयोग र खरिद गाइड",
+        "keywords": [
+          "GP polyester resin",
+          "general purpose polyester resin",
+          "unsaturated polyester resin",
+          "UPR resin",
+          "FRP resin",
+          "polyester resin supplier Nepal",
+          "GP resin applications",
+          "GP resin properties"
+        ],
+        "ogTitle": "GP Polyester Resin भनेको के हो? पूर्ण गाइड",
+        "ogDescription": "General Purpose polyester resin के हो, यो कसरी निर्माण गरिन्छ, यसका गुण र फाइदाहरू, यो कहाँ प्रयोग हुन्छ, र यसलाई सही रूपमा छनोट र भण्डारण कसरी गर्ने भन्ने बुझ्नुहोस्।"
+      },
       "quickFacts": {
         "Resin प्रकार": "Unsaturated Polyester Resin (UPR)",
         "Material वर्ग": "Thermosetting resin",
@@ -711,6 +726,23 @@ export const resources = Object.freeze([
           ]
         ]
       },
+      "recommendedLinks": [
+        {
+          "href": "/products/gp-clear-resin/",
+          "label": "GP Clear Resin हेर्नुहोस्",
+          "description": "प्रकाशित general-purpose grade, TDS र खरिद विवरणहरू समीक्षा गर्नुहोस्।"
+        },
+        {
+          "href": "/products/gp-white-resin/",
+          "label": "GP White Resin हेर्नुहोस्",
+          "description": "छुट्टै प्रकाशित water-white general-purpose FRP grade समीक्षा गर्नुहोस्।"
+        },
+        {
+          "href": "/resources/applications-of-gp-polyester-resin/",
+          "label": "GP Resin प्रयोगहरू हेर्नुहोस्",
+          "description": "Resin छलफललाई तयार FRP उत्पादनसँग मिलाउनुहोस्।"
+        }
+      ],
       "faqs": [
         {
           "q": "GP polyester resin मा GP को अर्थ के हो?",
@@ -769,7 +801,7 @@ export const resources = Object.freeze([
           "visuals": [
             {
               "type": "steps",
-              "caption": "How catalysed GP resin cures from a liquid into a rigid composite",
+              "caption": "Catalysed GP resin कसरी तरल अवस्थाबाट कडा composite मा cure हुन्छ",
               "items": [
                 {
                   "label": "Liquid GP Resin + MEKP Catalyst"
@@ -801,8 +833,8 @@ export const resources = Object.freeze([
           "heading": "GP Polyester Resin कसरी निर्माण गरिन्छ",
           "photo": {
             "src": "supplier-production.jpg",
-            "alt": "Stainless-steel resin processing reactors at the Samrat Poly Resins, India manufacturing facility",
-            "caption": "Supplier production reactors — Samrat Poly Resins, India"
+            "alt": "Samrat Poly Resins, India निर्माण सुविधाका stainless-steel resin processing reactors",
+            "caption": "आपूर्तिकर्ता उत्पादन reactors — Samrat Poly Resins, India"
           },
           "body": [
             "GP polyester resin निर्माण थोरै मुख्य कच्चा पदार्थबाट सुरु हुन्छ: unsaturated dibasic acids वा anhydrides (सामान्यतया maleic anhydride, कहिलेकाहीं phthalic anhydride सँग संयोजित), phthalic anhydride जस्ता saturated dibasic acids, जसले कठोरता योगदान गर्छन् र unsaturation को मात्रा नियन्त्रण गर्छन्, र glycols, सामान्यतया propylene glycol वा ethylene glycol, जसले acid units लाई जोड्ने लचिलो backbone दिन्छन्।",
@@ -814,7 +846,7 @@ export const resources = Object.freeze([
           "visuals": [
             {
               "type": "steps",
-              "caption": "GP polyester resin manufacturing process",
+              "caption": "GP polyester resin निर्माण प्रक्रिया",
               "items": [
                 {
                   "label": "Raw Materials"
@@ -898,7 +930,7 @@ export const resources = Object.freeze([
           "visuals": [
             {
               "type": "steps",
-              "caption": "Typical manufacturing workflow for GP resin composites",
+              "caption": "GP resin composite का लागि सामान्य निर्माण workflow",
               "items": [
                 {
                   "label": "GP Resin + Glass Fibre Reinforcement"
@@ -934,7 +966,7 @@ export const resources = Object.freeze([
               "body": "FRP door skins ले GP resin को राम्रो mould विवरण reproduce गर्ने र सफा, paintable वा textured सतह हासिल गर्ने क्षमताबाट फाइदा लिन्छन्, जबकि यसका mechanical गुणहरूले door facing बाट अपेक्षित कठोरता र impact resistance दिन्छन्।"
             },
             {
-              "heading": "Industrial Mouldings",
+              "heading": "औद्योगिक Mouldings",
               "body": "GP resin सामान्य industrial mouldings — enclosures, covers, ducting र समान components — का लागि व्यावहारिक छनोट हो, जहाँ मध्यम mechanical र chemical प्रदर्शन पर्याप्त हुन्छ र cost efficiency प्राथमिकता हो।"
             },
             {
@@ -946,7 +978,7 @@ export const resources = Object.freeze([
               "body": "कम मागिने marine प्रयोगहरूमा, GP resin पूर्ण marine-grade isophthalic वा vinyl ester प्रदर्शन नचाहिने components का लागि प्रयोग हुन्छ, लामो immersion वा उच्च mechanical loading नहुने भागहरूका लागि किफायती विकल्प दिँदै।"
             },
             {
-              "heading": "Automotive Components",
+              "heading": "अटोमोटिभ Components",
               "body": "GP resin केही automotive FRP components, जस्तै body panels र covers मा प्रयोग हुन्छ, जहाँ यसको processability र finish ले speciality resin प्रणालीको लागतबिना मध्यम-volume उत्पादनलाई समर्थन गर्दछ।"
             },
             {
@@ -957,8 +989,8 @@ export const resources = Object.freeze([
           "visualsAfter": [
             {
               "type": "icongrid",
-              "label": "Infographic: industrial applications of GP polyester resin",
-              "caption": "GP polyester resin — industrial applications",
+              "label": "Infographic: GP polyester resin का औद्योगिक प्रयोगहरू",
+              "caption": "GP polyester resin — औद्योगिक प्रयोगहरू",
               "items": [
                 {
                   "icon": "tank",
@@ -1001,8 +1033,8 @@ export const resources = Object.freeze([
           "visuals": [
             {
               "type": "icongrid",
-              "label": "Diagram: manufacturing methods compatible with GP polyester resin",
-              "caption": "Manufacturing methods used with GP polyester resin",
+              "label": "Diagram: GP polyester resin सँग मिल्ने निर्माण विधिहरू",
+              "caption": "GP polyester resin सँग प्रयोग हुने निर्माण विधिहरू",
               "items": [
                 {
                   "icon": "hand-layup",
@@ -1041,11 +1073,11 @@ export const resources = Object.freeze([
               "body": "Spray-up मा, catalysed resin र chopped glass fibre लाई spray उपकरण प्रयोग गरी mould मा एकैसाथ राखिन्छ। GP resin को viscosity र cure विशेषताहरू यो छिटो, अर्ध-मेकानिकल प्रक्रियासँग compatible छन्, जुन सामान्यतया tanks र ठूला components का लागि प्रयोग हुन्छ।"
             },
             {
-              "heading": "Compression Moulding",
+              "heading": "कम्प्रेसन Moulding",
               "body": "GP resin formulations, प्रायः sheet moulding compound (SMC) वा dough moulding compound (DMC) प्रणालीको भागको रूपमा, compression moulding मा प्रयोग हुन्छन्, जहाँ ताप र दबाबले बन्द mould मा resin लाई छिटो cure गर्छ — सुसंगत भागहरूको उच्च-volume उत्पादनका लागि उपयुक्त।"
             },
             {
-              "heading": "Continuous Lamination",
+              "heading": "निरन्तर Lamination",
               "body": "roofing sheets जस्ता समतल वा corrugated sheet उत्पादनका लागि, GP resin continuous lamination lines मा प्रयोग हुन्छ, जहाँ resin-impregnated reinforcement continuous panel लम्बाइ उत्पादन गर्न curing प्रक्रियाबाट गुज्रन्छ।"
             },
             {
@@ -7849,7 +7881,7 @@ export const resources = Object.freeze([
         "description": "Use the current product document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review separate resin, coating and FRP product roles before selection."
       },
@@ -8989,7 +9021,7 @@ export const resources = Object.freeze([
         "description": "Check the current grade-specific technical data before selection or ordering."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review the wider Samrat FRP Traders product range and related product roles."
       },
@@ -9482,7 +9514,7 @@ export const resources = Object.freeze([
         "description": "Use the current published technical data as the controlling product reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review the broader product range and separate resin roles."
       },
@@ -10116,7 +10148,7 @@ export const resources = Object.freeze([
         "description": "Use the current published product data as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review the wider product range and separate resin, gelcoat and reinforcement roles."
       },
@@ -10457,7 +10489,7 @@ export const resources = Object.freeze([
         "description": "Use the current product document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review related resin, reinforcement, gelcoat and pigment product roles."
       },
@@ -10902,7 +10934,7 @@ export const resources = Object.freeze([
         "description": "Use the current product document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review separate Art Resin, casting and polyester-FRP product roles."
       },
@@ -12021,7 +12053,7 @@ export const resources = Object.freeze([
         "description": "Use the product-specific data as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review separate product roles across the range."
       },
@@ -12492,7 +12524,7 @@ export const resources = Object.freeze([
         "description": "Use the product-specific document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review separate product roles across the range."
       },
@@ -12582,7 +12614,7 @@ export const resources = Object.freeze([
         "description": "Use the product-specific document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review the broader product range and separate product roles."
       },
@@ -13868,7 +13900,7 @@ export const resources = Object.freeze([
         "description": "Use the current document as the technical reference for the grade."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review separate resin, catalyst and reinforcement product roles."
       },
@@ -13962,7 +13994,7 @@ export const resources = Object.freeze([
         "description": "Use the current product-specific document as the technical reference."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Download Product Catalogue",
         "description": "Review the separate published epoxy, UV and polyester-family product routes."
       },
@@ -15736,7 +15768,7 @@ export const resources = Object.freeze([
         "description": "Use the current technical document before naming a grade."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Review Product Catalogue",
         "description": "Keep the Vinyl Ester route distinct from other Samrat product roles."
       },
@@ -15898,7 +15930,7 @@ export const resources = Object.freeze([
         "description": "Use the detailed TDS as the starting technical document."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Review Product Catalogue",
         "description": "Explore Samrat FRP Traders' wider product range; use the product-specific TDS for this grade's technical data."
       },
@@ -16584,7 +16616,7 @@ export const resources = Object.freeze([
         "description": "Review the current product-specific document before naming a grade."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
+        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
         "label": "Review Product Catalogue",
         "description": "Explore Samrat FRP Traders' broader resin range before confirming the product route."
       },

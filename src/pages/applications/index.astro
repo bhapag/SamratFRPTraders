@@ -1,6 +1,9 @@
 ---
 import { applications } from '../../data/applications.js';
+import { localizeApplication } from '../../utils/application-i18n.js';
 import Base from '../../layouts/Base.astro';
+
+const published = applications.filter((app) => !app.draft).map((app) => localizeApplication(app));
 ---
 <Base
   lang="ne"
@@ -21,7 +24,7 @@ import Base from '../../layouts/Base.astro';
   <section class="section">
     <div class="container">
       <div class="app-grid">
-        {applications.filter((app) => !app.draft).map((app) => (
+        {published.map((app) => (
           <a class="app-card" href={`/applications/${app.slug}/`} data-reveal>
             <span class="app-media">
               <img

@@ -1,6 +1,18 @@
 export default {
   title: "FRP निर्माणमा Lamination Resin का Applications",
   description: "Door panels, plywood, FRP bonding र clear-finish hand lay-up कामका लागि प्रकाशित Lamination Resin applications अन्वेषण गर्नुहोस्।",
+  seo: {
+    title: "FRP निर्माणमा Lamination Resin का Applications",
+    keywords: [
+      "Lamination Resin applications",
+      "LR Resin applications",
+      "resin for FRP lamination",
+      "door lamination resin",
+      "plywood lamination resin"
+    ],
+    ogTitle: "FRP निर्माणमा Lamination Resin का Applications",
+    ogDescription: "Door, plywood वा FRP bonding आवश्यकताका लागि Lamination Resin मूल्याङ्कन गर्न प्रकाशित application सन्दर्भहरू प्रयोग गर्नुहोस्।"
+  },
   quickFacts: {
     "Door काम": "Door skins र decorative door panels",
     "Plywood काम": "furniture surfaces का लागि plywood र laminate bonding",
@@ -10,17 +22,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "प्रकाशित grade का लागि उत्पादन डाटा र TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/applications/decorative-plywood-lamination/",
-      label: "Decorative plywood lamination",
+      label: "सजावटी plywood lamination",
       description: "अवस्थित application गाइड हेर्नुहोस्।"
     },
     {
       href: "/applications/resin-for-general-frp-lamination/",
-      label: "General FRP lamination",
+      label: "सामान्य FRP lamination",
       description: "grade छनोट गर्नुअघि process सन्दर्भ समीक्षा गर्नुहोस्।"
     }
   ],

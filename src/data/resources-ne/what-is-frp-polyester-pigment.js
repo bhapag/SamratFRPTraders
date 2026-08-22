@@ -16,7 +16,7 @@ export default {
   "quickFacts": {
     "प्रकाशित product form": "FRP का लागि polyester pigment paste",
     "प्रकाशित system context": "UPR, vinyl ester र gelcoat systems",
-    "Material-system role": "Colour component — structural resin वा reinforcement होइन",
+    "Material-system भूमिका": "Colour component — structural resin वा reinforcement होइन",
     "Product reference": "हालको FRP Polyester Pigment TDS प्रयोग गर्नुहोस्"
   },
   "sections": [

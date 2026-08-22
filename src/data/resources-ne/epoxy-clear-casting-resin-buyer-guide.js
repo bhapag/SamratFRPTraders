@@ -68,7 +68,7 @@ export default {
       description: "हालको उत्पादन कागजातलाई controlling reference को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
       label: "Product Catalogue डाउनलोड गर्नुहोस्",
       description: "छनोट गर्नुअघि छुट्टाछुट्टै resin, coating र FRP उत्पादन भूमिकाहरू समीक्षा गर्नुहोस्।"
     },

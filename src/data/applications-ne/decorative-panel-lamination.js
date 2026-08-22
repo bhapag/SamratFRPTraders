@@ -1,0 +1,40 @@
+export default {
+  title: 'सजावट प्यानल Lamination का लागि Resin',
+  cardDescription: 'भित्ता प्यानल, partition र architectural cladding लाई प्रायः सजावट laminate पाना जोडिन्छ — टिकाउ भित्री फिनिशका लागि छिटो cure हुने resin ले।',
+  cardBenefit: 'ठूला प्यानल run मा एकनासको bonding।',
+  cardImageAlt: 'सजावट काठ-प्यानल laminate cladding ले समाप्त भित्री भित्ता',
+  seo: {
+    title: 'सजावट प्यानल Lamination का लागि Resin',
+    description: 'Lamination Resin ले भित्ता प्यानल, partition र architectural cladding मा सजावट laminate पाना कसरी जोड्छ — interior fit-out कार्यका लागि।',
+  },
+  intro: 'ढोकाभन्दा बाहिर, interior fit-out कार्यमा भित्ता प्यानल, partition र architectural cladding लाई सजावट laminate पानाले face गर्न व्यापक प्रयोग हुन्छ — जसले ठोस सामग्रीको लागत बिना सादा board substrate लाई समाप्त, टिकाउ सतह दिन्छ। त्यो laminate पानालाई प्यानल substrate मा जोड्नु प्यानल board आफैँ उत्पादन गर्नुभन्दा फरक उत्पादन चरण हो।',
+  whatTheyManufacture: 'सजावट प्यानल lamination ले कार्यालय, retail र hospitality interior fit-out मा प्रयोग हुने laminate-faced भित्ता प्यानल, partition प्यानल र architectural cladding board उत्पादन गर्छ — जहाँ ठूला प्यानल क्षेत्रमा टिकाउ, सजावट सतह फिनिश चाहिन्छ।',
+  whySuitable: '<a href="/products/lamination-resin/">Lamination Resin (LR Resin)</a> को छिटो 5-मिनेट gel time ले धेरै प्यानलका production run मा कुशल bonding दिन्छ, र सजावट laminate पानामा यसको बलियो adhesion ले commercial fit-out का भित्री प्यानलले भोग्ने घिसाइलाई थेग्छ। सजावट पाना जोड्ने कामभन्दा glass fibre reinforcement प्रयोग गरेर structural प्यानल बनाउने कामका लागि <a href="/products/gp-clear-resin/">GP Clear Resin</a> बढी उपयुक्त छ, जुन हाम्रो <a href="/applications/resin-for-frp-panel-manufacturing/">FRP panel manufacturing पृष्ठ</a> मा समेटिएको छ।',
+  requiredCharacteristics: [
+    'ठूला run मा प्यानल-facing उत्पादन कुशल राख्ने छिटो gel time',
+    'सजावट laminate पानामा बलियो, टिकाउ adhesion',
+    'चौडा प्यानल सतहमा सफा, एकनासको cure',
+    'उत्पादन स्तर अनुसार room-temperature वा press-assisted cure',
+    'भरपर्दो batch-देखि-batch bonding गुणस्तर',
+  ],
+  manufacturingProcess: 'प्यानल substrate मा <a href="/products/mekp-hardener/">MEKP hardener</a> र cobalt octoate accelerator ले catalysed गरिएको resin लगाइन्छ, माथि सजावट laminate पाना राखिन्छ, र resin cure भई पानालाई प्यानलमा जोड्ने बेलासम्म press गरिन्छ। त्यसपछि प्यानल installation का लागि साइजमा काटिन्छ।',
+  advantages: [
+    'ठूला प्यानल production run मा कुशल bonding का लागि 5-मिनेट gel time',
+    'Commercial भित्री घिसाइका लागि उपयुक्त सजावट laminate पानामा बलियो adhesion',
+    'चौडा प्यानल सतहमा एकनासको cure गुणस्तर',
+  ],
+  commonProducts: [
+    'Laminate-faced भित्ता प्यानल',
+    'Partition प्यानल',
+    'Architectural cladding बोर्ड',
+  ],
+  faqs: [
+    { q: 'LR Resin प्यानल board आफैँ उत्पादन गर्न प्रयोग हुन्छ?', a: 'होइन — यो पहिल्यै उत्पादित प्यानल substrate मा सजावट laminate पाना जोड्न प्रयोग हुन्छ, board सामग्री आफैँ बनाउन होइन।' },
+    { q: 'कस्ता प्यानलले यो lamination प्रक्रिया प्रयोग गर्छन्?', a: 'Interior fit-out मा प्रयोग हुने भित्ता प्यानल, partition प्यानल र architectural cladding board — जहाँ सादा substrate माथि सजावट laminate face जोडिन्छ।' },
+    { q: 'प्यानल lamination का लागि LR Resin कसरी catalysed गरिन्छ?', a: 'MEKP catalyst (लगभग 1.5%) र cobalt octoate accelerator (लगभग 0.4%) सँग, room temperature वा press मुनि cure गरेर।' },
+    { q: 'FRP प्यानल बनाउन LR Resin वा GP Clear Resin प्रयोग गर्ने?', a: 'LR Resin प्यानल substrate मा सजावट laminate face जोड्नका लागि हो। Glass fibre reinforcement सँग structural FRP प्यानल नै बनाउने हो भने GP Clear Resin बढी उपयुक्त छनोट हो।' },
+    { q: 'LR Resin ले ठूला प्यानल क्षेत्रमा laminate पाना समान रूपमा जोड्न सक्छ?', a: 'सक्छ — यो प्यानल-facing production run मा एकनासो cure हुने गरी बनाइएको छ, जसले चौडा सतहमा समान bonding दिन्छ।' },
+  ],
+  ctaHeading: 'तपाईंको सजावट प्यानल lamination लाइनका लागि resin चाहिन्छ?',
+  ctaText: 'तपाईंको प्यानल-facing उत्पादनका लागि सही dosage बारे थोक quote पाउनुहोस् वा हाम्रो प्राविधिक टोलीसँग कुरा गर्नुहोस्।',
+};

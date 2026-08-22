@@ -14,7 +14,7 @@ export default {
     ogDescription: "process परिवर्तन गर्नुअघि टाँसिने वा tacky polyester resin सतह जाँच्ने व्यावहारिक, सुरक्षा-सचेत गाइड।"
   },
   quickFacts: {
-    "What it can indicate": "जाँच गर्नुपर्ने cure, process, भण्डारण वा surface-condition समस्या",
+    "यसले के सङ्केत गर्न सक्छ": "जाँच गर्नुपर्ने cure, process, भण्डारण वा surface-condition समस्या",
     "First response": "रोकिनुहोस् र process लाई उत्पादनको TDS र batch जानकारीसँग तुलना गर्नुहोस्",
     "Do not do": "अनुमोदित नभएका chemicals नथप्नुहोस् वा अनुमानमा catalyst dosage नबदल्नुहोस्",
     "Useful records": "उत्पादन, batch, process, ambient अवस्था र देखिएको नतिजा"

@@ -20,7 +20,7 @@ export default {
       "heading": "FRP Manufacturing र Moulding",
       "subsections": [
         {
-          "heading": "Open-Mould Components",
+          "heading": "Open-Mould कम्पोनेन्टहरू",
           "body": "सबैभन्दा व्यापक रूपमा प्रयोग हुने FRP moulding विधिहरू hand lay-up र spray-up, open mould माथि laminate बनाउन GP resin को workable gel time र viscosity मा भर पर्छन्। यसले custom enclosures र covers देखि one-off वा low-volume structural components सम्म सबै समेट्छ।"
         },
         {

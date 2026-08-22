@@ -1,6 +1,18 @@
 export default {
   title: "GP Resin बनाम Vinyl Ester Resin",
   description: "FRP project मा फरक process वा chemical-resistance आवश्यकता हुँदा general-purpose GP polyester resin र vinyl ester resin तुलना गर्नुहोस्।",
+  seo: {
+    title: "GP Resin बनाम Vinyl Ester Resin | FRP छनोट गाइड",
+    keywords: [
+      "GP Resin vs Vinyl Ester Resin",
+      "general purpose polyester resin",
+      "vinyl ester resin",
+      "chemical resistant FRP resin",
+      "FRP resin selection"
+    ],
+    ogTitle: "GP Resin बनाम Vinyl Ester Resin",
+    ogDescription: "FRP application का लागि general-purpose GP grade वा vinyl ester system कहिले समीक्षा गर्नुपर्छ भनी बुझ्नुहोस्।"
+  },
   quickFacts: {
     "GP Clear Resin": "Orthophthalic, general-purpose polyester resin",
     "Vinyl Ester Resin": "chemical-resistant FRP कामका लागि positioned Bisphenol-A epoxy vinyl ester उत्पादन",
@@ -26,12 +38,12 @@ export default {
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View Vinyl Ester Resin",
+      label: "Vinyl Ester Resin हेर्नुहोस्",
       description: "chemical-resistant resin प्रणाली समीक्षा आवश्यक पर्ने projects का लागि।"
     },
     {
       href: "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
-      label: "Chemical tank application guide",
+      label: "Chemical tank application गाइड",
       description: "सान्दर्भिक vinyl ester use case समीक्षा गर्नुहोस्।"
     }
   ],

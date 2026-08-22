@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Marble Resin Applications: Cultured Marble र Artificial Stone",
+    ogTitle: "Marble Resin Applications: Cultured Marble र Artificial Stone",
+    ogDescription: "Samrat Marble Resin का लागि published cultured-marble र artificial-stone application contexts, साथै खरिदकर्ताले अझै पुष्टि गर्नुपर्ने finished-product जानकारी समीक्षा गर्नुहोस्।",
+  },
   title: "Marble Resin Applications: Cultured Marble र Artificial Stone",
   description: "Samrat Marble Resin का लागि published cultured-marble र artificial-stone application contexts, साथै खरिदकर्ताले अझै पुष्टि गर्नुपर्ने finished-product जानकारी समीक्षा गर्नुहोस्।",
   quickFacts: {
@@ -58,17 +63,17 @@ export default {
     },
     {
       href: "/products/gp-quartz-resin/",
-      label: "Review GP Quartz Resin",
+      label: "GP Quartz Resin समीक्षा गर्नुहोस्",
       description: "यसको documented artificial-quartz र engineered-stone contexts का लागि छुट्टै route प्रयोग गर्नुहोस्।"
     },
     {
       href: "/tds/marble-resin-tds.pdf",
-      label: "Download Marble Resin TDS",
+      label: "Marble Resin TDS डाउनलोड गर्नुहोस्",
       description: "Order गर्नुअघि हालको product record पुष्टि गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss an application",
+      label: "प्रयोगबारे छलफल गर्नुहोस्",
       description: "समीक्षाका लागि finished component, requirement र commercial विवरण साझा गर्नुहोस्।"
     }
   ]

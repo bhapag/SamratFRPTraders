@@ -1,5 +1,5 @@
 export default {
-  "title": "GP Quartz Resin vs GP Clear Resin",
+  "title": "GP Quartz Resin बनाम GP Clear Resin",
   "description": "GP Quartz Resin को प्रकाशित quartz-stone र composite-mineral भूमिकालाई GP Clear Resin को व्यापक general-FRP भूमिकासँग तुलना गर्नुहोस्।",
   "seo": {
     "title": "GP Quartz Resin vs GP Clear Resin | कुन Product Role उपयुक्त छ?",

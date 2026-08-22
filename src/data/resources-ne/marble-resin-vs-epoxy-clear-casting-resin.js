@@ -1,6 +1,18 @@
 export default {
   title: "Marble Resin बनाम Epoxy Clear Casting Resin",
   description: "Cultured marble र artificial stone का लागि published Marble Resin polyester route लाई Samrat Poly Resins, India को छुट्टै two-part Epoxy Clear Casting Resin system बाट छुट्याउनुहोस्।",
+  seo: {
+    title: "Marble Resin बनाम Epoxy Clear Casting Resin | खरिदकर्ता गाइड",
+    ogTitle: "Marble Resin बनाम Epoxy Clear Casting Resin",
+    ogDescription: "छुट्टै epoxy casting system मूल्याङ्कन गर्दै गरेका Marble Resin खरिदकर्ताहरूका लागि documented material-family र product-role तुलना।",
+    keywords: [
+      "Marble Resin vs Epoxy Resin",
+      "Marble Resin vs Epoxy Casting Resin",
+      "Polyester Marble Resin",
+      "Epoxy Clear Casting Resin",
+      "Resin for Marble"
+    ],
+  },
   quickFacts: {
     "Marble Resin": "Documented cultured-marble र artificial-stone contexts का लागि liquid unsaturated polyester route",
     "Clear Casting Resin": "छुट्टै published two-part epoxy system",
@@ -58,12 +70,12 @@ export default {
     },
     {
       href: "/products/clear-casting-resin/",
-      label: "View Epoxy Clear Casting Resin",
+      label: "Epoxy Clear Casting Resin हेर्नुहोस्",
       description: "छुट्टै published two-part epoxy casting route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/what-is-epoxy-clear-casting-resin/",
-      label: "Read the epoxy casting guide",
+      label: "Epoxy casting गाइड पढ्नुहोस्",
       description: "छुट्टै epoxy-system product context बुझ्नुहोस्।"
     }
   ]

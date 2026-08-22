@@ -10,17 +10,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/gp-gelcoat-resin/",
-      label: "View GP Gelcoat Resin",
+      label: "GP Gelcoat Resin हेर्नुहोस्",
       description: "Published white, high-gloss mould-surface grade र यसको TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/gp-resin-vs-gelcoat-resin/",
-      label: "Gelcoat Resin vs GP Resin",
+      label: "Gelcoat Resin र GP Resin बीचको तुलना",
       description: "Mould-facing surface भूमिकालाई structural laminate भूमिकाबाट छुट्याउनुहोस्।"
     },
     {
       href: "/resources/gelcoat-resin-problems-peeling-cracking-tackiness/",
-      label: "Document a surface concern",
+      label: "surface समस्याको दस्तावेज तयार गर्नुहोस्",
       description: "Peeling, cracking, pinhole, fisheye वा tackiness सम्बन्धी observations छलफलका लागि तयार गर्नुहोस्।"
     }
   ],

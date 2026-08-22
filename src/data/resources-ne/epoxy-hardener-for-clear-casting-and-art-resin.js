@@ -15,7 +15,7 @@ export default {
   quickFacts: {
     "Clear Casting Resin": "छुट्टै प्रकाशित स्पष्ट, contained casting route",
     "Epoxy Art Resin": "छुट्टै प्रकाशित art र decorative surface route",
-    "Documented relationship": "दुवै product route ले compatible Epoxy Hardener पहिचान गर्छन्",
+    "दस्तावेज गरिएको सम्बन्ध": "दुवै product route ले compatible Epoxy Hardener पहिचान गर्छन्",
     "Confirmation": "अर्डर गर्नुअघि हालको product data समीक्षा गर्नुहोस्"
   },
   recommendedLinks: [

@@ -1,6 +1,19 @@
 export default {
   title: "FRP निर्माणका लागि Glass Fiber: Reinforcement Application गाइड",
   description: "E-Glass Chopped Strand Mat छनोट गर्नुअघि component र reinforcement सन्दर्भ परिभाषित गर्न अवस्थित FRP application गाइडहरू प्रयोग गर्नुहोस्।",
+  seo: {
+    title: "FRP निर्माणका लागि Glass Fiber | CSM Application गाइड",
+    keywords: [
+      "Glass Fiber for FRP",
+      "FRP Glass Fiber",
+      "Glass Fiber Roofing Sheets",
+      "Glass Fiber Tanks",
+      "Glass Fiber Doors",
+      "Fiberglass Reinforcement"
+    ],
+    ogTitle: "FRP निर्माणका लागि Glass Fiber",
+    ogDescription: "Glass Fiber Mat छनोटका लागि component सन्दर्भको रूपमा अवस्थित FRP roofing-sheet, tank, panel, door र hand lay-up गाइडहरू अन्वेषण गर्नुहोस्।"
+  },
   quickFacts: {
     "प्रकाशित उत्पादन भूमिका": "FRP reinforcement",
     "अवस्थित component गाइडहरू": "Roofing sheets, tanks, panels र doors",
@@ -10,12 +23,12 @@ export default {
   recommendedLinks: [
     {
       href: "/applications/resin-for-roofing-sheet-manufacturing/",
-      label: "FRP roofing-sheet guide",
+      label: "FRP roofing-sheet गाइड",
       description: "documented roofing-sheet component सन्दर्भ समीक्षा गर्नुहोस्।"
     },
     {
       href: "/applications/resin-for-water-tank-manufacturing/",
-      label: "FRP water-tank guide",
+      label: "FRP water-tank गाइड",
       description: "documented tank component सन्दर्भ समीक्षा गर्नुहोस्।"
     },
     {

@@ -14,7 +14,7 @@ export default {
     ogDescription: "resin shrinkage लाई process र प्रयोगको प्रश्नको रूपमा बुझ्नुहोस्, असमर्थित one-size-fits-all उपायहरूमा भर नपरी।"
   },
   quickFacts: {
-    "What shrinkage means": "resin प्रणाली cure हुँदा हुने आयामिक परिवर्तन",
+    "Shrinkage को अर्थ": "resin प्रणाली cure हुँदा हुने आयामिक परिवर्तन",
     "Why it varies": "grade, reinforcement, part geometry, laminate design र cure अवस्था सबैले फरक पार्छ",
     "First step": "तयार part का लागि आयामिक र सतह आवश्यकता स्पष्ट गर्नुहोस्",
     "Avoid": "अनुमोदित नभएका process परिवर्तनहरू वा प्रयोग डाटा बिनाका universal shrinkage दाबीहरू"

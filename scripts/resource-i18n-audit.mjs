@@ -74,8 +74,8 @@ const failures = [];
 for (const r of resources) {
   if (r.draft) continue;
   total++;
-  const ne = r.ne ?? OVERRIDES[r.slug] ?? null;
-  if (!ne) { failures.push(`${r.slug}: no ne override`); continue; }
+  const ne = { ...OVERRIDES[r.slug], ...r.ne };
+  if (!ne.title && !ne.sections) { failures.push(`${r.slug}: no ne override`); continue; }
   let ok = true;
   const flag = (msg) => { ok = false; failures.push(`${r.slug}: ${msg}`); };
 
@@ -251,3 +251,15 @@ console.log(`STRICT PASS: ${pass}/${total}`);
 console.log(`STRICT FAILURES: ${failures.length}`);
 for (const f of failures.slice(0, 80)) console.log('  ' + f);
 if (failures.length > 80) console.log(`  ... and ${failures.length - 80} more`);
+
+// machine-readable report for repair agents
+const bySlug = {};
+for (const f of failures) {
+  const [slug, ...rest] = f.split(': ');
+  (bySlug[slug] ??= []).push(rest.join(': '));
+}
+fs.writeFileSync(
+  path.join(process.cwd(), 'scripts', '.i18n-failures.json'),
+  JSON.stringify(bySlug, null, 2),
+);
+console.log('failure report written to scripts/.i18n-failures.json');

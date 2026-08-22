@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "GP White Resin बनाम Gelcoat Resin",
+    ogTitle: "GP White Resin बनाम Gelcoat Resin",
+    ogDescription: "Laminate वा mould-surface product छान्नुअघि water-white GP White Resin र white GP Gelcoat Resin का फरक-फरक FRP भूमिका बुझ्नुहोस्।",
+  },
   title: "GP White Resin बनाम Gelcoat Resin",
   description: "Laminate वा mould-surface product छान्नुअघि water-white GP White Resin र white GP Gelcoat Resin का फरक-फरक FRP भूमिका बुझ्नुहोस्।",
   quickFacts: {
@@ -56,12 +61,12 @@ export default {
     },
     {
       href: "/products/gp-gelcoat-resin/",
-      label: "View GP Gelcoat Resin",
+      label: "GP Gelcoat Resin हेर्नुहोस्",
       description: "Published white mould-surface product र TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/what-is-gel-coat-resin/",
-      label: "Read the gelcoat guide",
+      label: "Gelcoat गाइड पढ्नुहोस्",
       description: "FRP build-up मा mould-facing surface भूमिका बुझ्नुहोस्।"
     }
   ]

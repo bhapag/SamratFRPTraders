@@ -1,5 +1,5 @@
 export default {
-  "title": "GP Quartz Resin vs Marble Resin",
+  "title": "GP Quartz Resin बनाम Marble Resin",
   "description": "प्रकाशित quartz, engineered-stone, cultured-marble र artificial-stone सन्दर्भहरू समीक्षा गर्ने खरिदकर्ताहरूका लागि, performance ranking बनाएर होइन document-led तुलना।",
   "seo": {
     "title": "GP Quartz Resin vs Marble Resin | Artificial Stone Resin गाइड",

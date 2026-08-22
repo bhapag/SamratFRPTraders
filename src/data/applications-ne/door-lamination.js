@@ -1,0 +1,41 @@
+export default {
+  title: 'ढोका Lamination का लागि Resin',
+  cardDescription: 'सजावट ढोकालाई laminate र veneer पानालाई ढोकाको सतहमा बलियोसँग जोड्ने resin चाहिन्छ — कुशल press cycle का लागि छिटो cure हुने।',
+  cardBenefit: 'छिटो press-cycle turnaround।',
+  cardImageAlt: 'सजावट wood-grain laminate प्यानल डिजाइनले समाप्त आधुनिक प्रवेशद्वार',
+  seo: {
+    title: 'ढोका Lamination का लागि Resin',
+    description: 'Lamination Resin (LR Resin) ले सजावट laminate र veneer पानालाई ढोकाको सतहमा कसरी जोड्छ — प्रक्रिया, cure प्रणाली र ढोका निर्माणमा यसको स्थान।',
+  },
+  intro: 'धेरैजसो सजावट ढोका — घर र कार्यालयमा प्रयोग हुने flush, laminate-faced वा veneer-faced ढोका — ले आफ्नो समाप्त रूप सादा ढोका blank माथि जोडिएको पातलो सजावट पानाबाट पाउँछन्। त्यो जोड्ने चरण ढोका बनाउने प्रक्रियाभन्दा फरक हुन्छ, र यो बाक्लो structural laminate बनाउनभन्दा दुई समतल सतहबीच छिटो, भरपर्दो adhesion का लागि विशेष बनाइएको resin मा निर्भर हुन्छ।',
+  whatTheyManufacture: 'ढोका lamination कार्यले laminate-faced flush ढोका, veneer-faced सजावट ढोका र moulded/textured panel-look laminate पानाले समाप्त ढोका उत्पादन गर्छ — मुख्यतया आवासीय, कार्यालय र hospitality भित्री स्थानका लागि, जहाँ ठोस काठको लागत बिना सजावट, तयार-फिनिश ढोका सतह चाहिन्छ।',
+  whySuitable: '<a href="/products/lamination-resin/">Lamination Resin (LR Resin)</a> यही जोड्ने चरणका लागि विशेष बनाइएको हो: यसको 5-मिनेट gel time general-purpose resin भन्दा छिटो छ, त्यसैले laminating press ले प्रति shift धेरै ढोका cycle गर्न सक्छ, र यसको 100% purity, पारदर्शी तरल रूपले सफा, चम्किलो bond line दिन्छ जसले माथिको सजावट पानाको रङ बिगार्दैन। सजावट पाना जोड्ने कामभन्दा सामान्य FRP ढोका निर्माण र फ्रेम reinforcement का लागि <a href="/products/gp-clear-resin/">GP Clear Resin</a> बढी उपयुक्त छनोट हो।',
+  requiredCharacteristics: [
+    'Laminating press लाई कुशलतापूर्वक cycle गराउने छिटो gel time',
+    'Resin bond line र सजावट laminate/veneer पानाबीच बलियो, भरपर्दो adhesion',
+    'माथिको पानाको रङ नबिगार्ने सफा, चम्किलो cured फिनिश',
+    'उत्पादन लाइन अनुसार room-temperature वा press-assisted cure',
+    'Production run भरि एकनासको batch-देखि-batch bonding गुणस्तर',
+  ],
+  manufacturingProcess: 'ढोका blank सतहमा <a href="/products/mekp-hardener/">MEKP hardener</a> र cobalt octoate accelerator ले catalysed गरिएको resin लगाइन्छ, माथि सजावट laminate वा veneer पाना राखिन्छ, र resin cure भई पानालाई ढोकाको सतहमा स्थायी रूपमा जोड्ने बेलासम्म assembly लाई press गरिन्छ — छिटो cycle का लागि hot press मा वा साना production run का लागि room temperature मा clamp गरेर। Cure भएपछि किनारा काटिन्छ र ढोका डेलिभरीका लागि तयार हुन्छ।',
+  advantages: [
+    'General-purpose resin भन्दा छिटो press-cycle turnaround का लागि 5-मिनेट gel time',
+    'Laminate र veneer पानामा उत्कृष्ट adhesion — पिउँलिने वा delamination को जोखिम घटाउँछ',
+    'सजावट पानामुनि सफा फिनिश दिने clear, चम्किलो cure',
+    'Hot-press उपकरण नभएका workshop का लागि room-temperature cure विकल्प',
+  ],
+  commonProducts: [
+    'Laminate-faced flush ढोका',
+    'Veneer-faced सजावट ढोका',
+    'Moulded panel-look laminated ढोका',
+  ],
+  faqs: [
+    { q: 'ढोका lamination मा LR Resin के का लागि प्रयोग हुन्छ?', a: 'यो सादा ढोका blank र सजावट laminate/veneer पानाबीच bonding तहका रूपमा प्रयोग हुन्छ, cure भएर पानालाई ढोकाको सतहमा स्थायी रूपमा जोड्न।' },
+    { q: 'LR Resin ढोकाको संरचना बनाउने resin सँग उस्तै हो?', a: 'होइन। Structural ढोका निर्माण (फ्रेम, core reinforcement) मा सामान्यतया GP Clear Resin जस्तो general-purpose resin प्रयोग हुन्छ। LR Resin छिटो cycle हुने सजावट bonding चरणका लागि विशेष बनाइएको हो।' },
+    { q: 'LR Resin सँग ढोका lamination लाई hot press चाहिन्छ?', a: 'चाहिँदैन — यसको 5-मिनेट gel time hot-press उत्पादन लाइन र साना स्तरका लागि room-temperature clamped bonding दुवैका लागि उपयुक्त छ।' },
+    { q: 'ढोका lamination का लागि LR Resin कसरी catalysed गरिन्छ?', a: 'MEKP catalyst (लगभग 1.5%) र cobalt octoate accelerator (लगभग 0.4%) ले cure गरिन्छ — Samrat FRP Traders का general-purpose ग्रेडहरूमा प्रयोग हुने उही प्रणाली।' },
+    { q: 'LR Resin ले laminate पाना र काठको veneer दुवै जोड्न सक्छ?', a: 'यो पृष्ठ विशेष रूपमा synthetic सजावट laminate पानामा केन्द्रित छ। प्राकृतिक काठ veneer ले समाप्त ठोस काठ र wood-core ढोकाका लागि <a href="/applications/wooden-door-lamination/">wooden door lamination गाइड</a> हेर्नुहोस् — timber veneer का विशेष bonding विचारहरूका लागि।' },
+  ],
+  ctaHeading: 'तपाईंको ढोका lamination लाइनका लागि resin चाहिन्छ?',
+  ctaText: 'तपाईंको press cycle का लागि सही dosage बारे थोक quote पाउनुहोस् वा हाम्रो प्राविधिक टोलीसँग कुरा गर्नुहोस्।',
+};

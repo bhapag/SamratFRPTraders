@@ -1,6 +1,18 @@
 export default {
   title: "Sheet Grade Yellow Resin Applications: FRP Sheets र Panels",
   description: "FRP sheets, panels, enclosures, partitions, laminates र moulded components का लागि प्रकाशित Sheet Grade Yellow Resin application contexts।",
+  seo: {
+    title: "Sheet Grade Yellow Resin प्रयोगहरू | FRP Sheet र Panel Applications",
+    keywords: [
+      "Sheet Grade Yellow Resin Uses",
+      "FRP Sheet Resin",
+      "FRP Panel Resin",
+      "Yellow Resin for FRP Sheets",
+      "Polyester Resin for Panels"
+    ],
+    ogTitle: "Sheet Grade Yellow Resin का प्रयोगहरू",
+    ogDescription: "Pre-pigmented yellow polyester resin छनोट गर्नुअघि प्रकाशित sheet, panel र moulded-component contexts समीक्षा गर्नुहोस्।"
+  },
   quickFacts: {
     "प्रकाशित applications": "FRP sheets र roofing panels; decorative panels; electrical enclosures",
     "थप contexts": "Partitions, construction formwork, laminates र moulded components",
@@ -10,22 +22,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/sheet-grade-yellow-resin/",
-      label: "View Sheet Grade Yellow Resin",
+      label: "Sheet Grade Yellow Resin हेर्नुहोस्",
       description: "product-specific TDS, packaging र enquiry path समीक्षा गर्नुहोस्।"
     },
     {
       href: "/applications/resin-for-frp-panel-manufacturing/",
-      label: "Explore FRP panel context",
+      label: "FRP panel context अन्वेषण गर्नुहोस्",
       description: "व्यापक component requirement परिभाषित गर्न विद्यमान panel guide प्रयोग गर्नुहोस्।"
     },
     {
       href: "/resources/glass-fiber-and-polyester-resin-compatibility/",
-      label: "Review the FRP material system",
+      label: "FRP material system समीक्षा गर्नुहोस्",
       description: "reinforcement, resin र surface-finish भूमिकाहरू छुट्टाछुट्टै राख्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a sheet or panel application",
+      label: "Sheet वा panel application छलफल गर्नुहोस्",
       description: "component, supplied appearance, quantity र delivery location साझा गर्नुहोस्।"
     }
   ],

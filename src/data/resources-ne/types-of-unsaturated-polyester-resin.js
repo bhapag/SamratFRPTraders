@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Unsaturated Polyester Resin का प्रकारहरू: एउटा Grade-Selection गाइड",
+    ogTitle: "Unsaturated Polyester Resin का प्रकारहरू: एउटा Grade-Selection गाइड",
+    ogDescription: "Standard UPR, GP, lamination, gelcoat, button, fire-retardant र vinyl ester options लाई interchangeable नठानी तुलना गर्ने खरिदकर्ताहरूका लागि उत्पादन-भूमिका गाइड।",
+  },
   title: "Unsaturated Polyester Resin का प्रकारहरू: एउटा Grade-Selection गाइड",
   description: "Standard UPR, GP, lamination, gelcoat, button, fire-retardant र vinyl ester options लाई interchangeable नठानी तुलना गर्ने खरिदकर्ताहरूका लागि उत्पादन-भूमिका गाइड।",
   quickFacts: {
@@ -56,7 +61,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-resins/",
-      label: "Use the UPR product selector",
+      label: "UPR उत्पादन selector प्रयोग गर्नुहोस्",
       description: "Parent category page बाट सुरु गरेर व्यक्तिगत प्रकाशित grade मा जानुहोस्।"
     },
     {
@@ -66,12 +71,12 @@ export default {
     },
     {
       href: "/products/gp-gelcoat-resin/",
-      label: "View GP Gelcoat Resin",
+      label: "GP Gelcoat Resin हेर्नुहोस्",
       description: "छुट्टै mould-facing surface-coating उत्पादन भूमिका समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View Vinyl Ester Resin",
+      label: "Vinyl Ester Resin हेर्नुहोस्",
       description: "उल्लेख गरिएको chemical वा corrosion-resistance आवश्यकताका लागि छुट्टै उत्पादन data समीक्षा गर्नुहोस्।"
     }
   ],

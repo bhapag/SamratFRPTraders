@@ -38,7 +38,7 @@ export default {
       "heading": "GP White लाई clear resin र gelcoat बाट छुट्याउनुहोस्",
       "subsections": [
         {
-          "heading": "GP White vs GP Clear",
+          "heading": "GP White र GP Clear बीचको तुलना",
           "body": "दुवै published general-purpose orthophthalic polyester grades हुन्, तर supplied रूप र published processing डाटा फरक छन्। Grade छान्नुअघि विशिष्ट GP White र GP Clear product pages र TDS तुलना गर्नुहोस्।"
         },
         {

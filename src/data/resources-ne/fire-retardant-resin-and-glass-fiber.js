@@ -13,7 +13,7 @@ export default {
     "ogDescription": "FRP प्रणालीमा resin र reinforcement समीक्षा गर्ने खरिदकर्ताहरूका लागि उच्च-स्तरको material-भूमिका गाइड।"
   },
   "quickFacts": {
-    "Fire Retardant Resin": "Matrix / उत्पादन-प्रणाली component",
+    "Fire Retardant Resin उत्पादन": "Matrix / उत्पादन-प्रणाली component",
     "Glass Fiber": "Reinforcement material component",
     "छनोटको सीमा": "कुनै universal mat grade वा laminate design निहित छैन",
     "खरिदकर्ता कार्य": "तयार भाग र आवश्यक कागजात साझा गर्नुहोस्"

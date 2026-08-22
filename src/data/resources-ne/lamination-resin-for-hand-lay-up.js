@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Hand Lay-Up Process का लागि Lamination Resin",
+    ogTitle: "Hand Lay-Up Process का लागि Lamination Resin",
+    ogDescription: "उत्पादनमा जानुअघि Lamination Resin लाई प्रकाशित clear-finish hand lay-up कामका लागि समीक्षा गर्ने व्यावहारिक गाइड।",
+  },
   title: "Hand Lay-Up Process का लागि Lamination Resin",
   description: "उत्पादनमा जानुअघि Lamination Resin लाई प्रकाशित clear-finish hand lay-up कामका लागि समीक्षा गर्ने व्यावहारिक गाइड।",
   quickFacts: {
@@ -10,17 +15,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "Published 5-minute gel time, TDS र उत्पादन विवरण जाँच गर्नुहोस्।"
     },
     {
       href: "/applications/resin-for-hand-lay-up-process/",
-      label: "Hand lay-up process guide",
+      label: "Hand lay-up प्रक्रिया गाइड",
       description: "Grade data सँगै विद्यमान process context समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss your hand lay-up process",
+      label: "तपाईंको hand lay-up प्रक्रियाबारे छलफल गर्नुहोस्",
       description: "Part, reinforcement र production conditions साझा गर्नुहोस्।"
     }
   ],

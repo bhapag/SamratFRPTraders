@@ -1,6 +1,17 @@
 export default {
   title: "ISO Fire Retardant Resin बनाम UPR: Isophthalic FR Grade खरिदकर्ता गाइड",
   description: "व्यापक unsaturated polyester resin शब्दावली र Samrat Poly Resins, India को विशेष ISO / isophthalic Fire Retardant Resin grade बीचको सम्बन्ध स्पष्ट पार्नुहोस्।",
+  seo: {
+    title: "ISO Fire Retardant Resin बनाम UPR | Isophthalic FR Grade गाइड",
+    keywords: [
+      "ISO Fire Retardant Resin vs UPR",
+      "Isophthalic FR Resin vs Unsaturated Polyester Resin",
+      "ISO FR Resin",
+      "Fire Retardant UPR"
+    ],
+    ogTitle: "ISO Fire Retardant Resin बनाम UPR",
+    ogDescription: "ISO FR लाई व्यापक unsaturated polyester resin family भित्रको विशेष isophthalic fire-retardant grade को रूपमा बुझ्नुहोस्।"
+  },
   quickFacts: {
     "UPR": "व्यापक unsaturated polyester resin family",
     "ISO FR": "त्यही family भित्र प्रकाशित विशेष isophthalic-based FR grade",
@@ -10,17 +21,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-resins/",
-      label: "Explore Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin अन्वेषण गर्नुहोस्",
       description: "उत्पादन-grade orientation का लागि व्यापक family page प्रयोग गर्नुहोस्।"
     },
     {
       href: "/products/iso-fire-retardant-resin/",
-      label: "View ISO Fire Retardant Resin",
+      label: "ISO Fire Retardant Resin हेर्नुहोस्",
       description: "विशेष ISO FR उत्पादन डाटा समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/types-of-unsaturated-polyester-resin/",
-      label: "Read the UPR types guide",
+      label: "UPR types गाइड पढ्नुहोस्",
       description: "व्यापक polyester-resin शब्दावलीका लागि अवस्थित resource प्रयोग गर्नुहोस्।"
     }
   ],

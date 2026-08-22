@@ -1,6 +1,17 @@
 export default {
   title: "ISO Fire Retardant Resin बनाम Fire Retardant Resin",
   description: "अपुष्ट performance hierarchy नठानी, प्रकाशित ISO / isophthalic FR grade लाई Samrat FRP Traders को छुट्टै सूचीकृत standard Fire Retardant Resin सँग तुलना गर्नुहोस्।",
+  seo: {
+    title: "ISO Fire Retardant Resin बनाम Fire Retardant Resin | FR गाइड",
+    keywords: [
+      "ISO Fire Retardant Resin vs Fire Retardant Resin",
+      "ISO FR Resin vs FR Resin",
+      "Isophthalic FR Resin",
+      "Fire Retardant Polyester Resin comparison"
+    ],
+    ogTitle: "ISO Fire Retardant Resin बनाम Standard Fire Retardant Resin",
+    ogDescription: "Samrat Poly Resins, India का छुट्टाछुट्टै प्रकाशित ISO / isophthalic र standard FR resin routes को document-led तुलना।"
+  },
   quickFacts: {
     "ISO FR TDS पहिचान": "Halogen-free, ATH-filled isophthalic-based FR grade",
     "Standard FR TDS पहिचान": "छुट्टै प्रकाशित halogenated FR UPR grade",
@@ -10,17 +21,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/iso-fire-retardant-resin/",
-      label: "Review ISO Fire Retardant Resin",
+      label: "ISO Fire Retardant Resin समीक्षा गर्नुहोस्",
       description: "Product page र हालको ISO FR TDS खोल्नुहोस्।"
     },
     {
       href: "/products/fire-retardant-resin/",
-      label: "Review standard Fire Retardant Resin",
+      label: "standard Fire Retardant Resin समीक्षा गर्नुहोस्",
       description: "त्यो grade का लागि छुट्टै product page र TDS प्रयोग गर्नुहोस्।"
     },
     {
       href: "/resources/fire-retardant-resin-vs-gp-resin/",
-      label: "Compare FR Resin with GP Resin",
+      label: "FR Resin लाई GP Resin सँग तुलना गर्नुहोस्",
       description: "specialist FR versus general-purpose निर्णयका लागि विद्यमान गाइड प्रयोग गर्नुहोस्।"
     }
   ],

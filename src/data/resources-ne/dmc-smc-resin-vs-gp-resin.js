@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "DMC/SMC Resin बनाम GP Resin: Moulding Compound कि General FRP?",
+    ogTitle: "DMC/SMC Resin बनाम GP Resin: Moulding Compound कि General FRP?",
+    ogDescription: "Samrat Poly Resins, India को प्रकाशित DMC/SMC moulding-compound route लाई general-purpose polyester resin selection सँग तुलना गर्नुहोस्, दुवैलाई broader UPR family भित्रै राखेर।",
+  },
   title: "DMC/SMC Resin बनाम GP Resin: Moulding Compound कि General FRP?",
   description: "Samrat Poly Resins, India को प्रकाशित DMC/SMC moulding-compound route लाई general-purpose polyester resin selection सँग तुलना गर्नुहोस्, दुवैलाई broader UPR family भित्रै राखेर।",
   quickFacts: {
@@ -25,7 +30,7 @@ export default {
     },
     {
       href: "/products/polyester-resins/",
-      label: "Explore Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "broader UPR family बुझ्न parent page प्रयोग गर्नुहोस्।"
     },
     {
@@ -35,7 +40,7 @@ export default {
     },
     {
       href: "/contact/",
-      label: "Discuss product-route selection",
+      label: "उत्पादन-मार्ग छनोटबारे छलफल गर्नुहोस्",
       description: "component, manufacturing सन्दर्भ र तोकिएको कुनै specification साझा गर्नुहोस्।"
     }
   ],

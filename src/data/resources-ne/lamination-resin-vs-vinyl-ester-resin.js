@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Lamination Resin बनाम Vinyl Ester Resin",
+    ogTitle: "Lamination Resin बनाम Vinyl Ester Resin",
+    ogDescription: "तोकिएको requirement का लागि lamination-focused polyester grade लाई Vinyl Ester Resin सँग तुलना गर्ने FRP खरिदकर्ताहरूका लागि निर्णय गाइड।",
+  },
   title: "Lamination Resin बनाम Vinyl Ester Resin",
   description: "तोकिएको requirement का लागि lamination-focused polyester grade लाई Vinyl Ester Resin सँग तुलना गर्ने FRP खरिदकर्ताहरूका लागि निर्णय गाइड।",
   quickFacts: {
@@ -36,17 +41,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "प्रकाशित door, plywood र FRP bonding applications का लागि।"
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View Vinyl Ester Resin",
+      label: "Vinyl Ester Resin हेर्नुहोस्",
       description: "chemical-resistance requirement का लागि product data समीक्षा गर्नुहोस्।"
     },
     {
       href: "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
-      label: "Chemical storage tank guide",
+      label: "Chemical भण्डारण ट्यांकी गाइड",
       description: "विद्यमान Vinyl Ester application context अन्वेषण गर्नुहोस्।"
     }
   ],

@@ -1,10 +1,15 @@
 export default {
+  seo: {
+    title: "DMC बनाम SMC: Industrial खरिदकर्ताले के पुष्टि गर्नुपर्छ",
+    ogTitle: "DMC बनाम SMC: Industrial खरिदकर्ताले के पुष्टि गर्नुपर्छ",
+    ogDescription: "Published Dough Moulding Compound र Sheet Moulding Compound शब्दावलीलाई छुट्याउनुहोस्, हालको product data का सीमाहरू बुझ्नुहोस्, र अझ specific DMC वा SMC resin enquiry तयार गर्नुहोस्।",
+  },
   title: "DMC बनाम SMC: Industrial खरिदकर्ताले के पुष्टि गर्नुपर्छ",
   description: "Published Dough Moulding Compound र Sheet Moulding Compound शब्दावलीलाई छुट्याउनुहोस्, हालको product data का सीमाहरू बुझ्नुहोस्, र अझ specific DMC वा SMC resin enquiry तयार गर्नुहोस्।",
   quickFacts: {
     "DMC": "हालको TDS मा Dough Moulding Compound",
     "SMC": "हालको TDS मा Sheet Moulding Compound",
-    "Published resin route": "दुवै context का लागि एउटै DMC/SMC Resin listing",
+    "प्रकाशित resin मार्ग": "दुवै context का लागि एउटै DMC/SMC Resin listing",
     "Published नगरिएको": "छुट्टाछुट्टै formula, process settings वा finished-part ratings"
   },
   sections: [
@@ -54,17 +59,17 @@ export default {
     },
     {
       href: "/resources/smc-resin-vs-sheet-grade-resin/",
-      label: "SMC Resin vs Sheet Grade Resin",
+      label: "SMC Resin बनाम Sheet Grade Resin",
       description: "Sheet Moulding Compound लाई FRP sheet र panel resin selection बाट छुट्टै राख्नुहोस्।"
     },
     {
       href: "/tds/dmc-smc-resin-tds.pdf",
-      label: "Download DMC/SMC Resin TDS",
+      label: "DMC/SMC Resin TDS डाउनलोड गर्नुहोस्",
       description: "Product route पुष्टि गर्नुअघि हालको document जाँच्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Clarify a DMC or SMC requirement",
+      label: "DMC वा SMC आवश्यकता स्पष्ट गर्नुहोस्",
       description: "छलफलका लागि compound context र finished component साझा गर्नुहोस्।"
     }
   ]

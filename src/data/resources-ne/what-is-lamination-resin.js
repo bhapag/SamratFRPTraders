@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Lamination Resin (LR Resin) भनेको के हो?",
+    ogTitle: "Lamination Resin (LR Resin) भनेको के हो?",
+    ogDescription: "Door, plywood र FRP bonding कामका लागि प्रयोग हुने Lamination Resin, जसलाई LR Resin पनि भनिन्छ, बारे खरिदकर्ता गाइड।",
+  },
   title: "Lamination Resin (LR Resin) भनेको के हो?",
   description: "Door, plywood र FRP bonding कामका लागि प्रयोग हुने Lamination Resin, जसलाई LR Resin पनि भनिन्छ, बारे खरिदकर्ता गाइड।",
   quickFacts: {
@@ -10,17 +15,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "प्रकाशित TDS, packaging र खरिद विवरण समीक्षा गर्नुहोस्।"
     },
     {
       href: "/applications/door-lamination/",
-      label: "Door lamination guide",
+      label: "ढोका lamination गाइड",
       description: "प्रकाशित प्रयोग सन्दर्भहरूमध्ये एक अन्वेषण गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss an LR Resin application",
+      label: "LR Resin प्रयोगबारे छलफल गर्नुहोस्",
       description: "केन्द्रित छलफलका लागि substrate, process र quantity साझा गर्नुहोस्।"
     }
   ],

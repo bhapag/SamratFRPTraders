@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Fiberglass Epoxy Resin बनाम Clear Casting र Art Resin",
+    ogTitle: "Fiberglass Epoxy Resin बनाम Clear Casting र Art Resin",
+    ogDescription: "Samrat का तीन अलग-अलग epoxy उत्पादन मार्गलाई तिनको प्रकाशित भूमिका अनुसार तुलना गर्नुहोस्: fiberglass reinforcement र lamination, clear contained casting, र decorative surface काम।",
+  },
   title: "Fiberglass Epoxy Resin बनाम Clear Casting र Art Resin",
   description: "Samrat का तीन अलग-अलग epoxy उत्पादन मार्गलाई तिनको प्रकाशित भूमिका अनुसार तुलना गर्नुहोस्: fiberglass reinforcement र lamination, clear contained casting, र decorative surface काम।",
   quickFacts: {
@@ -84,22 +89,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "प्रकाशित fabric-reinforcement र lamination उत्पादन मार्ग प्रयोग गर्नुहोस्।"
     },
     {
       href: "/products/clear-casting-resin/",
-      label: "View Epoxy Clear Casting Resin",
+      label: "Epoxy Clear Casting Resin हेर्नुहोस्",
       description: "अलग clear contained-casting उत्पादन मार्ग प्रयोग गर्नुहोस्।"
     },
     {
       href: "/products/epoxy-art-resin/",
-      label: "View Epoxy Art Resin",
+      label: "Epoxy Art Resin हेर्नुहोस्",
       description: "अलग decorative open-surface उत्पादन मार्ग प्रयोग गर्नुहोस्।"
     },
     {
       href: "/resources/what-is-epoxy-clear-casting-resin/",
-      label: "Read the casting-resin guide",
+      label: "Casting-resin गाइड पढ्नुहोस्",
       description: "casting र composite छनोट यात्रा अलग-अलग राख्नुहोस्।"
     }
   ]

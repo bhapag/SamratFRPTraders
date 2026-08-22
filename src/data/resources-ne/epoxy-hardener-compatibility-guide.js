@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Epoxy Hardener Compatibility गाइड: खरिदकर्ताले के पुष्टि गर्नुपर्छ",
+    ogTitle: "Epoxy Hardener Compatibility गाइड: खरिदकर्ताले के पुष्टि गर्नुपर्छ",
+    ogDescription: "Epoxy Hardener किन्नुअघि ठ्याक्कै resin/hardener pairing र हालको उत्पादन कागजात पुष्टि गर्ने प्रापूर्ति-केन्द्रित गाइड।",
+  },
   title: "Epoxy Hardener Compatibility गाइड: खरिदकर्ताले के पुष्टि गर्नुपर्छ",
   description: "Epoxy Hardener किन्नुअघि ठ्याक्कै resin/hardener pairing र हालको उत्पादन कागजात पुष्टि गर्ने प्रापूर्ति-केन्द्रित गाइड।",
   quickFacts: {
@@ -15,17 +20,17 @@ export default {
     },
     {
       href: "/resources/epoxy-hardener-for-clear-casting-and-art-resin/",
-      label: "Review documented epoxy product routes",
+      label: "दस्तावेज गरिएका epoxy उत्पादन मार्ग समीक्षा गर्नुहोस्",
       description: "site को Clear Casting र Art Resin सम्बन्धहरू हेर्नुहोस्।"
     },
     {
       href: "/tds/epoxy-hardener-tds.pdf",
-      label: "Download Epoxy Hardener TDS",
+      label: "Epoxy Hardener TDS डाउनलोड गर्नुहोस्",
       description: "compatibility समीक्षाका क्रममा हालको hardener कागजात प्रयोग गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Confirm compatibility before ordering",
+      label: "अर्डर गर्नुअघि अनुकूलता पुष्टि गर्नुहोस्",
       description: "ठ्याक्कै resin उत्पादन र अभिप्रेत application साझा गर्नुहोस्।"
     }
   ],

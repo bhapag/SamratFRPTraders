@@ -34,7 +34,7 @@ export default {
       ]
     },
     {
-      heading: "Art Resin quote checklist",
+      heading: "Art Resin quote चेकलिस्ट",
       body: [
         "अभिप्रेत कलाकृति वा तयार सतह, थाहा भएसम्म substrate, आवश्यकता खुला सतह coat हो वा contained cast, clear वा finish आवश्यकता, अपेक्षित परिमाण र delivery स्थान बताउनुहोस्। उपलब्ध भएसम्म कुनै पनि drawing, purchase specification वा तयार-सतह reference समावेश गर्नुहोस्।"
       ]
@@ -62,7 +62,7 @@ export default {
       description: "हालको उत्पादन कागजातलाई controlling reference को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
       label: "उत्पादन Catalogue डाउनलोड गर्नुहोस्",
       description: "छुट्टाछुट्टै Art Resin, casting र polyester-FRP उत्पादन भूमिकाहरू समीक्षा गर्नुहोस्।"
     },

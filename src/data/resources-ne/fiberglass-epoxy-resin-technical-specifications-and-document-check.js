@@ -1,6 +1,18 @@
 export default {
   title: "Fiberglass Epoxy Resin Technical Specifications र Document Check",
   description: "हालको Fiberglass Epoxy Resin TDS र catalogue लाई सँगसँगै पढ्नुहोस्, तिनका फरक-फरक label र value देखिने गरी राख्नुहोस्, र supplied-resin data लाई finished-composite दाबीमा बदल्नबाट जोगिनुहोस्।",
+  seo: {
+    title: "Fiberglass Epoxy Resin Technical Specifications | TDS गाइड",
+    keywords: [
+      "Fiberglass Epoxy Resin Technical Specifications",
+      "Fiberglass Epoxy Resin TDS",
+      "Composite Epoxy Resin Viscosity",
+      "Epoxy Laminating Resin Technical Data",
+      "Fiberglass Epoxy Resin Supplier"
+    ],
+    ogTitle: "Fiberglass Epoxy Resin Technical Specifications र Document Check",
+    ogDescription: "विस्तृत TDS र catalogue सावधानीपूर्वक प्रयोग गर्नुहोस्; तिनको resin शब्दावली र छानिएका मान समान छैनन्।"
+  },
   quickFacts: {
     "विस्तृत TDS viscosity": "700 cPs at 25 C",
     "Catalogue viscosity": "900 cPs",
@@ -105,22 +117,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "Quote तयार गर्नुअघि product route र TDS access समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/fiberglass-epoxy-resin-tds.pdf",
-      label: "Download detailed Fiberglass Epoxy TDS",
+      label: "विस्तृत Fiberglass Epoxy TDS डाउनलोड गर्नुहोस्",
       description: "Supplied-resin data र यसको तोकिएको context का लागि हालको विस्तृत document प्रयोग गर्नुहोस्।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      label: "Product Catalogue समीक्षा गर्नुहोस्",
       description: "Catalogue summary लाई विस्तृत TDS record बाट छुट्टै राख्नुहोस्।"
     },
     {
       href: "/resources/fiberglass-epoxy-resin-procurement-checklist/",
-      label: "Prepare a document-led RFQ",
+      label: "Document-आधारित RFQ तयार गर्नुहोस्",
       description: "तपाईं कुन product record र data requirement मूल्याङ्कन गर्दै हुनुहुन्छ भनी बताउनुहोस्।"
     }
   ]

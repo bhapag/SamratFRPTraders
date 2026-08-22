@@ -1,6 +1,18 @@
 export default {
   title: "Fiberglass Epoxy Resin Applications: प्रकाशित Composite सन्दर्भ",
   description: "हालको TDS र catalogue-सूचीबद्ध fiberglass र composite सन्दर्भलाई certification वा fabrication निर्देशनमा नबदली उत्पादन छलफलको फ्रेम बनाउन प्रयोग गर्नुहोस्।",
+  seo: {
+    title: "Fiberglass Epoxy Resin Applications | Composite खरिदकर्ता गाइड",
+    keywords: [
+      "Fiberglass Epoxy Resin Applications",
+      "Epoxy Resin for Composite Laminates",
+      "Epoxy Resin for FRP",
+      "Fiberglass Epoxy Marine Components",
+      "Fiberglass Epoxy Wind Turbine Components"
+    ],
+    ogTitle: "Fiberglass Epoxy Resin Applications: प्रकाशित Composite सन्दर्भ",
+    ogDescription: "उत्पादन route छनोट गर्नुअघि दस्तावेजीकृत composite application सन्दर्भ र खरिदकर्ताले पुष्टि गर्नुपर्ने आवश्यकता विवरण समीक्षा गर्नुहोस्।"
+  },
   quickFacts: {
     "Detailed TDS सन्दर्भ": "Boat वा marine, wind-turbine, construction, electrical र automotive FRP laminates",
     "Catalogue सन्दर्भ": "Structural laminates र filament winding",
@@ -58,7 +70,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "उत्पादन पेज, TDS र composite-system enquiry मार्ग समीक्षा गर्नुहोस्।"
     },
     {
@@ -68,12 +80,12 @@ export default {
     },
     {
       href: "/tds/fiberglass-epoxy-resin-tds.pdf",
-      label: "Download Fiberglass Epoxy TDS",
+      label: "Fiberglass Epoxy TDS डाउनलोड गर्नुहोस्",
       description: "प्रकाशित application र processing सन्दर्भका लागि detailed document प्रयोग गर्नुहोस्।"
     },
     {
       href: "/resources/fiberglass-epoxy-resin-procurement-checklist/",
-      label: "Prepare a focused RFQ",
+      label: "केन्द्रित RFQ तयार गर्नुहोस्",
       description: "छलफलका लागि आवश्यक document, component र commercial विवरण उपलब्ध गराउनुहोस्।"
     }
   ]

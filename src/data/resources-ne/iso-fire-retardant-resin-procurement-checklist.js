@@ -1,6 +1,17 @@
 export default {
-  title: "ISO Fire Retardant Resin Procurement Checklist",
+  title: "ISO Fire Retardant Resin खरिद जाँचसूची",
   description: "Application, original requirement, documentation, quantity र delivery details सहित उपयोगी industrial quote का लागि आवश्यक ISO / isophthalic FR Resin enquiry तयार गर्नुहोस्।",
+  seo: {
+    title: "ISO Fire Retardant Resin खरिद जाँचसूची | ISO FR Quote",
+    keywords: [
+      "ISO Fire Retardant Resin procurement",
+      "ISO FR Resin quote",
+      "Isophthalic FR Resin supplier",
+      "ISO FR Resin buyer checklist"
+    ],
+    ogTitle: "ISO Fire Retardant Resin खरिद जाँचसूची",
+    ogDescription: "फोकस गरिएको ISO FR Resin industrial enquiry लाई सहयोग गर्ने उत्पादन, project, documentation र delivery विवरणहरू।"
+  },
   quickFacts: {
     "प्रकाशित packaging": "35 kg / 225 kg",
     "प्रकाशित MOQ": "500 kg",
@@ -10,17 +21,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/iso-fire-retardant-resin/",
-      label: "View ISO Fire Retardant Resin",
+      label: "ISO Fire Retardant Resin हेर्नुहोस्",
       description: "सूचीबद्ध उत्पादन भूमिका, packaging र MOQ पुष्टि गर्नुहोस्।"
     },
     {
       href: "/tds/iso-fire-retardant-resin-tds.pdf",
-      label: "Review ISO Fire Retardant Resin TDS",
+      label: "ISO Fire Retardant Resin TDS समीक्षा गर्नुहोस्",
       description: "हालको प्रकाशित technical data sheet खोल्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Request an ISO FR Resin quote",
+      label: "ISO FR Resin quote अनुरोध गर्नुहोस्",
       description: "सान्दर्भिक procurement र requirement विवरण साझा गर्नुहोस्।"
     }
   ],

@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "FRP Products का लागि Gelcoat Resin कसरी छान्ने",
+    ogTitle: "FRP Products का लागि Gelcoat Resin कसरी छान्ने",
+    ogDescription: "Gelcoat Resin छान्नुअघि FRP सतह-finish आवश्यकतालाई laminate आवश्यकताबाट छुट्ट्याउने प्रापूर्ति गाइड।",
+  },
   title: "FRP Products का लागि Gelcoat Resin कसरी छान्ने",
   description: "Gelcoat Resin छान्नुअघि FRP सतह-finish आवश्यकतालाई laminate आवश्यकताबाट छुट्ट्याउने प्रापूर्ति गाइड।",
   quickFacts: {
@@ -10,17 +15,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/gp-gelcoat-resin/",
-      label: "View GP Gelcoat Resin",
+      label: "GP Gelcoat Resin हेर्नुहोस्",
       description: "उत्पादनको प्रकाशित TDS, packaging र MOQ समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/gp-resin-vs-gelcoat-resin/",
-      label: "GP Resin vs Gelcoat Resin",
+      label: "GP Resin बनाम Gelcoat Resin",
       description: "laminate भूमिकालाई surface-coating भूमिकाबाट छुट्ट्याउनुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a Gelcoat Resin application",
+      label: "Gelcoat Resin प्रयोगबारे छलफल गर्नुहोस्",
       description: "quote माग्नुअघि component र process साझा गर्नुहोस्।"
     }
   ],

@@ -1,26 +1,31 @@
 export default {
+  seo: {
+    title: "Fire Retardant Resin Applications: FRP खरिदकर्ता गाइड",
+    ogTitle: "Fire Retardant Resin Applications: FRP खरिदकर्ता गाइड",
+    ogDescription: "Samrat FRP Traders ले प्रकाशित गरेका Fire Retardant Resin application categories र खरिदकर्ताले प्रमाणित गर्नुपर्ने project विवरणहरूको product-data-led गाइड।",
+  },
   title: "Fire Retardant Resin Applications: FRP खरिदकर्ता गाइड",
   description: "Samrat FRP Traders ले प्रकाशित गरेका Fire Retardant Resin application categories र खरिदकर्ताले प्रमाणित गर्नुपर्ने project विवरणहरूको product-data-led गाइड।",
   quickFacts: {
     "प्रकाशित उत्पादन": "Halogenated Fire Retardant Unsaturated Polyester Resin",
-    "TDS application categories": "Automotive/railway, marine/electrical, FRP panels/building, र fire-sensitive environments",
+    "TDS प्रयोग वर्गहरू": "Automotive/railway, marine/electrical, FRP panels/building, र fire-sensitive environments",
     "सधैं प्रमाणित गर्नुहोस्": "तयार component, आवश्यक standard/classification र tested-system requirement",
     "अनुमान नगर्नुहोस्": "application category वा product नामबाट project approval"
   },
   recommendedLinks: [
     {
       href: "/products/fire-retardant-resin/",
-      label: "View Fire Retardant Resin",
+      label: "Fire Retardant Resin हेर्नुहोस्",
       description: "हालको product data, TDS र प्रकाशित आपूर्ति जानकारी समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/glass-fiber-mat/",
-      label: "Review the separate Glass Fiber role",
+      label: "छुट्टै Glass Fiber भूमिका समीक्षा गर्नुहोस्",
       description: "Reinforcement भनेको FRP system भित्रको छुट्टै material निर्णय हो।"
     },
     {
       href: "/contact/",
-      label: "Discuss an FR application",
+      label: "FR प्रयोगबारे छलफल गर्नुहोस्",
       description: "तयार component र मूल project requirement साझा गर्नुहोस्।"
     }
   ],

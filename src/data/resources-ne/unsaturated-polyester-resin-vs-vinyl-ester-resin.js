@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Unsaturated Polyester Resin बनाम Vinyl Ester Resin",
+    ogTitle: "Unsaturated Polyester Resin बनाम Vinyl Ester Resin",
+    ogDescription: "stated chemical- वा corrosion-resistance आवश्यकता भएको project लाई standard UPR requirement बाट छुट्याउने खरिदकर्ताहरूका लागि product-family तुलना।",
+  },
   title: "Unsaturated Polyester Resin बनाम Vinyl Ester Resin",
   description: "stated chemical- वा corrosion-resistance आवश्यकता भएको project लाई standard UPR requirement बाट छुट्याउने खरिदकर्ताहरूका लागि product-family तुलना।",
   quickFacts: {
@@ -41,7 +46,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-resins/",
-      label: "View Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "सही product भूमिका पहिचान गर्न parent UPR page प्रयोग गर्नुहोस्।"
     },
     {
@@ -51,12 +56,12 @@ export default {
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View Vinyl Ester Resin",
+      label: "Vinyl Ester Resin हेर्नुहोस्",
       description: "stated chemical- वा corrosion-resistance requirement का लागि प्रकाशित technical data समीक्षा गर्नुहोस्।"
     },
     {
       href: "/applications/vinyl-ester-resin-for-chemical-storage-tanks/",
-      label: "Explore a Vinyl Ester application guide",
+      label: "Vinyl Ester प्रयोग गाइड हेर्नुहोस्",
       description: "product data सँगै विद्यमान application context समीक्षा गर्नुहोस्।"
     }
   ],

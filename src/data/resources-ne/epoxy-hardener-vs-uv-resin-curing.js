@@ -1,8 +1,19 @@
 export default {
   title: "Epoxy Hardener बनाम UV Resin Curing: सही उत्पादन Route छनोट",
   description: "प्रकाशित compatible epoxy hardener route लाई Samrat Poly Resins, India को छुट्टै UV/LED-curable UV Resin उत्पादन route बाट अलग गर्नुहोस्।",
+  seo: {
+    title: "Epoxy Hardener बनाम UV Resin Curing | खरिदकर्ता गाइड",
+    keywords: [
+      "Epoxy Hardener vs UV Resin",
+      "UV Resin Hardener",
+      "Epoxy Curing Agent",
+      "UV LED Resin"
+    ],
+    ogTitle: "Epoxy Hardener बनाम UV Resin Curing",
+    ogDescription: "Samrat Poly Resins, India को UV Resin किन प्रकाशित Epoxy Hardener प्रयोग गर्ने उत्पादनको सट्टा छुट्टै UV/LED-curable route हो भनी बुझ्नुहोस्।"
+  },
   quickFacts: {
-    "Epoxy Hardener route": "compatible two-component epoxy system भित्रको छुट्टै component",
+    "Epoxy Hardener मार्ग": "compatible two-component epoxy system भित्रको छुट्टै component",
     "UV Resin route": "छुट्टै UV/LED-curable epoxy-acrylate उत्पादन",
     "के UV Resin ले यो hardener प्रयोग गर्छ?": "प्रकाशित UV Resin route अनुसार होइन",
     "छनोट नियम": "चाहिने curing-system category बाट सुरु गर्नुहोस्"
@@ -25,7 +36,7 @@ export default {
     },
     {
       href: "/contact/",
-      label: "Discuss the correct system route",
+      label: "सही system route बारे छलफल गर्नुहोस्",
       description: "अभिप्रेत application र उत्पादन आवश्यकता साझा गर्नुहोस्।"
     }
   ],

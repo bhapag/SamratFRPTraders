@@ -1,0 +1,40 @@
+export default {
+  title: 'ढोका Skin Lamination का लागि Resin',
+  cardDescription: 'Moulded FRP ढोका skin लाई core मा जोड्नु skin mould गर्नुभन्दा फरक चरण हो, र यो छिटो cure हुने resin र glass fibre reinforcement मा निर्भर हुन्छ।',
+  cardBenefit: 'छिटो cure ले assembly लाइन चलिरहन्छ।',
+  cardImageAlt: 'Flush ढोकामा जोडिएको panelled grid डिजाइनको wood-grain laminate ढोका skin',
+  seo: {
+    title: 'ढोका Skin Lamination का लागि Resin',
+    description: 'Lamination Resin ले moulded FRP ढोका skin लाई ढोकाको core मा कसरी जोड्छ — glass fibre reinforcement र MEKP cure सहित — skin moulding भन्दा फरक।',
+  },
+  intro: 'FRP ढोका उत्पादनमा दुई फरक चरण हुन्छन् जुन मिसिन सजिलो छ: सजावट ढोका skin प्यानल आफैँ mould गर्ने, र त्यसपछि त्यो समाप्त skin लाई ढोकाको core र फ्रेममा जोड्ने। यो पृष्ठ दोस्रो चरण — skin-देखि-core lamination — समेट्छ, जहाँ reinforcement र छिटो cure हुने resin ले skin लाई मुनिको संरचनामा स्थायी रूपमा जोड्छ।',
+  whatTheyManufacture: 'ढोका skin lamination पूरा FRP र composite ढोका shutter पछाडिको assembly चरण हो — (छुट्टै उत्पादित) moulded ढोका skin लाई core सामग्री र किनारा फ्रेममा जोडेर झुन्ड्याउन र hardware जडान गर्न तयार, संरचनात्मक रूपमा बलियो ढोका बनाइन्छ।',
+  whySuitable: 'Skin-देखि-core bonding लाई लामो clamping प्रतीक्षा बिना assembly लाइन चलाइराख्ने छिटो cure र skin र core मिल्ने ठाउँमा glass fibre ले सुदृढ बलियो mechanical bond चाहिन्छ। <a href="/products/lamination-resin/">Lamination Resin (LR Resin)</a> को 5-मिनेट gel time यो छिटो assembly cycle लाई सुहाउँछ, र यसले skin-देखि-core जोर्नीमा <a href="/products/glass-fiber-mat/">glass fibre</a> reinforcement लाई सफा भिजाउँछ। काम skin mould गर्ने नै हो भने — सजावट प्यानल उत्पादन गर्ने, core मा जोड्ने होइन — <a href="/products/gp-clear-resin/">GP Clear Resin</a> जस्तो general-purpose resin बढी उपयुक्त छ, जुन हाम्रो <a href="/applications/resin-for-door-skin-manufacturing/">door skin manufacturing पृष्ठ</a> मा समेटिएको छ।',
+  requiredCharacteristics: [
+    'Skin-देखि-core assembly cycle कुशल बनाउने छिटो gel time',
+    'Bonding जोर्नीमा glass fibre reinforcement को भरपर्दो wet-out',
+    'ढोका skin र core सामग्रीबीच बलियो mechanical adhesion',
+    'Clamped वा pressed assembly सँग मिल्ने room-temperature cure',
+    'Production batch का हरेक ढोकामा एकनासको bond गुणस्तर',
+  ],
+  manufacturingProcess: 'ढोकाको core मा <a href="/products/mekp-hardener/">MEKP hardener</a> र cobalt octoate accelerator ले catalysed गरिएको resin को तह लगाइन्छ, जोर्नीमा थप mechanical बलका लागि <a href="/products/glass-fiber-mat/">glass fibre</a> ले सुदृढ गरिन्छ, र पहिल्यै mould गरिएको ढोका skin माथि राखेर press वा clamp गरिन्छ। Resin cure भएपछि जोडिएको ढोका काटिन्छ, hardware का लागि प्वाल पारिन्छ र समाप्त गरिन्छ।',
+  advantages: [
+    'Skin-देखि-core assembly मा clamping समय घटाउने 5-मिनेट gel time',
+    'Bonding जोर्नीमा glass fibre reinforcement को भरपर्दो wet-out',
+    'टिकाउ, दीर्घकालीन skin-देखि-core bond का लागि एकनासको adhesion',
+  ],
+  commonProducts: [
+    'जोडिएका FRP ढोका shutter',
+    'Moulded skin जोडिएका composite ढोका',
+    'सुदृढ skin-देखि-core ढोका जोर्नीहरू',
+  ],
+  faqs: [
+    { q: 'के यो ढोका skin mould गर्ने काम जस्तै हो?', a: 'होइन। सजावट skin प्यानल आफैँ mould गर्नु छुट्टै प्रक्रिया हो, सामान्यतया GP Clear Resin जस्तो general-purpose resin प्रयोग गरेर। यो पृष्ठ त्यो पहिल्यै mould गरिएको skin लाई ढोकाको core मा जोड्ने काम समेट्छ।' },
+    { q: 'Skin-देखि-core जोर्नीमा glass fibre किन प्रयोग गरिन्छ?', a: 'यसले skin र core बीचको bond लाई सुदृढ गर्छ — resin ले मात्र दिने भन्दा थप mechanical बल थप्छ।' },
+    { q: 'Skin-देखि-core bonding का लागि LR Resin कसरी catalysed गरिन्छ?', a: 'MEKP catalyst (लगभग 1.5%) र cobalt octoate accelerator (लगभग 0.4%) सँग, room temperature मा cure गरेर।' },
+    { q: 'यो चरणका लागि general-purpose resin को सट्टा LR Resin किन?', a: 'यसको छिटो 5-मिनेट gel time ले प्रति shift धेरै ढोका उत्पादन गर्ने assembly लाइनमा clamping समय घटाउँछ — general-purpose resin को लामो gel time को तुलनामा।' },
+    { q: 'ढोका skin lamination मा कुन reinforcement प्रयोग हुन्छ?', a: 'E-glass chopped strand mat — skin-देखि-core जोर्नीमा थप mechanical बल चाहिने ठाउँमा।' },
+  ],
+  ctaHeading: 'तपाईंको ढोका skin assembly लाइनका लागि resin चाहिन्छ?',
+  ctaText: 'तपाईंको skin-देखि-core bonding प्रक्रियाका लागि सही dosage बारे थोक quote पाउनुहोस् वा हाम्रो प्राविधिक टोलीसँग कुरा गर्नुहोस्।',
+};

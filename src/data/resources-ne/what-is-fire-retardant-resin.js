@@ -1,6 +1,18 @@
 export default {
   title: "Fire Retardant Resin भनेको के हो? FR Polyester Resin व्याख्या",
   description: "प्रकाशित Fire Retardant Resin उत्पादन भूमिका, यसको unsaturated polyester resin सँगको सम्बन्ध, र छनोटअघि पुष्टि गर्नुपर्ने आवश्यकताहरू बुझ्नुहोस्।",
+  seo: {
+    title: "Fire Retardant Resin भनेको के हो? | FR Polyester Resin",
+    keywords: [
+      "What is Fire Retardant Resin",
+      "FR Resin",
+      "FR Polyester Resin",
+      "Fire Retardant UPR",
+      "Fire Retardant Unsaturated Polyester Resin"
+    ],
+    ogTitle: "Fire Retardant Resin भनेको के हो?",
+    ogDescription: "Samrat Poly Resins, India को प्रकाशित halogenated Fire Retardant Unsaturated Polyester Resin उत्पादन भूमिकाबारे buyer-level व्याख्या।"
+  },
   quickFacts: {
     "प्रकाशित family": "Unsaturated polyester",
     "प्रकाशित FR प्रकार": "Halogenated fire-retardant formulation",
@@ -10,17 +22,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fire-retardant-resin/",
-      label: "View Fire Retardant Resin",
+      label: "Fire Retardant Resin हेर्नुहोस्",
       description: "ठ्याक्कै grade का लागि हालको TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/polyester-resins/",
-      label: "Explore the UPR family",
+      label: "UPR family अन्वेषण गर्नुहोस्",
       description: "व्यापक polyester-resin category र छुट्टै उत्पादन भूमिकाहरू हेर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss an FR Resin requirement",
+      label: "FR Resin आवश्यकताबारे छलफल गर्नुहोस्",
       description: "तयार component र project आवश्यकता साझा गर्नुहोस्।"
     }
   ],

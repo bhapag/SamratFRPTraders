@@ -1,0 +1,42 @@
+export default {
+  title: 'सामान्य FRP Moulded उत्पादनका लागि Resin',
+  cardDescription: 'ट्यांकीदेखि सजावट moulding सम्म — सामान्य FRP moulded उत्पादनलाई भरपर्दो cure हुने र mould बाट सफा छुट्टिने laminate चाहिन्छ।',
+  cardBenefit: 'विभिन्न mould कार्यमा एकनासको नतिजा।',
+  cardImageAlt: 'विभिन्न आकारका रङ्गीन FRP moulded grating प्यानलहरूको थाक',
+  seo: {
+    title: 'सामान्य FRP Moulded उत्पादनका लागि Resin',
+    description: 'GP Clear Resin सामान्य FRP moulded उत्पादन — planter, cover, fixture र सजावट सामग्री — मा कस्तो प्रदर्शन गर्छ, भरपर्दो cure र सफा mould release सहित।',
+  },
+  intro: 'ट्यांकी, प्यानल र structural component भन्दा बाहिर, दैनिक FRP सामग्रीहरू उही आधारभूत तरिकाले बन्छन् — mould गरेर, cure गरेर, निकालेर — planter र बगैँचा सजावटदेखि equipment cover, signage, mannequin र सजावट fixture सम्म। यी उत्पादनहरूले उद्योगभन्दा प्रक्रिया साझा गर्छन्: mould ले आकार दिन्छ, र resin हरेक पटक भरपर्दो रूपमा cure भई सफा छुट्टिनुपर्छ — डिजाइन जति सामान्य वा कलात्मक भए पनि।',
+  whatTheyManufacture: 'सामान्य FRP moulding ले planter र बगैँचा सजावट, equipment र machinery cover, signage र display fixture, mannequin, सजावट architectural element र अन्य moulded सामग्रीहरू समेट्छ — जसलाई औद्योगिक ट्यांकी वा प्यानलको विशेष chemical वा fire-rated प्रदर्शन चाहिँदैन, तर सफा, एकनासको moulded फिनिश चाहिन्छ।',
+  whySuitable: '<a href="/products/gp-clear-resin/">GP Clear Resin</a> सामान्य moulded उत्पादनका लागि उपयुक्त छ किनभने यसले reinforcement लाई विस्तृत mould आकारमा समान रूपमा भिजाउँछ र सजावट/display सामग्री बिगार्ने सतह दोष बिना सफा छुट्टिने laminate बनाएर cure हुन्छ। यसको non-accelerated cure प्रणालीले fabricator लाई विशेष mould जटिलता र भाग आकार अनुसार dosage मिलाउन दिन्छ, र रङ चाहिएको moulded उत्पादनमा FRP Polyester Pigment मिसाउन सकिन्छ।',
+  requiredCharacteristics: [
+    'विस्तृत वा सजावट mould आकारमा राम्रो प्रवाह',
+    'सतह दोष बिना mould बाट सफा छुट्टिने',
+    'रङ्गीन सजावट र display उत्पादनका लागि pigment अनुकूलता',
+    'सानो batch र एक-पटक moulding का लागि उपयुक्त भरपर्दो room-temperature cure',
+    'विभिन्न उत्पादन आकार र प्रकारमा एकनासको गुणस्तर',
+  ],
+  manufacturingProcess: 'Moulded उत्पादन सामान्यतया फिनिशका लागि gelcoat सतह तहबाट बनाइन्छ, त्यसपछि <a href="/products/glass-fiber-mat/">chopped strand mat</a> लाई <a href="/products/mekp-hardener/">MEKP hardener</a> र cobalt octoate accelerator सँग catalysed गरिएको resin ले भिजाएर brush वा roller ले mould विवरणमा मिलाइन्छ। Room temperature मा cure भएपछि भाग निकालेर mould line को अतिरिक्त laminate काटिन्छ र उत्पादन अनुसार रङ्गाइन्छ, पालिस गरिन्छ वा प्राकृतिक अवस्थामै छोडिन्छ।',
+  advantages: [
+    'विस्तृत वा सजावट mould ज्यामितिमा भरपर्दो प्रवाह',
+    'सजावट र display उत्पादनमा एकनासको फिनिश गुणस्तरका लागि सफा mould release',
+    'रङ्गीन moulded सामग्रीका लागि FRP Polyester Pigment सँग अनुकूल',
+    'सानो batch र ठूला production run दुवैका लागि उपयुक्त non-accelerated cure प्रणाली',
+  ],
+  commonProducts: [
+    'Planter र बगैँचा सजावट',
+    'Equipment र machinery cover',
+    'Signage र display fixture',
+    'Mannequin र सजावट architectural element',
+  ],
+  faqs: [
+    { q: 'सजावट moulded उत्पादनका लागि GP Clear Resin रङ्गीन बनाउन सकिन्छ?', a: 'सकिन्छ। Catalysing गर्नुअघि FRP Polyester Pigment GP Clear Resin मा मिसाएर रङ्गीन moulding बनाउन सकिन्छ — clear वा प्राकृतिक फिनिशका अतिरिक्त।' },
+    { q: 'सामान्य FRP moulded उत्पादनका लागि gelcoat चाहिन्छ?', a: 'धेरैजसो fabricator ले चिल्लो, समाप्त सतहका लागि पहिले gelcoat तह लगाउँछन्, त्यसपछि भागको structural मोटाइ बनाउन पछाडि GP Clear Resin र reinforcement laminate गर्छन्।' },
+    { q: 'Moulded उत्पादनका लागि GP Clear Resin कसरी catalysed गरिन्छ?', a: 'Room temperature मा MEKP catalyst (लगभग 1.5%) र cobalt octoate accelerator (लगभग 0.4%) ले cure गरिन्छ, विशेष mould को आकार र जटिलता अनुसार dosage मिलाएर।' },
+    { q: 'GP Clear Resin विस्तृत वा सजावट mould आकारमा काम गर्छ?', a: 'गर्छ — यसको viscosity ले mould विवरणमा राम्रो प्रवाह दिन्छ, जसले moulding का बेला सजावट वा textured डिजाइन सही रूपमा उतार्न मद्दत गर्छ।' },
+    { q: 'सामान्य FRP moulded उत्पादनका लागि कुन reinforcement प्रयोग गरिन्छ?', a: 'E-glass chopped strand mat मानक reinforcement हो, विशेष उत्पादनको structural आवश्यकता अनुसार तह सङ्ख्या मिलाएर।' },
+  ],
+  ctaHeading: 'तपाईंको moulded FRP उत्पादनका लागि resin चाहिन्छ?',
+  ctaText: 'तपाईंको moulding कार्यका लागि सही ग्रेड र dosage बारे थोक quote पाउनुहोस् वा हाम्रो प्राविधिक टोलीसँग कुरा गर्नुहोस्।',
+};

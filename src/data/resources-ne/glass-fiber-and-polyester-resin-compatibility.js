@@ -1,6 +1,18 @@
 export default {
   title: "Glass Fiber र Polyester Resin: FRP Material System बुझ्दै",
   description: "FRP उत्पादनमा E-Glass reinforcement, polyester resin, vinyl ester resin र gelcoat का छुट्टाछुट्टै भूमिकाबारे सुरक्षित खरिदकर्ता गाइड।",
+  seo: {
+    title: "Glass Fiber र Polyester Resin Compatibility | FRP खरिदकर्ता गाइड",
+    keywords: [
+      "Polyester Resin Glass Fiber",
+      "Glass Fiber Resin Compatibility",
+      "FRP Glass Fiber",
+      "E-Glass Polyester Resin",
+      "Glass Fiber Vinyl Ester Resin"
+    ],
+    ogTitle: "Glass Fiber र Polyester Resin: FRP Material System गाइड",
+    ogDescription: "Glass Fiber आवश्यकता छलफल गर्नुअघि FRP material system का छुट्टाछुट्टै reinforcement, resin र surface-finish भूमिका बुझ्नुहोस्।"
+  },
   quickFacts: {
     "Reinforcement भूमिका": "E-Glass Chopped Strand Mat",
     "प्रकाशित sizing": "Polyester-compatible",
@@ -10,7 +22,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/glass-fiber-mat/",
-      label: "View Glass Fiber Mat",
+      label: "Glass Fiber Mat हेर्नुहोस्",
       description: "प्रकाशित E-Glass CSM उत्पादन विवरण र TDS समीक्षा गर्नुहोस्।"
     },
     {
@@ -20,12 +32,12 @@ export default {
     },
     {
       href: "/products/polyester-resins/",
-      label: "View Unsaturated Polyester Resin",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
       description: "Resin family र individual उत्पादन भूमिका तुलना गर्न parent page प्रयोग गर्नुहोस्।"
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View Vinyl Ester Resin",
+      label: "Vinyl Ester Resin हेर्नुहोस्",
       description: "Project मा उल्लेखित chemical- वा corrosion-resistance आवश्यकता भएमा यो छुट्टै resin-side विकल्प समीक्षा गर्नुहोस्।"
     }
   ],

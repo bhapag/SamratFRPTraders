@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "ISO Fire Retardant Resin बनाम Vinyl Ester Resin: उत्पादन भूमिका गाइड",
+    ogTitle: "ISO Fire Retardant Resin बनाम Vinyl Ester Resin: उत्पादन भूमिका गाइड",
+    ogDescription: "अपुष्ट performance दाबीहरू नगरी, उत्पादन भूमिका र आवश्यक कागजातका आधारमा छुट्टाछुट्टै प्रकाशित ISO / isophthalic FR र Vinyl Ester resin routes तुलना गर्नुहोस्।",
+  },
   title: "ISO Fire Retardant Resin बनाम Vinyl Ester Resin: उत्पादन भूमिका गाइड",
   description: "अपुष्ट performance दाबीहरू नगरी, उत्पादन भूमिका र आवश्यक कागजातका आधारमा छुट्टाछुट्टै प्रकाशित ISO / isophthalic FR र Vinyl Ester resin routes तुलना गर्नुहोस्।",
   quickFacts: {
@@ -10,17 +15,17 @@ export default {
   recommendedLinks: [
     {
       href: "/products/iso-fire-retardant-resin/",
-      label: "View ISO Fire Retardant Resin",
+      label: "ISO Fire Retardant Resin हेर्नुहोस्",
       description: "सूचीकृत isophthalic FR grade र TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View Vinyl Ester Resin",
+      label: "Vinyl Ester Resin हेर्नुहोस्",
       description: "छुट्टै प्रकाशित Vinyl Ester उत्पादन route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss the resin route",
+      label: "Resin मार्गबारे छलफल गर्नुहोस्",
       description: "Component, service context र project आवश्यकता साझा गर्नुहोस्।"
     }
   ],

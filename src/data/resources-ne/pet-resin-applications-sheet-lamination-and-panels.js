@@ -1,6 +1,18 @@
 export default {
   title: "PET Resin Applications: प्रकाशित Sheet Lamination र Panel सन्दर्भ",
   description: "Samrat Poly Resins, India को हालको TDS मा सूचीबद्ध PET Resin applications र अझै छुट्टै पुष्टि चाहिने finished-product प्रश्नहरू समीक्षा गर्नुहोस्।",
+  seo: {
+    title: "PET Resin Applications | Sheet Lamination का लागि Polyester Resin",
+    ogTitle: "PET Resin Applications: Sheet Lamination र Panels",
+    ogDescription: "Samrat Poly Resins, India को PET Resin TDS मा सूचीबद्ध sheet र panel सन्दर्भहरूको खरिदकर्ता-स्तर गाइड।",
+    keywords: [
+      "PET Resin Applications",
+      "PET Modified Polyester Resin Applications",
+      "Polyester Resin for Fibre Sheets",
+      "FRP Sheet Lamination Resin",
+      "Panel Manufacturing Resin"
+    ],
+  },
   quickFacts: {
     "सूचीबद्ध application": "PET sheets र fibre sheet उत्पादनहरू",
     "सूचीबद्ध FRP सन्दर्भ": "Sheet lamination र panel manufacturing",
@@ -58,17 +70,17 @@ export default {
     },
     {
       href: "/tds/pet-resin-tds.pdf",
-      label: "Download PET Resin TDS",
+      label: "PET Resin TDS डाउनलोड गर्नुहोस्",
       description: "सूचीबद्ध application सन्दर्भ र liquid-resin data पुष्टि गर्नुहोस्।"
     },
     {
       href: "/products/sheet-grade-yellow-resin/",
-      label: "View Sheet Grade Yellow Resin",
+      label: "Sheet Grade Yellow Resin हेर्नुहोस्",
       description: "अलग pre-pigmented yellow sheet र panel उत्पादन मार्ग समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a sheet or panel requirement",
+      label: "Sheet वा panel आवश्यकताबारे छलफल गर्नुहोस्",
       description: "छनोटका लागि finished product र चाहिने material रूप साझा गर्नुहोस्।"
     }
   ]

@@ -1,6 +1,18 @@
 export default {
   title: "Bisphenol Resin के हो?",
   description: "Samrat FRP Traders को Bisphenol Resin, यसको हालको product-specific TDS पहिचान, सूचीकृत applications र मुख्य selection सीमाहरूको परिचय।",
+  seo: {
+    title: "Bisphenol Resin के हो? | औद्योगिक खरिदकर्ता Guide",
+    keywords: [
+      "What Is Bisphenol Resin",
+      "Bisphenol Resin",
+      "Bisphenol A Resin System",
+      "Industrial Bisphenol Resin",
+      "Bisphenol Resin Nepal"
+    ],
+    ogTitle: "Bisphenol Resin के हो?",
+    ogDescription: "Samrat Bisphenol Resin का लागि हालको product-specific TDS पहिचान, प्रकाशित application सन्दर्भहरू र selection सीमाहरू बुझ्नुहोस्।"
+  },
   quickFacts: {
     "हालको TDS पहिचान": "Bisphenol A & epichlorohydrin based (thermosetting)",
     "Grade": "Premium grade",
@@ -10,22 +22,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/bisphenol-resin/",
-      label: "View Bisphenol Resin",
+      label: "Bisphenol Resin हेर्नुहोस्",
       description: "हालको product page, प्रकाशित supplied-resin data र सोधपुछ route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/bisphenol-resin-tds.pdf",
-      label: "Download Bisphenol Resin TDS",
+      label: "Bisphenol Resin TDS डाउनलोड गर्नुहोस्",
       description: "विस्तृत TDS लाई सुरुवाती प्राविधिक document को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
+      label: "Product Catalogue समीक्षा गर्नुहोस्",
       description: "Samrat FRP Traders को व्यापक उत्पादन दायरा अन्वेषण गर्नुहोस्; यस grade को प्राविधिक data का लागि product-specific TDS प्रयोग गर्नुहोस्।"
     },
     {
       href: "/products/vinyl-ester-resin/",
-      label: "View separate Vinyl Ester Resin",
+      label: "छुट्टै Vinyl Ester Resin हेर्नुहोस्",
       description: "अदलबदलयोग्य मान्नुको सट्टा यसको आफ्नै product route र TDS समीक्षा गर्नुहोस्।"
     }
   ],

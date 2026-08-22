@@ -1,0 +1,40 @@
+export default {
+  title: 'FRP Bathware र Sanitaryware का लागि Gelcoat',
+  cardDescription: 'Bathtub र shower tray लाई structural laminate हुनुअघि लगाइने चिल्लो, चम्किलो mould-facing सतह कोट चाहिन्छ — reinforced backing होइन, सजावट फिनिश।',
+  cardBenefit: 'चिल्लो, तयार-प्रयोग सतह फिनिश।',
+  cardImageAlt: 'चिल्लो gelcoat सतह फिनिशसहित चम्किलो सेतो freestanding FRP bathtub',
+  seo: {
+    title: 'FRP Bathware र Sanitaryware का लागि Gelcoat',
+    description: 'GP Gelcoat Resin ले FRP bathtub र shower tray को चिल्लो, रङ्गीन सतह कसरी बनाउँछ — structural laminate पछाडि जानुअघि mould मा लगाइने।',
+  },
+  intro: 'FRP bathtub वा shower tray को चिल्लो, चम्किलो सतह नै ग्राहकले छुने र देख्ने कुरा हो — र त्यो मुनिको structural fibreglass laminate होइन। त्यो gelcoat तह हो, reinforcement जानुअघि mould मा spray वा brush गरिने, जुन भाग demould भएपछि समाप्त सतह बन्छ। यो पृष्ठ त्यही सतह-कोटिंग चरण विशेष रूपमा समेट्छ, पछाडिको structural laminate होइन।',
+  whatTheyManufacture: 'Gelcoat ले FRP bathtub, shower tray, wash basin र सामान्य sanitaryware को देखिने, mould-facing सतह समाप्त गर्छ — चिल्लो, रङ्गीन, सजिलै सफा हुने सतह — structural laminate पछाडि बनाउनुअघि लगाइने।',
+  whySuitable: 'Bathware mould प्रायः गहिरो, वक्र आकारका हुन्छन्, र <a href="/products/gp-gelcoat-resin/">GP Gelcoat Resin</a> को thixotropic body gel हुँदासम्म ती वक्र mould सतहमा नझरेर टाँसिन्छ — ठाडो hull mould का लागि उपयुक्त उही गुण यहाँ पनि काम गर्छ। यो tub वा tray को structural सामग्री होइन: gelcoat gel भएपछि <a href="/products/glass-fiber-mat/">glass fibre</a> reinforcement लाई <a href="/products/gp-clear-resin/">GP Clear Resin</a> ले भिजाएर पछाडि बनाइन्छ — वास्तविक structural shell बनाउन। GP Gelcoat Resin general-purpose orthophthalic ग्रेड हो — कतिपय प्रिमियम sanitaryware ले निरन्तर wet-service टिकाउका लागि बढी विशेष gelcoat रसायन प्रयोग गर्छ, त्यसैले माग गर्ने commercial installation का लागि आफ्नो विशेष आवश्यकता हाम्रो प्राविधिक टोलीसँग पुष्टि गर्नु उपयुक्त हुन्छ।',
+  requiredCharacteristics: [
+    'गहिरो, वक्र bathware mould आकारमा नझरेर टाँसिने thixotropic body',
+    'थप सतह कार्य नचाहिने उच्च चमक, चिल्लो cured फिनिश',
+    'Bathware र sanitaryware सामान्यतया बेचिने रङ दायराका लागि pigment गर्न मिल्ने',
+    'मानक mould workflow सँग मिल्ने room-temperature MEKP cure',
+  ],
+  manufacturingProcess: 'पहिले खुला bathtub वा shower tray mould मा gelcoat spray वा brush गरी gel हुन छोडिन्छ, त्यसपछि <a href="/products/glass-fiber-mat/">glass fibre</a> reinforcement लाई <a href="/products/gp-clear-resin/">GP Clear Resin</a> ले भिजाएर — <a href="/products/mekp-hardener/">MEKP hardener</a> र cobalt octoate accelerator ले catalysed गरेर — पछाडि बनाइन्छ, structural shell बनाउन। Cure भएपछि भाग mould बाट निकालिन्छ — gelcoat यसको समाप्त, तयार-प्रयोग सतह बनेको हुन्छ — र drainage र hardware जडान गरेर काट-छाँट गरिन्छ।',
+  advantages: [
+    'Mould बाटै चिल्लो, चम्किलो, तयार-प्रयोग सतह',
+    'एकै application चरणमा मानक bathware रङ दायरासँग मिलाउन pigment गर्न मिल्ने',
+    'विशेष उपकरण बिना गहिरो, वक्र mould आकारका लागि उपयुक्त thixotropic body',
+    'दोहोरिने production run भरि एकनासको MEKP/cobalt cure',
+  ],
+  commonProducts: [
+    'FRP bathtub',
+    'Shower tray र shower base',
+    'Wash basin र सामान्य sanitaryware',
+  ],
+  faqs: [
+    { q: 'Bathtub को gelcoat मुनिको structural shell सँग उही सामग्री हो?', a: 'होइन। Gelcoat बाहिरी सतह कोटिंग हो — पहिले mould मा लगाइन्छ। Structural shell छुट्टै fibreglass laminate हो — सामान्यतया glass fibre ले सुदृढ GP Clear Resin — gelcoat पछाडि बनाइने।' },
+    { q: 'FRP bathtub र shower tray को gelcoat रङ्गीन बनाउन सकिन्छ?', a: 'सकिन्छ। GP Gelcoat Resin सादा सेतो आपूर्ति हुन्छ, र catalysing गर्नुअघि FRP Polyester Pigment मिसाएर मानक bathware रङ दायरासँग मिलाउन सकिन्छ।' },
+    { q: 'GP Gelcoat Resin प्रिमियम, निरन्तर wet-service sanitaryware का लागि उपयुक्त छ?', a: 'यो मानक FRP bathware निर्माणका लागि उपयुक्त general-purpose orthophthalic gelcoat हो। कतिपय प्रिमियम sanitaryware ले दीर्घकालीन wet-service टिकाउका लागि बढी विशेष gelcoat रसायन प्रयोग गर्छ — माग गर्ने commercial प्रयोगका लागि आफ्नो विशेष आवश्यकता हाम्रो प्राविधिक टोलीसँग छलफल गर्नुहोस्।' },
+    { q: 'Bathware निर्माणका लागि gelcoat कसरी catalysed गरिन्छ?', a: 'Room temperature मा MEKP catalyst (लगभग 1.5%) र cobalt octoate accelerator (लगभग 0.4%) ले cure गरिन्छ — Samrat FRP Traders का gelcoat र general-purpose ग्रेडहरूमा प्रयोग हुने उही प्रणाली।' },
+    { q: 'Fibreglass shell पछि होइन, पहिले gelcoat किन लगाइन्छ?', a: 'पहिले चिल्लो mould सतहमा लगाउनाले demould भएपछि समाप्त tub वा tray लाई चम्किलो सतह मिल्छ — भाग बनेपछि कोट गरेर उही mould-facing फिनिश पाउन सकिँदैन।' },
+  ],
+  ctaHeading: 'तपाईंको bathware वा sanitaryware उत्पादनका लागि gelcoat चाहिन्छ?',
+  ctaText: 'तपाईंको mould का लागि सही gelcoat र laminate संयोजनबारे थोक quote पाउनुहोस् वा हाम्रो प्राविधिक टोलीसँग कुरा गर्नुहोस्।',
+};

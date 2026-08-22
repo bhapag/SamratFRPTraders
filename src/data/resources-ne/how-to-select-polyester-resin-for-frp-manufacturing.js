@@ -1,6 +1,21 @@
 export default {
   title: "FRP निर्माणका लागि Polyester Resin कसरी छान्ने",
   description: "फरक-फरक FRP निर्माण प्रक्रियाहरूका लागि polyester resin छनोट गर्दा ध्यान दिनुपर्ने मुख्य तत्वहरू बुझ्नुहोस्।",
+  seo: {
+    title: "FRP निर्माणका लागि सही Polyester Resin कसरी छान्ने",
+    keywords: [
+      "polyester resin selection",
+      "FRP manufacturing resin",
+      "resin viscosity FRP",
+      "resin gel time",
+      "hand layup resin",
+      "spray up resin",
+      "pultrusion resin",
+      "polyester resin buying guide"
+    ],
+    ogTitle: "FRP निर्माणका लागि Polyester Resin कसरी छान्ने",
+    ogDescription: "polyester resin को viscosity, gel time र type लाई तपाईंको FRP manufacturing process सँग मिलाउने व्यावहारिक गाइड — र fabricators लाई सबैभन्दा महँगो पर्ने छनोट गल्तीहरू।"
+  },
   quickFacts: {
     "मुख्य छनोट तत्वहरू": "Process, viscosity, gel time, mechanical आवश्यकता, chemical exposure",
     "सबैभन्दा सामान्य गल्ती": "process उपयुक्तता जाँच नगरी मूल्यको आधारमा मात्र resin छान्नु",
@@ -57,7 +72,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-resins/",
-      label: "Start with the UPR product hub",
+      label: "UPR product hub बाट सुरु गर्नुहोस्",
       description: "व्यापक polyester-resin आवश्यकतालाई सान्दर्भिक प्रकाशित उत्पादन भूमिकासँग जोड्नुहोस्।"
     },
     {
@@ -72,7 +87,7 @@ export default {
     },
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "door, plywood वा FRP bonding कामका लागि प्रकाशित lamination-केन्द्रित grade र TDS समीक्षा गर्नुहोस्।"
     },
     {
@@ -122,8 +137,8 @@ export default {
       visuals: [
         {
           type: "icongrid",
-          label: "Diagram: FRP manufacturing processes covered in this guide",
-          caption: "Common FRP manufacturing processes",
+          label: "चित्र: यस गाइडमा समेटिएका FRP manufacturing processes",
+          caption: "सामान्य FRP manufacturing processes",
           items: [
             {
               icon: "hand-layup",

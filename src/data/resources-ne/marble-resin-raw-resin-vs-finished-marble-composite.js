@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "Marble Resin: Raw Liquid Resin बनाम Finished Marble Composite",
+    ogTitle: "Marble Resin: Raw Liquid Resin बनाम Finished Marble Composite",
+    ogDescription: "आपूर्ति गरिएको Marble Resin data लाई finished cultured-marble वा artificial-stone composite बाट अलग गरी खरिदकर्ताले सही उत्पादन र documentation पुष्टि गर्न सकून्।",
+  },
   title: "Marble Resin: Raw Liquid Resin बनाम Finished Marble Composite",
   description: "आपूर्ति गरिएको Marble Resin data लाई finished cultured-marble वा artificial-stone composite बाट अलग गरी खरिदकर्ताले सही उत्पादन र documentation पुष्टि गर्न सकून्।",
   quickFacts: {
@@ -58,12 +63,12 @@ export default {
     },
     {
       href: "/tds/marble-resin-tds.pdf",
-      label: "Download Marble Resin TDS",
+      label: "Marble Resin TDS डाउनलोड गर्नुहोस्",
       description: "छनोटअघि हालको grade-विशिष्ट data जाँच गर्नुहोस्।"
     },
     {
       href: "/resources/marble-resin-technical-specifications-and-rfq/",
-      label: "Read the technical-data and RFQ guide",
+      label: "प्राविधिक-डाटा र RFQ गाइड पढ्नुहोस्",
       description: "enquiry अघि TDS र फरक catalogue मान दुवै हेरिराख्नुहोस्।"
     }
   ]

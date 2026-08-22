@@ -1,6 +1,17 @@
 export default {
   title: "Fiberglass Epoxy Resin Data बनाम Finished Composite Performance",
   description: "प्रकाशित Fiberglass Epoxy Resin data किन स्वतः finished-laminate, marine, automotive, electrical वा structural-component परिणाम होइन भनेर बुझ्नुहोस्।",
+  seo: {
+    title: "Fiberglass Epoxy Resin Data बनाम Finished Composite Performance",
+    keywords: [
+      "Fiberglass Epoxy Resin Composite Performance",
+      "Epoxy Resin vs Fiberglass Laminate Performance",
+      "Fiberglass Composite Resin Data",
+      "Composite Epoxy Technical Data"
+    ],
+    ogTitle: "Fiberglass Epoxy Resin Data बनाम Finished Composite Performance",
+    ogDescription: "तयार fiberglass component लाई असर गर्ने system, construction र testing कारकहरूबाट प्रकाशित supplied-resin data अलग गर्नुहोस्।"
+  },
   quickFacts: {
     "प्रकाशित resin data": "Typical supplied-resin र document data",
     "System घटक": "Amine hardener नामाकरण गरिएको छ तर विशेष pairing प्रकाशित छैन",
@@ -10,7 +21,7 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/",
-      label: "View Fiberglass Epoxy Resin",
+      label: "Fiberglass Epoxy Resin हेर्नुहोस्",
       description: "आपूर्ति गरिएको उत्पादन data र हालको documentation समीक्षा गर्नुहोस्।"
     },
     {
@@ -20,12 +31,12 @@ export default {
     },
     {
       href: "/tds/fiberglass-epoxy-resin-tds.pdf",
-      label: "Download Fiberglass Epoxy TDS",
+      label: "Fiberglass Epoxy TDS डाउनलोड गर्नुहोस्",
       description: "finished-product अनुमानको सट्टा ठ्याक्कै प्रकाशित resin data समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Discuss a component requirement",
+      label: "Component आवश्यकता बारे छलफल गर्नुहोस्",
       description: "अन्तिम component र कुनै test वा document आवश्यकता साझा गर्नुहोस्।"
     }
   ],

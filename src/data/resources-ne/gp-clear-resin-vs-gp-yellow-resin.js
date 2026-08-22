@@ -1,6 +1,18 @@
 export default {
   title: "GP Clear Resin बनाम GP Yellow Resin",
   description: "General-purpose FRP grade छनोट गर्नुअघि GP Clear र GP Yellow Resin लाई supplied colour, published viscosity र gel time अनुसार तुलना गर्नुहोस्।",
+  seo: {
+    title: "GP Clear Resin बनाम GP Yellow Resin | कुन GP Resin छान्ने",
+    keywords: [
+      "GP Clear Resin vs GP Yellow Resin",
+      "GP Resin comparison",
+      "GP Yellow Resin",
+      "clear polyester resin",
+      "FRP resin selection"
+    ],
+    ogTitle: "GP Clear Resin बनाम GP Yellow Resin",
+    ogDescription: "FRP processing, appearance र procurement निर्णयका लागि clear र yellow GP polyester resin grades तुलना गर्नुहोस्।"
+  },
   quickFacts: {
     "साझा Positioning": "FRP work का लागि general-purpose orthophthalic polyester resins",
     "GP Clear Resin": "Clear; 350-450 cPs; gel time 8 minutes भन्दा कम",
@@ -51,17 +63,17 @@ export default {
     },
     {
       href: "/products/gp-yellow-resin/",
-      label: "View GP Yellow Resin",
+      label: "GP Yellow Resin हेर्नुहोस्",
       description: "yellow GP grade र यसको प्रकाशित data समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/gp-yellow-resin-uses-in-frp-manufacturing/",
-      label: "GP Yellow Resin uses in FRP",
+      label: "FRP मा GP Yellow Resin प्रयोगहरू",
       description: "grade छनोट गर्नुअघि विद्यमान GP Yellow Resin application routes समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/why-gp-resin-turns-yellow/",
-      label: "Why GP Resin is yellow or turns yellow",
+      label: "GP Resin किन पहेंलो हुन्छ वा पहेंलिन्छ",
       description: "प्रकाशित transparent-yellow grade लाई अप्रत्याशित colour change बाट अलग राख्नुहोस्।"
     },
     {

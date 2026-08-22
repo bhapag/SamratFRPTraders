@@ -27,7 +27,7 @@ export default {
       ]
     },
     {
-      heading: "GP Clear Resin viscosity",
+      heading: "GP Clear Resin को viscosity",
       body: [
         "GP Clear Resin को प्रकाशित viscosity 350-450 cPs हो। यो अंकलाई यसको non-accelerated curing प्रणाली, gel time, reinforcement र प्रयोग भइरहेको process सँगै विचार गर्नुपर्छ। सामान्य industry अंकको सट्टा वास्तविक grade का लागि उत्पादनको TDS नै सही सन्दर्भ हो।"
       ]

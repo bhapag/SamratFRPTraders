@@ -15,12 +15,12 @@ export default {
     },
     {
       href: "/products/lamination-resin/",
-      label: "View Lamination Resin",
+      label: "Lamination Resin हेर्नुहोस्",
       description: "प्रकाशित 5-मिनेट gel time लाई सान्दर्भिक उत्पादन TDS सँग तुलना गर्नुहोस्।"
     },
     {
       href: "/resources/gp-resin-viscosity-explained/",
-      label: "Read GP Resin viscosity guidance",
+      label: "GP Resin viscosity मार्गदर्शन पढ्नुहोस्",
       description: "gel time र process उपयुक्तता सँगसँगै viscosity समीक्षा गर्नुहोस्।"
     }
   ],
@@ -76,7 +76,7 @@ export default {
       visuals: [
         {
           type: "steps",
-          caption: "Typical FRP water tank manufacturing sequence",
+          caption: "सामान्य FRP पानी ट्यांकी निर्माण क्रम",
           items: [
             {
               label: "Mould Preparation"

@@ -1,4 +1,9 @@
 export default {
+  seo: {
+    title: "DMC/SMC Resin Procurement Checklist: TDS र RFQ गाइड",
+    ogTitle: "DMC/SMC Resin Procurement Checklist: TDS र RFQ गाइड",
+    ogDescription: "compound सन्दर्भ, तयार component, हालको TDS, documented commercial विवरण र चाहिने प्राविधिक जानकारीसहित विशिष्ट DMC वा SMC resin enquiry तयार गर्नुहोस्।",
+  },
   title: "DMC/SMC Resin Procurement Checklist: TDS र RFQ गाइड",
   description: "compound सन्दर्भ, तयार component, हालको TDS, documented commercial विवरण र चाहिने प्राविधिक जानकारीसहित विशिष्ट DMC वा SMC resin enquiry तयार गर्नुहोस्।",
   quickFacts: {
@@ -15,17 +20,17 @@ export default {
     },
     {
       href: "/tds/dmc-smc-resin-tds.pdf",
-      label: "Download DMC/SMC Resin TDS",
+      label: "DMC/SMC Resin TDS डाउनलोड गर्नुहोस्",
       description: "grade का लागि प्राविधिक सन्दर्भको रूपमा हालको कागजात प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Download Product Catalogue",
+      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
+      label: "उत्पादन क्याटलग डाउनलोड गर्नुहोस्",
       description: "छुट्टै resin, catalyst र reinforcement उत्पादन भूमिकाहरू समीक्षा गर्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Request a DMC/SMC Resin quote",
+      label: "DMC/SMC Resin को quote माग्नुहोस्",
       description: "compound, component, commercial र documentation आवश्यकताहरू पठाउनुहोस्।"
     }
   ],

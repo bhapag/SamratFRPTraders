@@ -1,6 +1,18 @@
 export default {
-  title: "Fiberglass Epoxy Resin Procurement Checklist",
+  title: "Fiberglass Epoxy Resin खरिद चेकलिस्ट",
   description: "application, system, reinforcement, technical र commercial विवरण सहित केन्द्रित छलफलका लागि document-आधारित Fiberglass Epoxy Resin RFQ तयार गर्नुहोस्।",
+  seo: {
+    title: "Fiberglass Epoxy Resin खरिद चेकलिस्ट | RFQ गाइड",
+    keywords: [
+      "Fiberglass Epoxy Resin Procurement",
+      "Fiberglass Epoxy Resin Quote",
+      "Fiberglass Epoxy Resin supplier Nepal",
+      "Fiberglass Epoxy Resin supplier Nepal",
+      "Composite Epoxy Resin RFQ"
+    ],
+    ogTitle: "Fiberglass Epoxy Resin खरिद चेकलिस्ट",
+    ogDescription: "स्पष्ट composite application, document reference, system status र commercial आवश्यकता सहित Fiberglass Epoxy Resin अनुरोध गर्नुहोस्।"
+  },
   quickFacts: {
     "प्रकाशित pack": "20 kg",
     "प्रकाशित MOQ": "100 kg",
@@ -54,22 +66,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/fiberglass-epoxy-resin/#enquire",
-      label: "Request Fiberglass Epoxy Resin Quote",
+      label: "Fiberglass Epoxy Resin Quote अनुरोध गर्नुहोस्",
       description: "तलका document र application विवरण सहित उत्पादन enquiry फारम प्रयोग गर्नुहोस्।"
     },
     {
       href: "/tds/fiberglass-epoxy-resin-tds.pdf",
-      label: "Download Fiberglass Epoxy TDS",
+      label: "Fiberglass Epoxy TDS डाउनलोड गर्नुहोस्",
       description: "आपूर्ति गरिएको-resin data तोक्नुअघि हालको detailed record समीक्षा गर्नुहोस्।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      label: "Product Catalogue समीक्षा गर्नुहोस्",
       description: "यो मूल्यांकन भइरहेको record हो भने उल्लेख गर्नुहोस्, किनभने यसको सारांश detailed TDS भन्दा फरक छ।"
     },
     {
       href: "/products/epoxy-hardener/",
-      label: "View separate Epoxy Hardener",
+      label: "छुट्टै Epoxy Hardener हेर्नुहोस्",
       description: "hardener समावेश छ भनी नअनुमान गरी exact compatible pair पुष्टि गर्नुहोस्।"
     }
   ]
