@@ -14,6 +14,14 @@
   --accent-gold-light: #efd37e;
   --accent-gold-dark: #9c741e;
   --gold-rgb: 212, 175, 55;
+  /* Deliberately NOT redefined inside .ledger (unlike --accent-gold above):
+     the primary CTA is the one moment even a restrained reading surface is
+     allowed to pop. The Ledger's muted gold is correct for borders, text
+     links and eyebrows — filling a button with it reads as a dead/disabled
+     control rather than "restrained", undercutting the exact buttons
+     (quote, TDS/SDS download, enquiry) the surface exists to drive. */
+  --accent-gold-cta: #d4af37;
+  --accent-gold-cta-hover: #efd37e;
   --focus: #8ec5ff;
   --font-display: "Oswald", "Arial Narrow", Impact, "Roboto Condensed", "Helvetica Neue", "Segoe UI", sans-serif;
   --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -32,6 +40,27 @@
   --space-xl: 2rem;
   --space-xxl: 3rem;
   --space-xxxl: 4.5rem;
+}
+
+/* Oswald, Inter and JetBrains Mono are Latin/Cyrillic webfonts with no
+   Devanagari coverage — on Nepali pages every heading, body paragraph and
+   label was silently falling back to whatever system UI font the visitor's
+   OS happens to ship, undermining the typographic identity for the site's
+   default-language majority. Teko (condensed, the same structural register
+   as Oswald) and Hind (a humanist sans purpose-built as a Devanagari/Latin
+   pairing partner, playing the same role Inter plays for English) restore
+   an intentional voice. Scoped to `:lang(ne)` so English pages, and any
+   inline English brand/product terms on Nepali pages, are unaffected —
+   both fonts carry full Latin sets, so mixed-script sentences stay coherent
+   rather than switching typeface mid-word. No true Devanagari monospace
+   exists (fixed-width doesn't map onto conjunct forms), so mono contexts
+   fall back to Hind at existing tracking rather than an uncontrolled system
+   font. `html:lang(ne)` (element + pseudo-class) beats the bare `:root`
+   pseudo-class above regardless of source order. */
+html:lang(ne) {
+  --font-display: "Teko", "Oswald", "Arial Narrow", Impact, "Roboto Condensed", "Helvetica Neue", "Segoe UI", sans-serif;
+  --font-body: "Hind", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Hind", "JetBrains Mono", "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 /* ==========================================================================
@@ -255,14 +284,20 @@ main {
 }
 
 .button-primary {
-  border-color: var(--accent-gold);
-  background: var(--accent-gold);
+  /* A same-hue-but-darker border rather than border=fill: on the Ledger's
+     light cream surface, the vivid CTA gold alone sits at ~1.9:1 against
+     the page background — under the 3:1 WCAG non-text contrast floor for
+     a UI component boundary. --accent-gold-dark (already surface-aware,
+     redefined by .ledger like every other token here) restores a clearly
+     legible edge on both surfaces without muddying the fill itself. */
+  border-color: var(--accent-gold-dark);
+  background: var(--accent-gold-cta);
   color: #17120c;
 }
 
 .button-primary:hover {
-  border-color: var(--accent-gold-light);
-  background: var(--accent-gold-light);
+  border-color: var(--accent-gold-dark);
+  background: var(--accent-gold-cta-hover);
   color: #17120c;
   box-shadow: 0 0.9rem 2rem rgba(var(--gold-rgb), 0.22);
 }

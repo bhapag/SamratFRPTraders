@@ -39,13 +39,22 @@ export function initReveal() {
     }, REVEAL_DURATION_MS + bufferMs);
   };
 
+  // threshold is a ratio of the TARGET's own area, not the viewport's —
+  // for any element taller than roughly viewport-height / threshold (here,
+  // ~11,250px at a 900px viewport), the maximum possible intersecting area
+  // can never reach that ratio, so `isIntersecting` never becomes true and
+  // the element stays permanently hidden. This is exactly what happened to
+  // long-form resource articles (12,000px+): threshold 0 fires on any
+  // overlap at all, independent of the target's size, which is both the
+  // correct behavior for a "reveal as it scrolls into view" pattern and
+  // immune to future content growth.
   const observer = new IntersectionObserver(
     (entries) => {
       for (const entry of entries) {
         if (entry.isIntersecting) reveal(entry);
       }
     },
-    { rootMargin: '0px 0px -6% 0px', threshold: 0.08 },
+    { rootMargin: '0px 0px -6% 0px', threshold: 0 },
   );
 
   items.forEach((element) => observer.observe(element));

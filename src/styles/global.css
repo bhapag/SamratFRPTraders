@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Teko:wght@400;500;600;700&family=Hind:wght@400;500;600;700&display=swap');
 
 *,
 *::before,
@@ -183,7 +183,7 @@ textarea {
 .hero-inner {
   position: relative;
   z-index: 4;
-  padding-block: clamp(4.5rem, 13vw, 9.5rem);
+  padding-block: clamp(4.5rem, 11vw, 7.5rem);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -213,17 +213,30 @@ textarea {
 
 .hero .hero-title {
   margin-top: 1.5rem;
-  font-size: clamp(2.35rem, 8.5vw, 6rem);
+  max-width: 20ch;
+  font-size: clamp(2.35rem, 7vw, 5rem);
   font-weight: 700;
   letter-spacing: 0.005em;
   line-height: 1.04;
   text-transform: uppercase;
+  text-wrap: balance;
   background: linear-gradient(180deg, #ffffff 0%, #f4f2ee 45%, #d9d6cf 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 4px 18px rgba(0, 0, 0, 0.32);
+}
+
+/* The gold payoff line reads as a secondary accent under the main
+   statement, not a second co-equal headline stacked on top of it — sized
+   in `em` so it scales proportionally with the title at every viewport
+   without its own clamp(), and given its own block line since it now
+   follows the title text inline in markup (no forced <br>). */
+.hero .hero-title .hl {
+  display: block;
+  margin-top: 0.2em;
+  font-size: 0.56em;
 }
 
 .hero-tagline {
