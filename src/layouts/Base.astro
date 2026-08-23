@@ -1,5 +1,6 @@
 ---
 import { buildCanonicalUrl, buildWhatsAppLink, site, whatsAppMessages } from '../data/site.js';
+import { catalogGroups, products, productsInGroup } from '../data/products.js';
 import '../styles/global.css';
 import '../styles/foundation.css';
 
@@ -25,11 +26,12 @@ const altPath = is404
 const enUrl = buildCanonicalUrl(is404 ? '/en/' : isNe ? altPath : path);
 const neUrl = buildCanonicalUrl(is404 ? '/' : isNe ? path : altPath);
 const waLink = buildWhatsAppLink(isNe ? whatsAppMessages.ne : whatsAppMessages.en);
+const prefix = isNe ? '' : '/en';
 
 const nav = isNe
   ? [
       { href: '/', label: 'गृहपृष्ठ' },
-      { href: '/products/', label: 'उत्पादनहरू' },
+      { href: '/products/', label: 'उत्पादनहरू', key: 'products' },
       { href: '/applications/', label: 'प्रयोगहरू' },
       { href: '/resources/', label: 'जानकारी केन्द्र' },
       { href: '/about/', label: 'हाम्रोबारे' },
@@ -37,12 +39,21 @@ const nav = isNe
     ]
   : [
       { href: '/en/', label: 'Home' },
-      { href: '/en/products/', label: 'Products' },
+      { href: '/en/products/', label: 'Products', key: 'products' },
       { href: '/en/applications/', label: 'Applications' },
       { href: '/en/resources/', label: 'Resources' },
       { href: '/en/about/', label: 'About' },
       { href: '/en/contact/', label: 'Contact' },
     ];
+
+// Mega-menu product families: the 2 groups with a dedicated category page
+// link there directly; the other 6 (navigation-only, no category URL) link
+// to their anchor block on the product index instead. Counts are computed
+// from the live catalogue, never hand-typed.
+const featuredGroups = catalogGroups.filter((g) => g.indexable);
+const otherGroups = catalogGroups.filter((g) => !g.indexable);
+const productsIndexHref = `${prefix}/products/`;
+const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.length : 0), 0);
 ---
 <!doctype html>
 <html lang={lang}>
@@ -137,32 +148,101 @@ const nav = isNe
           </span>
         </a>
         <nav class="site-nav" aria-label={isNe ? 'मुख्य नेभिगेसन' : 'Primary navigation'}>
-          {nav.map((item) => (
-            <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>
-              {item.label}
-            </a>
-          ))}
-          <a href={waLink} class="nav-wa" target="_blank" rel="noopener">WhatsApp</a>
-          <a class="lang-switch" href={altPath} lang={isNe ? 'en' : 'ne'}>
-            {isNe ? 'English' : 'नेपाली'}
-          </a>
+          {nav.map((item) =>
+            item.key === 'products' ? (
+              <div class="nav-mega">
+                <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>
+                  {item.label}
+                  <svg class="nav-mega-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true">
+                    <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <div class="mega-panel">
+                  <div class="mega-panel-inner">
+                    <div class="mega-col mega-col-featured">
+                      <p class="mega-col-label">{isNe ? 'मुख्य श्रेणी' : 'Category pages'}</p>
+                      {featuredGroups.map((group) => (
+                        <a class="mega-featured-link" href={`${prefix}/products/${group.slug}/`}>
+                          <span class="mega-featured-name">{group.name}</span>
+                          <span class="mega-featured-summary">{group.summary}</span>
+                          <span class="mega-featured-count">
+                            {productsInGroup(group.slug).length} {isNe ? 'उत्पादन' : 'products'}
+                          </span>
+                        </a>
+                      ))}
+                    </div>
+                    <div class="mega-col mega-col-other">
+                      <p class="mega-col-label">{isNe ? 'हाम्रो दायरामा पनि' : 'Also in our range'}</p>
+                      <ul class="mega-other-list">
+                        {otherGroups.map((group) => (
+                          <li>
+                            <a href={`${productsIndexHref}#${group.slug}`}>
+                              <span>{group.name}</span>
+                              <span class="mega-other-count">{productsInGroup(group.slug).length}</span>
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mega-panel-foot">
+                    <span class="mega-panel-stat">
+                      {products.length} {isNe ? 'उत्पादन' : 'products'} · {totalDocs} TDS/SDS
+                    </span>
+                    <a class="mega-panel-all" href={productsIndexHref}>
+                      {isNe ? 'सम्पूर्ण उत्पादन सूची हेर्नुहोस्' : 'View the full catalogue'} →
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>
+                {item.label}
+              </a>
+            )
+          )}
         </nav>
-        <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <div class="header-actions">
+          <div class="lang-toggle" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
+            <a href={neUrl} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
+            <a href={enUrl} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
+          </div>
+          <a href={waLink} class="nav-enquire" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2s-.8.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.5c-.2 0-.5 0-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.4A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z" /></svg>
+            {isNe ? 'सोधपुछ' : 'Enquire'}
+          </a>
+        </div>
+        <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label={isNe ? 'मेनु खोल्नुहोस्' : 'Open menu'}>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
         </button>
       </div>
-      <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
-        {nav.map((item) => (
-          <a href={item.href}>{item.label}</a>
-        ))}
-        <a href={waLink} class="mobile-nav-wa" target="_blank" rel="noopener">WhatsApp</a>
-        <a class="lang-switch" href={altPath} lang={isNe ? 'en' : 'ne'}>
-          {isNe ? 'English' : 'नेपाली'}
-        </a>
-      </nav>
     </header>
+
+    <!-- Deliberately a sibling of <header>, not nested inside it: the header
+         has `backdrop-filter`, which (like `transform`) creates a containing
+         block for `position: fixed` descendants — a fixed child would then
+         be sized/positioned against the ~4.5rem header box instead of the
+         viewport. Living outside it, this overlay's `inset: 0` is viewport-relative. -->
+    <div class="mobile-nav" id="mobileNav">
+      <nav class="mobile-nav-links" aria-label={isNe ? 'मोबाइल नेभिगेसन' : 'Mobile navigation'}>
+        {nav.map((item, index) => (
+          <a href={item.href} aria-current={path === item.href ? 'page' : undefined} style={`--i: ${index}`}>
+            {item.label}
+          </a>
+        ))}
+      </nav>
+      <div class="mobile-nav-foot">
+        <a href={waLink} class="mobile-nav-wa button button-primary" target="_blank" rel="noopener">
+          {isNe ? 'WhatsApp मा सोधपुछ' : 'Enquire on WhatsApp'}
+        </a>
+        <div class="lang-toggle lang-toggle-mobile" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
+          <a href={neUrl} lang="ne" aria-current={isNe ? 'true' : undefined}>नेपाली</a>
+          <a href={enUrl} lang="en" aria-current={!isNe ? 'true' : undefined}>English</a>
+        </div>
+      </div>
+    </div>
 
     <main id="main-content">
       <slot />
@@ -196,6 +276,10 @@ const nav = isNe
             <a href="mailto:samratfrptraders@gmail.com">samratfrptraders@gmail.com</a>
             <span>Ward No. 2, Tinpani Chowk, Main Road, Biratnagar, Nepal</span>
           </div>
+          <a href={waLink} class="footer-cta" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2s-.8.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.5c-.2 0-.5 0-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.4A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z" /></svg>
+            {isNe ? 'WhatsApp मा सोधपुछ' : 'Enquire on WhatsApp'}
+          </a>
         </div>
         <div class="footer-col">
           <h2 class="footer-heading">{isNe ? 'उत्पादनहरू' : 'Products'}</h2>
@@ -204,15 +288,6 @@ const nav = isNe
             <a href={isNe ? '/products/polyester-resins/' : '/en/products/polyester-resins/'}>{isNe ? 'Polyester रेजिनहरू' : 'Polyester Resins'}</a>
             <a href={isNe ? '/products/epoxy-casting-resins/' : '/en/products/epoxy-casting-resins/'}>{isNe ? 'Epoxy र Casting' : 'Epoxy & Casting Resins'}</a>
             <a href={isNe ? '/products/mekp-hardener/' : '/en/products/mekp-hardener/'}>MEKP Hardener</a>
-          </nav>
-        </div>
-        <div class="footer-col">
-          <h2 class="footer-heading">{isNe ? 'अन्वेषण' : 'Explore'}</h2>
-          <nav class="footer-nav" aria-label="Footer explore">
-            <a href={isNe ? '/applications/' : '/en/applications/'}>{isNe ? 'प्रयोगहरू' : 'Applications'}</a>
-            <a href={isNe ? '/resources/' : '/en/resources/'}>{isNe ? 'जानकारी केन्द्र' : 'Resources'}</a>
-            <a href={isNe ? '/about/' : '/en/about/'}>{isNe ? 'हाम्रोबारे' : 'About'}</a>
-            <a href={isNe ? '/contact/' : '/en/contact/'}>{isNe ? 'सम्पर्क' : 'Contact'}</a>
             <a
               href="/downloads/samrat-frp-traders-product-catalogue.pdf"
               target="_blank"
@@ -223,10 +298,12 @@ const nav = isNe
           </nav>
         </div>
         <div class="footer-col">
-          <h2 class="footer-heading">{isNe ? 'भाषा' : 'Language'}</h2>
-          <nav class="footer-nav" aria-label="Language">
-            <a href={enUrl} lang="en">English</a>
-            <a href={neUrl} lang="ne">नेपाली</a>
+          <h2 class="footer-heading">{isNe ? 'अन्वेषण' : 'Explore'}</h2>
+          <nav class="footer-nav" aria-label="Footer explore">
+            <a href={isNe ? '/applications/' : '/en/applications/'}>{isNe ? 'प्रयोगहरू' : 'Applications'}</a>
+            <a href={isNe ? '/resources/' : '/en/resources/'}>{isNe ? 'जानकारी केन्द्र' : 'Resources'}</a>
+            <a href={isNe ? '/about/' : '/en/about/'}>{isNe ? 'हाम्रोबारे' : 'About'}</a>
+            <a href={isNe ? '/contact/' : '/en/contact/'}>{isNe ? 'सम्पर्क' : 'Contact'}</a>
           </nav>
         </div>
       </div>
@@ -236,6 +313,10 @@ const nav = isNe
           <span class="legal-item" data-copy-value={site.business.pan}>PAN {site.business.pan}</span> ·
           <span class="legal-item" data-copy-value={site.business.vat}>VAT {site.business.vat}</span> ·
           <span class="legal-item" data-copy-value={site.business.exim}>EXIM {site.business.exim}</span>
+        </span>
+        <span class="footer-lang" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
+          <a href={neUrl} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
+          <a href={enUrl} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
         </span>
         <span class="visually-hidden" role="status" aria-live="polite" data-copy-status></span>
       </div>
@@ -325,11 +406,24 @@ const nav = isNe
   }
 
   .header-inner {
-    min-height: 4.25rem;
+    min-height: 4.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1.25rem;
+    gap: clamp(1rem, 3vw, 2.5rem);
+    transition: min-height 260ms var(--ease-premium);
+  }
+
+  /* A quiet, functional compaction on scroll — the header claims less
+     vertical space once the visitor is reading, not a decorative effect. */
+  .site-header.scrolled .header-inner {
+    min-height: 3.75rem;
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-left: auto;
   }
 
   .brand {
@@ -396,7 +490,11 @@ const nav = isNe
     gap: clamp(0.4rem, 1.4vw, 1.1rem);
   }
 
-  .site-nav a {
+  /* Scoped to direct top-level links only (including the mega-menu trigger
+     one level in) so these rules never leak into the mega panel's own,
+     differently-styled links. */
+  .site-nav > a,
+  .site-nav > .nav-mega > a {
     position: relative;
     min-height: 2.75rem;
     display: inline-flex;
@@ -411,12 +509,15 @@ const nav = isNe
     transition: color 180ms var(--ease-premium);
   }
 
-  .site-nav a:hover,
-  .site-nav a[aria-current='page'] {
+  .site-nav > a:hover,
+  .site-nav > a[aria-current='page'],
+  .site-nav > .nav-mega > a:hover,
+  .site-nav > .nav-mega > a[aria-current='page'] {
     color: var(--accent-gold-light);
   }
 
-  .site-nav a::after {
+  .site-nav > a::after,
+  .site-nav > .nav-mega > a::after {
     content: '';
     position: absolute;
     right: 0.4rem;
@@ -428,19 +529,252 @@ const nav = isNe
     transition: transform 180ms var(--ease-premium);
   }
 
-  .site-nav a:hover::after,
-  .site-nav a[aria-current='page']::after {
+  .site-nav > a:hover::after,
+  .site-nav > a[aria-current='page']::after,
+  .site-nav > .nav-mega > a:hover::after,
+  .site-nav > .nav-mega > a[aria-current='page']::after {
     transform: scaleX(1);
   }
 
-  .lang-switch {
-    border: 1px solid rgba(var(--gold-rgb), 0.35) !important;
-    color: var(--accent-gold-light) !important;
+  /* ---------- Products mega-menu ----------
+     Desktop-only (1024px+). Pure CSS hover/focus-within: the trigger stays
+     a real link to /products/, so it degrades correctly with no JS and on
+     touch devices that skip :hover entirely. */
+  .nav-mega {
+    position: static;
   }
 
-  .nav-wa,
-  .mobile-nav-wa {
-    color: #25d366 !important;
+  .nav-mega-caret {
+    margin-left: 0.32rem;
+    color: var(--ink-faint);
+    transition: transform 220ms var(--ease-premium), color 180ms var(--ease-premium);
+  }
+
+  .nav-mega:hover .nav-mega-caret,
+  .nav-mega:focus-within .nav-mega-caret {
+    color: var(--accent-gold-light);
+    transform: translateY(1px) rotate(180deg);
+  }
+
+  .mega-panel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 40;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-0.4rem);
+    transition: opacity 200ms var(--ease-premium), transform 200ms var(--ease-premium), visibility 200ms;
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
+    background: #0a0c10;
+    box-shadow: 0 1.8rem 3.5rem rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-mega:hover .mega-panel,
+  .nav-mega:focus-within .mega-panel {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mega-panel-inner {
+    width: min(100% - 2 * var(--page-padding), var(--max-width));
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: clamp(2rem, 4vw, 4rem);
+    padding-block: 2.25rem;
+  }
+
+  .mega-col-label {
+    margin-bottom: 1rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .mega-col-featured {
+    display: grid;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+
+  .mega-col-featured .mega-col-label {
+    padding: 0 0.2rem 0.8rem;
+    background: transparent;
+  }
+
+  .mega-featured-link {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.2rem 1rem;
+    padding: 1.1rem 1.2rem;
+    background: var(--bg-2);
+    color: var(--ink);
+    text-decoration: none;
+    transition: background 200ms var(--ease-premium);
+  }
+
+  .mega-featured-link:hover {
+    background: color-mix(in srgb, var(--accent-gold) 7%, var(--bg-2));
+  }
+
+  .mega-featured-name {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+
+  .mega-featured-summary {
+    grid-column: 1 / -1;
+    max-width: 46ch;
+    color: var(--ink-dim);
+    font-size: 0.82rem;
+    line-height: 1.55;
+  }
+
+  .mega-featured-count {
+    align-self: start;
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mega-other-list {
+    display: grid;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+
+  .mega-other-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.72rem 1rem;
+    background: var(--bg-2);
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+    text-decoration: none;
+    transition: background 200ms var(--ease-premium), color 200ms var(--ease-premium);
+  }
+
+  .mega-other-list a:hover {
+    background: color-mix(in srgb, var(--ink) 5%, var(--bg-2));
+    color: var(--ink);
+  }
+
+  .mega-other-count {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mega-panel-foot {
+    width: min(100% - 2 * var(--page-padding), var(--max-width));
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 1rem 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .mega-panel-stat {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mega-panel-all {
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 180ms var(--ease-premium);
+  }
+
+  .mega-panel-all:hover {
+    color: var(--accent-gold);
+  }
+
+  /* ---------- Language toggle & enquire CTA ---------- */
+  .lang-toggle {
+    display: flex;
+    border: 1px solid var(--line-2);
+  }
+
+  .lang-toggle a {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    padding-inline: 0.75rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 180ms var(--ease-premium), color 180ms var(--ease-premium);
+  }
+
+  .lang-toggle a + a {
+    border-left: 1px solid var(--line-2);
+  }
+
+  .lang-toggle a:hover {
+    color: var(--ink);
+  }
+
+  .lang-toggle a[aria-current='true'] {
+    background: rgba(var(--gold-rgb), 0.14);
+    color: var(--accent-gold-light);
+  }
+
+  .nav-enquire {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding-inline: 1rem;
+    border: 1px solid rgba(37, 211, 102, 0.4);
+    color: #63dd93;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: border-color 200ms var(--ease-premium), background 200ms var(--ease-premium), transform 200ms var(--ease-premium);
+  }
+
+  .nav-enquire:hover {
+    border-color: rgba(37, 211, 102, 0.75);
+    background: rgba(37, 211, 102, 0.09);
+    transform: translateY(-1px);
   }
 
   .nav-toggle {
@@ -451,6 +785,7 @@ const nav = isNe
     align-items: center;
     justify-content: center;
     gap: 5px;
+    margin-left: auto;
     border: 1px solid var(--line-2);
     background: transparent;
     cursor: pointer;
@@ -482,39 +817,85 @@ const nav = isNe
     transform: translateY(-6px) rotate(-45deg);
   }
 
+  /* ---------- Mobile menu: full-viewport overlay ---------- */
   .mobile-nav {
+    position: fixed;
+    inset: 0;
+    z-index: 45;
     display: none;
     flex-direction: column;
-    padding: 0.4rem var(--page-padding) 1rem;
-    border-top: 1px solid var(--line);
+    justify-content: space-between;
+    padding: clamp(5.5rem, 18vw, 7rem) var(--page-padding) 2rem;
     background: var(--bg);
+    background-image: radial-gradient(90% 60% at 100% 0%, rgba(var(--gold-rgb), 0.08), transparent 60%);
+    overflow-y: auto;
   }
 
   .mobile-nav.is-open {
     display: flex;
   }
 
-  .mobile-nav a {
-    padding: 0.85rem 0.15rem;
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav-links a {
+    padding: 1.05rem 0.1rem;
     border-bottom: 1px solid var(--line);
-    color: var(--ink-dim);
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    letter-spacing: 0.06em;
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
     text-decoration: none;
     text-transform: uppercase;
   }
 
-  .mobile-nav a:last-child {
-    border-bottom: 0;
-  }
-
-  .mobile-nav a:hover {
+  .mobile-nav-links a[aria-current='page'] {
     color: var(--accent-gold-light);
   }
 
+  .mobile-nav.is-open .mobile-nav-links a {
+    animation: enter-up 420ms var(--ease-premium) both;
+    animation-delay: calc(var(--i, 0) * 55ms + 60ms);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .mobile-nav.is-open .mobile-nav-links a {
+      animation: none;
+    }
+  }
+
+  .mobile-nav-foot {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .mobile-nav-wa {
+    width: 100%;
+  }
+
+  .lang-toggle-mobile {
+    align-self: start;
+  }
+
+  .lang-toggle-mobile a {
+    min-height: 2.9rem;
+    padding-inline: 1.1rem;
+    font-size: 0.72rem;
+  }
+
+  @media (max-width: 1023px) {
+    .mega-panel {
+      display: none;
+    }
+  }
+
   @media (max-width: 820px) {
-    .site-nav {
+    .site-nav,
+    .header-actions {
       display: none;
     }
 
@@ -558,7 +939,7 @@ const nav = isNe
 
   .footer-grid {
     display: grid;
-    grid-template-columns: 1.4fr 0.8fr 0.8fr 0.6fr;
+    grid-template-columns: 1.3fr 0.85fr 0.85fr;
     gap: 2.25rem;
     padding-block: 3.5rem 2.25rem;
   }
@@ -628,6 +1009,29 @@ const nav = isNe
   .footer-contact span {
     color: var(--ink-faint);
     font-size: 0.78rem;
+  }
+
+  .footer-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.1rem;
+    border: 1px solid rgba(37, 211, 102, 0.35);
+    color: #63dd93;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-color 200ms var(--ease-premium), background 200ms var(--ease-premium), transform 200ms var(--ease-premium);
+  }
+
+  .footer-cta:hover {
+    border-color: rgba(37, 211, 102, 0.7);
+    background: rgba(37, 211, 102, 0.08);
+    transform: translateY(-1px);
   }
 
   .wa-float {
@@ -709,6 +1113,31 @@ const nav = isNe
   }
 
   .footer-legal .legal-item.is-copied {
+    color: var(--accent-gold-light);
+  }
+
+  .footer-lang {
+    display: flex;
+    border: 1px solid var(--line);
+  }
+
+  .footer-lang a {
+    padding: 0.4rem 0.65rem;
+    color: var(--ink-faint);
+    text-decoration: none;
+    transition: background 180ms var(--ease-premium), color 180ms var(--ease-premium);
+  }
+
+  .footer-lang a + a {
+    border-left: 1px solid var(--line);
+  }
+
+  .footer-lang a:hover {
+    color: var(--ink);
+  }
+
+  .footer-lang a[aria-current='true'] {
+    background: rgba(var(--gold-rgb), 0.12);
     color: var(--accent-gold-light);
   }
 

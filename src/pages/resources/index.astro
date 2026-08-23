@@ -1,5 +1,5 @@
 ---
-import ResourceCard from '../../components/ResourceCard.astro';
+import ResourceIcon from '../../components/ResourceIcon.astro';
 import { resources } from '../../data/resources.js';
 import Base from '../../layouts/Base.astro';
 import { localizeResource, readingTimeNe } from '../../utils/resource-i18n.js';
@@ -51,7 +51,7 @@ const nonFeaturedUngrouped = ungrouped.filter((r) => !featuredSlugs.has(r.slug))
         </a>
       </div>
 
-      <nav class="jump-nav" aria-label="उत्पादन अनुसार जानकारी">
+      <nav class="jump-nav" aria-label="उत्पादन अनुसार जानकारी" data-reveal>
         <a href="#featured">फिचर्ड गाइड</a>
         {nonFeaturedClusters.map((cluster) => (
           <a href={`#cluster-${cluster.productSlug}`}>{cluster.productName}</a>
@@ -59,59 +59,78 @@ const nonFeaturedUngrouped = ungrouped.filter((r) => !featuredSlugs.has(r.slug))
         {nonFeaturedUngrouped.length > 0 && <a href="#general">सामान्य गाइड</a>}
       </nav>
 
-      <div class="resource-group" id="featured" data-reveal>
-        <h2 class="group-title">फिचर्ड गाइड</h2>
-        <p class="group-lead">प्रत्येक उत्पादनको आधारभूत जानकारी — यहीँबाट सुरु गर्नुहोस्।</p>
-        <div class="resource-grid">
+      <div class="doc-group" id="featured" data-reveal>
+        <header class="doc-group-head">
+          <span class="doc-group-index" aria-hidden="true">01</span>
+          <div class="doc-group-head-text">
+            <h2>फिचर्ड गाइड</h2>
+            <p class="doc-group-lead">प्रत्येक उत्पादनको आधारभूत जानकारी — यहीँबाट सुरु गर्नुहोस्।</p>
+          </div>
+          <span class="doc-group-count">{featured.length} गाइड</span>
+        </header>
+        <div class="doc-list">
           {featured.map((resource) => (
-            <ResourceCard
-              href={`/resources/${resource.slug}/`}
-              title={resource.title}
-              description={resource.description}
-              readingTime={readingTimeNe(resource.readingTime)}
-              icon={resource.icon}
-              readMoreLabel="पूरा लेख पढ्नुहोस् →"
-            />
+            <a class="doc-row" href={`/resources/${resource.slug}/`}>
+              <span class="doc-row-icon" aria-hidden="true"><ResourceIcon name={resource.icon} /></span>
+              <span class="doc-row-main">
+                <span class="doc-row-title">{resource.title}</span>
+                <span class="doc-row-desc">{resource.description}</span>
+              </span>
+              <span class="doc-row-time">{readingTimeNe(resource.readingTime)}</span>
+              <span class="doc-row-arrow" aria-hidden="true">→</span>
+            </a>
           ))}
         </div>
       </div>
 
-      {nonFeaturedClusters.map((cluster) => (
-        <div class="resource-group" id={`cluster-${cluster.productSlug}`} data-reveal>
-          <h2 class="group-title">
-            {cluster.productName}
+      {nonFeaturedClusters.map((cluster, gi) => (
+        <div class="doc-group" id={`cluster-${cluster.productSlug}`} data-reveal>
+          <header class="doc-group-head">
+            <span class="doc-group-index" aria-hidden="true">{String(gi + 2).padStart(2, '0')}</span>
+            <div class="doc-group-head-text">
+              <h2>{cluster.productName}</h2>
+            </div>
+            <span class="doc-group-count">{cluster.resources.length} गाइड</span>
             {cluster.productSlug && (
-              <a class="group-title-link" href={`/products/${cluster.productSlug}/`}>उत्पादन पृष्ठ हेर्नुहोस् →</a>
+              <a class="doc-group-link" href={`/products/${cluster.productSlug}/`}>उत्पादन पृष्ठ हेर्नुहोस् →</a>
             )}
-          </h2>
-          <div class="resource-grid">
+          </header>
+          <div class="doc-list">
             {cluster.resources.map((resource) => (
-              <ResourceCard
-                href={`/resources/${resource.slug}/`}
-                title={resource.title}
-                description={resource.description}
-                readingTime={readingTimeNe(resource.readingTime)}
-                icon={resource.icon}
-                readMoreLabel="पूरा लेख पढ्नुहोस् →"
-              />
+              <a class="doc-row" href={`/resources/${resource.slug}/`}>
+                <span class="doc-row-icon" aria-hidden="true"><ResourceIcon name={resource.icon} /></span>
+                <span class="doc-row-main">
+                  <span class="doc-row-title">{resource.title}</span>
+                  <span class="doc-row-desc">{resource.description}</span>
+                </span>
+                <span class="doc-row-time">{readingTimeNe(resource.readingTime)}</span>
+                <span class="doc-row-arrow" aria-hidden="true">→</span>
+              </a>
             ))}
           </div>
         </div>
       ))}
 
       {nonFeaturedUngrouped.length > 0 && (
-        <div class="resource-group" id="general" data-reveal>
-          <h2 class="group-title">सामान्य गाइड</h2>
-          <div class="resource-grid">
+        <div class="doc-group" id="general" data-reveal>
+          <header class="doc-group-head">
+            <span class="doc-group-index" aria-hidden="true">{String(nonFeaturedClusters.length + 2).padStart(2, '0')}</span>
+            <div class="doc-group-head-text">
+              <h2>सामान्य गाइड</h2>
+            </div>
+            <span class="doc-group-count">{nonFeaturedUngrouped.length} गाइड</span>
+          </header>
+          <div class="doc-list">
             {nonFeaturedUngrouped.map((resource) => (
-              <ResourceCard
-                href={`/resources/${resource.slug}/`}
-                title={resource.title}
-                description={resource.description}
-                readingTime={readingTimeNe(resource.readingTime)}
-                icon={resource.icon}
-                readMoreLabel="पूरा लेख पढ्नुहोस् →"
-              />
+              <a class="doc-row" href={`/resources/${resource.slug}/`}>
+                <span class="doc-row-icon" aria-hidden="true"><ResourceIcon name={resource.icon} /></span>
+                <span class="doc-row-main">
+                  <span class="doc-row-title">{resource.title}</span>
+                  <span class="doc-row-desc">{resource.description}</span>
+                </span>
+                <span class="doc-row-time">{readingTimeNe(resource.readingTime)}</span>
+                <span class="doc-row-arrow" aria-hidden="true">→</span>
+              </a>
             ))}
           </div>
         </div>
@@ -157,65 +176,207 @@ const nonFeaturedUngrouped = ungrouped.filter((r) => !featuredSlugs.has(r.slug))
   .jump-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: clamp(2rem, 5vw, 3rem);
+    column-gap: 1.75rem;
+    row-gap: 0.6rem;
+    margin-bottom: clamp(3rem, 6vw, 4.5rem);
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--line);
   }
 
   .jump-nav a {
-    padding: 0.5rem 0.9rem;
-    border: 1px solid var(--line);
-    background: var(--bg-2);
+    padding-block: 0.3rem;
     color: var(--ink-dim);
     font-family: var(--font-mono);
     font-size: 0.72rem;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
     text-decoration: none;
-    transition: border-color 180ms var(--ease-premium), color 180ms var(--ease-premium);
+    text-transform: uppercase;
+    transition: color 180ms var(--ease-premium);
   }
 
   .jump-nav a:hover {
-    border-color: var(--accent-gold);
     color: var(--accent-gold-light);
   }
 
-  .resource-group {
-    margin-bottom: clamp(2.5rem, 6vw, 4rem);
+  /* ---------- Document index: a reading list, not a card wall ----------
+     Deliberately typographic — dense hairline-separated rows rather than
+     boxed cards, so this reads as a technical library/archive rather than
+     a third pass at the same card treatment used on Products/Applications. */
+  .doc-group {
+    margin-bottom: clamp(3rem, 6vw, 4.5rem);
     scroll-margin-top: 5.5rem;
   }
 
-  .group-title {
+  .doc-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .doc-group-head {
     display: flex;
-    flex-wrap: wrap;
     align-items: baseline;
-    gap: 0.9rem;
-    margin-bottom: 0.4rem;
-    padding-bottom: 0.7rem;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.1rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.9rem;
     border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
-    font-size: 1.5rem;
   }
 
-  .group-title-link {
+  .doc-group-index {
+    color: var(--accent-gold);
     font-family: var(--font-mono);
-    font-size: 0.72rem;
+    font-size: 0.9rem;
     letter-spacing: 0.04em;
-    text-transform: none;
-    color: var(--accent-gold-light);
-    text-decoration: none;
   }
 
-  .group-title-link:hover {
+  .doc-group-head-text h2 {
+    margin: 0;
+    font-size: clamp(1.4rem, 3.4vw, 1.85rem);
+  }
+
+  .doc-group-lead {
+    max-width: 46ch;
+    margin: 0.3rem 0 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+  }
+
+  .doc-group-count {
+    margin-left: auto;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .doc-group-link {
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 180ms var(--ease-premium);
+  }
+
+  .doc-group-link:hover {
     color: var(--accent-gold);
   }
 
-  .group-lead {
-    margin-bottom: 1.1rem;
-    color: var(--ink-faint);
-    font-size: 0.88rem;
+  .doc-list {
+    display: flex;
+    flex-direction: column;
   }
 
-  .resource-grid {
+  .doc-row {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
+    align-items: center;
     gap: 1.1rem;
+    padding: 1.1rem 0.9rem;
+    padding-left: 1.15rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+    text-decoration: none;
+    transition: background 200ms var(--ease-premium);
+  }
+
+  .doc-row::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0.2rem;
+    background: transparent;
+    transition: background 200ms var(--ease-premium);
+  }
+
+  .doc-row:hover,
+  .doc-row:focus-visible {
+    background: rgba(var(--gold-rgb), 0.045);
+  }
+
+  .doc-row:hover::before,
+  .doc-row:focus-visible::before {
+    background: var(--accent-gold);
+  }
+
+  .doc-row:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: -2px;
+  }
+
+  .doc-row-icon {
+    display: flex;
+    color: var(--accent-gold);
+    opacity: 0.85;
+  }
+
+  .doc-row-icon :global(svg) {
+    width: 20px;
+    height: 20px;
+  }
+
+  .doc-row-main {
+    display: grid;
+    gap: 0.2rem;
+    min-width: 0;
+  }
+
+  .doc-row-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+  }
+
+  .doc-row-desc {
+    overflow: hidden;
+    max-width: 60ch;
+    color: var(--ink-faint);
+    font-size: 0.82rem;
+    line-height: 1.4;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .doc-row-time {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+
+  .doc-row-arrow {
+    color: var(--accent-gold);
+    font-size: 1rem;
+    transition: transform 200ms var(--ease-premium);
+  }
+
+  .doc-row:hover .doc-row-arrow,
+  .doc-row:focus-visible .doc-row-arrow {
+    transform: translateX(0.25rem);
+  }
+
+  @media (max-width: 40rem) {
+    .doc-row {
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      row-gap: 0.3rem;
+    }
+
+    .doc-row-time {
+      grid-column: 2;
+      grid-row: 2;
+    }
+
+    .doc-row-desc {
+      white-space: normal;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
   }
 </style>

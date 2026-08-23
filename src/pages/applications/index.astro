@@ -1,9 +1,11 @@
 ---
 import { applications } from '../../data/applications.js';
 import { localizeApplication } from '../../utils/application-i18n.js';
+import { groupApplicationsByIndustry } from '../../utils/application-hub.js';
 import Base from '../../layouts/Base.astro';
 
 const published = applications.filter((app) => !app.draft).map((app) => localizeApplication(app));
+const industries = groupApplicationsByIndustry(published);
 ---
 <Base
   lang="ne"
@@ -21,81 +23,231 @@ const published = applications.filter((app) => !app.draft).map((app) => localize
     </div>
   </section>
 
-  <section class="section">
+  <section class="section apps-section">
     <div class="container">
-      <div class="app-grid">
-        {published.map((app) => (
-          <a class="app-card" href={`/applications/${app.slug}/`} data-reveal>
-            <span class="app-media">
-              <img
-                src={`/images/applications/${app.cardImage}`}
-                alt={app.cardImageAlt}
-                loading="lazy"
-                width="700"
-                height="466"
-              />
-            </span>
-            <span class="app-body">
-              <span class="app-title">{app.title}</span>
-              <span class="app-desc">{app.cardDescription}</span>
-            </span>
-          </a>
+      <nav class="apps-jump" aria-label="उद्योग अनुसार प्रयोगहरू" data-reveal>
+        {industries.map((group) => (
+          <a href={`#${group.slug}`}>{group.name}</a>
         ))}
-      </div>
+      </nav>
+
+      {industries.map((group, gi) => (
+        <section class="apps-group" id={group.slug} data-reveal>
+          <header class="apps-group-head">
+            <span class="apps-group-index" aria-hidden="true">{String(gi + 1).padStart(2, '0')}</span>
+            <h2>{group.name}</h2>
+            <span class="apps-group-count">{group.items.length} गाइड</span>
+          </header>
+          <div class="apps-grid">
+            {group.items.map((app, i) => (
+              <a class:list={['apps-tile', { 'apps-tile-lead': i === 0 }]} href={`/applications/${app.slug}/`}>
+                <img
+                  src={`/images/applications/${app.cardImage}`}
+                  alt={app.cardImageAlt}
+                  loading="lazy"
+                  width="700"
+                  height="466"
+                />
+                <span class="apps-tile-scrim" aria-hidden="true"></span>
+                <span class="apps-tile-body">
+                  <span class="apps-tile-title">{app.title}</span>
+                  <span class="apps-tile-desc">{app.cardDescription}</span>
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
     </div>
   </section>
 </Base>
 
 <style>
-  .app-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
-    gap: 1.1rem;
-  }
-
-  .app-card {
+  .apps-jump {
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    border: 1px solid var(--line);
-    background: var(--bg-3);
-    box-shadow: var(--surface-shadow-rest);
-    color: var(--ink);
-    text-decoration: none;
-    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium), box-shadow 220ms var(--ease-premium);
-  }
-
-  .app-card:hover {
-    transform: translateY(-0.2rem);
-    border-color: rgba(var(--gold-rgb), 0.65);
-    box-shadow: var(--surface-shadow-hover);
-  }
-
-  .app-media img {
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    display: block;
-    object-fit: cover;
+    flex-wrap: wrap;
+    column-gap: 1.75rem;
+    row-gap: 0.6rem;
+    margin-bottom: clamp(3rem, 6vw, 4.5rem);
+    padding-bottom: 1.4rem;
     border-bottom: 1px solid var(--line);
   }
 
-  .app-body {
-    display: grid;
-    gap: 0.45rem;
-    padding: 1.05rem 1.2rem 1.2rem;
+  .apps-jump a {
+    padding-block: 0.3rem;
+    color: var(--ink-dim);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 180ms var(--ease-premium);
   }
 
-  .app-title {
+  .apps-jump a:hover {
+    color: var(--accent-gold-light);
+  }
+
+  .apps-group {
+    margin-bottom: clamp(3.5rem, 7vw, 5.5rem);
+    scroll-margin-top: 6rem;
+  }
+
+  .apps-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .apps-group-head {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.7rem 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
+  }
+
+  .apps-group-index {
+    color: var(--accent-gold);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+  }
+
+  .apps-group-head h2 {
+    margin: 0;
+    font-size: clamp(1.5rem, 4vw, 2.1rem);
+  }
+
+  .apps-group-count {
+    margin-left: auto;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Image-led "poster" tiles: full-bleed photo, gradient scrim, text
+     overlaid at the foot — deliberately not the bordered spec-sheet card
+     used on the Products index, so this page reads as visual/contextual
+     rather than a second catalogue. */
+  .apps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-flow: dense;
+    gap: 0.9rem;
+  }
+
+  .apps-tile {
+    position: relative;
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: var(--bg-3);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .apps-tile-lead {
+    grid-column: span 2;
+  }
+
+  .apps-tile img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 550ms var(--ease-premium);
+  }
+
+  .apps-tile:hover img,
+  .apps-tile:focus-visible img {
+    transform: scale(1.045);
+  }
+
+  .apps-tile-scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(8, 10, 14, 0) 38%, rgba(8, 10, 14, 0.92) 100%);
+    transition: opacity 300ms var(--ease-premium);
+  }
+
+  .apps-tile:hover .apps-tile-scrim,
+  .apps-tile:focus-visible .apps-tile-scrim {
+    opacity: 0.88;
+  }
+
+  .apps-tile-body {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.1rem 1.2rem 1.2rem;
+  }
+
+  .apps-tile-title {
+    max-width: 30ch;
+    color: #fff;
     font-family: var(--font-display);
     font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
+    font-weight: 600;
+    line-height: 1.18;
+    letter-spacing: 0.01em;
     text-transform: uppercase;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
   }
 
-  .app-desc {
-    color: var(--ink-dim);
-    font-size: 0.84rem;
-    line-height: 1.5;
+  .apps-tile-lead .apps-tile-title {
+    max-width: 34ch;
+    font-size: clamp(1.2rem, 2.1vw, 1.6rem);
+  }
+
+  .apps-tile-desc {
+    display: -webkit-box;
+    overflow: hidden;
+    max-width: 36ch;
+    color: rgba(244, 242, 238, 0.82);
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .apps-tile-lead .apps-tile-desc {
+    max-width: 42ch;
+    font-size: 0.86rem;
+    -webkit-line-clamp: 3;
+  }
+
+  .apps-tile:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 60rem) {
+    .apps-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 36rem) {
+    .apps-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .apps-tile-lead {
+      grid-column: span 1;
+    }
+
+    .apps-tile {
+      aspect-ratio: 3 / 2;
+    }
   }
 </style>

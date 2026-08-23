@@ -1,7 +1,14 @@
 ---
 import BusinessDetails from '../components/home/BusinessDetails.astro';
 import { buildWhatsAppLink, whatsAppMessages } from '../data/site.js';
+import { catalogGroups, products } from '../data/products.js';
+import { applications } from '../data/applications.js';
+import { resources } from '../data/resources.js';
 import Base from '../layouts/Base.astro';
+
+const applicationCount = applications.filter((a) => !a.draft).length;
+const resourceCount = resources.filter((r) => !r.draft).length;
+const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.length : 0), 0);
 ---
 <Base
   lang="ne"
@@ -19,6 +26,31 @@ import Base from '../layouts/Base.astro';
       </p>
     </div>
   </section>
+
+  <div class="container">
+    <div class="about-stats" data-reveal>
+      <div class="stat">
+        <span class="stat-num">{products.length}</span>
+        <span class="stat-label">उत्पादनहरू</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">{catalogGroups.length}</span>
+        <span class="stat-label">उत्पादन वर्ग</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">{applicationCount}</span>
+        <span class="stat-label">प्रयोग गाइड</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">{resourceCount}</span>
+        <span class="stat-label">प्राविधिक स्रोत</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">{docCount}</span>
+        <span class="stat-label">TDS / SDS कागजात</span>
+      </div>
+    </div>
+  </div>
 
   <section class="section">
     <div class="container about-layout">
@@ -40,8 +72,8 @@ import Base from '../layouts/Base.astro';
           Samrat FRP Traders को भौतिक संरचना जनाउँदैन।
         </p>
         <p>
-          हामी २४ उत्पादनको सूची, ३७ प्रयोग गाइड र १५९ प्राविधिक स्रोत/लेख नेपाली र English दुवै भाषामा
-          प्रस्तुत गर्दछौँ — ताकि नेपालका खरिदकर्ताले सही सामग्री छान्न सकून्।
+          हामी {products.length} उत्पादनको सूची, {applicationCount} प्रयोग गाइड र {resourceCount} प्राविधिक स्रोत/लेख
+          नेपाली र English दुवै भाषामा प्रस्तुत गर्दछौँ — ताकि नेपालका खरिदकर्ताले सही सामग्री छान्न सकून्।
         </p>
 
         <div class="button-row">
@@ -135,6 +167,65 @@ import Base from '../layouts/Base.astro';
 </Base>
 
 <style>
+  /* Real, build-time-computed counts as a dense data band — the "prove it
+     with numbers" opener DESIGN.md calls for, never hand-typed so it can't
+     go stale the way the old hardcoded prose count did. */
+  .about-stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: clamp(-1rem, -2vw, -0.5rem) 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .stat {
+    flex: 1 1 8rem;
+    padding: 1.6rem 1.5rem;
+    border-left: 1px solid var(--line);
+  }
+
+  .stat:first-child {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .stat-num {
+    display: block;
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: clamp(1.7rem, 3.6vw, 2.5rem);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  .stat-label {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 40rem) {
+    .stat {
+      flex: 1 1 45%;
+      border-left: 0;
+      padding-left: 0;
+      padding-block: 1.2rem;
+    }
+
+    .stat:nth-child(odd) {
+      padding-right: 1rem;
+    }
+
+    .stat:nth-child(even) {
+      padding-left: 1rem;
+      border-left: 1px solid var(--line);
+    }
+  }
+
   .about-layout {
     display: grid;
     grid-template-columns: minmax(0, 1.2fr) minmax(17rem, 0.8fr);
