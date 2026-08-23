@@ -24,6 +24,14 @@
   --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
   --surface-shadow-rest: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 0.8rem 1.8rem rgba(0, 0, 0, 0.24);
   --surface-shadow-hover: 0 1px 0 rgba(255, 255, 255, 0.07) inset, 0 1.5rem 3rem rgba(0, 0, 0, 0.4);
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+  --space-xxxl: 4.5rem;
 }
 
 body {

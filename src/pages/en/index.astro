@@ -21,15 +21,7 @@ const featuredResources = resources.slice(0, 3);
   description="Samrat FRP Traders supplies and imports FRP materials and industrial resins across Nepal — polyester resins, gelcoat, glass fiber mat, hardeners and more, with supplier technical documentation."
 >
   <section class="hero">
-    <div class="hero-media" aria-hidden="true">
-      <img
-        src="/images/supplier/supplier-production.jpg"
-        alt=""
-        width="1452"
-        height="1083"
-        fetchpriority="high"
-      />
-    </div>
+    <div class="hero-media" aria-hidden="true"></div>
     <div class="hero-scrim" aria-hidden="true"></div>
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container hero-inner">
@@ -68,7 +60,6 @@ const featuredResources = resources.slice(0, 3);
         <a class="button button-primary" href="/en/products/">View Products</a>
         <a class="button" href="/en/contact/">Contact Us</a>
       </div>
-      <p class="hero-attribution">Supplier production reference — Samrat Poly Resins, India</p>
     </div>
   </section>
 
@@ -262,6 +253,24 @@ const featuredResources = resources.slice(0, 3);
     grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
     gap: 1rem;
   }
+
+  /* Category identity: a restrained left-edge accent bar whose opacity
+     cycles by position, using the single gold accent rather than a
+     distinct color per category. Presentation-only — no product-data
+     field is introduced for this. */
+  .catalogue-categories :global(.catalog-card) {
+    border-left-width: 0.2rem;
+    border-left-style: solid;
+  }
+
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+1)) { border-left-color: rgba(var(--gold-rgb), 0.85); }
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+2)) { border-left-color: rgba(var(--gold-rgb), 0.72); }
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+3)) { border-left-color: rgba(var(--gold-rgb), 0.6); }
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+4)) { border-left-color: rgba(var(--gold-rgb), 0.48); }
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+5)) { border-left-color: rgba(var(--gold-rgb), 0.6); }
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+6)) { border-left-color: rgba(var(--gold-rgb), 0.72); }
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+7)) { border-left-color: rgba(var(--gold-rgb), 0.85); }
+  .catalogue-categories :global(.catalog-card:nth-of-type(8n+8)) { border-left-color: rgba(var(--gold-rgb), 0.36); }
 
   .featured-heading {
     margin: 2.5rem 0 1.1rem;
