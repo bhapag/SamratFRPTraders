@@ -64,9 +64,19 @@ const faqSchema =
 <Base lang="ne" title={app.seo?.title ?? app.title} description={app.seo?.description ?? app.cardDescription}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
-  <section class="page-hero hero-shell">
-    <div class="hero-grid-lines" aria-hidden="true"></div>
-    <div class="container page-hero-content">
+  <section class="app-hero">
+    {app.cardImage && (
+      <img
+        class="app-hero-img"
+        src={`/images/applications/${app.cardImage}`}
+        alt=""
+        fetchpriority="high"
+        width="1600"
+        height="900"
+      />
+    )}
+    <div class="app-hero-scrim" aria-hidden="true"></div>
+    <div class="container app-hero-inner">
       <p class="eyebrow">प्रयोग गाइड</p>
       <h1>{app.title}</h1>
       <p class="page-lead">{app.cardDescription}</p>
@@ -76,6 +86,8 @@ const faqSchema =
   <section class="section">
     <div class="container">
       <Breadcrumbs items={breadcrumbItems} />
+
+      {app.cardBenefit && <p class="app-benefit-line" data-reveal>{app.cardBenefit}</p>}
 
       <div class="app-layout">
         <div class="app-main">
@@ -138,17 +150,6 @@ const faqSchema =
         </div>
 
         <aside class="app-side" data-reveal>
-          {app.cardImage && (
-            <img
-              class="app-side-img"
-              src={`/images/applications/${app.cardImage}`}
-              alt={app.cardImageAlt}
-              loading="lazy"
-              width="700"
-              height="466"
-            />
-          )}
-          {app.cardBenefit && <p class="app-benefit">{app.cardBenefit}</p>}
           {relatedProducts.length > 0 && (
             <div class="related">
               <p class="related-title">सम्बन्धित उत्पादनहरू</p>
@@ -171,6 +172,62 @@ const faqSchema =
 </Base>
 
 <style>
+  /* Image-forward hero — applications are shown, not just described.
+     Real application photography stands in for the generic dark text
+     hero used elsewhere, since this content genuinely has strong,
+     truthful imagery to lead with. */
+  .app-hero {
+    position: relative;
+    overflow: hidden;
+    min-height: clamp(20rem, 46vh, 30rem);
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .app-hero-img {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .app-hero-scrim {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(0deg, var(--bg) 0%, rgba(9, 11, 18, 0.72) 38%, rgba(9, 11, 18, 0.22) 75%, rgba(9, 11, 18, 0.1) 100%);
+  }
+
+  .app-hero-inner {
+    position: relative;
+    z-index: 2;
+    padding-block: clamp(2.5rem, 7vw, 4rem) clamp(2rem, 5vw, 3rem);
+  }
+
+  .app-hero-inner h1 {
+    margin-top: 0.6rem;
+    font-size: clamp(2.1rem, 5.5vw, 3.6rem);
+  }
+
+  .app-hero-inner .page-lead {
+    max-width: 48ch;
+  }
+
+  .app-benefit-line {
+    max-width: 52rem;
+    margin: 1.6rem 0 0;
+    padding-left: 1rem;
+    border-left: 0.2rem solid var(--accent-gold);
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
   .app-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem);
@@ -214,17 +271,6 @@ const faqSchema =
   .faq-item p { margin: 0; color: var(--ink-dim); font-size: 0.86rem; }
 
   .app-side { display: grid; gap: 1.1rem; }
-
-  .app-side-img { width: 100%; border: 1px solid var(--line-2); box-shadow: var(--surface-shadow-rest); }
-
-  .app-benefit {
-    margin: 0;
-    padding: 1rem 1.1rem;
-    border-left: 0.25rem solid var(--accent-gold);
-    background: rgba(var(--gold-rgb), 0.06);
-    color: var(--ink);
-    font-size: 0.9rem;
-  }
 
   .related { border: 1px solid var(--line); background: var(--bg-2); }
   .related-title {

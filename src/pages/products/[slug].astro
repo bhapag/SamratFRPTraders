@@ -43,7 +43,7 @@ const seoDescription =
     </div>
   </section>
 
-  <section class="section">
+  <section class="section ledger product-doc-surface">
     <div class="container">
       <ProductPage
         lang="ne"
@@ -55,3 +55,11 @@ const seoDescription =
     </div>
   </section>
 </Base>
+
+<style>
+  /* The product body is a technical document — Ledger surface, tighter
+     top padding since the breadcrumb sits right under the dark hero. */
+  .product-doc-surface {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+</style>

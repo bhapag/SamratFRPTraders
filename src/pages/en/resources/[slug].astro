@@ -83,7 +83,7 @@ const faqSchema =
     </div>
   </section>
 
-  <section class="section">
+  <section class="section ledger resource-doc-surface">
     <div class="container">
       <Breadcrumbs items={breadcrumbItems} />
 
@@ -306,6 +306,12 @@ const faqSchema =
 </Base>
 
 <style>
+  /* The resource article body is long-form reading — Ledger surface,
+     tighter top padding since the breadcrumb sits right under the hero. */
+  .resource-doc-surface {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
   .article-body {
     margin-top: 2rem;
   }
