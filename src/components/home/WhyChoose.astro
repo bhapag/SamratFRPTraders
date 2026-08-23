@@ -33,12 +33,14 @@ const items = isNe
       <h2>{isNe ? 'Samrat FRP Traders किन रोज्ने?' : 'Why choose Samrat FRP Traders'}</h2>
     </div>
 
-    <div class="why-grid">
+    <div class="why-list">
       {items.map((item, index) => (
-        <article class="why-card" data-reveal style={`--reveal-delay: ${(index % 3) * 70}ms`}>
-          <span class="why-check" aria-hidden="true">✓</span>
-          <h3>{item.title}</h3>
-          <p>{item.text}</p>
+        <article class="why-row" data-reveal style={`--reveal-delay: ${(index % 4) * 60}ms`}>
+          <span class="why-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+          <div class="why-copy">
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </div>
         </article>
       ))}
     </div>
@@ -46,51 +48,62 @@ const items = isNe
 </section>
 
 <style>
-  .why-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(17rem, 100%), 1fr));
-    gap: 1rem;
+  section.section {
+    padding-block: clamp(3.5rem, 7vw, 5.5rem);
   }
 
-  .why-card {
+  .why-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .why-row {
     display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    padding: 1.3rem 1.35rem;
-    border: 1px solid var(--line);
-    background: var(--bg-3);
-    box-shadow: var(--surface-shadow-rest);
-    transition: border-color 220ms var(--ease-premium), transform 220ms var(--ease-premium), box-shadow 220ms var(--ease-premium);
+    gap: 1.1rem;
+    padding: 1.35rem 0;
+    border-bottom: 1px solid var(--line);
+    transition: border-color 220ms var(--ease-premium);
   }
 
-  .why-card:hover {
-    transform: translateY(-0.2rem);
-    border-color: rgba(var(--gold-rgb), 0.65);
-    box-shadow: var(--surface-shadow-hover);
+  .why-index {
+    flex-shrink: 0;
+    width: 2.4rem;
+    color: var(--accent-gold);
+    font-family: var(--font-mono);
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+    transition: color 220ms var(--ease-premium);
   }
 
-  .why-check {
-    display: grid;
-    place-items: center;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    background: linear-gradient(180deg, var(--accent-gold-light), var(--accent-gold-dark));
-    box-shadow: 0 0 0 1px rgba(var(--gold-rgb), 0.3), 0 2px 6px rgba(0, 0, 0, 0.3);
-    color: #17120c;
-    font-weight: 700;
-    font-size: 0.9rem;
+  .why-row:hover .why-index {
+    color: var(--accent-gold-light);
   }
 
-  .why-card h3 {
-    margin: 0.35rem 0 0;
+  .why-copy h3 {
+    margin: 0 0 0.35rem;
     font-size: 0.98rem;
+    letter-spacing: 0.01em;
   }
 
-  .why-card p {
+  .why-copy p {
     margin: 0;
+    max-width: 34ch;
     color: var(--ink-dim);
     font-size: 0.85rem;
     line-height: 1.6;
+  }
+
+  @media (max-width: 40rem) {
+    .why-list {
+      grid-template-columns: 1fr;
+    }
+
+    .why-copy p {
+      max-width: none;
+    }
   }
 </style>

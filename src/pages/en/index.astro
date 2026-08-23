@@ -248,6 +248,15 @@ const featuredResources = resources.slice(0, 3);
 </Base>
 
 <style>
+  /* Homepage-only section rhythm: tighter than the site-wide default so
+     consecutive sections read as a deliberate cadence rather than a
+     uniform void between every block. Scoped to this page by Astro's CSS
+     scoping — does not affect product/resource/application pages, which
+     keep the shared foundation.css default. */
+  .section {
+    padding-block: clamp(3.5rem, 7vw, 5.5rem);
+  }
+
   .catalogue-categories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
