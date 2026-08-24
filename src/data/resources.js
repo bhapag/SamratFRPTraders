@@ -1561,6 +1561,16 @@ export const resources = Object.freeze([
     "icon": "layers",
     "readingTime": "5 min read",
     "publishDate": "2026-07-18",
+    "seo": {
+      "title": "What Is Gel Coat Resin? | FRP Surface Coating Guide",
+      "keywords": [
+        "What is Gel Coat Resin",
+        "Gelcoat Resin",
+        "FRP Gelcoat",
+        "Gel Coat vs Laminating Resin",
+        "Mould-Facing Resin Layer"
+      ]
+    },
     "quickFacts": {
       "Resin Type": "Surface-coating unsaturated polyester resin, thickened and pigmentable",
       "Applied": "First, into the open mould — before lamination begins",
@@ -1950,6 +1960,23 @@ export const resources = Object.freeze([
       "what-is-gp-polyester-resin",
       "how-to-select-polyester-resin-for-frp-manufacturing"
     ],
+    "recommendedLinks": [
+      {
+        "href": "/products/roof-light-resin/",
+        "label": "Roof Light Resin",
+        "description": "The translucent, UV-stabilised grade used for roof-light and skylight sheets."
+      },
+      {
+        "href": "/products/gp-yellow-resin/",
+        "label": "GP Yellow Resin",
+        "description": "A general-purpose grade commonly used for opaque structural roofing sheets."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Polyester Resins",
+        "description": "Browse the full polyester resin range supplied for Nepal."
+      }
+    ],
     "faqs": [
       {
         "q": "What makes FRP roofing sheets different from plain fibreglass sheeting?",
@@ -2051,6 +2078,23 @@ export const resources = Object.freeze([
       "what-is-gp-polyester-resin",
       "what-is-gel-coat-resin",
       "how-to-select-polyester-resin-for-frp-manufacturing"
+    ],
+    "recommendedLinks": [
+      {
+        "href": "/products/gp-clear-resin/",
+        "label": "GP Clear Resin",
+        "description": "The general-purpose polyester grade commonly used for door skin moulding."
+      },
+      {
+        "href": "/products/gp-gelcoat-resin/",
+        "label": "GP Gelcoat Resin",
+        "description": "The mould-facing gel coat used for a consistent, paintable door-skin surface."
+      },
+      {
+        "href": "/products/polyester-resins/",
+        "label": "Polyester Resins",
+        "description": "Browse the full polyester resin range supplied for Nepal."
+      }
     ],
     "faqs": [
       {

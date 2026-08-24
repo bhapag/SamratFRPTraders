@@ -1,6 +1,9 @@
 export default {
   title: "Gel Coat Resin भनेको के हो?",
   description: "FRP build-up मा Gelcoat Resin लाई देखिने, mould-facing surface layer का रूपमा बुझ्नुहोस् र यो laminating resin भन्दा कसरी फरक छ भनेर जान्नुहोस्।",
+  seo: {
+    title: "Gel Coat Resin भनेको के हो? | FRP Surface Coating गाइड"
+  },
   quickFacts: {
     "Resin प्रकार": "Surface-coating unsaturated polyester resin, thickened गरिएको र pigment गर्न मिल्ने",
     "कहिले लगाइन्छ": "पहिले, खुला mould भित्र — lamination सुरु हुनुअघि",

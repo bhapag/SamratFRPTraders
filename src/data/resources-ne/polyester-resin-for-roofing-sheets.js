@@ -7,6 +7,23 @@ export default {
     "मुख्य Additive": "UV stabilisers — बाहिरी exposure मा yellowing र clarity loss ढिलो गर्न",
     "Reinforcement": "Glass fibre mat — जसले sheet लाई यसको rigidity र load-bearing strength दिन्छ"
   },
+  "recommendedLinks": [
+    {
+      "href": "/products/roof-light-resin/",
+      "label": "Roof Light Resin हेर्नुहोस्",
+      "description": "Roof-light र skylight sheets का लागि प्रयोग हुने translucent, UV-stabilised grade।"
+    },
+    {
+      "href": "/products/gp-yellow-resin/",
+      "label": "GP Yellow Resin हेर्नुहोस्",
+      "description": "Opaque structural roofing sheets का लागि प्रायः प्रयोग हुने general-purpose grade।"
+    },
+    {
+      "href": "/products/polyester-resins/",
+      "label": "Polyester Resins अन्वेषण गर्नुहोस्",
+      "description": "नेपालका लागि आपूर्ति गरिने सम्पूर्ण polyester resin दायरा हेर्नुहोस्।"
+    }
+  ],
   "sections": [
     {
       "heading": "FRP Roofing Sheets मा Resin को भूमिका",

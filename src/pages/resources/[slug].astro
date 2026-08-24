@@ -62,7 +62,7 @@ const faqSchema =
       }
     : null;
 ---
-<Base lang="ne" title={view.title} description={view.description}>
+<Base lang="ne" title={view.seo?.title ?? view.title} description={view.seo?.description ?? view.description}>
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Article',

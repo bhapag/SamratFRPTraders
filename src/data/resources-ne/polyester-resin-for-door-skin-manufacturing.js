@@ -7,6 +7,23 @@ export default {
     "Wood को तुलनामा मुख्य फाइदा": "Timber ले जसरी warp, rot वा moisture absorb गर्दैन",
     "सामान्य Textures": "Skin मा सिधै mould गरिएका wood-grain, panelled र flush profiles"
   },
+  "recommendedLinks": [
+    {
+      "href": "/products/gp-clear-resin/",
+      "label": "GP Clear Resin हेर्नुहोस्",
+      "description": "Door skin moulding मा प्रायः प्रयोग हुने general-purpose polyester grade।"
+    },
+    {
+      "href": "/products/gp-gelcoat-resin/",
+      "label": "GP Gelcoat Resin हेर्नुहोस्",
+      "description": "सुसंगत, paintable door-skin सतहका लागि प्रयोग हुने mould-facing gel coat।"
+    },
+    {
+      "href": "/products/polyester-resins/",
+      "label": "Polyester Resins अन्वेषण गर्नुहोस्",
+      "description": "नेपालका लागि आपूर्ति गरिने सम्पूर्ण polyester resin दायरा हेर्नुहोस्।"
+    }
+  ],
   "sections": [
     {
       "heading": "FRP Door Skins भनेको के हो?",

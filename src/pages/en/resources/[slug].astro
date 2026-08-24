@@ -61,7 +61,7 @@ const faqSchema =
       }
     : null;
 ---
-<Base title={resource.title} description={resource.description}>
+<Base title={resource.seo?.title ?? resource.title} description={resource.seo?.description ?? resource.description}>
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Article',
