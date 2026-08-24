@@ -1,6 +1,10 @@
 export default {
   "title": "Roofing Sheets का लागि Polyester Resin",
   "description": "FRP roofing sheets मा polyester resin ले strength, weather resistance र performance कसरी सुधार्छ भन्ने जान्नुहोस्।",
+  "seo": {
+    "title": "FRP Roofing Sheets का लागि Polyester Resin | UV र Grade गाइड",
+    "description": "FRP roofing sheets मा polyester resin कसरी काम गर्छ — UV stabilisation, structural बनाम translucent grade, र कुन Samrat FRP Traders उत्पादन कुन प्रयोगका लागि उपयुक्त छ।"
+  },
   "quickFacts": {
     "सामान्य Process": "Continuous lamination — resin-impregnated reinforcement in-line मा cure गरिन्छ",
     "दुई व्यापक उत्पादनहरू": "Opaque structural sheets र translucent roof-light sheets",

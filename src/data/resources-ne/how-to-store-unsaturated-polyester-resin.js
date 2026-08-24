@@ -1,6 +1,10 @@
 export default {
   title: "Unsaturated Polyester Resin कसरी भण्डारण गर्ने",
   description: "प्रयोग गर्नुअघि भण्डारण, ह्यान्डलिङ र resin गुणस्तर कायम राख्नका लागि उत्तम अभ्यासहरू।",
+  seo: {
+    title: "Unsaturated Polyester Resin कसरी भण्डारण गर्ने | Shelf Life गाइड",
+    description: "Unsaturated polyester resin भण्डारणका उत्तम अभ्यास — तापक्रम, shelf life, र किन resin र MEKP catalyst कहिल्यै सँगै भण्डारण गर्नु हुँदैन।",
+  },
   quickFacts: {
     "भण्डारण गर्नुहोस्": "चिसो, सुख्खा, राम्रो हावा-प्रवाह भएको ठाउँमा, घाम र तापका स्रोतहरूबाट टाढा",
     "राख्नुहोस्": "प्रयोगमा नभएको बेला drums राम्ररी सील गरेर राख्नुहोस्",

@@ -1,6 +1,10 @@
 export default {
   "title": "GP Polyester Resin का प्रयोगहरू",
   "description": "GP Polyester Resin FRP, निर्माण, marine र industrial manufacturing मा सामान्यतया कहाँ प्रयोग हुन्छ भनी अन्वेषण गर्नुहोस्।",
+  "seo": {
+    "title": "GP Polyester Resin का प्रयोगहरू | FRP उपयोग र क्षेत्रहरू",
+    "description": "GP Polyester Resin कहाँ प्रयोग हुन्छ — पानी ट्यांकी, roofing sheets, door skins र industrial mouldingहरूमा — र कहिले फरक grade उपयुक्त हुन्छ।"
+  },
   "quickFacts": {
     "मुख्य भूमिका": "Glass-fibre-reinforced (FRP) components का लागि laminating resin",
     "सबैभन्दा व्यापक प्रयोग क्षेत्रहरू": "Water tanks, roofing sheets, door skins, industrial mouldings",

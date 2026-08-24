@@ -1,6 +1,10 @@
 export default {
   "title": "Door Skin निर्माणका लागि Polyester Resin",
   "description": "बलियो र हल्का FRP door skins उत्पादनमा polyester resin को भूमिका बुझ्नुहोस्।",
+  "seo": {
+    "title": "FRP Door Skin का लागि Polyester Resin | Grade र Gelcoat गाइड",
+    "description": "FRP door skin moulding मा polyester resin को भूमिका — सामान्य GP grade, gel coat finishing, र FRP ले timber भन्दा किन कम warp हुन्छ।"
+  },
   "quickFacts": {
     "यो के हो": "Door को core structure माथि bond वा fit गरिएको moulded FRP facing",
     "सामान्य Resin": "GP polyester resin, प्रायः surface finish का लागि gel coat सँग जोडिन्छ",

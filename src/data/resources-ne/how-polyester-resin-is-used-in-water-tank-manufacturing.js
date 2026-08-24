@@ -1,6 +1,10 @@
 export default {
   title: "Water Tank निर्माणमा Polyester Resin कसरी प्रयोग हुन्छ",
   description: "टिकाउ FRP पानी भण्डारण ट्यांकहरू निर्माणमा polyester resin किन व्यापक रूपमा प्रयोग हुन्छ भनी जान्नुहोस्।",
+  seo: {
+    title: "FRP पानी ट्यांकीमा Polyester Resin कसरी प्रयोग हुन्छ | गाइड",
+    description: "GP polyester resin ले FRP पानी भण्डारण ट्यांकी कसरी बनाउँछ — resin को भूमिका, सामान्य grade, reinforcement र अर्डरअघि जाँच्नुपर्ने कुराहरू।",
+  },
   quickFacts: {
     "सामान्य Resin Grades": "सामान्य प्रयोगका लागि GP resin; उच्च पानी/chemical resistance का लागि isophthalic",
     "Reinforcement": "Glass fibre — सामान्यतया chopped strand mat र woven roving",

@@ -1175,6 +1175,10 @@ export const resources = Object.freeze([
     "icon": "grid",
     "readingTime": "6 min read",
     "publishDate": "2026-07-18",
+    "seo": {
+      "title": "GP Polyester Resin Applications | FRP Uses & Industries",
+      "description": "Where GP Polyester Resin is used across FRP manufacturing — water tanks, roofing sheets, door skins and industrial mouldings — and when a different grade fits better."
+    },
     "quickFacts": {
       "Primary Role": "Laminating resin for glass-fibre-reinforced (FRP) components",
       "Broadest Use Cases": "Water tanks, roofing sheets, door skins, industrial mouldings",
@@ -1794,6 +1798,10 @@ export const resources = Object.freeze([
     "icon": "tank",
     "readingTime": "6 min read",
     "publishDate": "2026-07-18",
+    "seo": {
+      "title": "How Polyester Resin Is Used in FRP Water Tanks | Guide",
+      "description": "How GP polyester resin builds FRP water storage tanks — resin's role, common grades, reinforcement and what to check before ordering."
+    },
     "quickFacts": {
       "Common Resin Grades": "GP resin for general use; isophthalic for higher water/chemical resistance",
       "Reinforcement": "Glass fibre — typically chopped strand mat and woven roving",
@@ -1950,6 +1958,10 @@ export const resources = Object.freeze([
     "icon": "roof",
     "readingTime": "5 min read",
     "publishDate": "2026-07-18",
+    "seo": {
+      "title": "Polyester Resin for FRP Roofing Sheets | UV & Grade Guide",
+      "description": "How polyester resin performs in FRP roofing sheets — UV stabilisation, structural vs translucent grades, and which Samrat FRP Traders product fits each."
+    },
     "quickFacts": {
       "Typical Process": "Continuous lamination — resin-impregnated reinforcement cured in-line",
       "Two Broad Products": "Opaque structural sheets and translucent roof-light sheets",
@@ -2068,6 +2080,10 @@ export const resources = Object.freeze([
     "icon": "door",
     "readingTime": "5 min read",
     "publishDate": "2026-07-18",
+    "seo": {
+      "title": "Polyester Resin for FRP Door Skins | Grade & Gelcoat Guide",
+      "description": "The role of polyester resin in moulding FRP door skins — typical GP grade, gel coat finishing, and why FRP resists warping better than timber."
+    },
     "quickFacts": {
       "What It Is": "A moulded FRP facing bonded or fitted over a door's core structure",
       "Typical Resin": "GP polyester resin, often paired with gel coat for surface finish",
@@ -2313,6 +2329,10 @@ export const resources = Object.freeze([
     "icon": "drum",
     "readingTime": "4 min read",
     "publishDate": "2026-07-18",
+    "seo": {
+      "title": "How to Store Unsaturated Polyester Resin | Shelf Life Guide",
+      "description": "Storage best practices for unsaturated polyester resin — temperature, shelf life and why resin and MEKP catalyst must never be stored together."
+    },
     "quickFacts": {
       "Store": "Cool, dry, well-ventilated area, away from sunlight and heat sources",
       "Keep": "Drums tightly sealed when not in use",
