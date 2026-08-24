@@ -1,25 +1,23 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "redirects": [
-    {
-      "source": "/products/unsaturated-polyester-resin/",
-      "destination": "/products/polyester-resins/",
-      "statusCode": 301
-    },
-    {
-      "source": "/ne",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
-      "source": "/ne/:path*",
-      "destination": "/:path*",
-      "statusCode": 301
-    }
-  ],
   "routes": [
+    {
+      "src": "^/products/unsaturated-polyester-resin/?$",
+      "status": 301,
+      "headers": { "Location": "/products/polyester-resins/" }
+    },
+    {
+      "src": "^/ne/?$",
+      "status": 301,
+      "headers": { "Location": "/" }
+    },
+    {
+      "src": "^/ne/(.*)$",
+      "status": 301,
+      "headers": { "Location": "/$1" }
+    },
     { "handle": "filesystem" },
-    { "src": "/en/(.*)", "status": 404, "dest": "/en/404/index.html" },
-    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
+    { "src": "^/en/(.*)$", "status": 404, "dest": "/en/404/index.html" },
+    { "src": "^/(.*)$", "status": 404, "dest": "/404.html" }
   ]
 }
