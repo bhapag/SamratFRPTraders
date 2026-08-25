@@ -40,6 +40,9 @@ const sdsLocal = localDocUrl(sds);
 const highlights = product.technicalHighlights ?? [];
 const evidence = product.technicalEvidenceStatus === 'verified';
 const canonicalUrl = buildCanonicalUrl(Astro.url.pathname);
+const productImageAlt = isNe
+  ? `${product.name} — Samrat FRP Traders द्वारा नेपालमा आपूर्ति गरिएको उत्पादन`
+  : `${product.name} supplied by Samrat FRP Traders in Nepal`;
 
 const t = isNe
   ? {
@@ -175,14 +178,25 @@ const faqSchema =
 
 <div class="product-top" data-reveal>
   <div class="product-media">
-    <div
-      class="media-frame"
-      role="img"
-      aria-label={isNe ? 'उत्पादन फोटोको लागि आरक्षित क्षेत्र' : 'Reserved product photography area'}
-    >
-      <img class="media-mark" src="/brand/samrat-frp-traders-mark.png" alt="" width="320" height="320" />
-      <p class="media-note">{t.mediaNote}</p>
-    </div>
+    {product.image ? (
+      <div class="media-frame media-frame-photo">
+        <img
+          class="media-photo"
+          src={`/images/products/${product.image}`}
+          alt={productImageAlt}
+          loading="eager"
+        />
+      </div>
+    ) : (
+      <div
+        class="media-frame"
+        role="img"
+        aria-label={isNe ? 'उत्पादन फोटोको लागि आरक्षित क्षेत्र' : 'Reserved product photography area'}
+      >
+        <img class="media-mark" src="/brand/samrat-frp-traders-mark.png" alt="" width="320" height="320" />
+        <p class="media-note">{t.mediaNote}</p>
+      </div>
+    )}
   </div>
 
   <div class="product-actions">
@@ -466,6 +480,24 @@ const faqSchema =
     border: 1px solid var(--line);
     background: linear-gradient(160deg, var(--bg-3), var(--bg));
     text-align: center;
+  }
+
+  /* Verified real product photography: same reserved frame, but the
+     photo fills it edge-to-edge (object-fit: cover handles any aspect
+     mismatch — never stretched, never upscaled beyond source resolution). */
+  .media-frame-photo {
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    background: var(--bg-3);
+  }
+
+  .media-photo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   .media-mark {

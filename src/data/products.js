@@ -125,6 +125,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'GP Clear Resin',
     slug: 'gp-clear-resin',
+    image: 'gp-clear-resin.jpg',
     group: 'polyester-resins',
     tier: 'A',
     titleInput: 'GP Clear Resin \u2014 Nepal Supplier',
@@ -170,6 +171,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'GP White Resin',
     slug: 'gp-white-resin',
+    image: 'gp-white-resin.jpg',
     group: 'polyester-resins',
     tier: 'B',
     titleInput: 'GP White Resin \u2014 Nepal Supplier',
@@ -208,6 +210,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'GP Quartz Resin',
     slug: 'gp-quartz-resin',
+    image: 'gp-quartz-resin.jpg',
     group: 'polyester-resins',
     tier: 'B',
     titleInput: 'GP Quartz Resin \u2014 Nepal Supplier',
@@ -247,6 +250,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Button Grade Resin',
     slug: 'button-grade-resin',
+    image: 'button-grade-resin.jpg',
     group: 'polyester-resins',
     tier: 'C',
     titleInput: 'Button Grade Resin \u2014 Nepal Supplier',
@@ -284,6 +288,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'GP Yellow Resin',
     slug: 'gp-yellow-resin',
+    image: 'gp-yellow-resin.jpg',
     group: 'polyester-resins',
     tier: 'C',
     titleInput: 'GP Yellow Resin \u2014 Nepal Supplier',
@@ -324,6 +329,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Sheet Grade Yellow Resin',
     slug: 'sheet-grade-yellow-resin',
+    image: 'sheet-grade-yellow-resin.jpg',
     group: 'sheet-grade-resins',
     tier: 'B',
     titleInput: 'Sheet Grade Yellow Resin \u2014 Nepal Supplier',
@@ -362,6 +368,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Roof Light Resin',
     slug: 'roof-light-resin',
+    image: 'roof-light-resin.jpg',
     group: 'sheet-grade-resins',
     tier: 'B',
     titleInput: 'Roof Light Resin \u2014 Nepal Supplier',
@@ -404,6 +411,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'GP Gelcoat Resin',
     slug: 'gp-gelcoat-resin',
+    image: 'gp-gelcoat-resin.jpg',
     group: 'gelcoat',
     tier: 'A',
     titleInput: 'GP Gelcoat Resin \u2014 Nepal Supplier',
@@ -444,6 +452,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Fire Retardant Resin',
     slug: 'fire-retardant-resin',
+    image: 'fire-retardant-resin.jpg',
     group: 'fire-retardant-resins',
     tier: 'B',
     titleInput: 'Fire Retardant Resin \u2014 Nepal Supplier',
@@ -482,6 +491,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'ISO Fire Retardant Resin',
     slug: 'iso-fire-retardant-resin',
+    image: 'iso-fire-retardant-resin.jpg',
     group: 'fire-retardant-resins',
     tier: 'C',
     titleInput: 'ISO Fire Retardant Resin \u2014 Nepal Supplier',
@@ -524,6 +534,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'FRP Polyester Pigment',
     slug: 'frp-polyester-pigment',
+    image: 'frp-polyester-pigment.jpg',
     group: 'frp-allied-products',
     tier: 'B',
     titleInput: 'FRP Polyester Pigment \u2014 Nepal Supplier',
@@ -562,6 +573,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Glass Fiber Mat',
     slug: 'glass-fiber-mat',
+    image: 'glass-fiber-mat.jpg',
     group: 'frp-allied-products',
     tier: 'A',
     titleInput: 'Glass Fiber Mat \u2014 Nepal Supplier',
@@ -602,6 +614,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Clear Casting Resin',
     slug: 'clear-casting-resin',
+    image: 'clear-casting-resin.jpg',
     group: 'epoxy-casting-resins',
     tier: 'C',
     titleInput: 'Clear Casting Resin \u2014 Nepal Supplier',
@@ -640,6 +653,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Epoxy Art Resin',
     slug: 'epoxy-art-resin',
+    image: 'epoxy-art-resin.jpg',
     group: 'epoxy-casting-resins',
     tier: 'C',
     titleInput: 'Epoxy Art Resin \u2014 Nepal Supplier',
@@ -675,6 +689,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'UV Resin',
     slug: 'uv-resin',
+    image: 'uv-resin.jpg',
     group: 'epoxy-casting-resins',
     tier: 'C',
     titleInput: 'UV Resin \u2014 Nepal Supplier',
@@ -711,6 +726,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Epoxy Hardener',
     slug: 'epoxy-hardener',
+    image: 'epoxy-hardener.jpg',
     group: 'epoxy-casting-resins',
     tier: 'B',
     titleInput: 'Epoxy Hardener \u2014 Nepal Supplier',
@@ -753,6 +769,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'DMC/SMC Resin',
     slug: 'dmc-smc-resin',
+    image: 'dmc-smc-resin.jpg',
     group: 'industrial-specialty-resins',
     tier: 'C',
     titleInput: 'DMC/SMC Resin \u2014 Nepal Supplier',
@@ -792,6 +809,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Polyester Putty Resin',
     slug: 'polyester-putty-resin',
+    image: 'polyester-putty-resin.jpg',
     group: 'industrial-specialty-resins',
     tier: 'C',
     titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
@@ -831,6 +849,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Marble Resin',
     slug: 'marble-resin',
+    image: 'marble-resin.jpg',
     group: 'industrial-specialty-resins',
     tier: 'B',
     titleInput: 'Marble Resin \u2014 Nepal Supplier',
@@ -870,6 +889,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Vinyl Ester Resin',
     slug: 'vinyl-ester-resin',
+    image: 'vinyl-ester-resin.jpg',
     group: 'industrial-specialty-resins',
     tier: 'C',
     titleInput: 'Vinyl Ester Resin \u2014 Nepal Supplier',
@@ -911,6 +931,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Fiberglass Epoxy Resin',
     slug: 'fiberglass-epoxy-resin',
+    image: 'fiberglass-epoxy-resin.jpg',
     group: 'industrial-specialty-resins',
     tier: 'B',
     titleInput: 'Fiberglass Epoxy Resin \u2014 Nepal Supplier',
@@ -956,6 +977,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Bisphenol Resin',
     slug: 'bisphenol-resin',
+    image: 'bisphenol-resin.jpg',
     group: 'industrial-specialty-resins',
     tier: 'C',
     titleInput: 'Bisphenol Resin \u2014 Nepal Supplier',
@@ -998,6 +1020,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'MEKP Hardener',
     slug: 'mekp-hardener',
+    image: 'mekp-hardener.jpg',
     group: 'hardeners-catalysts',
     tier: 'A',
     titleInput: 'MEKP Hardener \u2014 Nepal Supplier',
