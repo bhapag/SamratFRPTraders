@@ -1,10 +1,11 @@
 export default {
   en: {
-    seoTitle: "GP Clear Resin in Nepal",
-    seoDescription: "GP Clear Resin is Samrat Poly Resins' published clear orthophthalic unsaturated polyester resin, supplied and imported for Nepal by Samrat FRP Traders.",
+    seoTitle: "GP Clear Resin (Unsaturated Polyester Resin) Nepal",
+    seoDescription: "GP Clear Resin — also sold as Unsaturated Polyester Resin (UPR) — is Samrat Poly Resins' clear orthophthalic UPR grade, supplied and imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports GP Clear Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies GP Clear Resin as its published standard clear orthophthalic unsaturated polyester resin grade for everyday FRP and composite manufacturing.",
-      "Unsaturated polyester resin (UPR) is the broader polyester resin family, and GP Clear Resin is one specific orthophthalic grade within it. It is supplied as a non-accelerated liquid, which means the workshop doses an MEKP catalyst and a cobalt octoate accelerator to suit its own conditions, then cures at room temperature.",
+      "Unsaturated polyester resin (UPR) is the broader resin family, and GP Clear Resin is Samrat Poly Resins' standard grade within it. For buyers specifically searching for \"Unsaturated Polyester Resin\" or \"UPR\", Samrat Poly Resins' own product documentation confirms GP Clear Resin is supplied as exactly that formulation — sold under both the branded name GP Clear Resin and the generic commercial description Unsaturated Polyester Resin, for customers who order it either way.",
+      "It is supplied as a non-accelerated liquid, which means the workshop doses an MEKP catalyst and a cobalt octoate accelerator to suit its own conditions, then cures at room temperature.",
       "The supplier documentation lists a clear liquid appearance, viscosity of 350\u2013450 cPs, a gel time under 8 minutes, 33\u201340% styrene content, 99% purity and a cure time of 45 minutes to 1.5 hours. Lower viscosity generally helps the resin wet out glass fibre reinforcement quickly, which is useful across hand layup, spray-up, moulding and lamination.",
       "Samrat FRP Traders can help Nepal buyers confirm whether GP Clear Resin fits their water tank, roofing, sanitaryware, panel or general FRP project. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page.",
     ],
@@ -21,8 +22,16 @@ export default {
         title: "Published values",
         text: "Supplier documentation lists 350\u2013450 cPs viscosity, under 8 minutes gel time, 33\u201340% styrene content, 99% purity and 45-minute to 1.5-hour cure. These are processing data, not guarantees for a finished part.",
       },
+      {
+        title: "Also sold as Unsaturated Polyester Resin",
+        text: "Samrat Poly Resins' documentation confirms GP Clear Resin is the same formulation sold generically as \"Unsaturated Polyester Resin\" (UPR). If you were quoted, or are searching, for UPR specifically, this is the matching grade.",
+      },
     ],
     faqs: [
+      {
+        q: "Is GP Clear Resin the same as Unsaturated Polyester Resin (UPR)?",
+        a: "Yes. Samrat Poly Resins' documentation confirms GP Clear Resin is the same base formulation supplied under the generic commercial description \"Unsaturated Polyester Resin.\" Some customers order it under the GP Clear Resin brand name, others as generic UPR \u2014 both refer to the same product.",
+      },
       {
         q: "What is GP Clear Resin?",
         a: "GP Clear Resin is a clear orthophthalic unsaturated polyester resin. Current Samrat Poly Resins, India documentation identifies it as its published standard general-purpose grade for hand layup, spray-up, moulding and lamination. Samrat FRP Traders supplies and imports it for Nepal.",
@@ -63,11 +72,12 @@ export default {
     ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Clear Resin",
-    seoDescription: "GP Clear Resin Samrat Poly Resins \u0915\u094b \u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 standard clear orthophthalic unsaturated polyester resin grade \u0939\u094b, \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
+    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP Clear Resin (Unsaturated Polyester Resin)",
+    seoDescription: "GP Clear Resin \u2014 Unsaturated Polyester Resin (UPR) \u092d\u0928\u0947\u0930 \u092a\u0928\u093f \u092c\u093f\u0915\u094d\u0930\u0940 \u0939\u0941\u0928\u0947 \u2014 Samrat Poly Resins \u0915\u094b clear orthophthalic UPR grade \u0939\u094b, \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
     intro: [
       "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f GP Clear Resin \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP Clear Resin \u0932\u093e\u0908 \u0926\u0948\u0928\u093f\u0915 FRP \u0930 composite \u0928\u093f\u0930\u094d\u092e\u093e\u0923\u0915\u093e \u0932\u093e\u0917\u093f \u092f\u0938\u0915\u094b \u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 standard clear orthophthalic unsaturated polyester resin grade \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
-      "Unsaturated polyester resin (UPR) \u0935\u094d\u092f\u093e\u092a\u0915 polyester resin \u092a\u0930\u093f\u0935\u093e\u0930 \u0939\u094b, \u0930 GP Clear Resin \u0924\u094d\u092f\u0938\u094d\u092d\u093f\u0924\u094d\u0930\u0915\u094b \u090f\u0909\u091f\u093e orthophthalic grade \u0939\u094b\u0964 \u092f\u094b non-accelerated liquid \u0939\u094b \u2014 workshop \u0932\u0947 \u0906\u092b\u094d\u0928\u0948 \u0905\u0935\u0938\u094d\u0925\u093e \u0905\u0928\u0941\u0938\u093e\u0930 MEKP catalyst \u0930 cobalt octoate accelerator \u0915\u094b \u092e\u093e\u0924\u094d\u0930\u093e \u092e\u093f\u0932\u093e\u090f\u0930 room temperature \u092e\u093e cure \u0917\u0930\u094d\u0926\u091b\u0964",
+      "Unsaturated Polyester Resin (UPR) \u0935\u094d\u092f\u093e\u092a\u0915 resin family \u0939\u094b, \u0930 GP Clear Resin \u092f\u0938\u092d\u093f\u0924\u094d\u0930\u0915\u094b Samrat Poly Resins \u0915\u094b standard grade \u0939\u094b\u0964 \u091c\u0938\u0932\u0947 \u0916\u093e\u0938 \u0917\u0930\u0940 \"Unsaturated Polyester Resin\" \u0935\u093e \"UPR\" \u0916\u094b\u091c\u094d\u0926\u0948 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u091b, Samrat Poly Resins \u0915\u094b \u0906\u092b\u094d\u0928\u0948 \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 \u092f\u094b \u092a\u0941\u0937\u094d\u091f\u093f \u0917\u0930\u094d\u091b \u0915\u093f GP Clear Resin \u0928\u0948 \u0924\u094d\u092f\u094b \u092b\u0930\u094d\u092e\u0941\u0932\u0947\u0936\u0928 \u0939\u094b \u2014 \u092f\u094b brand \u0928\u093e\u092e GP Clear Resin \u0930 generic commercial \u0935\u093f\u0935\u0930\u0923 Unsaturated Polyester Resin \u0926\u0941\u0935\u0948\u0905\u0928\u094d\u0924\u0930\u094d\u0917\u0924 \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0939\u0941\u0928\u094d\u091b, \u091c\u0938\u0930\u0940 \u0917\u094d\u0930\u093e\u0939\u0915\u0932\u0947 \u0905\u0930\u094d\u0921\u0930 \u0917\u0930\u094d\u0928\u0941\u0939\u0941\u0928\u094d\u091b\u0964",
+      "\u092f\u094b non-accelerated liquid \u0939\u094b \u2014 workshop \u0932\u0947 \u0906\u092b\u094d\u0928\u0948 \u0905\u0935\u0938\u094d\u0925\u093e \u0905\u0928\u0941\u0938\u093e\u0930 MEKP catalyst \u0930 cobalt octoate accelerator \u0915\u094b \u092e\u093e\u0924\u094d\u0930\u093e \u092e\u093f\u0932\u093e\u090f\u0930 room temperature \u092e\u093e cure \u0917\u0930\u094d\u0926\u091b\u0964",
       "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 clear liquid appearance, 350\u2013450 cPs viscosity, 8 \u092e\u093f\u0928\u0947\u091f\u092d\u0928\u094d\u0926\u093e \u0915\u092e gel time, 33\u201340% styrene content, 99% purity \u0930 45 \u092e\u093f\u0928\u0947\u091f\u0926\u0947\u0916\u093f 1.5 \u0918\u0923\u094d\u091f\u093e cure time \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964 \u092f\u0940 \u092a\u094d\u0930\u0936\u094b\u0927\u0928 \u0924\u0925\u094d\u092f\u093e\u0919\u094d\u0915 \u0939\u0941\u0928\u094d\u0964 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u093e\u0932\u0915\u094b \u092e\u0942\u0932\u094d\u092f, \u0909\u092a\u0932\u092c\u094d\u0927\u0924\u093e \u0930 \u092a\u094d\u092f\u093e\u0915\u0947\u091c\u093f\u0919 \u0935\u093f\u0915\u0932\u094d\u092a\u0915\u093e \u0932\u093e\u0917\u093f \u0938\u092e\u094d\u092a\u0930\u094d\u0915 \u092a\u0943\u0937\u094d\u0920\u092c\u093e\u091f \u0938\u094b\u0927\u092a\u0941\u091b \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964",
     ],
     buyerNotes: [
@@ -83,8 +93,16 @@ export default {
         title: "\u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 \u092e\u093e\u0928\u0939\u0930\u0942",
         text: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 350\u2013450 cPs viscosity, 8 \u092e\u093f\u0928\u0947\u091f\u092d\u0928\u094d\u0926\u093e \u0915\u092e gel time, 33\u201340% styrene content \u0930 99% purity \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964 \u092f\u0940 \u092a\u094d\u0930\u0936\u094b\u0927\u0928 \u0921\u0947\u091f\u093e \u0939\u0941\u0928\u094d, \u0917\u094d\u092f\u093e\u0930\u0947\u0923\u094d\u091f\u0940 \u0939\u094b\u0907\u0928\u0928\u094d\u0964",
       },
+      {
+        title: "Unsaturated Polyester Resin \u092d\u0928\u0947\u0930 \u092a\u0928\u093f \u092c\u093f\u0915\u094d\u0930\u0940 \u0939\u0941\u0928\u094d\u091b",
+        text: "Samrat Poly Resins \u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP Clear Resin \u0932\u093e\u0908 \u0928\u0948 generic \u0930\u0942\u092a\u092e\u093e \"Unsaturated Polyester Resin (UPR)\" \u092d\u0928\u0947\u0930 \u092c\u0947\u091a\u093f\u0928\u0947 \u0909\u0939\u0940 formulation \u092d\u090f\u0915\u094b \u092a\u0941\u0937\u094d\u091f\u093f \u0917\u0930\u094d\u091b\u0964 \u092f\u0926\u093f \u0924\u092a\u093e\u0908\u0902\u0932\u093e\u0908 UPR \u092d\u0928\u0947\u0930 quote \u0917\u0930\u093f\u090f\u0915\u094b \u0935\u093e \u0916\u094b\u091c\u094d\u0926\u0948 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u091b \u092d\u0928\u0947, \u092f\u0939\u0940 grade \u092e\u093f\u0932\u094d\u0926\u094b \u0939\u094b\u0964",
+      },
     ],
     faqs: [
+      {
+        q: "\u0915\u0947 GP Clear Resin \u0930 Unsaturated Polyester Resin (UPR) \u0909\u0938\u094d\u0924\u0948 \u0939\u094b?",
+        a: "\u0939\u094b\u0964 Samrat Poly Resins \u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP Clear Resin \u0932\u093e\u0908 \u0928\u0948 generic commercial \u0935\u093f\u0935\u0930\u0923 \"Unsaturated Polyester Resin\" \u0905\u0928\u094d\u0924\u0930\u094d\u0917\u0924 \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0939\u0941\u0928\u0947 \u0909\u0939\u0940 \u0906\u0927\u093e\u0930 formulation \u092d\u090f\u0915\u094b \u092a\u0941\u0937\u094d\u091f\u093f \u0917\u0930\u094d\u091b \u2014 \u0915\u0947\u0939\u0940 \u0917\u094d\u0930\u093e\u0939\u0915\u0932\u0947 GP Clear Resin brand \u0928\u093e\u092e\u092c\u093e\u091f \u0905\u0930\u094d\u0921\u0930 \u0917\u0930\u094d\u0928\u0941\u0939\u0941\u0928\u094d\u091b, \u0915\u0947\u0939\u0940\u0932\u0947 generic UPR \u092d\u0928\u0947\u0930; \u0926\u0941\u0935\u0948\u0932\u0947 \u0909\u0939\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u0932\u093e\u0908 \u091c\u0928\u093e\u0909\u0901\u091b\u0964",
+      },
       {
         q: "GP Clear Resin \u092d\u0928\u0947\u0915\u094b \u0915\u0947 \u0939\u094b?",
         a: "GP Clear Resin \u090f\u0909\u091f\u093e clear orthophthalic unsaturated polyester resin \u0939\u094b\u0964 Samrat Poly Resins, India \u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 \u092f\u0938\u0932\u093e\u0908 hand layup, spray-up, moulding \u0930 lamination \u0915\u093e \u0932\u093e\u0917\u093f standard general-purpose grade \u092d\u0928\u0940 \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",

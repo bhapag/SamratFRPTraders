@@ -1,7 +1,11 @@
 // Centralized product catalogue — Samrat FRP Traders Nepal.
 //
 // Source of truth for the locked Group 2 / 2.1 architecture:
-//   - 24 commercial products across 8 groups, plus one retired legacy UPR route.
+//   - 25 commercial products across 8 groups. Unsaturated Polyester Resin is a real
+//     standalone product page — supplier documentation confirms it is the generic
+//     commercial description for the GP Clear Resin grade in this same catalogue;
+//     the two entries deliberately carry distinct content and cross-link rather
+//     than duplicate each other.
 //   - Exactly 2 indexable category groups (Polyester Resins, Epoxy & Casting Resins);
 //     the other 6 groups are navigation-only (no category URL).
 //   - Flat permanent product URLs: /products/{slug}/.
@@ -13,22 +17,30 @@
 // OPTIONAL per-product evidence fields (Wave 4A infrastructure).
 // Absent = the product renders as a safe structural shell.
 //
-//   images                { primary, secondary? }  Owner-supplied product photography.
-//                                    Each entry is { src, width, height } — `src` is the
-//                                    filename in public/images/products/, `width`/`height`
-//                                    are the file's real intrinsic pixel dimensions (used to
-//                                    render each image at its own natural aspect ratio and
-//                                    to reserve layout space before it loads — get these
-//                                    from the actual file, never guess or reuse another
-//                                    image's numbers). `primary` is the main/hero image;
-//                                    `secondary` (optional) is a smaller supporting shot.
-//                                    Absent = the reserved-placeholder media frame renders
-//                                    instead. Alt text is generated from the product name,
-//                                    not stored per-image.
+//   images                [{ src, width, height }, ...]  Owner-supplied product photography,
+//                                    in display order. `src` is the filename in
+//                                    public/images/products/; `width`/`height` are the
+//                                    file's real intrinsic pixel dimensions (used to render
+//                                    each image at its own natural aspect ratio and to
+//                                    reserve layout space before it loads — get these from
+//                                    the actual file, never guess or reuse another image's
+//                                    numbers). images[0] is the primary/default image; any
+//                                    further entries become gallery thumbnails (click/tap to
+//                                    switch, swipe on touch, arrow keys on desktop). Absent
+//                                    or empty = the reserved-placeholder media frame renders
+//                                    instead; a single entry renders as one plain image with
+//                                    no gallery controls. Alt text is generated from the
+//                                    product name, not stored per-image.
 //   titleInput            string   Base title input override (brand appended by the layout).
 //   metaDescription       string   Candidate-final meta description (never contains
 //                                    unverified commercial terms).
 //   descriptor            string   Evidence-backed one-line product identity.
+//   alternateName          string   A second commercial name the supplier documents for the
+//                                    exact same formulation (e.g. a generic commercial
+//                                    description alongside the branded name). Verified only —
+//                                    never a guess at synonyms. Surfaces in Product JSON-LD as
+//                                    `alternateName` so search engines can match both names to
+//                                    one page instead of the site fielding two competing pages.
 //   overview              string   Substantive, procurement-oriented overview paragraph.
 //   technicalHighlights   [{ label, value }]  Verified buyer-relevant technical facts.
 //                                    No arbitrary length rule; only useful facts.
@@ -97,10 +109,49 @@ export const catalogGroups = Object.freeze([
 export const products = Object.freeze([
   // Polyester Resins
   Object.freeze({
+    name: 'Unsaturated Polyester Resin',
+    slug: 'unsaturated-polyester-resin',
+    group: 'polyester-resins',
+    tier: 'A',
+    images: Object.freeze([
+      Object.freeze({ src: 'unsaturated-polyester-resin-primary.webp', width: 700, height: 698 }),
+      Object.freeze({ src: 'unsaturated-polyester-resin-secondary.webp', width: 700, height: 696 }),
+    ]),
+    alternateName: 'UPR',
+    titleInput: 'Unsaturated Polyester Resin (UPR) — Nepal Supplier',
+    metaDescription:
+      'Unsaturated Polyester Resin (UPR) supplied and imported for Nepal by Samrat FRP Traders. Samrat Poly Resins’ documentation confirms this generic commercial description corresponds to GP Clear Resin, the grade in this catalogue backed by full technical documentation.',
+    descriptor:
+      'The general commercial/family term for this resin class — Samrat Poly Resins’ documentation confirms it corresponds to GP Clear Resin, the specific grade in this catalogue.',
+    overview:
+      'Unsaturated Polyester Resin (UPR) is the general commercial and chemical-family term for this resin class. Current Samrat Poly Resins, India documentation confirms that the formulation supplied under this generic description corresponds to GP Clear Resin — the specific grade in this catalogue, with its own full technical data sheet.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-GCR',
+        revision: 'Rev. 01',
+        date: 'July 2026',
+        url: 'https://samratpolyresins.in/tds/gp-clear-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/gp-clear-resin-sds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
     name: 'Lamination Resin',
     slug: 'lamination-resin',
     group: 'polyester-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'lamination-resin-primary.webp', width: 700, height: 688 }),
+      Object.freeze({ src: 'lamination-resin-secondary.webp', width: 700, height: 700 }),
+    ]),
     titleInput: 'Lamination Resin \u2014 Nepal Supplier',
     metaDescription:
       'Lamination Resin (LR Resin) \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -139,17 +190,18 @@ export const products = Object.freeze([
     slug: 'gp-clear-resin',
     group: 'polyester-resins',
     tier: 'A',
-    images: Object.freeze({
-      primary: Object.freeze({ src: 'gp-clear-resin-primary.jpg', width: 1178, height: 1157 }),
-      secondary: Object.freeze({ src: 'gp-clear-resin-secondary.jpg', width: 1178, height: 1169 }),
-    }),
+    images: Object.freeze([
+      Object.freeze({ src: 'gp-clear-resin-primary.jpg', width: 1178, height: 1157 }),
+      Object.freeze({ src: 'gp-clear-resin-secondary.jpg', width: 1178, height: 1169 }),
+    ]),
     titleInput: 'GP Clear Resin \u2014 Nepal Supplier',
+    alternateName: 'Unsaturated Polyester Resin (UPR)',
     metaDescription:
-      'GP Clear Resin is Samrat Poly Resins\u2019 published standard clear orthophthalic unsaturated polyester resin grade, supplied and imported for Nepal by Samrat FRP Traders.',
+      'GP Clear Resin \u2014 also supplied under the generic commercial description "Unsaturated Polyester Resin" (UPR) \u2014 is Samrat Poly Resins\u2019 published standard clear orthophthalic UPR grade, supplied and imported for Nepal by Samrat FRP Traders.',
     descriptor:
-      'Samrat Poly Resins\u2019 published standard clear orthophthalic unsaturated polyester resin grade.',
+      'Samrat Poly Resins\u2019 published standard clear orthophthalic unsaturated polyester resin (UPR) grade \u2014 also supplied under the generic commercial description "Unsaturated Polyester Resin."',
     overview:
-      'Current Samrat Poly Resins, India documentation identifies GP Clear Resin as its published standard clear orthophthalic unsaturated polyester resin grade. Unsaturated polyester resin (UPR) is the broader polyester resin family, represented by several grades in the Polyester Resins category \u2014 GP Clear Resin is one specific grade within that family.',
+      'Current Samrat Poly Resins, India documentation identifies GP Clear Resin as its published standard clear orthophthalic unsaturated polyester resin grade. Unsaturated polyester resin (UPR) is the broader polyester resin family, represented by several grades in the Polyester Resins category \u2014 GP Clear Resin is one specific grade within that family, and the supplier\u2019s own documentation confirms it is the exact formulation sold under the generic commercial description "Unsaturated Polyester Resin."',
     technicalHighlights: Object.freeze([
       Object.freeze({ label: 'Appearance', value: 'Clear liquid' }),
       Object.freeze({ label: 'Viscosity', value: '350\u2013450 cPs' }),
@@ -188,6 +240,10 @@ export const products = Object.freeze([
     slug: 'gp-white-resin',
     group: 'polyester-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'gp-white-resin-primary.webp', width: 700, height: 717 }),
+      Object.freeze({ src: 'gp-white-resin-secondary.webp', width: 700, height: 875 }),
+    ]),
     titleInput: 'GP White Resin \u2014 Nepal Supplier',
     metaDescription:
       'GP White Resin \u2014 a white orthophthalic polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -226,6 +282,10 @@ export const products = Object.freeze([
     slug: 'gp-quartz-resin',
     group: 'polyester-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'gp-quartz-resin-primary.webp', width: 700, height: 700 }),
+      Object.freeze({ src: 'gp-quartz-resin-secondary.webp', width: 700, height: 1050 }),
+    ]),
     titleInput: 'GP Quartz Resin \u2014 Nepal Supplier',
     metaDescription:
       'GP Quartz Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -265,6 +325,10 @@ export const products = Object.freeze([
     slug: 'button-grade-resin',
     group: 'polyester-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'button-grade-resin-primary.webp', width: 700, height: 693 }),
+      Object.freeze({ src: 'button-grade-resin-secondary.webp', width: 700, height: 704 }),
+    ]),
     titleInput: 'Button Grade Resin \u2014 Nepal Supplier',
     metaDescription:
       'Button Grade Resin \u2014 an unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -302,10 +366,10 @@ export const products = Object.freeze([
     slug: 'gp-yellow-resin',
     group: 'polyester-resins',
     tier: 'C',
-    images: Object.freeze({
-      primary: Object.freeze({ src: 'gp-yellow-resin-primary.jpg', width: 1178, height: 1395 }),
-      secondary: Object.freeze({ src: 'gp-yellow-resin-secondary.jpg', width: 1178, height: 1402 }),
-    }),
+    images: Object.freeze([
+      Object.freeze({ src: 'gp-yellow-resin-primary.jpg', width: 1178, height: 1395 }),
+      Object.freeze({ src: 'gp-yellow-resin-secondary.jpg', width: 1178, height: 1402 }),
+    ]),
     titleInput: 'GP Yellow Resin \u2014 Nepal Supplier',
     metaDescription:
       'GP Yellow Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',

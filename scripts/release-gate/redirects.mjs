@@ -118,14 +118,19 @@ export async function run() {
 
   validateRedirectRules(r, rules);
 
-  // The retired UPR route must redirect, not exist as a live competing page.
-  const retiredUprRule = rules.find((rule) => rule.source?.includes('unsaturated-polyester-resin'));
-  if (!retiredUprRule) {
-    r.warn('no redirect rule found for the retired /products/unsaturated-polyester-resin/ route — verify this is intentional.');
-  } else if (fileExists('products/unsaturated-polyester-resin/index.html')) {
-    r.error('retired route /products/unsaturated-polyester-resin/ has a redirect rule AND still exists as a live built page — these compete; the redirect source must not also be a real route.');
+  // /products/unsaturated-polyester-resin/ was a retired redirect-only route
+  // until Unsaturated Polyester Resin became a real standalone product page
+  // (see src/data/products.js). A redirect rule for that source and a live
+  // built page at that path are now mutually exclusive by definition — if a
+  // future change reintroduces a redirect rule for this path, that's a bug,
+  // since the real page must win.
+  const uprRedirectRule = rules.find((rule) => rule.source?.includes('unsaturated-polyester-resin'));
+  if (uprRedirectRule) {
+    r.error(`a redirect rule still exists for "${uprRedirectRule.source}" — Unsaturated Polyester Resin is now a real product page (src/data/products.js) and must not also be a redirect source.`);
+  } else if (!fileExists('products/unsaturated-polyester-resin/index.html') || !fileExists('en/products/unsaturated-polyester-resin/index.html')) {
+    r.error('Unsaturated Polyester Resin is expected to be a real built product page in both languages, but at least one route is missing from the build.');
   } else {
-    r.info('retired UPR route redirects correctly and does not exist as a competing live page.');
+    r.info('Unsaturated Polyester Resin resolves as a real product page (NE + EN), with no competing redirect rule.');
   }
 
   // The /ne and /ne/:path* (or routes-equivalent /ne PCRE) rules should not

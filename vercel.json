@@ -2,11 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
     {
-      "src": "^/products/unsaturated-polyester-resin/?$",
-      "status": 301,
-      "headers": { "Location": "/products/polyester-resins/" }
-    },
-    {
       "src": "^/ne/?$",
       "status": 301,
       "headers": { "Location": "/" }

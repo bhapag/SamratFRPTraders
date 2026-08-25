@@ -185,19 +185,14 @@ export async function run() {
       for (const u of urls) {
         if (!u.startsWith(PROD_ORIGIN)) badUrls.push(u);
         if (u.includes('/ne/')) badUrls.push(u);
-        // The literal retired PRODUCT route only — NOT any resource
-        // article whose slug happens to discuss "unsaturated polyester
-        // resin" as a chemistry topic (e.g. "what-is-unsaturated-
-        // polyester-resin"), which is legitimate educational content.
-        if (u.includes('/products/unsaturated-polyester-resin/')) badUrls.push(u);
       }
     }
     r.info(`sitemap contains ${totalUrls} URL(s) total.`);
     if (badUrls.length) {
       const sample = [...new Set(badUrls)].slice(0, 10);
-      r.error(`sitemap contains ${badUrls.length} unsafe URL(s) (wrong host, retired /ne/ prefix, or the retired UPR route): ${sample.join(', ')}${badUrls.length > sample.length ? ', ...' : ''}`);
+      r.error(`sitemap contains ${badUrls.length} unsafe URL(s) (wrong host or retired /ne/ prefix): ${sample.join(', ')}${badUrls.length > sample.length ? ', ...' : ''}`);
     } else {
-      r.info('sitemap URLs are all production-host, no /ne/ legacy paths, no retired UPR route.');
+      r.info('sitemap URLs are all production-host, no /ne/ legacy paths.');
     }
   } catch (e) {
     r.error(`could not validate sitemap: ${e.message}`);
