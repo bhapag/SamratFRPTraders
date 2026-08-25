@@ -2,6 +2,7 @@
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
 import { getGroup, productHref, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
 
 const group = getGroup('polyester-resins');
@@ -48,7 +49,15 @@ const items = productsInGroup('polyester-resins');
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
         {items.map((product) => (
-          <CatalogCard name={product.name} eyebrow={group.name} href={`/products/${product.slug}/`} />
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={`/products/${product.slug}/`}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, true)}
+            ctaLabel="उत्पादन हेर्नुहोस्"
+          />
         ))}
       </div>
 
@@ -60,9 +69,26 @@ const items = productsInGroup('polyester-resins');
 </Base>
 
 <style>
+  /* Product-discovery priority: this page's job is to get real product
+     photography in view quickly, not to run the full-height brand hero
+     every other page uses. Scoped to this page only — the shared
+     .page-hero/.section rules in foundation.css stay untouched for the
+     rest of the site. */
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
   .category-intro {
     max-width: 46rem;
-    margin-block: 1.75rem;
+    margin-block: 1.25rem;
     color: var(--ink-dim);
   }
 

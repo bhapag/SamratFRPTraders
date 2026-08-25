@@ -1,6 +1,7 @@
 ---
 import CatalogCard from '../../components/CatalogCard.astro';
 import { catalogGroups, categoryHref, productHref, products, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
 ---
 <Base
@@ -91,6 +92,10 @@ import Base from '../../layouts/Base.astro';
                         eyebrow={group.name}
                         href={`/products/${product.slug}/`}
                         category={group.slug}
+                        showMedia
+                        image={product.images?.[0]}
+                        imageAlt={productImageAlt(product, true)}
+                        ctaLabel="उत्पादन हेर्नुहोस्"
                       />
                     ))}
                   </div>
@@ -162,14 +167,29 @@ import Base from '../../layouts/Base.astro';
 </script>
 
 <style>
+  /* Product-discovery priority: get real product photography in view
+     quickly rather than running the full-height brand hero every other
+     page uses. Scoped to this page only. */
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
   .catalogue-download {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 1.25rem;
-    margin-bottom: clamp(2rem, 5vw, 3rem);
-    padding: 1.3rem 1.5rem;
+    margin-bottom: clamp(1.25rem, 3vw, 2rem);
+    padding: 1rem 1.3rem;
     border: 1px solid rgba(var(--gold-rgb), 0.4);
     border-left-width: 0.26rem;
     background: rgba(var(--gold-rgb), 0.05);
@@ -204,7 +224,7 @@ import Base from '../../layouts/Base.astro';
     grid-template-columns: minmax(13.5rem, 15rem) minmax(0, 1fr);
     gap: clamp(2rem, 4vw, 3.5rem);
     align-items: start;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   .catalogue-rail {
@@ -312,8 +332,8 @@ import Base from '../../layouts/Base.astro';
     align-items: start;
     column-gap: 1.1rem;
     row-gap: 0.5rem;
-    margin-bottom: 1.6rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
     border-bottom: 1px solid rgba(var(--gold-rgb), 0.22);
   }
 
@@ -419,6 +439,29 @@ import Base from '../../layouts/Base.astro';
     .catalogue-count,
     .catalogue-group-link {
       grid-column: 2;
+    }
+  }
+
+  /* Mobile: rail (search + filter chips) stacks above the grid here, so
+     it gets its own tighter budget to keep the first product photo close
+     to view — same goal as the desktop hero/section trims above. */
+  @media (max-width: 61.25rem) {
+    .catalogue-download {
+      padding: 0.85rem 1.1rem;
+    }
+
+    .catalogue-download h2 {
+      font-size: 1.15rem;
+    }
+
+    .rail-link,
+    .rail-link:first-child {
+      padding-block: 0.35rem;
+    }
+
+    .catalogue-group-head {
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.6rem;
     }
   }
 </style>

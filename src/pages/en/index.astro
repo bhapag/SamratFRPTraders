@@ -8,6 +8,7 @@ import WhyChoose from '../../components/home/WhyChoose.astro';
 import { applications } from '../../data/applications.js';
 import { catalogGroups, getGroup, productHref, products } from '../../data/products.js';
 import { resources } from '../../data/resources.js';
+import { productImageAlt } from '../../utils/product-page.js';
 import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
 import Base from '../../layouts/Base.astro';
 
@@ -71,7 +72,7 @@ const featuredResources = resources.slice(0, 3);
           <h2>Resins and FRP materials</h2>
         </div>
         <p class="section-lead">
-          A 24-product catalogue of FRP materials supplied and imported for the Nepal market — every product page
+          A {products.length}-product catalogue of FRP materials supplied and imported for the Nepal market — every product page
           carries supplier-attributed technical data and TDS/SDS links.
         </p>
       </div>
@@ -96,6 +97,10 @@ const featuredResources = resources.slice(0, 3);
             name={product.name}
             eyebrow={groupName(product.group)}
             href={productHref(product, '/en')}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, false)}
+            ctaLabel="View product"
           />
         ))}
       </div>

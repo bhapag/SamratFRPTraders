@@ -3,6 +3,7 @@ import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
+import { productImageAlt } from '../../../utils/product-page.js';
 import Base from '../../../layouts/Base.astro';
 
 const group = getGroup('epoxy-casting-resins');
@@ -47,7 +48,15 @@ const items = productsInGroup('epoxy-casting-resins');
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
         {items.map((product) => (
-          <CatalogCard name={product.name} eyebrow={group.name} href={productHref(product, '/en')} />
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={productHref(product, '/en')}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, false)}
+            ctaLabel="View product"
+          />
         ))}
       </div>
 
@@ -59,9 +68,24 @@ const items = productsInGroup('epoxy-casting-resins');
 </Base>
 
 <style>
+  /* Product-discovery priority: get real product photography in view
+     quickly rather than running the full-height brand hero every other
+     page uses. Scoped to this page only. */
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
   .category-intro {
     max-width: 46rem;
-    margin-block: 1.75rem;
+    margin-block: 1.25rem;
     color: var(--ink-dim);
   }
 
