@@ -9,6 +9,7 @@ import {
   comparisonsFor,
   guidesFor,
   localDocUrl,
+  productImageAlt,
   relatedProductsFor,
   resourcesFor,
   sdsDoc,
@@ -40,6 +41,8 @@ const sdsLocal = localDocUrl(sds);
 const highlights = product.technicalHighlights ?? [];
 const evidence = product.technicalEvidenceStatus === 'verified';
 const canonicalUrl = buildCanonicalUrl(Astro.url.pathname);
+const productImages = product.images ?? null;
+const imageAlt = productImages ? productImageAlt(product, isNe) : '';
 
 const t = isNe
   ? {
@@ -175,14 +178,39 @@ const faqSchema =
 
 <div class="product-top" data-reveal>
   <div class="product-media">
-    <div
-      class="media-frame"
-      role="img"
-      aria-label={isNe ? 'उत्पादन फोटोको लागि आरक्षित क्षेत्र' : 'Reserved product photography area'}
-    >
-      <img class="media-mark" src="/brand/samrat-frp-traders-mark.png" alt="" width="320" height="320" />
-      <p class="media-note">{t.mediaNote}</p>
-    </div>
+    {productImages ? (
+      <div class="product-gallery">
+        <div class="gallery-primary">
+          <img
+            src={`/images/products/${productImages.primary.src}`}
+            alt={imageAlt}
+            width={productImages.primary.width}
+            height={productImages.primary.height}
+            fetchpriority="high"
+          />
+        </div>
+        {productImages.secondary && (
+          <div class="gallery-secondary">
+            <img
+              src={`/images/products/${productImages.secondary.src}`}
+              alt={imageAlt}
+              width={productImages.secondary.width}
+              height={productImages.secondary.height}
+              loading="lazy"
+            />
+          </div>
+        )}
+      </div>
+    ) : (
+      <div
+        class="media-frame"
+        role="img"
+        aria-label={isNe ? 'उत्पादन फोटोको लागि आरक्षित क्षेत्र' : 'Reserved product photography area'}
+      >
+        <img class="media-mark" src="/brand/samrat-frp-traders-mark.png" alt="" width="320" height="320" />
+        <p class="media-note">{t.mediaNote}</p>
+      </div>
+    )}
   </div>
 
   <div class="product-actions">
@@ -483,6 +511,41 @@ const faqSchema =
     letter-spacing: 0.08em;
     line-height: 1.7;
     text-transform: uppercase;
+  }
+
+  /* Owner-supplied product photography: primary hero shot + a smaller
+     secondary shot. The frame wraps snugly around each image at its own
+     natural aspect ratio — no fixed box, no letterboxing, no forced
+     cropping. `width`/`height` attributes (from the real file dimensions
+     in products.js) reserve the correct space before the image loads;
+     `height: auto` then lets it render at its true proportions. */
+  .product-gallery {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .gallery-primary,
+  .gallery-secondary {
+    display: inline-block;
+    padding: 0.5rem;
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+  }
+
+  .gallery-primary {
+    width: 100%;
+  }
+
+  .gallery-primary img,
+  .gallery-secondary img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery-secondary {
+    width: 42%;
+    max-width: 11rem;
   }
 
   .product-actions {

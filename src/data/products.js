@@ -13,6 +13,18 @@
 // OPTIONAL per-product evidence fields (Wave 4A infrastructure).
 // Absent = the product renders as a safe structural shell.
 //
+//   images                { primary, secondary? }  Owner-supplied product photography.
+//                                    Each entry is { src, width, height } — `src` is the
+//                                    filename in public/images/products/, `width`/`height`
+//                                    are the file's real intrinsic pixel dimensions (used to
+//                                    render each image at its own natural aspect ratio and
+//                                    to reserve layout space before it loads — get these
+//                                    from the actual file, never guess or reuse another
+//                                    image's numbers). `primary` is the main/hero image;
+//                                    `secondary` (optional) is a smaller supporting shot.
+//                                    Absent = the reserved-placeholder media frame renders
+//                                    instead. Alt text is generated from the product name,
+//                                    not stored per-image.
 //   titleInput            string   Base title input override (brand appended by the layout).
 //   metaDescription       string   Candidate-final meta description (never contains
 //                                    unverified commercial terms).
@@ -127,6 +139,10 @@ export const products = Object.freeze([
     slug: 'gp-clear-resin',
     group: 'polyester-resins',
     tier: 'A',
+    images: Object.freeze({
+      primary: Object.freeze({ src: 'gp-clear-resin-primary.jpg', width: 1178, height: 1157 }),
+      secondary: Object.freeze({ src: 'gp-clear-resin-secondary.jpg', width: 1178, height: 1169 }),
+    }),
     titleInput: 'GP Clear Resin \u2014 Nepal Supplier',
     metaDescription:
       'GP Clear Resin is Samrat Poly Resins\u2019 published standard clear orthophthalic unsaturated polyester resin grade, supplied and imported for Nepal by Samrat FRP Traders.',
@@ -286,6 +302,10 @@ export const products = Object.freeze([
     slug: 'gp-yellow-resin',
     group: 'polyester-resins',
     tier: 'C',
+    images: Object.freeze({
+      primary: Object.freeze({ src: 'gp-yellow-resin-primary.jpg', width: 1178, height: 1395 }),
+      secondary: Object.freeze({ src: 'gp-yellow-resin-secondary.jpg', width: 1178, height: 1402 }),
+    }),
     titleInput: 'GP Yellow Resin \u2014 Nepal Supplier',
     metaDescription:
       'GP Yellow Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
