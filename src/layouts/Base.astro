@@ -23,8 +23,16 @@ const altPath = is404
   : isNe
     ? (path === '/' ? '/en/' : `/en${path}`)
     : path.replace(/^\/en/, '') || '/';
-const enUrl = buildCanonicalUrl(is404 ? '/en/' : isNe ? altPath : path);
-const neUrl = buildCanonicalUrl(is404 ? '/' : isNe ? path : altPath);
+// Site-relative paths — used for the actual clickable language-switcher
+// links, so navigation always stays on the current origin (localhost in
+// dev, the real domain in production) instead of hard-jumping to the
+// production host regardless of where the page is being served from.
+const enPath = is404 ? '/en/' : isNe ? altPath : path;
+const nePath = is404 ? '/' : isNe ? path : altPath;
+// Absolute production URLs — required for hreflang/canonical/og:url, which
+// must always resolve against the real domain regardless of dev host.
+const enUrl = buildCanonicalUrl(enPath);
+const neUrl = buildCanonicalUrl(nePath);
 const waLink = buildWhatsAppLink(isNe ? whatsAppMessages.ne : whatsAppMessages.en);
 const prefix = isNe ? '' : '/en';
 
@@ -206,8 +214,8 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
         </nav>
         <div class="header-actions">
           <div class="lang-toggle" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
-            <a href={neUrl} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
-            <a href={enUrl} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
+            <a href={nePath} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
+            <a href={enPath} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
           </div>
           <a href={waLink} class="nav-enquire" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2s-.8.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.5c-.2 0-.5 0-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.4A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z" /></svg>
@@ -240,8 +248,8 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
           {isNe ? 'WhatsApp मा सोधपुछ' : 'Enquire on WhatsApp'}
         </a>
         <div class="lang-toggle lang-toggle-mobile" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
-          <a href={neUrl} lang="ne" aria-current={isNe ? 'true' : undefined}>नेपाली</a>
-          <a href={enUrl} lang="en" aria-current={!isNe ? 'true' : undefined}>English</a>
+          <a href={nePath} lang="ne" aria-current={isNe ? 'true' : undefined}>नेपाली</a>
+          <a href={enPath} lang="en" aria-current={!isNe ? 'true' : undefined}>English</a>
         </div>
       </div>
     </div>
@@ -317,8 +325,8 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
           <span class="legal-item" data-copy-value={site.business.exim}>EXIM {site.business.exim}</span>
         </span>
         <span class="footer-lang" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
-          <a href={neUrl} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
-          <a href={enUrl} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
+          <a href={nePath} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
+          <a href={enPath} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
         </span>
         <span class="visually-hidden" role="status" aria-live="polite" data-copy-status></span>
       </div>
