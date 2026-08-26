@@ -1,0 +1,852 @@
+---
+import Breadcrumbs from './Breadcrumbs.astro';
+import { site } from '../data/site.js';
+
+const { lang = 'ne' } = Astro.props;
+const isNe = lang === 'ne';
+const prefix = isNe ? '' : '/en';
+
+const copy = {
+  ne: {
+    eyebrow: 'अनुकूल स्पेसिफिकेसन',
+    heroHeading1: 'रेजिन स्पेसिफिकेसन',
+    heroHeading2: 'अनुरोध गर्नुहोस्।',
+    heroLead:
+      'आफ्नो प्रोजेक्टका लागि चाहिने रेजिन गुणहरू लेख्नुहोस् — लगभग २–५ मिनेटमा पूरा हुन्छ। हामी यसलाई प्राविधिक समीक्षा गरी सम्पर्क गर्नेछौं।',
+    introHeading: 'तपाईंको अनुरोध बुझ्नुहोस्।',
+    introLead:
+      'यो फारमले तपाईंले अनुरोध गर्नुभएका लक्षित गुणहरू मात्र रेकर्ड गर्दछ — यो कुनै आधिकारिक प्राविधिक डेटा सिट (TDS) होइन। आवश्यक फिल्ड भरेपछि सिधै WhatsApp वा इमेलमार्फत पठाउन सकिन्छ।',
+    positioningNote:
+      'Samrat FRP Traders विराटनगर, नेपालबाट सञ्चालित व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो। अनुरोध गरिएका गुणहरू प्राविधिक समीक्षा र आपूर्तिकर्तासँगको परामर्शका लागि प्रयोग गरिन्छन्।',
+    breadcrumbHome: 'गृहपृष्ठ',
+    breadcrumbCurrent: 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध',
+
+    section1Title: 'तपाईंको विवरण',
+    name: 'नाम',
+    namePlaceholder: 'तपाईंको पूरा नाम',
+    company: 'कम्पनी',
+    companyPlaceholder: 'कम्पनीको नाम (वैकल्पिक)',
+    location: 'स्थान',
+    locationPlaceholder: 'सहर / जिल्ला (वैकल्पिक)',
+    phone: 'फोन / WhatsApp',
+    phonePlaceholder: 'जस्तै: 98XXXXXXXX',
+    email: 'इमेल',
+    emailPlaceholder: 'you@example.com',
+    contactHint: 'फोन/WhatsApp वा इमेलमध्ये कम्तिमा एउटा आवश्यक छ, ताकि हामी तपाईंलाई सम्पर्क गर्न सकौं।',
+
+    section2Title: 'तपाईंलाई के चाहिन्छ?',
+    product: 'उत्पादन / रेजिन',
+    productPlaceholder: 'छान्नुहोस्…',
+    application: 'प्रयोग / एप्लिकेसन',
+    applicationPlaceholder: 'जस्तै: FRP सिट, ट्यांक लाइनिङ, ल्यामिनेसन…',
+    quantity: 'अनुमानित परिमाण',
+    quantityPlaceholder: 'जस्तै: ५ ड्रम, मासिक आवश्यकता…',
+
+    section3Title: 'प्राथमिकता (रुचाइएका) गुणहरू',
+    section3Hint: 'सबै फिल्ड वैकल्पिक हुन् — थाहा नभएको गुण खाली छोड्न वा "आपूर्तिकर्ताले सुझाव देऊन्" छान्न सकिन्छ।',
+    viscosity: 'विस्कोसिटी',
+    viscosityPlaceholder: 'जस्तै: मध्यम, वा अनुमानित cP',
+    gelTime: 'जेल टाइम',
+    gelTimePlaceholder: 'जस्तै: १५–२० मिनेट',
+    cureTime: 'क्युर / वर्किङ टाइम',
+    cureTimePlaceholder: 'जस्तै: कोठाको तापक्रममा २४ घण्टा',
+    colour: 'रङ / देखावट',
+    colourPlaceholder: 'जस्तै: पारदर्शी, सेतो, अनुकूल रङ',
+    supplierRecommend: 'आपूर्तिकर्ताले सुझाव देऊन्',
+    supplierRecommendValue: 'हो — आपूर्तिकर्ताले सुझाव देऊन्',
+    addRequirement: 'थप आवश्यकता थप्नुहोस्',
+    requirementLabelPlaceholder: 'गुणको नाम (जस्तै: घनत्व)',
+    requirementValuePlaceholder: 'अनुरोध गरिएको मान',
+    removeRequirement: 'यो आवश्यकता हटाउनुहोस्',
+
+    advancedSummary: 'थप प्राविधिक आवश्यकताहरू',
+    specificGravity: 'विशिष्ट घनत्व',
+    specificGravityPlaceholder: 'जस्तै: अनुमानित मान',
+    solidContent: 'सलिड कन्टेन्ट',
+    solidContentPlaceholder: 'जस्तै: %',
+    hardness: 'कठोरता',
+    hardnessPlaceholder: 'जस्तै: Shore D',
+    tensileFlexural: 'टेन्साइल / फ्लेक्सुरल अपेक्षा',
+    tensileFlexuralPlaceholder: 'अनुरोध गरिएको कार्यसम्पादन',
+    temperatureRequirement: 'तापक्रम आवश्यकता',
+    temperatureRequirementPlaceholder: 'सञ्चालन/सेवा तापक्रम दायरा',
+    fireRetardantRequirement: 'फायर-रिटार्डेन्ट आवश्यकता',
+    fireRetardantRequirementPlaceholder: 'अनुरोध गरिएको मापदण्ड (यदि छ भने)',
+    processMethod: 'प्रक्रिया / विधि',
+    processMethodPlaceholder: 'जस्तै: ह्यान्ड ले-अप, स्प्रे',
+    surfaceFinish: 'सतह फिनिस',
+    surfaceFinishPlaceholder: 'जस्तै: चिल्लो, म्याट',
+    packagingPreference: 'प्याकेजिङ प्राथमिकता',
+    packagingPreferencePlaceholder: 'जस्तै: ड्रम साइज',
+    otherProperty: 'अन्य अनुरोध गरिएको गुण',
+    otherPropertyPlaceholder: 'अन्य आवश्यकता वर्णन गर्नुहोस्',
+    fireRetardantNote:
+      'नोट: यो फायर-रिटार्डेन्ट आवश्यकता ग्राहकको अनुरोध मात्र हो। यसले कुनै रेटिङ, प्रमाणीकरण वा "फायरप्रूफ" प्रदर्शनकोग्यारेन्टी दिँदैन।',
+
+    section4Title: 'अरू केही?',
+    notes: 'थप विवरण',
+    notesPlaceholder: 'आफ्नो एप्लिकेसन वा चाहिने व्यवहार सादा भाषामा वर्णन गर्नुहोस्…',
+    attachmentNote:
+      'यो फारमबाट पठाइने WhatsApp वा इमेल लिङ्कले फोटो/PDF जस्ता फाइलहरू स्वतः पठाउँदैन — सन्दर्भ कागजात भए, कृपया WhatsApp वा इमेलमा छुट्टै संलग्न गर्नुहोस्।',
+
+    section5Title: 'अनुरोध पठाउनुहोस्',
+    requestReference: 'अनुरोध सन्दर्भ नम्बर',
+    sendWhatsApp: 'WhatsApp मार्फत पठाउनुहोस्',
+    sendEmail: 'इमेलमार्फत पठाउनुहोस्',
+    printSave: 'प्रिन्ट / PDF को रूपमा सेभ गर्नुहोस्',
+
+    disclaimer:
+      'यो कागजातले ग्राहकले अनुरोध गरेको लक्षित स्पेसिफिकेसनहरू मात्र अभिलेख गर्दछ। यो फारम पेस गर्नुले स्वीकृति, प्रमाणीकरण, अन्तिम प्राविधिक डेटा सिट (TDS), वा उत्पादन प्रदर्शनको ग्यारेन्टी जनाउँदैन। अनुरोध गरिएका गुणहरू प्राविधिक सम्भाव्यता, कच्चा पदार्थको उपलब्धता, आपूर्तिकर्ताको क्षमता, आवश्यक परेमा परीक्षण, र लिखित पुष्टिकरणमा निर्भर हुन्छन्।',
+
+    errorName: 'कृपया आफ्नो नाम लेख्नुहोस्।',
+    errorProduct: 'कृपया उत्पादन/रेजिन छान्नुहोस्।',
+    errorContact: 'कृपया फोन/WhatsApp वा इमेलमध्ये कम्तिमा एउटा दिनुहोस्।',
+    errorSummaryHeading: 'कृपया यी फिल्डहरू पूरा गर्नुहोस्:',
+
+    waIntro: 'नमस्ते, म Samrat FRP Traders लाई अनुकूल रेजिन स्पेसिफिकेसन अनुरोध पठाउन चाहन्छु।',
+    emailSubjectPrefix: 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध',
+    printTitle: 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध',
+    printGeneratedOn: 'तयार मिति:',
+    groupYourDetails: 'तपाईंको विवरण',
+    groupWhatYouNeed: 'के चाहिन्छ',
+    groupPreferred: 'अनुरोध गरिएका गुणहरू',
+    groupNotes: 'थप विवरण',
+
+    ctaLabel: 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध गर्नुहोस्',
+  },
+  en: {
+    eyebrow: 'Custom Specification',
+    heroHeading1: 'Request your resin',
+    heroHeading2: 'specification.',
+    heroLead:
+      "Tell us the properties your project needs — it takes about 2–5 minutes. We'll review it technically and get back to you.",
+    introHeading: 'Understand your request.',
+    introLead:
+      'This form records only the target properties you request — it is not an official Technical Data Sheet (TDS). Once the required fields are filled, send it straight to WhatsApp or email.',
+    positioningNote:
+      'Samrat FRP Traders is a trader, supplier, importer and reseller operating from Biratnagar, Nepal. Requested properties are used for technical review and supplier consultation.',
+    breadcrumbHome: 'Home',
+    breadcrumbCurrent: 'Custom Resin Specification Request',
+
+    section1Title: 'Your details',
+    name: 'Name',
+    namePlaceholder: 'Your full name',
+    company: 'Company',
+    companyPlaceholder: 'Company name (optional)',
+    location: 'Location',
+    locationPlaceholder: 'City / district (optional)',
+    phone: 'Phone / WhatsApp',
+    phonePlaceholder: 'e.g. 98XXXXXXXX',
+    email: 'Email',
+    emailPlaceholder: 'you@example.com',
+    contactHint: 'At least one of Phone/WhatsApp or Email is required, so we can reach you.',
+
+    section2Title: 'What do you need?',
+    product: 'Product / Resin needed',
+    productPlaceholder: 'Select…',
+    application: 'Application',
+    applicationPlaceholder: 'e.g. FRP sheets, tank lining, lamination…',
+    quantity: 'Approximate quantity',
+    quantityPlaceholder: 'e.g. 5 drums, monthly requirement…',
+
+    section3Title: 'Preferred requirements',
+    section3Hint: 'All fields are optional — leave anything you don’t know blank, or choose "Supplier to recommend".',
+    viscosity: 'Viscosity',
+    viscosityPlaceholder: 'e.g. medium, or estimated cP',
+    gelTime: 'Gel time',
+    gelTimePlaceholder: 'e.g. 15–20 minutes',
+    cureTime: 'Cure / working time',
+    cureTimePlaceholder: 'e.g. 24 hours at room temperature',
+    colour: 'Colour / appearance',
+    colourPlaceholder: 'e.g. clear, white, custom colour',
+    supplierRecommend: 'Supplier to recommend',
+    supplierRecommendValue: 'Yes — supplier to recommend',
+    addRequirement: 'Add another requirement',
+    requirementLabelPlaceholder: 'Property name (e.g. specific gravity)',
+    requirementValuePlaceholder: 'Requested value',
+    removeRequirement: 'Remove this requirement',
+
+    advancedSummary: 'More technical requirements',
+    specificGravity: 'Specific gravity',
+    specificGravityPlaceholder: 'e.g. estimated value',
+    solidContent: 'Solid content',
+    solidContentPlaceholder: 'e.g. %',
+    hardness: 'Hardness',
+    hardnessPlaceholder: 'e.g. Shore D',
+    tensileFlexural: 'Tensile / flexural expectations',
+    tensileFlexuralPlaceholder: 'Requested performance',
+    temperatureRequirement: 'Temperature requirement',
+    temperatureRequirementPlaceholder: 'Operating/service temperature range',
+    fireRetardantRequirement: 'Fire-retardant requirement',
+    fireRetardantRequirementPlaceholder: 'Requested standard, if any',
+    processMethod: 'Process / method',
+    processMethodPlaceholder: 'e.g. hand lay-up, spray',
+    surfaceFinish: 'Surface finish',
+    surfaceFinishPlaceholder: 'e.g. glossy, matte',
+    packagingPreference: 'Packaging preference',
+    packagingPreferencePlaceholder: 'e.g. drum size',
+    otherProperty: 'Other requested property',
+    otherPropertyPlaceholder: 'Describe any other requirement',
+    fireRetardantNote:
+      'Note: this fire-retardant requirement is a customer request only. It does not guarantee any rating, certification, or "fireproof" performance.',
+
+    section4Title: 'Anything else?',
+    notes: 'Notes',
+    notesPlaceholder: 'Describe your application or desired behaviour in plain language…',
+    attachmentNote:
+      "The WhatsApp/email links this form opens do not automatically send files like photos or PDFs — if you have reference documents, please attach them separately in WhatsApp or email.",
+
+    section5Title: 'Send request',
+    requestReference: 'Request Reference',
+    sendWhatsApp: 'Send via WhatsApp',
+    sendEmail: 'Send via Email',
+    printSave: 'Print / Save as PDF',
+
+    disclaimer:
+      'This document records customer-requested target specifications only. Submission does not constitute acceptance, certification, a final Technical Data Sheet, or a guarantee of product performance. Requested properties are subject to technical feasibility, raw-material availability, supplier capability, testing where applicable, and written confirmation.',
+
+    errorName: 'Please enter your name.',
+    errorProduct: 'Please select a product / resin.',
+    errorContact: 'Please provide at least one of Phone/WhatsApp or Email.',
+    errorSummaryHeading: 'Please complete the following:',
+
+    waIntro: 'Hello, I would like to send a custom resin specification request to Samrat FRP Traders.',
+    emailSubjectPrefix: 'Custom Resin Specification Request',
+    printTitle: 'Custom Resin Specification Request',
+    printGeneratedOn: 'Generated:',
+    groupYourDetails: 'Your details',
+    groupWhatYouNeed: 'What you need',
+    groupPreferred: 'Requested properties',
+    groupNotes: 'Notes',
+
+    ctaLabel: 'Request Custom Resin Specification',
+  },
+};
+
+const t = isNe ? copy.ne : copy.en;
+
+const productOptions = [
+  { value: 'upr', ne: 'अनसेचुरेटेड पोलिएस्टर रेजिन (UPR)', en: 'Unsaturated Polyester Resin' },
+  { value: 'gp', ne: 'GP रेजिन', en: 'GP Resin' },
+  { value: 'lamination', ne: 'ल्यामिनेसन रेजिन', en: 'Lamination Resin' },
+  { value: 'gelcoat', ne: 'जेलकोट रेजिन', en: 'Gelcoat Resin' },
+  { value: 'fire-retardant', ne: 'फायर रिटार्डेन्ट रेजिन', en: 'Fire Retardant Resin' },
+  { value: 'iso-fire-retardant', ne: 'ISO फायर रिटार्डेन्ट रेजिन', en: 'ISO Fire Retardant Resin' },
+  { value: 'vinyl-ester', ne: 'भाइनिल एस्टर रेजिन', en: 'Vinyl Ester Resin' },
+  { value: 'epoxy', ne: 'इपोक्सी रेजिन', en: 'Epoxy Resin' },
+  { value: 'clear-casting', ne: 'क्लियर क्यास्टिङ रेजिन', en: 'Clear Casting Resin' },
+  { value: 'art-resin', ne: 'इपोक्सी आर्ट रेजिन', en: 'Epoxy Art Resin' },
+  { value: 'other', ne: 'अन्य / थाहा छैन', en: 'Other / Not Sure' },
+];
+
+const preferredFields = [
+  { id: 'viscosity', label: t.viscosity, placeholder: t.viscosityPlaceholder },
+  { id: 'gelTime', label: t.gelTime, placeholder: t.gelTimePlaceholder },
+  { id: 'cureTime', label: t.cureTime, placeholder: t.cureTimePlaceholder },
+  { id: 'colour', label: t.colour, placeholder: t.colourPlaceholder },
+];
+
+const advancedFields = [
+  { id: 'specificGravity', label: t.specificGravity, placeholder: t.specificGravityPlaceholder },
+  { id: 'solidContent', label: t.solidContent, placeholder: t.solidContentPlaceholder },
+  { id: 'hardness', label: t.hardness, placeholder: t.hardnessPlaceholder },
+  { id: 'tensileFlexural', label: t.tensileFlexural, placeholder: t.tensileFlexuralPlaceholder },
+  { id: 'temperatureRequirement', label: t.temperatureRequirement, placeholder: t.temperatureRequirementPlaceholder },
+  { id: 'fireRetardantRequirement', label: t.fireRetardantRequirement, placeholder: t.fireRetardantRequirementPlaceholder },
+  { id: 'processMethod', label: t.processMethod, placeholder: t.processMethodPlaceholder },
+  { id: 'surfaceFinish', label: t.surfaceFinish, placeholder: t.surfaceFinishPlaceholder },
+  { id: 'packagingPreference', label: t.packagingPreference, placeholder: t.packagingPreferencePlaceholder },
+  { id: 'otherProperty', label: t.otherProperty, placeholder: t.otherPropertyPlaceholder },
+];
+
+const breadcrumbItems = [
+  { label: t.breadcrumbHome, href: isNe ? '/' : '/en/' },
+  { label: t.breadcrumbCurrent },
+];
+---
+
+<section class="page-hero hero-shell">
+  <div class="hero-grid-lines" aria-hidden="true"></div>
+  <div class="container page-hero-content">
+    <p class="eyebrow">{t.eyebrow}</p>
+    <h1>{t.heroHeading1} <span class="metal-text">{t.heroHeading2}</span></h1>
+    <p class="page-lead">{t.heroLead}</p>
+  </div>
+</section>
+
+<section class="section ledger crsr-surface">
+  <div class="container narrow">
+    <Breadcrumbs items={breadcrumbItems} />
+
+    <div class="crsr-intro" data-reveal>
+      <p class="eyebrow">{t.introHeading}</p>
+      <p class="crsr-intro-lead">{t.introLead}</p>
+      <p class="crsr-positioning">{t.positioningNote}</p>
+    </div>
+
+    <form
+      id="crsrForm"
+      class="crsr-form form-shell"
+      novalidate
+      data-wa-number={site.business.whatsapp}
+      data-email={site.business.email}
+      data-wa-intro={t.waIntro}
+      data-email-subject-prefix={t.emailSubjectPrefix}
+      data-print-title={t.printTitle}
+      data-print-generated-on={t.printGeneratedOn}
+      data-group-your-details={t.groupYourDetails}
+      data-group-what-you-need={t.groupWhatYouNeed}
+      data-group-preferred={t.groupPreferred}
+      data-group-notes={t.groupNotes}
+      data-error-name={t.errorName}
+      data-error-product={t.errorProduct}
+      data-error-contact={t.errorContact}
+      data-error-summary-heading={t.errorSummaryHeading}
+    >
+      <div id="formErrors" class="form-errors" role="alert" hidden></div>
+
+      <fieldset class="crsr-section">
+        <legend><span class="crsr-step-num">01</span> {t.section1Title}</legend>
+        <div class="form-grid two-col">
+          <label>
+            <span>{t.name} *</span>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+              placeholder={t.namePlaceholder}
+              data-summary-group="yourDetails"
+              data-summary-label={t.name}
+              aria-describedby="name-error"
+            />
+            <p class="field-error" id="name-error" hidden></p>
+          </label>
+          <label>
+            <span>{t.company}</span>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              autocomplete="organization"
+              placeholder={t.companyPlaceholder}
+              data-summary-group="yourDetails"
+              data-summary-label={t.company}
+            />
+          </label>
+        </div>
+        <div class="form-grid two-col">
+          <label>
+            <span>{t.location}</span>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              autocomplete="address-level2"
+              placeholder={t.locationPlaceholder}
+              data-summary-group="yourDetails"
+              data-summary-label={t.location}
+            />
+          </label>
+          <label>
+            <span>{t.phone}</span>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              autocomplete="tel"
+              placeholder={t.phonePlaceholder}
+              data-summary-group="yourDetails"
+              data-summary-label={t.phone}
+              aria-describedby="contact-error"
+            />
+          </label>
+        </div>
+        <label>
+          <span>{t.email}</span>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            placeholder={t.emailPlaceholder}
+            data-summary-group="yourDetails"
+            data-summary-label={t.email}
+            aria-describedby="contact-error"
+          />
+        </label>
+        <p class="field-error" id="contact-error" hidden></p>
+        <p class="field-hint">{t.contactHint}</p>
+      </fieldset>
+
+      <fieldset class="crsr-section">
+        <legend><span class="crsr-step-num">02</span> {t.section2Title}</legend>
+        <label>
+          <span>{t.product} *</span>
+          <select
+            id="product"
+            name="product"
+            required
+            data-summary-group="whatYouNeed"
+            data-summary-label={t.product}
+            aria-describedby="product-error"
+          >
+            <option value="" disabled selected>{t.productPlaceholder}</option>
+            {productOptions.map((option) => (
+              <option value={option.value}>{isNe ? option.ne : option.en}</option>
+            ))}
+          </select>
+          <p class="field-error" id="product-error" hidden></p>
+        </label>
+        <div class="form-grid two-col">
+          <label>
+            <span>{t.application}</span>
+            <input
+              type="text"
+              id="application"
+              name="application"
+              autocomplete="off"
+              placeholder={t.applicationPlaceholder}
+              data-summary-group="whatYouNeed"
+              data-summary-label={t.application}
+            />
+          </label>
+          <label>
+            <span>{t.quantity}</span>
+            <input
+              type="text"
+              id="quantity"
+              name="quantity"
+              autocomplete="off"
+              placeholder={t.quantityPlaceholder}
+              data-summary-group="whatYouNeed"
+              data-summary-label={t.quantity}
+            />
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="crsr-section">
+        <legend><span class="crsr-step-num">03</span> {t.section3Title}</legend>
+        <p class="field-hint">{t.section3Hint}</p>
+        <div class="form-grid two-col">
+          {preferredFields.map((field) => (
+            <label>
+              <span>{field.label}</span>
+              <input
+                type="text"
+                id={field.id}
+                name={field.id}
+                autocomplete="off"
+                placeholder={field.placeholder}
+                data-summary-group="preferred"
+                data-summary-label={field.label}
+              />
+            </label>
+          ))}
+        </div>
+        <label class="checkbox-field">
+          <input
+            type="checkbox"
+            id="supplierRecommend"
+            name="supplierRecommend"
+            data-summary-group="preferred"
+            data-summary-label={t.supplierRecommend}
+            data-summary-value={t.supplierRecommendValue}
+          />
+          <span>{t.supplierRecommend}</span>
+        </label>
+
+        <div class="custom-requirements-block">
+          <div id="customRequirements" class="custom-requirements"></div>
+          <button type="button" id="addRequirementBtn" class="button crsr-add-btn">+ {t.addRequirement}</button>
+          <template id="requirementRowTemplate">
+            <div class="requirement-row" data-requirement-row>
+              <label class="visually-hidden">{t.requirementLabelPlaceholder}</label>
+              <input type="text" data-role="req-label" placeholder={t.requirementLabelPlaceholder} />
+              <label class="visually-hidden">{t.requirementValuePlaceholder}</label>
+              <input type="text" data-role="req-value" placeholder={t.requirementValuePlaceholder} />
+              <button type="button" class="requirement-remove" data-role="req-remove" aria-label={t.removeRequirement}>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+              </button>
+            </div>
+          </template>
+        </div>
+
+        <details class="crsr-advanced">
+          <summary>{t.advancedSummary}</summary>
+          <div class="form-grid two-col crsr-advanced-grid">
+            {advancedFields.map((field) => (
+              <label>
+                <span>{field.label}</span>
+                <input
+                  type="text"
+                  id={field.id}
+                  name={field.id}
+                  autocomplete="off"
+                  placeholder={field.placeholder}
+                  data-summary-group="preferred"
+                  data-summary-label={field.label}
+                />
+              </label>
+            ))}
+          </div>
+          <p class="field-hint">{t.fireRetardantNote}</p>
+        </details>
+      </fieldset>
+
+      <fieldset class="crsr-section">
+        <legend><span class="crsr-step-num">04</span> {t.section4Title}</legend>
+        <label>
+          <span>{t.notes}</span>
+          <textarea
+            id="notes"
+            name="notes"
+            rows="4"
+            autocomplete="off"
+            placeholder={t.notesPlaceholder}
+            data-summary-group="notes"
+            data-summary-label={t.notes}
+          ></textarea>
+        </label>
+        <p class="field-hint">{t.attachmentNote}</p>
+      </fieldset>
+
+      <fieldset class="crsr-section crsr-send-section">
+        <legend><span class="crsr-step-num">05</span> {t.section5Title}</legend>
+        <label class="crsr-ref-field">
+          <span>{t.requestReference}</span>
+          <input type="text" id="requestReference" name="requestReference" readonly data-summary-label={t.requestReference} />
+        </label>
+        <div class="crsr-send-actions">
+          <button type="button" class="button button-primary" data-action="whatsapp">{t.sendWhatsApp}</button>
+          <button type="button" class="button" data-action="email">{t.sendEmail}</button>
+          <button type="button" class="button" data-action="print">{t.printSave}</button>
+        </div>
+        <p class="crsr-disclaimer">{t.disclaimer}</p>
+      </fieldset>
+    </form>
+  </div>
+</section>
+
+<div id="printSummary" class="print-summary" aria-hidden="true"></div>
+
+<style>
+  .crsr-surface {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .crsr-intro {
+    max-width: 42rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+
+  .crsr-intro-lead {
+    margin-top: 0.7rem;
+    color: var(--ink-dim);
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .crsr-positioning {
+    margin-top: 0.9rem;
+    padding: 0.85rem 1rem;
+    border-left: 0.22rem solid var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.06);
+    color: var(--ink-dim);
+    font-size: 0.85rem;
+    line-height: 1.55;
+  }
+
+  .crsr-form {
+    display: grid;
+    gap: clamp(2rem, 4vw, 2.75rem);
+    padding: clamp(1.4rem, 4vw, 2.25rem);
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+  }
+
+  .crsr-section {
+    display: grid;
+    gap: 1.1rem;
+  }
+
+  .crsr-section + .crsr-section {
+    padding-top: clamp(1.6rem, 4vw, 2.25rem);
+    border-top: 1px solid var(--line);
+  }
+
+  .crsr-section legend {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    width: 100%;
+    margin-bottom: 0.2rem;
+    padding: 0;
+    border: 0;
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .crsr-step-num {
+    color: var(--accent-gold);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+
+  .field-hint {
+    margin: 0;
+    color: var(--ink-faint);
+    font-size: 0.82rem;
+    line-height: 1.55;
+  }
+
+  .field-error {
+    margin: -0.15rem 0 0;
+    color: #ef6a6a;
+    font-size: 0.78rem;
+  }
+
+  [aria-invalid='true'] {
+    border-color: #ef6a6a !important;
+  }
+
+  .form-errors {
+    padding: 1rem 1.1rem;
+    border: 1px solid #ef6a6a;
+    border-left-width: 0.26rem;
+    background: rgba(239, 106, 106, 0.08);
+  }
+
+  .form-errors-heading {
+    margin: 0 0 0.4rem;
+    color: var(--ink);
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+
+  .form-errors ul {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--ink-dim);
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .checkbox-field {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    min-height: 2.75rem;
+    cursor: pointer;
+  }
+
+  .checkbox-field input {
+    width: 1.15rem;
+    height: 1.15rem;
+    accent-color: var(--accent-gold);
+  }
+
+  .checkbox-field span {
+    color: var(--ink);
+    font-size: 0.92rem;
+  }
+
+  .custom-requirements-block {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .custom-requirements {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .requirement-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  .requirement-row input {
+    width: 100%;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid var(--line-2);
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  .requirement-remove {
+    display: grid;
+    place-items: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    flex-shrink: 0;
+    border: 1px solid var(--line-2);
+    background: transparent;
+    color: var(--ink-faint);
+    cursor: pointer;
+    transition: border-color 180ms var(--ease-premium), color 180ms var(--ease-premium);
+  }
+
+  .requirement-remove:hover {
+    border-color: #ef6a6a;
+    color: #ef6a6a;
+  }
+
+  .crsr-add-btn {
+    justify-self: start;
+    min-height: 2.75rem;
+    padding: 0.6rem 1.1rem;
+    font-size: 0.68rem;
+  }
+
+  .crsr-advanced {
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--line);
+  }
+
+  .crsr-advanced summary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 0.1rem;
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .crsr-advanced summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .crsr-advanced summary::before {
+    content: '+';
+    display: inline-grid;
+    place-items: center;
+    width: 1.1rem;
+    height: 1.1rem;
+    border: 1px solid var(--line-2);
+    color: var(--ink-dim);
+    font-size: 0.85rem;
+    transition: transform 200ms var(--ease-premium);
+  }
+
+  .crsr-advanced[open] summary::before {
+    content: '−';
+  }
+
+  .crsr-advanced-grid {
+    margin-top: 1rem;
+  }
+
+  .crsr-send-section {
+    padding-top: clamp(1.6rem, 4vw, 2.25rem);
+    border-top: 1px solid var(--line);
+  }
+
+  .crsr-ref-field {
+    max-width: 20rem;
+  }
+
+  .crsr-ref-field input {
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    letter-spacing: 0.02em;
+  }
+
+  .crsr-send-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .crsr-disclaimer {
+    margin: 0;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink-faint);
+    font-size: 0.78rem;
+    line-height: 1.6;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  @media (max-width: 40rem) {
+    .form-grid.two-col {
+      grid-template-columns: 1fr;
+    }
+
+    .requirement-row {
+      grid-template-columns: 1fr;
+    }
+
+    .requirement-remove {
+      justify-self: start;
+    }
+
+    .crsr-send-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+  /* ---------- Print output ---------- */
+  .print-summary {
+    display: none;
+  }
+
+  @media print {
+    :global(.site-header),
+    :global(.mobile-nav),
+    :global(.site-footer),
+    :global(.wa-float),
+    :global(.skip-link) {
+      display: none !important;
+    }
+
+    :global(main) {
+      min-height: 0 !important;
+    }
+
+    .page-hero,
+    .crsr-intro,
+    .crsr-form {
+      display: none !important;
+    }
+
+    .print-summary {
+      display: block !important;
+      color: #14100a;
+      background: #fff;
+    }
+
+    .print-summary :global(*) {
+      color: #14100a !important;
+    }
+  }
+</style>

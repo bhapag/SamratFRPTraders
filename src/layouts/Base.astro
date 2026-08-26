@@ -298,6 +298,9 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
             <a href={isNe ? '/products/polyester-resins/' : '/en/products/polyester-resins/'}>{isNe ? 'Polyester रेजिनहरू' : 'Polyester Resins'}</a>
             <a href={isNe ? '/products/epoxy-casting-resins/' : '/en/products/epoxy-casting-resins/'}>{isNe ? 'Epoxy र Casting' : 'Epoxy & Casting Resins'}</a>
             <a href={isNe ? '/products/mekp-hardener/' : '/en/products/mekp-hardener/'}>MEKP Hardener</a>
+            <a href={isNe ? '/custom-resin-specification-request/' : '/en/custom-resin-specification-request/'}>
+              {isNe ? 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध' : 'Request Custom Resin Specification'}
+            </a>
             <a
               href="/downloads/samrat-frp-traders-product-catalogue.pdf"
               target="_blank"
@@ -389,6 +392,10 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     <script>
       import { wireProductGalleries } from '../scripts/product-gallery.js';
       wireProductGalleries();
+    </script>
+    <script>
+      import { wireCustomResinRequestForm } from '../scripts/custom-resin-request.js';
+      wireCustomResinRequestForm();
     </script>
   </body>
 </html>
