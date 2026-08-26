@@ -410,6 +410,11 @@ export const products = Object.freeze([
     slug: 'sheet-grade-yellow-resin',
     group: 'sheet-grade-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'sheet-grade-yellow-resin-primary.webp', width: 700, height: 829 }),
+      Object.freeze({ src: 'sheet-grade-yellow-resin-secondary.webp', width: 700, height: 831 }),
+      Object.freeze({ src: 'sheet-grade-yellow-resin-tertiary.webp', width: 160, height: 191 }),
+    ]),
     titleInput: 'Sheet Grade Yellow Resin \u2014 Nepal Supplier',
     metaDescription:
       'Sheet Grade Yellow Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -448,6 +453,10 @@ export const products = Object.freeze([
     slug: 'roof-light-resin',
     group: 'sheet-grade-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'roof-light-resin-primary.webp', width: 700, height: 692 }),
+      Object.freeze({ src: 'roof-light-resin-secondary.webp', width: 700, height: 700 }),
+    ]),
     titleInput: 'Roof Light Resin \u2014 Nepal Supplier',
     metaDescription:
       'Roof Light Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -490,6 +499,10 @@ export const products = Object.freeze([
     slug: 'gp-gelcoat-resin',
     group: 'gelcoat',
     tier: 'A',
+    images: Object.freeze([
+      Object.freeze({ src: 'gp-gelcoat-resin-primary.webp', width: 700, height: 679 }),
+      Object.freeze({ src: 'gp-gelcoat-resin-secondary.webp', width: 700, height: 680 }),
+    ]),
     titleInput: 'GP Gelcoat Resin \u2014 Nepal Supplier',
     metaDescription:
       'GP Gelcoat Resin is a polyester surface-coating gelcoat supplied and imported for Nepal by Samrat FRP Traders.',
@@ -530,6 +543,10 @@ export const products = Object.freeze([
     slug: 'fire-retardant-resin',
     group: 'fire-retardant-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'fire-retardant-resin-primary.webp', width: 700, height: 690 }),
+      Object.freeze({ src: 'fire-retardant-resin-secondary.webp', width: 700, height: 693 }),
+    ]),
     titleInput: 'Fire Retardant Resin \u2014 Nepal Supplier',
     metaDescription:
       'Fire Retardant Resin \u2014 a halogenated fire-retardant unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -568,6 +585,10 @@ export const products = Object.freeze([
     slug: 'iso-fire-retardant-resin',
     group: 'fire-retardant-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'iso-fire-retardant-resin-primary.webp', width: 700, height: 700 }),
+      Object.freeze({ src: 'iso-fire-retardant-resin-secondary.webp', width: 700, height: 700 }),
+    ]),
     titleInput: 'ISO Fire Retardant Resin \u2014 Nepal Supplier',
     metaDescription:
       'ISO Fire Retardant Resin \u2014 an isophthalic fire-retardant unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -610,6 +631,10 @@ export const products = Object.freeze([
     slug: 'frp-polyester-pigment',
     group: 'frp-allied-products',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'frp-polyester-pigment-primary.webp', width: 700, height: 693 }),
+      Object.freeze({ src: 'frp-polyester-pigment-secondary.webp', width: 700, height: 696 }),
+    ]),
     titleInput: 'FRP Polyester Pigment \u2014 Nepal Supplier',
     metaDescription:
       'FRP Polyester Pigment \u2014 a polyester pigment paste supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -648,6 +673,10 @@ export const products = Object.freeze([
     slug: 'glass-fiber-mat',
     group: 'frp-allied-products',
     tier: 'A',
+    images: Object.freeze([
+      Object.freeze({ src: 'glass-fiber-mat-primary.webp', width: 700, height: 696 }),
+      Object.freeze({ src: 'glass-fiber-mat-secondary.webp', width: 700, height: 692 }),
+    ]),
     titleInput: 'Glass Fiber Mat \u2014 Nepal Supplier',
     metaDescription:
       'Glass Fiber Mat \u2014 E-glass chopped strand mat (CSM), supplied and imported for Nepal by Samrat FRP Traders.',
@@ -688,6 +717,10 @@ export const products = Object.freeze([
     slug: 'clear-casting-resin',
     group: 'epoxy-casting-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'epoxy-clear-casting-resin-primary.webp', width: 700, height: 699 }),
+      Object.freeze({ src: 'epoxy-clear-casting-resin-secondary.webp', width: 700, height: 702 }),
+    ]),
     titleInput: 'Clear Casting Resin \u2014 Nepal Supplier',
     metaDescription:
       'Clear Casting Resin \u2014 a two-part epoxy system supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -726,6 +759,10 @@ export const products = Object.freeze([
     slug: 'epoxy-art-resin',
     group: 'epoxy-casting-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'epoxy-art-resin-primary.webp', width: 700, height: 831 }),
+      Object.freeze({ src: 'epoxy-art-resin-secondary.webp', width: 700, height: 832 }),
+    ]),
     titleInput: 'Epoxy Art Resin \u2014 Nepal Supplier',
     metaDescription:
       'Epoxy Art Resin \u2014 a two-component epoxy supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -761,6 +798,10 @@ export const products = Object.freeze([
     slug: 'uv-resin',
     group: 'epoxy-casting-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'uv-resin-primary.webp', width: 700, height: 719 }),
+      Object.freeze({ src: 'uv-resin-secondary.webp', width: 700, height: 700 }),
+    ]),
     titleInput: 'UV Resin \u2014 Nepal Supplier',
     metaDescription:
       'UV Resin \u2014 an epoxy acrylate resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -797,6 +838,10 @@ export const products = Object.freeze([
     slug: 'epoxy-hardener',
     group: 'epoxy-casting-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'epoxy-hardener-primary.webp', width: 700, height: 700 }),
+      Object.freeze({ src: 'epoxy-hardener-secondary.webp', width: 700, height: 700 }),
+    ]),
     titleInput: 'Epoxy Hardener \u2014 Nepal Supplier',
     metaDescription:
       'Epoxy Hardener \u2014 a polyamide curing agent supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -839,6 +884,11 @@ export const products = Object.freeze([
     slug: 'dmc-smc-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'dmc-smc-resin-primary.webp', width: 700, height: 715 }),
+      Object.freeze({ src: 'dmc-smc-resin-secondary.webp', width: 700, height: 726 }),
+      Object.freeze({ src: 'dmc-smc-resin-tertiary.webp', width: 700, height: 737 }),
+    ]),
     titleInput: 'DMC/SMC Resin \u2014 Nepal Supplier',
     metaDescription:
       'DMC/SMC Resin \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -878,6 +928,10 @@ export const products = Object.freeze([
     slug: 'polyester-putty-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'pet-resin-primary.webp', width: 700, height: 700 }),
+      Object.freeze({ src: 'pet-resin-secondary.webp', width: 700, height: 731 }),
+    ]),
     titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
     metaDescription:
       'Polyester Putty Resin (PET Resin) \u2014 a PET-modified unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -917,6 +971,10 @@ export const products = Object.freeze([
     slug: 'marble-resin',
     group: 'industrial-specialty-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'marble-resin-primary.webp', width: 700, height: 714 }),
+      Object.freeze({ src: 'marble-resin-secondary.webp', width: 700, height: 761 }),
+    ]),
     titleInput: 'Marble Resin \u2014 Nepal Supplier',
     metaDescription:
       'Marble Resin \u2014 an unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -956,6 +1014,10 @@ export const products = Object.freeze([
     slug: 'vinyl-ester-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'vinyl-ester-resin-primary.webp', width: 700, height: 770 }),
+      Object.freeze({ src: 'vinyl-ester-resin-secondary.webp', width: 700, height: 1050 }),
+    ]),
     titleInput: 'Vinyl Ester Resin \u2014 Nepal Supplier',
     metaDescription:
       'Vinyl Ester Resin \u2014 a bisphenol-A epoxy vinyl ester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -997,6 +1059,10 @@ export const products = Object.freeze([
     slug: 'fiberglass-epoxy-resin',
     group: 'industrial-specialty-resins',
     tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'fiberglass-epoxy-resin-primary.webp', width: 700, height: 700 }),
+      Object.freeze({ src: 'fiberglass-epoxy-resin-secondary.webp', width: 700, height: 780 }),
+    ]),
     titleInput: 'Fiberglass Epoxy Resin \u2014 Nepal Supplier',
     metaDescription:
       'Fiberglass Epoxy Resin \u2014 an epoxy resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -1042,6 +1108,10 @@ export const products = Object.freeze([
     slug: 'bisphenol-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
+    images: Object.freeze([
+      Object.freeze({ src: 'bisphenol-resin-primary.webp', width: 700, height: 719 }),
+      Object.freeze({ src: 'bisphenol-resin-secondary.webp', width: 700, height: 903 }),
+    ]),
     titleInput: 'Bisphenol Resin \u2014 Nepal Supplier',
     metaDescription:
       'Bisphenol Resin \u2014 a bisphenol-A based thermosetting resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
@@ -1084,6 +1154,10 @@ export const products = Object.freeze([
     slug: 'mekp-hardener',
     group: 'hardeners-catalysts',
     tier: 'A',
+    images: Object.freeze([
+      Object.freeze({ src: 'mekp-hardener-primary.webp', width: 700, height: 692 }),
+      Object.freeze({ src: 'mekp-hardener-secondary.webp', width: 700, height: 701 }),
+    ]),
     titleInput: 'MEKP Hardener \u2014 Nepal Supplier',
     metaDescription:
       'MEKP Hardener (Methyl Ethyl Ketone Peroxide) is an organic peroxide initiator supplied and imported for Nepal by Samrat FRP Traders.',
