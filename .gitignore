@@ -24,3 +24,5 @@ Thumbs.db
 # machine-readable failure reports, not source.
 scripts/.i18n-failures.json
 scripts/.app-failures.json
+.vercel
+.env*

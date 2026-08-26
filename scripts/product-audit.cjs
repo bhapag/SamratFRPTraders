@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dist = 'C:/dev/samrat-frp-nepal-deepseek-test/dist';
+const dist = path.join(process.cwd(), 'dist');
 
 const slugs = [
   'lamination-resin', 'gp-clear-resin', 'gp-white-resin', 'gp-quartz-resin',
