@@ -222,6 +222,10 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
             {isNe ? 'सोधपुछ' : 'Enquire'}
           </a>
         </div>
+        <div class="lang-toggle mobile-top-lang-toggle" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
+          <a href={nePath} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
+          <a href={enPath} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
+        </div>
         <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label={isNe ? 'मेनु खोल्नुहोस्' : 'Open menu'}>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
@@ -247,10 +251,6 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
         <a href={waLink} class="mobile-nav-wa button button-primary" target="_blank" rel="noopener">
           {isNe ? 'WhatsApp मा सोधपुछ' : 'Enquire on WhatsApp'}
         </a>
-        <div class="lang-toggle lang-toggle-mobile" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
-          <a href={nePath} lang="ne" aria-current={isNe ? 'true' : undefined}>नेपाली</a>
-          <a href={enPath} lang="en" aria-current={!isNe ? 'true' : undefined}>English</a>
-        </div>
       </div>
     </div>
 
@@ -800,6 +800,7 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
 
   .nav-toggle {
     display: none;
+    flex-shrink: 0;
     width: 2.75rem;
     height: 2.75rem;
     flex-direction: column;
@@ -898,14 +899,10 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     width: 100%;
   }
 
-  .lang-toggle-mobile {
-    align-self: start;
-  }
-
-  .lang-toggle-mobile a {
-    min-height: 2.9rem;
-    padding-inline: 1.1rem;
-    font-size: 0.72rem;
+  /* Mobile top-header language switcher: hidden on desktop, where the
+     .lang-toggle inside .header-actions already covers this job. */
+  .mobile-top-lang-toggle {
+    display: none;
   }
 
   @media (max-width: 1023px) {
@@ -920,8 +917,37 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
       display: none;
     }
 
+    /* A tighter gap than the desktop clamp reclaims just enough width for
+       the language toggle to sit beside the hamburger without squeezing
+       either control's touch target below 44px on narrow phones. */
+    .header-inner {
+      gap: 0.6rem;
+    }
+
+    .brand {
+      min-width: 0;
+      flex-shrink: 1;
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .brand-name {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .mobile-top-lang-toggle {
+      display: flex;
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+
     .nav-toggle {
       display: flex;
+      margin-left: 0;
     }
 
     .brand-badge {
@@ -939,6 +965,35 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
 
     .brand-descriptor {
       display: none;
+    }
+  }
+
+  /* Narrow phones (390px and below): the brand wordmark, language toggle
+     and hamburger are all fighting for the same row, so shave a little off
+     each non-essential dimension rather than let text-overflow: ellipsis
+     chew through several characters of the brand name for a few px of
+     overflow. The .brand-name ellipsis above still stands as a last-resort
+     guard below this range. */
+  @media (max-width: 400px) {
+    .header-inner {
+      gap: 0.4rem;
+    }
+
+    .brand {
+      gap: 0.5rem;
+    }
+
+    .brand-badge {
+      width: 2.3rem;
+      padding: 0.22rem;
+    }
+
+    .brand-name {
+      font-size: 0.82rem;
+    }
+
+    .mobile-top-lang-toggle a {
+      padding-inline: 0.55rem;
     }
   }
 
