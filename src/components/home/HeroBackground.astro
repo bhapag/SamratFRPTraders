@@ -1,0 +1,54 @@
+<div class="hero-media" aria-hidden="true">
+  <video
+    class="hero-video"
+    data-src="/videos/hero-background.mp4"
+    poster="/videos/hero-background-poster.webp"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="none"
+    disablepictureinpicture
+    disableremoteplayback
+    tabindex="-1"
+  ></video>
+</div>
+
+<script>
+  function initHeroBackgrounds() {
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    document.querySelectorAll('.hero-video').forEach((video) => {
+      if (!(video instanceof HTMLVideoElement) || video.dataset.wired === 'true') return;
+      video.dataset.wired = 'true';
+
+      const syncMotion = () => {
+        if (reducedMotion.matches) {
+          video.autoplay = false;
+          video.pause();
+          // Keep the static poster and avoid fetching video for reduced motion.
+          if (video.hasAttribute('src')) {
+            video.removeAttribute('src');
+            video.load();
+          }
+          return;
+        }
+
+        const source = video.dataset.src;
+        if (!source) return;
+        // The property must also be muted for mobile autoplay policies.
+        video.muted = true;
+        video.autoplay = true;
+        if (!video.hasAttribute('src')) video.src = source;
+        // A browser may still decline autoplay; the poster remains a fallback.
+        video.play().catch(() => {});
+      };
+
+      reducedMotion.addEventListener('change', syncMotion);
+      syncMotion();
+    });
+  }
+
+  initHeroBackgrounds();
+  document.addEventListener('astro:page-load', initHeroBackgrounds);
+</script>
