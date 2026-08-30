@@ -690,6 +690,14 @@ const faqSchema =
   }
 
   @media (max-width: 40rem) {
+    .article-body-wide {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .article-side {
+      min-width: 0;
+    }
+
     .qf-row {
       grid-template-columns: 1fr;
       gap: 0.3rem;
