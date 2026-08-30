@@ -1255,6 +1255,68 @@ const faqSchema =
     }
   }
 
+  @media (max-width: 40rem) {
+    .product-top {
+      gap: 1.15rem;
+      margin-top: 1.15rem;
+    }
+
+    .gallery-single,
+    .gallery-main {
+      padding: 0.35rem;
+      box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.18);
+    }
+
+    .gallery-nav {
+      width: 2.6rem;
+      height: 2.6rem;
+      opacity: 1;
+    }
+
+    .gallery-prev {
+      left: 0.45rem;
+    }
+
+    .gallery-next {
+      right: 0.45rem;
+    }
+
+    .gallery-thumbs {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.4rem;
+    }
+
+    .gallery-thumb {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1;
+    }
+
+    .product-actions {
+      gap: 0.8rem;
+    }
+
+    .prod-quote {
+      padding: 1.05rem;
+      border-left-width: 0.2rem;
+    }
+
+    .prod-quote-value {
+      font-size: 1.3rem;
+    }
+
+    .prod-quote-cta,
+    .prod-cta .button {
+      min-height: 3.25rem;
+    }
+
+    .product-layout {
+      gap: 1.6rem;
+      margin-top: 2rem;
+    }
+  }
+
   @media (max-width: 24rem) {
     .prod-cta-row {
       grid-template-columns: 1fr;

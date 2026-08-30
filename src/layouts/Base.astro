@@ -921,6 +921,7 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
        the language toggle to sit beside the hamburger without squeezing
        either control's touch target below 44px on narrow phones. */
     .header-inner {
+      min-height: 4.25rem;
       gap: 0.6rem;
     }
 
@@ -943,11 +944,13 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
       display: flex;
       flex-shrink: 0;
       margin-left: auto;
+      box-shadow: 0 0 0 1px rgba(var(--gold-rgb), 0.05);
     }
 
     .nav-toggle {
       display: flex;
       margin-left: 0;
+      background: rgba(var(--gold-rgb), 0.035);
     }
 
     .brand-badge {
@@ -965,6 +968,18 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
 
     .brand-descriptor {
       display: none;
+    }
+
+    .mobile-nav {
+      padding: clamp(5.25rem, 17vw, 6.5rem) var(--page-padding) max(1.5rem, env(safe-area-inset-bottom));
+      background-image:
+        linear-gradient(180deg, rgba(9, 13, 22, 0.94), var(--bg) 34%),
+        radial-gradient(90% 60% at 100% 0%, rgba(var(--gold-rgb), 0.1), transparent 60%);
+    }
+
+    .mobile-nav-links a {
+      padding-block: 0.9rem;
+      font-size: clamp(1.45rem, 7vw, 1.7rem);
     }
   }
 
@@ -998,8 +1013,24 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
   }
 
   @media (max-width: 22rem) {
+    .header-inner {
+      gap: 0.3rem;
+    }
+
+    .brand {
+      gap: 0.4rem;
+    }
+
+    .brand-badge {
+      width: 2.15rem;
+    }
+
     .brand-name {
-      font-size: 0.76rem;
+      font-size: 0.7rem;
+    }
+
+    .mobile-top-lang-toggle a {
+      padding-inline: 0.45rem;
     }
   }
 
@@ -1248,10 +1279,56 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
   @media (max-width: 480px) {
     .footer-grid {
       grid-template-columns: 1fr;
+      gap: 1.8rem;
+      padding-block: 2.75rem 1.75rem;
     }
 
     .footer-brand-col {
       grid-column: auto;
+    }
+
+    .footer-badge {
+      width: 4.8rem;
+    }
+
+    .footer-contact {
+      gap: 0.5rem;
+    }
+
+    .footer-contact a,
+    .footer-nav a {
+      min-height: 2.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer-cta {
+      width: 100%;
+      min-height: 3rem;
+      justify-content: center;
+      margin-top: 1.15rem;
+    }
+
+    .footer-bottom {
+      min-height: 0;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.9rem;
+      padding-block: 1.15rem max(1.15rem, env(safe-area-inset-bottom));
+    }
+
+    .footer-lang a {
+      min-height: 2.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .wa-float {
+      right: 0.9rem;
+      bottom: max(0.9rem, env(safe-area-inset-bottom));
+      width: 3.15rem;
+      height: 3.15rem;
+      box-shadow: 0 0.45rem 1.35rem rgba(0, 0, 0, 0.42);
     }
   }
 </style>

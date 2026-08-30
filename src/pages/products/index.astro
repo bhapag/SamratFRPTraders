@@ -476,4 +476,47 @@ import Base from '../../layouts/Base.astro';
       padding-bottom: 0.6rem;
     }
   }
+
+  @media (max-width: 40rem) {
+    .catalogue-rail {
+      gap: 0.85rem;
+    }
+
+    .catalogue-rail-nav {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.55rem;
+      padding: 0.75rem 0;
+      border-bottom: 0;
+    }
+
+    .rail-link,
+    .rail-link:first-child {
+      width: 100%;
+      min-height: 3rem;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 0.35rem;
+      padding: 0.55rem 0.65rem;
+      border: 1px solid var(--line);
+      background: var(--bg-3);
+    }
+
+    .rail-link:first-child {
+      grid-column: 1 / -1;
+    }
+
+    .rail-link-name {
+      font-size: 0.7rem;
+      line-height: 1.25;
+    }
+
+    .rail-link-count {
+      color: var(--accent-gold-light);
+    }
+
+    .rail-link.is-active {
+      border-color: rgba(var(--gold-rgb), 0.62);
+      background: rgba(var(--gold-rgb), 0.1);
+    }
+  }
 </style>

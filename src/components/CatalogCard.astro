@@ -224,4 +224,46 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
       transition: none;
     }
   }
+
+  @media (max-width: 40rem) {
+    .catalog-card:not(.has-media) {
+      min-height: 0;
+      gap: 0.7rem;
+      padding: 1.1rem 1.15rem;
+      padding-right: 2.55rem;
+    }
+
+    .catalog-card-name {
+      font-size: 1.18rem;
+      line-height: 1.04;
+    }
+
+    .catalog-card-desc {
+      font-size: 0.82rem;
+      line-height: 1.48;
+    }
+
+    .catalog-card-stage {
+      aspect-ratio: 4 / 3;
+      padding: 0.7rem;
+    }
+
+    .catalog-card.has-media .catalog-card-body {
+      gap: 0.4rem;
+      padding: 0.95rem 1.05rem 1.05rem;
+    }
+
+    .catalog-card.has-media .catalog-card-name {
+      font-size: 1.14rem;
+    }
+
+    .catalog-card-cta {
+      min-height: 2.5rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.35rem;
+      padding-top: 0.45rem;
+      border-top: 1px solid var(--line);
+    }
+  }
 </style>

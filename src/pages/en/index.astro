@@ -599,4 +599,50 @@ const featuredResources = resources.slice(0, 3);
       grid-template-columns: 1fr;
     }
   }
+
+  @media (max-width: 40rem) {
+    .section {
+      padding-block: 3rem;
+    }
+
+    .section-heading-split {
+      gap: 0.85rem;
+    }
+
+    .catalogue-categories,
+    .catalogue-grid {
+      gap: 0.85rem;
+    }
+
+    .featured-heading {
+      margin: 2rem 0 0.9rem;
+    }
+
+    .app-gallery {
+      gap: 0.75rem;
+    }
+
+    .supplier-stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.65rem;
+      margin: 1.3rem 0;
+    }
+
+    .supplier-stats div {
+      gap: 0.25rem;
+      padding: 0.75rem 0.65rem;
+      border: 1px solid var(--line);
+      background: var(--bg-3);
+    }
+
+    .supplier-stats strong {
+      font-size: 1.7rem;
+    }
+
+    .supplier-stats span {
+      font-size: 0.55rem;
+      letter-spacing: 0.06em;
+    }
+  }
 </style>
