@@ -1,28 +1,14 @@
-// ============================================================
-// TEMPORARY PRE-LAUNCH ASSERTION — READ THIS BEFORE TOUCHING
-// ============================================================
-// The site is deliberately not yet open to search engines: robots.txt
-// disallows everything, and every page ships <meta name="robots"
-// content="noindex, nofollow">. This module asserts that state STAYS true
-// so nobody accidentally flips indexing on before the production domain
-// and live QA are verified.
-//
-// When the team is actually ready to open indexing (after: custom domain
-// connected, HTTPS verified, live-domain QA complete), this module is the
-// ONE place that needs to flip — invert the two assertions below (expect
-// robots.txt to allow crawling, expect pages to NOT carry noindex) and
-// update the header comment. Do not do that today; do not do it without
-// an explicit human decision to launch indexing.
-// ============================================================
+// Production indexing guard: public pages must remain indexable, while only
+// the two intentionally non-canonical 404 pages remain noindex.
 
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { Report, DIST, collectHtmlFiles, toRoute, robotsMeta } from './lib.mjs';
 
-const PRELAUNCH = true; // <-- flip this (and the assertions it drives) to open indexing, deliberately, later.
+const NOINDEX_ROUTES = new Set(['/404.html', '/en/404/']);
 
 export async function run() {
-  const r = new Report(`PRE-LAUNCH INDEXING SAFETY (mode: ${PRELAUNCH ? 'CLOSED (expected now)' : 'OPEN'})`);
+  const r = new Report('PRODUCTION INDEXING SAFETY (mode: OPEN)');
 
   let robotsTxt;
   try {
@@ -33,33 +19,31 @@ export async function run() {
   }
 
   const disallowsAll = /Disallow:\s*\/\s*$/m.test(robotsTxt);
-  if (PRELAUNCH) {
-    if (!disallowsAll) r.error('robots.txt no longer disallows all crawling — indexing appears to have been opened. If this was intentional, flip PRELAUNCH in this file and update the header comment; do not leave the assertion silently mismatched.');
-    else r.info('robots.txt still disallows all crawling (expected pre-launch state).');
-  } else if (disallowsAll) {
-    r.error('PRELAUNCH is set to false (indexing meant to be open) but robots.txt still disallows everything.');
-  }
+  if (disallowsAll) r.error('robots.txt still disallows all crawling while production indexing is open.');
+  else r.info('robots.txt allows public crawling (expected production state).');
 
   const htmlFiles = collectHtmlFiles();
+  let publicPageCount = 0;
   let noindexCount = 0;
-  const missingNoindex = [];
   for (const file of htmlFiles) {
     const html = readFileSync(file, 'utf8');
     const robots = robotsMeta(html);
-    if (robots && /noindex/i.test(robots)) noindexCount++;
-    else missingNoindex.push(toRoute(file));
+    const route = toRoute(file);
+    const isNoindex = robots && /noindex/i.test(robots);
+    if (NOINDEX_ROUTES.has(route)) {
+      if (!isNoindex) r.error(`${route}: intentionally non-canonical 404 page must remain noindex.`);
+      else noindexCount++;
+    } else if (isNoindex) {
+      r.error(`${route}: public page must not carry noindex.`);
+    } else if (!robots || !/index/i.test(robots) || !/follow/i.test(robots)) {
+      r.error(`${route}: public page must declare "index, follow" robots metadata.`);
+    } else {
+      publicPageCount++;
+    }
   }
 
-  if (PRELAUNCH) {
-    if (missingNoindex.length) {
-      const sample = missingNoindex.slice(0, 10);
-      r.error(`${missingNoindex.length} page(s) are missing "noindex" while the site is in pre-launch mode: ${sample.join(', ')}${missingNoindex.length > sample.length ? ', ...' : ''}`);
-    } else {
-      r.info(`all ${noindexCount} generated pages carry noindex (expected pre-launch state).`);
-    }
-  } else if (noindexCount > 0) {
-    r.error(`PRELAUNCH is set to false but ${noindexCount} page(s) still carry noindex.`);
-  }
+  r.info(`${publicPageCount} public generated page(s) declare index, follow.`);
+  r.info(`${noindexCount} intentionally non-indexable 404 page(s) retain noindex.`);
 
   return r;
 }

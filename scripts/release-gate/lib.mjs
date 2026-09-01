@@ -7,7 +7,7 @@ import { extname, join } from 'node:path';
 
 export const ROOT = process.cwd();
 export const DIST = join(ROOT, 'dist');
-export const PROD_ORIGIN = 'https://samratfrptraders.np';
+export const PROD_ORIGIN = 'https://samratfrptraders.com';
 
 export function requireDist() {
   if (!existsSync(DIST)) {

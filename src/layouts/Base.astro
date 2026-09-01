@@ -7,7 +7,7 @@ import '../styles/foundation.css';
 const {
   title,
   description = site.description,
-  noindex = true,
+  noindex = false,
   canonical = true,
   lang = 'en',
 } = Astro.props;
@@ -76,7 +76,7 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     {!is404 && <link rel="alternate" hreflang="en-NP" href={enUrl} />}
     {!is404 && <link rel="alternate" hreflang="ne-NP" href={neUrl} />}

@@ -36,7 +36,7 @@ Every check module reports at one of three levels:
 | `scripts/application-i18n-audit.mjs` (existing, reused) | Same, for application guides |
 | `release-gate/build-routes.mjs` | Build integrity (no zero-byte HTML, data-derived page-count floor), required system routes, product/application/resource/category bilingual route pairs, retired `/ne/` prefix absence, `<html lang>` sanity |
 | `release-gate/seo-schema.mjs` | Title/description/canonical/robots/OG/Twitter tags per page, hreflang reciprocity (ne-NP/en-NP/x-default) across every bilingual pair, sitemap host/legacy-URL safety, JSON-LD parses + the `Product.manufacturer` business-truth guard |
-| `release-gate/indexing-safety.mjs` | **Temporary pre-launch assertion** — see below |
+| `release-gate/indexing-safety.mjs` | Production crawl/indexing safety: public pages must be indexable; only 404 pages remain noindex |
 | `release-gate/business-truth.mjs` | Hard-fail scan for unsupported manufacturer/pricing/India-contact claims, an "ambiguous — human review" bucket for context-sensitive wording, business-identity presence, and contact-data drift (tel/mailto/wa.me vs. `site.js`) |
 | `release-gate/documents-assets.mjs` | Customer catalogue CTA vs. supplier technical-source PDF (kept explicitly distinct), per-product TDS/SDS local-mirror integrity (derived from each product's own `documents[].url`, not guessed from its slug), every referenced image/video/pdf/font resolves, local-machine/localhost/Vercel-preview path-leak scan, orphaned `public/` asset candidates |
 | `release-gate/redirects.mjs` | `vercel.json` syntax/self-consistency (loops, duplicate sources, dead-end destinations, the retired UPR route not competing with a live page) — explicitly labeled CONFIG VERIFIED, not LIVE VERCEL VERIFIED |
@@ -44,19 +44,11 @@ Every check module reports at one of three levels:
 | `release-gate/perf-sanity.mjs` | dist size profile, largest media assets, byte-identical large-asset duplicates |
 | `npm audit` (wrapped in `run.mjs`) | Dependency vulnerabilities |
 
-## The pre-launch indexing assertion — read before touching
+## Production indexing safety
 
-`release-gate/indexing-safety.mjs` currently asserts the site stays
-**closed** to search engines: `robots.txt` disallows everything, and every
-page ships `noindex, nofollow`. This is intentional pre-launch behavior,
-not a bug — the site isn't on its real domain yet.
-
-When the team is actually ready to open indexing (only after: the custom
-domain is connected, HTTPS is verified, and live-domain QA is complete),
-that one file is where the switch lives — flip the `PRELAUNCH` constant at
-the top and update its header comment. Don't do that as a side effect of
-any other change, and don't do it without an explicit human "we're opening
-indexing now" decision.
+`release-gate/indexing-safety.mjs` asserts the production state: public
+pages declare `index, follow`, `robots.txt` permits crawling, and only the
+non-canonical 404 pages retain `noindex, nofollow`.
 
 ## Browser/production-simulation QA
 

@@ -2,7 +2,7 @@ export const site = Object.freeze({
   name: 'Samrat FRP Traders',
   legalName: 'M/s SAMRAT F.R.P TRADERS',
   descriptor: 'FRP materials supplier',
-  url: 'https://samratfrptraders.np/',
+  url: 'https://samratfrptraders.com/',
   description:
     'Samrat FRP Traders supplies and imports FRP materials and industrial resins across Nepal — polyester resins, gelcoats, glass fiber, hardeners and related materials, with supplier technical documentation.',
   // Verified business details (owner-provided)

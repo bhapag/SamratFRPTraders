@@ -6,8 +6,8 @@ Local technical foundation for the planned Samrat FRP Traders Nepal website.
 
 ## Status
 
-Local-only technical and frontend foundation. The active pages remain provisional,
-non-production scaffolds and are marked `noindex`.
+Production static website foundation. Public pages are indexable on the
+production domain; only the intentionally non-canonical 404 pages are `noindex`.
 
 ## Stack
 
@@ -34,7 +34,7 @@ npm run check:links # validate internal links after a build
 ## Project structure
 
 ```text
-public/             static hosting files, including provisional robots policy
+public/             static hosting files, including production robots policy
 scripts/            build-time verification utilities
 src/components/     shared header, footer, status notice, and product-preview shell
 src/data/           neutral site settings and explicit placeholder product records
@@ -81,6 +81,7 @@ Do not assume a Nepal business address, telephone, email, VAT/PAN, registration 
 
 Nepal market research; competitor research; final keyword research and information architecture; real product and content population; final SEO, advanced schema, and business copy; contact integration; analytics and Search Console; hosting, DNS, and the `.np` domain; final QA and launch are deferred.
 
-### Important crawl state
+### Crawl state
 
-Every page is intentionally `noindex, nofollow`, and `robots.txt` disallows all crawling. Claude Max must review both controls before any production launch.
+Public pages declare `index, follow`, and `robots.txt` permits crawling. Only the
+intentionally non-canonical 404 pages retain `noindex, nofollow`.
