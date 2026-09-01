@@ -16,6 +16,7 @@ const group = getGroup(product.group);
 const parent = productParentGroup(product);
 const content = getProductContent(product.slug);
 const localized = content?.ne ?? null;
+const primaryImage = product.socialImage ? product.images?.[0] : null;
 
 const breadcrumbItems = [
   { label: 'गृहपृष्ठ', href: '/' },
@@ -30,7 +31,14 @@ const seoDescription =
   product.metaDescription ??
   `${product.name} — Samrat FRP Traders ले नेपाल बजारका लागि आपूर्ति तथा आयात गर्ने उत्पादन।`;
 ---
-<Base lang="ne" title={seoTitle} description={seoDescription}>
+<Base
+  lang="ne"
+  title={seoTitle}
+  description={seoDescription}
+  ogImage={primaryImage ? `/images/products/${primaryImage.src}` : undefined}
+  ogImageWidth={primaryImage?.width}
+  ogImageHeight={primaryImage?.height}
+>
   <section class="page-hero hero-shell">
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">

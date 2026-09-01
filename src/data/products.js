@@ -1,13 +1,13 @@
 // Centralized product catalogue — Samrat FRP Traders Nepal.
 //
 // Source of truth for the locked Group 2 / 2.1 architecture:
-//   - 25 commercial products across 8 groups. Unsaturated Polyester Resin is a real
+//   - 31 commercial products across 9 groups. Unsaturated Polyester Resin is a real
 //     standalone product page — supplier documentation confirms it is the generic
 //     commercial description for the GP Clear Resin grade in this same catalogue;
 //     the two entries deliberately carry distinct content and cross-link rather
 //     than duplicate each other.
 //   - Exactly 2 indexable category groups (Polyester Resins, Epoxy & Casting Resins);
-//     the other 6 groups are navigation-only (no category URL).
+//     the other 7 groups are navigation-only (no category URL).
 //   - Flat permanent product URLs: /products/{slug}/.
 //
 // This file asserts NO technical values, prices, stock, packaging, MOQ,
@@ -102,6 +102,11 @@ export const catalogGroups = Object.freeze([
   Object.freeze({
     name: 'Hardeners & Catalysts',
     slug: 'hardeners-catalysts',
+    indexable: false,
+  }),
+  Object.freeze({
+    name: 'Elite Products',
+    slug: 'elite-products',
     indexable: false,
   }),
 ]);
@@ -1190,6 +1195,125 @@ export const products = Object.freeze([
       }),
     ]),
     technicalEvidenceStatus: 'verified',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  // Cobalt Octoate is catalogued with Hardeners & Catalysts for buyer
+  // navigation. Its product copy accurately identifies it as an
+  // accelerator/promoter, not an MEKP hardener or a resin.
+  Object.freeze({
+    name: 'Cobalt Octoate',
+    slug: 'cobalt-octoate',
+    group: 'hardeners-catalysts',
+    tier: 'C',
+    socialImage: true,
+    images: Object.freeze([
+      Object.freeze({ src: 'cobalt-octoate-primary.png', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'Cobalt Octoate Accelerator — Nepal Supplier',
+    metaDescription:
+      'Cobalt Octoate accelerator/promoter supplied for appropriate unsaturated polyester resin curing systems in Nepal by Samrat FRP Traders. Confirm suitability for the specific resin system during enquiry.',
+    descriptor:
+      'Polyester-resin accelerator/promoter for appropriate unsaturated polyester resin curing systems; it is not MEKP hardener and not resin.',
+    overview:
+      'Cobalt Octoate is an accelerator/promoter used in appropriate unsaturated polyester resin curing systems. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the specific resin system before use.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+
+  // Elite Products
+  Object.freeze({
+    name: 'Styrene Monomer',
+    slug: 'styrene-monomer',
+    group: 'elite-products',
+    tier: 'C',
+    socialImage: true,
+    images: Object.freeze([
+      Object.freeze({ src: 'styrene-monomer-primary.png', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'Styrene Monomer — Nepal Supplier',
+    metaDescription:
+      'Styrene Monomer supplied for appropriate polyester-resin systems in Nepal by Samrat FRP Traders. Confirm suitability for the specific resin system during enquiry.',
+    descriptor:
+      'Reactive monomer / reactive diluent for appropriate polyester-resin systems.',
+    overview:
+      'Styrene Monomer is a reactive monomer and reactive diluent used in appropriate polyester-resin systems. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the specific resin system before use.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
+    name: 'NC Thinner',
+    slug: 'nc-thinner',
+    group: 'elite-products',
+    tier: 'C',
+    socialImage: true,
+    images: Object.freeze([
+      Object.freeze({ src: 'nc-thinner-primary.png', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'NC Thinner — Nepal Supplier',
+    metaDescription:
+      'NC Thinner, a professional thinner/solvent blend, supplied in Nepal by Samrat FRP Traders for appropriate coating and cleanup contexts.',
+    descriptor:
+      'Professional thinner/solvent blend for appropriate coating and cleanup contexts.',
+    overview:
+      'NC Thinner is a professional thinner/solvent blend for appropriate coating and cleanup contexts. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the intended product system before use.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
+    name: 'Paint Brushes',
+    slug: 'paint-brushes',
+    group: 'elite-products',
+    tier: 'C',
+    socialImage: true,
+    images: Object.freeze([
+      Object.freeze({ src: 'paint-brushes-primary.png', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'Paint Brushes — Nepal Supplier',
+    metaDescription:
+      'Paint Brushes supplied in Nepal by Samrat FRP Traders for resin, coating, gelcoat and FRP fabrication application work.',
+    descriptor:
+      'Application tool for resin, coatings, gelcoat and FRP fabrication.',
+    overview:
+      'Paint Brushes are application tools for resin, coatings, gelcoat and FRP fabrication work. Samrat FRP Traders supplies them for the Nepal market; confirm the appropriate brush selection for the intended application during enquiry.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
+    name: 'Soap Stone Powder',
+    slug: 'soap-stone-powder',
+    group: 'elite-products',
+    tier: 'C',
+    socialImage: true,
+    images: Object.freeze([
+      Object.freeze({ src: 'soap-stone-powder-primary.png', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'Soap Stone Powder — Nepal Supplier',
+    metaDescription:
+      'Soap Stone Powder, an industrial mineral/filler powder, supplied in Nepal by Samrat FRP Traders for relevant composite and industrial contexts.',
+    descriptor:
+      'Industrial mineral/filler powder for relevant composite and industrial application contexts.',
+    overview:
+      'Soap Stone Powder is an industrial mineral/filler powder for relevant composite and industrial application contexts. Samrat FRP Traders supplies it for the Nepal market; confirm suitability for the intended formulation or process during enquiry.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  Object.freeze({
+    name: 'Wax Polish',
+    slug: 'wax-polish',
+    group: 'elite-products',
+    tier: 'C',
+    socialImage: true,
+    images: Object.freeze([
+      Object.freeze({ src: 'wax-polish-primary.png', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'Wax Polish — Nepal Supplier',
+    metaDescription:
+      'Wax Polish supplied in Nepal by Samrat FRP Traders for FRP mould-release and parting-wax preparation contexts.',
+    descriptor:
+      'FRP mould-release / parting-wax product for mould preparation and release contexts.',
+    overview:
+      'Wax Polish is used in FRP mould-release and parting-wax preparation contexts. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the intended mould preparation and release process during enquiry.',
+    technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
 ]);

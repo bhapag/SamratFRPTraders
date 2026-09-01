@@ -152,7 +152,8 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
      blind 1:1 — this keeps contain-fit letterboxing under ~6% per side
      across every current image instead of leaving visible empty bands. */
   .catalog-card-stage {
-    display: block;
+    display: grid;
+    place-items: center;
     aspect-ratio: 1 / 1.05;
     padding: 0.9rem;
     border-bottom: 1px solid var(--line);
@@ -162,10 +163,12 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
 
   .catalog-card-stage img {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
-    object-position: center;
+    object-position: center center;
     transition: transform 320ms var(--ease-premium);
   }
 
