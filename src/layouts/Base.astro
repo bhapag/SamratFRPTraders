@@ -1,6 +1,7 @@
 ---
 import { buildCanonicalUrl, buildWhatsAppLink, site, whatsAppMessages } from '../data/site.js';
 import { catalogGroups, products, productsInGroup } from '../data/products.js';
+import AmbientBackground from '../components/AmbientBackground.astro';
 import '../styles/global.css';
 import '../styles/foundation.css';
 
@@ -254,8 +255,11 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
       </div>
     </div>
 
-    <main id="main-content">
-      <slot />
+    <main id="main-content" class:list={['site-main', { 'site-main-home': isHome }]}>
+      {!is404 && <AmbientBackground deferUntilHero={isHome} />}
+      <div class="site-main-content">
+        <slot />
+      </div>
     </main>
 
     <footer class="site-footer">
@@ -956,14 +960,6 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     .brand-badge {
       width: 2.6rem;
       padding: 0.28rem;
-    }
-
-    .brand-logo-full {
-      display: none;
-    }
-
-    .brand-logo-mark {
-      display: block;
     }
 
     .brand-descriptor {

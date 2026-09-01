@@ -100,6 +100,84 @@ textarea {
   }
 }
 
+/* ---------- page-level ambient resin atmosphere ----------
+   This is intentionally separate from the approved hero. Every eligible page
+   gets one shared, low-intensity layer beneath its content rather than a video
+   per section or card. Opaque surfaces (forms, cards, tables and long-form
+   reading panels) keep their existing backgrounds, so readability always wins. */
+.site-main {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background: #0d0f12;
+}
+
+.site-main-content {
+  position: relative;
+  z-index: 1;
+}
+
+.ambient-page-media {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: -100vh;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(78% 54% at 84% 16%, rgba(28, 47, 83, 0.16), transparent 70%),
+    url('/videos/hero-background-poster.webp') center / cover no-repeat,
+    #080b11;
+}
+
+.ambient-page-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(7, 10, 16, 0.3) 0%, rgba(7, 10, 16, 0.23) 42%, rgba(7, 10, 16, 0.34) 100%),
+    linear-gradient(90deg, rgba(5, 8, 14, 0.22), transparent 56%, rgba(5, 8, 14, 0.12));
+}
+
+.ambient-page-video {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.4;
+  filter: brightness(0.55) contrast(1.02) saturate(0.98);
+}
+
+/* The homepage keeps its approved hero untouched. Its ambient layer is only
+   revealed below the hero by the component's deferred source loading. */
+.site-main-home .ambient-page-media::after {
+  background:
+    linear-gradient(180deg, rgba(7, 10, 16, 0.32) 0%, rgba(7, 10, 16, 0.24) 18%, rgba(7, 10, 16, 0.34) 100%),
+    linear-gradient(90deg, rgba(5, 8, 14, 0.24), transparent 58%, rgba(5, 8, 14, 0.14));
+}
+
+@media (max-width: 42rem) {
+  .ambient-page-media {
+    background-position: 58% center;
+  }
+
+  .ambient-page-video {
+    opacity: 0.36;
+    filter: brightness(0.52) contrast(1.02) saturate(0.95);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-page-video {
+    display: none;
+  }
+}
+
 /* ---------- homepage cinematic hero ----------
    Inherited from the Samrat Poly Resins source hero (structure, media
    treatment, scrim, grid, sweep and staggered entrance all ported from

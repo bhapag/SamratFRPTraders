@@ -1,0 +1,88 @@
+---
+const { deferUntilHero = false } = Astro.props;
+---
+
+<!-- One decorative media instance per page. It belongs to the page shell rather
+     than to individual sections so the atmosphere carries naturally between
+     sections without adding competing video decoders. -->
+<div class="ambient-page-media" aria-hidden="true">
+  <video
+    class="ambient-page-video"
+    data-src="/videos/hero-background.mp4"
+    data-defer-until-hero={deferUntilHero ? 'true' : undefined}
+    poster="/videos/hero-background-poster.webp"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="none"
+    disablepictureinpicture
+    disableremoteplayback
+    tabindex="-1"
+  ></video>
+</div>
+
+<script>
+  function initAmbientBackgrounds() {
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    document.querySelectorAll('.ambient-page-video').forEach((video) => {
+      if (!(video instanceof HTMLVideoElement) || video.dataset.wired === 'true') return;
+      video.dataset.wired = 'true';
+
+      let heroObserver;
+      const deferUntilHero = video.dataset.deferUntilHero === 'true';
+
+      const unload = () => {
+        video.pause();
+        if (video.hasAttribute('src')) {
+          video.removeAttribute('src');
+          video.load();
+        }
+      };
+
+      const load = () => {
+        if (reducedMotion.matches) {
+          unload();
+          return;
+        }
+
+        const source = video.dataset.src;
+        if (!source) return;
+        video.muted = true;
+        video.autoplay = true;
+        if (!video.hasAttribute('src')) video.src = source;
+        video.play().catch(() => {});
+      };
+
+      const syncMotion = () => {
+        if (!deferUntilHero) {
+          load();
+          return;
+        }
+
+        const hero = document.querySelector('.hero');
+        if (!hero) {
+          load();
+          return;
+        }
+
+        heroObserver?.disconnect();
+        heroObserver = new IntersectionObserver(([entry]) => {
+          // The approved hero remains the only moving background while it is
+          // onscreen. The ambient layer starts only once the visitor reaches
+          // the content below it, avoiding two concurrent copies on load.
+          if (entry.isIntersecting) unload();
+          else load();
+        }, { threshold: 0.01 });
+        heroObserver.observe(hero);
+      };
+
+      reducedMotion.addEventListener('change', syncMotion);
+      syncMotion();
+    });
+  }
+
+  initAmbientBackgrounds();
+  document.addEventListener('astro:page-load', initAmbientBackgrounds);
+</script>
