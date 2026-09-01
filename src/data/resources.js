@@ -2,6 +2,8 @@
 // Architecture, technical facts and tables are preserved; brand and product links are remapped.
 // Narrative localisation continues in batches (see the migration report).
 
+import { newProductResources } from './new-product-resources.js';
+
 export const resources = Object.freeze([
   {
     "slug": "what-is-gp-polyester-resin",
@@ -18458,5 +18460,6 @@ export const resources = Object.freeze([
         ]
       }
     ]
-  }
+  },
+  ...newProductResources,
 ]);

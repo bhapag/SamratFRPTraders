@@ -1,13 +1,13 @@
 // Centralized product catalogue — Samrat FRP Traders Nepal.
 //
 // Source of truth for the locked Group 2 / 2.1 architecture:
-//   - 31 commercial products across 9 groups. Unsaturated Polyester Resin is a real
+//   - 31 commercial products across 8 groups. Unsaturated Polyester Resin is a real
 //     standalone product page — supplier documentation confirms it is the generic
 //     commercial description for the GP Clear Resin grade in this same catalogue;
 //     the two entries deliberately carry distinct content and cross-link rather
 //     than duplicate each other.
 //   - Exactly 2 indexable category groups (Polyester Resins, Epoxy & Casting Resins);
-//     the other 7 groups are navigation-only (no category URL).
+//     the other 6 groups are navigation-only (no category URL).
 //   - Flat permanent product URLs: /products/{slug}/.
 //
 // This file asserts NO technical values, prices, stock, packaging, MOQ,
@@ -102,11 +102,6 @@ export const catalogGroups = Object.freeze([
   Object.freeze({
     name: 'Hardeners & Catalysts',
     slug: 'hardeners-catalysts',
-    indexable: false,
-  }),
-  Object.freeze({
-    name: 'Elite Products',
-    slug: 'elite-products',
     indexable: false,
   }),
 ]);
@@ -1220,11 +1215,11 @@ export const products = Object.freeze([
     nepalCommercialEvidenceStatus: 'pending',
   }),
 
-  // Elite Products
+  // FRP Allied Products
   Object.freeze({
     name: 'Styrene Monomer',
     slug: 'styrene-monomer',
-    group: 'elite-products',
+    group: 'frp-allied-products',
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
@@ -1243,7 +1238,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'NC Thinner',
     slug: 'nc-thinner',
-    group: 'elite-products',
+    group: 'frp-allied-products',
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
@@ -1262,7 +1257,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Paint Brushes',
     slug: 'paint-brushes',
-    group: 'elite-products',
+    group: 'frp-allied-products',
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
@@ -1281,7 +1276,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Soap Stone Powder',
     slug: 'soap-stone-powder',
-    group: 'elite-products',
+    group: 'frp-allied-products',
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
@@ -1300,7 +1295,7 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'Wax Polish',
     slug: 'wax-polish',
-    group: 'elite-products',
+    group: 'frp-allied-products',
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
