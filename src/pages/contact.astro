@@ -1,5 +1,5 @@
 ---
-import { buildWhatsAppLink, site, whatsAppMessages } from '../data/site.js';
+import { buildContactWhatsAppLink, site, whatsAppMessages } from '../data/site.js';
 import Base from '../layouts/Base.astro';
 ---
 <Base
@@ -28,25 +28,24 @@ import Base from '../layouts/Base.astro';
         </p>
 
         <div class="contact-methods">
-          <a
-            class="contact-method contact-method-wa"
-            href={buildWhatsAppLink(whatsAppMessages.ne)}
-            target="_blank"
-            rel="noopener"
-          >
-            <svg class="contact-method-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2s-.8.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.5c-.2 0-.5 0-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.4A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z" /></svg>
-            <span class="contact-method-text">
-              <span class="contact-method-label">WhatsApp</span>
-              <span class="contact-method-value">{site.business.phone}</span>
-            </span>
-          </a>
-          <a class="contact-method" href={`tel:${site.business.tel}`}>
-            <svg class="contact-method-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-            <span class="contact-method-text">
-              <span class="contact-method-label">फोन</span>
-              <span class="contact-method-value">{site.business.phone}</span>
-            </span>
-          </a>
+          {site.business.contactNumbers.map((contact) => (
+            <div class="contact-number-actions">
+              <a class="contact-method" href={`tel:${contact.tel}`}>
+                <svg class="contact-method-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+                <span class="contact-method-text">
+                  <span class="contact-method-label">फोन · {contact.countryNe}</span>
+                  <span class="contact-method-value">{contact.phone}</span>
+                </span>
+              </a>
+              <a class="contact-method contact-method-wa" href={buildContactWhatsAppLink(contact.whatsapp, whatsAppMessages.ne)} target="_blank" rel="noopener">
+                <svg class="contact-method-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2s-.8.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.5c-.2 0-.5 0-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.4A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z" /></svg>
+                <span class="contact-method-text">
+                  <span class="contact-method-label">WhatsApp · {contact.countryNe}</span>
+                  <span class="contact-method-value">{contact.phone}</span>
+                </span>
+              </a>
+            </div>
+          ))}
           <a class="contact-method" href={`mailto:${site.business.email}`}>
             <svg class="contact-method-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m2 6 10 7 10-7" /></svg>
             <span class="contact-method-text">
@@ -76,10 +75,12 @@ import Base from '../layouts/Base.astro';
             <span>ठेगाना</span>
             <strong>{site.business.addressLine1}, {site.business.city}, {site.business.country}</strong>
           </div>
-          <div>
-            <span>फोन / WhatsApp</span>
-            <strong>{site.business.phone}</strong>
-          </div>
+          {site.business.contactNumbers.map((contact) => (
+            <div>
+              <span>फोन · {contact.countryNe}</span>
+              <strong>{contact.phone}</strong>
+            </div>
+          ))}
           <div>
             <span>इमेल</span>
             <strong>{site.business.email}</strong>
@@ -182,6 +183,12 @@ import Base from '../layouts/Base.astro';
     display: grid;
     gap: 0.7rem;
     margin: 1.6rem 0 2rem;
+  }
+
+  .contact-number-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0.7rem;
   }
 
   .contact-method {
@@ -378,6 +385,10 @@ import Base from '../layouts/Base.astro';
   }
 
   @media (max-width: 32rem) {
+    .contact-number-actions {
+      grid-template-columns: 1fr;
+    }
+
     .contact-lines div {
       grid-template-columns: 1fr;
       gap: 0.35rem;

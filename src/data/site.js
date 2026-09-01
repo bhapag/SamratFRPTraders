@@ -13,6 +13,29 @@ export const site = Object.freeze({
     phone: '+977 9805526904',
     tel: '+9779805526904',
     whatsapp: '9779805526904', // digits only, country code, no +
+    contactNumbers: Object.freeze([
+      Object.freeze({
+        country: 'Nepal',
+        countryNe: 'नेपाल',
+        phone: '+977 9805526904',
+        tel: '+9779805526904',
+        whatsapp: '9779805526904',
+      }),
+      Object.freeze({
+        country: 'India',
+        countryNe: 'भारत',
+        phone: '+91 7463881005',
+        tel: '+917463881005',
+        whatsapp: '917463881005',
+      }),
+      Object.freeze({
+        country: 'India',
+        countryNe: 'भारत',
+        phone: '+91 7463881652',
+        tel: '+917463881652',
+        whatsapp: '917463881652',
+      }),
+    ]),
     email: 'samratfrptraders@gmail.com',
     pan: '623071827',
     vat: '623071827',
@@ -36,6 +59,12 @@ export function buildCanonicalUrl(pathname) {
 // Shared WhatsApp link builder — language-aware prefilled messages.
 export function buildWhatsAppLink(message) {
   return `https://wa.me/${site.business.whatsapp}?text=${encodeURIComponent(message)}`;
+}
+
+// Contact-page-only WhatsApp link builder. Global enquiry CTAs intentionally
+// continue to use buildWhatsAppLink() and the primary Nepal number above.
+export function buildContactWhatsAppLink(number, message) {
+  return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 
 export const whatsAppMessages = Object.freeze({

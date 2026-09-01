@@ -115,13 +115,14 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
         addressLocality: site.business.city,
         addressCountry: site.business.country,
       },
-      contactPoint: {
+      telephone: site.business.tel,
+      contactPoint: site.business.contactNumbers.map((contact) => ({
         '@type': 'ContactPoint',
         contactType: 'sales',
-        telephone: site.business.tel,
+        telephone: contact.tel,
         email: site.business.email,
         availableLanguage: ['en', 'ne'],
-      },
+      })),
     })} />
     <script is:inline>
       // Opt-in hook for the scroll-reveal system. Only added when the user
@@ -292,7 +293,9 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
               : 'Samrat Poly Resins, India is a trusted supplier to Samrat FRP Traders for resins and related FRP materials.'}
           </p>
           <div class="footer-contact">
-            <a href="tel:+9779805526904">+977 9805526904</a>
+            {site.business.contactNumbers.map((contact) => (
+              <a href={`tel:${contact.tel}`}>{contact.phone}</a>
+            ))}
             <a href="mailto:samratfrptraders@gmail.com">samratfrptraders@gmail.com</a>
             <span>Ward No. 2, Tinpani Chowk, Main Road, Biratnagar, Nepal</span>
           </div>

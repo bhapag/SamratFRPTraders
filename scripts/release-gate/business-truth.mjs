@@ -31,7 +31,6 @@ function context(html, index, radius = 90) {
 
 // Unambiguous — always a hard fail regardless of surrounding text.
 const HARD_FAIL_PATTERNS = [
-  { name: 'India phone number leakage', re: /\+91[\s-]?\d{3,}/g },
   { name: 'GSTIN', re: /\bGSTIN\b/gi },
   { name: 'pan-India business claim', re: /\bpan-india\b/gi },
   { name: 'currency symbol (₹)', re: /₹/g },
@@ -124,6 +123,8 @@ export async function run() {
   const canonicalTel = site.business.tel;
   const canonicalEmail = site.business.email;
   const canonicalWa = site.business.whatsapp;
+  const allowedTels = new Set(site.business.contactNumbers.map((contact) => contact.tel));
+  const allowedWa = new Set(site.business.contactNumbers.map((contact) => contact.whatsapp));
 
   const telRe = /tel:(\+?\d[\d-]*)/g;
   const mailRe = /mailto:([^"'?]+)/g;
@@ -144,18 +145,31 @@ export async function run() {
     while ((m = waRe.exec(html))) foundWa.add(m[1]);
   }
 
-  const badTel = [...foundTel].filter((t) => t !== canonicalTel);
+  const badTel = [...foundTel].filter((t) => !allowedTels.has(t));
   const badMail = [...foundMail].filter((e) => e !== canonicalEmail);
-  const badWa = [...foundWa].filter((w) => w !== canonicalWa);
+  const badWa = [...foundWa].filter((w) => !allowedWa.has(w));
 
-  if (badTel.length) r.error(`tel: links drifted from site.js canonical value ("${canonicalTel}"): found ${badTel.join(', ')}`);
-  else r.info(`all tel: links match the canonical number (${canonicalTel}) — ${foundTel.size ? 'checked' : 'none found in dist'}.`);
+  if (badTel.length) r.error(`tel: links drifted from site.js approved contact values: found ${badTel.join(', ')}`);
+  else r.info(`all tel: links match the approved contact values — ${foundTel.size ? 'checked' : 'none found in dist'}.`);
 
   if (badMail.length) r.error(`mailto: links drifted from site.js canonical value ("${canonicalEmail}"): found ${badMail.join(', ')}`);
   else r.info(`all mailto: links match the canonical address (${canonicalEmail}).`);
 
-  if (badWa.length) r.error(`wa.me links drifted from site.js canonical WhatsApp number ("${canonicalWa}"): found ${badWa.join(', ')}`);
-  else r.info(`all wa.me links match the canonical WhatsApp number (${canonicalWa}).`);
+  if (badWa.length) r.error(`wa.me links drifted from site.js approved contact values: found ${badWa.join(', ')}`);
+  else r.info(`all wa.me links match the approved contact values.`);
+
+  for (const file of htmlFiles) {
+    const route = toRoute(file);
+    if (route === '/contact/' || route === '/en/contact/') continue;
+    const html = readFileSync(file, 'utf8');
+    waRe.lastIndex = 0;
+    let m;
+    while ((m = waRe.exec(html))) {
+      if (m[1] !== canonicalWa) {
+        r.error(`${route}: non-contact WhatsApp link must use the primary Nepal number ("${canonicalWa}"): found ${m[1]}`);
+      }
+    }
+  }
 
   r.info(`canonical business identity — name: "${site.name}", legal: "${site.legalName}", phone: "${canonicalPhone}", address: "${site.business.addressLine1}, ${site.business.city}, ${site.business.country}".`);
 
