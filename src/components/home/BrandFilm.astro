@@ -1,0 +1,246 @@
+---
+import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
+
+const { lang = 'ne' } = Astro.props;
+const isNe = lang === 'ne';
+const prefix = isNe ? '' : '/en';
+const waLink = buildWhatsAppLink(isNe ? whatsAppMessages.ne : whatsAppMessages.en);
+
+// Real, verified facts only — duration read directly from the source file
+// (15.18s, rounded to whole seconds for the schema value); no uploadDate
+// is asserted since none is genuinely known for this asset.
+const videoSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: isNe ? 'Samrat FRP Traders — ब्रान्ड परिचय' : 'Samrat FRP Traders — Brand Showcase',
+  description: isNe
+    ? 'Samrat FRP Traders का उत्पादन, प्रयोग र नेपालभरको आपूर्ति कार्यको संक्षिप्त झलक।'
+    : 'A short showcase of Samrat FRP Traders’ products, applications and supply work across Nepal.',
+  thumbnailUrl: 'https://samratfrptraders.com/videos/brand-showcase-poster.jpg',
+  contentUrl: 'https://samratfrptraders.com/videos/brand-showcase.mp4',
+  duration: 'PT15S',
+};
+---
+<section class="section section-framed showcase-section">
+  <div class="container">
+    <div class="section-heading section-heading-split" data-reveal>
+      <div>
+        <p class="eyebrow">{isNe ? 'Samrat FRP Traders' : 'Samrat FRP Traders'}</p>
+        <h2>
+          {isNe ? 'उत्पादन। प्रयोग। नेपाल।' : 'Products. Applications. Nepal.'}
+        </h2>
+      </div>
+    </div>
+
+    <div class="showcase-grid" data-reveal>
+      <div class="showcase-frame" data-showcase-frame>
+        <video
+          class="showcase-video"
+          data-showcase-video
+          playsinline
+          controls
+          preload="none"
+          poster="/videos/brand-showcase-poster.jpg"
+          aria-label={isNe
+            ? 'Samrat FRP Traders को उत्पादन, प्रयोग र नेपालभरको आपूर्ति देखाउने ब्रान्ड भिडियो'
+            : 'Brand video showing Samrat FRP Traders’ products, applications and supply across Nepal'}
+        >
+          <source src="/videos/brand-showcase.mp4" type="video/mp4" />
+          {isNe
+            ? 'तपाईंको ब्राउजरले भिडियो प्ले गर्न सक्दैन। '
+            : 'Your browser cannot play this video. '}
+          <a href="/videos/brand-showcase.mp4">{isNe ? 'भिडियो डाउनलोड गर्नुहोस्' : 'Download the video'}</a>
+        </video>
+        <span class="showcase-play-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
+        </span>
+      </div>
+
+      <div class="showcase-copy">
+        <p>
+          {isNe
+            ? 'Samrat FRP Traders ले नेपालभर FRP सामग्री, polyester resin, gelcoat, glass fiber र सम्बन्धित composite सामग्री आपूर्ति तथा आयात गर्दछ — Biratnagar, Nepal बाट सञ्चालित।'
+            : 'Samrat FRP Traders supplies and imports FRP materials, polyester resins, gelcoat, glass fiber and related composite materials across Nepal — operating from Biratnagar, Nepal.'}
+        </p>
+        <ul class="showcase-points">
+          {isNe
+            ? [
+                <li><span class="point-check" aria-hidden="true">✓</span>नेपालभर आपूर्ति समन्वय</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>व्यापारी · आपूर्तिकर्ता · आयातकर्ता · पुनर्विक्रेता</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>हरेक उत्पादनसँग TDS/SDS कागजात</li>,
+              ]
+            : [
+                <li><span class="point-check" aria-hidden="true">✓</span>Supply coordination across Nepal</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>Trader · Supplier · Importer · Reseller</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>TDS/SDS documentation with every product</li>,
+              ]}
+        </ul>
+        <div class="showcase-cta">
+          <a class="button button-primary" href={`${prefix}/products/`}>
+            {isNe ? 'उत्पादनहरू हेर्नुहोस्' : 'Explore Products'}
+          </a>
+          <a class="button" href={`${prefix}/applications/`}>
+            {isNe ? 'प्रयोगहरू हेर्नुहोस्' : 'View Applications'}
+          </a>
+          <a class="button wa-button" href={waLink} target="_blank" rel="noopener">
+            {isNe ? 'WhatsApp' : 'WhatsApp'}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
+
+<script>
+  // Foreground brand video: the native <video controls> element is the
+  // sole interactive control (no custom play button wrapping it — nesting
+  // a button around a controls-bearing video is both invalid and
+  // confusing for assistive tech). The decorative play icon overlay is
+  // purely visual and just tracks the video's own play/pause state.
+  // preload="none" means nothing beyond the poster image is fetched until
+  // the visitor presses play themselves — this also keeps the poster frame
+  // authoritative (some browsers replace the poster with the decoded frame
+  // at currentTime 0 as soon as any video data is buffered).
+  document.querySelectorAll('[data-showcase-frame]').forEach((frame) => {
+    if (frame.dataset.wired === 'true') return;
+    frame.dataset.wired = 'true';
+
+    const video = frame.querySelector('[data-showcase-video]');
+    if (!video) return;
+
+    video.addEventListener('play', () => frame.classList.add('is-playing'));
+    video.addEventListener('pause', () => frame.classList.remove('is-playing'));
+    video.addEventListener('ended', () => frame.classList.remove('is-playing'));
+  });
+</script>
+
+<style>
+  .showcase-section {
+    padding-block: clamp(3.5rem, 7vw, 5.5rem);
+  }
+
+  .showcase-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    gap: clamp(2rem, 5vw, 3.5rem);
+    align-items: center;
+  }
+
+  .showcase-frame {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 22rem;
+    margin-inline: auto;
+    border: 1px solid var(--line);
+    background: #000;
+    overflow: hidden;
+    box-shadow: var(--surface-shadow-rest);
+    transition: border-color 220ms var(--ease-premium), box-shadow 220ms var(--ease-premium);
+  }
+
+  .showcase-frame:focus-within {
+    border-color: rgba(var(--gold-rgb), 0.55);
+    box-shadow: var(--surface-shadow-hover);
+  }
+
+  .showcase-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 464 / 832;
+    object-fit: cover;
+    background: #000;
+  }
+
+  .showcase-play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    background: linear-gradient(180deg, var(--accent-gold-light), var(--accent-gold-dark));
+    color: #17120c;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.45);
+    transition: opacity 200ms var(--ease-premium), transform 200ms var(--ease-premium);
+  }
+
+  .showcase-frame.is-playing .showcase-play-icon {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.85);
+  }
+
+  .showcase-copy > p {
+    max-width: 46ch;
+    color: var(--ink-dim);
+    line-height: 1.75;
+  }
+
+  .showcase-points {
+    display: grid;
+    gap: 0.9rem;
+    margin: 1.6rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .showcase-points li {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: var(--ink);
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+
+  .point-check {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, var(--accent-gold-light), var(--accent-gold-dark));
+    color: #17120c;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  .showcase-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.8rem;
+  }
+
+  .wa-button {
+    background: #25d366;
+    border-color: #25d366;
+    color: #062b14;
+    font-weight: 700;
+  }
+
+  .wa-button:hover {
+    background: #2ee87a;
+    border-color: #2ee87a;
+    color: #062b14;
+  }
+
+  @media (max-width: 860px) {
+    .showcase-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .showcase-frame {
+      max-width: 24rem;
+    }
+  }
+</style>
