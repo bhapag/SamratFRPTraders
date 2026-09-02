@@ -14,13 +14,25 @@ const {
   ogImage,
   ogImageWidth,
   ogImageHeight,
+  ogImageAlt,
+  ogImageType,
+  ogTitle,
+  ogDescription,
 } = Astro.props;
 
 const pageTitle = title ? `${title} | ${site.name}` : `${site.name} | ${site.descriptor}`;
 const canonicalUrl = canonical ? buildCanonicalUrl(Astro.url.pathname) : undefined;
-const socialImageUrl = buildCanonicalUrl(ogImage ?? '/brand/og-default.png');
+const socialImagePath = ogImage ?? '/brand/og-default.png';
+const socialImageUrl = buildCanonicalUrl(socialImagePath);
 const socialImageWidth = ogImageWidth ?? 1200;
 const socialImageHeight = ogImageHeight ?? 630;
+const socialImageType = ogImageType ?? (
+  socialImagePath.endsWith('.jpg') || socialImagePath.endsWith('.jpeg')
+    ? 'image/jpeg'
+    : socialImagePath.endsWith('.webp')
+      ? 'image/webp'
+      : 'image/png'
+);
 const path = Astro.url.pathname;
 const isNe = lang === 'ne';
 const isHome = path === '/' || path === '/en/';
@@ -42,6 +54,13 @@ const enUrl = buildCanonicalUrl(enPath);
 const neUrl = buildCanonicalUrl(nePath);
 const waLink = buildWhatsAppLink(isNe ? whatsAppMessages.ne : whatsAppMessages.en);
 const prefix = isNe ? '' : '/en';
+const socialTitle = ogTitle ?? pageTitle;
+const socialDescription = ogDescription ?? description;
+const socialImageAlt = ogImageAlt ?? (
+  isNe
+    ? 'Samrat FRP Traders — नेपालमा FRP सामग्री आपूर्तिकर्ता र आयातकर्ता'
+    : 'Samrat FRP Traders — FRP Materials Supplier & Importer in Nepal'
+);
 
 const nav = isNe
   ? [
@@ -79,8 +98,11 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     <meta name="theme-color" content="#0d0f12" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
@@ -88,20 +110,24 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     {!is404 && <link rel="alternate" hreflang="en-NP" href={enUrl} />}
     {!is404 && <link rel="alternate" hreflang="ne-NP" href={neUrl} />}
     {!is404 && <link rel="alternate" hreflang="x-default" href={neUrl} />}
-    <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={socialTitle} />
+    <meta property="og:description" content={socialDescription} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content={isNe ? 'ne_NP' : 'en_NP'} />
     {!is404 && <meta property="og:locale:alternate" content={isNe ? 'en_NP' : 'ne_NP'} />}
     <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:secure_url" content={socialImageUrl} />
     <meta property="og:image:width" content={socialImageWidth} />
     <meta property="og:image:height" content={socialImageHeight} />
+    <meta property="og:image:type" content={socialImageType} />
+    <meta property="og:image:alt" content={socialImageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={pageTitle} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:title" content={socialTitle} />
+    <meta name="twitter:description" content={socialDescription} />
     <meta name="twitter:image" content={socialImageUrl} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': ['Organization', 'LocalBusiness'],
