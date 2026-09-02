@@ -3,8 +3,10 @@
 // listed (catalogue index, family pages, homepage). `showMedia` opts a
 // call site into the image-first product-photo treatment; category-level
 // cards (no per-product photo concept) omit it and render exactly as
-// before. The image itself always comes from `product.images[0]` at the
-// call site — this component never maintains its own image mapping.
+// before. Product records currently supply approved detail/gallery artwork
+// here, which can be either a packshot or a text-rich promotional layout.
+// The shared media viewport below deliberately contains either shape so an
+// image can support the card without determining the card's height.
 const {
   name,
   eyebrow,
@@ -144,36 +146,32 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
     gap: 0;
     padding: 0;
     padding-right: 0;
-    overflow: hidden;
   }
 
-  /* Aspect ratio chosen against the actual approved product photography
-     (near-square marketing panels, ~0.84–1.02 width/height) rather than a
-     blind 1:1 — this keeps contain-fit letterboxing under ~6% per side
-     across every current image instead of leaving visible empty bands. */
+  /* Product records mix near-square packshots with portrait and square
+     promotional layouts. The media viewport is intentionally sized by the
+     card, never by an asset's intrinsic dimensions. `contain` preserves
+     branding and image proportions without allowing a poster to turn into
+     a second product-information panel or push the card body downward. */
   .catalog-card-stage {
     display: grid;
     place-items: center;
-    aspect-ratio: 1 / 1.05;
-    padding: 0.9rem;
+    block-size: clamp(11rem, 17vw, 14.5rem);
+    min-block-size: 0;
+    padding: 0.75rem;
     border-bottom: 1px solid var(--line);
-    background: linear-gradient(160deg, var(--bg-3), var(--bg));
+    background:
+      radial-gradient(circle at 50% -40%, rgba(var(--gold-rgb), 0.14), transparent 68%),
+      linear-gradient(160deg, var(--bg-3), var(--bg));
     transition: background 220ms var(--ease-premium);
   }
 
   .catalog-card-stage img {
     display: block;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     object-position: center center;
-    transition: transform 320ms var(--ease-premium);
-  }
-
-  .catalog-card.has-media:hover .catalog-card-stage img {
-    transform: scale(1.03);
   }
 
   .catalog-card-stage-empty {
@@ -221,7 +219,6 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
 
   @media (prefers-reduced-motion: reduce) {
     .catalog-card,
-    .catalog-card-stage img,
     .catalog-card-arrow,
     .catalog-card-cta-arrow {
       transition: none;
@@ -247,7 +244,7 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
     }
 
     .catalog-card-stage {
-      aspect-ratio: 4 / 3;
+      block-size: clamp(11rem, 46vw, 13rem);
       padding: 0.7rem;
     }
 
