@@ -4,9 +4,12 @@
 // call site into the image-first product-photo treatment; category-level
 // cards (no per-product photo concept) omit it and render exactly as
 // before. Product records currently supply approved detail/gallery artwork
-// here, which can be either a packshot or a text-rich promotional layout.
-// The shared media viewport below deliberately contains either shape so an
-// image can support the card without determining the card's height.
+// here, which is a text-rich promotional layout for every product (no
+// plain packshots exist in the asset library). The media viewport below
+// is a fixed-height, `overflow: hidden` box with the image absolutely
+// positioned (`inset: 0` + `object-fit: contain`) so the asset is always
+// letterboxed to fit — it can never inflate the box or bleed into the
+// card body below it, regardless of the image's own intrinsic size.
 const {
   name,
   eyebrow,
@@ -146,18 +149,25 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
     gap: 0;
     padding: 0;
     padding-right: 0;
+    overflow: hidden;
   }
 
-  /* Product records mix near-square packshots with portrait and square
-     promotional layouts. The media viewport is intentionally sized by the
-     card, never by an asset's intrinsic dimensions. `contain` preserves
-     branding and image proportions without allowing a poster to turn into
-     a second product-information panel or push the card body downward. */
+  /* Fixed-height, non-grid media viewport. The image is absolutely
+     positioned with `inset: 0` (which resolves against this element's
+     padding box — always a definite size) so `width/height: 100%` +
+     `object-fit: contain` letterbox it reliably. This intentionally avoids
+     `display: grid; place-items: center` on a percentage-sized child: a
+     grid item that isn't stretched resolves a percentage height as
+     indefinite, so the browser falls back to the image's own intrinsic
+     aspect ratio — which is how the previous version let a ~700px-tall
+     poster overflow a ~180px box and paint over the title below it.
+     `overflow: hidden` on both this element and `.has-media` above is a
+     second line of defense: even if an asset's own aspect ratio is more
+     extreme than expected, it gets clipped here, never the card body. */
   .catalog-card-stage {
-    display: grid;
-    place-items: center;
-    block-size: clamp(11rem, 17vw, 14.5rem);
-    min-block-size: 0;
+    position: relative;
+    overflow: hidden;
+    block-size: clamp(10rem, 17vw, 13rem);
     padding: 0.75rem;
     border-bottom: 1px solid var(--line);
     background:
@@ -166,12 +176,19 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
     transition: background 220ms var(--ease-premium);
   }
 
-  .catalog-card-stage img {
+  .catalog-card-stage img:not(.catalog-card-mark) {
+    position: absolute;
+    inset: 0;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: contain;
     object-position: center center;
+    transition: transform 320ms var(--ease-premium);
+  }
+
+  .catalog-card.has-media:hover .catalog-card-stage img {
+    transform: scale(1.03);
   }
 
   .catalog-card-stage-empty {
@@ -219,6 +236,7 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
 
   @media (prefers-reduced-motion: reduce) {
     .catalog-card,
+    .catalog-card-stage img:not(.catalog-card-mark),
     .catalog-card-arrow,
     .catalog-card-cta-arrow {
       transition: none;
