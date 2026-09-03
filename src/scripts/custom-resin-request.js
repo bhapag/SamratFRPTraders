@@ -4,7 +4,7 @@
 // Print button opens the browser's own print dialog. Nothing here ever
 // transmits data anywhere on its own.
 //
-// Every field that should appear in the WhatsApp/email/print summary reads
+// Every field that should appear in the email/print summary reads
 // its label straight from the Astro-rendered `data-summary-label` attribute
 // on the field itself — so the summary text can never drift out of sync
 // with what the customer sees on screen in either language.
@@ -214,8 +214,7 @@ export function wireCustomResinRequestForm() {
       const action = button.dataset.action;
 
       if (action === 'whatsapp') {
-        const lines = [referenceLine(form), ...flattenGroups(buildGroups(form))].filter(Boolean);
-        const text = [form.dataset.waIntro || '', '', ...lines].join('\n');
+        const text = form.dataset.waMessage || '';
         window.open('https://wa.me/' + form.dataset.waNumber + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
         return;
       }

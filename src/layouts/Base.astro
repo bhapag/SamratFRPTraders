@@ -52,7 +52,7 @@ const nePath = is404 ? '/' : isNe ? path : altPath;
 // must always resolve against the real domain regardless of dev host.
 const enUrl = buildCanonicalUrl(enPath);
 const neUrl = buildCanonicalUrl(nePath);
-const waLink = buildWhatsAppLink(isNe ? whatsAppMessages.ne : whatsAppMessages.en);
+const waLink = buildWhatsAppLink(whatsAppMessages.generic[isNe ? 'ne' : 'en']);
 const prefix = isNe ? '' : '/en';
 const socialTitle = ogTitle ?? pageTitle;
 const socialDescription = ogDescription ?? description;
@@ -375,7 +375,7 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
 
     <a
       class="wa-float"
-      href={buildWhatsAppLink(isNe ? whatsAppMessages.ne : whatsAppMessages.en)}
+      href={buildWhatsAppLink(whatsAppMessages.generic[isNe ? 'ne' : 'en'])}
       target="_blank"
       rel="noopener"
       aria-label={isNe ? 'WhatsApp मा कुरा गर्नुहोस्' : 'Chat on WhatsApp'}

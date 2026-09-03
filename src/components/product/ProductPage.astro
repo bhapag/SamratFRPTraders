@@ -3,7 +3,7 @@ import Breadcrumbs from '../Breadcrumbs.astro';
 import CatalogCard from '../CatalogCard.astro';
 import { getProductContent } from '../../data/product-content.js';
 import { getGroup } from '../../data/products.js';
-import { buildCanonicalUrl, buildProductQuoteLink } from '../../data/site.js';
+import { buildCanonicalUrl, buildWhatsAppIntentLink } from '../../data/site.js';
 import {
   applicationsFor,
   comparisonsFor,
@@ -128,7 +128,8 @@ const t = isNe
       hubMore: 'All resources',
     };
 
-const bulkWa = buildProductQuoteLink(product.name, lang);
+const productQuoteWa = buildWhatsAppIntentLink('quote', lang, product.name);
+const productEnquiryWa = buildWhatsAppIntentLink('product', lang, product.name);
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -250,7 +251,7 @@ const faqSchema =
       <ul class="prod-quote-list">
         {t.priceFactors.map((factor) => <li>{factor}</li>)}
       </ul>
-      <a class="button button-primary prod-quote-cta" href={bulkWa} target="_blank" rel="noopener">
+      <a class="button button-primary prod-quote-cta" href={productQuoteWa} target="_blank" rel="noopener">
         {t.bulkQuote}
       </a>
     </div>
@@ -287,7 +288,7 @@ const faqSchema =
 
     <div class="prod-cta prod-cta-row">
       <a class="button button-primary" href={`${prefix}/contact/`}>{t.enquire}</a>
-      <a class="button wa-button" href={bulkWa} target="_blank" rel="noopener">{t.whatsapp}</a>
+      <a class="button wa-button" href={productEnquiryWa} target="_blank" rel="noopener">{t.whatsapp}</a>
     </div>
 
     <div class="prod-catalogue-note">

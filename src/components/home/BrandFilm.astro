@@ -4,7 +4,7 @@ import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
 const { lang = 'ne' } = Astro.props;
 const isNe = lang === 'ne';
 const prefix = isNe ? '' : '/en';
-const waLink = buildWhatsAppLink(isNe ? whatsAppMessages.ne : whatsAppMessages.en);
+const waLink = buildWhatsAppLink(whatsAppMessages.generic[isNe ? 'ne' : 'en']);
 
 // Real, verified facts only — duration read directly from the source file
 // (15.18s, rounded to whole seconds for the schema value); no uploadDate

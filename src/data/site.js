@@ -67,16 +67,43 @@ export function buildContactWhatsAppLink(number, message) {
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 
+// Shared, concise WhatsApp enquiry copy. Keep each intent here so every CTA
+// opens a consistent B2B conversation in the page's language.
 export const whatsAppMessages = Object.freeze({
-  ne: 'नमस्ते, मलाई Samrat FRP Traders का उत्पादनबारे जानकारी चाहिएको छ।',
-  en: 'Hello, I would like information about Samrat FRP Traders products.',
+  generic: Object.freeze({
+    en: 'Hello, I’d like to discuss an FRP material requirement.',
+    ne: 'नमस्ते, मलाई FRP सामग्रीबारे जानकारी चाहिएको छ।',
+  }),
+  quoteFallback: Object.freeze({
+    en: 'Hello, I’d like to discuss a quotation for FRP materials.',
+    ne: 'नमस्ते, मलाई FRP सामग्रीको कोटेशनबारे कुरा गर्न चाहिएको छ।',
+  }),
 });
 
-// Product-specific quote message (used by product pages and enquiry CTAs).
-export function buildProductQuoteLink(productName, lang = 'en') {
-  const message =
-    lang === 'ne'
-      ? `नमस्ते, मलाई ${productName} को मूल्य तथा उपलब्धताबारे जानकारी चाहिएको छ।`
-      : `Hello, I would like a quote for ${productName} from Samrat FRP Traders.`;
-  return buildWhatsAppLink(message);
+export function getWhatsAppMessage(intent, lang = 'en', productName = '') {
+  const locale = lang === 'ne' ? 'ne' : 'en';
+
+  if (intent === 'generic') return whatsAppMessages.generic[locale];
+
+  if (intent === 'product') {
+    return productName
+      ? locale === 'ne'
+        ? `नमस्ते, म ${productName} मा रुचि राख्छु। कृपया विवरण साझा गर्नुहोस्।`
+        : `Hello, I’m interested in ${productName}. Please share details.`
+      : whatsAppMessages.generic[locale];
+  }
+
+  if (intent === 'quote') {
+    return productName
+      ? locale === 'ne'
+        ? `नमस्ते, मलाई ${productName} को कोटेशन चाहिएको छ।`
+        : `Hello, I’d like a quote for ${productName}.`
+      : whatsAppMessages.quoteFallback[locale];
+  }
+
+  throw new Error(`Unknown WhatsApp message intent: ${intent}`);
+}
+
+export function buildWhatsAppIntentLink(intent, lang = 'en', productName = '') {
+  return buildWhatsAppLink(getWhatsAppMessage(intent, lang, productName));
 }

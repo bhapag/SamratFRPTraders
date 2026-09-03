@@ -1,10 +1,11 @@
 ---
 import Breadcrumbs from './Breadcrumbs.astro';
-import { site } from '../data/site.js';
+import { getWhatsAppMessage, site } from '../data/site.js';
 
 const { lang = 'ne' } = Astro.props;
 const isNe = lang === 'ne';
 const prefix = isNe ? '' : '/en';
+const whatsAppMessage = getWhatsAppMessage('quote', lang);
 
 const copy = {
   ne: {
@@ -103,7 +104,6 @@ const copy = {
     errorContact: 'कृपया फोन/WhatsApp वा इमेलमध्ये कम्तिमा एउटा दिनुहोस्।',
     errorSummaryHeading: 'कृपया यी फिल्डहरू पूरा गर्नुहोस्:',
 
-    waIntro: 'नमस्ते, म Samrat FRP Traders लाई अनुकूल रेजिन स्पेसिफिकेसन अनुरोध पठाउन चाहन्छु।',
     emailSubjectPrefix: 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध',
     printTitle: 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध',
     printGeneratedOn: 'तयार मिति:',
@@ -210,7 +210,6 @@ const copy = {
     errorContact: 'Please provide at least one of Phone/WhatsApp or Email.',
     errorSummaryHeading: 'Please complete the following:',
 
-    waIntro: 'Hello, I would like to send a custom resin specification request to Samrat FRP Traders.',
     emailSubjectPrefix: 'Custom Resin Specification Request',
     printTitle: 'Custom Resin Specification Request',
     printGeneratedOn: 'Generated:',
@@ -290,7 +289,7 @@ const breadcrumbItems = [
       novalidate
       data-wa-number={site.business.whatsapp}
       data-email={site.business.email}
-      data-wa-intro={t.waIntro}
+      data-wa-message={whatsAppMessage}
       data-email-subject-prefix={t.emailSubjectPrefix}
       data-print-title={t.printTitle}
       data-print-generated-on={t.printGeneratedOn}
