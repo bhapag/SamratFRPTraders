@@ -6,9 +6,8 @@ const isNe = lang === 'ne';
 const prefix = isNe ? '' : '/en';
 const waLink = buildWhatsAppLink(whatsAppMessages.generic[isNe ? 'ne' : 'en']);
 
-// Real, verified facts only — duration read directly from the source file
-// (15.18s, rounded to whole seconds for the schema value); no uploadDate
-// is asserted since none is genuinely known for this asset.
+// Real, verified facts only. The source file is intentionally referenced at a
+// stable public URL; no upload date is asserted because none is genuinely known.
 const videoSchema = {
   '@context': 'https://schema.org',
   '@type': 'VideoObject',
@@ -16,9 +15,9 @@ const videoSchema = {
   description: isNe
     ? 'Samrat FRP Traders का उत्पादन, प्रयोग र नेपालभरको आपूर्ति कार्यको संक्षिप्त झलक।'
     : 'A short showcase of Samrat FRP Traders’ products, applications and supply work across Nepal.',
-  thumbnailUrl: 'https://samratfrptraders.com/videos/brand-showcase-poster.jpg',
+  thumbnailUrl: 'https://samratfrptraders.com/videos/brand-showcase-still.jpeg',
   contentUrl: 'https://samratfrptraders.com/videos/brand-showcase.mp4',
-  duration: 'PT15S',
+  duration: 'PT12.042S',
 };
 ---
 <section class="section section-framed showcase-section">
@@ -37,23 +36,33 @@ const videoSchema = {
         <video
           class="showcase-video"
           data-showcase-video
+          data-src="/videos/brand-showcase.mp4"
+          autoplay
+          muted
           playsinline
-          controls
-          preload="none"
-          poster="/videos/brand-showcase-poster.jpg"
+          preload="metadata"
           aria-label={isNe
             ? 'Samrat FRP Traders को उत्पादन, प्रयोग र नेपालभरको आपूर्ति देखाउने ब्रान्ड भिडियो'
             : 'Brand video showing Samrat FRP Traders’ products, applications and supply across Nepal'}
         >
-          <source src="/videos/brand-showcase.mp4" type="video/mp4" />
           {isNe
             ? 'तपाईंको ब्राउजरले भिडियो प्ले गर्न सक्दैन। '
             : 'Your browser cannot play this video. '}
           <a href="/videos/brand-showcase.mp4">{isNe ? 'भिडियो डाउनलोड गर्नुहोस्' : 'Download the video'}</a>
         </video>
-        <span class="showcase-play-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
-        </span>
+        <img
+          class="showcase-photo"
+          data-showcase-photo
+          src="/videos/brand-showcase-still.jpeg"
+          width="900"
+          height="1600"
+          loading="eager"
+          decoding="async"
+          alt={isNe
+            ? 'Samrat FRP Traders को उत्पादन र आपूर्ति कार्यको झलक'
+            : 'Samrat FRP Traders product and supply work'}
+          hidden
+        />
       </div>
 
       <div class="showcase-copy">
@@ -94,26 +103,164 @@ const videoSchema = {
 <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
 
 <script>
-  // Foreground brand video: the native <video controls> element is the
-  // sole interactive control (no custom play button wrapping it — nesting
-  // a button around a controls-bearing video is both invalid and
-  // confusing for assistive tech). The decorative play icon overlay is
-  // purely visual and just tracks the video's own play/pause state.
-  // preload="none" means nothing beyond the poster image is fetched until
-  // the visitor presses play themselves — this also keeps the poster frame
-  // authoritative (some browsers replace the poster with the decoded frame
-  // at currentTime 0 as soon as any video data is buffered).
-  document.querySelectorAll('[data-showcase-frame]').forEach((frame) => {
-    if (frame.dataset.wired === 'true') return;
-    frame.dataset.wired = 'true';
+  const PHOTO_DURATION_MS = 5000;
 
-    const video = frame.querySelector('[data-showcase-video]');
-    if (!video) return;
+  const initBrandFilmCycles = () => {
+    document.querySelectorAll('[data-showcase-frame]').forEach((frame) => {
+      if (frame.dataset.brandFilmCycleWired === 'true') return;
+      frame.dataset.brandFilmCycleWired = 'true';
 
-    video.addEventListener('play', () => frame.classList.add('is-playing'));
-    video.addEventListener('pause', () => frame.classList.remove('is-playing'));
-    video.addEventListener('ended', () => frame.classList.remove('is-playing'));
-  });
+      const video = frame.querySelector('[data-showcase-video]');
+      const photo = frame.querySelector('[data-showcase-photo]');
+      if (!(video instanceof HTMLVideoElement) || !(photo instanceof HTMLImageElement)) return;
+
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      let inView = false;
+      let sourceLoaded = false;
+      let state = 'video';
+      let photoTimer = null;
+      let photoRemaining = PHOTO_DURATION_MS;
+      let photoStartedAt = 0;
+      let disposed = false;
+
+      const clearPhotoTimer = () => {
+        if (photoTimer === null) return;
+        window.clearTimeout(photoTimer);
+        photoTimer = null;
+      };
+
+      const showVideo = () => {
+        photo.hidden = true;
+        video.hidden = false;
+      };
+
+      const showPhoto = () => {
+        video.hidden = true;
+        photo.hidden = false;
+      };
+
+      const loadVideoSource = () => {
+        if (sourceLoaded) return;
+        const source = video.dataset.src;
+        if (!source) return;
+        sourceLoaded = true;
+        video.src = source;
+        video.load();
+      };
+
+      const playVideo = () => {
+        if (disposed || reducedMotion.matches || !inView || state !== 'video') return;
+        loadVideoSource();
+        showVideo();
+        const attempt = video.play();
+        if (attempt) {
+          attempt.catch((error) => {
+            console.warn('[BrandFilm] Muted video playback could not start.', error);
+          });
+        }
+      };
+
+      const startPhotoTimer = () => {
+        clearPhotoTimer();
+        if (disposed || reducedMotion.matches || !inView || state !== 'photo') return;
+
+        if (photoRemaining <= 0) {
+          restartVideo();
+          return;
+        }
+
+        photoStartedAt = performance.now();
+        photoTimer = window.setTimeout(() => {
+          photoTimer = null;
+          photoRemaining = 0;
+          restartVideo();
+        }, photoRemaining);
+      };
+
+      const pausePhotoTimer = () => {
+        if (photoTimer === null) return;
+        photoRemaining = Math.max(0, photoRemaining - (performance.now() - photoStartedAt));
+        clearPhotoTimer();
+      };
+
+      const restartVideo = () => {
+        clearPhotoTimer();
+        if (disposed || reducedMotion.matches) return;
+
+        state = 'video';
+        photoRemaining = PHOTO_DURATION_MS;
+        showVideo();
+        if (sourceLoaded) video.currentTime = 0;
+        playVideo();
+      };
+
+      const showIntermissionPhoto = () => {
+        if (disposed || reducedMotion.matches) return;
+
+        video.pause();
+        state = 'photo';
+        photoRemaining = PHOTO_DURATION_MS;
+        showPhoto();
+        startPhotoTimer();
+      };
+
+      const applyReducedMotion = () => {
+        clearPhotoTimer();
+        video.pause();
+        if (reducedMotion.matches) {
+          state = 'reduced';
+          showPhoto();
+          return;
+        }
+
+        state = 'video';
+        photoRemaining = PHOTO_DURATION_MS;
+        if (sourceLoaded) video.currentTime = 0;
+        showVideo();
+        playVideo();
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        const entry = entries[0];
+        inView = entry.isIntersecting && entry.intersectionRatio >= 0.15;
+
+        if (!inView) {
+          if (state === 'photo') pausePhotoTimer();
+          else video.pause();
+          return;
+        }
+
+        if (reducedMotion.matches) {
+          applyReducedMotion();
+        } else if (state === 'photo') {
+          startPhotoTimer();
+        } else {
+          playVideo();
+        }
+      }, { threshold: [0, 0.15] });
+
+      const cleanup = () => {
+        if (disposed) return;
+        disposed = true;
+        clearPhotoTimer();
+        observer.disconnect();
+        video.pause();
+        video.removeEventListener('ended', showIntermissionPhoto);
+        reducedMotion.removeEventListener('change', applyReducedMotion);
+      };
+
+      video.addEventListener('ended', showIntermissionPhoto);
+      reducedMotion.addEventListener('change', applyReducedMotion);
+      document.addEventListener('astro:before-swap', cleanup, { once: true });
+
+      if (reducedMotion.matches) applyReducedMotion();
+      else showVideo();
+      observer.observe(frame);
+    });
+  };
+
+  initBrandFilmCycles();
+  document.addEventListener('astro:page-load', initBrandFilmCycles);
 </script>
 
 <style>
@@ -134,10 +281,12 @@ const videoSchema = {
     justify-content: center;
     width: 100%;
     max-width: 22rem;
+    aspect-ratio: 9 / 16;
     margin-inline: auto;
     border: 1px solid var(--line);
-    background: #000;
+    background: #030609;
     overflow: hidden;
+    isolation: isolate;
     box-shadow: var(--surface-shadow-rest);
     transition: border-color 220ms var(--ease-premium), box-shadow 220ms var(--ease-premium);
   }
@@ -147,35 +296,23 @@ const videoSchema = {
     box-shadow: var(--surface-shadow-hover);
   }
 
-  .showcase-video {
+  .showcase-video,
+  .showcase-photo {
     display: block;
     width: 100%;
-    aspect-ratio: 464 / 832;
-    object-fit: cover;
-    background: #000;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    background: #030609;
   }
 
-  .showcase-play-icon {
+  .showcase-photo {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    display: grid;
-    place-items: center;
-    width: 3.6rem;
-    height: 3.6rem;
-    border-radius: 50%;
-    background: linear-gradient(180deg, var(--accent-gold-light), var(--accent-gold-dark));
-    color: #17120c;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.45);
-    transition: opacity 200ms var(--ease-premium), transform 200ms var(--ease-premium);
+    inset: 0;
   }
 
-  .showcase-frame.is-playing .showcase-play-icon {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.85);
+  .showcase-photo[hidden] {
+    display: none;
   }
 
   .showcase-copy > p {
