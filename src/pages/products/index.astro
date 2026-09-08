@@ -23,34 +23,6 @@ import Base from '../../layouts/Base.astro';
 
   <section class="section">
     <div class="container">
-      <div class="catalogue-download" data-reveal>
-        <div>
-          <p class="eyebrow">PDF क्याटलग</p>
-          <h2>पूर्ण उत्पादन क्याटलग डाउनलोड गर्नुहोस्।</h2>
-          <p>हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।</p>
-        </div>
-        <a
-          class="button button-primary"
-          href="/downloads/samrat-frp-traders-product-catalogue.pdf"
-          target="_blank"
-          rel="noopener"
-          download
-        >
-          उत्पादन क्याटलग डाउनलोड गर्नुहोस् (PDF)
-        </a>
-      </div>
-
-      <div class="catalogue-download catalogue-download-crsr" data-reveal>
-        <div>
-          <p class="eyebrow">अनुकूल आवश्यकता</p>
-          <h2>तपाईंको आफ्नै रेजिन स्पेसिफिकेसन चाहिन्छ?</h2>
-          <p>विस्कोसिटी, रङ, फायर-रिटार्डेन्ट आदि जस्ता लक्षित गुणहरू अनुरोध गर्नुहोस् — प्राविधिक समीक्षाका लागि।</p>
-        </div>
-        <a class="button" href="/custom-resin-specification-request/">
-          अनुकूल रेजिन स्पेसिफिकेसन अनुरोध गर्नुहोस् →
-        </a>
-      </div>
-
       <div class="catalogue-shell">
         <aside class="catalogue-rail" data-reveal>
           <div class="catalogue-rail-search">
@@ -114,6 +86,36 @@ import Base from '../../layouts/Base.astro';
               );
             })}
           </div>
+        </div>
+      </div>
+
+      <div class="catalogue-support">
+        <div class="catalogue-download" data-reveal>
+          <div>
+            <p class="eyebrow">PDF क्याटलग</p>
+            <h2>पूर्ण उत्पादन क्याटलग डाउनलोड गर्नुहोस्।</h2>
+            <p>हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।</p>
+          </div>
+          <a
+            class="button button-primary"
+            href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+            target="_blank"
+            rel="noopener"
+            download
+          >
+            उत्पादन क्याटलग डाउनलोड गर्नुहोस् (PDF)
+          </a>
+        </div>
+
+        <div class="catalogue-download catalogue-download-crsr" data-reveal>
+          <div>
+            <p class="eyebrow">अनुकूल आवश्यकता</p>
+            <h2>तपाईंको आफ्नै रेजिन स्पेसिफिकेसन चाहिन्छ?</h2>
+            <p>विस्कोसिटी, रङ, फायर-रिटार्डेन्ट आदि जस्ता लक्षित गुणहरू अनुरोध गर्नुहोस् — प्राविधिक समीक्षाका लागि।</p>
+          </div>
+          <a class="button" href="/custom-resin-specification-request/">
+            अनुकूल रेजिन स्पेसिफिकेसन अनुरोध गर्नुहोस् →
+          </a>
         </div>
       </div>
     </div>
@@ -191,6 +193,14 @@ import Base from '../../layouts/Base.astro';
 
   .section:first-of-type {
     padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  /* Supporting blocks sit after the catalogue so buyers reach products
+     first. See the English catalogue index for the measured rationale. */
+  .catalogue-support {
+    margin-top: clamp(2.5rem, 6vw, 4rem);
+    padding-top: clamp(1.5rem, 4vw, 2.5rem);
+    border-top: 1px solid var(--line);
   }
 
   .catalogue-download {
@@ -482,27 +492,41 @@ import Base from '../../layouts/Base.astro';
       gap: 0.85rem;
     }
 
+    /* Horizontal chip strip on phones — see the English catalogue index for
+       the measured rationale. Nepali category names are longer, so nowrap
+       plus horizontal scroll matters more here, not less. */
     .catalogue-rail-nav {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0.55rem;
-      padding: 0.75rem 0;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 0.5rem;
+      padding: 0.7rem 0;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
       border-bottom: 0;
+    }
+
+    .catalogue-rail-nav::-webkit-scrollbar {
+      display: none;
     }
 
     .rail-link,
     .rail-link:first-child {
-      width: 100%;
-      min-height: 3rem;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 0.35rem;
-      padding: 0.55rem 0.65rem;
+      flex: 0 0 auto;
+      width: auto;
+      min-height: 2.75rem;
+      grid-template-columns: auto auto;
+      gap: 0.4rem;
+      padding: 0.5rem 0.8rem;
       border: 1px solid var(--line);
+      border-radius: 999px;
       background: var(--bg-3);
+      white-space: nowrap;
     }
 
-    .rail-link:first-child {
-      grid-column: 1 / -1;
+    .rail-link-index {
+      display: none;
     }
 
     .rail-link-name {

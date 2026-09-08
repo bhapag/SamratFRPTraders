@@ -29,39 +29,6 @@ import Base from '../../../layouts/Base.astro';
 
   <section class="section">
     <div class="container">
-      <div class="catalogue-download" data-reveal>
-        <div>
-          <p class="eyebrow">PDF catalogue</p>
-          <h2>Download the complete product catalogue.</h2>
-          <p>Explore our complete FRP materials and resin range.</p>
-        </div>
-        <a
-          class="button button-primary"
-          href="/downloads/samrat-frp-traders-product-catalogue.pdf"
-          target="_blank"
-          rel="noopener"
-          download
-        >
-          Download Product Catalogue (PDF)
-        </a>
-      </div>
-
-      <div class="catalogue-download catalogue-download-crsr" data-reveal>
-        <div>
-          <p class="eyebrow">Custom requirement</p>
-          <h2>Need your own resin specification?</h2>
-          <p>Request target properties like viscosity, colour or fire-retardant performance — for technical review.</p>
-        </div>
-        <a class="button" href="/en/custom-resin-specification-request/">
-          Request Custom Resin Specification →
-        </a>
-      </div>
-
-      <StatusNotice
-        title="Supplier documentation"
-        message="Every product page carries supplier-backed technical data with source attribution and links to the supplier's technical data sheets and safety data sheets. Pricing is on request; packaging and stock terms are confirmed during enquiry."
-      />
-
       <div class="catalogue-shell">
         <aside class="catalogue-rail" data-reveal>
           <div class="catalogue-rail-search">
@@ -125,6 +92,41 @@ import Base from '../../../layouts/Base.astro';
               );
             })}
           </div>
+        </div>
+      </div>
+
+      <div class="catalogue-support">
+        <StatusNotice
+          title="Supplier documentation"
+          message="Every product page carries supplier-backed technical data with source attribution and links to the supplier's technical data sheets and safety data sheets. Pricing is on request; packaging and stock terms are confirmed during enquiry."
+        />
+
+        <div class="catalogue-download" data-reveal>
+          <div>
+            <p class="eyebrow">PDF catalogue</p>
+            <h2>Download the complete product catalogue.</h2>
+            <p>Explore our complete FRP materials and resin range.</p>
+          </div>
+          <a
+            class="button button-primary"
+            href="/downloads/samrat-frp-traders-product-catalogue.pdf"
+            target="_blank"
+            rel="noopener"
+            download
+          >
+            Download Product Catalogue (PDF)
+          </a>
+        </div>
+
+        <div class="catalogue-download catalogue-download-crsr" data-reveal>
+          <div>
+            <p class="eyebrow">Custom requirement</p>
+            <h2>Need your own resin specification?</h2>
+            <p>Request target properties like viscosity, colour or fire-retardant performance — for technical review.</p>
+          </div>
+          <a class="button" href="/en/custom-resin-specification-request/">
+            Request Custom Resin Specification →
+          </a>
         </div>
       </div>
     </div>
@@ -202,6 +204,16 @@ import Base from '../../../layouts/Base.astro';
 
   .section:first-of-type {
     padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  /* Supporting blocks (documentation notice, PDF catalogue, custom-spec
+     request) sit after the catalogue. Buyers reaching this page are here to
+     browse products; measured before this change, the first product sat
+     1314px down on desktop and 1854px on mobile — 1.5 and 2.2 screens. */
+  .catalogue-support {
+    margin-top: clamp(2.5rem, 6vw, 4rem);
+    padding-top: clamp(1.5rem, 4vw, 2.5rem);
+    border-top: 1px solid var(--line);
   }
 
   .catalogue-download {
@@ -493,27 +505,42 @@ import Base from '../../../layouts/Base.astro';
       gap: 0.85rem;
     }
 
+    /* Horizontal chip strip on phones. The previous two-column grid stacked
+       nine categories into ~6 rows and pushed the first product 1854px down
+       (2.2 screens). One swipeable row keeps every category reachable while
+       returning that vertical budget to the catalogue itself. */
     .catalogue-rail-nav {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0.55rem;
-      padding: 0.75rem 0;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 0.5rem;
+      padding: 0.7rem 0;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
       border-bottom: 0;
+    }
+
+    .catalogue-rail-nav::-webkit-scrollbar {
+      display: none;
     }
 
     .rail-link,
     .rail-link:first-child {
-      width: 100%;
-      min-height: 3rem;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 0.35rem;
-      padding: 0.55rem 0.65rem;
+      flex: 0 0 auto;
+      width: auto;
+      min-height: 2.75rem;
+      grid-template-columns: auto auto;
+      gap: 0.4rem;
+      padding: 0.5rem 0.8rem;
       border: 1px solid var(--line);
+      border-radius: 999px;
       background: var(--bg-3);
+      white-space: nowrap;
     }
 
-    .rail-link:first-child {
-      grid-column: 1 / -1;
+    .rail-link-index {
+      display: none;
     }
 
     .rail-link-name {
