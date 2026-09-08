@@ -106,3 +106,54 @@ Append-only record of decisions, who made them, and the evidence behind them. Ea
 - Mark reversals explicitly and link the superseded entry.
 - Record conflicts with previously approved work openly (see D-006).
 - Record analyst errors (see D-013).
+
+---
+
+## 2026-09-09 · Overnight execution batch
+
+### D-014 · Gelcoat category hub not created (confirmed)
+**Decision:** No `/products/gelcoat/` hub. The route intentionally returns 404.
+**Evidence:** The Gelcoat family contains exactly one product, GP Gelcoat Resin,
+which has its own product page with supplier TDS/SDS. A hub over a single product
+would restate that page — the same thin-duplicate pattern this engagement removed
+from the Knowledge Hub. The family remains reachable: it is listed on the catalogue
+index, filterable by its category chip, and linked from the header mega-menu to its
+catalogue anchor.
+**Side effect (deliberate):** keeping Gelcoat non-indexable leaves exactly one entry
+in the layout's "Also in our range" column, so that column stays populated rather
+than rendering an empty heading.
+**Revisit if:** more gelcoat grades are stocked, at which point a hub has something
+to differentiate.
+**Status:** Settled.
+
+### D-015 · Floating WhatsApp made product-specific without touching the layout
+**Decision:** Upgrade the site-wide floating WhatsApp button on product pages from
+`ProductPage.astro` at runtime, rather than editing `src/layouts/Base.astro`.
+**Evidence:** The button is rendered by the layout with the generic message, so on a
+product page it carried no product context. `Base.astro` has uncommitted in-progress
+changes by another worker; editing it would risk their work and would block a clean
+merge. The enhancement is additive, runs after `DOMContentLoaded`, and degrades to
+the existing generic behaviour if the button is absent or its markup changes.
+**Verified:** English and Nepali product pages now produce the product-specific
+message and an aria-label naming the product; non-product pages keep the generic
+message; the approved number 9779805526904 is unchanged.
+**Status:** Implemented.
+
+### D-016 · Product → application links still not fabricated
+**Decision:** 21 of 31 product pages link to no application. Left as-is.
+**Evidence:** `applicationsFor()` is a reverse lookup through each application's
+`relatedProductSlugs`. No supplier-documented application data exists in the project
+to ground new links: GP Clear Resin has TDS-derived `technicalHighlights` but no
+application field, and Cobalt Octoate has zero technical highlights, consistent with
+having no TDS/SDS on file.
+**Why not filled:** creating these links would assert material suitability from
+inference. Blocked on E6 (supplier TDS/SDS).
+**Status:** Open, blocked on evidence.
+
+### D-017 · "DP clear resin" and bisphenol categorisation left out of indexable content
+**Decision:** Neither term is used in any published copy.
+**Evidence:** "DP clear resin" appears nowhere in the repository — not a known grade.
+Bisphenol Resin's supplier spec reads "Bisphenol A & epichlorohydrin based", which is
+epoxy chemistry, but bisphenol-A also appears in vinyl ester and bisphenol-A fumarate
+polyester resins. Partial spec data is not authority to re-file a chemical product.
+**Status:** Both left unchanged pending owner/supplier confirmation.

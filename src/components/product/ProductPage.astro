@@ -526,6 +526,44 @@ const faqSchema =
   </aside>
 </div>
 
+<script
+  define:vars={{
+    productWaHref: productEnquiryWa,
+    productWaLabel: isNe
+      ? `${product.name} बारे WhatsApp मा कुरा गर्नुहोस्`
+      : `Chat on WhatsApp about ${product.name}`,
+  }}
+>
+  // The floating WhatsApp button is rendered site-wide by the layout with a
+  // generic message, so on a product page it arrived with no idea which
+  // product the buyer was reading. This upgrades it in place to the same
+  // product-specific message the in-page WhatsApp button already uses.
+  //
+  // Done here rather than in the layout deliberately: the layout is being
+  // edited by another worker, and this enhancement must not touch their
+  // file. It is purely additive and degrades to the existing generic
+  // behaviour if the button is absent or its markup changes.
+  // This script is emitted inside the page slot, which the layout renders
+  // before the floating button, so the element does not exist yet at
+  // execution time. Wait for the parsed document before upgrading it.
+  (function upgradeFloatingWhatsApp() {
+    if (!productWaHref) return;
+
+    const apply = () => {
+      const float = document.querySelector('a.wa-float');
+      if (!float) return;
+      float.setAttribute('href', productWaHref);
+      float.setAttribute('aria-label', productWaLabel);
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', apply, { once: true });
+    } else {
+      apply();
+    }
+  })();
+</script>
+
 <style>
   .product-top {
     display: grid;
