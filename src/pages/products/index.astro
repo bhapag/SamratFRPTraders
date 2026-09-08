@@ -195,6 +195,17 @@ import Base from '../../layouts/Base.astro';
     padding-top: clamp(2rem, 4vw, 3rem);
   }
 
+  /* Opaque panel behind the catalogue controls — they previously washed out
+     against the page's decorative background. */
+  .catalogue-rail {
+    position: relative;
+    z-index: 1;
+    padding: clamp(0.85rem, 2.5vw, 1.15rem);
+    border: 1px solid var(--line);
+    background: var(--bg-3);
+    box-shadow: var(--surface-shadow-rest);
+  }
+
   /* Supporting blocks sit after the catalogue so buyers reach products
      first. See the English catalogue index for the measured rationale. */
   .catalogue-support {
