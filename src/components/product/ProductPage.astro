@@ -244,6 +244,15 @@ const faqSchema =
   </div>
 
   <div class="product-actions">
+    {/* Enquiry first. Previously the pricing explainer and both document
+        buttons preceded it, putting the primary action 1425px down on a
+        390px viewport — 1.7 screens. Moved in the DOM rather than with CSS
+        order so visual order, reading order and focus order stay aligned. */}
+    <div class="prod-cta prod-cta-row">
+      <a class="button button-primary" href={`${prefix}/contact/?product=${encodeURIComponent(product.name)}`}>{t.enquire}</a>
+      <a class="button wa-button" href={productEnquiryWa} target="_blank" rel="noopener">{t.whatsapp}</a>
+    </div>
+
     <div class="prod-quote">
       <p class="prod-quote-heading">{t.priceHeading}</p>
       <p class="prod-quote-value">{t.priceValue}</p>
@@ -285,11 +294,6 @@ const faqSchema =
         </a>
       </div>
     )}
-
-    <div class="prod-cta prod-cta-row">
-      <a class="button button-primary" href={`${prefix}/contact/?product=${encodeURIComponent(product.name)}`}>{t.enquire}</a>
-      <a class="button wa-button" href={productEnquiryWa} target="_blank" rel="noopener">{t.whatsapp}</a>
-    </div>
 
     <div class="prod-catalogue-note">
       <p class="prod-catalogue-heading">{t.catalogueTitle}</p>
