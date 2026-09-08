@@ -139,10 +139,38 @@ import Base from '../layouts/Base.astro';
     const form = document.getElementById('waForm');
     if (form && form.dataset.wired !== 'true') {
       form.dataset.wired = 'true';
+
+      // उत्पादन पृष्ठले /contact/?product=<नाम> मा ल्याउँछ, त्यसैले खरिदकर्ताले
+      // भर्खर हेरेको उत्पादन फेरि टाइप गर्नु पर्दैन।
+      const productField = form.querySelector('[name="product"]');
+      const requested = new URLSearchParams(window.location.search).get('product');
+      if (productField && requested && !productField.value) {
+        productField.value = requested;
+      }
+
       form.addEventListener('submit', (event) => {
         event.preventDefault();
+
+        // खरिदकर्ताले भरेको विवरणबाटै सन्देश बनाइन्छ। पहिले सबै field भरिए पनि
+        // पठाउँदा एउटै सामान्य वाक्य मात्र जान्थ्यो र विवरण हराउँथ्यो।
+        const get = (n) => {
+          const el = form.querySelector('[name="' + n + '"]');
+          return el && el.value ? el.value.trim() : '';
+        };
+
+        const lines = ['नमस्ते, म सोधपुछ गर्न चाहन्छु।'];
+        const add = (label, value) => {
+          if (value) lines.push(label + ': ' + value);
+        };
+        add('नाम', get('name'));
+        add('कम्पनी', get('company'));
+        add('उत्पादन / आवश्यकता', get('product'));
+        add('परिमाण', get('quantity'));
+        add('विवरण', get('message'));
+
+        const text = lines.length > 1 ? lines.join('\n') : form.dataset.waMessage || lines[0];
         window.open(
-          'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(form.dataset.waMessage || ''),
+          'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(text),
           '_blank',
           'noopener',
         );

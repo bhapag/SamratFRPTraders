@@ -138,10 +138,39 @@ import Base from '../../layouts/Base.astro';
     const form = document.getElementById('waForm');
     if (form && form.dataset.wired !== 'true') {
       form.dataset.wired = 'true';
+
+      // Product pages link here as /contact/?product=<name>, so the buyer
+      // does not have to retype what they were just looking at.
+      const productField = form.querySelector('[name="product"]');
+      const requested = new URLSearchParams(window.location.search).get('product');
+      if (productField && requested && !productField.value) {
+        productField.value = requested;
+      }
+
       form.addEventListener('submit', (event) => {
         event.preventDefault();
+
+        // Build the message from what the buyer actually typed. Previously
+        // every field was collected and then discarded in favour of a fixed
+        // generic string, so the enquiry arrived with no detail at all.
+        const get = (n) => {
+          const el = form.querySelector('[name="' + n + '"]');
+          return el && el.value ? el.value.trim() : '';
+        };
+
+        const lines = ['Hello, I would like to make an enquiry.'];
+        const add = (label, value) => {
+          if (value) lines.push(label + ': ' + value);
+        };
+        add('Name', get('name'));
+        add('Company', get('company'));
+        add('Product / requirement', get('product'));
+        add('Quantity', get('quantity'));
+        add('Details', get('message'));
+
+        const text = lines.length > 1 ? lines.join('\n') : form.dataset.waMessage || lines[0];
         window.open(
-          'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(form.dataset.waMessage || ''),
+          'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(text),
           '_blank',
           'noopener',
         );

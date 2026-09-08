@@ -287,7 +287,7 @@ const faqSchema =
     )}
 
     <div class="prod-cta prod-cta-row">
-      <a class="button button-primary" href={`${prefix}/contact/`}>{t.enquire}</a>
+      <a class="button button-primary" href={`${prefix}/contact/?product=${encodeURIComponent(product.name)}`}>{t.enquire}</a>
       <a class="button wa-button" href={productEnquiryWa} target="_blank" rel="noopener">{t.whatsapp}</a>
     </div>
 
