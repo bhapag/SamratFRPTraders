@@ -11,6 +11,68 @@
       "status": 301,
       "headers": { "Location": "/$1" }
     },
+
+    {
+      "src": "^/resources/cobalt-octoate-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/resources/cobalt-octoate-guide/" }
+    },
+    {
+      "src": "^/en/resources/cobalt-octoate-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/en/resources/cobalt-octoate-guide/" }
+    },
+    {
+      "src": "^/resources/styrene-monomer-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/resources/styrene-monomer-guide/" }
+    },
+    {
+      "src": "^/en/resources/styrene-monomer-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/en/resources/styrene-monomer-guide/" }
+    },
+    {
+      "src": "^/resources/nc-thinner-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/resources/nc-thinner-guide/" }
+    },
+    {
+      "src": "^/en/resources/nc-thinner-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/en/resources/nc-thinner-guide/" }
+    },
+    {
+      "src": "^/resources/paint-brushes-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/resources/paint-brushes-guide/" }
+    },
+    {
+      "src": "^/en/resources/paint-brushes-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/en/resources/paint-brushes-guide/" }
+    },
+    {
+      "src": "^/resources/soap-stone-powder-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/resources/soap-stone-powder-guide/" }
+    },
+    {
+      "src": "^/en/resources/soap-stone-powder-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/en/resources/soap-stone-powder-guide/" }
+    },
+    {
+      "src": "^/resources/wax-polish-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/resources/wax-polish-guide/" }
+    },
+    {
+      "src": "^/en/resources/wax-polish-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
+      "status": 301,
+      "headers": { "Location": "/en/resources/wax-polish-guide/" }
+    },
+
     { "handle": "filesystem" },
     { "src": "^/en/(.*)$", "status": 404, "dest": "/en/404/index.html" },
     { "src": "^/(.*)$", "status": 404, "dest": "/404.html" }

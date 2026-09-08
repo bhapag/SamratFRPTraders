@@ -1,0 +1,100 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import { getGroup, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
+import Base from '../../layouts/Base.astro';
+
+const group = getGroup('industrial-specialty-resins');
+const items = productsInGroup('industrial-specialty-resins');
+---
+<Base
+  lang="ne"
+  title="Industrial र Specialty Resins — नेपालमा आपूर्तिकर्ता र आयातकर्ता"
+  description="नेपालका खरिदकर्ताका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने vinyl ester, bisphenol, marble, DMC/SMC लगायत specialty resin उत्पादनहरू।"
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">उत्पादन वर्ग</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">Vinyl ester, bisphenol, marble लगायत विशेष तथा औद्योगिक resin — नेपाल बजारका लागि आपूर्ति तथा आयात।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          Specialty resin सामान्य प्रयोगका लागि नभई निश्चित सेवा-अवस्था हेरेर छानिन्छ। रासायनिक सम्पर्क,
+          casting को सफापन, कुनै खास moulding प्रक्रिया वा कठिन substrate — यीमध्ये प्रत्येकले यस श्रेणीभित्रको
+          फरक उत्पादनतर्फ संकेत गर्छ, र एउटा आवश्यकतासँग मिल्ने grade अर्कोका लागि उपयुक्त नहुन सक्छ।
+        </p>
+        <p>
+          सही सुरुवात उत्पादनको नाम होइन, बनाउनुपर्ने भाग र त्यसले सहनुपर्ने वातावरण हो। दुई विकल्पबीच
+          तुलना गर्दै हुनुहुन्छ भने resource library का comparison गाइडहरूले quotation माग्नुअघि यी परिवारबीचको
+          व्यावहारिक भिन्नता बुझ्न सघाउँछन्। प्राविधिक कागजात आपूर्तिकर्ताले जारी गरेको हो र Samrat FRP
+          Traders को प्रमाणीकरण होइन।
+        </p>
+      </div>
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={`/products/${product.slug}/`}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, true)}
+            ctaLabel="उत्पादन हेर्नुहोस्"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

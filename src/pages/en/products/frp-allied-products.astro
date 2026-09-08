@@ -1,0 +1,111 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CatalogCard from '../../../components/CatalogCard.astro';
+import StatusNotice from '../../../components/StatusNotice.astro';
+import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
+import { productImageAlt } from '../../../utils/product-page.js';
+import Base from '../../../layouts/Base.astro';
+
+const group = getGroup('frp-allied-products');
+const items = productsInGroup('frp-allied-products');
+---
+<Base
+  title="FRP Allied Products — Supplier & Importer in Nepal"
+  description="Reinforcement, pigment, thinner, fillers, mould release wax and application tools supplied and imported by Samrat FRP Traders for FRP workshops across Nepal."
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Product category</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">{group.summary}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'Home', href: '/en/' },
+          { label: 'Products', href: '/en/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          Resin is only part of what a fabrication workshop consumes. This range covers the materials that
+          sit alongside it: reinforcement and pigment, a reactive diluent, a lacquer thinner, mineral filler,
+          mould release wax and the brushes used to apply everything. Most are ordered by the job rather than
+          by the drum, so consumption rate usually matters more than unit price when planning a purchase.
+        </p>
+        <p>
+          Several of these products behave in ways that are easy to get wrong — a diluent that becomes part
+          of the cured laminate, a thinner that suits one coating chemistry and not another, a filler whose
+          loading limit decides whether a part is strong or porous. The linked guides below cover that
+          ground:
+          <a href="/en/resources/styrene-monomer-guide/">styrene monomer</a>,
+          <a href="/en/resources/nc-thinner-guide/">NC thinner</a>,
+          <a href="/en/resources/soap-stone-powder-guide/">soap stone powder</a>,
+          <a href="/en/resources/wax-polish-guide/">mould release wax</a> and
+          <a href="/en/resources/paint-brushes-guide/">brushes</a>.
+        </p>
+      </div>
+
+      <StatusNotice
+        title="Supplier documentation"
+        message="Technical data sheets and safety data sheets are linked from each product page where the supplier has issued them. Some allied products in this range do not yet have supplier documentation on file; exact grade values, handling and storage must be confirmed before procurement or use."
+      />
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={productHref(product, '/en')}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, false)}
+            ctaLabel="View product"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/contact/">Send an enquiry</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

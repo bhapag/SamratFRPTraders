@@ -1,0 +1,107 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CatalogCard from '../../../components/CatalogCard.astro';
+import StatusNotice from '../../../components/StatusNotice.astro';
+import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
+import { productImageAlt } from '../../../utils/product-page.js';
+import Base from '../../../layouts/Base.astro';
+
+const group = getGroup('hardeners-catalysts');
+const items = productsInGroup('hardeners-catalysts');
+---
+<Base
+  title="Hardeners & Catalysts — Supplier & Importer in Nepal"
+  description="Hardener, catalyst and accelerator products supplied and imported by Samrat FRP Traders for FRP workshops across Nepal."
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Product category</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">{group.summary}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'Home', href: '/en/' },
+          { label: 'Products', href: '/en/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          These are consumables rather than one-off purchases, and they are bought as a working pair. In a
+          polyester system the catalyst starts the reaction, while the accelerator allows it to proceed at
+          workshop temperature — separate products doing separate jobs. Which you need, and whether you need
+          both, depends on whether the resin you are using is already pre-accelerated.
+        </p>
+        <p>
+          Accelerator and peroxide catalyst are dispersed into the resin separately and are never combined
+          directly with each other. Gel time in practice moves with ambient temperature, resin temperature
+          and mix volume, so figures from another site or season rarely transfer. For background on how the
+          accelerator functions in a cure system, see the
+          <a href="/en/resources/cobalt-octoate-guide/">Cobalt Octoate guide</a>.
+        </p>
+      </div>
+
+      <StatusNotice
+        title="Supplier documentation"
+        message="Technical data sheets and safety data sheets are linked from each product page where the supplier has issued them. Supplier technical data is attributed to the issuer and is not a Samrat FRP Traders certification."
+      />
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={productHref(product, '/en')}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, false)}
+            ctaLabel="View product"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/contact/">Send an enquiry</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

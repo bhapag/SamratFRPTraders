@@ -1,0 +1,66 @@
+
+# Certificate expiry monitoring.
+#
+# HSTS is enabled on this domain with a two-year max-age, so a lapsed
+# certificate hard-blocks every visitor and every crawler with no
+# click-through option. That makes silent expiry the single failure mode
+# that takes the whole site down at once, which is why this runs daily.
+#
+# Apex and www are issued as two separate certificates with separate SANs,
+# so both are checked independently. Uses only openssl on the runner: no
+# external service, no account, no secrets.
+
+name: Certificate expiry
+
+on:
+  schedule:
+    # 06:15 UTC daily
+    - cron: '15 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        host:
+          - samratfrptraders.com
+          - www.samratfrptraders.com
+    steps:
+      - name: Check ${{ matrix.host }} certificate expiry
+        run: |
+          set -euo pipefail
+          HOST="${{ matrix.host }}"
+          WARN_DAYS=14
+
+          END_DATE=$(echo | openssl s_client -servername "$HOST" -connect "$HOST":443 2>/dev/null \
+            | openssl x509 -noout -enddate | cut -d= -f2)
+
+          if [ -z "$END_DATE" ]; then
+            echo "::error::Could not read a certificate from $HOST — the host may be unreachable or TLS may be failing."
+            exit 1
+          fi
+
+          END_EPOCH=$(date -d "$END_DATE" +%s)
+          NOW_EPOCH=$(date +%s)
+          DAYS_LEFT=$(( (END_EPOCH - NOW_EPOCH) / 86400 ))
+
+          echo "Host:       $HOST"
+          echo "Expires:    $END_DATE"
+          echo "Days left:  $DAYS_LEFT"
+
+          if [ "$DAYS_LEFT" -lt 0 ]; then
+            echo "::error::Certificate for $HOST has EXPIRED. With HSTS active the site is hard-blocked for all visitors."
+            exit 1
+          fi
+
+          if [ "$DAYS_LEFT" -lt "$WARN_DAYS" ]; then
+            echo "::error::Certificate for $HOST expires in $DAYS_LEFT day(s), under the $WARN_DAYS-day threshold. Confirm Vercel auto-renewal."
+            exit 1
+          fi
+
+          echo "OK — $DAYS_LEFT days remaining."

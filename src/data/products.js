@@ -71,8 +71,12 @@ export const catalogGroups = Object.freeze([
   Object.freeze({
     name: 'Sheet Grade Resins',
     slug: 'sheet-grade-resins',
-    indexable: false,
+    indexable: true,
+    summary: 'Sheet grade resin products, including roof light resin, supplied and imported for the Nepal market.',
   }),
+  // Gelcoat intentionally has no category page: the family holds a single
+  // product, so a hub would restate that product page rather than add
+  // anything. It stays navigation-only and links to its catalogue anchor.
   Object.freeze({
     name: 'Gelcoat',
     slug: 'gelcoat',
@@ -81,12 +85,14 @@ export const catalogGroups = Object.freeze([
   Object.freeze({
     name: 'Fire Retardant Resins',
     slug: 'fire-retardant-resins',
-    indexable: false,
+    indexable: true,
+    summary: 'Fire retardant resin products supplied and imported for the Nepal market. Fire performance figures are supplier-issued and must be confirmed from the current TDS.',
   }),
   Object.freeze({
     name: 'FRP Allied Products',
     slug: 'frp-allied-products',
-    indexable: false,
+    indexable: true,
+    summary: 'Allied FRP materials — reinforcement, pigment, thinner, fillers, release wax and application tools — supplied and imported for the Nepal market.',
   }),
   Object.freeze({
     name: 'Epoxy & Casting Resins',
@@ -97,12 +103,14 @@ export const catalogGroups = Object.freeze([
   Object.freeze({
     name: 'Industrial & Specialty Resins',
     slug: 'industrial-specialty-resins',
-    indexable: false,
+    indexable: true,
+    summary: 'Specialty and industrial resin products, including vinyl ester, bisphenol and marble resin, supplied and imported for the Nepal market.',
   }),
   Object.freeze({
     name: 'Hardeners & Catalysts',
     slug: 'hardeners-catalysts',
-    indexable: false,
+    indexable: true,
+    summary: 'Hardener, catalyst and accelerator products used alongside polyester and epoxy systems, supplied and imported for the Nepal market.',
   }),
 ]);
 
@@ -1202,7 +1210,7 @@ export const products = Object.freeze([
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
-      Object.freeze({ src: 'cobalt-octoate-primary.png', width: 1254, height: 1254 }),
+      Object.freeze({ src: 'cobalt-octoate-primary.webp', width: 1254, height: 1254 }),
     ]),
     titleInput: 'Cobalt Octoate Accelerator — Nepal Supplier',
     metaDescription:
@@ -1223,7 +1231,7 @@ export const products = Object.freeze([
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
-      Object.freeze({ src: 'styrene-monomer-primary.png', width: 1254, height: 1254 }),
+      Object.freeze({ src: 'styrene-monomer-primary.webp', width: 1254, height: 1254 }),
     ]),
     titleInput: 'Styrene Monomer — Nepal Supplier',
     metaDescription:
@@ -1242,7 +1250,7 @@ export const products = Object.freeze([
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
-      Object.freeze({ src: 'nc-thinner-primary.png', width: 1254, height: 1254 }),
+      Object.freeze({ src: 'nc-thinner-primary.webp', width: 1254, height: 1254 }),
     ]),
     titleInput: 'NC Thinner — Nepal Supplier',
     metaDescription:
@@ -1261,7 +1269,7 @@ export const products = Object.freeze([
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
-      Object.freeze({ src: 'paint-brushes-primary.png', width: 1254, height: 1254 }),
+      Object.freeze({ src: 'paint-brushes-primary.webp', width: 1254, height: 1254 }),
     ]),
     titleInput: 'Paint Brushes — Nepal Supplier',
     metaDescription:
@@ -1280,7 +1288,7 @@ export const products = Object.freeze([
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
-      Object.freeze({ src: 'soap-stone-powder-primary.png', width: 1254, height: 1254 }),
+      Object.freeze({ src: 'soap-stone-powder-primary.webp', width: 1254, height: 1254 }),
     ]),
     titleInput: 'Soap Stone Powder — Nepal Supplier',
     metaDescription:
@@ -1299,7 +1307,7 @@ export const products = Object.freeze([
     tier: 'C',
     socialImage: true,
     images: Object.freeze([
-      Object.freeze({ src: 'wax-polish-primary.png', width: 1254, height: 1254 }),
+      Object.freeze({ src: 'wax-polish-primary.webp', width: 1254, height: 1254 }),
     ]),
     titleInput: 'Wax Polish — Nepal Supplier',
     metaDescription:

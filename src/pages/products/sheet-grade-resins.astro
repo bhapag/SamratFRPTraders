@@ -1,0 +1,100 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import { getGroup, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
+import Base from '../../layouts/Base.astro';
+
+const group = getGroup('sheet-grade-resins');
+const items = productsInGroup('sheet-grade-resins');
+---
+<Base
+  lang="ne"
+  title="Sheet Grade Resins — नेपालमा आपूर्तिकर्ता र आयातकर्ता"
+  description="नेपालभर panel तथा sheet उत्पादनका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने sheet grade र roof light resin।"
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">उत्पादन वर्ग</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">Roof light resin लगायत sheet grade resin — नेपाल बजारका लागि आपूर्ति तथा आयात।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          यी grade तयारी वस्तु panel वा sheet हुने काममा प्रयोग हुन्छन् — छाना, उज्यालो छिर्ने sheet र
+          त्यस्तै profile। यस्तो प्रयोगले सामान्य resin मा नखोजिने गुणहरूलाई महत्त्व दिन्छ: ठूलो निरन्तर
+          सतहभरिको व्यवहार, sheet पारदर्शी हुनुपर्ने अवस्थामा देखिने रूप र उज्यालो छिर्ने क्षमता, र लामो
+          समय बाहिरी वातावरणमा रहँदाको टिकाउपन।
+        </p>
+        <p>
+          Sheet को काम प्रायः एकपटकको नभई शृंखलामा हुने भएकाले batch एकरूपताबारे enquiry मै सिधै सोध्नु
+          उपयोगी हुन्छ। Profile, प्रक्रिया र sheet structural हो कि उज्यालो छिर्ने हो उल्लेख गर्नुहोस्।
+          प्राविधिक कागजात आपूर्तिकर्ताले जारी गरेको हो र Samrat FRP Traders को प्रमाणीकरण होइन।
+        </p>
+      </div>
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={`/products/${product.slug}/`}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, true)}
+            ctaLabel="उत्पादन हेर्नुहोस्"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

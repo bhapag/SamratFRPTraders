@@ -1,0 +1,109 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import { getGroup, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
+import Base from '../../layouts/Base.astro';
+
+const group = getGroup('frp-allied-products');
+const items = productsInGroup('frp-allied-products');
+---
+<Base
+  lang="ne"
+  title="FRP Allied Products — नेपालमा आपूर्तिकर्ता र आयातकर्ता"
+  description="नेपालभरका FRP कार्यशालाका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने reinforcement, pigment, thinner, filler, mould release wax र प्रयोग सामग्री।"
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">उत्पादन वर्ग</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">Reinforcement, pigment, thinner, filler, mould release wax र प्रयोग सामग्री — नेपाल बजारका लागि आपूर्ति तथा आयात।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          कार्यशालामा खपत हुने सामग्री resin मात्र होइन। यो श्रेणीमा त्यससँगै चाहिने सामग्री पर्छन्:
+          reinforcement र pigment, reactive diluent, lacquer thinner, mineral filler, mould release wax
+          र लगाउन प्रयोग हुने brush। यी प्रायः ड्रमका आधारमा होइन, कामअनुसार अर्डर हुन्छन्, त्यसैले
+          खरिद योजना बनाउँदा एकाइ मूल्यभन्दा खपत दर बढी महत्त्वपूर्ण हुन्छ।
+        </p>
+        <p>
+          यीमध्ये केही सामग्रीमा सजिलै गल्ती हुन सक्छ — cured laminate कै अंश बन्ने diluent, एउटा coating
+          रसायनसँग मात्र मिल्ने thinner, र loading सीमाले भागको बल निर्धारण गर्ने filler। सम्बन्धित
+          गाइडहरू:
+          <a href="/resources/styrene-monomer-guide/">Styrene Monomer</a>,
+          <a href="/resources/nc-thinner-guide/">NC Thinner</a>,
+          <a href="/resources/soap-stone-powder-guide/">Soap Stone Powder</a>,
+          <a href="/resources/wax-polish-guide/">Mould Release Wax</a> र
+          <a href="/resources/paint-brushes-guide/">Paint Brushes</a>।
+        </p>
+        <p>
+          यस श्रेणीका केही उत्पादनको आपूर्तिकर्ता कागजात अहिले उपलब्ध छैन; सटीक grade मान, handling र
+          storage खरिद वा प्रयोगअघि पुष्टि गर्नुपर्छ।
+        </p>
+      </div>
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={`/products/${product.slug}/`}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, true)}
+            ctaLabel="उत्पादन हेर्नुहोस्"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

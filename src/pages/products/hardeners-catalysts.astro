@@ -1,0 +1,101 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import { getGroup, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
+import Base from '../../layouts/Base.astro';
+
+const group = getGroup('hardeners-catalysts');
+const items = productsInGroup('hardeners-catalysts');
+---
+<Base
+  lang="ne"
+  title="Hardeners र Catalysts — नेपालमा आपूर्तिकर्ता र आयातकर्ता"
+  description="नेपालभरका FRP कार्यशालाका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने hardener, catalyst र accelerator उत्पादनहरू।"
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">उत्पादन वर्ग</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">Polyester र epoxy प्रणालीसँग प्रयोग हुने hardener, catalyst र accelerator — नेपाल बजारका लागि आपूर्ति तथा आयात।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          यी एकपटक किन्ने होइन, नियमित रूपमा खपत हुने सामग्री हुन्, र जोडीका रूपमा प्रयोग हुन्छन्।
+          Polyester प्रणालीमा catalyst ले प्रतिक्रिया सुरु गर्छ भने accelerator ले कार्यशालाको तापक्रममै
+          त्यो प्रतिक्रिया सम्भव बनाउँछ — दुवैको काम फरक हो। तपाईंलाई कुन चाहिन्छ भन्ने कुरा प्रयोग हुने
+          resin पहिल्यै pre-accelerated छ कि छैन भन्नेमा भर पर्छ।
+        </p>
+        <p>
+          Accelerator र peroxide catalyst लाई resin मा छुट्टाछुट्टै हालिन्छ, कहिल्यै आपसमा सीधै मिसाइँदैन।
+          व्यवहारमा gel time ambient तापक्रम, resin को तापक्रम र मिश्रणको मात्रासँगै फेरिन्छ। थप
+          पृष्ठभूमिका लागि <a href="/resources/cobalt-octoate-guide/">Cobalt Octoate गाइड</a> हेर्नुहोस्।
+          प्राविधिक कागजात आपूर्तिकर्ताले जारी गरेको हो र Samrat FRP Traders को प्रमाणीकरण होइन।
+        </p>
+      </div>
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={`/products/${product.slug}/`}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, true)}
+            ctaLabel="उत्पादन हेर्नुहोस्"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

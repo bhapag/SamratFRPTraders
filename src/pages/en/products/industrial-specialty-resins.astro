@@ -1,0 +1,105 @@
+---
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CatalogCard from '../../../components/CatalogCard.astro';
+import StatusNotice from '../../../components/StatusNotice.astro';
+import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
+import { productImageAlt } from '../../../utils/product-page.js';
+import Base from '../../../layouts/Base.astro';
+
+const group = getGroup('industrial-specialty-resins');
+const items = productsInGroup('industrial-specialty-resins');
+---
+<Base
+  title="Industrial & Specialty Resins — Supplier & Importer in Nepal"
+  description="Vinyl ester, bisphenol, marble, DMC/SMC and other specialty resin products supplied and imported by Samrat FRP Traders for buyers across Nepal."
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">Product category</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">{group.summary}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'Home', href: '/en/' },
+          { label: 'Products', href: '/en/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          Specialty resins are chosen against a specific service condition rather than as general-purpose
+          material. Chemical exposure, casting clarity, a particular moulding process or a demanding
+          substrate will each point toward a different product in this range, and a grade that suits one of
+          those requirements may be a poor choice for another.
+        </p>
+        <p>
+          The right starting point is the finished component and the environment it has to survive — not a
+          product name. Where you are weighing one route against another, the comparison guides in the
+          resource library set out how these families differ in practice before you request a quotation.
+        </p>
+      </div>
+
+      <StatusNotice
+        title="Supplier documentation"
+        message="Technical data sheets and safety data sheets are linked from each product page. Supplier technical data is attributed to the issuer and is not a Samrat FRP Traders certification; suitability for a specific system must be confirmed grade by grade."
+      />
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={productHref(product, '/en')}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, false)}
+            ctaLabel="View product"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/contact/">Send an enquiry</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

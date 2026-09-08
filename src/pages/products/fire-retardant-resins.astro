@@ -1,0 +1,101 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import { getGroup, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
+import Base from '../../layouts/Base.astro';
+
+const group = getGroup('fire-retardant-resins');
+const items = productsInGroup('fire-retardant-resins');
+---
+<Base
+  lang="ne"
+  title="Fire Retardant Resins — नेपालमा आपूर्तिकर्ता र आयातकर्ता"
+  description="नेपालका खरिदकर्ताका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने fire retardant resin, आपूर्तिकर्ता-जारी प्राविधिक कागजातसहित।"
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">उत्पादन वर्ग</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">नेपाल बजारका लागि आपूर्ति तथा आयात गरिने fire retardant resin उत्पादनहरू।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          कुनै आयोजना, ग्राहक वा नियमले निश्चित fire behaviour माग गरेको अवस्थामा fire retardant grade
+          तोकिन्छ। त्यो आवश्यकता प्रायः कुनै नामित standard वा classification का रूपमा आउँछ, र त्यसको सही
+          जवाफ सामान्य उत्पादन विवरणले होइन, ठ्याक्कै त्यही grade का लागि आपूर्तिकर्ताले प्रकाशित गरेको
+          परीक्षण डाटाले मात्र दिन्छ।
+        </p>
+        <p>
+          Samrat FRP Traders ले यी उत्पादन व्यापारीका रूपमा आपूर्ति तथा आयात गर्छ। हामी आगो परीक्षण
+          गर्दैनौँ र कुनै fire rating वा classification जारी गर्दैनौँ। तपाईंको specification मा कुनै
+          standard उल्लेख छ भने enquiry सँगै पठाउनुहोस्, ताकि प्रतिबद्धता जनाउनुअघि आपूर्तिकर्ताको हालको
+          कागजातसँग जाँच गर्न सकियोस्।
+        </p>
+      </div>
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={`/products/${product.slug}/`}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, true)}
+            ctaLabel="उत्पादन हेर्नुहोस्"
+          />
+        ))}
+      </div>
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>
