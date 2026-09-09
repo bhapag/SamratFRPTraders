@@ -1,4 +1,5 @@
 ---
+import BrandEntity from '../../components/BrandEntity.astro';
 import BusinessDetails from '../../components/home/BusinessDetails.astro';
 import { buildWhatsAppLink, whatsAppMessages, site } from '../../data/site.js';
 import { catalogGroups, products } from '../../data/products.js';
@@ -23,7 +24,7 @@ const docCount = docs.documentEntries;
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
       <p class="eyebrow">About</p>
-      <h1>From Biratnagar, <span class="metal-text">across Nepal.</span></h1>
+      <h1>Samrat FRP Traders, <span class="metal-text">Biratnagar.</span></h1>
       <p class="page-lead">
         Samrat FRP Traders is a trader, supplier, importer and reseller of FRP materials and
         industrial resins for buyers across Nepal.
@@ -183,6 +184,7 @@ const docCount = docs.documentEntries;
       </div>
     </div>
   </section>
+  <BrandEntity />
 </Base>
 
 <style>

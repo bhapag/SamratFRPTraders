@@ -1,4 +1,5 @@
 ---
+import BrandEntity from '../components/BrandEntity.astro';
 import BusinessDetails from '../components/home/BusinessDetails.astro';
 import { buildWhatsAppLink, whatsAppMessages, site } from '../data/site.js';
 import { catalogGroups, products } from '../data/products.js';
@@ -24,7 +25,7 @@ const docCount = docs.documentEntries;
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
       <p class="eyebrow">हाम्रोबारे</p>
-      <h1>विराटनगरबाट <span class="metal-text">नेपालभर।</span></h1>
+      <h1>Samrat FRP Traders, <span class="metal-text">विराटनगर।</span></h1>
       <p class="page-lead">
         Samrat FRP Traders नेपालका खरिदकर्ताहरूका लागि FRP सामग्री तथा औद्योगिक रेजिन आपूर्ति गर्ने
         व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो।
@@ -182,6 +183,7 @@ const docCount = docs.documentEntries;
       </div>
     </div>
   </section>
+  <BrandEntity />
 </Base>
 
 <style>

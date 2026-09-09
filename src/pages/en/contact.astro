@@ -1,4 +1,5 @@
 ---
+import BrandEntity from '../../components/BrandEntity.astro';
 import { buildContactWhatsAppLink, site, whatsAppMessages } from '../../data/site.js';
 import Base from '../../layouts/Base.astro';
 ---
@@ -10,9 +11,10 @@ import Base from '../../layouts/Base.astro';
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
       <p class="eyebrow">Contact</p>
-      <h1>Send an <span class="metal-text">enquiry.</span></h1>
+      <h1>Contact <span class="metal-text">Samrat FRP Traders.</span></h1>
       <p class="page-lead">
-        Reach us directly on WhatsApp, by phone or by email — price on request.
+        Reach us directly on WhatsApp, by phone or by email — price on request. We supply FRP
+        materials and industrial resins across Nepal from Biratnagar.
       </p>
     </div>
   </section>
@@ -209,6 +211,7 @@ import Base from '../../layouts/Base.astro';
       });
     }
   </script>
+  <BrandEntity />
 </Base>
 
 <style>

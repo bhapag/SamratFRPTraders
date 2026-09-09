@@ -1,4 +1,5 @@
 ---
+import BrandEntity from '../../../components/BrandEntity.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import {
@@ -22,7 +23,7 @@ const docs = documentStats();
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
       <p class="eyebrow">Product catalogue</p>
-      <h1>FRP materials <span class="metal-text">catalogue.</span></h1>
+      <h1>Samrat FRP Traders <span class="metal-text">catalogue.</span></h1>
       <p class="page-lead">
         The full product range supplied and imported by Samrat FRP Traders for the Nepal market,
         grouped by product family. Supplier technical documentation is linked from every product page.
@@ -143,6 +144,7 @@ const docs = documentStats();
       </div>
     </div>
   </section>
+  <BrandEntity />
 </Base>
 
 <script>

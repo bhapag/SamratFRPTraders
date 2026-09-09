@@ -1,4 +1,5 @@
 ---
+import BrandEntity from '../components/BrandEntity.astro';
 import { buildContactWhatsAppLink, site, whatsAppMessages } from '../data/site.js';
 import Base from '../layouts/Base.astro';
 ---
@@ -11,9 +12,10 @@ import Base from '../layouts/Base.astro';
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
       <p class="eyebrow">सम्पर्क</p>
-      <h1>सोधपुछ <span class="metal-text">पठाउनुहोस्।</span></h1>
+      <h1>Samrat FRP Traders <span class="metal-text">सम्पर्क।</span></h1>
       <p class="page-lead">
-        WhatsApp, फोन वा इमेलबाट सिधा सम्पर्क गर्नुहोस् — मूल्य: अनुरोधमा।
+        WhatsApp, फोन वा इमेलबाट सिधा सम्पर्क गर्नुहोस् — मूल्य: अनुरोधमा। विराटनगरबाट नेपालभर
+        FRP सामग्री तथा औद्योगिक रेजिन आपूर्ति।
       </p>
     </div>
   </section>
@@ -209,6 +211,7 @@ import Base from '../layouts/Base.astro';
       });
     }
   </script>
+  <BrandEntity />
 </Base>
 
 <style>

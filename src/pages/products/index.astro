@@ -1,4 +1,5 @@
 ---
+import BrandEntity from '../../components/BrandEntity.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
 import { catalogGroups, categoryHref, productHref, products, productsInGroup } from '../../data/products.js';
 import { documentStats } from '../../data/documents.js';
@@ -16,7 +17,7 @@ const docs = documentStats();
     <div class="hero-grid-lines" aria-hidden="true"></div>
     <div class="container page-hero-content">
       <p class="eyebrow">उत्पादन सूची</p>
-      <h1>FRP सामग्री <span class="metal-text">सूची।</span></h1>
+      <h1>Samrat FRP Traders <span class="metal-text">उत्पादन सूची।</span></h1>
       <p class="page-lead">
         Samrat FRP Traders ले नेपाल बजारका लागि आपूर्ति तथा आयात गर्ने सम्पूर्ण उत्पादन दायरा,
         उत्पादन परिवारअनुसार समूहबद्ध। हरेक उत्पादन पृष्ठमा आपूर्तिकर्ताको प्राविधिक कागजात जोडिएको छ।
@@ -135,6 +136,7 @@ const docs = documentStats();
       </div>
     </div>
   </section>
+  <BrandEntity />
 </Base>
 
 <script>
