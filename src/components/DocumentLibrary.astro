@@ -457,6 +457,12 @@ const breadcrumbSchema = {
   }
 
   .doc-product {
+    /* Grid items default to min-width:auto, so the nowrap table below would
+       stretch this card past the container instead of letting the scroller
+       scroll — and `main` clips the overflow, which silently cut the
+       download column off the right edge on a phone. min-width:0 lets the
+       track constrain the card so .doc-table-scroll actually scrolls. */
+    min-width: 0;
     border: 1px solid var(--line);
     background: var(--bg-2);
   }
@@ -511,6 +517,7 @@ const breadcrumbSchema = {
   /* Wide tables must scroll inside their own box; the page body never
      scrolls sideways on a phone. */
   .doc-table-scroll {
+    max-width: 100%;
     overflow-x: auto;
   }
 
