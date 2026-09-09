@@ -1,7 +1,7 @@
 ---
 import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
 
-const { lang = 'ne' } = Astro.props;
+const { lang = 'ne', homeExperiment = false } = Astro.props;
 const isNe = lang === 'ne';
 const prefix = isNe ? '' : '/en';
 const waLink = buildWhatsAppLink(whatsAppMessages.generic[isNe ? 'ne' : 'en']);
@@ -37,6 +37,7 @@ const videoSchema = {
           class="showcase-video"
           data-showcase-video
           data-src="/videos/brand-showcase.mp4"
+          poster={homeExperiment ? '/videos/brand-showcase-still.jpeg' : undefined}
           autoplay
           muted
           playsinline
@@ -76,12 +77,12 @@ const videoSchema = {
             ? [
                 <li><span class="point-check" aria-hidden="true">✓</span>नेपालभर आपूर्ति समन्वय</li>,
                 <li><span class="point-check" aria-hidden="true">✓</span>व्यापारी · आपूर्तिकर्ता · आयातकर्ता · पुनर्विक्रेता</li>,
-                <li><span class="point-check" aria-hidden="true">✓</span>हरेक उत्पादनसँग TDS/SDS कागजात</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>उपलब्ध आपूर्तिकर्ता TDS/SDS कागजात</li>,
               ]
             : [
                 <li><span class="point-check" aria-hidden="true">✓</span>Supply coordination across Nepal</li>,
                 <li><span class="point-check" aria-hidden="true">✓</span>Trader · Supplier · Importer · Reseller</li>,
-                <li><span class="point-check" aria-hidden="true">✓</span>TDS/SDS documentation with every product</li>,
+                <li><span class="point-check" aria-hidden="true">✓</span>Supplier TDS/SDS where available</li>,
               ]}
         </ul>
         <div class="showcase-cta">

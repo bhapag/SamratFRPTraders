@@ -18,6 +18,7 @@ const {
   ogImageType,
   ogTitle,
   ogDescription,
+  homeExperiment = false,
 } = Astro.props;
 
 const pageTitle = title ? `${title} | ${site.name}` : `${site.name} | ${site.descriptor}`;
@@ -163,7 +164,7 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
       })();
     </script>
   </head>
-  <body>
+  <body class:list={{ 'home-experiment': homeExperiment }}>
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class:list={['site-header', { 'site-header-hero': isHome }]} id="siteHeader">
@@ -288,7 +289,9 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     </div>
 
     <main id="main-content" class:list={['site-main', { 'site-main-home': isHome }]}>
-      {!is404 && <AmbientBackground deferUntilHero={isHome} />}
+      {!is404 && (homeExperiment
+        ? <div class="ambient-page-media" aria-hidden="true"></div>
+        : <AmbientBackground deferUntilHero={isHome} />)}
       <div class="site-main-content">
         <slot />
       </div>
