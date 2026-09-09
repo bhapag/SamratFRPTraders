@@ -123,7 +123,11 @@
 .home-experiment .home-contact .home-shell { display:flex; align-items:center; justify-content:space-between; gap:40px; }
 .home-experiment .home-contact h2 { margin-top:16px; font-size:clamp(32px,3.8vw,54px); }
 .home-experiment .home-contact-actions { display:flex; flex-direction:column; align-items:start; gap:16px; }
-.home-experiment .home-contact-actions > a:not(.home-button) { color:#d2d6d8; font-size:13px; text-decoration:none; }
+/* The bare tel: link carries no class, so it inherited neither .home-button's
+   54px nor .home-text-link's 44px and rendered 21px tall — under the 24px
+   WCAG 2.5.8 minimum, on a tap-to-call action. Sized to match the other
+   inline actions in this row. */
+.home-experiment .home-contact-actions > a:not(.home-button) { display:inline-flex; align-items:center; min-height:44px; color:#d2d6d8; font-size:13px; text-decoration:none; }
 .home-experiment .site-header { background:#0a131df5; box-shadow:none; border-bottom:1px solid #c7b17a30; }
 .home-experiment .header-inner { max-width:1424px; min-height:86px; }
 .home-experiment .brand-name { font-size:18px; letter-spacing:.045em; }
