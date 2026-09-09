@@ -103,6 +103,25 @@ export function documentStats() {
   };
 }
 
+/**
+ * Every distinct document issuer in the catalogue.
+ *
+ * Today this is a single supplier, which is why the library states the
+ * issuer once per family rather than repeating it on all 50 rows — a
+ * column carrying one identical value 50 times informs nobody, and it
+ * made the supplier the dominant name on a Samrat FRP Traders page. If a
+ * second issuer is ever added, the per-row column returns automatically.
+ */
+export function distinctIssuers() {
+  const issuers = new Set();
+  for (const product of products) {
+    for (const doc of docsOf(product)) {
+      if (doc.issuer) issuers.add(doc.issuer);
+    }
+  }
+  return [...issuers];
+}
+
 /** Documents available for one family — used by the category hubs. */
 export function documentsForGroup(groupSlug) {
   const inGroup = products.filter((p) => p.group === groupSlug);

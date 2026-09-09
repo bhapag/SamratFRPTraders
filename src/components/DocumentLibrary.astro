@@ -9,6 +9,7 @@
 import Breadcrumbs from './Breadcrumbs.astro';
 import {
   DOCUMENT_ISSUER,
+  distinctIssuers,
   documentSections,
   documentStats,
   productsWithoutDocuments,
@@ -22,15 +23,20 @@ const prefix = isNe ? '' : '/en';
 
 const sections = documentSections();
 const stats = documentStats();
+// One issuer for the whole library today, so it is stated once per family
+// instead of on every row. The column comes back on its own if a second
+// issuer is ever added to the catalogue.
+const issuers = distinctIssuers();
+const showIssuerColumn = issuers.length > 1;
 const missing = productsWithoutDocuments();
 const waLink = buildWhatsAppIntentLink('generic', isNe ? 'ne' : 'en');
 
 const t = isNe
   ? {
       eyebrow: 'कागजात पुस्तकालय',
-      h1a: 'TDS र SDS',
-      h1b: 'कागजात पुस्तकालय।',
-      lead: `क्याटलगका ${stats.documentedProducts} उत्पादनका लागि आपूर्तिकर्ताले जारी गरेका प्राविधिक तथा सुरक्षा डाटा शीट — ${stats.families} उत्पादन परिवारमा ${stats.documentEntries} कागजात, सबै ${DOCUMENT_ISSUER} बाट सीधै खुल्छन्।`,
+      h1a: 'Samrat FRP Traders',
+      h1b: 'TDS र SDS पुस्तकालय।',
+      lead: `Samrat FRP Traders ले नेपालका लागि आपूर्ति तथा आयात गर्ने ${stats.documentedProducts} उत्पादनका आपूर्तिकर्ता-जारी प्राविधिक तथा सुरक्षा डाटा शीट — ${stats.families} उत्पादन परिवारमा ${stats.documentEntries} कागजात, सबै PDF रूपमा सीधै खुल्छन्।`,
       crumbHome: 'गृहपृष्ठ',
       crumbSelf: 'कागजात पुस्तकालय',
       useTitle: 'यी कागजात कसरी प्रयोग गर्ने',
@@ -61,7 +67,7 @@ const t = isNe
       scopeTitle: 'यी कागजातले के भन्दैनन्',
       scopeBody: `यी ${DOCUMENT_ISSUER} ले जारी गरेका आपूर्तिकर्ता कागजात हुन्। यी Samrat FRP Traders का प्रमाणपत्र होइनन्, र यीमा नेपालका व्यापारिक सर्तहरू लेखिएका हुँदैनन् — packaging, न्यूनतम अर्डर, आपूर्ति अवधि, ढुवानी वा मूल्य सोधपुछमार्फत मात्र पुष्टि हुन्छ।`,
       coverageTitle: 'उपलब्धता',
-      coverageBody: `क्याटलगका ${stats.totalProducts} मध्ये ${stats.documentedProducts} उत्पादनका कागजात फाइलमा छन्। बाँकी ${stats.undocumentedProducts} उत्पादनका लागि आपूर्तिकर्ताको कागजात अहिले उपलब्ध छैन र तल छुट्टै नाम तोकेर उल्लेख गरिएको छ।`,
+      coverageBody: `Samrat FRP Traders को क्याटलगमा रहेका ${stats.totalProducts} मध्ये ${stats.documentedProducts} उत्पादनका कागजात फाइलमा छन्। बाँकी ${stats.undocumentedProducts} उत्पादनका लागि आपूर्तिकर्ताको कागजात अहिले उपलब्ध छैन र तल छुट्टै नाम तोकेर उल्लेख गरिएको छ।`,
       colDoc: 'कागजात',
       colRef: 'Reference / Revision',
       colIssuer: 'जारीकर्ता',
@@ -71,6 +77,7 @@ const t = isNe
       viewProduct: 'उत्पादन पृष्ठ',
       sharedNote: (names) =>
         `आपूर्तिकर्ताले यी दुवै नामलाई समेट्ने एउटै कागजात सेट जारी गर्छ — ${names}। तल देखिएको फाइल त्यही हो, दुई फरक कागजात होइनन्।`,
+      familyIssuer: (issuer) => `यस परिवारका सबै कागजात ${issuer} ले जारी गरेका हुन्।`,
       missingTitle: 'कागजात नभएका उत्पादनहरू',
       missingBody:
         'तलका उत्पादनका लागि आपूर्तिकर्ताको TDS/SDS अहिले हामीसँग छैन। भएको जस्तो देखाउनुभन्दा यहाँ स्पष्ट लेख्न उपयुक्त ठान्यौँ। यी उत्पादनबारे सोधपुछ गर्न सकिन्छ।',
@@ -84,9 +91,9 @@ const t = isNe
     }
   : {
       eyebrow: 'Document library',
-      h1a: 'TDS & SDS',
-      h1b: 'document library.',
-      lead: `Supplier-issued Technical and Safety Data Sheets for ${stats.documentedProducts} products in the catalogue — ${stats.documentEntries} documents across ${stats.families} product families, each opening directly from ${DOCUMENT_ISSUER}.`,
+      h1a: 'Samrat FRP Traders',
+      h1b: 'TDS & SDS library.',
+      lead: `Supplier-issued Technical and Safety Data Sheets for the ${stats.documentedProducts} products Samrat FRP Traders supplies and imports for Nepal — ${stats.documentEntries} documents across ${stats.families} product families, each opening directly as a PDF.`,
       crumbHome: 'Home',
       crumbSelf: 'Document library',
       useTitle: 'How to use these documents',
@@ -117,7 +124,7 @@ const t = isNe
       scopeTitle: 'What these documents do not cover',
       scopeBody: `These are supplier documents issued by ${DOCUMENT_ISSUER}. They are not Samrat FRP Traders certifications, and they do not state Nepal commercial terms — packaging, minimum order, lead time, delivery and price are confirmed by enquiry.`,
       coverageTitle: 'Coverage',
-      coverageBody: `${stats.documentedProducts} of the ${stats.totalProducts} products in the catalogue have documents on file. The remaining ${stats.undocumentedProducts} have no supplier document available to us at present and are named individually below.`,
+      coverageBody: `${stats.documentedProducts} of the ${stats.totalProducts} products in the Samrat FRP Traders catalogue have documents on file. The remaining ${stats.undocumentedProducts} have no supplier document available to us at present and are named individually below.`,
       colDoc: 'Document',
       colRef: 'Reference / revision',
       colIssuer: 'Issued by',
@@ -127,6 +134,7 @@ const t = isNe
       viewProduct: 'Product page',
       sharedNote: (names) =>
         `The supplier issues one document set covering both names — ${names}. The file shown below is that same set, not two separate documents.`,
+      familyIssuer: (issuer) => `Every document in this family is issued by ${issuer}.`,
       missingTitle: 'Products without documents',
       missingBody:
         'We do not currently hold a supplier TDS or SDS for the products below. We would rather name them here than let the list above imply otherwise. Enquiries about these products are still welcome.',
@@ -236,6 +244,9 @@ const breadcrumbSchema = {
         <p class="eyebrow">{isNe ? 'उत्पादन परिवार' : 'Product family'}</p>
         <h2 id={`family-${section.group.slug}`}>{section.group.name}</h2>
         {section.group.summary && <p class="section-lead">{section.group.summary}</p>}
+        {!showIssuerColumn && issuers.length === 1 && (
+          <p class="family-issuer">{t.familyIssuer(issuers[0])}</p>
+        )}
       </div>
 
       <div class="doc-family" data-reveal>
@@ -265,7 +276,7 @@ const breadcrumbSchema = {
                   <tr>
                     <th scope="col">{t.colDoc}</th>
                     <th scope="col">{t.colRef}</th>
-                    <th scope="col">{t.colIssuer}</th>
+                    {showIssuerColumn && <th scope="col">{t.colIssuer}</th>}
                     <th scope="col">{t.colAction}</th>
                   </tr>
                 </thead>
@@ -280,7 +291,7 @@ const breadcrumbSchema = {
                           <span class="doc-muted">{t.notPublished}</span>
                         )}
                       </td>
-                      <td>{doc.issuer}</td>
+                      {showIssuerColumn && <td>{doc.issuer}</td>}
                       <td>
                         {/* Serve the mirrored copy the product pages already
                             use, falling back to the supplier's own URL if a
@@ -448,6 +459,12 @@ const breadcrumbSchema = {
     color: var(--ink-dim);
     font-size: 0.88rem;
     line-height: 1.7;
+  }
+
+  .family-issuer {
+    margin: 0.5rem 0 0;
+    color: var(--ink-faint);
+    font-size: 0.82rem;
   }
 
   .doc-family {
