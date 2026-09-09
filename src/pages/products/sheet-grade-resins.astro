@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../components/product/CategoryHubDetail.astro';
 import { getGroup, productsInGroup } from '../../data/products.js';
 import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
@@ -44,6 +45,13 @@ const items = productsInGroup('sheet-grade-resins');
           उपयोगी हुन्छ। Profile, प्रक्रिया र sheet structural हो कि उज्यालो छिर्ने हो उल्लेख गर्नुहोस्।
           प्राविधिक कागजात आपूर्तिकर्ताले जारी गरेको हो र Samrat FRP Traders को प्रमाणीकरण होइन।
         </p>
+        <p>
+          अर्डर गर्नुअघि थाहा पाउनुपर्ने एउटा कुरा: यस परिवारका दुवै grade का प्रकाशित मुख्य मान उस्तै छन् —
+          280 cPs viscosity, 6.5 मिनेट gel time, 35% styrene content र 12 घण्टाको cure। आपूर्तिकर्ताले
+          खिचेको भिन्नता sheet को उद्देश्यमा हो, डाटा शीटका अंकमा होइन। कागजमा दुई grade उस्तै देखिँदा
+          तपाईंको क्रय आदेशमा लेखिएको grade को नामले नै के आउँछ भन्ने निर्धारण गर्छ, त्यसैले तल
+          देखिएजस्तै हुबहु लेख्नुहोस्।
+        </p>
       </div>
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
@@ -60,8 +68,11 @@ const items = productsInGroup('sheet-grade-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="sheet-grade-resins" lang="ne" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
         <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
       </div>
     </div>

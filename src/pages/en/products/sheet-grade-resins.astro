@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../../components/product/CategoryHubDetail.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
 import { productImageAlt } from '../../../utils/product-page.js';
@@ -44,6 +45,14 @@ const items = productsInGroup('sheet-grade-resins');
           raising directly in an enquiry. State the profile, the process and whether the sheet is structural
           or light-transmitting, as those change which grade is appropriate.
         </p>
+        <p>
+          One thing worth knowing before you order: both grades in this family publish the same
+          headline values — 280 cPs viscosity, a 6.5 minute gel time, 35% styrene content and a
+          12-hour cure. The distinction the supplier draws between them is the intended sheet
+          context, not the numbers on the data sheet. Where two grades read alike on paper, the
+          grade name on your purchase order is what decides what arrives, so quote it exactly as
+          it appears below.
+        </p>
       </div>
 
       <StatusNotice
@@ -65,8 +74,11 @@ const items = productsInGroup('sheet-grade-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="sheet-grade-resins" lang="en" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
         <a class="button" href="/en/contact/">Send an enquiry</a>
       </div>
     </div>

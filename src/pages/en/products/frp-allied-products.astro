@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../../components/product/CategoryHubDetail.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
 import { productImageAlt } from '../../../utils/product-page.js';
@@ -50,6 +51,15 @@ const items = productsInGroup('frp-allied-products');
           <a href="/en/resources/wax-polish-guide/">mould release wax</a> and
           <a href="/en/resources/paint-brushes-guide/">brushes</a>.
         </p>
+        <p>
+          Documentation across this family is uneven, and it is better to say so than to let a
+          product list imply otherwise. Two of the seven products carry supplier data sheets: FRP
+          Polyester Pigment, and Glass Fiber Mat — for which the supplier publishes E-glass
+          chopped strand mat in 300 and 450 g/m² weights, 50 mm fibre length and 1040 mm roll
+          width. The other five are supplied without a supplier data sheet on file with us. Their
+          product pages carry no published technical values for exactly that reason, and the
+          guides linked above are background reading rather than specification.
+        </p>
       </div>
 
       <StatusNotice
@@ -71,8 +81,11 @@ const items = productsInGroup('frp-allied-products');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="frp-allied-products" lang="en" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
         <a class="button" href="/en/contact/">Send an enquiry</a>
       </div>
     </div>

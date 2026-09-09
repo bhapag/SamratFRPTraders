@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../../components/product/CategoryHubDetail.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
 import { productImageAlt } from '../../../utils/product-page.js';
@@ -46,6 +47,15 @@ const items = productsInGroup('hardeners-catalysts');
           accelerator functions in a cure system, see the
           <a href="/en/resources/cobalt-octoate-guide/">Cobalt Octoate guide</a>.
         </p>
+        <p>
+          Documentation differs between the two products, and the difference is worth knowing.
+          MEKP Hardener carries a supplier TDS and SDS, which identify it as an organic peroxide
+          initiator listed for unsaturated polyester, vinyl ester and gelcoat systems. Cobalt
+          Octoate has no supplier document on file with us, which is why its product page
+          publishes no technical values — the accelerator is supplied, but we are not in a
+          position to state figures for it. If your process needs documented accelerator data,
+          raise that in the enquiry so it can be requested from the supplier rather than assumed.
+        </p>
       </div>
 
       <StatusNotice
@@ -67,8 +77,11 @@ const items = productsInGroup('hardeners-catalysts');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="hardeners-catalysts" lang="en" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
         <a class="button" href="/en/contact/">Send an enquiry</a>
       </div>
     </div>

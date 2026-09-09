@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../../components/product/CategoryHubDetail.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
 import { productImageAlt } from '../../../utils/product-page.js';
@@ -42,6 +43,14 @@ const items = productsInGroup('polyester-resins');
           Samrat Poly Resins' documentation confirms this generic commercial description corresponds to
           <a href="/en/products/gp-clear-resin/">GP Clear Resin</a> — see that page for the full technical data.
         </p>
+        <p>
+          The grades here are not interchangeable. Across this family the supplier publishes
+          viscosities from under 350 cPs up to 1,100 cPs and gel times from 5 to 15 minutes — in
+          practice the difference between a resin that wets glass out quickly and one bodied for
+          casting and button work. Colour is also a stocking decision rather than a cosmetic one,
+          since clear, white and yellow grades are listed separately. The table below places the
+          published values side by side so you can see which grade your process actually needs.
+        </p>
       </div>
 
       <StatusNotice
@@ -63,8 +72,12 @@ const items = productsInGroup('polyester-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="polyester-resins" lang="en" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
+        <a class="button" href="/en/contact/">Send an enquiry</a>
       </div>
     </div>
   </section>

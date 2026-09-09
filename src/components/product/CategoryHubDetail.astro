@@ -1,0 +1,284 @@
+---
+// Shared, fully data-driven detail block for the category hubs.
+//
+// Nothing here is written per family: the comparison matrix is built from
+// the `technicalHighlights` the supplier actually publishes, and the
+// document panel counts the real `documents` arrays. A family that cannot
+// support an honest comparison simply renders no table — the alternative
+// would be padding a hub with blank columns or inferred values.
+//
+// Per-family prose lives in the hub pages themselves, so the seven hubs
+// never share a paragraph.
+import {
+  DOCUMENT_ISSUER,
+  documentsForGroup,
+  gradeComparison,
+} from '../../data/documents.js';
+
+const { groupSlug, lang = 'en' } = Astro.props;
+const isNe = lang === 'ne';
+const prefix = isNe ? '' : '/en';
+
+const comparison = gradeComparison(groupSlug);
+const docs = documentsForGroup(groupSlug);
+
+// One source line for the whole matrix. Every issuer in the catalogue is
+// the same supplier today, but this is read from the data rather than
+// assumed, so a future second issuer cannot be silently mis-attributed.
+const issuers = [
+  ...new Set(
+    (comparison?.rows ?? [])
+      .map((row) => row.source?.issuer)
+      .filter(Boolean),
+  ),
+];
+
+const t = isNe
+  ? {
+      compareEyebrow: 'प्रकाशित मानको तुलना',
+      compareTitle: 'यस परिवारका ग्रेडहरू कसरी फरक पर्छन्',
+      compareLead:
+        'तल आपूर्तिकर्ताको डाटा शीटमा प्रकाशित मानहरू मात्र राखिएका छन्। कम्तीमा दुई ग्रेडमा उपलब्ध भएका गुणहरू मात्र स्तम्भका रूपमा देखाइएका छन् — एउटै ग्रेडमा मात्र भएको मानले तुलना गर्दैन।',
+      grade: 'ग्रेड',
+      notPublished: '—',
+      compareNote: (list) =>
+        `मानहरूका स्रोत: ${list} ले जारी गरेको प्राविधिक डाटा शीट। यी आपूर्तिकर्ताले प्रकाशित गरेका मान हुन्, Samrat FRP Traders को परीक्षण वा प्रमाणीकरण होइन। परीक्षण अवस्था र सहनशीलताका लागि सम्बन्धित TDS हेर्नुहोस्।`,
+      emptyCell: 'प्रकाशित छैन',
+      docsEyebrow: 'कागजात',
+      docsTitle: 'यस परिवारका TDS र SDS',
+      docsHave: (a, b, n) =>
+        `यस परिवारका ${b} मध्ये ${a} उत्पादनका कागजात फाइलमा छन् — जम्मा ${n} कागजात, सबै PDF रूपमा सीधै खुल्छन्।`,
+      docsNone: 'यस परिवारका कुनै पनि उत्पादनको आपूर्तिकर्ता कागजात अहिले हामीसँग छैन।',
+      docsMissing: 'कागजात नभएका उत्पादन:',
+      docsLink: 'कागजात पुस्तकालयमा हेर्नुहोस्',
+      issuedBy: 'जारीकर्ता',
+    }
+  : {
+      compareEyebrow: 'Published values compared',
+      compareTitle: 'How the grades in this family differ',
+      compareLead:
+        'Only values the supplier publishes on its data sheets appear below. A property is shown as a column only when at least two grades in this family publish it — a value only one grade carries compares nothing.',
+      grade: 'Grade',
+      notPublished: '—',
+      compareNote: (list) =>
+        `Values sourced from the Technical Data Sheets issued by ${list}. These are supplier-published values, not Samrat FRP Traders testing or certification. Check the relevant TDS for test conditions and tolerances.`,
+      emptyCell: 'Not published',
+      docsEyebrow: 'Documentation',
+      docsTitle: 'TDS and SDS for this family',
+      docsHave: (a, b, n) =>
+        `${a} of the ${b} products in this family have documents on file — ${n} documents in total, each opening directly as a PDF.`,
+      docsNone: 'We do not currently hold supplier documents for any product in this family.',
+      docsMissing: 'Without documents on file:',
+      docsLink: 'Open in the document library',
+      issuedBy: 'Issued by',
+    };
+---
+
+{comparison && (
+  <section class="hub-compare" data-reveal>
+    <div class="section-heading">
+      <p class="eyebrow">{t.compareEyebrow}</p>
+      <h2>{t.compareTitle}</h2>
+      <p class="section-lead">{t.compareLead}</p>
+    </div>
+
+    <div class="hub-table-scroll">
+      <table class="hub-table">
+        <thead>
+          <tr>
+            <th scope="col">{t.grade}</th>
+            {comparison.labels.map((label) => <th scope="col">{label}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {comparison.rows.map((row) => (
+            <tr>
+              <th scope="row">
+                <a href={`${prefix}/products/${row.product.slug}/`}>{row.product.name}</a>
+              </th>
+              {row.values.map((value) => (
+                <td>
+                  {value ?? <span class="hub-muted" title={t.emptyCell}>{t.notPublished}</span>}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    {issuers.length > 0 && <p class="hub-source">{t.compareNote(issuers.join(', '))}</p>}
+  </section>
+)}
+
+<section class="hub-docs" data-reveal>
+  <div class="hub-docs-body">
+    <p class="eyebrow">{t.docsEyebrow}</p>
+    <h2>{t.docsTitle}</h2>
+    <p>
+      {docs.documented.length
+        ? t.docsHave(docs.documented.length, docs.products.length, docs.entries)
+        : t.docsNone}
+    </p>
+    {docs.undocumented.length > 0 && (
+      <p class="hub-docs-missing">
+        {t.docsMissing}{' '}
+        {docs.undocumented.map((p, i) => (
+          <>
+            {i > 0 && ', '}
+            <a href={`${prefix}/products/${p.slug}/`}>{p.name}</a>
+          </>
+        ))}
+      </p>
+    )}
+    <p class="hub-docs-issuer">{t.issuedBy}: {DOCUMENT_ISSUER}</p>
+  </div>
+  <a class="button button-primary hub-docs-cta" href={`${prefix}/documents/#family-${groupSlug}`}>
+    {t.docsLink}
+  </a>
+</section>
+
+<style>
+  .hub-compare {
+    margin-top: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .hub-compare .section-lead {
+    max-width: 46rem;
+  }
+
+  /* The matrix is deliberately wide; it scrolls inside its own box so the
+     page body never scrolls sideways on a phone. */
+  .hub-table-scroll {
+    overflow-x: auto;
+    margin-top: 1.4rem;
+    border: 1px solid var(--line);
+  }
+
+  .hub-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .hub-table th,
+  .hub-table td {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .hub-table thead th {
+    background: var(--bg-2);
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .hub-table tbody th {
+    background: var(--bg-2);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .hub-table tbody th a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .hub-table tbody th a:hover {
+    color: var(--accent-gold-light);
+    text-decoration: underline;
+  }
+
+  .hub-table tbody td {
+    min-width: 8rem;
+    color: var(--ink-dim);
+  }
+
+  .hub-table tbody tr:last-child th,
+  .hub-table tbody tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .hub-muted {
+    color: var(--ink-faint);
+  }
+
+  .hub-source {
+    margin: 0.9rem 0 0;
+    max-width: 52rem;
+    color: var(--ink-faint);
+    font-size: 0.8rem;
+    line-height: 1.65;
+  }
+
+  .hub-docs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: clamp(2.5rem, 5vw, 3.5rem);
+    padding: clamp(1.25rem, 3.5vw, 1.9rem);
+    border: 1px solid var(--line);
+    border-left: 0.25rem solid var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.05);
+  }
+
+  .hub-docs-body {
+    flex: 1 1 22rem;
+    min-width: 0;
+  }
+
+  .hub-docs-body h2 {
+    margin: 0.45rem 0 0.6rem;
+    font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+  }
+
+  .hub-docs-body p {
+    margin: 0;
+    max-width: 46rem;
+    color: var(--ink-dim);
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .hub-docs-missing {
+    margin-top: 0.6rem !important;
+    font-size: 0.85rem !important;
+  }
+
+  .hub-docs-missing a {
+    color: var(--accent-gold-light);
+  }
+
+  .hub-docs-issuer {
+    margin-top: 0.7rem !important;
+    color: var(--ink-faint) !important;
+    font-family: var(--font-mono);
+    font-size: 0.7rem !important;
+    letter-spacing: 0.04em;
+  }
+
+  .hub-docs-cta {
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 40rem) {
+    .hub-table th,
+    .hub-table td {
+      padding: 0.7rem 0.85rem;
+    }
+
+    .hub-docs-cta {
+      width: 100%;
+      text-align: center;
+    }
+  }
+</style>

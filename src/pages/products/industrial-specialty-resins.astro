@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../components/product/CategoryHubDetail.astro';
 import { getGroup, productsInGroup } from '../../data/products.js';
 import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
@@ -44,6 +45,14 @@ const items = productsInGroup('industrial-specialty-resins');
           व्यावहारिक भिन्नता बुझ्न सघाउँछन्। प्राविधिक कागजात आपूर्तिकर्ताले जारी गरेको हो र Samrat FRP
           Traders को प्रमाणीकरण होइन।
         </p>
+        <p>
+          क्याटलगमा सबैभन्दा फराकिलो रसायन विविधता यही परिवारमा छ — orthophthalic polyester, PET-modified
+          polyester, bisphenol-A epoxy vinyl ester र दुई epoxy आधारित resin — र प्रकाशित gel time 12
+          मिनेटदेखि 45 मिनेटसम्म छ। अर्डर गर्नुअघि दुई नामसम्बन्धी कुरा जाँच्नुहोस्। Polyester Putty
+          Resin PET-modified तरल unsaturated polyester resin हो, PET thermoplastic होइन। र यहाँका grade
+          मा आपूर्तिकर्ताले कुनै thermal अंक प्रकाशित गरेको छ भने त्यो TDS को typical data हो: यीमध्ये
+          कुनै पनि शीटले निरन्तर सेवा तापक्रमको सीमा तोकेको छैन।
+        </p>
       </div>
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
@@ -60,8 +69,11 @@ const items = productsInGroup('industrial-specialty-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="industrial-specialty-resins" lang="ne" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
         <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
       </div>
     </div>

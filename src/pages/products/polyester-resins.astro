@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../components/product/CategoryHubDetail.astro';
 import { getGroup, productHref, productsInGroup } from '../../data/products.js';
 import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
@@ -45,6 +46,13 @@ const items = productsInGroup('polyester-resins');
           <a href="/products/gp-clear-resin/">GP Clear Resin</a> सँग मिल्दो भएको पुष्टि गर्छ — पूर्ण
           प्राविधिक डाटाका लागि GP Clear Resin पृष्ठ हेर्नुहोस्।
         </p>
+        <p>
+          यस परिवारका grade एक-अर्काको सट्टामा प्रयोग गर्न मिल्दैनन्। आपूर्तिकर्ताले प्रकाशित गरेको
+          viscosity यहाँ 350 cPs भन्दा कमदेखि 1,100 cPs सम्म र gel time 5 देखि 15 मिनेटसम्म फैलिएको
+          छ — व्यवहारमा यो glass छिटो भिजाउने resin र casting वा button को कामका लागि गाढा बनाइएको
+          resin बीचको भिन्नता हो। रङ पनि सजावटको कुरा मात्र होइन, स्टक गर्ने निर्णय हो, किनभने clear,
+          white र yellow grade छुट्टाछुट्टै सूचीकृत छन्। तलको तालिकाले प्रकाशित मानहरू सँगै राखेको छ।
+        </p>
       </div>
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
@@ -61,8 +69,12 @@ const items = productsInGroup('polyester-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="polyester-resins" lang="ne" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
+        <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
       </div>
     </div>
   </section>

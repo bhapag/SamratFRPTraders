@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../components/product/CategoryHubDetail.astro';
 import { getGroup, productsInGroup } from '../../data/products.js';
 import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
@@ -45,6 +46,14 @@ const items = productsInGroup('hardeners-catalysts');
           पृष्ठभूमिका लागि <a href="/resources/cobalt-octoate-guide/">Cobalt Octoate गाइड</a> हेर्नुहोस्।
           प्राविधिक कागजात आपूर्तिकर्ताले जारी गरेको हो र Samrat FRP Traders को प्रमाणीकरण होइन।
         </p>
+        <p>
+          दुई उत्पादनबीच कागजातको अवस्था फरक छ, र यो थाहा हुनु राम्रो हो। MEKP Hardener का आपूर्तिकर्ता TDS
+          र SDS छन्, जसले यसलाई unsaturated polyester, vinyl ester र gelcoat प्रणालीका लागि सूचीकृत
+          organic peroxide initiator भनी पहिचान गर्छन्। Cobalt Octoate का आपूर्तिकर्ता कागजात हामीसँग
+          छैनन् — त्यसैले त्यसको उत्पादन पृष्ठमा कुनै प्राविधिक मान प्रकाशित छैन। Accelerator आपूर्ति
+          हुन्छ, तर हामी त्यसका अंक भन्ने स्थितिमा छैनौँ। तपाईंको प्रक्रियालाई कागजातसहितको accelerator
+          डाटा चाहिन्छ भने enquiry मै उल्लेख गर्नुहोस्।
+        </p>
       </div>
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
@@ -61,8 +70,11 @@ const items = productsInGroup('hardeners-catalysts');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="hardeners-catalysts" lang="ne" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
         <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
       </div>
     </div>

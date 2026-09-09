@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../../components/product/CategoryHubDetail.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
 import { productImageAlt } from '../../../utils/product-page.js';
@@ -44,6 +45,15 @@ const items = productsInGroup('industrial-specialty-resins');
           product name. Where you are weighing one route against another, the comparison guides in the
           resource library set out how these families differ in practice before you request a quotation.
         </p>
+        <p>
+          This family carries the widest chemistry spread in the catalogue — orthophthalic
+          polyester, PET-modified polyester, bisphenol-A epoxy vinyl ester and two epoxy-based
+          resins — and the published gel times run from 12 minutes to 45 minutes. Two naming
+          points are worth checking before you order. Polyester Putty Resin is a PET-modified
+          liquid unsaturated polyester resin, not PET thermoplastic. And where the supplier
+          publishes a thermal figure for a grade here, it is TDS typical data: none of these
+          sheets states a continuous-service temperature limit, so do not read one into them.
+        </p>
       </div>
 
       <StatusNotice
@@ -65,8 +75,11 @@ const items = productsInGroup('industrial-specialty-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="industrial-specialty-resins" lang="en" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
         <a class="button" href="/en/contact/">Send an enquiry</a>
       </div>
     </div>

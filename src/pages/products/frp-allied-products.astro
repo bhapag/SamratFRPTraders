@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../components/product/CategoryHubDetail.astro';
 import { getGroup, productsInGroup } from '../../data/products.js';
 import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
@@ -53,6 +54,14 @@ const items = productsInGroup('frp-allied-products');
           यस श्रेणीका केही उत्पादनको आपूर्तिकर्ता कागजात अहिले उपलब्ध छैन; सटीक grade मान, handling र
           storage खरिद वा प्रयोगअघि पुष्टि गर्नुपर्छ।
         </p>
+        <p>
+          यस परिवारमा कागजातको उपलब्धता एकनास छैन, र यो कुरा लुकाउनुभन्दा भन्नु उपयुक्त हुन्छ। सात मध्ये
+          दुई उत्पादनका आपूर्तिकर्ता डाटा शीट छन्: FRP Polyester Pigment र Glass Fiber Mat — जसका लागि
+          आपूर्तिकर्ताले E-glass chopped strand mat 300 र 450 g/m², 50 mm fibre length र 1040 mm roll
+          width प्रकाशित गरेको छ। बाँकी पाँच उत्पादनका आपूर्तिकर्ता डाटा शीट हामीसँग छैनन्। त्यही कारण
+          ती उत्पादन पृष्ठमा कुनै प्रकाशित प्राविधिक मान राखिएको छैन, र माथि जोडिएका गाइडहरू पृष्ठभूमि
+          जानकारी हुन् — specification होइनन्।
+        </p>
       </div>
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
@@ -69,8 +78,11 @@ const items = productsInGroup('frp-allied-products');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="frp-allied-products" lang="ne" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
         <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
       </div>
     </div>

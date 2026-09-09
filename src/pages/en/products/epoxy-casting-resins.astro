@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../../components/product/CategoryHubDetail.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
 import { productImageAlt } from '../../../utils/product-page.js';
@@ -39,6 +40,20 @@ const items = productsInGroup('epoxy-casting-resins');
           distinct chemistries and are documented individually — properties are not shared across products, and
           resin/hardener pairing should be confirmed per product.
         </p>
+        <p>
+          Three resins and one curing agent sit in this family, and they do not cure the same way.
+          Clear Casting Resin and Epoxy Art Resin are mixed with a hardener and cure over hours —
+          for Clear Casting Resin the supplier publishes 24 hours to initial cure and 72 hours to
+          full cure at 25 °C, reaching Shore D 82 with under 0.2% shrinkage. UV Resin is an epoxy
+          acrylate that cures under UV/LED light instead, so it belongs to a different workflow
+          entirely despite sitting in the same category.
+        </p>
+        <p>
+          The Epoxy Hardener listed here is a polyamide, amine-based curing agent. The supplier
+          documentation asks that the resin and hardener pairing be confirmed before ordering
+          rather than assumed, so name the resin you intend to pair it with when you enquire —
+          that is the one detail that most often decides whether an order is correct.
+        </p>
       </div>
 
       <StatusNotice
@@ -60,8 +75,12 @@ const items = productsInGroup('epoxy-casting-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="epoxy-casting-resins" lang="en" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
+        <a class="button" href="/en/contact/">Send an enquiry</a>
       </div>
     </div>
   </section>

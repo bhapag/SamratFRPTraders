@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CatalogCard from '../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../components/product/CategoryHubDetail.astro';
 import { getGroup, productsInGroup } from '../../data/products.js';
 import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
@@ -45,6 +46,14 @@ const items = productsInGroup('fire-retardant-resins');
           standard उल्लेख छ भने enquiry सँगै पठाउनुहोस्, ताकि प्रतिबद्धता जनाउनुअघि आपूर्तिकर्ताको हालको
           कागजातसँग जाँच गर्न सकियोस्।
         </p>
+        <p>
+          यहाँ राखिएका दुई grade handling मा होइन, fire-retardant रसायनमा फरक छन्। एउटामा halogenated
+          formulation छ भने अर्को isophthalic आधारित, halogen-free र ATH-filled formulation हो। दुवैका
+          प्रकाशित viscosity, gel time र styrene content उस्तै छन्, त्यसैले छनोट प्रशोधनको होइन
+          formulation को निर्णय हो। एउटा नामसम्बन्धी कुराले बारम्बार भ्रम सिर्जना गर्छ र स्पष्ट भन्नु
+          उपयुक्त हुन्छ: ISO Fire Retardant Resin मा रहेको "ISO" isophthalic रसायनलाई जनाउँछ — यो ISO
+          प्रमाणीकरणको सन्दर्भ होइन।
+        </p>
       </div>
 
       <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
@@ -61,8 +70,11 @@ const items = productsInGroup('fire-retardant-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="fire-retardant-resins" lang="ne" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/products/">पूरा सूची हेर्नुहोस्</a>
+        <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
         <a class="button" href="/contact/">Enquiry पठाउनुहोस्</a>
       </div>
     </div>

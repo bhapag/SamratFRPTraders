@@ -1,6 +1,7 @@
 ---
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../../components/product/CategoryHubDetail.astro';
 import StatusNotice from '../../../components/StatusNotice.astro';
 import { getGroup, productHref, productsInGroup } from '../../../data/products.js';
 import { productImageAlt } from '../../../utils/product-page.js';
@@ -45,6 +46,15 @@ const items = productsInGroup('fire-retardant-resins');
           send it with your enquiry so the requirement can be checked against the supplier's current
           documentation before anything is committed.
         </p>
+        <p>
+          The two grades stocked here differ in fire-retardant chemistry rather than in handling.
+          One uses a halogenated formulation; the other is isophthalic-based with a halogen-free,
+          ATH-filled formulation. Their published viscosity, gel time and styrene content are
+          identical, so choosing between them is a formulation decision rather than a processing
+          one. One naming point causes regular confusion and is worth stating plainly: the "ISO"
+          in ISO Fire Retardant Resin refers to isophthalic chemistry — it is not a reference to
+          ISO certification.
+        </p>
       </div>
 
       <StatusNotice
@@ -66,8 +76,11 @@ const items = productsInGroup('fire-retardant-resins');
         ))}
       </div>
 
+      <CategoryHubDetail groupSlug="fire-retardant-resins" lang="en" />
+
       <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
         <a class="button" href="/en/products/">View full catalogue</a>
+        <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
         <a class="button" href="/en/contact/">Send an enquiry</a>
       </div>
     </div>
