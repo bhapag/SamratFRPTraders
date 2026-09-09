@@ -89,6 +89,66 @@ const featuredGroups = catalogGroups.filter((g) => g.indexable);
 const otherGroups = catalogGroups.filter((g) => !g.indexable);
 const productsIndexHref = `${prefix}/products/`;
 const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.length : 0), 0);
+
+// ---------------------------------------------------------------------------
+// Structured data — the single composition point for the whole site.
+//
+// The Organization node carries a stable @id so the WebSite node (and
+// anything added later) can reference one entity rather than describing a
+// second, competing one. Every value is read from src/data/site.js, so the
+// schema cannot drift away from the footer or the contact block.
+//
+// Only fields already verified in project data appear here. Deliberately
+// absent, because none of it is evidenced in this repository: sameAs
+// profiles, ratings, reviews, certifications, founding date, geo
+// coordinates, opening hours, price range, stock or delivery claims, and any
+// alternate business name. Samrat FRP Traders is a trader, supplier,
+// importer and reseller — never described here as a manufacturer.
+// ---------------------------------------------------------------------------
+const organizationId = `${site.url}#organization`;
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['Organization', 'LocalBusiness'],
+  '@id': organizationId,
+  name: site.name,
+  legalName: site.legalName,
+  description: site.description,
+  url: site.url,
+  logo: `${site.url}brand/samrat-frp-traders-logo.png`,
+  email: site.business.email,
+  telephone: site.business.tel,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: site.business.addressLine1,
+    addressLocality: site.business.city,
+    addressCountry: site.business.country,
+  },
+  areaServed: { '@type': 'Country', name: site.business.country },
+  knowsLanguage: ['ne-NP', 'en-NP'],
+  vatID: site.business.vat,
+  taxID: site.business.pan,
+  identifier: [
+    { '@type': 'PropertyValue', name: 'PAN', value: site.business.pan },
+    { '@type': 'PropertyValue', name: 'VAT', value: site.business.vat },
+    { '@type': 'PropertyValue', name: 'EXIM Code', value: site.business.exim },
+  ],
+  contactPoint: site.business.contactNumbers.map((contact) => ({
+    '@type': 'ContactPoint',
+    contactType: 'sales',
+    telephone: contact.tel,
+    email: site.business.email,
+    availableLanguage: ['en', 'ne'],
+  })),
+};
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${site.url}#website`,
+  name: site.name,
+  url: site.url,
+  inLanguage: ['ne-NP', 'en-NP'],
+  publisher: { '@id': organizationId },
+};
 ---
 <!doctype html>
 <html lang={lang}>
@@ -128,28 +188,8 @@ const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.l
     <meta name="twitter:description" content={socialDescription} />
     <meta name="twitter:image" content={socialImageUrl} />
     <meta name="twitter:image:alt" content={socialImageAlt} />
-    <script type="application/ld+json" set:html={JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': ['Organization', 'LocalBusiness'],
-      name: site.name,
-      legalName: site.legalName,
-      url: site.url,
-      logo: `${site.url}brand/samrat-frp-traders-logo.png`,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: site.business.addressLine1,
-        addressLocality: site.business.city,
-        addressCountry: site.business.country,
-      },
-      telephone: site.business.tel,
-      contactPoint: site.business.contactNumbers.map((contact) => ({
-        '@type': 'ContactPoint',
-        contactType: 'sales',
-        telephone: contact.tel,
-        email: site.business.email,
-        availableLanguage: ['en', 'ne'],
-      })),
-    })} />
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
     <script is:inline>
       // Opt-in hook for the scroll-reveal system. Only added when the user
       // has not requested reduced motion, so content is never hidden for
