@@ -204,8 +204,11 @@ export const products = Object.freeze([
     ]),
     titleInput: 'GP Clear Resin \u2014 Nepal Supplier',
     alternateName: 'Unsaturated Polyester Resin (UPR)',
+    // Product name first, then Samrat FRP Traders as the Nepal supplier. The
+    // manufacturer is still credited, but as the issuer of the documentation
+    // rather than as the lead entity on a Samrat FRP Traders page.
     metaDescription:
-      'GP Clear Resin \u2014 also supplied under the generic commercial description "Unsaturated Polyester Resin" (UPR) \u2014 is Samrat Poly Resins\u2019 published standard clear orthophthalic UPR grade, supplied and imported for Nepal by Samrat FRP Traders.',
+      'GP Clear Resin \u2014 also supplied under the generic commercial description "Unsaturated Polyester Resin" (UPR) \u2014 supplied and imported for Nepal by Samrat FRP Traders, Biratnagar. Clear orthophthalic UPR grade with supplier TDS and SDS on file.',
     descriptor:
       'Samrat Poly Resins\u2019 published standard clear orthophthalic unsaturated polyester resin (UPR) grade \u2014 also supplied under the generic commercial description "Unsaturated Polyester Resin."',
     overview:
