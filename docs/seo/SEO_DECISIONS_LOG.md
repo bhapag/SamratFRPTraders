@@ -157,3 +157,83 @@ Bisphenol Resin's supplier spec reads "Bisphenol A & epichlorohydrin based", whi
 epoxy chemistry, but bisphenol-A also appears in vinyl ester and bisphenol-A fumarate
 polyester resins. Partial spec data is not authority to re-file a chemical product.
 **Status:** Both left unchanged pending owner/supplier confirmation.
+
+---
+
+## 2026-09-09 · Document library + hub batch
+
+### D-018 · Bilingual TDS/SDS document library built at `/documents/` + `/en/documents/`
+**Decision:** Collect every supplier-issued document into one bilingual procurement/QA
+resource, derived from `products.js` rather than hand-listed.
+**Evidence:** 25 of 31 products carry documents — 50 entries, 48 unique files. All 48
+were verified before build (HTTP 200, `application/pdf`, non-zero body) and all 48
+again after deployment from the live page. Documents are served from the existing
+local mirrors under `/tds/` and `/sds/`, with the supplier URL as fallback.
+**Honesty properties:** the 6 undocumented products (Cobalt Octoate, Styrene Monomer,
+NC Thinner, Paint Brushes, Soap Stone Powder, Wax Polish) are named in their own
+section; `reference`/`revision`/`date` render as "Not published" where the supplier
+published none; GP Clear Resin and Unsaturated Polyester Resin are shown as sharing
+one document set rather than as two documents.
+**Status:** Implemented, deployed, indexed by Google the same day.
+
+### D-019 · Category hubs strengthened rather than multiplied
+**Decision:** Improve the 7 existing hubs; create no new category page. Gelcoat still
+has no hub (D-014 unchanged).
+**Evidence:** The hubs were the thinnest pages on the site (146–263 words) while
+carrying 247 inbound internal links each — more than any product page. They are now
+347–635 words (EN) with a grade-comparison matrix built only from published
+`technicalHighlights`, gated so a property appears only when ≥2 grades in the family
+publish it. Families that cannot support an honest comparison render no table.
+**Not done:** no application-suitability claims, no invented FAQs, no shared
+paragraphs between hubs.
+**Status:** Implemented and deployed.
+
+### D-020 · Two false documentation claims corrected
+**Decision:** Remove the "for every product" documentation claim wherever it appeared.
+**Evidence:** About stated supply "with supplier-issued TDS and SDS documentation for
+every product" and "Direct access to the Technical Data Sheet and Safety Data Sheet
+for every product"; both catalogue indexes stated "Every product page carries ...
+links to the supplier's technical data sheets and safety data sheets". 6 of 31
+products have no supplier document, so all three statements were false. Replaced with
+build-time counts that cannot go stale.
+**Status:** Corrected in both languages.
+
+### D-021 · Mobile clipping defect found by measurement, not by looking
+**Decision:** Record a defect that shipped and was fixed within the same session.
+**What happened:** `.doc-family` is a grid, so `.doc-product` inherited
+`min-width: auto` and the nowrap document table stretched each card to 548px inside a
+343px container. `.doc-table-scroll` therefore never scrolled, and `main`'s
+`overflow-x: hidden` clipped roughly 204px — the entire "Open PDF" column — on a
+375px viewport. The page showed no horizontal scrollbar, and screenshots looked
+correct; only DOM geometry exposed it.
+**Fix:** `min-width: 0` on the grid item, plus `max-width: 100%` on the scroller.
+Verified live: 25/25 tables scroll, download column reachable.
+**Cross-check:** the hub tables do not share the fault — `.hub-compare` is
+block-level and its scroller already scrolled correctly.
+**Status:** Fixed and verified in production.
+
+### D-022 · The non-indexed 200 is a crawl problem, not a redirect artefact
+**Decision:** Record the actual Search Console reason breakdown, correcting an
+earlier analyst hypothesis.
+**Hypothesis that was wrong:** that most of the ~200 non-indexed URLs would be
+"Page with redirect" left by the 96-URL consolidation.
+**Actual breakdown (Search Console, 2026-09-09):** Page with redirect **3**;
+Discovered – currently not indexed **169**; Crawled – currently not indexed **28**.
+**What this means:** Google knows about 169 URLs it has chosen not to crawl at all.
+That is a crawl-budget/authority signal, not a redirect artefact and not a
+consolidation side effect. It strengthens, on different evidence, the standing
+recommendation not to add pages: new URLs would join the discovered-not-crawled
+queue. Entity consolidation and external signals (D-011) remain the binding
+constraint.
+**Status:** Recorded. Supersedes the earlier redirect hypothesis.
+
+### D-023 · No analytics exists on this site
+**Decision:** Record that GA4 validation could not be performed, and why.
+**Evidence:** No `gtag`, `dataLayer`, GTM container, measurement ID or any
+third-party tag exists anywhere in the repository or in the live HTML — verified by
+repo grep and by fetching the production page. There is no `enquiry_form_submit`
+event because there is no analytics implementation at all.
+**Consequence:** no key event could be verified, and no personal data can be leaking
+into analytics events because no events are sent. Setting up GA4 requires owner
+account access and was not invented.
+**Status:** Open, blocked on owner-provided GA4 property and measurement ID.
