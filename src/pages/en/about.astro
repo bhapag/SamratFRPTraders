@@ -1,14 +1,19 @@
 ---
 import BusinessDetails from '../../components/home/BusinessDetails.astro';
-import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
+import { buildWhatsAppLink, whatsAppMessages, site } from '../../data/site.js';
 import { catalogGroups, products } from '../../data/products.js';
+import { documentStats } from '../../data/documents.js';
 import { applications } from '../../data/applications.js';
 import { resources } from '../../data/resources.js';
 import Base from '../../layouts/Base.astro';
 
 const applicationCount = applications.filter((a) => !a.draft).length;
 const resourceCount = resources.filter((r) => !r.draft).length;
-const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.length : 0), 0);
+// Real coverage, not a slogan: the page previously claimed documentation
+// "for every product", which was never true — 6 of the 31 products have no
+// supplier document on file. These counts come from the catalogue itself.
+const docs = documentStats();
+const docCount = docs.documentEntries;
 ---
 <Base
   title="About — Biratnagar, Nepal"
@@ -60,10 +65,19 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
         </div>
 
         <p>
-          Samrat FRP Traders (registered as M/s SAMRAT F.R.P TRADERS) is a Biratnagar, Nepal-based
+          Samrat FRP Traders (registered as {site.legalName}) is a Biratnagar, Nepal-based
           business supplying and importing polyester resins, gelcoats, glass fiber, hardeners, epoxy
-          systems and related FRP materials for buyers across Nepal — with supplier-issued TDS and SDS
-          documentation for every product.
+          systems and related FRP materials for buyers across Nepal. We trade under one name in one
+          place: the registered entity, the PAN and VAT number and the EXIM code below all belong to
+          the same business you are reading about.
+        </p>
+        <p>
+          {docs.documentedProducts} of the {docs.totalProducts} products in the catalogue carry
+          supplier-issued Technical and Safety Data Sheets — {docs.documentEntries} documents in
+          total, collected in the <a href="/en/documents/">TDS &amp; SDS document library</a>. The
+          remaining {docs.undocumentedProducts} have no supplier document on file with us, and the
+          library names them rather than leaving the gap unstated. We would rather be checkable than
+          impressive.
         </p>
         <p>
           Samrat Poly Resins, India is a trusted supplier to Samrat FRP Traders for resins and related
@@ -78,6 +92,7 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
 
         <div class="button-row">
           <a class="button button-primary" href="/en/products/">Browse product catalogue</a>
+          <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
           <a
             class="button"
             href="/downloads/samrat-frp-traders-product-catalogue.pdf"
@@ -102,6 +117,10 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
         <div class="info-row">
           <span>Business name</span>
           <strong>Samrat FRP Traders</strong>
+        </div>
+        <div class="info-row">
+          <span>Registered as</span>
+          <strong>{site.legalName}</strong>
         </div>
         <div class="info-row">
           <span>Base location</span>
@@ -137,7 +156,7 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
           <h2>Supply with the paperwork.</h2>
         </div>
         <p class="section-lead">
-          Supplier-issued technical documentation with every product — so buyers know exactly what they are buying.
+          Supplier-issued technical documentation wherever the supplier has issued it — so buyers know exactly what they are buying, and exactly where a document does not exist.
         </p>
       </div>
       <div class="approach-grid">
@@ -148,8 +167,8 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
         </article>
         <article data-reveal style="--reveal-delay: 70ms">
           <span>02</span>
-          <h3>TDS &amp; SDS included</h3>
-          <p>Direct access to the Technical Data Sheet and Safety Data Sheet for every product.</p>
+          <h3>TDS &amp; SDS where issued</h3>
+          <p>Direct access to the supplier's Technical and Safety Data Sheets for {docs.documentedProducts} of {docs.totalProducts} products. Where a document does not exist, we say so.</p>
         </article>
         <article data-reveal style="--reveal-delay: 140ms">
           <span>03</span>

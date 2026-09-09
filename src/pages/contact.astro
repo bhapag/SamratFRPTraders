@@ -101,6 +101,26 @@ import Base from '../layouts/Base.astro';
       </div>
 
       <div class="form-panel" data-reveal style="--reveal-delay: 140ms">
+        <div class="enquiry-guide">
+          <p class="enquiry-guide-title">काम लाग्ने जवाफ पाउन चार कुरा लेख्नुहोस्</p>
+          <ol class="enquiry-guide-list">
+            <li>
+              <strong>उत्पादन वा grade।</strong> क्याटलगमा लेखिएजस्तै नाम लेख्नुहोस् — एउटै परिवारका
+              grade फरक हुन्छन्। कुन चाहिन्छ थाहा छैन भने के बनाउँदै हुनुहुन्छ लेख्नुहोस्।
+            </li>
+            <li><strong>परिमाण।</strong> अनुमानित भए पुग्छ; ठ्याक्कै हुनुपर्दैन।</li>
+            <li><strong>डेलिभरी हुने सहर।</strong> नेपालको कुन ठाउँमा सामग्री पुग्नुपर्ने हो।</li>
+            <li>
+              <strong>प्रयोगको उद्देश्य।</strong> बनाउने भाग र प्रक्रिया — hand lay-up, spray-up,
+              casting वा sheet को काम। यसैले सही grade सुझाउन सजिलो हुन्छ।
+            </li>
+          </ol>
+          <p class="enquiry-guide-note">
+            मूल्य अनुरोधमा दिइन्छ। पहिले grade तुलना गर्दै हुनुहुन्छ भने
+            <a href="/documents/">TDS / SDS पुस्तकालय</a> मा आपूर्तिकर्ताका डाटा शीट एकै ठाउँमा छन्।
+          </p>
+        </div>
+
         <p class="form-note">
           फारम पेस गर्दा +977 9805526904 मा छोटो WhatsApp सोधपुछ खुल्छ। यो फारमले कुनै पनि डेटा अन्यत्र पठाउँदैन।
         </p>
@@ -118,16 +138,26 @@ import Base from '../layouts/Base.astro';
             </label>
           </div>
           <label>
-            <span>उत्पादन / आवश्यकता</span>
+            <span>उत्पादन / grade</span>
             <input type="text" name="product" autocomplete="off" placeholder="जस्तै: GP Clear Resin, Glass Fiber Mat…" />
           </label>
+          <div class="form-grid">
+            <label>
+              <span>परिमाण</span>
+              <input type="text" name="quantity" autocomplete="off" placeholder="जस्तै: अनुमानित परिमाण, ड्रम/प्याकेजिङ…" />
+            </label>
+            <label>
+              <span>डेलिभरी हुने सहर</span>
+              <input type="text" name="city" autocomplete="address-level2" placeholder="जस्तै: विराटनगर, काठमाडौँ…" />
+            </label>
+          </div>
           <label>
-            <span>परिमाण</span>
-            <input type="text" name="quantity" autocomplete="off" placeholder="जस्तै: अनुमानित परिमाण, ड्रम/प्याकेजिङ…" />
+            <span>प्रयोगको उद्देश्य</span>
+            <input type="text" name="use" autocomplete="off" placeholder="जस्तै: FRP छाना sheet, पानी ट्यांकी, hand lay-up…" />
           </label>
           <label>
             <span>सन्देश</span>
-            <textarea name="message" rows="5" autocomplete="off" placeholder="आफ्नो आवश्यकता लेख्नुहोस्"></textarea>
+            <textarea name="message" rows="5" autocomplete="off" placeholder="अरू केही भन्नुपर्ने भए लेख्नुहोस्"></textarea>
           </label>
           <button class="button button-primary" type="submit">WhatsApp मा खोल्नुहोस्</button>
         </form>
@@ -164,8 +194,10 @@ import Base from '../layouts/Base.astro';
         };
         add('नाम', get('name'));
         add('कम्पनी', get('company'));
-        add('उत्पादन / आवश्यकता', get('product'));
+        add('उत्पादन / grade', get('product'));
         add('परिमाण', get('quantity'));
+        add('डेलिभरी हुने सहर', get('city'));
+        add('प्रयोगको उद्देश्य', get('use'));
         add('विवरण', get('message'));
 
         const text = lines.length > 1 ? lines.join('\n') : form.dataset.waMessage || lines[0];
@@ -335,6 +367,46 @@ import Base from '../layouts/Base.astro';
     border: 1px solid var(--line);
     background: var(--bg-3);
     box-shadow: var(--surface-shadow-rest);
+  }
+
+  .enquiry-guide {
+    padding: 1.2rem 1.3rem;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+  }
+
+  .enquiry-guide-title {
+    margin: 0 0 0.8rem;
+    color: var(--ink);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .enquiry-guide-list {
+    display: grid;
+    gap: 0.6rem;
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--ink-dim);
+    font-size: 0.87rem;
+    line-height: 1.7;
+  }
+
+  .enquiry-guide-list strong {
+    color: var(--ink);
+  }
+
+  .enquiry-guide-note {
+    margin: 0.9rem 0 0;
+    color: var(--ink-faint);
+    font-size: 0.83rem;
+    line-height: 1.7;
+  }
+
+  .enquiry-guide-note a {
+    color: var(--accent-gold-light);
   }
 
   .form-note {

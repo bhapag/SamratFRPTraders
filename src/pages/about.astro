@@ -1,14 +1,19 @@
 ---
 import BusinessDetails from '../components/home/BusinessDetails.astro';
-import { buildWhatsAppLink, whatsAppMessages } from '../data/site.js';
+import { buildWhatsAppLink, whatsAppMessages, site } from '../data/site.js';
 import { catalogGroups, products } from '../data/products.js';
+import { documentStats } from '../data/documents.js';
 import { applications } from '../data/applications.js';
 import { resources } from '../data/resources.js';
 import Base from '../layouts/Base.astro';
 
 const applicationCount = applications.filter((a) => !a.draft).length;
 const resourceCount = resources.filter((r) => !r.draft).length;
-const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.length : 0), 0);
+// Real coverage, not a slogan: the page previously claimed documentation
+// "for every product", which was never true — 6 of the 31 products have no
+// supplier document on file. These counts come from the catalogue itself.
+const docs = documentStats();
+const docCount = docs.documentEntries;
 ---
 <Base
   lang="ne"
@@ -61,10 +66,18 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
         </div>
 
         <p>
-          Samrat FRP Traders (दर्ता नाम: M/s SAMRAT F.R.P TRADERS) विराटनगर, नेपालमा आधारित व्यवसाय हो।
+          Samrat FRP Traders (दर्ता नाम: {site.legalName}) विराटनगर, नेपालमा आधारित व्यवसाय हो।
           हामी नेपालभरका खरिदकर्ताहरूलाई polyester resin, gelcoat, glass fiber, hardener, epoxy प्रणाली
-          र सम्बन्धित FRP सामग्री आपूर्ति तथा आयात गर्दछौँ — प्रत्येक उत्पादनसँग आपूर्तिकर्ताले जारी
-          गरेका TDS र SDS कागजात।
+          र सम्बन्धित FRP सामग्री आपूर्ति तथा आयात गर्दछौँ। हामी एउटै नाम र एउटै ठाउँबाट व्यापार गर्छौं:
+          तल उल्लेख गरिएका दर्ता नाम, PAN र VAT नम्बर तथा EXIM कोड यही व्यवसायकै हुन्।
+        </p>
+        <p>
+          क्याटलगका {docs.totalProducts} मध्ये {docs.documentedProducts} उत्पादनसँग आपूर्तिकर्ताले
+          जारी गरेका प्राविधिक तथा सुरक्षा डाटा शीट छन् — जम्मा {docs.documentEntries} कागजात, सबै
+          <a href="/documents/">TDS र SDS कागजात पुस्तकालय</a> मा एकै ठाउँमा राखिएका छन्। बाँकी
+          {docs.undocumentedProducts} उत्पादनका आपूर्तिकर्ता कागजात हामीसँग छैनन्, र पुस्तकालयले ती
+          उत्पादनको नाम नै तोकेर उल्लेख गर्छ। प्रभावशाली देखिनुभन्दा जाँच्न सकिने हुनु हामीलाई बढी
+          महत्त्वपूर्ण लाग्छ।
         </p>
         <p>
           Samrat Poly Resins, India हाम्रा resin र सम्बन्धित FRP सामग्रीका लागि विश्वसनीय आपूर्तिकर्ता हो।
@@ -78,6 +91,7 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
 
         <div class="button-row">
           <a class="button button-primary" href="/products/">उत्पादन सूची हेर्नुहोस्</a>
+          <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
           <a
             class="button"
             href="/downloads/samrat-frp-traders-product-catalogue.pdf"
@@ -102,6 +116,10 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
         <div class="info-row">
           <span>व्यावसायिक नाम</span>
           <strong>Samrat FRP Traders</strong>
+        </div>
+        <div class="info-row">
+          <span>दर्ता नाम</span>
+          <strong>{site.legalName}</strong>
         </div>
         <div class="info-row">
           <span>आधार स्थान</span>
@@ -137,7 +155,7 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
           <h2>प्राविधिक कागजातसँगै आपूर्ति।</h2>
         </div>
         <p class="section-lead">
-          हरेक उत्पादनसँग आपूर्तिकर्ताले जारी गरेका प्राविधिक कागजात — ताकि खरिदकर्ताले के किन्दै छन् भन्ने स्पष्ट होस्।
+          जहाँ आपूर्तिकर्ताले कागजात जारी गरेको छ, त्यो कागजातसँगै आपूर्ति — ताकि खरिदकर्ताले के किन्दै छन् भन्ने स्पष्ट होस्।
         </p>
       </div>
       <div class="approach-grid">
@@ -148,8 +166,8 @@ const docCount = products.reduce((sum, p) => sum + (p.documents ? p.documents.le
         </article>
         <article data-reveal style="--reveal-delay: 70ms">
           <span>02</span>
-          <h3>TDS र SDS सहित</h3>
-          <p>प्रत्येक उत्पादनसँग Technical Data Sheet र Safety Data Sheet को सिधा पहुँच।</p>
+          <h3>जारी भएका TDS र SDS</h3>
+          <p>{docs.totalProducts} मध्ये {docs.documentedProducts} उत्पादनका Technical Data Sheet र Safety Data Sheet मा सिधा पहुँच। कागजात नभएको ठाउँमा हामी त्यही भन्छौँ।</p>
         </article>
         <article data-reveal style="--reveal-delay: 140ms">
           <span>03</span>
