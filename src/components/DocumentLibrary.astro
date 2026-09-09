@@ -1,0 +1,651 @@
+---
+// Bilingual TDS/SDS document library.
+//
+// Every row is derived from the verified `documents` arrays in
+// products.js — nothing here is hand-listed, so the library cannot drift
+// away from the catalogue. Products with no document on file are named
+// explicitly at the end rather than quietly omitted, so the page never
+// implies that a missing document exists.
+import Breadcrumbs from './Breadcrumbs.astro';
+import {
+  DOCUMENT_ISSUER,
+  documentSections,
+  documentStats,
+  productsWithoutDocuments,
+} from '../data/documents.js';
+import { buildCanonicalUrl, buildWhatsAppIntentLink } from '../data/site.js';
+import { localDocUrl } from '../utils/product-page.js';
+
+const { lang = 'en' } = Astro.props;
+const isNe = lang === 'ne';
+const prefix = isNe ? '' : '/en';
+
+const sections = documentSections();
+const stats = documentStats();
+const missing = productsWithoutDocuments();
+const waLink = buildWhatsAppIntentLink('generic', isNe ? 'ne' : 'en');
+
+const t = isNe
+  ? {
+      eyebrow: 'कागजात पुस्तकालय',
+      h1a: 'TDS र SDS',
+      h1b: 'कागजात पुस्तकालय।',
+      lead: `क्याटलगका ${stats.documentedProducts} उत्पादनका लागि आपूर्तिकर्ताले जारी गरेका प्राविधिक तथा सुरक्षा डाटा शीट — ${stats.families} उत्पादन परिवारमा ${stats.documentEntries} कागजात, सबै ${DOCUMENT_ISSUER} बाट सीधै खुल्छन्।`,
+      crumbHome: 'गृहपृष्ठ',
+      crumbSelf: 'कागजात पुस्तकालय',
+      useTitle: 'यी कागजात कसरी प्रयोग गर्ने',
+      useLead:
+        'खरिद र गुणस्तर जाँच गर्ने टोलीका लागि — अर्डर गर्नुअघि कुन कागजातले के भन्छ भन्ने स्पष्ट पार्न।',
+      cards: [
+        {
+          n: '01',
+          h: 'TDS — प्राविधिक डाटा शीट',
+          p: 'आपूर्तिकर्ताले उक्त ग्रेडका लागि प्रकाशित गरेका गुणहरू यसमा हुन्छन् — उत्पादनअनुसार appearance, viscosity, gel time, styrene content जस्ता मान। ग्रेड छनोट र आपूर्ति गरिएको माल तपाईंले अपेक्षा गरेकै हो कि होइन भनी मिलान गर्न यही कागजात चाहिन्छ।',
+        },
+        {
+          n: '02',
+          h: 'SDS — सुरक्षा डाटा शीट',
+          p: 'भण्डारण, ओसारपसार र आपत्कालीन जानकारीका लागि यो मानक सन्दर्भ कागजात हो। गोदाम इन्चार्ज र सुरक्षा हेर्ने व्यक्तिले फाइलमा राख्नुपर्ने कागजात यही हो।',
+        },
+        {
+          n: '03',
+          h: 'अर्डरमा ग्रेडको नाम उही राख्नुहोस्',
+          p: 'क्रय आदेश (PO) मा ग्रेडको नाम डाटा शीटमा लेखिएजस्तै हुबहु लेख्नुहोस्। एउटै परिवारभित्रका ग्रेडहरू नाममा नजिक देखिन्छन् तर प्रकाशित मान फरक हुन्छन्।',
+        },
+        {
+          n: '04',
+          h: 'Revision जाँच्नुहोस्',
+          p: 'तल reference वा revision देखिएको ठाउँमा त्यो आपूर्तिकर्ताले प्रकाशित गरेकै हो। नदेखिएको अवस्थामा उक्त कागजातका लागि आपूर्तिकर्ताले त्यस्तो अंकन प्रकाशित गरेको छैन — हामीले अनुमान गरेर थपेका छैनौँ।',
+        },
+      ],
+      scopeTitle: 'यी कागजातले के भन्दैनन्',
+      scopeBody: `यी ${DOCUMENT_ISSUER} ले जारी गरेका आपूर्तिकर्ता कागजात हुन्। यी Samrat FRP Traders का प्रमाणपत्र होइनन्, र यीमा नेपालका व्यापारिक सर्तहरू लेखिएका हुँदैनन् — packaging, न्यूनतम अर्डर, आपूर्ति अवधि, ढुवानी वा मूल्य सोधपुछमार्फत मात्र पुष्टि हुन्छ।`,
+      coverageTitle: 'उपलब्धता',
+      coverageBody: `क्याटलगका ${stats.totalProducts} मध्ये ${stats.documentedProducts} उत्पादनका कागजात फाइलमा छन्। बाँकी ${stats.undocumentedProducts} उत्पादनका लागि आपूर्तिकर्ताको कागजात अहिले उपलब्ध छैन र तल छुट्टै नाम तोकेर उल्लेख गरिएको छ।`,
+      colDoc: 'कागजात',
+      colRef: 'Reference / Revision',
+      colIssuer: 'जारीकर्ता',
+      colAction: 'फाइल',
+      open: 'PDF खोल्नुहोस्',
+      notPublished: 'प्रकाशित छैन',
+      viewProduct: 'उत्पादन पृष्ठ',
+      sharedNote: (names) =>
+        `आपूर्तिकर्ताले यी दुवै नामलाई समेट्ने एउटै कागजात सेट जारी गर्छ — ${names}। तल देखिएको फाइल त्यही हो, दुई फरक कागजात होइनन्।`,
+      missingTitle: 'कागजात नभएका उत्पादनहरू',
+      missingBody:
+        'तलका उत्पादनका लागि आपूर्तिकर्ताको TDS/SDS अहिले हामीसँग छैन। भएको जस्तो देखाउनुभन्दा यहाँ स्पष्ट लेख्न उपयुक्त ठान्यौँ। यी उत्पादनबारे सोधपुछ गर्न सकिन्छ।',
+      ctaTitle: 'कोटेशन वा कागजातबारे सोधपुछ',
+      ctaBody:
+        'चाहिएको ग्रेड, अनुमानित परिमाण, डेलिभरी हुने सहर र प्रयोगको उद्देश्य लेखेर पठाउनुभयो भने जवाफ छिटो र काम लाग्ने हुन्छ।',
+      ctaEnquiry: 'Enquiry पठाउनुहोस्',
+      ctaWa: 'WhatsApp मा सोध्नुहोस्',
+      ctaProducts: 'पूरा क्याटलग हेर्नुहोस्',
+      issuedBy: 'सबै कागजातका जारीकर्ता',
+    }
+  : {
+      eyebrow: 'Document library',
+      h1a: 'TDS & SDS',
+      h1b: 'document library.',
+      lead: `Supplier-issued Technical and Safety Data Sheets for ${stats.documentedProducts} products in the catalogue — ${stats.documentEntries} documents across ${stats.families} product families, each opening directly from ${DOCUMENT_ISSUER}.`,
+      crumbHome: 'Home',
+      crumbSelf: 'Document library',
+      useTitle: 'How to use these documents',
+      useLead:
+        'For procurement and quality teams — what each document covers, and what to check before you raise an order.',
+      cards: [
+        {
+          n: '01',
+          h: 'TDS — Technical Data Sheet',
+          p: 'States the properties the supplier publishes for that grade — values such as appearance, viscosity, gel time and styrene content, depending on the product. This is the document you select a grade from, and the one you check delivered material against.',
+        },
+        {
+          n: '02',
+          h: 'SDS — Safety Data Sheet',
+          p: 'The standard reference document for handling, storage and emergency information. This is the sheet your storekeeper and the person responsible for safety need to keep on file.',
+        },
+        {
+          n: '03',
+          h: 'Quote the grade name exactly',
+          p: 'Write the grade name on your purchase order exactly as it appears on the data sheet. Grades within one family read similarly by name but carry different published values.',
+        },
+        {
+          n: '04',
+          h: 'Check the revision',
+          p: 'Where a reference or revision appears below, the supplier published it. Where it does not, the supplier has not published one for that document — we have not filled the gap with a guess.',
+        },
+      ],
+      scopeTitle: 'What these documents do not cover',
+      scopeBody: `These are supplier documents issued by ${DOCUMENT_ISSUER}. They are not Samrat FRP Traders certifications, and they do not state Nepal commercial terms — packaging, minimum order, lead time, delivery and price are confirmed by enquiry.`,
+      coverageTitle: 'Coverage',
+      coverageBody: `${stats.documentedProducts} of the ${stats.totalProducts} products in the catalogue have documents on file. The remaining ${stats.undocumentedProducts} have no supplier document available to us at present and are named individually below.`,
+      colDoc: 'Document',
+      colRef: 'Reference / revision',
+      colIssuer: 'Issued by',
+      colAction: 'File',
+      open: 'Open PDF',
+      notPublished: 'Not published',
+      viewProduct: 'Product page',
+      sharedNote: (names) =>
+        `The supplier issues one document set covering both names — ${names}. The file shown below is that same set, not two separate documents.`,
+      missingTitle: 'Products without documents',
+      missingBody:
+        'We do not currently hold a supplier TDS or SDS for the products below. We would rather name them here than let the list above imply otherwise. Enquiries about these products are still welcome.',
+      ctaTitle: 'Ask about a quotation or a document',
+      ctaBody:
+        'Tell us the grade you need, an estimated quantity, the delivery city and what you are making — the reply comes back faster and more useful that way.',
+      ctaEnquiry: 'Send an enquiry',
+      ctaWa: 'Ask on WhatsApp',
+      ctaProducts: 'Browse the full catalogue',
+      issuedBy: 'All documents issued by',
+    };
+
+// Same BreadcrumbList shape the product pages already emit, so the trail
+// this page shows visually is also the trail search engines read.
+const breadcrumbItems = [
+  { label: t.crumbHome, href: `${prefix}/` },
+  { label: t.crumbSelf },
+];
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbItems.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.label,
+    ...(item.href ? { item: buildCanonicalUrl(item.href) } : {}),
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} is:inline />
+
+<section class="page-hero hero-shell">
+  <div class="hero-grid-lines" aria-hidden="true"></div>
+  <div class="container page-hero-content">
+    <p class="eyebrow">{t.eyebrow}</p>
+    <h1>{t.h1a} <span class="metal-text">{t.h1b}</span></h1>
+    <p class="page-lead">{t.lead}</p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="doc-stats" data-reveal>
+    <div class="stat">
+      <span class="stat-num">{stats.documentEntries}</span>
+      <span class="stat-label">{isNe ? 'कागजात' : 'Documents'}</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">{stats.documentedProducts}</span>
+      <span class="stat-label">{isNe ? 'कागजात भएका उत्पादन' : 'Documented products'}</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">{stats.families}</span>
+      <span class="stat-label">{isNe ? 'उत्पादन परिवार' : 'Product families'}</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">{stats.undocumentedProducts}</span>
+      <span class="stat-label">{isNe ? 'कागजात नभएका' : 'Awaiting documents'}</span>
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <Breadcrumbs
+      items={[
+        { label: t.crumbHome, href: `${prefix}/` },
+        { label: t.crumbSelf },
+      ]}
+    />
+
+    <div class="section-heading section-heading-split" data-reveal>
+      <div>
+        <p class="eyebrow">{isNe ? 'प्रयोग विधि' : 'Using the library'}</p>
+        <h2>{t.useTitle}</h2>
+      </div>
+      <p class="section-lead">{t.useLead}</p>
+    </div>
+
+    <div class="use-grid">
+      {t.cards.map((card, i) => (
+        <article data-reveal style={`--reveal-delay: ${i * 70}ms`}>
+          <span>{card.n}</span>
+          <h3>{card.h}</h3>
+          <p>{card.p}</p>
+        </article>
+      ))}
+    </div>
+
+    <div class="doc-notes" data-reveal>
+      <div class="doc-note-card">
+        <h3>{t.scopeTitle}</h3>
+        <p>{t.scopeBody}</p>
+      </div>
+      <div class="doc-note-card">
+        <h3>{t.coverageTitle}</h3>
+        <p>{t.coverageBody}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{sections.map((section) => (
+  <section class="section section-framed">
+    <div class="container">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">{isNe ? 'उत्पादन परिवार' : 'Product family'}</p>
+        <h2 id={`family-${section.group.slug}`}>{section.group.name}</h2>
+        {section.group.summary && <p class="section-lead">{section.group.summary}</p>}
+      </div>
+
+      <div class="doc-family" data-reveal>
+        {section.entries.map((entry) => (
+          <article class="doc-product">
+            <header class="doc-product-head">
+              <div>
+                <h3>{entry.product.name}</h3>
+                {entry.product.descriptor && <p class="doc-product-desc">{entry.product.descriptor}</p>}
+              </div>
+              <a class="doc-product-link" href={`${prefix}/products/${entry.product.slug}/`}>
+                {t.viewProduct} →
+              </a>
+            </header>
+
+            {entry.sharedWith.length > 0 && (
+              <p class="doc-shared-note">
+                {t.sharedNote(
+                  [entry.product.name, ...entry.sharedWith.map((p) => p.name)].join(' · '),
+                )}
+              </p>
+            )}
+
+            <div class="doc-table-scroll">
+              <table class="doc-table">
+                <thead>
+                  <tr>
+                    <th scope="col">{t.colDoc}</th>
+                    <th scope="col">{t.colRef}</th>
+                    <th scope="col">{t.colIssuer}</th>
+                    <th scope="col">{t.colAction}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {entry.documents.map((doc) => (
+                    <tr>
+                      <th scope="row">{doc.type}</th>
+                      <td>
+                        {doc.reference || doc.revision || doc.date ? (
+                          [doc.reference, doc.revision, doc.date].filter(Boolean).join(' · ')
+                        ) : (
+                          <span class="doc-muted">{t.notPublished}</span>
+                        )}
+                      </td>
+                      <td>{doc.issuer}</td>
+                      <td>
+                        {/* Serve the mirrored copy the product pages already
+                            use, falling back to the supplier's own URL if a
+                            mirror is ever absent. Issuer attribution is
+                            unaffected — it is stated on every row. */}
+                        <a
+                          class="doc-open"
+                          href={localDocUrl(doc) ?? doc.url}
+                          target="_blank"
+                          rel="noopener"
+                          aria-label={`${t.open} — ${entry.product.name} ${doc.type}`}
+                        >
+                          {t.open} ↗
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+))}
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading" data-reveal>
+      <p class="eyebrow">{isNe ? 'पारदर्शिता' : 'Transparency'}</p>
+      <h2>{t.missingTitle}</h2>
+    </div>
+    <p class="missing-lead" data-reveal>{t.missingBody}</p>
+    <ul class="missing-list" data-reveal>
+      {missing.map((product) => (
+        <li>
+          <a href={`${prefix}/products/${product.slug}/`}>{product.name}</a>
+        </li>
+      ))}
+    </ul>
+    <p class="doc-issuer-note" data-reveal>{t.issuedBy}: {DOCUMENT_ISSUER}</p>
+  </div>
+</section>
+
+<section class="section section-framed">
+  <div class="container">
+    <div class="doc-cta" data-reveal>
+      <h2>{t.ctaTitle}</h2>
+      <p>{t.ctaBody}</p>
+      <div class="button-row">
+        <a class="button button-primary" href={`${prefix}/contact/`}>{t.ctaEnquiry}</a>
+        <a class="button" href={waLink} target="_blank" rel="noopener">{t.ctaWa}</a>
+        <a class="button" href={`${prefix}/products/`}>{t.ctaProducts}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .doc-stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: clamp(-1rem, -2vw, -0.5rem) 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .stat {
+    flex: 1 1 8rem;
+    padding: 1.6rem 1.5rem;
+    border-left: 1px solid var(--line);
+  }
+
+  .stat:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .stat-num {
+    display: block;
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: clamp(1.7rem, 3.6vw, 2.5rem);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  .stat-label {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .use-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    margin-top: 1.5rem;
+    border: 1px solid var(--line);
+    background: var(--line);
+  }
+
+  .use-grid article {
+    padding: 1.4rem;
+    background: var(--bg-3);
+  }
+
+  .use-grid span {
+    color: var(--accent-gold);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+  }
+
+  .use-grid h3 {
+    margin-block: 1.5rem 0.65rem;
+    font-size: 1rem;
+  }
+
+  .use-grid p {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+    line-height: 1.7;
+  }
+
+  .doc-notes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .doc-note-card {
+    padding: 1.3rem 1.4rem;
+    border: 1px solid var(--line);
+    border-left: 0.25rem solid var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.05);
+  }
+
+  .doc-note-card h3 {
+    margin: 0 0 0.55rem;
+    font-size: 0.98rem;
+  }
+
+  .doc-note-card p {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+    line-height: 1.7;
+  }
+
+  .doc-family {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .doc-product {
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+  }
+
+  .doc-product-head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1.1rem 1.3rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .doc-product-head h3 {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  .doc-product-desc {
+    max-width: 52rem;
+    margin: 0.4rem 0 0;
+    color: var(--ink-dim);
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .doc-product-link {
+    flex-shrink: 0;
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .doc-product-link:hover {
+    color: var(--accent-gold);
+  }
+
+  .doc-shared-note {
+    margin: 0;
+    padding: 0.85rem 1.3rem;
+    border-bottom: 1px solid var(--line);
+    background: rgba(var(--gold-rgb), 0.045);
+    color: var(--ink-dim);
+    font-size: 0.83rem;
+    line-height: 1.65;
+  }
+
+  /* Wide tables must scroll inside their own box; the page body never
+     scrolls sideways on a phone. */
+  .doc-table-scroll {
+    overflow-x: auto;
+  }
+
+  .doc-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.86rem;
+  }
+
+  .doc-table th,
+  .doc-table td {
+    padding: 0.85rem 1.3rem;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .doc-table thead th {
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .doc-table tbody th {
+    color: var(--ink);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .doc-table tbody td {
+    color: var(--ink-dim);
+  }
+
+  .doc-table tbody tr:last-child th,
+  .doc-table tbody tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .doc-muted {
+    color: var(--ink-faint);
+  }
+
+  .doc-open {
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .doc-open:hover {
+    color: var(--accent-gold);
+    text-decoration: underline;
+  }
+
+  .missing-lead {
+    max-width: 46rem;
+    color: var(--ink-dim);
+  }
+
+  .missing-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 1.2rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .missing-list a {
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--line-2);
+    color: var(--ink);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: border-color 200ms var(--ease-premium), background 200ms var(--ease-premium);
+  }
+
+  .missing-list a:hover {
+    border-color: var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.06);
+  }
+
+  .doc-issuer-note {
+    margin-top: 1.6rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+  }
+
+  .doc-cta {
+    max-width: 46rem;
+  }
+
+  .doc-cta p {
+    color: var(--ink-dim);
+  }
+
+  @media (max-width: 62rem) {
+    .use-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 40rem) {
+    .stat {
+      flex: 1 1 45%;
+      padding-left: 0;
+      padding-block: 1.2rem;
+      border-left: 0;
+    }
+
+    .stat:nth-child(odd) {
+      padding-right: 1rem;
+    }
+
+    .stat:nth-child(even) {
+      padding-left: 1rem;
+      border-left: 1px solid var(--line);
+    }
+
+    .use-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .doc-table th,
+    .doc-table td {
+      padding: 0.75rem 1rem;
+    }
+  }
+</style>

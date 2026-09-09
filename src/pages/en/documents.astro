@@ -1,0 +1,13 @@
+---
+import DocumentLibrary from '../../components/DocumentLibrary.astro';
+import { documentStats } from '../../data/documents.js';
+import Base from '../../layouts/Base.astro';
+
+const stats = documentStats();
+---
+<Base
+  title="TDS & SDS Document Library"
+  description={`Supplier-issued Technical and Safety Data Sheets for ${stats.documentedProducts} products supplied and imported for Nepal by Samrat FRP Traders — ${stats.documentEntries} documents issued by Samrat Poly Resins, India.`}
+>
+  <DocumentLibrary lang="en" />
+</Base>
