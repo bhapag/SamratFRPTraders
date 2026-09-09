@@ -57,6 +57,7 @@ const t = isNe
       catalogueDesc: 'हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।',
       catalogueLabel: 'उत्पादन क्याटलग डाउनलोड गर्नुहोस्',
       issuedBy: 'TDS/SDS जारीकर्ता',
+      libraryLink: 'सबै उत्पादनका TDS / SDS एकै ठाउँमा हेर्नुहोस्',
       priceHeading: 'मूल्य',
       priceValue: 'मूल्य: अनुरोधमा',
       priceNote: `${product.name} को मूल्य निम्न कुरामा निर्भर गर्दछ:`,
@@ -96,6 +97,7 @@ const t = isNe
       catalogueDesc: 'Explore our complete FRP materials and resin range.',
       catalogueLabel: 'Download Product Catalogue',
       issuedBy: 'TDS/SDS issued by',
+      libraryLink: 'See every product’s TDS & SDS in one place',
       priceHeading: 'Price',
       priceValue: 'PRICE ON REQUEST',
       priceNote: `${product.name} pricing varies based on:`,
@@ -313,6 +315,9 @@ const faqSchema =
     </div>
 
     <p class="doc-note">{t.issuedBy}: Samrat Poly Resins, India</p>
+    <p class="doc-library-link">
+      <a href={`${isNe ? '' : '/en'}/documents/#family-${product.group}`}>{t.libraryLink} →</a>
+    </p>
   </div>
 </div>
 
@@ -874,6 +879,21 @@ const faqSchema =
     font-size: 0.62rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+
+  .doc-library-link {
+    margin: 0.6rem 0 0;
+    font-size: 0.8rem;
+  }
+
+  .doc-library-link a {
+    color: var(--accent-gold-light);
+    text-decoration: none;
+  }
+
+  .doc-library-link a:hover {
+    color: var(--accent-gold);
+    text-decoration: underline;
   }
 
   .panel {
