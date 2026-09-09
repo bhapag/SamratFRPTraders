@@ -9,7 +9,7 @@
 // their own — see docs/release-gate.md for the full ERROR/WARNING/INFO
 // contract and what each check module covers.
 
-import { execFileSync } from 'node:child_process';
+import { execFileSync, execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { DIST, Report } from './lib.mjs';
 
@@ -71,27 +71,40 @@ async function main() {
   }
 
   // ---- npm audit, folded in as its own tiny report ----
+  //
+  // This check used to report a clean bill of health while never running.
+  // `execFileSync('npm', ...)` cannot spawn on Windows, where npm is
+  // `npm.cmd`; the spawn error carries no stdout, the catch parsed the '{}'
+  // fallback, and `vulns` came back empty — which the `?? 0` defaults then
+  // rendered as "critical=0 high=0" and passed. A security gate that
+  // silently reports zero when it failed to run is worse than no gate.
+  //
+  // Fixed by spawning through the shell (so npm.cmd resolves), and by
+  // treating "no parseable metadata" as a hard error instead of as zero.
   const auditReport = new Report('DEPENDENCY AUDIT (npm audit)');
-  try {
-    const out = execFileSync('npm', ['audit', '--json'], { cwd: process.cwd(), encoding: 'utf8' });
-    const data = JSON.parse(out);
-    const vulns = data.metadata?.vulnerabilities ?? {};
-    auditReport.info(`critical=${vulns.critical ?? 0} high=${vulns.high ?? 0} moderate=${vulns.moderate ?? 0} low=${vulns.low ?? 0}`);
-    if ((vulns.critical ?? 0) > 0 || (vulns.high ?? 0) > 0) {
-      auditReport.error(`${vulns.critical ?? 0} critical / ${vulns.high ?? 0} high severity vulnerabilities present.`);
-    }
-  } catch (e) {
-    // npm audit exits non-zero when vulnerabilities exist even though it
-    // still printed valid JSON — recover it from stdout before giving up.
+  const readAudit = () => {
     try {
-      const data = JSON.parse(e.stdout ?? '{}');
-      const vulns = data.metadata?.vulnerabilities ?? {};
-      auditReport.info(`critical=${vulns.critical ?? 0} high=${vulns.high ?? 0} moderate=${vulns.moderate ?? 0} low=${vulns.low ?? 0}`);
-      if ((vulns.critical ?? 0) > 0 || (vulns.high ?? 0) > 0) {
-        auditReport.error(`${vulns.critical ?? 0} critical / ${vulns.high ?? 0} high severity vulnerabilities present.`);
-      }
-    } catch {
-      auditReport.warn('could not parse `npm audit --json` output.');
+      return execSync('npm audit --json', { cwd: process.cwd(), encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+    } catch (e) {
+      // npm audit exits non-zero when vulnerabilities exist even though it
+      // still printed valid JSON — recover it from stdout before giving up.
+      return e.stdout ?? '';
+    }
+  };
+  const raw = readAudit();
+  let vulns = null;
+  try {
+    vulns = JSON.parse(raw)?.metadata?.vulnerabilities ?? null;
+  } catch {
+    vulns = null;
+  }
+  if (!vulns) {
+    auditReport.error('`npm audit --json` produced no parseable vulnerability metadata — the dependency audit did NOT run. Treating as a failure rather than as zero vulnerabilities.');
+  } else {
+    const { critical = 0, high = 0, moderate = 0, low = 0 } = vulns;
+    auditReport.info(`critical=${critical} high=${high} moderate=${moderate} low=${low}`);
+    if (critical > 0 || high > 0) {
+      auditReport.error(`${critical} critical / ${high} high severity vulnerabilities present.`);
     }
   }
   reports.push(auditReport);
