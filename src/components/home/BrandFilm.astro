@@ -6,11 +6,20 @@ const isNe = lang === 'ne';
 const prefix = isNe ? '' : '/en';
 const waLink = buildWhatsAppLink(whatsAppMessages.generic[isNe ? 'ne' : 'en']);
 
-// Real, verified facts only. The source file is intentionally referenced at a
-// stable public URL; no upload date is asserted because none is genuinely known.
+// Real, verified facts only. The source file is referenced at a stable public
+// URL.
+//
+// uploadDate was previously omitted on the grounds that no date was known,
+// which left Google reporting "1 invalid item" for the homepage video —
+// uploadDate is required, so the whole VideoObject was being discarded.
+// schema.org defines it as the date the media object was uploaded *to this
+// site*, and that is recorded precisely: public/videos/brand-showcase.mp4
+// entered the repository in commit a04168a on 2026-09-02. This is that date,
+// not a guess at when the footage was produced.
 const videoSchema = {
   '@context': 'https://schema.org',
   '@type': 'VideoObject',
+  uploadDate: '2026-09-02',
   name: isNe ? 'Samrat FRP Traders — ब्रान्ड परिचय' : 'Samrat FRP Traders — Brand Showcase',
   description: isNe
     ? 'Samrat FRP Traders का उत्पादन, प्रयोग र नेपालभरको आपूर्ति कार्यको संक्षिप्त झलक।'
