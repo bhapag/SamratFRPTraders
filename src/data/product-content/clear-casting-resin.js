@@ -9,7 +9,7 @@ export default {
       "For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page. Share the intended casting depth, item type and expected quantity so the requirement can be discussed against the supplier Technical Data Sheet."
     ],
     buyerNotes: [
-      { title: "Grade selection", text: "Within the epoxy family, Clear Casting Resin is supplier-listed for deeper casting work, while Epoxy Art Resin is listed for self-levelling surface coats and UV Resin for fast UV/LED-cured craft work. Choose on casting depth versus surface levelling versus cure speed, and confirm against the relevant Technical Data Sheet." },
+      { title: "Grade selection", text: "Within the epoxy family, Clear Casting Resin is supplier-listed for deeper casting work, while Epoxy Art Resin is listed for self-levelling surface coats. Choose on casting depth versus surface levelling, and confirm against the relevant Technical Data Sheet." },
       { title: "Mixing accuracy", text: "The supplier documentation lists a 2:1 mix ratio by weight, so accurate weighing matters more than dosing a polyester resin by catalyst percentage. Mixing and application details remain document-level information to be confirmed before use." },
       { title: "UV and yellowing", text: "The UV-stabilised formulation is described as more yellowing-resistant than a standard epoxy, but this is best understood as yellowing-resistant rather than a permanent guarantee under prolonged UV exposure." }
     ],
@@ -46,7 +46,7 @@ export default {
       "नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्। आवश्यक casting depth, वस्तुको प्रकार र अपेक्षित परिमाण साथै Technical Data Sheet अनुसार छलफल गर्नुहोस्।"
     ],
     buyerNotes: [
-      { title: "Grade छनोट", text: "Epoxy परिवारभित्र, Clear Casting Resin गहिरो casting कामका लागि, Epoxy Art Resin self-levelling सतह कोटका लागि, र UV Resin छिटो UV/LED-cured craft कामका लागि supplier-दस्तावेजमा उल्लेख छन्। Casting depth, सतह levelling वा cure speed अनुसार छान्नुहोस् र सम्बन्धित Technical Data Sheet सँग पुष्टि गर्नुहोस्।" },
+      { title: "Grade छनोट", text: "Epoxy परिवारभित्र, Clear Casting Resin गहिरो casting कामका लागि, Epoxy Art Resin self-levelling सतह कोटका लागि supplier-दस्तावेजमा उल्लेख छन्। Casting depth कि सतह levelling — आवश्यकता अनुसार छान्नुहोस् र सम्बन्धित Technical Data Sheet सँग पुष्टि गर्नुहोस्।" },
       { title: "मिक्सिङ सटीकता", text: "Supplier दस्तावेजले तौल अनुसार 2:1 mix ratio उल्लेख गर्छ, त्यसैले catalyst percentage ले dose गर्ने polyester resin भन्दा यहाँ सटीक तौल महत्त्वपूर्ण हुन्छ। मिक्सिङ र प्रयोग विवरण document-level जानकारी भएकाले प्रयोगअघि पुष्टि गर्नुहोस्।" },
       { title: "UV र yellowing", text: "UV-stabilised formulation सामान्य epoxy भन्दा बढी yellowing-प्रतिरोधी भनी वर्णन गरिएको छ, तर यसलाई लामो UV एक्सपोजरमा स्थायी ग्यारेन्टी भन्दा yellowing-प्रतिरोधी रूपमा बुझ्नु उपयुक्त हुन्छ।" }
     ],

@@ -30,7 +30,7 @@ export default {
       heading: "Compatibility-led RFQ तयार गर्नुहोस्",
       body: [
         "विचाराधीन सटीक Samrat epoxy resin product, intended application, आवश्यक component वा finish, quantity, सान्दर्भिक भए packaging requirement, delivery city/location र कुनै अनुरोध गरिएको प्राविधिक documentation बताउनुहोस्। उपलब्ध भएमा drawing, purchase specification वा विद्यमान product reference समावेश गर्नुहोस्।",
-        "यदि application लाई फरक product route चाहिन्छ भने, यसलाई सुरुमै पहिचान गर्नुहोस्: UV/LED-curable काम छुट्टै UV Resin route अन्तर्गत पर्छ, जबकि polyester-family systems ले छुट्टै MEKP route प्रयोग गर्छन्। यसले सही system सँग जाँच्न नसकिने 'hardener' को अस्पष्ट अनुरोधबाट जोगिन्छ।"
+        "यदि application लाई फरक product route चाहिन्छ भने, यसलाई सुरुमै पहिचान गर्नुहोस्: polyester-family systems ले यो Epoxy Hardener होइन, छुट्टै MEKP route प्रयोग गर्छन्। यसले सही system सँग जाँच्न नसकिने 'hardener' को अस्पष्ट अनुरोधबाट जोगिन्छ।"
       ]
     },
     {

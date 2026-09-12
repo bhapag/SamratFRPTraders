@@ -9,7 +9,7 @@ export default {
       "For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page, and confirm whether a self-levelling surface coat, a deeper cast or a fast UV cure better matches the intended job."
     ],
     buyerNotes: [
-      { title: "Grade selection", text: "Within the epoxy family, Epoxy Art Resin is supplier-listed for self-levelling surface coats on floor art and table tops, while Clear Casting Resin is listed for deeper casting work and UV Resin for fast UV/LED-cured craft work. Match the grade to whether you need levelling, casting depth or cure speed." },
+      { title: "Grade selection", text: "Within the epoxy family, Epoxy Art Resin is supplier-listed for self-levelling surface coats on floor art and table tops, while Clear Casting Resin is listed for deeper casting work. Match the grade to whether you need surface levelling or casting depth." },
       { title: "UV resistance", text: "The supplier Technical Data Sheet lists UV resistance, describing a formulation intended to hold clarity and gloss over time. This is a supplier product characteristic rather than an absolute guarantee against all yellowing under prolonged exposure." },
       { title: "Documents", text: "A supplier-issued Technical Data Sheet and Safety Data Sheet are available. For current Nepal pricing, availability and packaging options, use the enquiry page rather than relying on supplier-side commercial formats." }
     ],
@@ -45,7 +45,7 @@ export default {
       "नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्राट FRP ट्रेडर्सलाई सम्पर्क पृष्ठमार्फत सोधपुछ गर्नुहोस्, र self-levelling सतह कोट, गहिरो cast वा छिटो UV cure मध्ये कुन उपयुक्त हुन्छ पुष्टि गर्नुहोस्।"
     ],
     buyerNotes: [
-      { title: "Grade छनोट", text: "Epoxy परिवारभित्र, Epoxy Art Resin floor art र table top मा self-levelling सतह कोटका लागि, Clear Casting Resin गहिरो casting कामका लागि, र UV Resin छिटो UV/LED-cured craft कामका लागि supplier-दस्तावेजमा उल्लेख छन्। Levelling, casting depth वा cure speed आवश्यकता अनुसार grade मिलाउनुहोस्।" },
+      { title: "Grade छनोट", text: "Epoxy परिवारभित्र, Epoxy Art Resin floor art र table top मा self-levelling सतह कोटका लागि, Clear Casting Resin गहिरो casting कामका लागि supplier-दस्तावेजमा उल्लेख छन्। सतह levelling कि casting गहिराइ — आवश्यकता अनुसार grade मिलाउनुहोस्।" },
       { title: "UV प्रतिरोध", text: "Supplier को Technical Data Sheet ले UV resistance उल्लेख गर्छ, जसले clarity र gloss समयसँगै कायम राख्ने formulation भनी वर्णन गर्छ। यो supplier उत्पादन विशेषता हो, लामो एक्सपोजरमा सबै yellowing विरुद्धको निरपेक्ष ग्यारेन्टी होइन।" },
       { title: "दस्तावेज", text: "Supplier-issued Technical Data Sheet र Safety Data Sheet उपलब्ध छन्। नेपालको हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि supplier-side commercial format मा भर नपरी सम्पर्क पृष्ठ प्रयोग गर्नुहोस्।" }
     ],

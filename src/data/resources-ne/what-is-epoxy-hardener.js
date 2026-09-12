@@ -37,7 +37,7 @@ export default {
     {
       heading: "Epoxy, MEKP र UV मार्गहरू छुट्टै राख्नुहोस्",
       body: [
-        "प्रकाशित Epoxy Hardener मार्ग compatible two-component epoxy प्रणालीहरूका लागि हो। MEKP Hardener साइटका प्रकाशित unsaturated polyester, vinyl ester र gelcoat प्रणालीहरूका लागि छुट्टै catalyst / initiator उत्पादन मार्ग हो। UV Resin छुट्टै UV/LED-curable मार्ग हो जसले यो hardener component प्रयोग गर्दैन।",
+        "प्रकाशित Epoxy Hardener मार्ग compatible two-component epoxy प्रणालीहरूका लागि हो। MEKP Hardener साइटका प्रकाशित unsaturated polyester, vinyl ester र gelcoat प्रणालीहरूका लागि छुट्टै catalyst / initiator उत्पादन मार्ग हो।",
         "कोटेसनका लागि exact epoxy resin उत्पादन, अभिप्रेत application, परिमाण, आवश्यक packaging, delivery स्थान र कुनै आवश्यक technical कागजात पहिचान गर्नुहोस्। यसले फरक resin family का उत्पादनहरूलाई बदल्न मिल्ने मान्नुबिना compatibility समीक्षा सम्भव बनाउँछ।"
       ]
     }

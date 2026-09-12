@@ -1,17 +1,17 @@
 export default {
   en: {
-    seoTitle: "Polyester Putty Resin Nepal Supplier | PET-Modified UPR",
-    seoDescription: "Polyester Putty Resin (PET Resin) is a PET-modified unsaturated polyester resin liquid, supplied and imported for Nepal by Samrat FRP Traders.",
+    seoTitle: "Polyester Putty Resin — Nepal Supplier",
+    seoDescription: "Polyester Putty Resin is a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS on file.",
     intro: [
-      "Samrat FRP Traders supplies and imports Polyester Putty Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as a PET-modified unsaturated polyester resin supplied as a pale-yellow liquid sheet grade. The product is also known as PET Resin, which is the supplier's original name for the same grade — not thermoplastic PET.",
-      "Because the name can be misread, it is worth stating clearly: this is a liquid, thermosetting unsaturated polyester resin whose formulation is PET-modified. It is not the thermoplastic PET material used in bottles and plastic packaging, and it is not supplied as a ready-mixed putty or filler compound.",
-      "The supplier's Technical Data Sheet publishes 450–650 cPs viscosity at 25°C, 60–64% solid content, 1.05–1.12 g/cm³ specific gravity at 25°C and a 70–85°C heat deflection temperature on the cured material. The supplier lists end use in PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing.",
+      "Samrat FRP Traders supplies and imports Polyester Putty Resin for the Nepal market. The Samrat Poly Resins, India documentation we hold describes it as a pale-yellow liquid unsaturated polyester resin. It is supplied under the Polyester Putty Resin name on this site.",
+      "Because the name can be misread, it is worth stating clearly: this is a liquid thermosetting unsaturated polyester resin. It is not supplied as a ready-mixed putty, body filler or paste.",
+      "The supplier's Technical Data Sheet publishes 450–650 cPs viscosity at 25°C, 60–64% solid content, 1.05–1.12 g/cm³ specific gravity at 25°C and a 70–85°C heat deflection temperature on the cured material. The supplier lists end use in fibre sheet products, FRP sheet lamination and panel manufacturing.",
       "For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page. Technical and safety documents are attributed to the supplier, Samrat Poly Resins, India."
     ],
     buyerNotes: [
       {
-        title: "PET-modified, not PET plastic",
-        text: "This is a liquid PET-modified unsaturated polyester resin, not thermoplastic PET chips or pellets. If you need a different material form, confirm which grade is correct before ordering."
+        title: "A liquid resin, not a putty",
+        text: "Despite the name, this is a liquid unsaturated polyester resin rather than a pre-mixed putty or filler compound. If you need a body filler or paste, confirm which product is correct before ordering."
       },
       {
         title: "Liquid resin, not ready-mixed putty",
@@ -24,12 +24,12 @@ export default {
     ],
     faqs: [
       {
-        q: "What is Polyester Putty Resin (PET Resin)?",
-        a: "It is the PET-modified unsaturated polyester resin that Samrat Poly Resins, India documents as a pale-yellow liquid sheet grade. Polyester Putty Resin and PET Resin are two names for the same supplier grade, and Samrat FRP Traders supplies it for the Nepal market."
+        q: "What is Polyester Putty Resin?",
+        a: "It is a pale-yellow liquid unsaturated polyester resin documented by Samrat Poly Resins, India and supplied for the Nepal market by Samrat FRP Traders. It is a liquid resin, not a ready-mixed putty."
       },
       {
-        q: "Is this the same as thermoplastic PET?",
-        a: "No. This is a liquid, PET-modified unsaturated polyester resin for sheet and lamination work, not the thermoplastic PET used in bottles and plastic packaging. The supplier's PET-modified designation refers to the resin formulation, not to PET plastic."
+        q: "Is this a ready-mixed putty or filler?",
+        a: "No. It is supplied as a liquid resin for sheet and lamination work. If you need a two-part body filler or a paste that is applied with a spreader, that is a different product — tell us the job and we will point you to the right one."
       },
       {
         q: "Is it supplied as a ready-made putty?",
@@ -41,12 +41,12 @@ export default {
       },
       {
         q: "How is it different from GP Resin or Lamination Resin?",
-        a: "This grade is a PET-modified sheet resin documented for sheet and panel work. GP Resin is the supplier's general-purpose FRP route, while Lamination Resin is tuned for door, plywood and FRP lamination. Compare the current product-specific TDS for each against your finished product before choosing."
+        a: "This grade is documented by the supplier for sheet and panel work. GP Resin is the supplier's general-purpose FRP route, while Lamination Resin is tuned for door, plywood and FRP lamination. Compare the current product-specific TDS for each against your finished product before choosing."
       }
     ],
-    applicationsIntro: "Supplier documentation lists use in PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing.",
+    applicationsIntro: "Supplier documentation lists use in fibre sheet products, FRP sheet lamination and panel manufacturing.",
     features: [
-      "Published and marketed as PET Resin / Polyester Putty Resin — a PET-modified unsaturated polyester sheet grade",
+      "Liquid unsaturated polyester resin supplied under the Polyester Putty Resin name",
       "Pale-yellow liquid supply with 450–650 cPs viscosity at 25°C",
       "Suited to sheet, fibre-sheet, FRP sheet-lamination and panel-manufacturing work",
       "Current Technical Data Sheet and Safety Data Sheet available for review",
@@ -57,17 +57,17 @@ export default {
     ],
   },
   ne: {
-    seoTitle: "Polyester Putty Resin नेपाल आपूर्तिकर्ता | PET-Modified UPR",
-    seoDescription: "Polyester Putty Resin (PET Resin) एउटा PET-modified unsaturated polyester resin liquid हो, जुन नेपालका लागि Samrat FRP Traders ले आपूर्ति गर्छ।",
+    seoTitle: "Polyester Putty Resin — नेपाल आपूर्तिकर्ता",
+    seoDescription: "Polyester Putty Resin एउटा तरल unsaturated polyester resin हो, जुन नेपालका लागि Samrat FRP Traders ले आपूर्ति र आयात गर्छ। आपूर्तिकर्ता TDS र SDS फाइलमा।",
     intro: [
-      "Samrat FRP Traders ले Polyester Putty Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। Samrat Poly Resins, India को हालको कागजातले यसलाई pale-yellow liquid sheet grade को रूपमा आपूर्ति गरिने PET-modified unsaturated polyester resin भनेर चिनाउँछ। यो उत्पादनलाई PET Resin पनि भनिन्छ, जुन एउटै grade को आपूर्तिकर्ताको अर्को नाम हो — thermoplastic PET होइन।",
-      "नामले भ्रम सिर्जना गर्न सक्ने भएकाले स्पष्ट पारौं: यो liquid, thermosetting unsaturated polyester resin हो जसको formulation PET-modified छ। यो बोतल र प्लास्टिक प्याकेजिङमा प्रयोग हुने thermoplastic PET होइन, र यो तयारी putty वा filler compound को रूपमा पनि आपूर्ति हुँदैन।",
+      "Samrat FRP Traders ले Polyester Putty Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। हामीसँग रहेको Samrat Poly Resins, India को कागजातले यसलाई pale-yellow तरल unsaturated polyester resin भनेर चिनाउँछ। यस साइटमा यो Polyester Putty Resin नाममा आपूर्ति हुन्छ।",
+      "नामले भ्रम पार्न सक्ने भएकाले स्पष्ट पारौं: यो तरल thermosetting unsaturated polyester resin हो। यो तयारी putty, body filler वा paste को रूपमा आपूर्ति हुँदैन।",
       "आपूर्तिकर्ताको Technical Data Sheet ले 25°C मा 450–650 cPs viscosity, 60–64% solid content, 25°C मा 1.05–1.12 g/cm³ specific gravity र cured material मा 70–85°C heat deflection temperature प्रकाशित गर्छ। नेपालमा हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट सोधपुछ गर्नुहोस्।"
     ],
     buyerNotes: [
       {
-        title: "PET-modified, PET plastic होइन",
-        text: "यो liquid PET-modified unsaturated polyester resin हो, thermoplastic PET chips वा pellets होइन। फरक material form चाहिएमा अर्डरअघि सही grade पक्का गर्नुहोस्।"
+        title: "तरल resin हो, putty होइन",
+        text: "नाम जे भए पनि यो तरल unsaturated polyester resin हो, पहिल्यै मिसाइएको putty वा filler होइन। body filler वा spreader ले लगाउने paste चाहिएको हो भने अर्डरअघि सही उत्पादन पक्का गर्नुहोस्।"
       },
       {
         title: "Liquid resin, तयार putty होइन",
@@ -80,12 +80,12 @@ export default {
     ],
     faqs: [
       {
-        q: "Polyester Putty Resin (PET Resin) के हो?",
-        a: "यो Samrat Poly Resins, India ले pale-yellow liquid sheet grade का रूपमा कागजातमा चिनाएको PET-modified unsaturated polyester resin हो। Polyester Putty Resin र PET Resin एउटै grade का दुई नाम हुन्, र Samrat FRP Traders ले यसलाई नेपालका लागि आपूर्ति गर्छ।"
+        q: "Polyester Putty Resin के हो?",
+        a: "यो Samrat Poly Resins, India का कागजातमा उल्लेख भएको pale-yellow तरल unsaturated polyester resin हो, जसलाई Samrat FRP Traders ले नेपालका लागि आपूर्ति गर्छ। यो तरल resin हो, तयारी putty होइन।"
       },
       {
-        q: "के यो thermoplastic PET सँग उस्तै हो?",
-        a: "होइन। यो sheet र lamination का लागि liquid, PET-modified unsaturated polyester resin हो, बोतल र प्लास्टिक प्याकेजिङमा प्रयोग हुने thermoplastic PET होइन। PET-modified भन्नाले resin को formulation हो, PET plastic होइन।"
+        q: "के यो तयारी putty वा filler हो?",
+        a: "होइन। यो sheet र lamination कामका लागि तरल resin रूपमा आपूर्ति हुन्छ। दुई-भागे body filler वा spreader ले लगाउने paste चाहिएको हो भने त्यो अर्को उत्पादन हो — काम बताउनुहोस्, सही उत्पादन देखाउँछौँ।"
       },
       {
         q: "के यो तयार putty को रूपमा आपूर्ति हुन्छ?",
@@ -97,12 +97,12 @@ export default {
       },
       {
         q: "यो GP Resin वा Lamination Resin भन्दा कसरी फरक छ?",
-        a: "यो sheet र panel कामका लागि कागजातमा चिनाइएको PET-modified sheet resin हो। GP Resin general-purpose FRP route हो भने Lamination Resin door, plywood र FRP lamination का लागि बनाइएको हो। छनोट गर्नुअघि आफ्नो finished उत्पादनसँग प्रत्येकको TDS तुलना गर्नुहोस्।"
+        a: "यो आपूर्तिकर्ताका कागजातमा sheet र panel कामका लागि उल्लेख भएको grade हो। GP Resin general-purpose FRP route हो भने Lamination Resin door, plywood र FRP lamination का लागि बनाइएको हो। छनोट गर्नुअघि आफ्नो finished उत्पादनसँग प्रत्येकको TDS तुलना गर्नुहोस्।"
       }
     ],
-    applicationsIntro: "आपूर्तिकर्ताको कागजातले PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing मा प्रयोग उल्लेख गर्छ।",
+    applicationsIntro: "आपूर्तिकर्ताको कागजातले fibre sheet products, FRP sheet lamination र panel manufacturing मा प्रयोग उल्लेख गर्छ।",
     features: [
-      "PET Resin / Polyester Putty Resin भनी प्रकाशित र बजारमा उपलब्ध — PET-modified unsaturated polyester sheet grade",
+      "Polyester Putty Resin नाममा आपूर्ति हुने तरल unsaturated polyester resin",
       "25°C मा 450–650 cPs viscosity सहित हल्का-पहेंलो liquid आपूर्ति",
       "Sheet, fibre-sheet, FRP sheet-lamination र panel-निर्माण कामका लागि उपयुक्त",
       "समीक्षाका लागि हालको Technical Data Sheet र Safety Data Sheet उपलब्ध",

@@ -62,7 +62,7 @@ export default {
     {
       heading: "अर्को उत्पादन मार्ग कहिले सान्दर्भिक हुन्छ",
       body: [
-        "यदि आवश्यकता UV/LED curing हो भने, छुट्टै UV Resin मार्ग समीक्षा गर्नुहोस्, जसले यो Epoxy Hardener प्रयोग गर्दैन। यदि यो unsaturated polyester, vinyl ester वा gelcoat प्रणाली हो भने, बरु छुट्टै MEKP Hardener मार्ग समीक्षा गर्नुहोस्।",
+        "यदि यो unsaturated polyester, vinyl ester वा gelcoat प्रणाली हो भने, यो Epoxy Hardener होइन, छुट्टै MEKP Hardener मार्ग समीक्षा गर्नुहोस्।",
         "clear contained casting भूमिकाका लागि, Clear Casting Resin बाट सुरु गर्नुहोस्। art वा decorative surface भूमिकाका लागि, Epoxy Art Resin बाट सुरु गर्नुहोस्। यी मार्गहरूले मिल्दो hardener छलफल सुरु हुनुअघि resin component परिभाषित गर्न मद्दत गर्छन्।"
       ]
     }

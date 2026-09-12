@@ -1,10 +1,10 @@
 export default {
-  title: "Marble Resin बनाम PET Resin / Polyester Putty Resin",
-  description: "Samrat Marble Resin को cultured-marble र artificial-stone route लाई PET Resin / Polyester Putty Resin liquid sheet-grade route बाट छुट्याउनुहोस्।",
+  title: "Marble Resin बनाम Polyester Putty Resin",
+  description: "Samrat Marble Resin को cultured-marble र artificial-stone route लाई Polyester Putty Resin liquid sheet-grade route बाट छुट्याउनुहोस्।",
   seo: {
-    title: "Marble Resin बनाम PET Resin / Polyester Putty Resin",
-    ogTitle: "Marble Resin बनाम PET Resin / Polyester Putty Resin",
-    ogDescription: "उत्पादन भूमिका र TDS का आधारमा Marble Resin stone-composite मार्ग र PET Resin / Polyester Putty Resin liquid sheet-grade मार्गबीच छान्नुहोस्।",
+    title: "Marble Resin बनाम Polyester Putty Resin",
+    ogTitle: "Marble Resin बनाम Polyester Putty Resin",
+    ogDescription: "उत्पादन भूमिका र TDS का आधारमा Marble Resin stone-composite मार्ग र Polyester Putty Resin liquid sheet-grade मार्गबीच छान्नुहोस्।",
     keywords: [
       "Marble Resin vs PET Resin",
       "Polyester Marble Resin",
@@ -15,7 +15,7 @@ export default {
   },
   quickFacts: {
     "Marble Resin": "documented cultured-marble र artificial-stone सन्दर्भका लागि Liquid UPR",
-    "PET Resin / Polyester Putty Resin को भूमिका": "PET-modified liquid UPR sheet grade",
+    "Polyester Putty Resin को भूमिका": "PET-modified liquid UPR sheet grade",
     "Selection नियम": "तयार component र यसको हालको product document बाट सुरु गर्नुहोस्",
     "Material-form सीमा": "दुवै उत्पादन आपूर्ति गरिएका resin हुन्, तयार marble वा ready-made putty होइनन्"
   },
@@ -27,7 +27,7 @@ export default {
     },
     {
       href: "/products/polyester-putty-resin/",
-      label: "PET Resin / Polyester Putty Resin हेर्नुहोस्",
+      label: "Polyester Putty Resin हेर्नुहोस्",
       description: "छुट्टै liquid PET-modified sheet-grade भूमिका समीक्षा गर्नुहोस्।"
     },
     {
@@ -42,7 +42,7 @@ export default {
       a: "कुनै interchangeability प्रकाशित गरिएको छैन। Marble Resin भनेको documented cultured-marble र artificial-stone route हो। PET Resin लाई यसको सूचीकृत sheet र panel सन्दर्भका लागि PET-modified liquid UPR sheet grade को रूपमा छुट्टै documented गरिएको छ।"
     },
     {
-      q: "के PET Resin / Polyester Putty Resin ready-made putty को रूपमा आपूर्ति गरिन्छ?",
+      q: "के Polyester Putty Resin ready-made putty को रूपमा आपूर्ति गरिन्छ?",
       a: "होइन। यो liquid PET-modified UPR sheet grade को रूपमा आपूर्ति गरिन्छ, pre-mixed putty वा body filler को रूपमा होइन। सोधपुछअघि आवश्यक material form पुष्टि गर्नुहोस्।"
     },
     {
@@ -75,7 +75,7 @@ export default {
     {
       heading: "केन्द्रित सोधपुछ तयार गर्नुहोस्",
       body: [
-        "आवश्यकता cultured-marble वा artificial-stone component हो, sheet वा panel हो, liquid PET Resin / Polyester Putty Resin grade हो, ready-made putty हो, thermoplastic PET हो वा अर्को उत्पादन हो भनेर बताउनुहोस्। त्यसपछि लागू हुने उत्पादन document, आवश्यक data, परिमाण, packaging आवश्यकता, डेलिभरी स्थान र documentation अनुरोध समावेश गर्नुहोस्।"
+        "आवश्यकता cultured-marble वा artificial-stone component हो, sheet वा panel हो, liquid Polyester Putty Resin grade हो, ready-made putty हो, thermoplastic PET हो वा अर्को उत्पादन हो भनेर बताउनुहोस्। त्यसपछि लागू हुने उत्पादन document, आवश्यक data, परिमाण, packaging आवश्यकता, डेलिभरी स्थान र documentation अनुरोध समावेश गर्नुहोस्।"
       ]
     }
   ]

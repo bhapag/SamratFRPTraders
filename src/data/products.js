@@ -1,13 +1,13 @@
 // Centralized product catalogue — Samrat FRP Traders Nepal.
 //
 // Source of truth for the locked Group 2 / 2.1 architecture:
-//   - 31 commercial products across 8 groups. Unsaturated Polyester Resin is a real
+//   - 33 commercial products across 9 groups. Unsaturated Polyester Resin is a real
 //     standalone product page — supplier documentation confirms it is the generic
 //     commercial description for the GP Clear Resin grade in this same catalogue;
 //     the two entries deliberately carry distinct content and cross-link rather
 //     than duplicate each other.
-//   - Exactly 2 indexable category groups (Polyester Resins, Epoxy & Casting Resins);
-//     the other 6 groups are navigation-only (no category URL).
+//   - 7 indexable category groups with their own hub page; Gelcoat and ISO Resins
+//     are navigation-only (no category URL) and link to their catalogue anchor.
 //   - Flat permanent product URLs: /products/{slug}/.
 //
 // This file asserts NO technical values, prices, stock, packaging, MOQ,
@@ -74,12 +74,18 @@ export const catalogGroups = Object.freeze([
     indexable: true,
     summary: 'Sheet grade resin products, including roof light resin, supplied and imported for the Nepal market.',
   }),
-  // Gelcoat intentionally has no category page: the family holds a single
-  // product, so a hub would restate that product page rather than add
-  // anything. It stays navigation-only and links to its catalogue anchor.
+  // Gelcoat and ISO Resins stay navigation-only for now: each holds two or
+  // fewer products, so a hub page would restate the product pages rather than
+  // add anything. Both link to their catalogue anchor. Revisit when either
+  // family grows enough for a hub to carry its own comparison table.
   Object.freeze({
     name: 'Gelcoat',
     slug: 'gelcoat',
+    indexable: false,
+  }),
+  Object.freeze({
+    name: 'ISO Resins',
+    slug: 'iso-resins',
     indexable: false,
   }),
   Object.freeze({
@@ -505,6 +511,27 @@ export const products = Object.freeze([
   }),
 
   // Gelcoat
+  // Added with the first product-range pass. Identity and formulation come from
+  // the supplier's product literature; no measured values, packaging, stock or
+  // document availability are asserted until a TDS/SDS is on file.
+  Object.freeze({
+    name: 'UV Stabilized Sheet Grade Yellow Resin',
+    slug: 'uv-stabilized-sheet-grade-yellow-resin',
+    group: 'sheet-grade-resins',
+    tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'uv-stabilized-sheet-grade-yellow-resin-primary.webp', width: 1151, height: 1367 }),
+    ]),
+    titleInput: 'UV Stabilized Sheet Grade Yellow Resin — Nepal Supplier',
+    metaDescription:
+      'UV Stabilized Sheet Grade Yellow Resin — a pre-pigmented, UV-stabilised unsaturated polyester sheet grade supplied and imported for Nepal by Samrat FRP Traders.',
+    descriptor:
+      'Pre-pigmented, UV-stabilised unsaturated polyester resin for FRP sheet and panel work.',
+    overview:
+      'UV Stabilized Sheet Grade Yellow Resin is a factory-pigmented yellow unsaturated polyester sheet grade described by the supplier, Samrat Poly Resins, India, as UV-stabilised for outdoor FRP sheet, cladding and panel work. Being pre-pigmented, the colour is mixed at the supplier rather than on the shop floor. Ask us for the current technical documentation before you order.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
   Object.freeze({
     name: 'GP Gelcoat Resin',
     slug: 'gp-gelcoat-resin',
@@ -549,6 +576,43 @@ export const products = Object.freeze([
   }),
 
   // Fire Retardant Resins
+  Object.freeze({
+    name: 'ISO Gelcoat',
+    slug: 'iso-gelcoat',
+    group: 'gelcoat',
+    tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'iso-gelcoat-primary.webp', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'ISO Gelcoat — Nepal Supplier',
+    metaDescription:
+      'ISO Gelcoat — an isophthalic gelcoat for protective, high-gloss FRP surfaces, supplied and imported for Nepal by Samrat FRP Traders.',
+    descriptor:
+      'Isophthalic gelcoat for the protective, high-gloss surface layer of an FRP moulding.',
+    overview:
+      'ISO Gelcoat is an isophthalic gelcoat described by the supplier, Samrat Poly Resins, India, as a decorative and protective surface layer for FRP mouldings, applied by brush or spray as the first coat in the mould. Isophthalic gelcoats are generally chosen over general-purpose gelcoats where the finished surface has to hold gloss and resist weather and moisture. Ask us for the current technical documentation before you order.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
+  // ISO Resins
+  Object.freeze({
+    name: 'ISO Polyester Resin',
+    slug: 'iso-polyester-resin',
+    group: 'iso-resins',
+    tier: 'B',
+    images: Object.freeze([
+      Object.freeze({ src: 'iso-polyester-resin-primary.webp', width: 1254, height: 1254 }),
+    ]),
+    titleInput: 'ISO Polyester Resin — Nepal Supplier',
+    metaDescription:
+      'ISO Polyester Resin — an isophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Isophthalic grade for demanding FRP service.',
+    descriptor:
+      'Isophthalic unsaturated polyester resin for FRP work in wet or chemically aggressive service.',
+    overview:
+      'ISO Polyester Resin is an isophthalic unsaturated polyester resin described by the supplier, Samrat Poly Resins, India, as intended for FRP work where chemical resistance, water resistance and long-term durability matter more than they do in general-purpose laminating. Isophthalic resins are the usual step up from an orthophthalic general-purpose grade for tanks, pipework and other wet or chemically loaded service. Ask us for the current technical documentation before you order.',
+    technicalEvidenceStatus: 'pending',
+    nepalCommercialEvidenceStatus: 'pending',
+  }),
   Object.freeze({
     name: 'Fire Retardant Resin',
     slug: 'fire-retardant-resin',
@@ -805,46 +869,6 @@ export const products = Object.freeze([
     nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
-    name: 'UV Resin',
-    slug: 'uv-resin',
-    group: 'epoxy-casting-resins',
-    tier: 'C',
-    images: Object.freeze([
-      Object.freeze({ src: 'uv-resin-primary.webp', width: 700, height: 719 }),
-      Object.freeze({ src: 'uv-resin-secondary.webp', width: 700, height: 700 }),
-    ]),
-    titleInput: 'UV Resin \u2014 Nepal Supplier',
-    metaDescription:
-      'UV Resin \u2014 an epoxy acrylate resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
-    descriptor: 'Epoxy acrylate resin; UV/LED curing.',
-    overview:
-      'According to current Samrat Poly Resins, India documentation, UV Resin is an epoxy acrylate resin cured with UV/LED light. The supplier lists it for jewellery making, encapsulation, crafts and coatings. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
-    technicalHighlights: Object.freeze([
-      Object.freeze({ label: 'Resin chemistry', value: 'Epoxy acrylate' }),
-      Object.freeze({ label: 'Curing type', value: 'UV LED cure' }),
-      Object.freeze({ label: 'Viscosity', value: 'Low' }),
-      Object.freeze({ label: 'Hardness', value: 'Medium' }),
-    ]),
-    technicalSource: Object.freeze({
-      issuer: 'Samrat Poly Resins, India',
-      type: 'Technical Data Sheet',
-    }),
-    documents: Object.freeze([
-      Object.freeze({
-        type: 'Technical Data Sheet',
-        issuer: 'Samrat Poly Resins, India',
-        url: 'https://samratpolyresins.in/tds/uv-resin-tds.pdf',
-      }),
-      Object.freeze({
-        type: 'Safety Data Sheet',
-        issuer: 'Samrat Poly Resins, India',
-        url: 'https://samratpolyresins.in/sds/uv-resin-sds.pdf',
-      }),
-    ]),
-    technicalEvidenceStatus: 'verified',
-    nepalCommercialEvidenceStatus: 'pending',
-  }),
-  Object.freeze({
     name: 'Epoxy Hardener',
     slug: 'epoxy-hardener',
     group: 'epoxy-casting-resins',
@@ -945,14 +969,14 @@ export const products = Object.freeze([
     ]),
     titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
     metaDescription:
-      'Polyester Putty Resin (PET Resin) \u2014 a PET-modified unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+      'Polyester Putty Resin — a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS on file.',
     descriptor:
-      'PET-modified unsaturated polyester resin (liquid); also known as PET Resin \u2014 not PET thermoplastic.',
+      'Liquid unsaturated polyester resin supplied under the Polyester Putty Resin name.',
     overview:
-      'According to current Samrat Poly Resins, India documentation, Polyester Putty Resin \u2014 also known as PET Resin \u2014 is a liquid PET-modified unsaturated polyester resin of sheet grade. It is not PET thermoplastic. The supplier\u2019s published end use covers fibre sheets and PET sheets. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+      'Polyester Putty Resin is a liquid unsaturated polyester resin listed under this name in the Samrat Poly Resins, India documentation we hold. It is supplied as a liquid resin, not as a ready-mixed putty or body filler. Technical values are published in the supplier’s Technical Data Sheet, which is linked from this page.',
     technicalHighlights: Object.freeze([
-      Object.freeze({ label: 'Resin type', value: 'PET-modified unsaturated polyester resin (liquid)' }),
-      Object.freeze({ label: 'Grade', value: 'Sheet grade' }),
+      Object.freeze({ label: 'Resin type', value: 'Unsaturated polyester resin (liquid)' }),
+      Object.freeze({ label: 'Form', value: 'Liquid resin (not a ready-mixed putty)' }),
       Object.freeze({ label: 'Viscosity', value: '450\u2013650 cPs (at 25\u00B0C)' }),
       Object.freeze({ label: 'Solid content', value: '60\u201364%' }),
       Object.freeze({ label: 'Specific gravity', value: '1.05\u20131.12 g/cm\u00B3 (at 25\u00B0C)' }),

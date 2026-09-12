@@ -4,77 +4,239 @@
     {
       "src": "^/ne/?$",
       "status": 301,
-      "headers": { "Location": "/" }
+      "headers": {
+        "Location": "/"
+      }
     },
     {
       "src": "^/ne/(.*)$",
       "status": 301,
-      "headers": { "Location": "/$1" }
+      "headers": {
+        "Location": "/$1"
+      }
     },
-
     {
       "src": "^/resources/cobalt-octoate-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/resources/cobalt-octoate-guide/" }
+      "headers": {
+        "Location": "/resources/cobalt-octoate-guide/"
+      }
     },
     {
       "src": "^/en/resources/cobalt-octoate-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/en/resources/cobalt-octoate-guide/" }
+      "headers": {
+        "Location": "/en/resources/cobalt-octoate-guide/"
+      }
     },
     {
       "src": "^/resources/styrene-monomer-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/resources/styrene-monomer-guide/" }
+      "headers": {
+        "Location": "/resources/styrene-monomer-guide/"
+      }
     },
     {
       "src": "^/en/resources/styrene-monomer-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/en/resources/styrene-monomer-guide/" }
+      "headers": {
+        "Location": "/en/resources/styrene-monomer-guide/"
+      }
     },
     {
       "src": "^/resources/nc-thinner-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/resources/nc-thinner-guide/" }
+      "headers": {
+        "Location": "/resources/nc-thinner-guide/"
+      }
     },
     {
       "src": "^/en/resources/nc-thinner-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/en/resources/nc-thinner-guide/" }
+      "headers": {
+        "Location": "/en/resources/nc-thinner-guide/"
+      }
     },
     {
       "src": "^/resources/paint-brushes-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/resources/paint-brushes-guide/" }
+      "headers": {
+        "Location": "/resources/paint-brushes-guide/"
+      }
     },
     {
       "src": "^/en/resources/paint-brushes-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/en/resources/paint-brushes-guide/" }
+      "headers": {
+        "Location": "/en/resources/paint-brushes-guide/"
+      }
     },
     {
       "src": "^/resources/soap-stone-powder-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/resources/soap-stone-powder-guide/" }
+      "headers": {
+        "Location": "/resources/soap-stone-powder-guide/"
+      }
     },
     {
       "src": "^/en/resources/soap-stone-powder-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/en/resources/soap-stone-powder-guide/" }
+      "headers": {
+        "Location": "/en/resources/soap-stone-powder-guide/"
+      }
     },
     {
       "src": "^/resources/wax-polish-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/resources/wax-polish-guide/" }
+      "headers": {
+        "Location": "/resources/wax-polish-guide/"
+      }
     },
     {
       "src": "^/en/resources/wax-polish-(what-is|applications|buyer-guide|selection|handling|troubleshooting|comparison|faq)/?$",
       "status": 301,
-      "headers": { "Location": "/en/resources/wax-polish-guide/" }
+      "headers": {
+        "Location": "/en/resources/wax-polish-guide/"
+      }
     },
-
-    { "handle": "filesystem" },
-    { "src": "^/en/(.*)$", "status": 404, "dest": "/en/404/index.html" },
-    { "src": "^/(.*)$", "status": 404, "dest": "/404.html" }
+    {
+      "src": "^/products/uv-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/en/products/uv-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/resources/what-is-uv-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/en/resources/what-is-uv-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/resources/applications-of-uv-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/en/resources/applications-of-uv-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/resources/uv-resin-buyer-guide/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/en/resources/uv-resin-buyer-guide/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/epoxy-casting-resins/"
+      }
+    },
+    {
+      "src": "^/resources/uv-resin-vs-epoxy-art-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/epoxy-art-resin/"
+      }
+    },
+    {
+      "src": "^/en/resources/uv-resin-vs-epoxy-art-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/epoxy-art-resin/"
+      }
+    },
+    {
+      "src": "^/resources/uv-resin-vs-epoxy-clear-casting-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/clear-casting-resin/"
+      }
+    },
+    {
+      "src": "^/en/resources/uv-resin-vs-epoxy-clear-casting-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/clear-casting-resin/"
+      }
+    },
+    {
+      "src": "^/resources/uv-resin-vs-polyester-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/polyester-resins/"
+      }
+    },
+    {
+      "src": "^/en/resources/uv-resin-vs-polyester-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/polyester-resins/"
+      }
+    },
+    {
+      "src": "^/resources/epoxy-hardener-vs-uv-resin-curing/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/epoxy-hardener/"
+      }
+    },
+    {
+      "src": "^/en/resources/epoxy-hardener-vs-uv-resin-curing/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/epoxy-hardener/"
+      }
+    },
+    {
+      "src": "^/products/pet-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/products/polyester-putty-resin/"
+      }
+    },
+    {
+      "src": "^/en/products/pet-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/products/polyester-putty-resin/"
+      }
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "^/en/(.*)$",
+      "status": 404,
+      "dest": "/en/404/index.html"
+    },
+    {
+      "src": "^/(.*)$",
+      "status": 404,
+      "dest": "/404.html"
+    }
   ]
 }

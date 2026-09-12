@@ -11131,448 +11131,6 @@ export const resources = Object.freeze([
     ]
   },
   {
-    "slug": "what-is-uv-resin",
-    "title": "What Is UV Resin? UV Curing Resin for Commercial Buyers",
-    "description": "Understand the published UV Resin product route, its UV/LED-curable epoxy-acrylate chemistry and its separate role from two-part epoxy and polyester FRP systems.",
-    "category": "Product Guide",
-    "icon": "info",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-06",
-    "seo": {
-      "title": "What Is UV Resin? | UV Curing Resin Buyer Guide",
-      "keywords": [
-        "UV Resin",
-        "UV Curing Resin",
-        "UV Cure Resin",
-        "UV Clear Resin",
-        "Ultraviolet Resin",
-        "Industrial UV Resin"
-      ],
-      "ogTitle": "What Is UV Resin?",
-      "ogDescription": "A commercial-buyer guide to the published UV/LED-curable UV Resin product route and its separate role from epoxy casting and polyester FRP."
-    },
-    "quickFacts": {
-      "Published chemistry": "Epoxy acrylate",
-      "Published curing route": "UV / LED cure",
-      "Published appearance": "Clear",
-      "Published application context": "Jewellery, encapsulation, doming and speciality coating work"
-    },
-    "relatedSlugs": [
-      "applications-of-uv-resin",
-      "uv-resin-vs-epoxy-art-resin",
-      "uv-resin-vs-polyester-resin",
-      "uv-resin-buyer-guide"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/uv-resin/",
-        "label": "View UV Resin",
-        "description": "Review the published product details and current Technical Data Sheet."
-      },
-      {
-        "href": "/tds/uv-resin-tds.pdf",
-        "label": "Download UV Resin TDS",
-        "description": "Use the product-specific document as the controlling reference."
-      },
-      {
-        "href": "/products/epoxy-art-resin/",
-        "label": "View Epoxy Art Resin",
-        "description": "Review the separate two-part, self-levelling surface-coating role."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss a UV Resin requirement",
-        "description": "Share the finished product, equipment context and commercial details through the enquiry form."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Is UV Resin the same as every product called epoxy resin?",
-        "a": "No. This site publishes UV Resin as a UV/LED-curable epoxy-acrylate product. Epoxy Art Resin and Epoxy Clear Casting Resin are separate two-part epoxy routes with their own published roles and technical documents."
-      },
-      {
-        "q": "Is UV Resin a polyester resin for FRP manufacture?",
-        "a": "No. UV Resin is not the site's polyester FRP matrix-resin route. Review Unsaturated Polyester Resin and the relevant published grade when the requirement is reinforced FRP manufacture."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "One published UV/LED product route",
-        "body": [
-          "Buyers may use UV Resin, UV Curing Resin, UV Cure Resin, UV Clear Resin or ultraviolet resin as search terms. On this site, those terms describe the published clear epoxy-acrylate UV Resin product route, which cures under UV/LED light.",
-          "The product page publishes jewellery, encapsulation, doming and speciality coating work as its application context. A broad search term should not be treated as proof that every UV resin, finish, equipment setup or production requirement is interchangeable. Start with the actual finished product and current UV Resin TDS."
-        ]
-      },
-      {
-        "heading": "Keep UV Resin separate from other resin roles",
-        "body": [
-          "UV Resin is not the same product role as the site's two-part Epoxy Art Resin or Epoxy Clear Casting Resin. Those products are separately published for decorative surface coating and clear contained casting respectively. Their documentation and commercial details must be reviewed independently.",
-          "It is also separate from the Unsaturated Polyester Resin family, which is the site's route for published reinforced FRP applications. A product may be described broadly as a resin, but the curing route, finished role and current product document determine the relevant buyer discussion."
-        ]
-      },
-      {
-        "heading": "Start a documented UV Resin discussion",
-        "body": [
-          "Before requesting a quotation, record the intended application, industry or end use, expected quantity, required clear or finished appearance, any stated UV/LED equipment requirement and delivery location. Include a drawing, purchase specification or sample reference only when it actually exists.",
-          "This guide does not provide curing instructions, exposure times, mixing directions, compatibility approval or a performance guarantee. Use the current TDS and product-specific discussion for the actual requirement."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "applications-of-uv-resin",
-    "title": "UV Resin Applications: Clear Coating, Doming and Encapsulation Context",
-    "description": "Review the published UV Resin applications for jewellery, encapsulation, doming and speciality coating work without treating a generic resin label as a product-approval statement.",
-    "category": "Application Guide",
-    "icon": "layers",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-06",
-    "seo": {
-      "title": "UV Resin Applications | UV Clear Resin Uses",
-      "keywords": [
-        "UV Resin Uses",
-        "UV Resin Applications",
-        "UV Clear Resin",
-        "UV Resin for Jewellery",
-        "UV Resin for Decorative Products",
-        "Industrial UV Resin"
-      ],
-      "ogTitle": "UV Resin Applications",
-      "ogDescription": "Use the published UV Resin application context to frame a professional enquiry for clear coating, doming or encapsulation requirements."
-    },
-    "quickFacts": {
-      "Published use 1": "Jewellery making and resin art",
-      "Published use 2": "Encapsulation and doming",
-      "Published use 3": "Crafts, coatings and miniature models",
-      "Also listed": "Adhesive, label, electronics, metal and wood coating work"
-    },
-    "relatedSlugs": [
-      "what-is-uv-resin",
-      "uv-resin-vs-epoxy-art-resin",
-      "uv-resin-vs-epoxy-clear-casting-resin",
-      "uv-resin-buyer-guide"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/uv-resin/",
-        "label": "View UV Resin",
-        "description": "Review the product details, application list and current TDS."
-      },
-      {
-        "href": "/tds/uv-resin-tds.pdf",
-        "label": "Download UV Resin TDS",
-        "description": "Use the current document before selecting a product route."
-      },
-      {
-        "href": "/products/clear-casting-resin/",
-        "label": "Review Clear Casting Resin",
-        "description": "Use the separate product route where the requirement is a clear contained cast."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss a UV Resin application",
-        "description": "Share the end product, appearance requirement, equipment context, quantity and delivery location."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Does this page approve UV Resin for every decorative or electronic product?",
-        "a": "No. It restates the published application context only. Actual suitability should be reviewed against the current TDS and the specific finished product, equipment and purchase requirement."
-      },
-      {
-        "q": "What details make an application enquiry useful?",
-        "a": "State the finished product, intended role such as coating, doming or encapsulation, required appearance, industry or end use, expected quantity, stated UV/LED equipment requirement and delivery location."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "Published application context",
-        "body": [
-          "The current UV Resin product information lists jewellery making and resin art; encapsulation and doming; crafts, coatings and miniature models; and adhesive, label, electronics, metal and wood coating work. These references help define the product role for a buyer discussion.",
-          "They do not expand the product into every item within those broad sectors. Where the application is unfamiliar, record the actual item, its visible-finish requirement and the relevant equipment or production context before asking whether this published UV Resin route is appropriate."
-        ]
-      },
-      {
-        "heading": "Match the application to the material role",
-        "body": [
-          "For a clear finish, doming or encapsulation requirement, begin by confirming whether UV/LED curing is part of the stated production requirement. For a self-levelling decorative surface, review the separate Epoxy Art Resin product route. For a clear contained cast, review Epoxy Clear Casting Resin instead.",
-          "If the requirement is a reinforced FRP component, start with the Unsaturated Polyester Resin product family rather than transferring a UV Resin application label into a composite-manufacturing decision. The finished role remains more useful than a generic search term."
-        ]
-      },
-      {
-        "heading": "Keep the enquiry specific",
-        "body": [
-          "Include the end product, whether the material is intended for coating, doming, encapsulation or another published role, required clear or finished appearance, expected quantity, delivery location and any stated UV/LED equipment requirement. The current UV Resin TDS should accompany the selection discussion.",
-          "This is not a curing procedure or compatibility guarantee. It deliberately avoids exposure times, layer guidance, mixing directions and operational troubleshooting."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "uv-resin-vs-epoxy-art-resin",
-    "title": "UV Resin vs Epoxy Art Resin: Choosing the Right Product Role",
-    "description": "Compare the published UV Resin and Epoxy Art Resin roles: UV/LED-curable clear finishing versus a separate two-part, self-levelling decorative surface system.",
-    "category": "Comparison Guide",
-    "icon": "grid",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-06",
-    "seo": {
-      "title": "UV Resin vs Epoxy Resin | UV Resin vs Art Resin",
-      "keywords": [
-        "UV Resin vs Epoxy Resin",
-        "UV Resin vs Art Resin",
-        "UV Cure Resin vs Epoxy",
-        "UV Clear Resin",
-        "Epoxy Art Resin"
-      ],
-      "ogTitle": "UV Resin vs Epoxy Art Resin",
-      "ogDescription": "Separate the published UV/LED-curable UV Resin route from the two-part, self-levelling Epoxy Art Resin role before product selection."
-    },
-    "quickFacts": {
-      "UV Resin route": "Published UV / LED cure",
-      "Art Resin route": "Published two-part epoxy system",
-      "UV Resin context": "Jewellery, encapsulation, doming and speciality coatings",
-      "Art Resin context": "Artistic and decorative surface work"
-    },
-    "relatedSlugs": [
-      "what-is-uv-resin",
-      "applications-of-uv-resin",
-      "uv-resin-vs-epoxy-clear-casting-resin",
-      "uv-resin-buyer-guide"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/uv-resin/",
-        "label": "View UV Resin",
-        "description": "Review the published UV/LED product route and TDS."
-      },
-      {
-        "href": "/products/epoxy-art-resin/",
-        "label": "View Epoxy Art Resin",
-        "description": "Review the separate two-part art and surface-coating product route."
-      },
-      {
-        "href": "/tds/uv-resin-tds.pdf",
-        "label": "Download UV Resin TDS",
-        "description": "Use the product-specific document before selection."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss the product role",
-        "description": "Share the finished article, clear/finish requirement, equipment context, quantity and delivery location."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Is UV Resin a substitute for Epoxy Art Resin?",
-        "a": "Not automatically. The site publishes separate product roles and curing routes. Review the actual finished product, production requirement and current TDS before choosing either system."
-      },
-      {
-        "q": "Which question should a buyer ask first?",
-        "a": "First identify whether the stated requirement calls for UV/LED curing for a published UV Resin role or a two-part, self-levelling art and decorative surface route. Then review the relevant current product document."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "Different curing routes, different published roles",
-        "body": [
-          "UV Resin is published as a clear epoxy-acrylate product that cures under UV/LED light. Epoxy Art Resin is published separately as a two-part epoxy system for artistic and decorative surface work. Calling both products 'epoxy resin' does not make their product roles or documentation interchangeable.",
-          "A useful comparison starts with the material role rather than a claim that one system is universally better. The buyer should identify the finished article, whether the requirement is an open decorative surface, a clear-finish detail, doming or encapsulation, and any stated equipment context."
-        ]
-      },
-      {
-        "heading": "When the UV Resin route is the question",
-        "body": [
-          "Use the UV Resin product route as the starting point when the published application context—jewellery, encapsulation, doming or speciality coating work—and UV/LED curing align with the actual requirement. Review the current UV Resin TDS before treating the route as suitable.",
-          "This page does not give a curing schedule, exposure guidance or guarantee the result on a particular surface. The specific product, equipment and finished-item requirement must still be checked together."
-        ]
-      },
-      {
-        "heading": "When the Art Resin route is the question",
-        "body": [
-          "Use the Epoxy Art Resin product route when the published requirement is its separate two-part, self-levelling art and decorative surface role. For a clear contained cast, the separate Epoxy Clear Casting Resin page is the more relevant comparison.",
-          "For either route, include the finished product, required appearance, expected quantity, delivery location and any stated specification in the enquiry. This makes the comparison a documented selection question rather than a generic resin request."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "uv-resin-vs-epoxy-clear-casting-resin",
-    "title": "UV Resin vs Clear Casting Resin: UV-Cured Finish or Two-Part Casting Role?",
-    "description": "Separate the published UV Resin route for UV/LED-curable clear finishing, doming and encapsulation from the separate two-part Epoxy Clear Casting Resin route.",
-    "category": "Comparison Guide",
-    "icon": "grid",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-06",
-    "seo": {
-      "title": "UV Resin vs Casting Resin | UV Cure Resin Comparison",
-      "keywords": [
-        "UV Resin vs Casting Resin",
-        "UV Cure Resin vs Epoxy Casting Resin",
-        "UV Clear Resin",
-        "Clear Casting Resin",
-        "UV Resin Supplier"
-      ],
-      "ogTitle": "UV Resin vs Clear Casting Resin",
-      "ogDescription": "Choose between the site's published UV/LED clear-finish route and its separate two-part clear contained-casting product role."
-    },
-    "quickFacts": {
-      "UV Resin role": "Published UV/LED-curable finish, doming and encapsulation route",
-      "Casting Resin role": "Published two-part clear contained-casting route",
-      "Shared buyer check": "Finished part and required appearance",
-      "Document to review": "Current product-specific TDS"
-    },
-    "relatedSlugs": [
-      "what-is-uv-resin",
-      "applications-of-uv-resin",
-      "uv-resin-vs-epoxy-art-resin",
-      "uv-resin-buyer-guide"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/uv-resin/",
-        "label": "View UV Resin",
-        "description": "Review the published UV/LED product route and TDS."
-      },
-      {
-        "href": "/products/clear-casting-resin/",
-        "label": "View Epoxy Clear Casting Resin",
-        "description": "Review the separate published clear contained-casting role."
-      },
-      {
-        "href": "/resources/casting-resin-vs-coating-resin/",
-        "label": "Casting vs coating roles",
-        "description": "Read the existing guide for the two separate published epoxy roles."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss a clear-resin requirement",
-        "description": "Share the finished part, material role, quantity and delivery location."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Does UV Resin replace a clear casting resin for every clear part?",
-        "a": "No. The site publishes UV Resin and Epoxy Clear Casting Resin as separate product routes. The choice requires review of the actual finished part, required material role and current product-specific documentation."
-      },
-      {
-        "q": "What makes a clear-resin comparison useful?",
-        "a": "Describe whether the requirement is a clear finish, doming or encapsulation role, or a clear contained cast; then add the finished-item details, quantity, required appearance, any stated equipment context and delivery location."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "Do not let the word clear decide the product",
-        "body": [
-          "Both routes can appear in a clear-resin search, but the site publishes them for different purposes. UV Resin is the UV/LED-curable route for jewellery, encapsulation, doming and speciality coating work. Epoxy Clear Casting Resin is the separately published two-part route for clear contained casting.",
-          "A clear appearance request alone does not establish the right product. Identify the finished item and whether its requirement is a finish, doming or encapsulation role versus a contained casting role before comparing documentation."
-        ]
-      },
-      {
-        "heading": "Use the product role to frame the discussion",
-        "body": [
-          "Where UV/LED curing is part of the stated requirement and the application matches the published UV Resin context, start with the UV Resin product page and current TDS. Where the requirement is a clear contained cast, start with the separate Clear Casting Resin page and its current TDS.",
-          "This distinction does not prescribe a processing method, confirm depth capability, state an exposure schedule or guarantee clarity. It keeps the buyer discussion aligned to the documented product route."
-        ]
-      },
-      {
-        "heading": "Prepare a clear, commercial enquiry",
-        "body": [
-          "State the finished part, whether the material is intended for clear finishing, doming, encapsulation or a contained cast, required appearance, expected quantity, delivery location and any stated specification. Include UV/LED equipment context only when the UV route is being considered.",
-          "The supplier discussion should verify the actual product role. Do not transfer technical values, compatibility assumptions or cure details from one clear-resin product to another."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "uv-resin-vs-polyester-resin",
-    "title": "UV Resin vs Polyester Resin: Separate Material Roles for Buyers",
-    "description": "Understand why the published UV/LED-curable UV Resin route is separate from the site's Unsaturated Polyester Resin family for reinforced FRP manufacture.",
-    "category": "Comparison Guide",
-    "icon": "grid",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-06",
-    "seo": {
-      "title": "UV Resin vs Polyester Resin | UV Cure Resin for Commercial Buyers",
-      "keywords": [
-        "UV Resin vs Polyester Resin",
-        "UV Curing Resin",
-        "UV Epoxy Resin",
-        "Polyester Resin",
-        "Industrial UV Resin"
-      ],
-      "ogTitle": "UV Resin vs Polyester Resin",
-      "ogDescription": "Separate the published UV Resin route from the site's polyester-resin family before selecting a material for finishing or reinforced FRP manufacture."
-    },
-    "quickFacts": {
-      "UV Resin": "Published clear epoxy-acrylate, UV / LED cure route",
-      "Polyester family": "Published UPR family for FRP and composite product roles",
-      "UV applications": "Jewellery, encapsulation, doming and speciality coating work",
-      "Buyer principle": "Select by finished-material role and current TDS"
-    },
-    "relatedSlugs": [
-      "what-is-uv-resin",
-      "applications-of-uv-resin",
-      "uv-resin-vs-epoxy-art-resin",
-      "uv-resin-buyer-guide"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/uv-resin/",
-        "label": "View UV Resin",
-        "description": "Review the published UV/LED product route and current TDS."
-      },
-      {
-        "href": "/products/polyester-resins/",
-        "label": "View Unsaturated Polyester Resin",
-        "description": "Review the parent product family for published FRP roles."
-      },
-      {
-        "href": "/products/gp-clear-resin/",
-        "label": "View GP Clear Resin",
-        "description": "Review the separately published general-purpose FRP resin grade."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss the material role",
-        "description": "Share the component, intended use, quantity and delivery location before requesting a quote."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Can UV Resin be treated as the site's general FRP polyester resin?",
-        "a": "No. UV Resin is published as a separate UV/LED-curable epoxy-acrylate route. The Unsaturated Polyester Resin family and its named grades should be reviewed for published reinforced FRP applications."
-      },
-      {
-        "q": "Which document controls the selection?",
-        "a": "Use the current product-specific TDS for the actual product under review. Do not transfer technical values, handling assumptions or performance expectations between the UV Resin and polyester-resin routes."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "A shared word does not mean a shared material role",
-        "body": [
-          "UV Resin and polyester resin may both appear in broad resin searches, but this site publishes them as separate material routes. UV Resin is the clear epoxy-acrylate route that cures under UV/LED light. Unsaturated Polyester Resin is the parent family for the site's published FRP and composite product roles.",
-          "The useful first question is what is being made. A jewellery, encapsulation, doming or speciality coating requirement is not automatically an FRP laminate requirement, and a reinforced FRP component is not automatically a UV Resin application."
-        ]
-      },
-      {
-        "heading": "Choose from the finished component",
-        "body": [
-          "For the published UV Resin applications, assess the UV/LED curing requirement, finished appearance and product documentation. For reinforced FRP manufacture, begin with the Unsaturated Polyester Resin family and then the named product grade that matches the published component or application role.",
-          "Gelcoat, Glass Fiber, pigment and MEKP also have separate product roles on the site. A complete FRP requirement identifies those roles rather than treating any one broad resin name as a complete material-system specification."
-        ]
-      },
-      {
-        "heading": "Keep the technical and commercial record product-specific",
-        "body": [
-          "Use the current UV Resin TDS for the UV route and the current TDS for the particular polyester product under review. Do not borrow technical values, curing information, compatibility statements or performance expectations between them.",
-          "For a quote discussion, record the finished component, expected quantity, appearance requirement if visible, stated production or equipment context and delivery location. This supports selection without providing operating instructions or implying suitability before review."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "what-is-sheet-grade-yellow-resin",
     "title": "What Is Sheet Grade Yellow Resin?",
     "description": "Understand the published Sheet Grade Yellow Resin role for FRP sheet and panel manufacturing, and how it differs from general-purpose and roof-light resin routes.",
@@ -12635,96 +12193,6 @@ export const resources = Object.freeze([
     ]
   },
   {
-    "slug": "uv-resin-buyer-guide",
-    "title": "UV Resin Buyer Guide: Selection, Documentation and Quote Checklist",
-    "description": "Prepare a factual UV Resin enquiry using the current TDS, product role, clear-finish requirement, UV/LED equipment context, quantity and delivery details.",
-    "category": "Procurement Guide",
-    "icon": "checklist",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-06",
-    "seo": {
-      "title": "UV Resin Buyer Guide | UV Resin Supplier and Procurement Checklist",
-      "keywords": [
-        "UV Resin Buyer Guide",
-        "UV Resin Procurement",
-        "UV Resin Supplier",
-        "UV Resin Storage",
-        "Industrial UV Resin",
-        "UV Clear Resin Quote"
-      ],
-      "ogTitle": "UV Resin Buyer Guide",
-      "ogDescription": "Prepare a documented UV Resin selection and quotation discussion using the current TDS and the actual product, equipment and commercial context."
-    },
-    "quickFacts": {
-      "Start with": "Finished product and material role",
-      "Product document": "Current UV Resin TDS",
-      "Published packaging": "200 kg pack",
-      "Published MOQ": "1,000 kg"
-    },
-    "relatedSlugs": [
-      "what-is-uv-resin",
-      "applications-of-uv-resin",
-      "uv-resin-vs-epoxy-art-resin",
-      "uv-resin-vs-epoxy-clear-casting-resin",
-      "uv-resin-vs-polyester-resin"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/uv-resin/",
-        "label": "View UV Resin",
-        "description": "Review the current product details and Technical Data Sheet link."
-      },
-      {
-        "href": "/tds/uv-resin-tds.pdf",
-        "label": "Download UV Resin TDS",
-        "description": "Use the product-specific document as the controlling reference."
-      },
-      {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
-        "description": "Review the broader product range and separate product roles."
-      },
-      {
-        "href": "/contact/",
-        "label": "Request a UV Resin quote",
-        "description": "Share the documented technical and commercial context through the enquiry form."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "What should be included in a UV Resin RFQ?",
-        "a": "Include the intended application, industry or end use, finished product, required clear or finished appearance, stated UV/LED equipment requirement if known, expected quantity and delivery location."
-      },
-      {
-        "q": "Does this guide confirm stock, lead time, sample policy or suitability?",
-        "a": "No. It helps prepare a factual enquiry. Availability, lead time, samples, suitability and any performance expectation must be confirmed for the actual requirement."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "Start with the actual material role",
-        "body": [
-          "Identify whether the finished product needs the published UV Resin role: UV/LED-curable jewellery, encapsulation, doming or speciality coating work. If the requirement is instead an open self-levelling decorative surface, a clear contained cast or a reinforced FRP component, start with the separate published product route before preparing an enquiry.",
-          "State the end product and visible-finish requirement in factual terms. Do not rely on a broad request for 'transparent UV resin' as a substitute for the finished-product, equipment and documentation context."
-        ]
-      },
-      {
-        "heading": "Use the current UV Resin document",
-        "body": [
-          "The current UV Resin TDS is the product-specific reference for the published epoxy-acrylate UV/LED route. It should be reviewed alongside the actual finished-product requirement. Follow the TDS for storage and handling information rather than transferring advice from another UV, epoxy or polyester product.",
-          "The current listing publishes a 200 kg pack and 1,000 kg MOQ. These are commercial reference points only; they do not imply stock availability, lead time, sample policy, delivery commitment or a guarantee of suitability."
-        ]
-      },
-      {
-        "heading": "UV Resin quotation checklist",
-        "body": [
-          "Provide the intended application, industry or end use, finished product, clear or finished appearance requirement, any stated UV/LED equipment requirement, expected quantity and delivery location. Include a drawing, purchase specification or relevant product reference only when it is available.",
-          "This guide does not provide exposure times, curing schedules, mixing directions, operating advice or a performance guarantee. The purpose is to make the selection and commercial conversation specific enough for product-data review."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "what-is-epoxy-hardener",
     "title": "What Is Epoxy Hardener?",
     "description": "Understand the published polyamide curing-agent role of Samrat FRP Traders' Epoxy Hardener before selecting a compatible epoxy resin system.",
@@ -12806,7 +12274,7 @@ export const resources = Object.freeze([
       {
         "heading": "Keep epoxy, MEKP and UV routes separate",
         "body": [
-          "The published Epoxy Hardener route is for compatible two-component epoxy systems. MEKP Hardener is a separate catalyst / initiator product route for the site's published unsaturated polyester, vinyl ester and gelcoat systems. UV Resin is a separate UV/LED-curable route that does not use this hardener component.",
+          "The published Epoxy Hardener route is for compatible two-component epoxy systems. MEKP Hardener is a separate catalyst / initiator product route for the site's published unsaturated polyester, vinyl ester and gelcoat systems.",
           "For a quote, identify the exact epoxy resin product, intended application, quantity, required packaging, delivery location and any required technical documentation. This makes compatibility review possible without treating products from different resin families as interchangeable."
         ]
       }
@@ -12980,7 +12448,7 @@ export const resources = Object.freeze([
       {
         "heading": "When a different product route is relevant",
         "body": [
-          "If the requirement is UV/LED curing, review the separate UV Resin route, which does not use this Epoxy Hardener. If it is an unsaturated polyester, vinyl ester or gelcoat system, review the separate MEKP Hardener route instead.",
+          "If the system is an unsaturated polyester, vinyl ester or gelcoat one, review the separate MEKP Hardener route instead of this Epoxy Hardener.",
           "For a clear contained casting role, begin with Clear Casting Resin. For an art or decorative surface role, begin with Epoxy Art Resin. These routes help define the resin component before the matching hardener discussion begins."
         ]
       }
@@ -13095,93 +12563,6 @@ export const resources = Object.freeze([
         "body": [
           "For an epoxy requirement, name the exact epoxy resin product, intended application and required documentation. For a polyester-family requirement, name the actual resin or gelcoat grade under review. In either case, include quantity, packaging needs and delivery location.",
           "This guide intentionally omits ratios, catalyst dosing and curing directions. Those are not universal and should not be inferred from a comparison page."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "epoxy-hardener-vs-uv-resin-curing",
-    "title": "Epoxy Hardener vs UV Resin Curing: Choosing the Correct Product Route",
-    "description": "Separate the published compatible epoxy hardener route from Samrat Poly Resins, India's separate UV/LED-curable UV Resin product route.",
-    "category": "Comparison Guide",
-    "icon": "grid",
-    "readingTime": "3 min read",
-    "publishDate": "2026-08-09",
-    "seo": {
-      "title": "Epoxy Hardener vs UV Resin Curing | Buyer Guide",
-      "keywords": [
-        "Epoxy Hardener vs UV Resin",
-        "UV Resin Hardener",
-        "Epoxy Curing Agent",
-        "UV LED Resin"
-      ],
-      "ogTitle": "Epoxy Hardener vs UV Resin Curing",
-      "ogDescription": "Understand why Samrat Poly Resins, India's UV Resin is a separate UV/LED-curable route rather than a product that uses the published Epoxy Hardener."
-    },
-    "quickFacts": {
-      "Epoxy Hardener route": "Separate component in a compatible two-component epoxy system",
-      "UV Resin route": "Separate UV/LED-curable epoxy-acrylate product",
-      "Does UV Resin use this hardener?": "Not according to the published UV Resin route",
-      "Selection rule": "Begin with the required curing-system category"
-    },
-    "relatedSlugs": [
-      "what-is-epoxy-hardener",
-      "epoxy-hardener-compatibility-guide",
-      "what-is-uv-resin",
-      "uv-resin-buyer-guide"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/epoxy-hardener/",
-        "label": "View Epoxy Hardener",
-        "description": "Review the separate compatible epoxy-system component."
-      },
-      {
-        "href": "/products/uv-resin/",
-        "label": "View UV Resin",
-        "description": "Review the published UV/LED-curable product route."
-      },
-      {
-        "href": "/resources/what-is-uv-resin/",
-        "label": "What is UV Resin?",
-        "description": "Read the separate product-role guide."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss the correct system route",
-        "description": "Share the intended application and product requirement."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Does UV Resin need Epoxy Hardener?",
-        "a": "No. The published UV Resin route is described as UV/LED-curable and does not use this separate Epoxy Hardener component."
-      },
-      {
-        "q": "Is UV Resin the same as a two-component epoxy system?",
-        "a": "No. The site presents UV Resin as a separate product route. Review the actual required curing-system category before selecting a product."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "Two different published system routes",
-        "body": [
-          "Epoxy Hardener is the separate polyamide curing-agent component for a compatible two-component epoxy system. UV Resin is published separately as an epoxy-acrylate product that cures through a UV/LED route.",
-          "This difference is a product-system distinction, not simply another hardener choice. The published UV Resin route does not identify the separate Epoxy Hardener as part of its system."
-        ]
-      },
-      {
-        "heading": "Choose by the stated product requirement",
-        "body": [
-          "Start with the finished application and the required system route. If the requirement names a compatible two-component epoxy system, identify the exact epoxy resin and review the Epoxy Hardener documentation. If it specifies a UV/LED-curable route, begin with the UV Resin product data instead.",
-          "Do not transfer claims, technical values or operating assumptions between these separate routes. Each product has its own published role and current TDS."
-        ]
-      },
-      {
-        "heading": "Keep the quote discussion specific",
-        "body": [
-          "Include the intended application, required resin-system category, exact product if known, quantity, packaging need, delivery location and required documentation. This helps confirm the product route before procurement.",
-          "This guide does not provide exposure conditions, cure schedules or handling instructions. Review the appropriate current document for the chosen system."
         ]
       }
     ]
@@ -14092,7 +13473,7 @@ export const resources = Object.freeze([
         "heading": "Prepare a compatibility-led RFQ",
         "body": [
           "State the exact Samrat epoxy resin product under consideration, intended application, required component or finish, quantity, packaging requirement if relevant, delivery city/location and any requested technical documentation. Include a drawing, purchase specification or existing product reference where available.",
-          "If the application requires a different product route, identify it early: UV/LED-curable work belongs to the separate UV Resin route, while polyester-family systems use the separate MEKP route. This avoids a vague request for 'hardener' that cannot be checked against the correct system."
+          "If the application requires a different product route, identify it early: polyester-family systems use the separate MEKP route, not this Epoxy Hardener. This avoids a vague request for 'hardener' that cannot be checked against the correct system."
         ]
       },
       {
@@ -14106,14 +13487,14 @@ export const resources = Object.freeze([
   },
   {
     "slug": "what-is-pet-modified-polyester-resin",
-    "title": "What Is PET Resin / Polyester Putty Resin? Samrat Poly Resins, India's PET-Modified Resin Explained",
-    "description": "PET Resin / Polyester Putty Resin is Samrat Poly Resins, India's PET-modified liquid unsaturated polyester sheet grade. Understand what it is, how the dual name works and where it's used.",
+    "title": "What Is Polyester Putty Resin? Samrat Poly Resins, India's PET-Modified Resin Explained",
+    "description": "Polyester Putty Resin is Samrat Poly Resins, India's PET-modified liquid unsaturated polyester sheet grade. Understand what it is, how the dual name works and where it's used.",
     "category": "Technical Guide",
     "icon": "info",
     "readingTime": "4 min read",
     "publishDate": "2026-08-10",
     "seo": {
-      "title": "PET Resin / Polyester Putty Resin | Sheet Grade Guide",
+      "title": "Polyester Putty Resin | Sheet Grade Guide",
       "keywords": [
         "PET Modified Polyester Resin",
         "Polyester Putty Resin",
@@ -14122,11 +13503,11 @@ export const resources = Object.freeze([
         "Polyester Resin for Fibre Sheets",
         "FRP Sheet Lamination Resin"
       ],
-      "ogTitle": "What Is PET Resin / Polyester Putty Resin?",
-      "ogDescription": "A clear explanation of Samrat Poly Resins, India's PET-modified liquid unsaturated polyester sheet grade, marketed as PET Resin / Polyester Putty Resin."
+      "ogTitle": "What Is Polyester Putty Resin?",
+      "ogDescription": "A clear explanation of Samrat Poly Resins, India's PET-modified liquid unsaturated polyester sheet grade, marketed as Polyester Putty Resin."
     },
     "quickFacts": {
-      "Published product": "PET Resin / Polyester Putty Resin",
+      "Published product": "Polyester Putty Resin",
       "Resin family": "PET-modified unsaturated polyester resin",
       "Supplied form": "Pale-yellow liquid sheet grade",
       "Selection reference": "Current TDS"
@@ -14139,7 +13520,7 @@ export const resources = Object.freeze([
     "recommendedLinks": [
       {
         "href": "/products/polyester-putty-resin/",
-        "label": "View PET Resin / Polyester Putty Resin",
+        "label": "View Polyester Putty Resin",
         "description": "Review the product role, specifications, pack and enquiry path."
       },
       {
@@ -14154,13 +13535,13 @@ export const resources = Object.freeze([
       },
       {
         "href": "/contact/",
-        "label": "Discuss a PET Resin / Polyester Putty Resin requirement",
+        "label": "Discuss a Polyester Putty Resin requirement",
         "description": "Share the exact liquid form and intended sheet or laminate application."
       }
     ],
     "faqs": [
       {
-        "q": "What is PET Resin / Polyester Putty Resin on this site?",
+        "q": "What is Polyester Putty Resin on this site?",
         "a": "It's Samrat Poly Resins, India's PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade for PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing. Full technical data is on the current TDS."
       },
       {
@@ -14174,9 +13555,9 @@ export const resources = Object.freeze([
     ],
     "sections": [
       {
-        "heading": "The PET Resin / Polyester Putty Resin identity",
+        "heading": "The Polyester Putty Resin identity",
         "body": [
-          "Samrat FRP Traders supplies and imports PET Resin / Polyester Putty Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as a PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade. The current TDS describes polyethylene terephthalate content in a liquid, styrene-compatible resin system and is the controlling technical reference for this product.",
+          "Samrat FRP Traders supplies and imports Polyester Putty Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as a PET-modified unsaturated polyester resin, supplied as a pale-yellow liquid sheet grade. The current TDS describes polyethylene terephthalate content in a liquid, styrene-compatible resin system and is the controlling technical reference for this product.",
           "It sits within the broader unsaturated polyester resin family while retaining its own grade and application context — start with your exact finished sheet or laminate requirement and the current TDS."
         ]
       },
@@ -14204,8 +13585,8 @@ export const resources = Object.freeze([
   },
   {
     "slug": "pet-resin-liquid-grade-vs-thermoplastic-pet",
-    "title": "PET Resin Material Forms: Liquid Polyester Grade vs Thermoplastic PET",
-    "description": "Distinguish Samrat Poly Resins, India's PET Resin / Polyester Putty Resin liquid sheet grade from conventional thermoplastic PET chips, pellets and commodity-plastic material.",
+    "title": "Polyester Putty Resin vs Thermoplastic PET: Two Different Materials",
+    "description": "Distinguish Samrat Poly Resins, India's Polyester Putty Resin liquid grade from conventional thermoplastic PET chips, pellets and commodity-plastic material.",
     "category": "Product Selection",
     "icon": "layers",
     "readingTime": "4 min read",
@@ -14232,7 +13613,7 @@ export const resources = Object.freeze([
       "title": "Keep the material forms separate",
       "headers": [
         "Buyer question",
-        "Samrat PET Resin / Polyester Putty Resin",
+        "Samrat Polyester Putty Resin",
         "Thermoplastic PET"
       ],
       "rows": [
@@ -14243,7 +13624,7 @@ export const resources = Object.freeze([
         ],
         [
           "Document to review",
-          "Current PET Resin / Polyester Putty Resin TDS",
+          "Current Polyester Putty Resin TDS",
           "The document for the required thermoplastic grade"
         ],
         [
@@ -14262,7 +13643,7 @@ export const resources = Object.freeze([
     "recommendedLinks": [
       {
         "href": "/products/polyester-putty-resin/",
-        "label": "View PET Resin / Polyester Putty Resin",
+        "label": "View Polyester Putty Resin",
         "description": "Open the product page for the approved liquid sheet-grade route."
       },
       {
@@ -14287,7 +13668,7 @@ export const resources = Object.freeze([
         "a": "No. The dedicated PET Resin TDS identifies a PET-modified liquid unsaturated polyester resin. The current catalogue separately describes a thermoplastic PET chip item with different form and data."
       },
       {
-        "q": "Is PET Resin / Polyester Putty Resin a ready-made putty or body filler?",
+        "q": "Is Polyester Putty Resin a ready-made putty or body filler?",
         "a": "No. Samrat supplies this grade as a liquid raw resin, not as a pre-mixed putty or body filler. Finished-product properties cannot be inferred from the liquid-resin TDS."
       },
       {
@@ -14306,14 +13687,14 @@ export const resources = Object.freeze([
       {
         "heading": "Thermoplastic PET is a different material form",
         "body": [
-          "Thermoplastic PET is commonly supplied as chips or pellets for melt processing. Samrat Poly Resins, India's PET Resin / Polyester Putty Resin page instead describes a liquid PET-modified unsaturated polyester sheet grade.",
+          "Thermoplastic PET is commonly supplied as chips or pellets for melt processing. Samrat Poly Resins, India's Polyester Putty Resin page instead describes a liquid PET-modified unsaturated polyester sheet grade.",
           "Buyers should identify the required material form before comparing specifications or requesting a quotation."
         ]
       },
       {
         "heading": "Liquid raw resin is not a ready-made putty",
         "body": [
-          "Samrat Poly Resins, India's PET Resin / Polyester Putty Resin is supplied as a liquid resin. A ready-made polyester putty or body filler is a complete formulated end product.",
+          "Samrat Poly Resins, India's Polyester Putty Resin is supplied as a liquid resin. A ready-made polyester putty or body filler is a complete formulated end product.",
           "Sanding, adhesion, shrinkage, hardness, flexibility and repair performance cannot be assigned to the liquid resin alone from the current product data."
         ]
       },
@@ -17039,27 +16420,27 @@ export const resources = Object.freeze([
   },
   {
     "slug": "marble-resin-vs-pet-resin",
-    "title": "Marble Resin vs PET Resin / Polyester Putty Resin",
-    "description": "Separate Samrat Marble Resin's cultured-marble and artificial-stone route from the PET Resin / Polyester Putty Resin liquid sheet-grade route.",
+    "title": "Marble Resin vs Polyester Putty Resin",
+    "description": "Separate Samrat Marble Resin's cultured-marble and artificial-stone route from the Polyester Putty Resin liquid sheet-grade route.",
     "category": "Comparison Guide",
     "icon": "layers",
     "readingTime": "4 min read",
     "publishDate": "2026-08-10",
     "seo": {
-      "title": "Marble Resin vs PET Resin / Polyester Putty Resin",
+      "title": "Marble Resin vs Polyester Putty Resin",
       "keywords": [
-        "Marble Resin vs PET Resin",
+        "Marble Resin vs Polyester Putty Resin",
         "Polyester Marble Resin",
         "PET Modified Polyester Resin",
         "Marble Composite Resin",
         "Sheet Grade Polyester Resin"
       ],
-      "ogTitle": "Marble Resin vs PET Resin / Polyester Putty Resin",
-      "ogDescription": "Choose between the Marble Resin stone-composite route and the PET Resin / Polyester Putty Resin liquid sheet-grade route by product role and TDS."
+      "ogTitle": "Marble Resin vs Polyester Putty Resin",
+      "ogDescription": "Choose between the Marble Resin stone-composite route and the Polyester Putty Resin liquid sheet-grade route by product role and TDS."
     },
     "quickFacts": {
       "Marble Resin": "Liquid UPR for documented cultured-marble and artificial-stone contexts",
-      "PET Resin / Polyester Putty Resin": "PET-modified liquid UPR sheet grade",
+      "Polyester Putty Resin": "PET-modified liquid UPR sheet grade",
       "Selection rule": "Start with the finished component and its current product document",
       "Material-form boundary": "Both products are supplied resins, not finished marble or ready-made putty"
     },
@@ -17077,7 +16458,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/products/polyester-putty-resin/",
-        "label": "View PET Resin / Polyester Putty Resin",
+        "label": "View Polyester Putty Resin",
         "description": "Review the separate liquid PET-modified sheet-grade role."
       },
       {
@@ -17092,7 +16473,7 @@ export const resources = Object.freeze([
         "a": "No interchangeability is published. Marble Resin is the documented cultured-marble and artificial-stone route. PET Resin is separately documented as a PET-modified liquid UPR sheet grade for its listed sheet and panel contexts."
       },
       {
-        "q": "Is PET Resin / Polyester Putty Resin supplied as ready-made putty?",
+        "q": "Is Polyester Putty Resin supplied as ready-made putty?",
         "a": "No. It is supplied as a liquid PET-modified UPR sheet grade, not as a pre-mixed putty or body filler. Confirm the required material form before enquiry."
       },
       {
@@ -17125,7 +16506,7 @@ export const resources = Object.freeze([
       {
         "heading": "Prepare a focused enquiry",
         "body": [
-          "State whether the requirement is a cultured-marble or artificial-stone component, a sheet or panel, the liquid PET Resin / Polyester Putty Resin grade, a ready-made putty, thermoplastic PET or another product. Then include the applicable product document, required data, quantity, packaging need, delivery location and documentation request."
+          "State whether the requirement is a cultured-marble or artificial-stone component, a sheet or panel, the liquid Polyester Putty Resin grade, a ready-made putty, thermoplastic PET or another product. Then include the applicable product document, required data, quantity, packaging need, delivery location and documentation request."
         ]
       }
     ]

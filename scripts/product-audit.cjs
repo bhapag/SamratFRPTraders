@@ -6,9 +6,10 @@ const dist = path.join(process.cwd(), 'dist');
 const slugs = [
   'lamination-resin', 'gp-clear-resin', 'gp-white-resin', 'gp-quartz-resin',
   'button-grade-resin', 'gp-yellow-resin', 'sheet-grade-yellow-resin', 'roof-light-resin',
+  'uv-stabilized-sheet-grade-yellow-resin', 'iso-polyester-resin', 'iso-gelcoat',
   'fire-retardant-resin', 'iso-fire-retardant-resin', 'gp-gelcoat-resin',
   'frp-polyester-pigment', 'glass-fiber-mat', 'clear-casting-resin', 'epoxy-art-resin',
-  'uv-resin', 'epoxy-hardener', 'mekp-hardener', 'dmc-smc-resin', 'polyester-putty-resin',
+  'epoxy-hardener', 'mekp-hardener', 'dmc-smc-resin', 'polyester-putty-resin',
   'marble-resin', 'vinyl-ester-resin', 'fiberglass-epoxy-resin', 'bisphenol-resin',
 ];
 
