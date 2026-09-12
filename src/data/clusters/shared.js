@@ -7,10 +7,13 @@ export const commercialPosition =
 export const neCommercialPosition =
   'Samrat FRP Traders द्वारा नेपालका लागि आपूर्ति र आयात — व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता';
 
-export const docsPending =
-  'No supplier Technical Data Sheet or Safety Data Sheet is on file for this grade yet — ask before ordering';
-export const neDocsPending =
-  'यस grade को supplier Technical Data Sheet वा Safety Data Sheet अहिले फाइलमा छैन — अर्डरअघि सोध्नुहोस्';
+// Used by the three clusters whose grades have a final supplier Technical Data
+// Sheet (September 2026) and no Safety Data Sheet: states what exists, and
+// nothing about a document that does not.
+export const docsTdsOnFile =
+  'Supplier Technical Data Sheet on file — linked from the product page';
+export const neDocsTdsOnFile =
+  'आपूर्तिकर्ताको Technical Data Sheet फाइलमा छ — उत्पादन पृष्ठबाट लिंक गरिएको';
 
 export const enquiryLink = {
   href: '/contact/',

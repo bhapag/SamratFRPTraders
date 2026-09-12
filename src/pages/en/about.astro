@@ -2,7 +2,6 @@
 import BusinessDetails from '../../components/home/BusinessDetails.astro';
 import { buildWhatsAppLink, whatsAppMessages, site } from '../../data/site.js';
 import { catalogGroups, products } from '../../data/products.js';
-import { documentStats } from '../../data/documents.js';
 import { applications } from '../../data/applications.js';
 import { resources } from '../../data/resources.js';
 import Base from '../../layouts/Base.astro';
@@ -12,8 +11,6 @@ const resourceCount = resources.filter((r) => !r.draft).length;
 // Real coverage, not a slogan: the page previously claimed documentation
 // "for every product", which was never true — 6 of the 31 products have no
 // supplier document on file. These counts come from the catalogue itself.
-const docs = documentStats();
-const docCount = docs.documentEntries;
 ---
 <Base
   title="About — Biratnagar, Nepal"
@@ -49,10 +46,6 @@ const docCount = docs.documentEntries;
         <span class="stat-num">{resourceCount}</span>
         <span class="stat-label">Technical resources</span>
       </div>
-      <div class="stat">
-        <span class="stat-num">{docCount}</span>
-        <span class="stat-label">TDS / SDS documents</span>
-      </div>
     </div>
   </div>
 
@@ -72,12 +65,11 @@ const docCount = docs.documentEntries;
           the same business you are reading about.
         </p>
         <p>
-          {docs.documentedProducts} of the {docs.totalProducts} products in the catalogue carry
-          supplier-issued Technical and Safety Data Sheets — {docs.documentEntries} documents in
-          total, collected in the <a href="/en/documents/">TDS &amp; SDS document library</a>. The
-          remaining {docs.undocumentedProducts} have no supplier document on file with us, and the
-          library names them rather than leaving the gap unstated. We would rather be checkable than
-          impressive.
+          Supplier-issued data sheets — Technical Data Sheets, a Product Data Sheet for application
+          tools, and Safety Data Sheets where the supplier has issued them — are collected in the
+          <a href="/en/documents/">document library</a>. Each product lists only the documents issued
+          for it, and no other product's document stands in for a missing one. We would rather be
+          checkable than impressive.
         </p>
         <p>
           Samrat Poly Resins, India is a trusted supplier to Samrat FRP Traders for resins and related
@@ -92,7 +84,7 @@ const docCount = docs.documentEntries;
 
         <div class="button-row">
           <a class="button button-primary" href="/en/products/">Browse product catalogue</a>
-          <a class="button" href="/en/documents/">TDS &amp; SDS library</a>
+          <a class="button" href="/en/documents/">Document library</a>
           <a
             class="button"
             href="/en/products/"
@@ -164,8 +156,8 @@ const docCount = docs.documentEntries;
         </article>
         <article data-reveal style="--reveal-delay: 70ms">
           <span>02</span>
-          <h3>TDS &amp; SDS where issued</h3>
-          <p>Direct access to the supplier's Technical and Safety Data Sheets for {docs.documentedProducts} of {docs.totalProducts} products. Where a document does not exist, we say so.</p>
+          <h3>Data sheets where issued</h3>
+          <p>Direct access to the supplier's Technical, Safety and Product Data Sheets, for the products each one was issued for.</p>
         </article>
         <article data-reveal style="--reveal-delay: 140ms">
           <span>03</span>

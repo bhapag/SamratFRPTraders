@@ -1,14 +1,12 @@
 ---
 import DocumentLibrary from '../components/DocumentLibrary.astro';
-import { documentStats } from '../data/documents.js';
 import Base from '../layouts/Base.astro';
 
-const stats = documentStats();
 ---
 <Base
   lang="ne"
-  title="TDS र SDS कागजात पुस्तकालय"
-  description={`Samrat FRP Traders ले नेपालका लागि आपूर्ति तथा आयात गर्ने ${stats.documentedProducts} उत्पादनका प्राविधिक तथा सुरक्षा डाटा शीट — Samrat Poly Resins, India ले जारी गरेका ${stats.documentEntries} कागजात।`}
+  title="आपूर्तिकर्ता डाटा शीट पुस्तकालय"
+  description="Samrat FRP Traders ले नेपालका लागि आपूर्ति तथा आयात गर्ने उत्पादनहरूका Samrat Poly Resins, India द्वारा जारी प्राविधिक, सुरक्षा तथा उत्पादन डाटा शीट, उत्पादन परिवारअनुसार।"
 >
   <DocumentLibrary lang="ne" />
 </Base>

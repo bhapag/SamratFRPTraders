@@ -13,6 +13,7 @@ import {
   productImageAlt,
   relatedProductsFor,
   resourcesFor,
+  pdsDoc,
   sdsDoc,
   tdsDoc,
 } from '../../utils/product-page.js';
@@ -42,9 +43,8 @@ const comparisons = comparisonsFor(product);
 const guides = guidesFor(product);
 const related = relatedProductsFor(product);
 const tds = tdsDoc(product);
+const pds = pdsDoc(product);
 const sds = sdsDoc(product);
-const tdsLocal = localDocUrl(tds);
-const sdsLocal = localDocUrl(sds);
 const highlights = product.technicalHighlights ?? [];
 const evidence = product.technicalEvidenceStatus === 'verified';
 const canonicalUrl = buildCanonicalUrl(Astro.url.pathname);
@@ -60,14 +60,12 @@ const t = isNe
       docsTitle: 'प्राविधिक कागजातहरू',
       tdsButton: 'प्राविधिक डाटा शीट डाउनलोड गर्नुहोस्',
       sdsButton: 'सुरक्षा डाटा शीट डाउनलोड गर्नुहोस्',
+      pdsButton: 'उत्पादन डाटा शीट डाउनलोड गर्नुहोस्',
       catalogueTitle: 'पूर्ण उत्पादन दायरा चाहिन्छ?',
       catalogueDesc: 'हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।',
       catalogueLabel: 'उत्पादन क्याटलग डाउनलोड गर्नुहोस्',
-      issuedBy: 'TDS/SDS जारीकर्ता',
+      issuedBy: 'कागजात जारीकर्ता',
       libraryLink: 'कागजात पुस्तकालय हेर्नुहोस्',
-      tdsAbsent: 'प्राविधिक डाटा शीट (TDS)',
-      sdsAbsent: 'सुरक्षा डाटा शीट (SDS)',
-      notOnFile: 'अहिले फाइलमा छैन',
       askForDocs: 'यी कागजात माग्नुहोस्',
       docsPendingNote: 'यस grade का लागि आपूर्तिकर्ता कागजात हाम्रो पुस्तकालयमा अझै छैन। सोध्नुहोस्; Samrat Poly Resins, India ले हाल के प्रकाशित गरेका छन् हामी पुष्टि गर्नेछौँ।',
       priceHeading: 'मूल्य',
@@ -105,14 +103,12 @@ const t = isNe
       docsTitle: 'Technical documents',
       tdsButton: 'Download Technical Data Sheet',
       sdsButton: 'Download Safety Data Sheet',
+      pdsButton: 'Download Product Data Sheet',
       catalogueTitle: 'Need our complete product range?',
       catalogueDesc: 'Explore our complete FRP materials and resin range.',
       catalogueLabel: 'Download Product Catalogue',
-      issuedBy: 'TDS/SDS issued by',
+      issuedBy: 'Documents issued by',
       libraryLink: 'Browse the document library',
-      tdsAbsent: 'Technical Data Sheet (TDS)',
-      sdsAbsent: 'Safety Data Sheet (SDS)',
-      notOnFile: 'Not yet on file',
       askForDocs: 'Ask us for these documents',
       docsPendingNote: 'The supplier documentation for this grade is not yet in our library. Ask us and we will confirm what Samrat Poly Resins, India currently publishes.',
       priceHeading: 'Price',
@@ -199,6 +195,14 @@ const faqSchema =
         })),
       }
     : null;
+
+// Download actions in a fixed order — TDS, PDS, SDS — for the documents this
+// product actually has. Each keeps its own type label.
+const docActions = [
+  tds && { href: localDocUrl(tds) ?? tds.url, label: t.tdsButton },
+  pds && { href: localDocUrl(pds) ?? pds.url, label: t.pdsButton },
+  sds && { href: localDocUrl(sds) ?? sds.url, label: t.sdsButton },
+].filter(Boolean);
 ---
 
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
@@ -293,45 +297,25 @@ const faqSchema =
     <div class="prod-docs">
       <p class="prod-docs-title">{t.docsTitle}</p>
 
-      {tds ? (
+      {/* Only documents that exist are shown. A product with a TDS or PDS but
+          no SDS gets no "SDS not on file" row and no SDS enquiry row: an
+          absent-document row next to a real download reads as a promise that
+          the missing one is on its way. */}
+      {docActions.map((doc) => (
         <a
           class="doc-action"
-          href={tdsLocal ?? tds.url}
+          href={doc.href}
           target="_blank"
           rel="noopener"
           download
-          aria-label={`${t.tdsButton} — ${product.name}`}
+          aria-label={`${doc.label} — ${product.name}`}
         >
-          <span class="doc-action-label">{t.tdsButton}</span>
+          <span class="doc-action-label">{doc.label}</span>
           <span class="doc-action-tag">PDF</span>
         </a>
-      ) : (
-        <p class="doc-absent">
-          <span class="doc-absent-label">{t.tdsAbsent}</span>
-          <span class="doc-absent-state">{t.notOnFile}</span>
-        </p>
-      )}
+      ))}
 
-      {sds ? (
-        <a
-          class="doc-action"
-          href={sdsLocal ?? sds.url}
-          target="_blank"
-          rel="noopener"
-          download
-          aria-label={`${t.sdsButton} — ${product.name}`}
-        >
-          <span class="doc-action-label">{t.sdsButton}</span>
-          <span class="doc-action-tag">PDF</span>
-        </a>
-      ) : (
-        <p class="doc-absent">
-          <span class="doc-absent-label">{t.sdsAbsent}</span>
-          <span class="doc-absent-state">{t.notOnFile}</span>
-        </p>
-      )}
-
-      {(!tds || !sds) && (
+      {docActions.length === 0 && (
         <a class="doc-action doc-action-ask" href={`${prefix}/contact/?product=${encodeURIComponent(product.name)}`}>
           <span class="doc-action-label">{t.askForDocs}</span>
           <span class="doc-action-tag" aria-hidden="true">→</span>
@@ -354,8 +338,8 @@ const faqSchema =
         <span class="doc-action-tag" aria-hidden="true">→</span>
       </a>
 
-      {(tds || sds) && <p class="doc-note">{t.issuedBy}: Samrat Poly Resins, India</p>}
-      {(!tds || !sds) && <p class="doc-note doc-note-pending">{t.docsPendingNote}</p>}
+      {docActions.length > 0 && <p class="doc-note">{t.issuedBy}: Samrat Poly Resins, India</p>}
+      {docActions.length === 0 && <p class="doc-note doc-note-pending">{t.docsPendingNote}</p>}
     </div>
   </div>
 </div>
@@ -427,7 +411,7 @@ const faqSchema =
         </div>
         <div class="fact">
           <span>{t.docs}</span>
-          <strong>{[tds, sds].filter(Boolean).map((d) => d.type).join(' · ') || '—'}</strong>
+          <strong>{[tds, pds, sds].filter(Boolean).map((d) => d.type).join(' · ') || '—'}</strong>
         </div>
         <div class="fact">
           <span>{t.supplier}</span>

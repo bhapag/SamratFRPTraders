@@ -2,7 +2,6 @@
 import BusinessDetails from '../components/home/BusinessDetails.astro';
 import { buildWhatsAppLink, whatsAppMessages, site } from '../data/site.js';
 import { catalogGroups, products } from '../data/products.js';
-import { documentStats } from '../data/documents.js';
 import { applications } from '../data/applications.js';
 import { resources } from '../data/resources.js';
 import Base from '../layouts/Base.astro';
@@ -12,8 +11,6 @@ const resourceCount = resources.filter((r) => !r.draft).length;
 // Real coverage, not a slogan: the page previously claimed documentation
 // "for every product", which was never true — 6 of the 31 products have no
 // supplier document on file. These counts come from the catalogue itself.
-const docs = documentStats();
-const docCount = docs.documentEntries;
 ---
 <Base
   lang="ne"
@@ -50,10 +47,6 @@ const docCount = docs.documentEntries;
         <span class="stat-num">{resourceCount}</span>
         <span class="stat-label">प्राविधिक स्रोत</span>
       </div>
-      <div class="stat">
-        <span class="stat-num">{docCount}</span>
-        <span class="stat-label">TDS / SDS कागजात</span>
-      </div>
     </div>
   </div>
 
@@ -72,11 +65,10 @@ const docCount = docs.documentEntries;
           तल उल्लेख गरिएका दर्ता नाम, PAN र VAT नम्बर तथा EXIM कोड यही व्यवसायकै हुन्।
         </p>
         <p>
-          क्याटलगका {docs.totalProducts} मध्ये {docs.documentedProducts} उत्पादनसँग आपूर्तिकर्ताले
-          जारी गरेका प्राविधिक तथा सुरक्षा डाटा शीट छन् — जम्मा {docs.documentEntries} कागजात, सबै
-          <a href="/documents/">TDS र SDS कागजात पुस्तकालय</a> मा एकै ठाउँमा राखिएका छन्। बाँकी
-          {docs.undocumentedProducts} उत्पादनका आपूर्तिकर्ता कागजात हामीसँग छैनन्, र पुस्तकालयले ती
-          उत्पादनको नाम नै तोकेर उल्लेख गर्छ। प्रभावशाली देखिनुभन्दा जाँच्न सकिने हुनु हामीलाई बढी
+          आपूर्तिकर्ताले जारी गरेका डाटा शीट — Technical Data Sheet, औजारका लागि Product Data Sheet, र
+          जारी भएको ठाउँमा Safety Data Sheet — <a href="/documents/">कागजात पुस्तकालय</a> मा एकै ठाउँमा
+          राखिएका छन्। प्रत्येक उत्पादनमा त्यसका लागि जारी भएका कागजात मात्र देखिन्छन्; अर्को
+          उत्पादनको कागजात त्यसको सट्टा राखिँदैन। प्रभावशाली देखिनुभन्दा जाँच्न सकिने हुनु हामीलाई बढी
           महत्त्वपूर्ण लाग्छ।
         </p>
         <p>
@@ -91,7 +83,7 @@ const docCount = docs.documentEntries;
 
         <div class="button-row">
           <a class="button button-primary" href="/products/">उत्पादन सूची हेर्नुहोस्</a>
-          <a class="button" href="/documents/">TDS / SDS पुस्तकालय</a>
+          <a class="button" href="/documents/">कागजात पुस्तकालय</a>
           <a
             class="button"
             href="/products/"
@@ -163,8 +155,8 @@ const docCount = docs.documentEntries;
         </article>
         <article data-reveal style="--reveal-delay: 70ms">
           <span>02</span>
-          <h3>जारी भएका TDS र SDS</h3>
-          <p>{docs.totalProducts} मध्ये {docs.documentedProducts} उत्पादनका Technical Data Sheet र Safety Data Sheet मा सिधा पहुँच। कागजात नभएको ठाउँमा हामी त्यही भन्छौँ।</p>
+          <h3>जारी भएका डाटा शीट</h3>
+          <p>आपूर्तिकर्ताले जारी गरेका Technical, Safety र Product Data Sheet मा सिधा पहुँच — जुन उत्पादनका लागि जारी भएका छन्, त्यसैमा मात्र।</p>
         </article>
         <article data-reveal style="--reveal-delay: 140ms">
           <span>03</span>

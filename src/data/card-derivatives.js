@@ -14,6 +14,7 @@ export const cardDerivatives = new Set([
   'sheet-grade-yellow-resin-primary.webp',
   'roof-light-resin-primary.webp',
   'gp-gelcoat-resin-primary.webp',
+  'iso-polyester-resin-corrected-figures.jpg',
   'fire-retardant-resin-primary.webp',
   'iso-fire-retardant-resin-primary.webp',
   'frp-polyester-pigment-primary.webp',

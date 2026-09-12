@@ -172,7 +172,7 @@ export const products = Object.freeze([
     ]),
     titleInput: 'Lamination Resin \u2014 Nepal Supplier',
     metaDescription:
-      'Lamination Resin (LR Resin) \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+      'Lamination Resin (LR Resin) \u2014 a transparent unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
     // The TDS for this grade (SPR-TDS-LR) gives the resin type as
     // "Polyester (unsaturated), transparent" and never says orthophthalic, so
     // the descriptor no longer adds a backbone the source does not state.
@@ -190,11 +190,17 @@ export const products = Object.freeze([
     technicalSource: Object.freeze({
       issuer: 'Samrat Poly Resins, India',
       type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-LR',
+      revision: 'Rev. 01',
+      date: 'July 2026',
     }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-LR',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/lamination-resin-tds.pdf',
       }),
       Object.freeze({
@@ -366,11 +372,17 @@ export const products = Object.freeze([
     technicalSource: Object.freeze({
       issuer: 'Samrat Poly Resins, India',
       type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-BGR',
+      revision: 'Rev. 01',
+      date: 'July 2026',
     }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-BGR',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/button-grade-resin-tds.pdf',
       }),
       Object.freeze({
@@ -453,11 +465,17 @@ export const products = Object.freeze([
     technicalSource: Object.freeze({
       issuer: 'Samrat Poly Resins, India',
       type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-SGY',
+      revision: 'Rev. 01',
+      date: 'July 2026',
     }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-SGY',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/sheet-grade-yellow-resin-tds.pdf',
       }),
       Object.freeze({
@@ -497,11 +515,17 @@ export const products = Object.freeze([
     technicalSource: Object.freeze({
       issuer: 'Samrat Poly Resins, India',
       type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-RLS',
+      revision: 'Rev. 01',
+      date: 'July 2026',
     }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-RLS',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/roof-light-resin-tds.pdf',
       }),
       Object.freeze({
@@ -533,7 +557,35 @@ export const products = Object.freeze([
       'Pre-pigmented, UV-stabilised unsaturated polyester resin for FRP sheet and panel work.',
     overview:
       'UV Stabilized Sheet Grade Yellow Resin is a factory-pigmented yellow unsaturated polyester sheet grade described by the supplier, Samrat Poly Resins, India, as UV-stabilised for outdoor FRP sheet, cladding and panel work. Being pre-pigmented, the colour is mixed at the supplier rather than on the shop floor. Ask us for the current technical documentation before you order.',
-    technicalEvidenceStatus: 'pending',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Orthophthalic unsaturated polyester resin' }),
+      Object.freeze({ label: 'Form', value: 'Pre-pigmented yellow liquid resin' }),
+      Object.freeze({ label: 'Acceleration status', value: 'Non-accelerated' }),
+      Object.freeze({ label: 'Viscosity', value: '280 cPs at 25 °C' }),
+      Object.freeze({ label: 'Gel time', value: '6.5 minutes at 25 °C' }),
+      Object.freeze({ label: 'Styrene content', value: '35% by weight' }),
+      Object.freeze({ label: 'Specific gravity', value: '1.10 g/cm³ at 25 °C' }),
+      Object.freeze({ label: 'Stabiliser system', value: 'UV absorber with HALS light stabiliser' }),
+      Object.freeze({ label: 'Cure mechanism', value: 'UV-stabilised; not UV-light-curing' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-USY',
+      revision: 'Rev. 01',
+      date: 'September 2026',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-USY',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/uv-stabilized-sheet-grade-yellow-resin-tds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
     nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
@@ -562,11 +614,17 @@ export const products = Object.freeze([
     technicalSource: Object.freeze({
       issuer: 'Samrat Poly Resins, India',
       type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-GGR',
+      revision: 'Rev. 01',
+      date: 'July 2026',
     }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-GGR',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/gp-gelcoat-resin-tds.pdf',
       }),
       Object.freeze({
@@ -595,7 +653,36 @@ export const products = Object.freeze([
       'Isophthalic gelcoat for the protective, high-gloss surface layer of an FRP moulding.',
     overview:
       'ISO Gelcoat is an isophthalic gelcoat described by the supplier, Samrat Poly Resins, India, as a decorative and protective surface layer for FRP mouldings, applied by brush or spray as the first coat in the mould. Isophthalic gelcoats are generally chosen over general-purpose gelcoats where the finished surface has to hold gloss and resist weather and moisture. Ask us for the current technical documentation before you order.',
-    technicalEvidenceStatus: 'pending',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Isophthalic polyester gelcoat' }),
+      Object.freeze({ label: 'Colour / appearance', value: 'Creamy off-white to pale ivory thixotropic gelcoat' }),
+      Object.freeze({ label: 'Application form', value: 'Brush and spray application' }),
+      Object.freeze({ label: 'Acceleration status', value: 'Pre-accelerated' }),
+      Object.freeze({ label: 'Viscosity — low shear', value: '40,000 cPs at 25 °C' }),
+      Object.freeze({ label: 'Viscosity — high shear', value: '1,500 cPs at 25 °C' }),
+      Object.freeze({ label: 'Thixotropic index', value: '26' }),
+      Object.freeze({ label: 'Gel time', value: '8 minutes at 25 °C' }),
+      Object.freeze({ label: 'Styrene content', value: '32% by weight' }),
+      Object.freeze({ label: 'Wet film thickness', value: '700 µm target; 600–800 µm recommended range' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-IGC',
+      revision: 'Rev. 01',
+      date: 'September 2026',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-IGC',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/iso-gelcoat-tds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
     nepalCommercialEvidenceStatus: 'pending',
   }),
   // ISO Resins
@@ -603,7 +690,12 @@ export const products = Object.freeze([
     name: 'ISO Polyester Resin',
     slug: 'iso-polyester-resin',
     images: Object.freeze([
-      Object.freeze({ src: 'iso-polyester-resin-primary.jpg', width: 1254, height: 1254 }),
+      // Display copy of the supplied poster with only its three printed figures
+      // corrected to SPR-TDS-IPR (500 cPs, 15 minutes, 40% styrene); the poster
+      // as supplied printed 280 cPs, 6.5 minutes and 35%, which belong to the
+      // sheet-grade resins. iso-polyester-resin-primary.jpg is kept unchanged
+      // in public/images/products as the record of what was supplied.
+      Object.freeze({ src: 'iso-polyester-resin-corrected-figures.jpg', width: 1254, height: 1254 }),
     ]),
     group: 'iso-resins',
     tier: 'B',
@@ -613,8 +705,36 @@ export const products = Object.freeze([
     descriptor:
       'Isophthalic unsaturated polyester resin for FRP work in wet or chemically aggressive service.',
     overview:
-      'ISO Polyester Resin is an isophthalic unsaturated polyester resin described by the supplier, Samrat Poly Resins, India, as intended for FRP work where chemical resistance, water resistance and long-term durability matter more than they do in general-purpose laminating. Isophthalic resins are the usual step up from an orthophthalic general-purpose grade for tanks, pipework and other wet or chemically loaded service. Ask us for the current technical documentation before you order.',
-    technicalEvidenceStatus: 'pending',
+      'ISO Polyester Resin is an isophthalic unsaturated polyester resin described by the supplier, Samrat Poly Resins, India, as intended for FRP work where chemical resistance, water resistance and long-term durability matter more than they do in general-purpose laminating. Isophthalic resins are the usual step up from an orthophthalic general-purpose grade for tanks, pipework and other wet or chemically loaded service. The supplier Technical Data Sheet for this grade is linked from this page.',
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Resin type', value: 'Isophthalic unsaturated polyester resin' }),
+      Object.freeze({ label: 'Colour / appearance', value: 'Off-white to light beige liquid' }),
+      Object.freeze({ label: 'Acceleration status', value: 'Non-accelerated' }),
+      Object.freeze({ label: 'Viscosity', value: '500 cPs (mPa·s) at 25 °C' }),
+      Object.freeze({ label: 'Gel time', value: '15 minutes at 25 °C' }),
+      Object.freeze({ label: 'Styrene content', value: '40% by weight' }),
+      Object.freeze({ label: 'Specific gravity', value: '1.12 g/cm³ at 25 °C' }),
+      Object.freeze({ label: 'Curing system', value: 'MEKP catalyst with cobalt octoate accelerator' }),
+      Object.freeze({ label: 'Heat deflection temperature', value: '90 °C' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-IPR',
+      revision: 'Rev. 01',
+      date: 'September 2026',
+    }),
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-IPR',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/iso-polyester-resin-tds.pdf',
+      }),
+    ]),
+    technicalEvidenceStatus: 'verified',
     nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
@@ -643,11 +763,17 @@ export const products = Object.freeze([
     technicalSource: Object.freeze({
       issuer: 'Samrat Poly Resins, India',
       type: 'Technical Data Sheet',
+      reference: 'SPR-TDS-FRR',
+      revision: 'Rev. 01',
+      date: 'July 2026',
     }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-FRR',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/fire-retardant-resin-tds.pdf',
       }),
       Object.freeze({
@@ -973,36 +1099,19 @@ export const products = Object.freeze([
     ]),
     titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
     metaDescription:
-      'Polyester Putty Resin — a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS on file.',
+      'Polyester Putty Resin — a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Technical figures confirmed on enquiry.',
     descriptor:
       'Liquid unsaturated polyester resin supplied under the Polyester Putty Resin name.',
     overview:
-      'Polyester Putty Resin is a liquid unsaturated polyester resin listed under this name in the Samrat Poly Resins, India documentation we hold. It is supplied as a liquid resin, not as a ready-mixed putty or body filler. Technical values are published in the supplier’s Technical Data Sheet, which is linked from this page.',
-    technicalHighlights: Object.freeze([
-      Object.freeze({ label: 'Resin type', value: 'Unsaturated polyester resin (liquid)' }),
-      Object.freeze({ label: 'Form', value: 'Liquid resin (not a ready-mixed putty)' }),
-      Object.freeze({ label: 'Viscosity', value: '450\u2013650 cPs (at 25\u00B0C)' }),
-      Object.freeze({ label: 'Solid content', value: '60\u201364%' }),
-      Object.freeze({ label: 'Specific gravity', value: '1.05\u20131.12 g/cm\u00B3 (at 25\u00B0C)' }),
-      Object.freeze({ label: 'Heat deflection temperature', value: '70\u201385\u00B0C (cured)' }),
-    ]),
-    technicalSource: Object.freeze({
-      issuer: 'Samrat Poly Resins, India',
-      type: 'Technical Data Sheet',
-    }),
+      'Polyester Putty Resin is a liquid unsaturated polyester resin listed under this name in the Samrat Poly Resins, India documentation we hold. It is supplied as a liquid resin, not as a ready-mixed putty or body filler. No Technical Data Sheet is offered for it here. The sheet previously linked, SPR-TDS-PET, is a historical PET-modified sheet-grade resin document and is no longer presented as this product’s data sheet; technical values are confirmed on enquiry.',
     documents: Object.freeze([
-      Object.freeze({
-        type: 'Technical Data Sheet',
-        issuer: 'Samrat Poly Resins, India',
-        url: 'https://samratpolyresins.in/tds/pet-resin-tds.pdf',
-      }),
       Object.freeze({
         type: 'Safety Data Sheet',
         issuer: 'Samrat Poly Resins, India',
         url: 'https://samratpolyresins.in/sds/pet-resin-sds.pdf',
       }),
     ]),
-    technicalEvidenceStatus: 'verified',
+    technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
@@ -1250,6 +1359,16 @@ export const products = Object.freeze([
       'Polyester-resin accelerator/promoter for appropriate unsaturated polyester resin curing systems; it is not MEKP hardener and not resin.',
     overview:
       'Cobalt Octoate is an accelerator/promoter used in appropriate unsaturated polyester resin curing systems. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the specific resin system before use.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-COB',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/cobalt-octoate-tds.pdf',
+      }),
+    ]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
@@ -1271,6 +1390,16 @@ export const products = Object.freeze([
       'Reactive monomer / reactive diluent for appropriate polyester-resin systems.',
     overview:
       'Styrene Monomer is a reactive monomer and reactive diluent used in appropriate polyester-resin systems. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the specific resin system before use.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-STY',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/styrene-monomer-tds.pdf',
+      }),
+    ]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
@@ -1290,6 +1419,16 @@ export const products = Object.freeze([
       'Professional thinner/solvent blend for appropriate coating and cleanup contexts.',
     overview:
       'NC Thinner is a professional thinner/solvent blend for appropriate coating and cleanup contexts. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the intended product system before use.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-NCT',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/nc-thinner-tds.pdf',
+      }),
+    ]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
@@ -1309,6 +1448,16 @@ export const products = Object.freeze([
       'Application tool for resin, coatings, gelcoat and FRP fabrication.',
     overview:
       'Paint Brushes are application tools for resin, coatings, gelcoat and FRP fabrication work. Samrat FRP Traders supplies them for the Nepal market; confirm the appropriate brush selection for the intended application during enquiry.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Product Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-PDS-BRS',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/pds/paint-brushes-pds.pdf',
+      }),
+    ]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
@@ -1328,6 +1477,16 @@ export const products = Object.freeze([
       'Industrial mineral/filler powder for relevant composite and industrial application contexts.',
     overview:
       'Soap Stone Powder is an industrial mineral/filler powder for relevant composite and industrial application contexts. Samrat FRP Traders supplies it for the Nepal market; confirm suitability for the intended formulation or process during enquiry.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-SSP',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/soap-stone-powder-tds.pdf',
+      }),
+    ]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
@@ -1347,6 +1506,16 @@ export const products = Object.freeze([
       'FRP mould-release / parting-wax product for mould preparation and release contexts.',
     overview:
       'Wax Polish is used in FRP mould-release and parting-wax preparation contexts. Samrat FRP Traders supplies it for the Nepal market; confirm suitability with the intended mould preparation and release process during enquiry.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-WAX',
+        revision: 'Rev. 01',
+        date: 'September 2026',
+        url: '/tds/wax-polish-tds.pdf',
+      }),
+    ]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),

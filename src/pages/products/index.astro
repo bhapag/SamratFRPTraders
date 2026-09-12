@@ -1,11 +1,9 @@
 ---
 import CatalogCard from '../../components/CatalogCard.astro';
 import { catalogGroups, categoryHref, productHref, products, productsInGroup } from '../../data/products.js';
-import { documentStats } from '../../data/documents.js';
 import { productImageAlt } from '../../utils/product-page.js';
 import Base from '../../layouts/Base.astro';
 
-const docs = documentStats();
 ---
 <Base
   lang="ne"
@@ -98,10 +96,10 @@ const docs = documentStats();
         <div class="catalogue-download" data-reveal>
           <div>
             <p class="eyebrow">कागजात</p>
-            <h2>TDS र SDS कागजात पुस्तकालय।</h2>
+            <h2>आपूर्तिकर्ता डाटा शीट पुस्तकालय।</h2>
             <p>
-              {docs.totalProducts} मध्ये {docs.documentedProducts} उत्पादनका आपूर्तिकर्ता डाटा शीट —
-              जम्मा {docs.documentEntries} कागजात, उत्पादन परिवारअनुसार एकै ठाउँमा।
+              आपूर्तिकर्ताले जारी गरेका Technical, Safety र Product Data Sheet, उत्पादन परिवारअनुसार
+              एकै ठाउँमा — प्रत्येक उत्पादनमा त्यसका लागि जारी भएका कागजात मात्र।
             </p>
           </div>
           <a class="button button-primary" href="/documents/">पुस्तकालय खोल्नुहोस्</a>

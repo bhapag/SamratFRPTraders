@@ -45,9 +45,8 @@ const t = isNe
         `मानहरूका स्रोत: ${list} ले जारी गरेको प्राविधिक डाटा शीट। यी आपूर्तिकर्ताले प्रकाशित गरेका मान हुन्, Samrat FRP Traders को परीक्षण वा प्रमाणीकरण होइन। परीक्षण अवस्था र सहनशीलताका लागि सम्बन्धित TDS हेर्नुहोस्।`,
       emptyCell: 'प्रकाशित छैन',
       docsEyebrow: 'कागजात',
-      docsTitle: 'यस परिवारका TDS र SDS',
-      docsHave: (a, b, n) =>
-        `यस परिवारका ${b} मध्ये ${a} उत्पादनका कागजात फाइलमा छन् — जम्मा ${n} कागजात, सबै PDF रूपमा सीधै खुल्छन्।`,
+      docsTitle: 'यस परिवारका डाटा शीट',
+      docsHave: 'यस परिवारका प्रत्येक उत्पादनमा त्यसका लागि जारी भएका कागजात मात्र सूचीबद्ध छन्, सबै PDF रूपमा सीधै खुल्छन्।',
       docsNone: 'यस परिवारका कुनै पनि उत्पादनको आपूर्तिकर्ता कागजात अहिले हामीसँग छैन।',
       docsMissing: 'कागजात नभएका उत्पादन:',
       docsLink: 'कागजात पुस्तकालयमा हेर्नुहोस्',
@@ -64,9 +63,8 @@ const t = isNe
         `Values sourced from the Technical Data Sheets issued by ${list}. These are supplier-published values, not Samrat FRP Traders testing or certification. Check the relevant TDS for test conditions and tolerances.`,
       emptyCell: 'Not published',
       docsEyebrow: 'Documentation',
-      docsTitle: 'TDS and SDS for this family',
-      docsHave: (a, b, n) =>
-        `${a} of the ${b} products in this family have documents on file — ${n} documents in total, each opening directly as a PDF.`,
+      docsTitle: 'Data sheets for this family',
+      docsHave: 'Each product in this family lists only the documents issued for it, each opening directly as a PDF.',
       docsNone: 'We do not currently hold supplier documents for any product in this family.',
       docsMissing: 'Without documents on file:',
       docsLink: 'Open in the document library',
@@ -117,7 +115,7 @@ const t = isNe
     <h2>{t.docsTitle}</h2>
     <p>
       {docs.documented.length
-        ? t.docsHave(docs.documented.length, docs.products.length, docs.entries)
+        ? t.docsHave
         : t.docsNone}
     </p>
     {docs.undocumented.length > 0 && (

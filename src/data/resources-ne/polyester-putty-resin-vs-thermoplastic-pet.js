@@ -4,7 +4,7 @@ export default {
   seo: {
     title: "Polyester Putty Resin बनाम Thermoplastic PET | Liquid Sheet Grade खरिदकर्ता गाइड",
     ogTitle: "Polyester Putty Resin: Liquid Grade बनाम Thermoplastic PET",
-    ogDescription: "PET labels लाई interchangeable मान्नुको सट्टा समर्पित Polyester Putty Resin TDS सहित सही material form छान्नुहोस्।",
+    ogDescription: "PET labels लाई interchangeable मान्नुको सट्टा Polyester Putty Resin का लागि सही material form छान्नुहोस्।",
     keywords: [
       "Polyester Putty Resin vs Thermoplastic PET",
       "Liquid PET Modified Resin",
@@ -23,9 +23,9 @@ export default {
     title: "Material forms छुट्टाछुट्टै राख्नुहोस्",
     headers: ["खरिदकर्ताको प्रश्न", "Samrat Polyester Putty Resin", "Thermoplastic PET"],
     rows: [
-      ["Material रूप", "Pale-yellow liquid PET-modified UPR sheet grade", "Solid commodity-plastic chips वा pellets"],
-      ["समीक्षा गर्ने document", "हालको Polyester Putty Resin TDS", "आवश्यक thermoplastic grade को document"],
-      ["Samrat grade सन्दर्भ", "PET sheets, fibre sheets, FRP sheet lamination र panels", "liquid-resin TDS ले वर्णन गर्ने product route होइन"]
+      ["Material रूप", "Liquid PET-modified UPR sheet grade", "Solid commodity-plastic chips वा pellets"],
+      ["समीक्षा गर्ने document", "आपूर्तिकर्ता SDS फाइलमा; प्राविधिक मान सोधपुछमा पुष्टि", "आवश्यक thermoplastic grade को document"],
+      ["Samrat grade सन्दर्भ", "PET sheets, fibre sheets, FRP sheet lamination र panels", "Polyester Putty Resin का लागि वर्णन गरिएको liquid resin route होइन"]
     ],
     note: "Samrat उत्पादन एउटा liquid raw resin हो, thermoplastic chips होइन र ready-made putty वा filler compound पनि होइन।"
   },
@@ -36,9 +36,9 @@ export default {
       description: "स्वीकृत liquid sheet-grade route को उत्पादन page खोल्नुहोस्।"
     },
     {
-      href: "/tds/pet-resin-tds.pdf",
-      label: "Polyester Putty Resin TDS समीक्षा गर्नुहोस्",
-      description: "हालको grade, liquid रूप र प्रकाशित प्राविधिक data पुष्टि गर्नुहोस्।"
+      href: "/sds/pet-resin-sds.pdf",
+      label: "आपूर्तिकर्ता Safety Data Sheet हेर्नुहोस्",
+      description: "SPR-SDS-PET — PET Resin नाममा जारी, Polyester Putty Resin सम्बन्धित नामका रूपमा।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
@@ -54,11 +54,11 @@ export default {
   faqs: [
     {
       q: "के यहाँको Polyester Putty Resin polyethylene terephthalate chips वा pellets जस्तै हो?",
-      a: "होइन। समर्पित Polyester Putty Resin TDS ले PET-modified liquid unsaturated polyester resin पहिचान गर्छ। हालको catalogue ले फरक रूप र data भएको thermoplastic PET chip item लाई छुट्टै वर्णन गर्छ।"
+      a: "होइन। आपूर्तिकर्ता Safety Data Sheet ले Polyester Putty Resin लाई PET-modified liquid unsaturated polyester resin को सम्बन्धित नामका रूपमा पहिचान गर्छ। हालको catalogue ले फरक रूप र data भएको thermoplastic PET chip item लाई छुट्टै वर्णन गर्छ।"
     },
     {
       q: "के Polyester Putty Resin एउटा ready-made putty वा body filler हो?",
-      a: "होइन। Samrat FRP Traders ले यो grade लाई liquid raw resin को रूपमा आपूर्ति गर्छ, pre-mixed putty वा body filler को रूपमा होइन। liquid-resin TDS बाट finished-product properties अनुमान गर्न सकिँदैन।"
+      a: "होइन। Samrat FRP Traders ले यो grade लाई liquid raw resin को रूपमा आपूर्ति गर्छ, pre-mixed putty वा body filler को रूपमा होइन। liquid-resin डाटाबाट finished-product properties अनुमान गर्न सकिँदैन।"
     },
     {
       q: "RFQ मा material form किन बताउनुपर्छ?",
@@ -69,7 +69,7 @@ export default {
     {
       heading: "Liquid Polyester Putty Resin मार्ग",
       body: [
-        "Polyester Putty Resin page र समर्पित TDS ले pale-yellow liquid sheet grade को रूपमा आपूर्ति गरिने PET-modified unsaturated polyester resin वर्णन गर्छन्। यसका प्रकाशित सन्दर्भहरू PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing हुन्।",
+        "Polyester Putty Resin page र आपूर्तिकर्ता Safety Data Sheet ले liquid sheet grade को रूपमा आपूर्ति गरिने PET-modified unsaturated polyester resin वर्णन गर्छन्। यसका सूचीबद्ध प्रयोग PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing हुन्।",
         "यो एउटा liquid-resin selection छलफल हो। नाममा PET भएको हरेक material को label को रूपमा प्रयोग गर्नुको सट्टा, उत्पादन document लाई वास्तविक sheet वा laminate आवश्यकतासँगै पढ्नुपर्छ।"
       ]
     },

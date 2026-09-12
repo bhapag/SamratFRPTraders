@@ -8,11 +8,9 @@ import {
   products,
   productsInGroup,
 } from '../../../data/products.js';
-import { documentStats } from '../../../data/documents.js';
 import { productImageAlt } from '../../../utils/product-page.js';
 import Base from '../../../layouts/Base.astro';
 
-const docs = documentStats();
 ---
 <Base
   title="Product Catalogue — FRP Materials in Nepal"
@@ -103,13 +101,13 @@ const docs = documentStats();
       <div class="catalogue-support">
         <StatusNotice
           title="Supplier documentation"
-          message={`Supplier-issued technical and safety data sheets are on file for ${docs.documentedProducts} of the ${docs.totalProducts} products here — ${docs.documentEntries} documents, collected in the TDS & SDS library. The other ${docs.undocumentedProducts} have no supplier document available to us, and the library names them rather than leaving the gap unstated. Technical data is attributed to its issuer. Pricing is on request; packaging and stock terms are confirmed during enquiry.`}
+          message="Supplier-issued Technical, Safety and Product Data Sheets are collected in the document library, and each product lists only the documents issued for it. Technical data is attributed to its issuer. Pricing is on request; packaging and stock terms are confirmed during enquiry."
         />
 
         <div class="catalogue-download" data-reveal>
           <div>
             <p class="eyebrow">Documentation</p>
-            <h2>TDS &amp; SDS document library.</h2>
+            <h2>Supplier data sheet library.</h2>
             <p>Every supplier data sheet in the catalogue, grouped by product family.</p>
           </div>
           <a class="button button-primary" href="/en/documents/">Open the library</a>

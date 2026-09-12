@@ -9,9 +9,11 @@
 // Scope rules that apply to every guide here:
 //   - Samrat FRP Traders is a trader/supplier/importer/reseller, never a
 //     manufacturer, and asserts no formulation, approval or performance claim.
-//   - None of these six products currently has a supplier TDS/SDS on file, so
-//     no grade values, dosages, mixing ratios or safety procedures are stated.
-//     General industry context only; the current supplier document governs.
+//   - Five of these products have a supplier Technical Data Sheet and Paint
+//     Brushes a Product Data Sheet (September 2026); none has a Safety Data
+//     Sheet. These guides state no grade values, dosages, mixing ratios or
+//     safety procedures: general industry context only, and the supplier
+//     document linked from each product page governs.
 //   - Retired slugs are 301-redirected per product in vercel.json.
 
 const commercialPosition = 'Supplied by Samrat FRP Traders as a trader, supplier, importer and reseller';

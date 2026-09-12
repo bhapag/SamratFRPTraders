@@ -3,14 +3,14 @@
 // rather than a numerical one: it gets treated as paint, as a structural layer,
 // or as interchangeable with topcoat. The cluster answers those first, then the
 // ISO-versus-GP selection question, then the defects buyers name in enquiries.
-// No supplier document for this grade is on file, so no figure is stated.
+// ISO Gelcoat figures live in its supplier TDS (SPR-TDS-IGC), linked from the product page.
 
 import {
   commercialPosition,
-  docsPending,
+  docsTdsOnFile,
   enquiryLink,
   neCommercialPosition,
-  neDocsPending,
+  neDocsTdsOnFile,
   neEnquiryLink,
 } from './shared.js';
 
@@ -102,7 +102,7 @@ export const isoGelcoatCluster = [
       },
       {
         q: 'Do you have a data sheet for ISO Gelcoat?',
-        a: 'Not yet. The supplier Technical Data Sheet and Safety Data Sheet for that grade are not currently in our document library, so no figures for it appear on this site. GP Gelcoat Resin, the general-purpose grade, does have its supplier documents on file.',
+        a: 'Yes. The supplier Technical Data Sheet for ISO Gelcoat, SPR-TDS-IGC (Rev. 01, September 2026), is linked from its product page and listed in our document library. GP Gelcoat Resin, the general-purpose grade, has its supplier Technical Data Sheet and Safety Data Sheet on file as well.',
       },
     ],
     sections: [
@@ -141,7 +141,7 @@ export const isoGelcoatCluster = [
         heading: 'What we supply, and in what role',
         body: [
           'Samrat FRP Traders supplies and imports gelcoats for the Nepal market from Samrat Poly Resins, India. We are a trader, supplier, importer and reseller. We do not manufacture, formulate or test gelcoat, and we do not issue approvals for any application.',
-          'Two grades sit in the range. GP Gelcoat Resin is the general-purpose orthophthalic route and has its supplier Technical Data Sheet and Safety Data Sheet on file. ISO Gelcoat is the isophthalic route, newer to the range, and its supplier documents are not yet on file — which is why you will find no viscosity, thixotropic index, film thickness or gel time figures for it anywhere on this site.',
+          'Two grades sit in the range. GP Gelcoat Resin is the general-purpose route and has its supplier Technical Data Sheet and Safety Data Sheet on file. ISO Gelcoat is the isophthalic route, newer to the range, and has its supplier Technical Data Sheet on file; the values it states — viscosity, thixotropic index, gel time, wet film thickness — are published on its product page with the issuer named.',
         ],
       },
     ],
@@ -200,7 +200,7 @@ export const isoGelcoatCluster = [
         },
         {
           q: 'के ISO Gelcoat को data sheet छ?',
-          a: 'अहिले छैन। त्यस grade को supplier Technical Data Sheet र Safety Data Sheet हाम्रो कागजात पुस्तकालयमा छैनन्, त्यसैले यस साइटमा त्यसका अंक कतै छैनन्। सामान्य प्रयोजनको GP Gelcoat Resin का supplier कागजात भने फाइलमा छन्।',
+          a: 'छ। ISO Gelcoat को आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-IGC (Rev. 01, September 2026), त्यसको उत्पादन पृष्ठबाट लिंक गरिएको छ र हाम्रो कागजात पुस्तकालयमा पनि छ। सामान्य प्रयोजनको GP Gelcoat Resin का आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet पनि फाइलमा छन्।',
         },
       ],
       sections: [
@@ -239,7 +239,7 @@ export const isoGelcoatCluster = [
           heading: 'हामी के आपूर्ति गर्छौं, कुन भूमिकामा',
           body: [
             'Samrat FRP Traders ले Samrat Poly Resins, India बाट नेपाली बजारका लागि gelcoat आपूर्ति र आयात गर्छ। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ। हामी gelcoat उत्पादन, formulation वा परीक्षण गर्दैनौँ, र कुनै प्रयोगका लागि approval जारी गर्दैनौँ।',
-            'श्रेणीमा दुई grade छन्। GP Gelcoat Resin सामान्य प्रयोजनको orthophthalic बाटो हो र यसका supplier Technical Data Sheet तथा Safety Data Sheet फाइलमा छन्। ISO Gelcoat isophthalic बाटो हो, श्रेणीमा नयाँ, र यसका supplier कागजात अझै फाइलमा छैनन् — त्यसैले यस साइटमा त्यसका viscosity, thixotropic index, film मोटाइ वा gel time का अंक कतै भेटिँदैनन्।',
+            'श्रेणीमा दुई grade छन्। GP Gelcoat Resin सामान्य प्रयोजनको बाटो हो र यसका आपूर्तिकर्ता Technical Data Sheet तथा Safety Data Sheet फाइलमा छन्। ISO Gelcoat isophthalic बाटो हो, श्रेणीमा नयाँ, र यसको आपूर्तिकर्ता Technical Data Sheet फाइलमा छ; त्यसले उल्लेख गरेका मान — viscosity, thixotropic index, gel time, wet film मोटाइ — जारीकर्ताको नामसहित उत्पादन पृष्ठमा प्रकाशित छन्।',
           ],
         },
       ],
@@ -274,7 +274,7 @@ export const isoGelcoatCluster = [
       'What it buys': 'Gloss retention and resistance to water in long or immersed service',
       'Visual check': 'None — the two are indistinguishable once pigmented and cured',
       'Verification route': 'The manufacturer’s document naming the resin type, plus traceability',
-      'Document status': docsPending,
+      'Document status': docsTdsOnFile,
     },
     relatedSlugs: ['what-is-gelcoat', 'how-to-select-a-gelcoat', 'gelcoat-defects-and-what-causes-them'],
     recommendedLinks: [
@@ -289,7 +289,7 @@ export const isoGelcoatCluster = [
     ],
     comparisonTable: {
       title: 'ISO Gelcoat and GP Gelcoat side by side',
-      note: 'This compares gelcoat families in general terms. No figures are given for ISO Gelcoat because no supplier document for that grade is on file yet. Confirm any specific grade against the manufacturer’s current documentation.',
+      note: 'This compares gelcoat families in general terms, so grade figures are not tabulated here. Each grade’s published values are on its own product page, taken from its supplier Technical Data Sheet with the issuer named. Confirm any specific grade against the manufacturer’s current documentation.',
       headers: ['Buyer question', 'ISO (isophthalic) gelcoat', 'GP (orthophthalic) gelcoat'],
       rows: [
         ['Backbone chemistry', 'Built on isophthalic acid', 'Built on orthophthalic acid'],
@@ -317,7 +317,7 @@ export const isoGelcoatCluster = [
         ],
         [
           'Document position on this site',
-          'No supplier TDS or SDS on file yet',
+          'Supplier TDS on file and linked from the product page',
           'Supplier TDS and SDS on file and linked from the product page',
         ],
       ],
@@ -372,7 +372,7 @@ export const isoGelcoatCluster = [
         heading: 'What we can document today',
         body: [
           'Samrat FRP Traders supplies and imports both gelcoat routes for Nepal from Samrat Poly Resins, India. We are the trader, supplier, importer and reseller, and we do not manufacture, formulate or test gelcoat.',
-          'GP Gelcoat Resin has its supplier Technical Data Sheet and Safety Data Sheet on file, and both are linked from its product page. ISO Gelcoat does not yet, so no figures for it are published anywhere on this site. If your decision depends on a published property of the isophthalic grade, raise it at the enquiry stage and we will put the question to the supplier rather than fill the gap ourselves.',
+          'GP Gelcoat Resin has its supplier Technical Data Sheet and Safety Data Sheet on file, and ISO Gelcoat has its supplier Technical Data Sheet on file; each is linked from its own product page. If your decision depends on a property neither sheet publishes, raise it at the enquiry stage and we will put the question to the supplier rather than estimate on their behalf.',
         ],
       },
     ],
@@ -397,7 +397,7 @@ export const isoGelcoatCluster = [
         'यसले के दिन्छ': 'लामो वा डुबेको सेवामा चमक टिकाउ र पानी सहने क्षमता',
         'आँखाले जाँच': 'हुँदैन — रङ लागेर जमेपछि दुवै उस्तै देखिन्छन्',
         'पुष्टिको बाटो': 'Resin type उल्लेख भएको निर्माता कागजात र traceability',
-        'कागजात अवस्था': neDocsPending,
+        'कागजात अवस्था': neDocsTdsOnFile,
       },
       recommendedLinks: [
         neProduct,
@@ -411,7 +411,7 @@ export const isoGelcoatCluster = [
       ],
       comparisonTable: {
         title: 'ISO Gelcoat र GP Gelcoat आमनेसामने',
-        note: 'यो तुलना gelcoat परिवारको सामान्य वर्णन हो। ISO Gelcoat का अंक दिइएका छैनन् किनभने त्यस grade को supplier कागजात अझै फाइलमा छैन। कुनै grade निर्माताको हालको कागजातबाट पुष्टि गर्नुहोस्।',
+        note: 'यो तुलना gelcoat परिवारको सामान्य वर्णन हो, त्यसैले यहाँ grade का अंक तालिकामा राखिएका छैनन्। प्रत्येक grade का प्रकाशित मान त्यसकै उत्पादन पृष्ठमा, जारीकर्ताको नामसहित आपूर्तिकर्ता Technical Data Sheet बाट राखिएका छन्। कुनै grade निर्माताको हालको कागजातबाट पुष्टि गर्नुहोस्।',
         headers: ['खरिदकर्ताको प्रश्न', 'ISO (isophthalic) gelcoat', 'GP (orthophthalic) gelcoat'],
         rows: [
           ['संरचनाको रसायन', 'Isophthalic acid मा बनेको', 'Orthophthalic acid मा बनेको'],
@@ -439,7 +439,7 @@ export const isoGelcoatCluster = [
           ],
           [
             'यस साइटमा कागजात अवस्था',
-            'Supplier TDS/SDS अझै फाइलमा छैन',
+            'Supplier TDS फाइलमा छ र उत्पादन पृष्ठबाट लिंक गरिएको छ',
             'Supplier TDS र SDS फाइलमा छन् र उत्पादन पृष्ठबाट लिंक गरिएका छन्',
           ],
         ],
@@ -494,7 +494,7 @@ export const isoGelcoatCluster = [
           heading: 'आज हामी के कागजात देखाउन सक्छौँ',
           body: [
             'Samrat FRP Traders ले Samrat Poly Resins, India बाट नेपालका लागि दुवै gelcoat बाटो आपूर्ति र आयात गर्छ। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ; gelcoat उत्पादन, formulation वा परीक्षण गर्दैनौँ।',
-            'GP Gelcoat Resin का supplier Technical Data Sheet र Safety Data Sheet फाइलमा छन् र दुवै उत्पादन पृष्ठबाट लिंक गरिएका छन्। ISO Gelcoat का अझै छैनन्, त्यसैले यस साइटमा त्यसका अंक कतै प्रकाशित छैनन्। तपाईंको निर्णय isophthalic grade को कुनै प्रकाशित गुणमा भर पर्छ भने सोधपुछकै बेला उठाउनुहोस् — हामी आफैँ खाली ठाउँ भर्नुको सट्टा आपूर्तिकर्तालाई सोध्नेछौँ।',
+            'GP Gelcoat Resin का आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet फाइलमा छन्, र ISO Gelcoat को आपूर्तिकर्ता Technical Data Sheet फाइलमा छ; प्रत्येक आफ्नै उत्पादन पृष्ठबाट लिंक गरिएको छ। तपाईंको निर्णय कुनै पनि sheet ले प्रकाशित नगरेको गुणमा भर पर्छ भने सोधपुछकै बेला उठाउनुहोस् — हामी आपूर्तिकर्ताको तर्फबाट अनुमान गर्नुको सट्टा प्रश्न उनीहरूसमक्ष पुर्‍याउँछौँ।',
           ],
         },
       ],
@@ -614,7 +614,7 @@ export const isoGelcoatCluster = [
         body: [
           'Samrat FRP Traders is a trader, supplier, importer and reseller of FRP materials in Nepal. We supply gelcoat manufactured by Samrat Poly Resins, India. We do not formulate it, test it, inspect mouldings or issue technical determinations about a production problem.',
           'What we can do is put a specific, well-described question to the supplier, and supply the documentation they publish for the grade you are using. A useful description covers the part and the mould, the conditions on the day, how the gelcoat was applied and how long after gelling the laminate went on. A photograph on its own rarely settles anything.',
-          'Where a grade’s supplier documentation is not yet in our library, as is currently the case for ISO Gelcoat, we will tell you that plainly rather than answer from a general article.',
+          'Where a grade’s supplier documentation does not answer the question, we will tell you that plainly rather than answer from a general article.',
         ],
       },
     ],
@@ -723,7 +723,7 @@ export const isoGelcoatCluster = [
           body: [
             'Samrat FRP Traders नेपालमा FRP सामग्रीको व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो। हामी Samrat Poly Resins, India ले उत्पादन गरेको gelcoat आपूर्ति गर्छौं। हामी यसको formulation, परीक्षण, moulding निरीक्षण वा उत्पादन समस्याबारे प्राविधिक निर्णय गर्दैनौँ।',
             'हामीले गर्न सक्ने कुरा भनेको स्पष्ट र विस्तृत प्रश्न आपूर्तिकर्तासमक्ष पुर्‍याउने र तपाईंले प्रयोग गरिरहेको grade का लागि उनीहरूले प्रकाशित गरेको कागजात उपलब्ध गराउने हो। उपयोगी विवरणमा भाग र साँचो, त्यस दिनको अवस्था, gelcoat कसरी लगाइयो र जमेको कति पछि laminate लाग्यो भन्ने पर्छ। फोटो मात्रले प्रायः केही टुंगो लगाउँदैन।',
-            'कुनै grade को supplier कागजात हाम्रो पुस्तकालयमा छैन भने — जस्तो अहिले ISO Gelcoat को छैन — हामी सामान्य लेखबाट उत्तर दिनुको सट्टा त्यही कुरा स्पष्ट भन्नेछौँ।',
+            'कुनै grade को आपूर्तिकर्ता कागजातले प्रश्नको उत्तर दिँदैन भने हामी सामान्य लेखबाट उत्तर दिनुको सट्टा त्यही कुरा स्पष्ट भन्नेछौँ।',
           ],
         },
       ],
@@ -828,7 +828,7 @@ export const isoGelcoatCluster = [
         body: [
           'Before a production quantity is committed, it is worth having four things settled: the grade and its resin type, confirmed from the manufacturer’s document rather than from a product name; the film thickness and cure guidance the manufacturer publishes for that grade; the safety documentation your workshop needs in order to write a handling procedure; and the colour and batch arrangement for the quantity you are taking.',
           'Samrat FRP Traders supplies and imports gelcoat for Nepal from Samrat Poly Resins, India. We are a trader, supplier, importer and reseller, and we do not manufacture, formulate, test or approve gelcoat for an application.',
-          'GP Gelcoat Resin has its supplier Technical Data Sheet and Safety Data Sheet on file. ISO Gelcoat does not yet, so for that grade we can describe what the supplier positions it for and put your question to them, but we publish no figures of our own.',
+          'GP Gelcoat Resin has its supplier Technical Data Sheet and Safety Data Sheet on file, and ISO Gelcoat has its supplier Technical Data Sheet on file. For either grade we publish only what the manufacturer’s sheet states, and put anything it does not cover to the supplier.',
         ],
       },
     ],
@@ -922,7 +922,7 @@ export const isoGelcoatCluster = [
           body: [
             'उत्पादन परिमाण तय गर्नुअघि चार कुरा टुंगिनु राम्रो: grade र त्यसको resin type — उत्पादनको नामबाट होइन, निर्माताको कागजातबाट पुष्टि गरिएको; त्यस grade का लागि निर्माताले प्रकाशित गरेको film मोटाइ र cure निर्देशन; handling कार्यविधि लेख्न कार्यशालालाई चाहिने सुरक्षा कागजात; अनि तपाईंले लिने परिमाणका लागि रङ र batch को व्यवस्था।',
             'Samrat FRP Traders ले Samrat Poly Resins, India बाट नेपालका लागि gelcoat आपूर्ति र आयात गर्छ। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ; gelcoat उत्पादन, formulation, परीक्षण वा कुनै प्रयोगका लागि approval गर्दैनौँ।',
-            'GP Gelcoat Resin का supplier Technical Data Sheet र Safety Data Sheet फाइलमा छन्। ISO Gelcoat का अझै छैनन् — त्यसैले त्यस grade का लागि आपूर्तिकर्ताले कुन प्रयोग तोकेका छन् भन्न र तपाईंको प्रश्न उनीहरूसमक्ष पुर्‍याउन सक्छौँ, तर आफ्नो तर्फबाट कुनै अंक प्रकाशित गर्दैनौँ।',
+            'GP Gelcoat Resin का आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet फाइलमा छन्, र ISO Gelcoat को आपूर्तिकर्ता Technical Data Sheet फाइलमा छ। कुनै पनि grade का लागि हामी निर्माताको sheet ले भनेको मात्र प्रकाशित गर्छौँ, र त्यसले नसमेटेको कुरा आपूर्तिकर्तासमक्ष पुर्‍याउँछौँ।',
           ],
         },
       ],

@@ -2,14 +2,14 @@
 // The dominant buyer confusion for this grade is the letters themselves:
 // "ISO" here is isophthalic acid, not an ISO certification. Every guide in this
 // cluster is built around a question buyers actually ask, and none of them
-// states a grade value, because no supplier document for this grade is on file.
+// states a grade value: the figures live in the supplier TDS (SPR-TDS-IPR), linked from the product page.
 
 import {
   commercialPosition,
-  docsPending,
+  docsTdsOnFile,
   enquiryLink,
   neCommercialPosition,
-  neDocsPending,
+  neDocsTdsOnFile,
   neEnquiryLink,
 } from './shared.js';
 
@@ -53,7 +53,7 @@ export const isoPolyesterResinCluster = [
       'What it does not mean': 'An ISO certification, an ISO standard number, or a quality tier',
       'Typically specified for': 'Laminates that stay wet or meet chemicals over a long service life',
       'Commercial position': commercialPosition,
-      'Document status': docsPending,
+      'Document status': docsTdsOnFile,
     },
     relatedSlugs: [
       'iso-polyester-resin-vs-gp-polyester-resin',
@@ -97,7 +97,7 @@ export const isoPolyesterResinCluster = [
       },
       {
         q: 'Can you send the data sheet for your ISO Polyester Resin?',
-        a: 'Not yet. The supplier Technical Data Sheet and Safety Data Sheet for this grade are not currently in our document library. Contact us and we will confirm what Samrat Poly Resins, India publishes for the grade at the time of your enquiry. We would rather say that than publish a figure we cannot evidence.',
+        a: 'Yes. The supplier Technical Data Sheet for this grade, SPR-TDS-IPR (Rev. 01, September 2026), is linked from the ISO Polyester Resin product page and listed in our document library. It is issued by Samrat Poly Resins, India and states the grade’s viscosity, gel time, styrene content, cure system and cured-resin properties.',
       },
     ],
     sections: [
@@ -138,7 +138,7 @@ export const isoPolyesterResinCluster = [
         heading: 'What we can and cannot tell you about our grade',
         body: [
           'Samrat FRP Traders supplies and imports ISO Polyester Resin for the Nepal market. The supplier is Samrat Poly Resins, India, a separate business. We are the trader, supplier, importer and reseller, and we do not manufacture, formulate or test resin.',
-          'For this particular grade we do not yet hold the supplier’s Technical Data Sheet or Safety Data Sheet. That is why you will not find viscosity, gel time, styrene content or storage figures anywhere on our ISO Polyester Resin pages. Publishing numbers we cannot evidence would make the pages look more complete and be worth less than nothing to a buyer who then specified against them.',
+          'The supplier’s Technical Data Sheet for this grade is in our document library and linked from the product page, where its headline values are published with the issuer, reference and revision named. This guide does not repeat those figures, so it cannot drift out of step with the sheet.',
           'What we can do is tell you what the supplier positions the grade for, put your question to them, and send you what they currently publish. If your own quality process needs a specific document before you can order, say so at the enquiry stage rather than after.',
         ],
       },
@@ -171,7 +171,7 @@ export const isoPolyesterResinCluster = [
         'यसको अर्थ होइन': 'ISO प्रमाणपत्र, ISO मानक नम्बर वा गुणस्तर तह',
         'सामान्यतया कहाँ तोकिन्छ': 'लामो समय पानी वा रसायनको सम्पर्कमा रहने laminate',
         'व्यावसायिक भूमिका': neCommercialPosition,
-        'कागजात अवस्था': neDocsPending,
+        'कागजात अवस्था': neDocsTdsOnFile,
       },
       recommendedLinks: [
         neProduct,
@@ -210,7 +210,7 @@ export const isoPolyesterResinCluster = [
         },
         {
           q: 'तपाईंको ISO Polyester Resin को data sheet पठाउन सक्नुहुन्छ?',
-          a: 'अहिले सक्दैनौँ। यस grade को supplier Technical Data Sheet र Safety Data Sheet हाम्रो कागजात पुस्तकालयमा छैन। सम्पर्क गर्नुहोस्; सोधपुछका बेला Samrat Poly Resins, India ले के प्रकाशित गरेका छन् हामी पुष्टि गरेर पठाउँछौँ। प्रमाणित गर्न नसक्ने अंक प्रकाशित गर्नुभन्दा यो भन्नु उचित ठान्छौँ।',
+          a: 'सक्छौँ। यस grade को आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-IPR (Rev. 01, September 2026), ISO Polyester Resin उत्पादन पृष्ठबाट लिंक गरिएको छ र हाम्रो कागजात पुस्तकालयमा पनि छ। Samrat Poly Resins, India द्वारा जारी यो sheet ले grade को viscosity, gel time, styrene content, cure प्रणाली र जमेपछिका गुण उल्लेख गर्छ।',
         },
       ],
       sections: [
@@ -251,7 +251,7 @@ export const isoPolyesterResinCluster = [
           heading: 'हाम्रो grade बारे के भन्न सक्छौँ, के सक्दैनौँ',
           body: [
             'Samrat FRP Traders ले नेपाली बजारका लागि ISO Polyester Resin आपूर्ति र आयात गर्दछ। आपूर्तिकर्ता Samrat Poly Resins, India हो — छुट्टै व्यवसाय। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ; resin उत्पादन, formulation वा परीक्षण गर्दैनौँ।',
-            'यस grade का लागि आपूर्तिकर्ताको Technical Data Sheet र Safety Data Sheet हामीसँग अहिले छैन। त्यसैले हाम्रा ISO Polyester Resin पृष्ठमा viscosity, gel time, styrene content वा भण्डारणका अंक कतै भेट्नुहुन्न। प्रमाणित गर्न नसकिने अंक राख्दा पृष्ठ बढी पूर्ण देखिन्थ्यो, तर त्यही अंकका आधारमा specification बनाउने खरिदकर्ताका लागि त्यो शून्यभन्दा तल हुन्थ्यो।',
+            'यस grade को आपूर्तिकर्ता Technical Data Sheet हाम्रो कागजात पुस्तकालयमा छ र उत्पादन पृष्ठबाट लिंक गरिएको छ; त्यहाँ जारीकर्ता, reference र revision सहित मुख्य मान प्रकाशित छन्। यो गाइडले ती अंक दोहोर्‍याउँदैन, ताकि गाइड कहिल्यै sheet भन्दा फरक नपरोस्।',
             'हामीले गर्न सक्ने कुरा यो हो: आपूर्तिकर्ताले यस grade लाई कुन प्रयोगका लागि राखेका छन् भन्ने बताउने, तपाईंको प्रश्न उनीहरूसम्म पुर्‍याउने, र उनीहरूले हाल प्रकाशित गरेको पठाउने। अर्डरअघि कुनै निश्चित कागजात चाहिने हो भने सोधपुछकै बेला भन्नुहोस्, पछि होइन।',
           ],
         },
@@ -293,7 +293,7 @@ export const isoPolyesterResinCluster = [
       'What it changes': 'Resistance to hydrolysis over a long wet or chemical service life',
       'What it does not change': 'The cure system, the reinforcement or the lay-up process',
       'Wrong answer that costs most': 'A general-purpose grade in permanently wet or chemical service',
-      'Document status': docsPending,
+      'Document status': docsTdsOnFile,
     },
     relatedSlugs: [
       'what-is-isophthalic-polyester-resin',
@@ -316,7 +316,7 @@ export const isoPolyesterResinCluster = [
     ],
     comparisonTable: {
       title: 'ISO Polyester Resin and GP Polyester Resin side by side',
-      note: 'This comparison is general and describes resin families, not specific grades. No figures are given for ISO Polyester Resin because no supplier document for that grade is on file yet. Confirm any specific grade against the manufacturer’s current documentation before you specify it.',
+      note: 'This comparison is general and describes resin families, not specific grades, so grade figures are not tabulated here. Each grade’s published values are on its own product page, taken from its supplier Technical Data Sheet with the issuer named. Confirm any specific grade against the manufacturer’s current documentation before you specify it.',
       headers: ['Question a buyer actually asks', 'ISO (isophthalic)', 'GP (orthophthalic)'],
       rows: [
         [
@@ -356,7 +356,7 @@ export const isoPolyesterResinCluster = [
         ],
         [
           'Document position on this site',
-          'No supplier TDS or SDS on file yet — ask before ordering',
+          'Supplier TDS on file and linked from the product page',
           'Supplier TDS and SDS on file and linked from the product page',
         ],
       ],
@@ -380,7 +380,7 @@ export const isoPolyesterResinCluster = [
       },
       {
         q: 'Why does this page not compare viscosity or gel time?',
-        a: 'Because we hold no supplier document for the ISO Polyester Resin grade yet. Comparing a published figure for one grade against an estimate for the other would produce a table that looks authoritative and is not. When the document is on file, the figures will appear with the issuer named.',
+        a: 'Because this guide compares two resin families, not two specific grades, and grade figures in a family comparison would mislead. Each grade’s published values are on its own product page, taken from its supplier Technical Data Sheet with the issuer named — for ISO Polyester Resin, SPR-TDS-IPR.',
       },
     ],
     sections: [
@@ -419,7 +419,7 @@ export const isoPolyesterResinCluster = [
         heading: 'What we can support today',
         body: [
           'Samrat FRP Traders supplies and imports both routes for the Nepal market from Samrat Poly Resins, India. We are the trader, supplier, importer and reseller. We do not manufacture or test resin, and we do not publish a specification we cannot attribute to the manufacturer.',
-          'GP Clear Resin has the supplier Technical Data Sheet and Safety Data Sheet on file, and those documents are linked from its product page. ISO Polyester Resin does not yet. If your decision depends on a published figure for the isophthalic grade, tell us at the enquiry stage and we will put the request to the supplier rather than estimate on their behalf.',
+          'GP Clear Resin and ISO Polyester Resin both have supplier Technical Data Sheets on file, each linked from its product page; GP Clear Resin also has a Safety Data Sheet. If your decision depends on a figure neither sheet publishes, tell us at the enquiry stage and we will put the request to the supplier rather than estimate on their behalf.',
         ],
       },
     ],
@@ -445,7 +445,7 @@ export const isoPolyesterResinCluster = [
         'यसले के फेर्छ': 'लामो समय भिज्ने वा रासायनिक सेवामा hydrolysis सहने क्षमता',
         'यसले के फेर्दैन': 'Cure प्रणाली, reinforcement वा lay-up प्रक्रिया',
         'सबैभन्दा महँगो पर्ने गल्ती': 'सधैँ भिज्ने वा रासायनिक सेवामा सामान्य प्रयोजनको grade',
-        'कागजात अवस्था': neDocsPending,
+        'कागजात अवस्था': neDocsTdsOnFile,
       },
       recommendedLinks: [
         neProduct,
@@ -463,7 +463,7 @@ export const isoPolyesterResinCluster = [
       ],
       comparisonTable: {
         title: 'ISO Polyester Resin र GP Polyester Resin आमनेसामने',
-        note: 'यो तुलना सामान्य हो र resin परिवारको वर्णन गर्छ, कुनै निश्चित grade को होइन। ISO Polyester Resin का अंक दिइएका छैनन् किनभने त्यस grade को supplier कागजात अझै फाइलमा छैन। कुनै grade तोक्नुअघि निर्माताको हालको कागजातबाट पुष्टि गर्नुहोस्।',
+        note: 'यो तुलना सामान्य हो र resin परिवारको वर्णन गर्छ, कुनै निश्चित grade को होइन, त्यसैले यहाँ grade का अंक तालिकामा राखिएका छैनन्। प्रत्येक grade का प्रकाशित मान त्यसकै उत्पादन पृष्ठमा, जारीकर्ताको नामसहित आपूर्तिकर्ता Technical Data Sheet बाट राखिएका छन्। कुनै grade तोक्नुअघि निर्माताको हालको कागजातबाट पुष्टि गर्नुहोस्।',
         headers: ['खरिदकर्ताको वास्तविक प्रश्न', 'ISO (isophthalic)', 'GP (orthophthalic)'],
         rows: [
           [
@@ -503,7 +503,7 @@ export const isoPolyesterResinCluster = [
           ],
           [
             'यस साइटमा कागजात अवस्था',
-            'Supplier TDS/SDS अझै फाइलमा छैन — अर्डरअघि सोध्नुहोस्',
+            'Supplier TDS फाइलमा छ र उत्पादन पृष्ठबाट लिंक गरिएको छ',
             'Supplier TDS र SDS फाइलमा छन् र उत्पादन पृष्ठबाट लिंक गरिएका छन्',
           ],
         ],
@@ -527,7 +527,7 @@ export const isoPolyesterResinCluster = [
         },
         {
           q: 'यो पृष्ठले viscosity वा gel time किन तुलना गर्दैन?',
-          a: 'किनभने ISO Polyester Resin grade को supplier कागजात हामीसँग छैन। एउटा grade को प्रकाशित अंकलाई अर्कोको अनुमानसँग तुलना गर्दा आधिकारिक देखिने तर वास्तवमा नभएको तालिका बन्छ। कागजात फाइलमा आएपछि जारीकर्ताको नाम सहित अंक राखिनेछ।',
+          a: 'किनभने यो गाइडले दुई निश्चित grade होइन, दुई resin परिवार तुलना गर्छ, र परिवार-तुलनामा grade का अंक राख्दा भ्रम पर्छ। प्रत्येक grade का प्रकाशित मान त्यसकै उत्पादन पृष्ठमा, जारीकर्ताको नामसहित आपूर्तिकर्ता Technical Data Sheet बाट राखिएका छन् — ISO Polyester Resin का लागि SPR-TDS-IPR।',
         },
       ],
       sections: [
@@ -566,7 +566,7 @@ export const isoPolyesterResinCluster = [
           heading: 'आज हामी के समर्थन गर्न सक्छौँ',
           body: [
             'Samrat FRP Traders ले Samrat Poly Resins, India बाट दुवै बाटो नेपाली बजारका लागि आपूर्ति र आयात गर्छ। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ। हामी resin उत्पादन वा परीक्षण गर्दैनौँ, र निर्मातालाई श्रेय दिन नसकिने specification प्रकाशित गर्दैनौँ।',
-            'GP Clear Resin को supplier Technical Data Sheet र Safety Data Sheet फाइलमा छन् र ती उत्पादन पृष्ठबाट लिंक गरिएका छन्। ISO Polyester Resin का छैनन्। तपाईंको निर्णय isophthalic grade को प्रकाशित अंकमा भर पर्छ भने सोधपुछकै बेला भन्नुहोस् — हामी आपूर्तिकर्ताको तर्फबाट अनुमान गर्नुको सट्टा उनीहरूसमक्ष माग पुर्‍याउँछौँ।',
+            'GP Clear Resin र ISO Polyester Resin दुवैका आपूर्तिकर्ता Technical Data Sheet फाइलमा छन्, प्रत्येक आफ्नै उत्पादन पृष्ठबाट लिंक गरिएको; GP Clear Resin को Safety Data Sheet पनि छ। तपाईंको निर्णय कुनै पनि sheet ले प्रकाशित नगरेको अंकमा भर पर्छ भने सोधपुछकै बेला भन्नुहोस् — हामी आपूर्तिकर्ताको तर्फबाट अनुमान गर्नुको सट्टा उनीहरूसमक्ष माग पुर्‍याउँछौँ।',
           ],
         },
       ],
@@ -601,7 +601,7 @@ export const isoPolyesterResinCluster = [
       'Not the same family': 'Isophthalic polyester and vinyl ester are different chemistries, not two grades of one',
       'What decides': 'The chemical, its concentration and its temperature — not the word "corrosion"',
       'Common error': 'Choosing from the resin name instead of from the service condition',
-      'Document status': docsPending,
+      'Document status': docsTdsOnFile,
     },
     relatedSlugs: [
       'what-is-isophthalic-polyester-resin',
@@ -641,7 +641,7 @@ export const isoPolyesterResinCluster = [
       },
       {
         q: 'Which of the two can you document today?',
-        a: 'Vinyl Ester Resin is an established grade in our range with its own product page and application guides. ISO Polyester Resin is newer to the range and its supplier Technical Data Sheet and Safety Data Sheet are not yet on file, so no figures for it appear anywhere on this site.',
+        a: 'Both. Vinyl Ester Resin has its supplier Technical Data Sheet and Safety Data Sheet on file. ISO Polyester Resin has its supplier Technical Data Sheet, SPR-TDS-IPR, on file. Each is linked from its own product page.',
       },
     ],
     sections: [
@@ -672,7 +672,7 @@ export const isoPolyesterResinCluster = [
         heading: 'What we supply and what we can evidence',
         body: [
           'Samrat FRP Traders supplies and imports both routes for Nepal from Samrat Poly Resins, India. We are the trader, supplier, importer and reseller. We do not manufacture resin, we do not run chemical-resistance testing, and we do not issue approvals for a service condition.',
-          'Vinyl Ester Resin is an established part of the range and has its own product page and application guides covering chemical storage tanks, pipelines, ducts and scrubbers, filament winding and pultrusion. ISO Polyester Resin is newer to the range, and until its supplier documentation is on file we publish no figures for it at all.',
+          'Vinyl Ester Resin is an established part of the range and has its own product page and application guides covering chemical storage tanks, pipelines, ducts and scrubbers, filament winding and pultrusion. ISO Polyester Resin is newer to the range; its supplier Technical Data Sheet is on file, and the values it states are published on its product page with the issuer named.',
           'If you are weighing the two for a specific vessel, the most useful thing you can send us is the service condition rather than a resin name. That is the information the supplier needs in order to answer properly.',
         ],
       },
@@ -698,7 +698,7 @@ export const isoPolyesterResinCluster = [
         'परिवार भने फरक': 'Isophthalic polyester र vinyl ester फरक रसायन हुन्, एउटैका दुई grade होइनन्',
         'के ले निर्णय गर्छ': 'कुन रसायन, कति मात्रा र कति तापक्रम — "corrosion" शब्दले होइन',
         'सामान्य गल्ती': 'सेवा-अवस्थाबाट होइन, resin को नामबाट छनोट गर्नु',
-        'कागजात अवस्था': neDocsPending,
+        'कागजात अवस्था': neDocsTdsOnFile,
       },
       recommendedLinks: [
         neProduct,
@@ -733,7 +733,7 @@ export const isoPolyesterResinCluster = [
         },
         {
           q: 'यी दुईमध्ये कुनको कागजात आज देखाउन सक्नुहुन्छ?',
-          a: 'Vinyl Ester Resin हाम्रो श्रेणीको स्थापित grade हो, आफ्नै उत्पादन पृष्ठ र application गाइडसहित। ISO Polyester Resin श्रेणीमा नयाँ हो र यसको supplier Technical Data Sheet तथा Safety Data Sheet अझै फाइलमा छैनन्, त्यसैले यस साइटमा त्यसका अंक कतै छैनन्।',
+          a: 'दुवैको। Vinyl Ester Resin को आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet फाइलमा छन्। ISO Polyester Resin को आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-IPR, फाइलमा छ। प्रत्येक आफ्नै उत्पादन पृष्ठबाट लिंक गरिएको छ।',
         },
       ],
       sections: [
@@ -764,7 +764,7 @@ export const isoPolyesterResinCluster = [
           heading: 'हामी के आपूर्ति गर्छौं र के प्रमाणित गर्न सक्छौँ',
           body: [
             'Samrat FRP Traders ले Samrat Poly Resins, India बाट दुवै बाटो नेपालका लागि आपूर्ति र आयात गर्छ। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ। हामी resin उत्पादन गर्दैनौँ, chemical-resistance परीक्षण चलाउँदैनौँ, र कुनै सेवा-अवस्थाका लागि approval जारी गर्दैनौँ।',
-            'Vinyl Ester Resin श्रेणीको स्थापित भाग हो र यसका आफ्नै उत्पादन पृष्ठ तथा application गाइड छन् — रासायनिक भण्डारण ट्यांकी, पाइपलाइन, duct र scrubber, filament winding र pultrusion समेटेर। ISO Polyester Resin श्रेणीमा नयाँ हो, र यसको supplier कागजात फाइलमा नआउन्जेल हामी त्यसका कुनै अंक प्रकाशित गर्दैनौँ।',
+            'Vinyl Ester Resin श्रेणीको स्थापित भाग हो र यसका आफ्नै उत्पादन पृष्ठ तथा application गाइड छन् — रासायनिक भण्डारण ट्यांकी, पाइपलाइन, duct र scrubber, filament winding र pultrusion समेटेर। ISO Polyester Resin श्रेणीमा नयाँ हो; यसको आपूर्तिकर्ता Technical Data Sheet फाइलमा छ, र त्यसले उल्लेख गरेका मान जारीकर्ताको नामसहित उत्पादन पृष्ठमा प्रकाशित छन्।',
             'कुनै निश्चित vessel का लागि दुईबीच तौलिरहनुभएको छ भने, resin को नाम होइन, सेवा-अवस्था पठाउनु सबैभन्दा उपयोगी हुन्छ। ठीकसँग उत्तर दिन आपूर्तिकर्तालाई चाहिने जानकारी त्यही हो।',
           ],
         },
@@ -800,7 +800,7 @@ export const isoPolyesterResinCluster = [
       'ISO 9001 is not a product claim': 'It certifies a quality management system, not a resin',
       'Verification route': 'The manufacturer’s document for the grade offered, not the listing title',
       'Commercial position': commercialPosition,
-      'Document status': docsPending,
+      'Document status': docsTdsOnFile,
     },
     relatedSlugs: [
       'what-is-isophthalic-polyester-resin',
@@ -884,7 +884,7 @@ export const isoPolyesterResinCluster = [
         heading: 'Where this grade stands with us today',
         body: [
           'Samrat FRP Traders is a trader, supplier, importer and reseller of FRP materials in Nepal. Our supplier for this grade is Samrat Poly Resins, India, a separate business. We do not manufacture, formulate, test or certify resin.',
-          'For ISO Polyester Resin specifically, the supplier Technical Data Sheet and Safety Data Sheet are not yet in our document library, and no pricing, packaging, stock position or delivery commitment for Nepal is published anywhere on this site. Those are confirmed on enquiry, against the grade and quantity you actually need.',
+          'For ISO Polyester Resin specifically, the supplier Technical Data Sheet is in our document library and linked from the product page. No pricing, packaging, stock position or delivery commitment for Nepal is published anywhere on this site. Those are confirmed on enquiry, against the grade and quantity you actually need.',
           'Several other grades in the polyester range do have their supplier documents on file and linked from their product pages. If your requirement is flexible on grade, that is worth knowing when you plan the enquiry.',
         ],
       },
@@ -910,7 +910,7 @@ export const isoPolyesterResinCluster = [
         'ISO 9001 उत्पादनको दाबी होइन': 'यसले गुणस्तर व्यवस्थापन प्रणाली प्रमाणित गर्छ, resin होइन',
         'पुष्टि गर्ने बाटो': 'Listing को शीर्षक होइन, प्रस्ताव गरिएको grade कै निर्माता कागजात',
         'व्यावसायिक भूमिका': neCommercialPosition,
-        'कागजात अवस्था': neDocsPending,
+        'कागजात अवस्था': neDocsTdsOnFile,
       },
       recommendedLinks: [
         neProduct,
@@ -989,7 +989,7 @@ export const isoPolyesterResinCluster = [
           heading: 'यो grade हामीसँग आज कहाँ छ',
           body: [
             'Samrat FRP Traders नेपालमा FRP सामग्रीको व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो। यस grade का लागि हाम्रो आपूर्तिकर्ता Samrat Poly Resins, India — छुट्टै व्यवसाय — हो। हामी resin उत्पादन, formulation, परीक्षण वा प्रमाणीकरण गर्दैनौँ।',
-            'विशेष गरी ISO Polyester Resin का लागि supplier Technical Data Sheet र Safety Data Sheet अझै हाम्रो कागजात पुस्तकालयमा छैनन्, र नेपालका लागि मूल्य, प्याकेजिङ, स्टक अवस्था वा delivery प्रतिबद्धता यस साइटमा कतै प्रकाशित छैन। ती तपाईंलाई चाहिने grade र परिमाणअनुसार सोधपुछमा पुष्टि हुन्छन्।',
+            'विशेष गरी ISO Polyester Resin का लागि आपूर्तिकर्ता Technical Data Sheet हाम्रो कागजात पुस्तकालयमा छ र उत्पादन पृष्ठबाट लिंक गरिएको छ। नेपालका लागि मूल्य, प्याकेजिङ, स्टक अवस्था वा delivery प्रतिबद्धता यस साइटमा कतै प्रकाशित छैन। ती तपाईंलाई चाहिने grade र परिमाणअनुसार सोधपुछमा पुष्टि हुन्छन्।',
             'Polyester श्रेणीका अरू केही grade का supplier कागजात भने फाइलमा छन् र उत्पादन पृष्ठबाट लिंक गरिएका छन्। तपाईंको आवश्यकता grade मा लचिलो छ भने सोधपुछ योजना बनाउँदा यो जान्नु उपयोगी हुन्छ।',
           ],
         },

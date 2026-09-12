@@ -104,11 +104,14 @@ export function relatedProductsFor(product) {
   return related.filter(Boolean);
 }
 
-// Derive the local copy of a supplier document (TDS/SDS) from its URL:
+// Derive the local copy of a supplier document (TDS/SDS/PDS) from its URL:
 // https://samratpolyresins.in/tds/gp-clear-resin-tds.pdf → /tds/gp-clear-resin-tds.pdf
+// Documents first published on this site are recorded by their local path,
+// which is returned as it is rather than attributed to a supplier-hosted URL.
 export function localDocUrl(doc) {
   if (!doc || !doc.url) return null;
-  const match = doc.url.match(/https?:\/\/[^/]+\/(tds|sds)\/([^?#]+)/);
+  if (/^\/(tds|sds|pds)\/[^/?#]+\.pdf$/.test(doc.url)) return doc.url;
+  const match = doc.url.match(/https?:\/\/[^/]+\/(tds|sds|pds)\/([^?#]+)/);
   return match ? `/${match[1]}/${match[2]}` : null;
 }
 
@@ -118,6 +121,12 @@ export function tdsDoc(product) {
 
 export function sdsDoc(product) {
   return (product.documents ?? []).find((d) => /safety data sheet/i.test(d.type));
+}
+
+// A Product Data Sheet is its own document type — for items such as
+// application tools — and is never presented as a Technical Data Sheet.
+export function pdsDoc(product) {
+  return (product.documents ?? []).find((d) => /product data sheet/i.test(d.type));
 }
 
 // Shared bilingual alt text for owner-supplied product photography, so the

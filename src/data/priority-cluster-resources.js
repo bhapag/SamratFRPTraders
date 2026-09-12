@@ -10,11 +10,12 @@
 //     is quoted it is attributed to Samrat Poly Resins, India and to the named
 //     document. Where no document is on file, no figure is stated at all.
 //   - ISO Polyester Resin, ISO Gelcoat and UV Stabilized Sheet Grade Yellow
-//     Resin have no supplier TDS or SDS on file yet. Those three clusters carry
-//     no grade values, no dosages and no shelf-life or pack-size claims, and
-//     they say so on the page rather than leaving the omission unexplained.
-//     Polyester Putty Resin does have both documents on file, so its guide may
-//     quote published values with the issuer named.
+//     Resin have final supplier Technical Data Sheets (September 2026) and no
+//     Safety Data Sheet. Their values are published on the product pages with
+//     the issuer named; the cluster guides point there rather than repeat them.
+//   - Polyester Putty Resin has a supplier Safety Data Sheet only. The
+//     historical PET sheet-grade TDS is not attached to it, so no supplied-resin
+//     figure is quoted for it anywhere.
 //   - No stock, lead time, delivery promise or price is stated anywhere.
 //   - Each guide is written from its own subject. None is a template fill.
 

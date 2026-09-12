@@ -7,7 +7,7 @@ export default {
       "Samrat FRP Traders supplies and imports UV Stabilized Sheet Grade Yellow Resin for the Nepal market. The product artwork issued by Samrat Poly Resins, India describes it as a factory-pigmented yellow unsaturated polyester sheet grade formulated with UV stabilisation for outdoor FRP sheet, cladding and panel work.",
       "UV-stabilised is not the same thing as UV-curing. A UV-stabilised resin still cures the ordinary way — catalysed with an MEKP hardener at room temperature — and the stabiliser package is there to slow the colour change and surface degradation that sunlight causes over a sheet's service life. A UV-curing resin, by contrast, only hardens when a lamp is shone on it. This product is the first kind, and it is intended for sheets that live outdoors.",
       "Being pre-pigmented also matters on the shop floor. The yellow is mixed at the supplier rather than stirred in by the fabricator, so the colour does not depend on how carefully pigment is dosed batch to batch. That is the usual reason a sheet line chooses a factory-pigmented grade over adding pigment paste to a clear resin.",
-      "Technical values for this grade are published by the supplier. We are not reproducing figures here until the current Technical Data Sheet is on file — ask us and we will send what the supplier publishes. Pricing, packaging and availability in Nepal are confirmed on enquiry.",
+      "The supplier Technical Data Sheet for this grade, SPR-TDS-USY (Rev. 01, September 2026), is linked on this page, and its headline values are listed under Technical specifications with the issuer named. Pricing, packaging and availability in Nepal are confirmed on enquiry.",
     ],
     buyerNotes: [
       {
@@ -19,8 +19,8 @@ export default {
         text: "The yellow colour is part of the supplied resin, not something added during lamination. Confirm the shade against a sample if the sheet has to match existing panels on site.",
       },
       {
-        title: "Documents pending",
-        text: "The supplier's Technical Data Sheet and Safety Data Sheet for this grade are not yet in our document library. Ask us before you order and we will confirm what the supplier currently publishes.",
+        title: "Supplier data sheet",
+        text: "The supplier Technical Data Sheet, SPR-TDS-USY, is linked on this page and listed in the document library. Quote the grade name exactly as it appears on the sheet when you order.",
       },
     ],
     faqs: [
@@ -42,7 +42,7 @@ export default {
       },
       {
         q: "Can you send the technical data sheet?",
-        a: "The current TDS and SDS for this grade are not yet hosted on this site. Contact Samrat FRP Traders and we will confirm what the supplier publishes for the grade at the time of your enquiry.",
+        a: "Yes. The supplier Technical Data Sheet, SPR-TDS-USY (Rev. 01, September 2026), is linked on this page for download and listed in our document library.",
       },
     ],
     applicationsIntro:
@@ -68,7 +68,7 @@ export default {
       "Samrat FRP Traders ले नेपाली बजारका लागि UV Stabilized Sheet Grade Yellow Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India ले जारी गरेको उत्पादन artwork ले यसलाई बाहिरी FRP sheet, cladding र प्यानल कामका लागि UV stabilisation सहित बनाइएको, कारखानामै पहेँलो रङ मिसाइएको unsaturated polyester sheet grade भन्छ।",
       "UV-stabilised र UV-curing फरक कुरा हुन्। UV-stabilised resin सामान्य तरिकाले — MEKP hardener राखेर कोठाको तापक्रममा — नै जम्छ; stabiliser ले घाम लागेर वर्षौंमा हुने रङ परिवर्तन र सतह बिग्रने प्रक्रिया ढिलो बनाउँछ। UV-curing resin भने बत्ती (UV lamp) देखाएपछि मात्र कडा हुन्छ। यो उत्पादन पहिलो प्रकारको हो र बाहिर रहने sheet का लागि हो।",
       "कारखानामै रङ मिसिएकाले शीटको रङ ब्याच-ब्याचमा फरक पर्दैन — फेब्रिकेटरले आफैँ pigment हाल्नु पर्दैन। sheet line ले clear resin मा pigment paste मिसाउनुको सट्टा factory-pigmented grade रोज्नुको मुख्य कारण यही हो।",
-      "यस grade का प्राविधिक मान आपूर्तिकर्ताले प्रकाशित गर्छन्। हालको Technical Data Sheet हाम्रो फाइलमा नआउन्जेल हामी यहाँ कुनै अंक राख्दैनौँ — सोध्नुहोस्, आपूर्तिकर्ताले प्रकाशित गरेको कुरा हामी पठाउँछौँ। नेपालमा मूल्य, प्याकेजिङ र उपलब्धता सोधपुछमा पुष्टि हुन्छ।",
+      "यस grade को आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-USY (Rev. 01, September 2026), यस पृष्ठमा लिंक गरिएको छ, र त्यसका मुख्य मान जारीकर्ताको नामसहित प्राविधिक विवरणमा राखिएका छन्। नेपालमा मूल्य, प्याकेजिङ र उपलब्धता सोधपुछमा पुष्टि हुन्छ।",
     ],
     buyerNotes: [
       {
@@ -80,8 +80,8 @@ export default {
         text: "पहेँलो रङ आपूर्ति हुने resin मै हुन्छ, lamination का बेला थपिने होइन। साइटमा भएका पुराना प्यानलसँग रङ मिलाउनुपर्ने हो भने नमुनासँग दाँजेर पुष्टि गर्नुहोस्।",
       },
       {
-        title: "कागजात पर्खाइमा",
-        text: "यस grade को आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet हाम्रो कागजात पुस्तकालयमा अहिले छैन। अर्डरअघि सोध्नुहोस्, आपूर्तिकर्ताले हाल के प्रकाशित गरेका छन् हामी पुष्टि गर्नेछौँ।",
+        title: "आपूर्तिकर्ता डाटा शीट",
+        text: "आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-USY, यस पृष्ठमा लिंक गरिएको छ र कागजात पुस्तकालयमा पनि छ। अर्डर गर्दा sheet मा लेखिएजस्तै grade को नाम हुबहु लेख्नुहोस्।",
       },
     ],
     faqs: [
@@ -103,7 +103,7 @@ export default {
       },
       {
         q: "प्राविधिक डाटा शीट पठाउन सक्नुहुन्छ?",
-        a: "यस grade को हालको TDS र SDS अहिले यस साइटमा राखिएको छैन। Samrat FRP Traders लाई सम्पर्क गर्नुहोस्; सोधपुछका बेला आपूर्तिकर्ताले के प्रकाशित गरेका छन् हामी पुष्टि गर्नेछौँ।",
+        a: "सक्छौँ। आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-USY (Rev. 01, September 2026), यस पृष्ठबाट डाउनलोड गर्न सकिन्छ र हाम्रो कागजात पुस्तकालयमा पनि छ।",
       },
     ],
     applicationsIntro:

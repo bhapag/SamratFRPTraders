@@ -15,8 +15,6 @@ import { applications } from '../../data/applications.js';
 import { resources } from '../../data/resources.js';
 import {
   DOCUMENT_ISSUER,
-  documentStats,
-  documentsForGroup,
   productsWithoutDocuments,
 } from '../../data/documents.js';
 import { site, buildWhatsAppIntentLink } from '../../data/site.js';
@@ -30,7 +28,6 @@ const t = (en, np) => (ne ? np : en);
 const pad = (n) => String(n).padStart(2, '0');
 
 // ---- Verified facts, all computed ---------------------------------------
-const stats = documentStats();
 const liveApplications = applications.filter((a) => !a.draft);
 const liveResources = resources.filter((r) => !r.draft);
 const featured = products.filter((p) => p.tier === 'A');
@@ -72,7 +69,6 @@ const families = catalogGroups.map((group, i) => ({
   href: familyHref(group),
   note: familyNote(group),
   count: productsInGroup(group.slug).length,
-  docs: documentsForGroup(group.slug),
 }));
 
 // Short display labels for the application index rows, keyed by slug with
@@ -133,7 +129,7 @@ const contents = [
   { id: 'specimens', label: t('Featured materials', 'प्रमुख सामग्री'), count: featured.length },
   { id: 'film', label: t('Film', 'भिडियो'), count: null },
   { id: 'applications', label: t('In application', 'प्रयोगमा'), count: liveApplications.length },
-  { id: 'documents', label: t('Documentation', 'कागजात'), count: stats.documentEntries },
+  { id: 'documents', label: t('Documentation', 'कागजात'), count: null },
   { id: 'record', label: t('Business record', 'व्यावसायिक विवरण'), count: null },
   { id: 'enquiry', label: t('Enquiry', 'सोधपुछ'), count: null },
 ];
@@ -168,7 +164,7 @@ const contents = [
           <div><dt>{t('ROLE', 'भूमिका')}</dt><dd>{t('Trader · Supplier · Importer · Reseller', 'व्यापारी · आपूर्तिकर्ता · आयातकर्ता · पुनर्विक्रेता')}</dd></div>
           <div><dt>{t('BASE', 'आधार')}</dt><dd>{site.business.city}, {site.business.country}</dd></div>
           <div><dt>{t('RANGE', 'दायरा')}</dt><dd>{products.length} {t('products', 'उत्पादन')} · {catalogGroups.length} {t('families', 'परिवार')}</dd></div>
-          <div><dt>{t('DOCUMENTS', 'कागजात')}</dt><dd>{stats.documentEntries} {t('supplier TDS/SDS entries so far', 'आपूर्तिकर्ता TDS/SDS प्रविष्टि (हालसम्म)')}</dd></div>
+          <div><dt>{t('DOCUMENTS', 'कागजात')}</dt><dd>{t('Supplier data sheets, product by product', 'आपूर्तिकर्ता डाटा शीट, उत्पादनअनुसार')}</dd></div>
         </dl>
       </aside>
 
@@ -196,14 +192,13 @@ const contents = [
       </header>
 
       <table class="home-ledger home-family-ledger" role="table" data-reveal>
-        <caption class="visually-hidden">{t('Product families with product counts and supplier document entries on file', 'उत्पादन परिवार, उत्पादन संख्या र फाइलमा रहेका आपूर्तिकर्ता कागजात')}</caption>
+        <caption class="visually-hidden">{t('Product families with product counts', 'उत्पादन परिवार र उत्पादन संख्या')}</caption>
         <thead role="rowgroup">
           <tr role="row">
             <th role="columnheader" scope="col" class="home-col-index">{t('NO.', 'क्र.सं.')}</th>
             <th role="columnheader" scope="col" class="home-col-name">{t('FAMILY', 'परिवार')}</th>
             <th role="columnheader" scope="col" class="home-col-note">{t('NOTE', 'टिप्पणी')}</th>
             <th role="columnheader" scope="col" class="home-col-num">{t('PRODUCTS', 'उत्पादन')}</th>
-            <th role="columnheader" scope="col" class="home-col-num">{t('TDS/SDS', 'TDS/SDS')}</th>
             <th role="columnheader" scope="col" class="home-col-arrow"><span class="visually-hidden">{t('Open', 'खोल्नुहोस्')}</span></th>
           </tr>
         </thead>
@@ -214,7 +209,6 @@ const contents = [
               <th role="rowheader" scope="row" class="home-col-name"><a href={f.href}>{f.group.name}</a></th>
               <td role="cell" class="home-col-note">{f.note}</td>
               <td role="cell" class="home-col-num"><span class="home-ledger-num">{f.count}</span><span class="home-ledger-unit">{t(f.count === 1 ? 'product' : 'products', 'उत्पादन')}</span></td>
-              <td role="cell" class="home-col-num">{f.docs.entries > 0 ? <><span class="home-ledger-num">{f.docs.entries}</span><span class="home-ledger-unit">{t('entries', 'प्रविष्टि')}</span></> : <span class="home-ledger-num home-ledger-none">—</span>}</td>
               <td role="cell" class="home-col-arrow"><a href={f.href} tabindex="-1" aria-hidden="true">↗</a></td>
             </tr>
           ))}
@@ -238,7 +232,8 @@ const contents = [
       <div class="home-plates">
         {featured.map((product, i) => {
           const image = product.images?.[0];
-          const docCount = (product.documents ?? []).length;
+          const docTypes = (product.documents ?? []).map((d) => (/product data/i.test(d.type) ? 'PDS' : /safety/i.test(d.type) ? 'SDS' : 'TDS'));
+          const docLabel = ['TDS', 'PDS', 'SDS'].filter((k) => docTypes.includes(k)).join(' · ');
           return (
             <a class="home-plate" href={`${prefix}/products/${product.slug}/`} data-reveal style={`--reveal-delay: ${i * 60}ms`}>
               <span class="home-plate-well">
@@ -249,7 +244,7 @@ const contents = [
                 <span class="home-plate-name">{product.name}</span>
                 <span class="home-plate-foot">
                   <span class="home-plate-cta">{t('PRODUCT DETAILS', 'उत्पादन विवरण')} <span aria-hidden="true">↗</span></span>
-                  <span class="home-plate-docs">{docCount > 0 ? `TDS/SDS · ${docCount}` : t('NO DOCUMENTS ON FILE', 'कागजात फाइलमा छैन')}</span>
+                  <span class="home-plate-docs">{docLabel || t('NO DOCUMENTS ON FILE', 'कागजात फाइलमा छैन')}</span>
                 </span>
               </span>
             </a>
@@ -317,15 +312,11 @@ const contents = [
         <h2 id="documents-title">{t('Supplier data sheets, before you order.', 'अर्डरअघि नै आपूर्तिकर्ताका डाटा शीट।')}</h2>
         <p class="home-sheet-lead">
           {t(
-            `We host the supplier's Technical Data Sheets and Safety Data Sheets for the grades we carry — ${stats.documentEntries} documents on the site today, and the library grows with the range. They are issued by ${DOCUMENT_ISSUER}, so ask us to confirm the current revision for your order. For allied items and consumables, tell us what you need and we will say what documentation is available.`,
-            `हामीले राख्ने grade हरूका आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet यहीँ उपलब्ध छन् — आज साइटमा ${stats.documentEntries} कागजात, र दायरासँगै पुस्तकालय बढ्दै जान्छ। यी ${DOCUMENT_ISSUER} द्वारा जारी हुन्, त्यसैले आफ्नो अर्डरका लागि हालको संस्करण पुष्टि गर्न हामीलाई सोध्नुहोस्। सम्बन्धित सामग्री र उपभोग्य वस्तुका हकमा आवश्यकता बताउनुहोस्, कुन कागजात उपलब्ध छ हामी भन्नेछौं।`,
+            `We host the supplier's data sheets for the products we carry — Technical Data Sheets, a Product Data Sheet for application tools, and Safety Data Sheets where the supplier has issued them. Each product page links only the documents that exist for it. They are issued by ${DOCUMENT_ISSUER}, so ask us to confirm the current revision for your order.`,
+            `हामीले राख्ने उत्पादनहरूका आपूर्तिकर्ता डाटा शीट यहीँ उपलब्ध छन् — Technical Data Sheet, औजारका लागि Product Data Sheet, र आपूर्तिकर्ताले जारी गरेको ठाउँमा Safety Data Sheet। प्रत्येक उत्पादन पृष्ठमा त्यसका लागि भएका कागजात मात्र लिंक गरिएका छन्। यी ${DOCUMENT_ISSUER} द्वारा जारी हुन्, त्यसैले आफ्नो अर्डरका लागि हालको संस्करण पुष्टि गर्न हामीलाई सोध्नुहोस्।`,
           )}
         </p>
 
-        <p class="home-coverage-figure">
-          <span class="home-coverage-big">{stats.documentEntries}</span>
-          <span class="home-coverage-label">{t('supplier TDS and SDS documents hosted on this site today', 'आज यस साइटमा राखिएका आपूर्तिकर्ता TDS र SDS कागजात')}</span>
-        </p>
       </div>
 
       <div class="home-documents-table" data-reveal style="--reveal-delay: 100ms">

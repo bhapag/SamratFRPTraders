@@ -5,10 +5,10 @@
 // provokes: whether what arrives is a tub of ready-mixed body filler. It is
 // not. It is a liquid resin, and the supplier documentation says so.
 //
-// Unlike the other three priority clusters, this grade DOES have a supplier
-// Technical Data Sheet and Safety Data Sheet on file, so published values may
-// be quoted here — always attributed to Samrat Poly Resins, India and always
-// as supplied-resin properties rather than finished-product performance.
+// No Technical Data Sheet is offered for this grade: the historical PET
+// sheet-grade TDS (SPR-TDS-PET) is not attached to it, so no supplied-resin
+// figures are quoted here. The supplier Safety Data Sheet (SPR-SDS-PET, which
+// names Polyester Putty Resin as a related name) remains linked.
 
 import {
   commercialPosition,
@@ -20,12 +20,12 @@ import {
 const product = {
   href: '/products/polyester-putty-resin/',
   label: 'View Polyester Putty Resin',
-  description: 'The commercial product page, with the supplier Technical Data Sheet and Safety Data Sheet.',
+  description: 'The commercial product page, with the supplier Safety Data Sheet.',
 };
 const neProduct = {
   href: '/products/polyester-putty-resin/',
   label: 'Polyester Putty Resin हेर्नुहोस्',
-  description: 'व्यावसायिक उत्पादन पृष्ठ — supplier Technical Data Sheet र Safety Data Sheet सहित।',
+  description: 'व्यावसायिक उत्पादन पृष्ठ — आपूर्तिकर्ता Safety Data Sheet सहित।',
 };
 
 export const polyesterPuttyResinCluster = [
@@ -54,7 +54,7 @@ export const polyesterPuttyResinCluster = [
     quickFacts: {
       'What is supplied': 'A liquid unsaturated polyester resin, not a ready-mixed putty or body filler',
       'What a body filler is': 'A heavily filled paste sold with its own hardener, ready to use',
-      'Document position': 'Supplier Technical Data Sheet and Safety Data Sheet are on file for this grade',
+      'Document position': 'Supplier Safety Data Sheet on file; technical values confirmed on enquiry',
       'Values issued by': 'Samrat Poly Resins, India — published for the supplied resin',
       'Commercial position': commercialPosition,
     },
@@ -84,11 +84,11 @@ export const polyesterPuttyResinCluster = [
       },
       {
         q: 'Why is it called putty resin if it is a liquid?',
-        a: 'Because the name describes the family of end use rather than the form supplied. Resins of this kind go into filled and putty-type systems downstream. Samrat Poly Resins, India lists the grade under this name, and its Technical Data Sheet identifies what is actually supplied. We use the supplier’s name for the product and state the form plainly rather than letting the name imply a paste.',
+        a: 'Because the name describes the family of end use rather than the form supplied. Resins of this kind go into filled and putty-type systems downstream. Samrat Poly Resins, India uses this as a related name for the grade, and the supplier Safety Data Sheet identifies what is actually supplied: a pourable liquid resin, not a filled putty paste. We use the supplier’s name for the product and state the form plainly rather than letting the name imply a paste.',
       },
       {
         q: 'What does the supplier publish about the supplied resin?',
-        a: 'The current Technical Data Sheet issued by Samrat Poly Resins, India gives a viscosity of 450 to 650 cPs at 25°C, a solid content of 60 to 64 per cent, a specific gravity of 1.05 to 1.12 g/cm³ at 25°C and a heat deflection temperature of 70 to 85°C when cured. Those are supplied-resin properties published by the manufacturer. They are not a formulation, a mix ratio or a performance guarantee for any finished item made from it.',
+        a: 'On this site, the supplier Safety Data Sheet (SPR-SDS-PET), which identifies a PET-modified liquid unsaturated polyester resin and lists its recommended uses. No Technical Data Sheet is offered for this grade here, so supplied-resin figures such as viscosity and solid content are confirmed on enquiry. Whatever those values are, they are not a formulation, a mix ratio or a performance guarantee for any finished item made from it.',
       },
       {
         q: 'Can I use this resin as a laminating resin?',
@@ -123,7 +123,7 @@ export const polyesterPuttyResinCluster = [
       {
         heading: 'What the supplier publishes for this grade',
         body: [
-          'This grade differs from several newer additions to our range in one important respect: the supplier documentation is on file. The current Technical Data Sheet issued by Samrat Poly Resins, India publishes a viscosity of 450 to 650 cPs at 25°C, a solid content of 60 to 64 per cent, a specific gravity of 1.05 to 1.12 g/cm³ at 25°C, and a heat deflection temperature of 70 to 85°C once cured. A Safety Data Sheet is on file as well, and both are linked from the product page.',
+          'The supplier Safety Data Sheet for this grade is on file and linked from the product page. No Technical Data Sheet is offered for it here — the historical PET sheet-grade document previously linked is no longer presented as this product’s data sheet — so no supplied-resin figures are quoted in this guide. Ask for current technical values at the enquiry stage.',
           'Two boundaries apply to those figures, and they matter. They are properties of the supplied resin, published by the manufacturer who makes it, and they describe what is in the drum. They are not a formulation, not a mix ratio, not a cure schedule, and not a performance claim about any finished article somebody produces from the resin.',
           'Samrat FRP Traders did not generate any of those values. We are the trader, supplier, importer and reseller, and we reproduce what the manufacturer publishes with the manufacturer named.',
         ],
@@ -140,7 +140,7 @@ export const polyesterPuttyResinCluster = [
         heading: 'How to make the enquiry produce the right thing',
         body: [
           'Describe the job rather than the product. What are you filling or making, on what substrate, at what scale, and are you buying material to formulate with or material to apply directly. That one distinction sorts this grade from a ready-to-use filler immediately.',
-          'If your own quality process needs documentation before you can accept material, say so at the enquiry stage. For this grade both the Technical Data Sheet and the Safety Data Sheet are on file and can be provided. If you need batch-specific evidence, that is a Certificate of Analysis and it is a separate request worth raising before dispatch rather than after.',
+          'If your own quality process needs documentation before you can accept material, say so at the enquiry stage. For this grade the supplier Safety Data Sheet is on file and can be provided; technical values are confirmed on enquiry. If you need batch-specific evidence, that is a Certificate of Analysis and it is a separate request worth raising before dispatch rather than after.',
           'Pricing, packaging and availability in Nepal are confirmed on enquiry. We do not publish them, because a figure without a stated quantity, pack format, destination and date is not something a buyer can rely on.',
         ],
       },
@@ -164,7 +164,7 @@ export const polyesterPuttyResinCluster = [
       quickFacts: {
         'के आपूर्ति हुन्छ': 'Liquid unsaturated polyester resin — तयारी putty वा body filler होइन',
         'Body filler भनेको के': 'आफ्नै hardener सहित आउने, प्रयोगका लागि तयार बाक्लो filled paste',
-        'कागजातको अवस्था': 'यस grade का supplier Technical Data Sheet र Safety Data Sheet फाइलमा छन्',
+        'कागजातको अवस्था': 'आपूर्तिकर्ता Safety Data Sheet फाइलमा; प्राविधिक मान सोधपुछमा पुष्टि',
         'मान जारी गर्ने': 'Samrat Poly Resins, India — आपूर्ति हुने resin का लागि प्रकाशित',
         'व्यावसायिक भूमिका': neCommercialPosition,
       },
@@ -189,11 +189,11 @@ export const polyesterPuttyResinCluster = [
         },
         {
           q: 'Liquid नै हो भने putty resin किन भनिन्छ?',
-          a: 'किनभने नामले आपूर्ति हुने रूप होइन, अन्तिम प्रयोगको परिवार जनाउँछ। यस्ता resin पछि गएर filled र putty प्रकारका प्रणालीमा जान्छन्। Samrat Poly Resins, India ले यस grade लाई यही नाममा सूचीबद्ध गर्छन्, र उनीहरूको Technical Data Sheet ले वास्तवमा के आपूर्ति हुन्छ भन्ने पहिचान गर्छ। हामी आपूर्तिकर्ताकै नाम प्रयोग गर्छौं तर रूप स्पष्ट भन्छौँ, नामलाई paste को अर्थ लगाउन दिँदैनौँ।',
+          a: 'किनभने नामले आपूर्ति हुने रूप होइन, अन्तिम प्रयोगको परिवार जनाउँछ। यस्ता resin पछि गएर filled र putty प्रकारका प्रणालीमा जान्छन्। Samrat Poly Resins, India ले यस grade का लागि यो सम्बन्धित नाम प्रयोग गर्छन्, र आपूर्तिकर्ता Safety Data Sheet ले वास्तवमा के आपूर्ति हुन्छ भन्ने पहिचान गर्छ: भरिएको putty paste होइन, बग्ने तरल resin। हामी आपूर्तिकर्ताकै नाम प्रयोग गर्छौं तर रूप स्पष्ट भन्छौँ, नामलाई paste को अर्थ लगाउन दिँदैनौँ।',
         },
         {
           q: 'आपूर्ति हुने resin बारे आपूर्तिकर्ताले के प्रकाशित गरेका छन्?',
-          a: 'Samrat Poly Resins, India ले जारी गरेको हालको Technical Data Sheet ले 25°C मा 450–650 cPs viscosity, 60–64% solid content, 25°C मा 1.05–1.12 g/cm³ specific gravity र cure भएपछि 70–85°C heat deflection temperature दिन्छ। यी निर्माताले प्रकाशित गरेका, आपूर्ति हुने resin का गुण हुन्। यी formulation, mix ratio वा यसबाट बनेको कुनै तयारी वस्तुको कार्यसम्पादनको ग्यारेन्टी होइनन्।',
+          a: 'यस साइटमा आपूर्तिकर्ता Safety Data Sheet (SPR-SDS-PET), जसले PET-modified liquid unsaturated polyester resin पहिचान गर्छ र त्यसका सिफारिस गरिएका प्रयोग सूचीबद्ध गर्छ। यस grade का लागि यहाँ कुनै Technical Data Sheet प्रस्तुत गरिएको छैन, त्यसैले viscosity र solid content जस्ता आपूर्ति हुने resin का अंक सोधपुछमा पुष्टि गरिन्छ। ती मान जे भए पनि formulation, mix ratio वा यसबाट बनेको कुनै तयारी वस्तुको कार्यसम्पादनको ग्यारेन्टी होइनन्।',
         },
         {
           q: 'के यो resin laminating resin का रूपमा प्रयोग गर्न मिल्छ?',
@@ -228,7 +228,7 @@ export const polyesterPuttyResinCluster = [
         {
           heading: 'यस grade का लागि आपूर्तिकर्ताले के प्रकाशित गर्छन्',
           body: [
-            'यो grade हाम्रो श्रेणीका केही नयाँ थपहरूभन्दा एउटा महत्त्वपूर्ण कुरामा फरक छ: यसको supplier कागजात फाइलमा छ। Samrat Poly Resins, India ले जारी गरेको हालको Technical Data Sheet ले 25°C मा 450–650 cPs viscosity, 60–64% solid content, 25°C मा 1.05–1.12 g/cm³ specific gravity, र cure भएपछि 70–85°C heat deflection temperature प्रकाशित गर्छ। Safety Data Sheet पनि फाइलमा छ, र दुवै उत्पादन पृष्ठबाट लिंक गरिएका छन्।',
+            'यस grade को आपूर्तिकर्ता Safety Data Sheet फाइलमा छ र उत्पादन पृष्ठबाट लिंक गरिएको छ। यसका लागि यहाँ कुनै Technical Data Sheet प्रस्तुत गरिएको छैन — पहिले लिंक गरिएको PET sheet-grade को पुरानो कागजात अब यस उत्पादनको डाटा शीटका रूपमा प्रस्तुत गरिँदैन — त्यसैले यो गाइडमा आपूर्ति हुने resin का अंक राखिएका छैनन्। हालको प्राविधिक मान सोधपुछकै बेला माग्नुहोस्।',
             'ती अंकमा दुई सीमा लागू हुन्छन्, र ती महत्त्वपूर्ण छन्। यी आपूर्ति हुने resin का गुण हुन्, बनाउने निर्माताले प्रकाशित गरेका, र drum भित्र के छ भन्ने बताउँछन्। यी formulation होइनन्, mix ratio होइनन्, cure schedule होइनन्, र कसैले यस resin बाट बनाएको तयारी वस्तुको कार्यसम्पादनको दाबी पनि होइनन्।',
             'Samrat FRP Traders ले यीमध्ये कुनै मान उत्पन्न गरेको होइन। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ, र निर्माताले प्रकाशित गरेको कुरा निर्माताकै नाम राखेर दोहोर्‍याउँछौँ।',
           ],
@@ -245,7 +245,7 @@ export const polyesterPuttyResinCluster = [
           heading: 'सोधपुछबाट ठीक कुरा आओस् भन्नका लागि',
           body: [
             'उत्पादन होइन, काम वर्णन गर्नुहोस्। के भर्दै वा बनाउँदै हुनुहुन्छ, कुन substrate मा, कति ठूलो पैमानामा, र तपाईं formulation गर्न सामग्री किन्दै हुनुहुन्छ कि सिधै लगाउने सामग्री। यही एउटा फरकले यस grade लाई लगाउन तयार filler बाट तुरुन्तै छुट्याउँछ।',
-            'सामग्री स्वीकार गर्नुअघि आफ्नो गुणस्तर प्रक्रियालाई कागजात चाहिन्छ भने सोधपुछकै बेला भन्नुहोस्। यस grade का Technical Data Sheet र Safety Data Sheet दुवै फाइलमा छन् र उपलब्ध गराउन सकिन्छ। Batch-विशेष प्रमाण चाहिन्छ भने त्यो Certificate of Analysis हो र त्यो छुट्टै माग हो — पठाइसकेपछि होइन, अघि नै उठाउनु राम्रो।',
+            'सामग्री स्वीकार गर्नुअघि आफ्नो गुणस्तर प्रक्रियालाई कागजात चाहिन्छ भने सोधपुछकै बेला भन्नुहोस्। यस grade को आपूर्तिकर्ता Safety Data Sheet फाइलमा छ र उपलब्ध गराउन सकिन्छ; प्राविधिक मान सोधपुछमा पुष्टि गरिन्छ। Batch-विशेष प्रमाण चाहिन्छ भने त्यो Certificate of Analysis हो र त्यो छुट्टै माग हो — पठाइसकेपछि होइन, अघि नै उठाउनु राम्रो।',
             'नेपालमा मूल्य, प्याकेजिङ र उपलब्धता सोधपुछमा पुष्टि हुन्छन्। हामी ती प्रकाशित गर्दैनौँ, किनभने परिमाण, pack format, गन्तव्य र मिति नभनी दिइएको अंकमा खरिदकर्ताले भर पर्न सक्दैन।',
           ],
         },

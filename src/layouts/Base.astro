@@ -88,7 +88,6 @@ const nav = isNe
 // Every family in the catalogue is a first-class category with its own hub,
 // so the menu presents one list rather than a primary set and an afterthought.
 const productsIndexHref = `${prefix}/products/`;
-const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.length : 0), 0);
 
 // ---------------------------------------------------------------------------
 // Structured data — the single composition point for the whole site.
@@ -267,7 +266,7 @@ const websiteSchema = {
                   </div>
                   <div class="mega-panel-foot">
                     <span class="mega-panel-stat">
-                      {products.length} {isNe ? 'उत्पादन' : 'products'} · {totalDocs} TDS/SDS
+                      {products.length} {isNe ? 'उत्पादन' : 'products'}
                     </span>
                     <a class="mega-panel-all" href={productsIndexHref}>
                       {isNe ? 'सम्पूर्ण उत्पादन सूची हेर्नुहोस्' : 'View the full catalogue'} →

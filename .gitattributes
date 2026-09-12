@@ -1,0 +1,6 @@
+# PDFs are binary. Several supplier data sheets are pure-ASCII PDFs (ASCII85
+# content streams), which Git's text auto-detection treats as text: with
+# core.autocrlf enabled, checkouts on Windows inserted carriage returns inside
+# them and silently changed the bytes of the documents served from public/.
+# Marking them binary stops any line-ending conversion in both directions.
+*.pdf binary

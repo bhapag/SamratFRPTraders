@@ -1,10 +1,10 @@
 export default {
   title: "Polyester Putty Resin Applications: प्रकाशित Sheet Lamination र Panel सन्दर्भ",
-  description: "Samrat Poly Resins, India को हालको TDS मा सूचीबद्ध Polyester Putty Resin applications र अझै छुट्टै पुष्टि चाहिने finished-product प्रश्नहरू समीक्षा गर्नुहोस्।",
+  description: "Samrat Poly Resins, India को यस grade का लागि Safety Data Sheet मा सूचीबद्ध Polyester Putty Resin applications र अझै छुट्टै पुष्टि चाहिने finished-product प्रश्नहरू।",
   seo: {
     title: "Polyester Putty Resin Applications | Sheet Lamination का लागि Polyester Resin",
     ogTitle: "Polyester Putty Resin Applications: Sheet Lamination र Panels",
-    ogDescription: "Samrat Poly Resins, India को Polyester Putty Resin TDS मा सूचीबद्ध sheet र panel सन्दर्भहरूको खरिदकर्ता-स्तर गाइड।",
+    ogDescription: "Samrat Poly Resins, India को Safety Data Sheet मा Polyester Putty Resin का लागि सूचीबद्ध sheet र panel सन्दर्भहरूको खरिदकर्ता-स्तर गाइड।",
     keywords: [
       "Polyester Putty Resin Applications",
       "PET Modified Polyester Resin Applications",
@@ -23,14 +23,14 @@ export default {
     {
       heading: "PET sheets र fibre sheet उत्पादनहरू",
       body: [
-        "PET sheets र fibre sheet उत्पादनहरू हालको Polyester Putty Resin TDS मा सूचीबद्ध छन्। यो उत्पादन मूल्यांकन गर्ने खरिदकर्ताको लागि प्रकाशित सुरुवात बिन्दु हो।",
+        "PET sheets र fibre sheet उत्पादनहरू आपूर्तिकर्ता Safety Data Sheet मा सिफारिस गरिएका प्रयोगका रूपमा सूचीबद्ध छन्। यो उत्पादन मूल्यांकन गर्ने खरिदकर्ताको लागि प्रकाशित सुरुवात बिन्दु हो।",
         "sheet विवरण मात्रले formulation, reinforcement, process condition वा finished-sheet performance स्थापित गर्दैन। document लाई purchase आवश्यकतासँग तुलना गर्दा वास्तविक finished product र आवश्यकता उल्लेख गर्नुहोस्।"
       ]
     },
     {
       heading: "FRP sheet lamination र panel manufacturing",
       body: [
-        "TDS ले FRP sheet lamination र panel manufacturing पनि सूचीबद्ध गर्छ। यी सन्दर्भमा, Polyester Putty Resin समीक्षा भइरहेको liquid resin उत्पादन मार्ग हो; यो अलग reinforcement वा finished-system निर्णयको विकल्प होइन।",
+        "उही कागजातले FRP sheet lamination र panel manufacturing पनि सूचीबद्ध गर्छ। यी सन्दर्भमा, Polyester Putty Resin समीक्षा भइरहेको liquid resin उत्पादन मार्ग हो; यो अलग reinforcement वा finished-system निर्णयको विकल्प होइन।",
         "आवश्यकता pre-pigmented yellow sheet वा panel भएमा, अलग Sheet Grade Yellow Resin मार्ग प्रयोग गर्नुहोस्। यो general FRP वा फरक lamination application भएमा, interchangeability अनुमान नलगाई अलग प्रकाशित GP वा Lamination Resin जानकारी समीक्षा गर्नुहोस्।"
       ]
     },
@@ -51,11 +51,11 @@ export default {
   faqs: [
     {
       q: "कुन Polyester Putty Resin applications प्रकाशित छन्?",
-      a: "हालको Polyester Putty Resin TDS ले PET sheets र fibre sheet उत्पादनहरू, साथै FRP sheet lamination र panel manufacturing सूचीबद्ध गर्छ।"
+      a: "आपूर्तिकर्ता Safety Data Sheet ले PET sheets र fibre sheet उत्पादनहरू, साथै FRP sheet lamination र panel manufacturing लाई सिफारिस गरिएका प्रयोगका रूपमा सूचीबद्ध गर्छ।"
     },
     {
       q: "के सूचीबद्ध applications ले finished sheet performance स्थापित गर्छ?",
-      a: "होइन। TDS ले आपूर्ति गरिएको liquid resin लाई ती सन्दर्भमा positioning गर्छ। Finished sheet वा panel result पूरा material system र वास्तविक application आवश्यकतामा भर पर्छ।"
+      a: "होइन। आपूर्तिकर्ताको कागजातले आपूर्ति गरिएको liquid resin लाई ती सन्दर्भमा positioning गर्छ। Finished sheet वा panel result पूरा material system र वास्तविक application आवश्यकतामा भर पर्छ।"
     },
     {
       q: "के body filler वा automotive putty प्रकाशित Polyester Putty Resin application हो?",
@@ -69,9 +69,9 @@ export default {
       description: "उत्पादन विवरण, हालको document र quote मार्ग समीक्षा गर्नुहोस्।"
     },
     {
-      href: "/tds/pet-resin-tds.pdf",
-      label: "Polyester Putty Resin TDS डाउनलोड गर्नुहोस्",
-      description: "सूचीबद्ध application सन्दर्भ र liquid-resin data पुष्टि गर्नुहोस्।"
+      href: "/sds/pet-resin-sds.pdf",
+      label: "आपूर्तिकर्ता Safety Data Sheet हेर्नुहोस्",
+      description: "SPR-SDS-PET — PET Resin नाममा जारी, Polyester Putty Resin सम्बन्धित नामका रूपमा।"
     },
     {
       href: "/products/sheet-grade-yellow-resin/",

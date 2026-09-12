@@ -13,7 +13,7 @@ export default {
   whatTheyManufacture:
     'यस श्रेणीका उत्पादकले रङीन छाना र cladding sheet, भित्ता तथा partition प्यानल, औद्योगिक र कृषि भवनका रङीन sheet, बार तथा छेकबारका प्यानल, अनि उही stock बाट काटेर बनाइने ढालिएका वा laminated भाग बनाउँछन्। उत्पादन प्रायः corrugated वा profiled हुन्छ, निरन्तर वा press run मा बनाइन्छ, र देखिने ठाउँमै जडान हुन्छ।',
   whySuitable:
-    '<a href="/products/uv-stabilized-sheet-grade-yellow-resin/">UV Stabilized Sheet Grade Yellow Resin</a> पूर्व-रङ्गिएको unsaturated polyester sheet grade हो, जसलाई आपूर्तिकर्ताका कागजातले बाहिरी sheet, cladding र प्यानल कामका लागि UV-stabilised formulation भएको भन्छन्। यसबाट दुई कुरा निस्कन्छ। रङ line मा हालिने होइन, निर्माताकहाँ नै मिसिएर आउँछ — उत्पादन कार्यमा batch-देखि-batch रङ सर्ने समस्या हटाउने कुरा त्यही हो। अनि stabiliser package सेवाका क्रममा हुने weathering सम्बोधन गर्छ, cure होइन: यो resin अन्य sheet grade जस्तै कार्यशालाको तापक्रममा peroxide hardener ले catalyse हुन्छ। यस grade को supplier Technical Data Sheet र Safety Data Sheet हामीसँग अझै छैन, त्यसैले यस पृष्ठमा त्यसका अंक छैनन्, र उत्पादनको artwork मा छापिएका अंक यहाँ specification का रूपमा दोहोर्‍याइँदैनन्।',
+    '<a href="/products/uv-stabilized-sheet-grade-yellow-resin/">UV Stabilized Sheet Grade Yellow Resin</a> पूर्व-रङ्गिएको unsaturated polyester sheet grade हो, जसलाई त्यसको आपूर्तिकर्ता Technical Data Sheet (SPR-TDS-USY) ले बाहिरी sheet, cladding र प्यानल कामका लागि UV-stabilised भन्छ — benzotriazole प्रकारको UV absorber र HALS light stabiliser सहित। यसबाट दुई कुरा निस्कन्छ। रङ line मा हालिने होइन, निर्माताकहाँ नै मिसिएर आउँछ — उत्पादन कार्यमा batch-देखि-batch रङ सर्ने समस्या हटाउने कुरा त्यही हो। अनि stabiliser package सेवाका क्रममा हुने weathering सम्बोधन गर्छ, cure होइन: यो resin अन्य sheet grade जस्तै कार्यशालाको तापक्रममा peroxide hardener ले catalyse हुन्छ। Sheet का मान, 1,000 घण्टाको xenon-arc weathering नतिजासहित, जारीकर्ताको नामसहित उत्पादन पृष्ठमा प्रकाशित छन्; यो गाइडले ती दोहोर्‍याउँदैन।',
   requiredCharacteristics: [
     'पहिल्यै फैलाइएको pigment, ताकि shade line मा दोसिङको शुद्धतामा भर नपरोस्',
     'Sheet को सेवा-अवधिभर घामको सम्पर्कलाई लक्ष्य गरेको stabiliser package',
@@ -46,7 +46,7 @@ export default {
     },
     {
       q: 'Sheet कति वर्ष टिक्छ?',
-      a: 'हामी कुनै अंक प्रकाशित गर्दैनौँ, र सन्दर्भबिनाको अंकको मूल्य थोरै हुन्छ। सेवा-अवधि resin को formulation, stabiliser र surfacing प्रणाली, sheet को बनोट, हावापानी कति कठोर छ र छानाको मर्मत कस्तो छ — यी सबैमा भर पर्छ। भन्न सकिने कुरा के बिग्रन्छ भन्ने हो: घामले सतहको resin भत्काउँछ, जुन रङ परिवर्तन, chalking र अन्ततः fibre उठेर देखिने रूपमा प्रकट हुन्छ।',
+      a: 'हामी सेवा-अवधिको अंक प्रकाशित गर्दैनौँ, र सन्दर्भबिनाको अंकको मूल्य थोरै हुन्छ। आपूर्तिकर्ता Technical Data Sheet ले 1,000 घण्टाको xenon-arc प्रयोगशाला नतिजा दिन्छ, जुन तुलना गर्ने आधार हो, आयु होइन। सेवा-अवधि resin को formulation, stabiliser र surfacing प्रणाली, sheet को बनोट, हावापानी कति कठोर छ र छानाको मर्मत कस्तो छ — यी सबैमा भर पर्छ। भन्न सकिने कुरा के बिग्रन्छ भन्ने हो: घामले सतहको resin भत्काउँछ, जुन रङ परिवर्तन, chalking र अन्ततः fibre उठेर देखिने रूपमा प्रकट हुन्छ।',
     },
     {
       q: 'Line मा अझै pigment हाल्नुपर्छ?',

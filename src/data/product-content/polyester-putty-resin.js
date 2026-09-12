@@ -1,12 +1,12 @@
 export default {
   en: {
     seoTitle: "Polyester Putty Resin — Nepal Supplier",
-    seoDescription: "Polyester Putty Resin is a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS on file.",
+    seoDescription: "Polyester Putty Resin is a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Technical figures confirmed on enquiry.",
     intro: [
-      "Samrat FRP Traders supplies and imports Polyester Putty Resin for the Nepal market. The Samrat Poly Resins, India documentation we hold describes it as a pale-yellow liquid unsaturated polyester resin. It is supplied under the Polyester Putty Resin name on this site.",
+      "Samrat FRP Traders supplies and imports Polyester Putty Resin for the Nepal market. The supplier Safety Data Sheet on file (SPR-SDS-PET) lists Polyester Putty Resin as a related name for a PET-modified liquid unsaturated polyester resin, supplied as a pourable liquid rather than a filled putty paste.",
       "Because the name can be misread, it is worth stating clearly: this is a liquid thermosetting unsaturated polyester resin. It is not supplied as a ready-mixed putty, body filler or paste.",
-      "The supplier's Technical Data Sheet publishes 450–650 cPs viscosity at 25°C, 60–64% solid content, 1.05–1.12 g/cm³ specific gravity at 25°C and a 70–85°C heat deflection temperature on the cured material. The supplier lists end use in fibre sheet products, FRP sheet lamination and panel manufacturing.",
-      "For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page. Technical and safety documents are attributed to the supplier, Samrat Poly Resins, India."
+      "No Technical Data Sheet is offered for this product here, so this page publishes no viscosity, solid content, specific gravity or heat deflection figures. The sheet previously linked, SPR-TDS-PET, is a historical PET-modified sheet-grade resin document and is no longer presented as this product’s data sheet. Ask us and we will confirm current technical values with Samrat Poly Resins, India.",
+      "For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page. The Safety Data Sheet linked on this page is issued by the supplier, Samrat Poly Resins, India."
     ],
     buyerNotes: [
       {
@@ -19,7 +19,7 @@ export default {
       },
       {
         title: "Published values",
-        text: "The supplier TDS lists 450–650 cPs viscosity, 60–64% solid content and 1.05–1.12 g/cm³ specific gravity at 25°C, plus a 70–85°C heat deflection temperature on the cured material."
+        text: "Technical values for this product are confirmed on enquiry. No Technical Data Sheet is offered here, so no processing or cured-material figures are published on this page."
       }
     ],
     faqs: [
@@ -37,19 +37,19 @@ export default {
       },
       {
         q: "Which technical values are published?",
-        a: "The supplier TDS lists 450–650 cPs viscosity at 25°C, 60–64% solid content, 1.05–1.12 g/cm³ specific gravity at 25°C and a 70–85°C heat deflection temperature on the cured material. Review the current TDS for the complete test context."
+        a: "We do not publish them for this product: no Technical Data Sheet is offered for it here. Ask us and we will confirm current values with Samrat Poly Resins, India."
       },
       {
         q: "How is it different from GP Resin or Lamination Resin?",
-        a: "This grade is documented by the supplier for sheet and panel work. GP Resin is the supplier's general-purpose FRP route, while Lamination Resin is tuned for door, plywood and FRP lamination. Compare the current product-specific TDS for each against your finished product before choosing."
+        a: "This grade is positioned by the supplier for sheet and panel work. GP Resin is the supplier’s general-purpose FRP route, while Lamination Resin is tuned for door, plywood and FRP lamination. Those two grades have product-specific Technical Data Sheets; for this one, confirm the values you need with us before choosing."
       }
     ],
     applicationsIntro: "Supplier documentation lists use in fibre sheet products, FRP sheet lamination and panel manufacturing.",
     features: [
       "Liquid unsaturated polyester resin supplied under the Polyester Putty Resin name",
-      "Pale-yellow liquid supply with 450–650 cPs viscosity at 25°C",
+      "Supplied as a pourable liquid resin, not a filled putty paste",
       "Suited to sheet, fibre-sheet, FRP sheet-lamination and panel-manufacturing work",
-      "Current Technical Data Sheet and Safety Data Sheet available for review",
+      "Supplier Safety Data Sheet available for review",
     ],
     industries: [
       "FRP sheet & panel manufacturing",
@@ -58,11 +58,11 @@ export default {
   },
   ne: {
     seoTitle: "Polyester Putty Resin — नेपाल आपूर्तिकर्ता",
-    seoDescription: "Polyester Putty Resin एउटा तरल unsaturated polyester resin हो, जुन नेपालका लागि Samrat FRP Traders ले आपूर्ति र आयात गर्छ। आपूर्तिकर्ता TDS र SDS फाइलमा।",
+    seoDescription: "Polyester Putty Resin एउटा तरल unsaturated polyester resin हो, जुन नेपालका लागि Samrat FRP Traders ले आपूर्ति र आयात गर्छ। प्राविधिक अंक सोधपुछमा पुष्टि गरिन्छ।",
     intro: [
-      "Samrat FRP Traders ले Polyester Putty Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। हामीसँग रहेको Samrat Poly Resins, India को कागजातले यसलाई pale-yellow तरल unsaturated polyester resin भनेर चिनाउँछ। यस साइटमा यो Polyester Putty Resin नाममा आपूर्ति हुन्छ।",
+      "Samrat FRP Traders ले Polyester Putty Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। फाइलमा रहेको आपूर्तिकर्ता Safety Data Sheet (SPR-SDS-PET) ले Polyester Putty Resin लाई PET-modified तरल unsaturated polyester resin को सम्बन्धित नामका रूपमा उल्लेख गर्छ — भरिएको putty paste होइन, बग्ने तरल resin।",
       "नामले भ्रम पार्न सक्ने भएकाले स्पष्ट पारौं: यो तरल thermosetting unsaturated polyester resin हो। यो तयारी putty, body filler वा paste को रूपमा आपूर्ति हुँदैन।",
-      "आपूर्तिकर्ताको Technical Data Sheet ले 25°C मा 450–650 cPs viscosity, 60–64% solid content, 25°C मा 1.05–1.12 g/cm³ specific gravity र cured material मा 70–85°C heat deflection temperature प्रकाशित गर्छ। नेपालमा हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट सोधपुछ गर्नुहोस्।"
+      "यस उत्पादनका लागि यहाँ कुनै Technical Data Sheet प्रस्तुत गरिएको छैन, त्यसैले यस पृष्ठमा viscosity, solid content, specific gravity वा heat deflection का अंक प्रकाशित छैनन्। पहिले लिंक गरिएको SPR-TDS-PET PET-modified sheet-grade resin को पुरानो कागजात हो, र अब यस उत्पादनको डाटा शीटका रूपमा प्रस्तुत गरिँदैन। नेपालमा हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट सोधपुछ गर्नुहोस्।"
     ],
     buyerNotes: [
       {
@@ -75,7 +75,7 @@ export default {
       },
       {
         title: "प्रकाशित मानहरू",
-        text: "TDS ले 25°C मा 450–650 cPs viscosity, 60–64% solid content, 1.05–1.12 g/cm³ specific gravity र cured material मा 70–85°C heat deflection temperature उल्लेख गर्छ।"
+        text: "यस उत्पादनका प्राविधिक मान सोधपुछमा पुष्टि गरिन्छ। यहाँ Technical Data Sheet प्रस्तुत नगरिएकाले प्रशोधन वा cured material का अंक यस पृष्ठमा प्रकाशित छैनन्।"
       }
     ],
     faqs: [
@@ -93,19 +93,19 @@ export default {
       },
       {
         q: "कुन technical मानहरू प्रकाशित छन्?",
-        a: "आपूर्तिकर्ताको TDS ले 25°C मा 450–650 cPs viscosity, 60–64% solid content, 25°C मा 1.05–1.12 g/cm³ specific gravity र cured material मा 70–85°C heat deflection temperature उल्लेख गर्छ। पूरा test context का लागि हालको TDS हेर्नुहोस्।"
+        a: "यस उत्पादनका लागि हामी ती प्रकाशित गर्दैनौँ: यहाँ त्यसको Technical Data Sheet प्रस्तुत गरिएको छैन। सोध्नुहोस्, Samrat Poly Resins, India सँग हालको मान पुष्टि गर्नेछौँ।"
       },
       {
         q: "यो GP Resin वा Lamination Resin भन्दा कसरी फरक छ?",
-        a: "यो आपूर्तिकर्ताका कागजातमा sheet र panel कामका लागि उल्लेख भएको grade हो। GP Resin general-purpose FRP route हो भने Lamination Resin door, plywood र FRP lamination का लागि बनाइएको हो। छनोट गर्नुअघि आफ्नो finished उत्पादनसँग प्रत्येकको TDS तुलना गर्नुहोस्।"
+        a: "आपूर्तिकर्ताले यस grade लाई sheet र panel कामका लागि राखेका छन्। GP Resin general-purpose FRP route हो भने Lamination Resin door, plywood र FRP lamination का लागि बनाइएको हो। ती दुई grade का आफ्नै Technical Data Sheet छन्; यसका लागि भने छनोटअघि चाहिने मान हामीसँग पुष्टि गर्नुहोस्।"
       }
     ],
     applicationsIntro: "आपूर्तिकर्ताको कागजातले fibre sheet products, FRP sheet lamination र panel manufacturing मा प्रयोग उल्लेख गर्छ।",
     features: [
       "Polyester Putty Resin नाममा आपूर्ति हुने तरल unsaturated polyester resin",
-      "25°C मा 450–650 cPs viscosity सहित हल्का-पहेंलो liquid आपूर्ति",
+      "भरिएको putty paste होइन, बग्ने तरल resin का रूपमा आपूर्ति",
       "Sheet, fibre-sheet, FRP sheet-lamination र panel-निर्माण कामका लागि उपयुक्त",
-      "समीक्षाका लागि हालको Technical Data Sheet र Safety Data Sheet उपलब्ध",
+      "समीक्षाका लागि आपूर्तिकर्ता Safety Data Sheet उपलब्ध",
     ],
     industries: [
       "FRP sheet र panel निर्माण",

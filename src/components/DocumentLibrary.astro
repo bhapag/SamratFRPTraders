@@ -1,9 +1,11 @@
 ---
-// Bilingual TDS/SDS document library.
+// Bilingual supplier data-sheet library (TDS, SDS and PDS).
 //
 // Every row is derived from the verified `documents` arrays in
 // products.js — nothing here is hand-listed, so the library cannot drift
-// away from the catalogue. Products with no document on file are named
+// away from the catalogue. The page states no aggregate document count: the
+// document set changes by release and the documentation policy is not settled,
+// so a headline number would go stale or overstate coverage. Products with no document on file are named
 // explicitly at the end rather than quietly omitted, so the page never
 // implies that a missing document exists.
 import Breadcrumbs from './Breadcrumbs.astro';
@@ -11,7 +13,6 @@ import {
   DOCUMENT_ISSUER,
   distinctIssuers,
   documentSections,
-  documentStats,
   productsWithoutDocuments,
 } from '../data/documents.js';
 import { buildCanonicalUrl, buildWhatsAppIntentLink } from '../data/site.js';
@@ -22,7 +23,6 @@ const isNe = lang === 'ne';
 const prefix = isNe ? '' : '/en';
 
 const sections = documentSections();
-const stats = documentStats();
 // One issuer for the whole library today, so it is stated once per family
 // instead of on every row. The column comes back on its own if a second
 // issuer is ever added to the catalogue.
@@ -35,8 +35,8 @@ const t = isNe
   ? {
       eyebrow: 'कागजात पुस्तकालय',
       h1a: 'Samrat FRP Traders',
-      h1b: 'TDS र SDS पुस्तकालय।',
-      lead: `Samrat FRP Traders ले नेपालका लागि आपूर्ति तथा आयात गर्ने ${stats.documentedProducts} उत्पादनका आपूर्तिकर्ता-जारी प्राविधिक तथा सुरक्षा डाटा शीट — ${stats.families} उत्पादन परिवारमा ${stats.documentEntries} कागजात, सबै PDF रूपमा सीधै खुल्छन्।`,
+      h1b: 'आपूर्तिकर्ता डाटा शीट।',
+      lead: 'Samrat FRP Traders ले नेपालका लागि आपूर्ति तथा आयात गर्ने उत्पादनहरूका आपूर्तिकर्ता-जारी डाटा शीट, उत्पादन परिवारअनुसार मिलाइएका। प्रत्येक उत्पादनमा त्यसका लागि जारी भएका कागजात मात्र देखिन्छन्, र सबै PDF रूपमा सीधै खुल्छन्।',
       crumbHome: 'गृहपृष्ठ',
       crumbSelf: 'कागजात पुस्तकालय',
       useTitle: 'यी कागजात कसरी प्रयोग गर्ने',
@@ -46,12 +46,12 @@ const t = isNe
         {
           n: '01',
           h: 'TDS — प्राविधिक डाटा शीट',
-          p: 'आपूर्तिकर्ताले उक्त ग्रेडका लागि प्रकाशित गरेका गुणहरू यसमा हुन्छन् — उत्पादनअनुसार appearance, viscosity, gel time, styrene content जस्ता मान। ग्रेड छनोट र आपूर्ति गरिएको माल तपाईंले अपेक्षा गरेकै हो कि होइन भनी मिलान गर्न यही कागजात चाहिन्छ।',
+          p: 'आपूर्तिकर्ताले उक्त ग्रेडका लागि प्रकाशित गरेका गुणहरू यसमा हुन्छन् — उत्पादनअनुसार appearance, viscosity, gel time, styrene content जस्ता मान। ग्रेड छनोट र आपूर्ति गरिएको माल तपाईंले अपेक्षा गरेकै हो कि होइन भनी मिलान गर्न यही कागजात चाहिन्छ। औजारजस्ता केही वस्तुका लागि यसको सट्टा उत्पादन डाटा शीट (PDS) जारी हुन्छ।',
         },
         {
           n: '02',
           h: 'SDS — सुरक्षा डाटा शीट',
-          p: 'भण्डारण, ओसारपसार र आपत्कालीन जानकारीका लागि यो मानक सन्दर्भ कागजात हो। गोदाम इन्चार्ज र सुरक्षा हेर्ने व्यक्तिले फाइलमा राख्नुपर्ने कागजात यही हो।',
+          p: 'भण्डारण, ओसारपसार र आपत्कालीन जानकारीका लागि यो मानक सन्दर्भ कागजात हो। गोदाम इन्चार्ज र सुरक्षा हेर्ने व्यक्तिले फाइलमा राख्नुपर्ने कागजात यही हो। आपूर्तिकर्ताले SDS जारी गरेका उत्पादनमा मात्र यहाँ SDS देखिन्छ।',
         },
         {
           n: '03',
@@ -66,8 +66,8 @@ const t = isNe
       ],
       scopeTitle: 'यी कागजातले के भन्दैनन्',
       scopeBody: `यी ${DOCUMENT_ISSUER} ले जारी गरेका आपूर्तिकर्ता कागजात हुन्। यी Samrat FRP Traders का प्रमाणपत्र होइनन्, र यीमा नेपालका व्यापारिक सर्तहरू लेखिएका हुँदैनन् — packaging, न्यूनतम अर्डर, आपूर्ति अवधि, ढुवानी वा मूल्य सोधपुछमार्फत मात्र पुष्टि हुन्छ।`,
-      coverageTitle: 'उपलब्धता',
-      coverageBody: `Samrat FRP Traders को क्याटलगमा रहेका ${stats.totalProducts} मध्ये ${stats.documentedProducts} उत्पादनका कागजात फाइलमा छन्। बाँकी ${stats.undocumentedProducts} उत्पादनका लागि आपूर्तिकर्ताको कागजात अहिले उपलब्ध छैन र तल छुट्टै नाम तोकेर उल्लेख गरिएको छ।`,
+      coverageTitle: 'कुन कागजात देखिन्छ',
+      coverageBody: 'प्रत्येक उत्पादनमुनि त्यसका लागि जारी भएका कागजात मात्र सूचीबद्ध छन् — TDS, PDS वा SDS। कुनै प्रकार नदेखिए त्यो कागजात यस पुस्तकालयमा छैन; अर्को उत्पादनको कागजात त्यसको सट्टा राखिएको छैन।',
       colDoc: 'कागजात',
       colRef: 'Reference / Revision',
       colIssuer: 'जारीकर्ता',
@@ -80,7 +80,7 @@ const t = isNe
       familyIssuer: (issuer) => `यस परिवारका सबै कागजात ${issuer} ले जारी गरेका हुन्।`,
       missingTitle: 'कागजात नभएका उत्पादनहरू',
       missingBody:
-        'तलका उत्पादनका लागि आपूर्तिकर्ताको TDS/SDS अहिले हामीसँग छैन। भएको जस्तो देखाउनुभन्दा यहाँ स्पष्ट लेख्न उपयुक्त ठान्यौँ। यी उत्पादनबारे सोधपुछ गर्न सकिन्छ।',
+        'तलका उत्पादनका लागि आपूर्तिकर्ताको कुनै डाटा शीट अहिले हामीसँग छैन। भएको जस्तो देखाउनुभन्दा यहाँ स्पष्ट लेख्न उपयुक्त ठान्यौँ। यी उत्पादनबारे सोधपुछ गर्न सकिन्छ।',
       ctaTitle: 'कोटेशन वा कागजातबारे सोधपुछ',
       ctaBody:
         'चाहिएको ग्रेड, अनुमानित परिमाण, डेलिभरी हुने सहर र प्रयोगको उद्देश्य लेखेर पठाउनुभयो भने जवाफ छिटो र काम लाग्ने हुन्छ।',
@@ -92,8 +92,8 @@ const t = isNe
   : {
       eyebrow: 'Document library',
       h1a: 'Samrat FRP Traders',
-      h1b: 'TDS & SDS library.',
-      lead: `Supplier-issued Technical and Safety Data Sheets for the ${stats.documentedProducts} products Samrat FRP Traders supplies and imports for Nepal — ${stats.documentEntries} documents across ${stats.families} product families, each opening directly as a PDF.`,
+      h1b: 'Supplier data sheets.',
+      lead: 'Supplier-issued data sheets for the products Samrat FRP Traders supplies and imports for Nepal, arranged by product family. Each product lists only the documents issued for it, and each opens directly as a PDF.',
       crumbHome: 'Home',
       crumbSelf: 'Document library',
       useTitle: 'How to use these documents',
@@ -103,12 +103,12 @@ const t = isNe
         {
           n: '01',
           h: 'TDS — Technical Data Sheet',
-          p: 'States the properties the supplier publishes for that grade — values such as appearance, viscosity, gel time and styrene content, depending on the product. This is the document you select a grade from, and the one you check delivered material against.',
+          p: 'States the properties the supplier publishes for that grade — values such as appearance, viscosity, gel time and styrene content, depending on the product. This is the document you select a grade from, and the one you check delivered material against. Some items, such as application tools, carry a Product Data Sheet (PDS) instead.',
         },
         {
           n: '02',
           h: 'SDS — Safety Data Sheet',
-          p: 'The standard reference document for handling, storage and emergency information. This is the sheet your storekeeper and the person responsible for safety need to keep on file.',
+          p: 'The standard reference document for handling, storage and emergency information. This is the sheet your storekeeper and the person responsible for safety need to keep on file. An SDS appears here only for products the supplier has issued one for.',
         },
         {
           n: '03',
@@ -123,8 +123,8 @@ const t = isNe
       ],
       scopeTitle: 'What these documents do not cover',
       scopeBody: `These are supplier documents issued by ${DOCUMENT_ISSUER}. They are not Samrat FRP Traders certifications, and they do not state Nepal commercial terms — packaging, minimum order, lead time, delivery and price are confirmed by enquiry.`,
-      coverageTitle: 'Coverage',
-      coverageBody: `${stats.documentedProducts} of the ${stats.totalProducts} products in the Samrat FRP Traders catalogue have documents on file. The remaining ${stats.undocumentedProducts} have no supplier document available to us at present and are named individually below.`,
+      coverageTitle: 'What each listing shows',
+      coverageBody: 'Each product lists only the documents issued for it — TDS, PDS or SDS. Where a type does not appear, that document is not in this library, and no other product’s document stands in for it.',
       colDoc: 'Document',
       colRef: 'Reference / revision',
       colIssuer: 'Issued by',
@@ -137,7 +137,7 @@ const t = isNe
       familyIssuer: (issuer) => `Every document in this family is issued by ${issuer}.`,
       missingTitle: 'Products without documents',
       missingBody:
-        'We do not currently hold a supplier TDS or SDS for the products below. We would rather name them here than let the list above imply otherwise. Enquiries about these products are still welcome.',
+        'We do not currently hold any supplier data sheet for the products below. We would rather name them here than let the list above imply otherwise. Enquiries about these products are still welcome.',
       ctaTitle: 'Ask about a quotation or a document',
       ctaBody:
         'Tell us the grade you need, an estimated quantity, the delivery city and what you are making — the reply comes back faster and more useful that way.',
@@ -175,27 +175,6 @@ const breadcrumbSchema = {
     <p class="page-lead">{t.lead}</p>
   </div>
 </section>
-
-<div class="container">
-  <div class="doc-stats" data-reveal>
-    <div class="stat">
-      <span class="stat-num">{stats.documentEntries}</span>
-      <span class="stat-label">{isNe ? 'कागजात' : 'Documents'}</span>
-    </div>
-    <div class="stat">
-      <span class="stat-num">{stats.documentedProducts}</span>
-      <span class="stat-label">{isNe ? 'कागजात भएका उत्पादन' : 'Documented products'}</span>
-    </div>
-    <div class="stat">
-      <span class="stat-num">{stats.families}</span>
-      <span class="stat-label">{isNe ? 'उत्पादन परिवार' : 'Product families'}</span>
-    </div>
-    <div class="stat">
-      <span class="stat-num">{stats.undocumentedProducts}</span>
-      <span class="stat-label">{isNe ? 'कागजात नभएका' : 'Awaiting documents'}</span>
-    </div>
-  </div>
-</div>
 
 <section class="section">
   <div class="container">
@@ -321,18 +300,22 @@ const breadcrumbSchema = {
 
 <section class="section">
   <div class="container">
-    <div class="section-heading" data-reveal>
-      <p class="eyebrow">{isNe ? 'पारदर्शिता' : 'Transparency'}</p>
-      <h2>{t.missingTitle}</h2>
-    </div>
-    <p class="missing-lead" data-reveal>{t.missingBody}</p>
-    <ul class="missing-list" data-reveal>
-      {missing.map((product) => (
-        <li>
-          <a href={`${prefix}/products/${product.slug}/`}>{product.name}</a>
-        </li>
-      ))}
-    </ul>
+    {missing.length > 0 && (
+      <>
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">{isNe ? 'पारदर्शिता' : 'Transparency'}</p>
+          <h2>{t.missingTitle}</h2>
+        </div>
+        <p class="missing-lead" data-reveal>{t.missingBody}</p>
+        <ul class="missing-list" data-reveal>
+          {missing.map((product) => (
+            <li>
+              <a href={`${prefix}/products/${product.slug}/`}>{product.name}</a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
     <p class="doc-issuer-note" data-reveal>{t.issuedBy}: {DOCUMENT_ISSUER}</p>
   </div>
 </section>

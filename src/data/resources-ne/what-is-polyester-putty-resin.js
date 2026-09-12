@@ -10,7 +10,7 @@ export default {
     "प्रकाशित उत्पादन": "Polyester Putty Resin",
     "Resin family": "PET-modified unsaturated polyester resin",
     "Supplied रूप": "Pale-yellow liquid sheet grade",
-    "छनोट सन्दर्भ": "हालको TDS"
+    "छनोट सन्दर्भ": "आपूर्तिकर्ता SDS फाइलमा; प्राविधिक मान सोधपुछमा पुष्टि"
   },
   recommendedLinks: [
     {
@@ -19,9 +19,9 @@ export default {
       description: "product भूमिका, specifications, pack र enquiry path समीक्षा गर्नुहोस्।"
     },
     {
-      href: "/tds/pet-resin-tds.pdf",
-      label: "Download the TDS",
-      description: "grade-specific technical document लाई नियन्त्रक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
+      href: "/sds/pet-resin-sds.pdf",
+      label: "आपूर्तिकर्ता Safety Data Sheet हेर्नुहोस्",
+      description: "SPR-SDS-PET — PET Resin नाममा जारी, Polyester Putty Resin सम्बन्धित नामका रूपमा।"
     },
     {
       href: "/products/polyester-resins/",
@@ -37,7 +37,7 @@ export default {
   faqs: [
     {
       q: "यो site मा Polyester Putty Resin के हो?",
-      a: "यो Samrat FRP Traders ले आपूर्ति गर्ने PET-modified unsaturated polyester resin हो, जुन PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing का लागि pale-yellow liquid sheet grade को रूपमा उपलब्ध छ। पूर्ण technical data हालको TDS मा छ।"
+      a: "यो Samrat FRP Traders ले आपूर्ति गर्ने PET-modified unsaturated polyester resin हो, जुन PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing का लागि liquid sheet grade को रूपमा उपलब्ध छ। प्राविधिक मान सोधपुछमा पुष्टि गरिन्छ।"
     },
     {
       q: "के यो Polyester Putty Resin conventional thermoplastic PET material हो?",
@@ -45,28 +45,28 @@ export default {
     },
     {
       q: "Samrat Poly Resins, India ले किन Polyester Putty Resin र Polyester Putty Resin दुवै नाम प्रयोग गर्छ?",
-      a: "दुवै नामहरू हालको TDS heading मा सँगै देखा पर्छन् र उही Samrat grade का लागि approved buyer-facing पहिचान बनाउँछन्।"
+      a: "फाइलमा रहेको आपूर्तिकर्ता Safety Data Sheet ले उत्पादनको नाम PET Resin राखेको छ र Polyester Putty Resin लाई उही liquid grade को सम्बन्धित नामका रूपमा उल्लेख गर्छ।"
     }
   ],
   sections: [
     {
       heading: "Polyester Putty Resin पहिचान",
       body: [
-        "Samrat Poly Resins, India ले Polyester Putty Resin लाई PET-modified unsaturated polyester resin को रूपमा उत्पादन गर्छ, जुन Samrat FRP Traders मार्फत pale-yellow liquid sheet grade को रूपमा आपूर्ति गरिन्छ। हालको TDS ले liquid, styrene-compatible resin system मा polyethylene terephthalate content वर्णन गर्छ र यो product का लागि नियन्त्रक technical सन्दर्भ हो।",
-        "यो व्यापक unsaturated polyester resin family भित्र पर्छ, तर आफ्नै grade र application context कायम राख्छ — आफ्नो exact तयार sheet वा laminate requirement र हालको TDS बाट सुरु गर्नुहोस्।"
+        "Samrat FRP Traders ले Polyester Putty Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। फाइलमा रहेको आपूर्तिकर्ता Safety Data Sheet (SPR-SDS-PET) ले यसलाई PET-modified unsaturated polyester resin भन्छ — styrene reactive diluent भएको liquid resin system मा polyethylene terephthalate content — जुन liquid sheet grade को रूपमा आपूर्ति हुन्छ। प्राविधिक मान सोधपुछमा पुष्टि गरिन्छ।",
+        "यो व्यापक unsaturated polyester resin family भित्र पर्छ, तर आफ्नै grade र application context कायम राख्छ — आफ्नो exact तयार sheet वा laminate requirement बाट सुरु गर्नुहोस्, र चाहिने प्राविधिक मान हामीसँग पुष्टि गर्नुहोस्।"
       ]
     },
     {
       heading: "प्रकाशित कागजातमा PET को अर्थ के हो",
       body: [
         "यस product का लागि, PET ले PET-modified liquid resin system मा वर्णन गरिएको polyethylene terephthalate content जनाउँछ। कागजातले chips, pellets, bottle-grade material वा recycled PET feedstock जस्ता conventional thermoplastic PET commodity product वर्णन गर्दैन।",
-        "हालको product catalogue ले फरक PET item लाई छुट्टै thermoplastic chips को रूपमा label गर्छ। रूप र data मा त्यो भिन्नताको अर्थ हो कि खरिदकर्ताले catalogue-chip जानकारीलाई dedicated liquid Polyester Putty Resin TDS सँग मिसाउनु हुँदैन।"
+        "हालको product catalogue ले फरक PET item लाई छुट्टै thermoplastic chips को रूपमा label गर्छ। रूप र data मा त्यो भिन्नताको अर्थ हो कि खरिदकर्ताले catalogue-chip जानकारीलाई liquid Polyester Putty Resin grade सँग मिसाउनु हुँदैन।"
       ]
     },
     {
       heading: "प्रकाशित application context",
       body: [
-        "हालको TDS ले PET sheets र fibre sheet products, साथै FRP sheet lamination र panel manufacturing सूचीबद्ध गर्छ। यिनै यो guide मा प्रयोग गरिएका application contexts हुन्।",
+        "आपूर्तिकर्ता Safety Data Sheet ले PET sheets र fibre sheet products, साथै FRP sheet lamination र panel manufacturing लाई सिफारिस गरिएका प्रयोगका रूपमा सूचीबद्ध गर्छ। यिनै यो guide मा प्रयोग गरिएका application contexts हुन्।",
         "तयार-product performance पूर्ण sheet, laminate वा panel system मा निर्भर गर्छ र यो liquid-resin नाम एक्लैले स्थापित हुँदैन।"
       ]
     },

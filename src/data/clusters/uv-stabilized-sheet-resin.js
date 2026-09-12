@@ -6,14 +6,14 @@
 // This range previously carried a product described as a UV-cure system. That
 // description was wrong and the product was withdrawn; these guides exist partly
 // so the same confusion does not take hold again.
-// No supplier document for this grade is on file, so no figure is stated.
+// Grade figures live in the supplier TDS (SPR-TDS-USY), linked from the product page; no service-life claim is made.
 
 import {
   commercialPosition,
-  docsPending,
+  docsTdsOnFile,
   enquiryLink,
   neCommercialPosition,
-  neDocsPending,
+  neDocsTdsOnFile,
   neEnquiryLink,
 } from './shared.js';
 
@@ -66,7 +66,7 @@ export const uvStabilizedSheetResinCluster = [
       'What it does not mean': 'That the resin hardens under a UV lamp',
       'How it cures': 'With a peroxide catalyst at workshop temperature, like other polyester sheet grades',
       'Commercial position': commercialPosition,
-      'Document status': docsPending,
+      'Document status': docsTdsOnFile,
     },
     relatedSlugs: [
       'uv-stabilised-vs-uv-curable-resin',
@@ -106,7 +106,7 @@ export const uvStabilizedSheetResinCluster = [
       },
       {
         q: 'Can you send the data sheet for this grade?',
-        a: 'Not yet. The supplier Technical Data Sheet and Safety Data Sheet for UV Stabilized Sheet Grade Yellow Resin are not currently in our document library, so no viscosity, gel time, styrene content or service-life figures for it appear anywhere on this site. Ask us and we will confirm what Samrat Poly Resins, India publishes at the time of your enquiry.',
+        a: 'Yes. The supplier Technical Data Sheet for UV Stabilized Sheet Grade Yellow Resin, SPR-TDS-USY (Rev. 01, September 2026), is linked from its product page and listed in our document library. It states the grade’s viscosity, gel time, styrene content, stabiliser system and a laboratory weathering result.',
       },
     ],
     sections: [
@@ -146,7 +146,7 @@ export const uvStabilizedSheetResinCluster = [
         heading: 'What we can evidence for this grade',
         body: [
           'Samrat FRP Traders supplies and imports UV Stabilized Sheet Grade Yellow Resin for the Nepal market. The supplier is Samrat Poly Resins, India, a separate business. We are the trader, supplier, importer and reseller. We do not manufacture, formulate, test or certify resin, and we do not run weathering trials.',
-          'The supplier’s Technical Data Sheet and Safety Data Sheet for this grade are not yet in our document library. That is why this cluster contains no viscosity, gel time, styrene content, stabiliser loading or service-life figures. It is also why we make no claim about how many years a sheet made with it will last: that depends on the formulation, the sheet construction, the climate and the maintenance, and it is not ours to assert.',
+          'The supplier’s Technical Data Sheet for this grade is in our document library and linked from the product page, where its headline values are published with the issuer named. It reports a 1,000-hour xenon-arc weathering test (ISO 4892-2) — colour change ΔE 3–5, 80% gloss retention, 85% tensile strength retention. That is a laboratory exposure result, not a lifespan, and we still make no claim about how many years a sheet made with it will last: that depends on the formulation, the sheet construction, the climate and the maintenance.',
           'If your decision depends on a published figure, raise it at the enquiry stage and we will put the question to the supplier rather than estimate on their behalf.',
         ],
       },
@@ -172,7 +172,7 @@ export const uvStabilizedSheetResinCluster = [
         'यसको अर्थ होइन': 'Resin UV बत्तीले कडा हुन्छ भन्ने',
         'कसरी जम्छ': 'अन्य polyester sheet grade जस्तै कार्यशालाको तापक्रममा peroxide catalyst ले',
         'व्यावसायिक भूमिका': neCommercialPosition,
-        'कागजात अवस्था': neDocsPending,
+        'कागजात अवस्था': neDocsTdsOnFile,
       },
       recommendedLinks: [
         neProduct,
@@ -207,7 +207,7 @@ export const uvStabilizedSheetResinCluster = [
         },
         {
           q: 'यस grade को data sheet पठाउन सक्नुहुन्छ?',
-          a: 'अहिले सक्दैनौँ। UV Stabilized Sheet Grade Yellow Resin को supplier Technical Data Sheet र Safety Data Sheet हाम्रो कागजात पुस्तकालयमा छैनन्, त्यसैले यस साइटमा viscosity, gel time, styrene content वा सेवा-अवधिका अंक कतै छैनन्। सोध्नुहोस्; सोधपुछका बेला Samrat Poly Resins, India ले के प्रकाशित गरेका छन् पुष्टि गर्नेछौँ।',
+          a: 'सक्छौँ। UV Stabilized Sheet Grade Yellow Resin को आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-USY (Rev. 01, September 2026), त्यसको उत्पादन पृष्ठबाट लिंक गरिएको छ र हाम्रो कागजात पुस्तकालयमा पनि छ। यसले grade को viscosity, gel time, styrene content, stabiliser प्रणाली र प्रयोगशालाको weathering नतिजा उल्लेख गर्छ।',
         },
       ],
       sections: [
@@ -247,7 +247,7 @@ export const uvStabilizedSheetResinCluster = [
           heading: 'यस grade का लागि हामी के प्रमाणित गर्न सक्छौँ',
           body: [
             'Samrat FRP Traders ले नेपाली बजारका लागि UV Stabilized Sheet Grade Yellow Resin आपूर्ति र आयात गर्छ। आपूर्तिकर्ता Samrat Poly Resins, India — छुट्टै व्यवसाय — हो। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ। हामी resin उत्पादन, formulation, परीक्षण वा प्रमाणीकरण गर्दैनौँ, र weathering परीक्षण पनि चलाउँदैनौँ।',
-            'यस grade को आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet अझै हाम्रो कागजात पुस्तकालयमा छैनन्। त्यसैले यस cluster मा viscosity, gel time, styrene content, stabiliser मात्रा वा सेवा-अवधिका अंक छैनन्। यसैले यसबाट बनेको sheet कति वर्ष टिक्छ भन्ने दाबी पनि गर्दैनौँ: त्यो formulation, sheet को बनोट, हावापानी र मर्मत-सम्भारमा भर पर्छ, र त्यो दाबी गर्ने ठाउँ हाम्रो होइन।',
+            'यस grade को आपूर्तिकर्ता Technical Data Sheet हाम्रो कागजात पुस्तकालयमा छ र उत्पादन पृष्ठबाट लिंक गरिएको छ; त्यहाँ मुख्य मान जारीकर्ताको नामसहित प्रकाशित छन्। Sheet ले 1,000 घण्टाको xenon-arc weathering परीक्षण (ISO 4892-2) को नतिजा दिन्छ — रङ परिवर्तन ΔE 3–5, 80% gloss कायम, 85% tensile strength कायम। यो प्रयोगशालाको सम्पर्क-नतिजा हो, आयु होइन, र यसबाट बनेको sheet कति वर्ष टिक्छ भन्ने दाबी हामी अझै गर्दैनौँ: त्यो formulation, sheet को बनोट, हावापानी र मर्मत-सम्भारमा भर पर्छ।',
             'तपाईंको निर्णय कुनै प्रकाशित अंकमा भर पर्छ भने सोधपुछकै बेला उठाउनुहोस् — हामी आपूर्तिकर्ताको तर्फबाट अनुमान गर्नुको सट्टा उनीहरूसमक्ष प्रश्न पुर्‍याउँछौँ।',
           ],
         },
@@ -363,7 +363,7 @@ export const uvStabilizedSheetResinCluster = [
         heading: 'What to ask for instead',
         body: [
           'If you are buying for outdoor sheet, cladding or panel work, ask for a sheet grade and ask what weathering protection the manufacturer describes for it: stabilisers compounded into the resin, a surfacing veil, a gelcoat, or a combination. Then ask for the document that supports the description.',
-          'For UV Stabilized Sheet Grade Yellow Resin specifically, Samrat FRP Traders is the trader, supplier, importer and reseller in Nepal, and Samrat Poly Resins, India is the manufacturer. That grade’s Technical Data Sheet and Safety Data Sheet are not yet on file with us, so we publish no figures for it and no service-life claim. What we can do is put your question to the supplier and send you what they currently publish.',
+          'For UV Stabilized Sheet Grade Yellow Resin specifically, Samrat FRP Traders is the trader, supplier, importer and reseller in Nepal, and Samrat Poly Resins, India is the manufacturer. That grade’s Technical Data Sheet is on file and linked from its product page; we publish the values it states and make no service-life claim. Anything the sheet does not cover, we put to the supplier.',
         ],
       },
     ],
@@ -463,7 +463,7 @@ export const uvStabilizedSheetResinCluster = [
           heading: 'बरु के माग्ने',
           body: [
             'बाहिरी sheet, cladding वा प्यानल कामका लागि किन्दै हुनुहुन्छ भने sheet grade माग्नुहोस् र निर्माताले त्यसका लागि कस्तो weathering सुरक्षा वर्णन गरेका छन् सोध्नुहोस्: resin मा मिसाइएका stabiliser, surfacing veil, gelcoat, वा तिनको संयोजन। त्यसपछि त्यो वर्णनलाई समर्थन गर्ने कागजात माग्नुहोस्।',
-            'विशेष गरी UV Stabilized Sheet Grade Yellow Resin का लागि: नेपालमा Samrat FRP Traders व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो, र निर्माता Samrat Poly Resins, India हो। त्यस grade को Technical Data Sheet र Safety Data Sheet हामीसँग अझै छैनन्, त्यसैले हामी त्यसका कुनै अंक वा सेवा-अवधिको दाबी प्रकाशित गर्दैनौँ। हामीले गर्न सक्ने भनेको तपाईंको प्रश्न आपूर्तिकर्तासमक्ष पुर्‍याउने र उनीहरूले हाल प्रकाशित गरेको पठाउने हो।',
+            'विशेष गरी UV Stabilized Sheet Grade Yellow Resin का लागि: नेपालमा Samrat FRP Traders व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो, र निर्माता Samrat Poly Resins, India हो। त्यस grade को Technical Data Sheet फाइलमा छ र उत्पादन पृष्ठबाट लिंक गरिएको छ; त्यसले उल्लेख गरेका मान हामी प्रकाशित गर्छौँ, तर सेवा-अवधिको दाबी गर्दैनौँ। Sheet ले नसमेटेको कुरा हामी आपूर्तिकर्तासमक्ष पुर्‍याउँछौँ।',
           ],
         },
       ],
@@ -578,7 +578,7 @@ export const uvStabilizedSheetResinCluster = [
         heading: 'What we can and cannot tell you',
         body: [
           'Samrat FRP Traders is a trader, supplier, importer and reseller of FRP materials in Nepal. We supply resin manufactured by Samrat Poly Resins, India. We do not run weathering trials, we do not manufacture sheet, and we do not issue service-life predictions.',
-          'For UV Stabilized Sheet Grade Yellow Resin the supplier documentation is not yet on file with us, so this cluster carries no stabiliser loading, no performance figure and no lifespan claim. Whether a specific sheet relies on stabilisers in the resin, a veil, a gelcoat or a combination is a product-specific question for the manufacturer, and it is a good question to put to them before a large order.',
+          'For UV Stabilized Sheet Grade Yellow Resin the supplier Technical Data Sheet names the stabiliser system — a benzotriazole-type UV absorber with a HALS light stabiliser — but not its loading, and this cluster makes no lifespan claim. Whether a specific sheet relies on stabilisers in the resin, a veil, a gelcoat or a combination is a product-specific question for the manufacturer, and it is a good question to put to them before a large order.',
         ],
       },
     ],
@@ -678,7 +678,7 @@ export const uvStabilizedSheetResinCluster = [
           heading: 'हामी के भन्न सक्छौँ, के सक्दैनौँ',
           body: [
             'Samrat FRP Traders नेपालमा FRP सामग्रीको व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हो। हामी Samrat Poly Resins, India ले उत्पादन गरेको resin आपूर्ति गर्छौं। हामी weathering परीक्षण चलाउँदैनौँ, sheet उत्पादन गर्दैनौँ, र सेवा-अवधिको अनुमान जारी गर्दैनौँ।',
-            'UV Stabilized Sheet Grade Yellow Resin को supplier कागजात हामीसँग अझै छैन, त्यसैले यस cluster मा stabiliser मात्रा, कार्यसम्पादन अंक वा आयुको दाबी छैन। कुनै खास sheet resin का stabiliser, veil, gelcoat वा तिनको संयोजनमा भर पर्छ भन्ने उत्पादन-विशेष प्रश्न निर्माताको हो, र ठूलो अर्डरअघि उनीहरूलाई सोध्न लायक राम्रो प्रश्न पनि हो।',
+            'UV Stabilized Sheet Grade Yellow Resin को आपूर्तिकर्ता Technical Data Sheet ले stabiliser प्रणाली — benzotriazole प्रकारको UV absorber र HALS light stabiliser — उल्लेख गर्छ, तर त्यसको मात्रा उल्लेख गर्दैन, र यस cluster मा आयुको दाबी छैन। कुनै खास sheet resin का stabiliser, veil, gelcoat वा तिनको संयोजनमा भर पर्छ भन्ने उत्पादन-विशेष प्रश्न निर्माताको हो, र ठूलो अर्डरअघि उनीहरूलाई सोध्न लायक राम्रो प्रश्न पनि हो।',
           ],
         },
       ],
@@ -788,7 +788,7 @@ export const uvStabilizedSheetResinCluster = [
         body: [
           'Before committing a production quantity: confirm the grade and what the manufacturer publishes for it; confirm the catalyst system and the gel-time behaviour you should expect, and run a trial under your own workshop conditions rather than relying on figures from another site or season; confirm the colour arrangement and batch grouping for the quantity you need; and obtain the safety documentation your workshop needs in order to write its handling procedure.',
           'Samrat FRP Traders supplies and imports sheet grades for Nepal from Samrat Poly Resins, India. We are a trader, supplier, importer and reseller. We do not manufacture resin or sheet, and we publish no price, stock position or delivery commitment on this site.',
-          'For UV Stabilized Sheet Grade Yellow Resin the supplier Technical Data Sheet and Safety Data Sheet are not yet on file with us, so no figures for that grade appear anywhere here. Ask at the enquiry stage and we will put the question to the supplier.',
+          'For UV Stabilized Sheet Grade Yellow Resin the supplier Technical Data Sheet is on file, and the values it states are published on its product page with the issuer named. Anything it does not cover, ask at the enquiry stage and we will put the question to the supplier.',
         ],
       },
     ],
@@ -883,7 +883,7 @@ export const uvStabilizedSheetResinCluster = [
           body: [
             'उत्पादन परिमाण तय गर्नुअघि: grade र त्यसका लागि निर्माताले प्रकाशित गरेको कुरा पुष्टि गर्नुहोस्; catalyst प्रणाली र अपेक्षित gel-time व्यवहार पुष्टि गर्नुहोस्, र अर्को साइट वा मौसमका अंकमा भर पर्नुको सट्टा आफ्नै कार्यशालाको अवस्थामा परीक्षण चलाउनुहोस्; चाहिने परिमाणका लागि रङ र batch को व्यवस्था मिलाउनुहोस्; अनि handling कार्यविधि लेख्न कार्यशालालाई चाहिने सुरक्षा कागजात लिनुहोस्।',
             'Samrat FRP Traders ले Samrat Poly Resins, India बाट नेपालका लागि sheet grade आपूर्ति र आयात गर्छ। हामी व्यापारी, आपूर्तिकर्ता, आयातकर्ता र पुनर्विक्रेता हौँ। हामी resin वा sheet उत्पादन गर्दैनौँ, र यस साइटमा मूल्य, स्टक अवस्था वा delivery प्रतिबद्धता प्रकाशित गर्दैनौँ।',
-            'UV Stabilized Sheet Grade Yellow Resin को supplier Technical Data Sheet र Safety Data Sheet हामीसँग अझै छैनन्, त्यसैले त्यस grade का अंक यहाँ कतै छैनन्। सोधपुछकै बेला भन्नुहोस्, हामी प्रश्न आपूर्तिकर्तासमक्ष पुर्‍याउँछौँ।',
+            'UV Stabilized Sheet Grade Yellow Resin को आपूर्तिकर्ता Technical Data Sheet फाइलमा छ, र त्यसले उल्लेख गरेका मान जारीकर्ताको नामसहित उत्पादन पृष्ठमा प्रकाशित छन्। त्यसले नसमेटेको कुरा सोधपुछकै बेला भन्नुहोस्, हामी प्रश्न आपूर्तिकर्तासमक्ष पुर्‍याउँछौँ।',
           ],
         },
       ],

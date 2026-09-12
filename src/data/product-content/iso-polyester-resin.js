@@ -7,7 +7,7 @@ export default {
       "Samrat FRP Traders supplies and imports ISO Polyester Resin for the Nepal market. The product artwork issued by Samrat Poly Resins, India describes it as an isophthalic unsaturated polyester resin for FRP work where chemical resistance, water resistance and long-term durability matter.",
       "The word that does the work here is isophthalic. Unsaturated polyester resins are built on a dibasic acid, and the acid chosen changes how the cured laminate behaves. General-purpose grades use orthophthalic acid, which is economical and fine for dry, lightly loaded work. Isophthalic acid produces a more hydrolysis-resistant backbone, which is why the industry reaches for an ISO grade when a laminate is going to hold water or chemicals for years rather than sit on a shelf.",
       "For a Nepal fabricator the practical decision is usually about service, not price. A GP grade is the sensible default for general lamination; an ISO grade is what you specify when the part is a storage tank, a pipe, a scrubber, a cooling tower component or anything that stays wet. Paying for an ISO backbone on a dry indoor panel rarely earns its cost, and using GP on a chemical tank is the more expensive mistake.",
-      "Technical values for this grade are published by the supplier. We are not reproducing figures here until the current Technical Data Sheet is on file — ask us and we will send what the supplier publishes. Pricing, packaging and availability in Nepal are confirmed on enquiry.",
+      "The supplier Technical Data Sheet for this grade, SPR-TDS-IPR (Rev. 01, September 2026), is linked on this page, and its headline values are listed under Technical specifications with the issuer named. Pricing, packaging and availability in Nepal are confirmed on enquiry.",
     ],
     buyerNotes: [
       {
@@ -19,8 +19,8 @@ export default {
         text: "ISO Polyester Resin is the laminating resin. Reinforcement, catalyst and accelerator are separate items — glass fibre mat, an MEKP hardener and, where the system calls for it, cobalt octoate.",
       },
       {
-        title: "Documents pending",
-        text: "The supplier's Technical Data Sheet and Safety Data Sheet for this grade are not yet in our document library. Ask us before you order and we will confirm what the supplier currently publishes.",
+        title: "Supplier data sheet",
+        text: "The supplier Technical Data Sheet, SPR-TDS-IPR, is linked on this page and listed in the document library. Quote the grade name exactly as it appears on the sheet when you order.",
       },
     ],
     faqs: [
@@ -42,7 +42,7 @@ export default {
       },
       {
         q: "Can you send the technical data sheet?",
-        a: "The current TDS and SDS for this grade are not yet hosted on this site. Contact Samrat FRP Traders and we will confirm what the supplier publishes for the grade at the time of your enquiry.",
+        a: "Yes. The supplier Technical Data Sheet, SPR-TDS-IPR (Rev. 01, September 2026), is linked on this page for download and listed in our document library.",
       },
     ],
     applicationsIntro:
@@ -68,7 +68,7 @@ export default {
       "Samrat FRP Traders ले नेपाली बजारका लागि ISO Polyester Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India ले जारी गरेको उत्पादन artwork ले यसलाई रासायनिक प्रतिरोध, पानी प्रतिरोध र दीर्घकालीन टिकाउपन चाहिने FRP कामका लागि isophthalic unsaturated polyester resin भन्छन्।",
       "यहाँ मुख्य शब्द isophthalic हो। Unsaturated polyester resin कुन dibasic acid बाट बनेको छ, त्यसैले जमेको laminate को व्यवहार फरक पार्छ। सामान्य प्रयोजनका grade मा orthophthalic acid हुन्छ — सस्तो र सुक्खा, हल्का कामका लागि ठीकै। Isophthalic acid ले बढी hydrolysis सहने संरचना दिन्छ, त्यसैले वर्षौँ पानी वा रसायन बोक्नुपर्ने laminate का लागि उद्योगले ISO grade रोज्छ।",
       "नेपाली फेब्रिकेटरका लागि निर्णय प्रायः मूल्यको होइन, सेवा-अवस्थाको हुन्छ। सामान्य lamination का लागि GP grade नै व्यावहारिक हो; तर भाग भण्डारण ट्यांकी, पाइप, scrubber, कूलिङ टावरको भाग वा सधैँ भिजिरहने कुनै वस्तु हो भने ISO grade तोक्नुपर्छ। सुक्खा भित्री प्यानलमा ISO को अतिरिक्त लागत प्रायः फाइदाजनक हुँदैन, तर रासायनिक ट्यांकीमा GP प्रयोग गर्नु महँगो गल्ती हुन्छ।",
-      "यस grade का प्राविधिक मान आपूर्तिकर्ताले प्रकाशित गर्छन्। हालको Technical Data Sheet फाइलमा नआउन्जेल हामी यहाँ अंक राख्दैनौँ — सोध्नुहोस्, आपूर्तिकर्ताले प्रकाशित गरेको पठाउँछौँ। नेपालमा मूल्य, प्याकेजिङ र उपलब्धता सोधपुछमा पुष्टि हुन्छ।",
+      "यस grade को आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-IPR (Rev. 01, September 2026), यस पृष्ठमा लिंक गरिएको छ, र त्यसका मुख्य मान जारीकर्ताको नामसहित प्राविधिक विवरणमा राखिएका छन्। नेपालमा मूल्य, प्याकेजिङ र उपलब्धता सोधपुछमा पुष्टि हुन्छ।",
     ],
     buyerNotes: [
       {
@@ -80,8 +80,8 @@ export default {
         text: "ISO Polyester Resin laminating resin हो। Reinforcement, catalyst र accelerator छुट्टै वस्तु हुन् — glass fibre mat, MEKP hardener र प्रणालीले मागेमा cobalt octoate।",
       },
       {
-        title: "कागजात पर्खाइमा",
-        text: "यस grade को आपूर्तिकर्ता Technical Data Sheet र Safety Data Sheet हाम्रो कागजात पुस्तकालयमा अहिले छैन। अर्डरअघि सोध्नुहोस्, आपूर्तिकर्ताले हाल के प्रकाशित गरेका छन् हामी पुष्टि गर्नेछौँ।",
+        title: "आपूर्तिकर्ता डाटा शीट",
+        text: "आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-IPR, यस पृष्ठमा लिंक गरिएको छ र कागजात पुस्तकालयमा पनि छ। अर्डर गर्दा sheet मा लेखिएजस्तै grade को नाम हुबहु लेख्नुहोस्।",
       },
     ],
     faqs: [
@@ -103,7 +103,7 @@ export default {
       },
       {
         q: "प्राविधिक डाटा शीट पठाउन सक्नुहुन्छ?",
-        a: "यस grade को हालको TDS र SDS अहिले यस साइटमा राखिएको छैन। Samrat FRP Traders लाई सम्पर्क गर्नुहोस्; सोधपुछका बेला आपूर्तिकर्ताले के प्रकाशित गरेका छन् हामी पुष्टि गर्नेछौँ।",
+        a: "सक्छौँ। आपूर्तिकर्ता Technical Data Sheet, SPR-TDS-IPR (Rev. 01, September 2026), यस पृष्ठबाट डाउनलोड गर्न सकिन्छ र हाम्रो कागजात पुस्तकालयमा पनि छ।",
       },
     ],
     applicationsIntro:
