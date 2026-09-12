@@ -51,13 +51,18 @@ const thumbLabel = (i) => (isNe ? `तस्बिर ${i + 1} हेर्न�
 const t = isNe
   ? {
       docsTitle: 'प्राविधिक कागजातहरू',
-      tdsButton: 'प्राविधिक डाटा शीट (TDS) डाउनलोड गर्नुहोस् (PDF)',
-      sdsButton: 'सुरक्षा डाटा शीट (SDS) डाउनलोड गर्नुहोस् (PDF)',
+      tdsButton: 'प्राविधिक डाटा शीट डाउनलोड गर्नुहोस्',
+      sdsButton: 'सुरक्षा डाटा शीट डाउनलोड गर्नुहोस्',
       catalogueTitle: 'पूर्ण उत्पादन दायरा चाहिन्छ?',
       catalogueDesc: 'हाम्रो पूर्ण FRP सामग्री तथा रेजिन दायरा हेर्नुहोस्।',
       catalogueLabel: 'उत्पादन क्याटलग डाउनलोड गर्नुहोस्',
       issuedBy: 'TDS/SDS जारीकर्ता',
-      libraryLink: 'सबै उत्पादनका TDS / SDS एकै ठाउँमा हेर्नुहोस्',
+      libraryLink: 'कागजात पुस्तकालय हेर्नुहोस्',
+      tdsAbsent: 'प्राविधिक डाटा शीट (TDS)',
+      sdsAbsent: 'सुरक्षा डाटा शीट (SDS)',
+      notOnFile: 'अहिले फाइलमा छैन',
+      askForDocs: 'यी कागजात माग्नुहोस्',
+      docsPendingNote: 'यस grade का लागि आपूर्तिकर्ता कागजात हाम्रो पुस्तकालयमा अझै छैन। सोध्नुहोस्; Samrat Poly Resins, India ले हाल के प्रकाशित गरेका छन् हामी पुष्टि गर्नेछौँ।',
       priceHeading: 'मूल्य',
       priceValue: 'मूल्य: अनुरोधमा',
       priceNote: `${product.name} को मूल्य निम्न कुरामा निर्भर गर्दछ:`,
@@ -91,13 +96,18 @@ const t = isNe
     }
   : {
       docsTitle: 'Technical documents',
-      tdsButton: 'Download Technical Data Sheet (PDF)',
-      sdsButton: 'Download Safety Data Sheet (SDS) (PDF)',
+      tdsButton: 'Download Technical Data Sheet',
+      sdsButton: 'Download Safety Data Sheet',
       catalogueTitle: 'Need our complete product range?',
       catalogueDesc: 'Explore our complete FRP materials and resin range.',
       catalogueLabel: 'Download Product Catalogue',
       issuedBy: 'TDS/SDS issued by',
-      libraryLink: 'See every product’s TDS & SDS in one place',
+      libraryLink: 'Browse the document library',
+      tdsAbsent: 'Technical Data Sheet (TDS)',
+      sdsAbsent: 'Safety Data Sheet (SDS)',
+      notOnFile: 'Not yet on file',
+      askForDocs: 'Ask us for these documents',
+      docsPendingNote: 'The supplier documentation for this grade is not yet in our library. Ask us and we will confirm what Samrat Poly Resins, India currently publishes.',
       priceHeading: 'Price',
       priceValue: 'PRICE ON REQUEST',
       priceNote: `${product.name} pricing varies based on:`,
@@ -267,54 +277,73 @@ const faqSchema =
       </a>
     </div>
 
-    {tds && (
-      <div class="prod-cta">
+    <div class="prod-docs">
+      <p class="prod-docs-title">{t.docsTitle}</p>
+
+      {tds ? (
         <a
-          class="button button-primary"
+          class="doc-action"
           href={tdsLocal ?? tds.url}
           target="_blank"
           rel="noopener"
           download
           aria-label={`${t.tdsButton} — ${product.name}`}
         >
-          {t.tdsButton}
+          <span class="doc-action-label">{t.tdsButton}</span>
+          <span class="doc-action-tag">PDF</span>
         </a>
-      </div>
-    )}
+      ) : (
+        <p class="doc-absent">
+          <span class="doc-absent-label">{t.tdsAbsent}</span>
+          <span class="doc-absent-state">{t.notOnFile}</span>
+        </p>
+      )}
 
-    {sds && (
-      <div class="prod-cta">
+      {sds ? (
         <a
-          class="button button-primary"
+          class="doc-action"
           href={sdsLocal ?? sds.url}
           target="_blank"
           rel="noopener"
           download
           aria-label={`${t.sdsButton} — ${product.name}`}
         >
-          {t.sdsButton}
+          <span class="doc-action-label">{t.sdsButton}</span>
+          <span class="doc-action-tag">PDF</span>
         </a>
-      </div>
-    )}
+      ) : (
+        <p class="doc-absent">
+          <span class="doc-absent-label">{t.sdsAbsent}</span>
+          <span class="doc-absent-state">{t.notOnFile}</span>
+        </p>
+      )}
 
-    <div class="prod-catalogue-note">
-      <p class="prod-catalogue-heading">{t.catalogueTitle}</p>
+      {(!tds || !sds) && (
+        <a class="doc-action doc-action-ask" href={`${prefix}/contact/?product=${encodeURIComponent(product.name)}`}>
+          <span class="doc-action-label">{t.askForDocs}</span>
+          <span class="doc-action-tag" aria-hidden="true">→</span>
+        </a>
+      )}
+
       <a
-        class="prod-catalogue-link"
+        class="doc-action doc-action-range"
         href={`${prefix}/products/`}
         aria-label={isNe
           ? 'Samrat FRP Traders को पूरा उत्पादन दायरा हेर्नुहोस्'
           : 'View the full Samrat FRP Traders product range'}
       >
-        {isNe ? 'पूरा उत्पादन दायरा' : 'Full product range'} →
+        <span class="doc-action-label">{isNe ? 'पूरा उत्पादन दायरा' : 'Full product range'}</span>
+        <span class="doc-action-tag" aria-hidden="true">→</span>
       </a>
-      <p class="prod-catalogue-desc">{t.catalogueDesc}</p>
-    </div>
 
-    <p class="doc-note">{t.issuedBy}: Samrat Poly Resins, India</p>
-    <p class="doc-library-link">
-      <a href={`${isNe ? '' : '/en'}/documents/#family-${product.group}`}>{t.libraryLink} →</a>
-    </p>
+      <a class="doc-action doc-action-quiet" href={`${isNe ? '' : '/en'}/documents/#family-${product.group}`}>
+        <span class="doc-action-label">{t.libraryLink}</span>
+        <span class="doc-action-tag" aria-hidden="true">→</span>
+      </a>
+
+      {(tds || sds) && <p class="doc-note">{t.issuedBy}: Samrat Poly Resins, India</p>}
+      {(!tds || !sds) && <p class="doc-note doc-note-pending">{t.docsPendingNote}</p>}
+    </div>
   </div>
 </div>
 
@@ -867,6 +896,121 @@ const faqSchema =
     letter-spacing: 0.01em;
     line-height: 1.35;
     text-transform: uppercase;
+  }
+
+  /* ---------- Document actions ----------
+     Every row in this block is the same width, shares one left edge and one
+     minimum height, so a download, an enquiry and the range link read as the
+     same kind of control rather than as a button, a button and a footnote.
+     The previous "Full product range" link was 12.8px mono text 21px tall,
+     which is neither obviously clickable nor a usable touch target. */
+  .prod-docs {
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 0.35rem;
+  }
+
+  .prod-docs-title {
+    margin: 0 0 0.15rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .doc-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 3rem;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid rgba(var(--gold-rgb), 0.45);
+    background: rgba(var(--gold-rgb), 0.07);
+    color: var(--accent-gold-dark, #7d5d15);
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: background 180ms var(--ease-premium), border-color 180ms var(--ease-premium);
+  }
+
+  .doc-action:hover {
+    border-color: var(--accent-gold);
+    background: rgba(var(--gold-rgb), 0.14);
+  }
+
+  .doc-action:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+
+  .doc-action-label {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.35;
+    text-align: left;
+  }
+
+  .doc-action-tag {
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.08em;
+    opacity: 0.8;
+  }
+
+  /* The enquiry and navigation rows keep the same geometry as a download but
+     drop the filled ground, so a real document still reads as the stronger
+     action of the group. */
+  .doc-action-ask,
+  .doc-action-range,
+  .doc-action-quiet {
+    background: transparent;
+  }
+
+  .doc-action-quiet {
+    border-color: var(--line);
+    color: var(--ink-dim);
+  }
+
+  /* An absent document is stated, not hidden and not faked with a dead
+     download button. Same width and left edge as the actions above it. */
+  .doc-absent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 3rem;
+    margin: 0;
+    padding: 0.7rem 0.9rem;
+    border: 1px dashed var(--line-2);
+    color: var(--ink-dim);
+  }
+
+  .doc-absent-label {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    line-height: 1.35;
+  }
+
+  .doc-absent-state {
+    flex-shrink: 0;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .doc-note.doc-note-pending {
+    margin-top: 0.15rem;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    font-size: 0.72rem;
+    line-height: 1.5;
   }
 
   .doc-note {

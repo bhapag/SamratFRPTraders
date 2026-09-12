@@ -300,7 +300,7 @@ const websiteSchema = {
           <a href={nePath} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
           <a href={enPath} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
         </div>
-        <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label={isNe ? 'मेनु खोल्नुहोस्' : 'Open menu'}>
+        <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label={isNe ? 'मेनु खोल्नुहोस्' : 'Open menu'} data-close-label={isNe ? 'मेनु बन्द गर्नुहोस्' : 'Close menu'}>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
           <span class="nav-toggle-bar" aria-hidden="true"></span>
@@ -427,22 +427,52 @@ const websiteSchema = {
       const panel = document.getElementById('mobileNav');
       if (toggle && panel && toggle.dataset.wired !== 'true') {
         toggle.dataset.wired = 'true';
-        const closeMenu = () => {
-          toggle.setAttribute('aria-expanded', 'false');
-          panel.classList.remove('is-open');
+        const root = document.documentElement;
+        const openLabel = toggle.getAttribute('aria-label') || 'Open menu';
+        const closeLabel = toggle.dataset.closeLabel || openLabel;
+
+        // `nav-open` on the root element does two jobs the panel cannot do for
+        // itself: it locks the page behind the overlay so a drag does not
+        // scroll the document underneath, and it withdraws the floating
+        // WhatsApp button, which sits at a higher stacking level than the
+        // overlay and would otherwise cover the panel's own WhatsApp action.
+        // Locking the page behind the overlay must not lose the reader's place.
+        // Setting overflow:hidden alone makes the document unscrollable, and the
+        // browser then reports scrollY as 0, so closing the menu dropped the
+        // visitor back at the top of a long product page. The offset is parked
+        // on the body and handed back on close instead.
+        let parkedY = 0;
+
+        const setOpen = (open, returnFocus) => {
+          if (open) parkedY = window.scrollY || window.pageYOffset || 0;
+          toggle.setAttribute("aria-expanded", String(open));
+          toggle.setAttribute("aria-label", open ? closeLabel : openLabel);
+          panel.classList.toggle("is-open", open);
+          root.classList.toggle("nav-open", open);
+          if (!open) {
+            window.scrollTo({ top: parkedY, left: 0, behavior: "instant" });
+            if (returnFocus) toggle.focus();
+          }
         };
+
         toggle.addEventListener('click', () => {
-          const isOpen = toggle.getAttribute('aria-expanded') === 'true';
-          toggle.setAttribute('aria-expanded', String(!isOpen));
-          panel.classList.toggle('is-open', !isOpen);
+          setOpen(toggle.getAttribute('aria-expanded') !== 'true');
         });
-        panel.querySelectorAll('a').forEach((a) => a.addEventListener('click', closeMenu));
+        panel.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => setOpen(false)));
         document.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape') closeMenu();
+          if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') setOpen(false, true);
         });
-        const desktopQuery = window.matchMedia('(min-width: 761px)');
+
+        // This MUST match the width at which the CSS swaps the desktop nav
+        // back in (max-width: 820px hides it). It previously read 761px, so
+        // between 761px and 820px the hamburger was the only navigation on
+        // screen while this listener believed the viewport was desktop: any
+        // resize crossing 761px, whether a rotation, the browser chrome
+        // resizing or an on-screen keyboard, closed the menu and left nothing
+        // to navigate with. That was the intermittent menu failure.
+        const desktopQuery = window.matchMedia('(min-width: 821px)');
         desktopQuery.addEventListener('change', (event) => {
-          if (event.matches) closeMenu();
+          if (event.matches) setOpen(false);
         });
       }
 
@@ -888,12 +918,18 @@ const websiteSchema = {
     border: 1px solid var(--line-2);
     background: transparent;
     cursor: pointer;
+    touch-action: manipulation;
     transition: border-color 180ms var(--ease-premium);
   }
 
   .nav-toggle:hover,
   .nav-toggle[aria-expanded='true'] {
     border-color: var(--accent-gold);
+  }
+
+  .nav-toggle:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 3px;
   }
 
   .nav-toggle-bar {
@@ -917,6 +953,25 @@ const websiteSchema = {
   }
 
   /* ---------- Mobile menu: full-viewport overlay ---------- */
+
+  /* While the overlay is up the document behind it must not scroll. Without
+     this a drag that starts on the overlay chains through to the page, so the
+     visitor closes the menu and finds themselves somewhere else entirely. */
+  /* Only the root element is locked. Taking the body out of flow with
+     position:fixed also moves the sticky header, which put the close button
+     above the top of the viewport once the visitor had scrolled: the menu
+     opened and there was then no way to shut it. */
+  :global(html.nav-open) {
+    overflow: hidden;
+  }
+
+  /* The floating WhatsApp button sits at z-index 60, above this overlay's 45,
+     so it used to float on top of the open menu and cover the panel's own
+     WhatsApp action. The menu already offers that action, so the float stands
+     down while the menu is open rather than competing with it. */
+  :global(html.nav-open) .wa-float {
+    display: none;
+  }
   .mobile-nav {
     position: fixed;
     inset: 0;
@@ -949,6 +1004,11 @@ const websiteSchema = {
     letter-spacing: 0.01em;
     text-decoration: none;
     text-transform: uppercase;
+  }
+
+  .mobile-nav-links a:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
   }
 
   .mobile-nav-links a[aria-current='page'] {
