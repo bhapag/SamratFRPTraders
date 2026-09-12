@@ -522,7 +522,7 @@ export const products = Object.freeze([
     name: 'UV Stabilized Sheet Grade Yellow Resin',
     slug: 'uv-stabilized-sheet-grade-yellow-resin',
     images: Object.freeze([
-      Object.freeze({ src: 'uv-stabilized-sheet-grade-yellow-resin-primary.webp', width: 600, height: 410 }),
+      Object.freeze({ src: 'uv-stabilized-sheet-grade-yellow-resin-primary.jpg', width: 1151, height: 1367 }),
     ]),
     group: 'sheet-grade-resins',
     tier: 'B',
@@ -584,7 +584,7 @@ export const products = Object.freeze([
     name: 'ISO Gelcoat',
     slug: 'iso-gelcoat',
     images: Object.freeze([
-      Object.freeze({ src: 'iso-gelcoat-primary.webp', width: 640, height: 490 }),
+      Object.freeze({ src: 'iso-gelcoat-primary.jpg', width: 1254, height: 1254 }),
     ]),
     group: 'gelcoat',
     tier: 'B',
@@ -603,7 +603,7 @@ export const products = Object.freeze([
     name: 'ISO Polyester Resin',
     slug: 'iso-polyester-resin',
     images: Object.freeze([
-      Object.freeze({ src: 'iso-polyester-resin-primary.webp', width: 690, height: 515 }),
+      Object.freeze({ src: 'iso-polyester-resin-primary.jpg', width: 1254, height: 1254 }),
     ]),
     group: 'iso-resins',
     tier: 'B',
