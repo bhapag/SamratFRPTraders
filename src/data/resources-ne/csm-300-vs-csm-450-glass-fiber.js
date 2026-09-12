@@ -55,7 +55,7 @@ export default {
     {
       "href": "/products/glass-fiber-mat/",
       "label": "CSM 300 र CSM 450 हेर्नुहोस्",
-      "description": "हालको product विवरण, packaging, MOQ र Glass Fiber TDS हेर्नुहोस्।"
+      "description": "हालको product विवरण र Glass Fiber TDS हेर्नुहोस्।"
     },
     {
       "href": "/applications/resin-for-frp-panel-manufacturing/",

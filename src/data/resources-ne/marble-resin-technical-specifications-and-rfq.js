@@ -16,7 +16,7 @@ export default {
     {
       heading: "पहिले विस्तृत Marble Resin TDS पढ्नुहोस्",
       body: [
-        "विस्तृत TDS water-white liquid form, typical 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene content, 32 C closed-cup flash point, तीन-महिने shelf life, 20-30 C storage, 200 kg packaging र 200 kg MOQ का लागि product-specific स्रोत हो।",
+        "विस्तृत TDS water-white liquid form, typical 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene content, 32 C closed-cup flash point, तीन-महिने shelf life, 20-30 C storage का लागि product-specific स्रोत हो।",
         "यी supplied-resin र commercial सन्दर्भ हुन्। यी formulation, finished-component test certificate, chemical-compatibility chart, UV result, filler-loading limit वा finished marble product का लागि guarantee होइनन्।"
       ]
     },
@@ -45,7 +45,7 @@ export default {
   faqs: [
     {
       q: "कुन Marble Resin values published छन्?",
-      a: "विस्तृत TDS ले water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene, 32 C closed-cup flash point, storage, shelf life, 200 kg packaging र 200 kg MOQ सूचीकृत गर्छ। values लाई typical TDS data को रूपमा लिनुहोस्।"
+      a: "विस्तृत TDS ले water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene, 32 C closed-cup flash point, storage, shelf life सूचीकृत गर्छ। values लाई typical TDS data को रूपमा लिनुहोस्।"
     },
     {
       q: "TDS र catalogue किन फरक छन्?",
@@ -56,8 +56,8 @@ export default {
       a: "Intended तयार marble वा stone product; सटीक TDS वा catalogue reference; आवश्यक supplied appearance वा finish; आवश्यक published प्राविधिक data वा documentation; quantity; packaging need; delivery location; र कुनै drawing वा written requirement समावेश गर्नुहोस्। सान्दर्भिक भएमा quartz, engineered stone, putty, epoxy वा अर्को route स्पष्ट रूपमा बताउनुहोस्।"
     },
     {
-      q: "के published pack र MOQ values ले availability वा delivery timing को ग्यारेन्टी गर्छन्?",
-      a: "होइन। विस्तृत TDS ले 200 kg packaging र 200 kg MOQ सूचीकृत गर्छ। Stock, lead time, delivery र order-specific documents वास्तविक enquiry का लागि पुष्टि आवश्यक हुन्छ।"
+      q: "के यस पृष्ठले availability वा delivery timing को ग्यारेन्टी गर्छ?",
+      a: "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Stock, lead time, delivery र order-specific documents वास्तविक enquiry का लागि पुष्टि आवश्यक हुन्छ।"
     }
   ],
   recommendedLinks: [

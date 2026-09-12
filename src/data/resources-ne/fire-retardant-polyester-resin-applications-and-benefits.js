@@ -58,7 +58,7 @@ export default {
       heading: "एउटा documented application enquiry तयार गर्नुहोस्",
       body: [
         "तयार FRP application, मूल requirement वा drawing, लागू हुने भए specified standard वा classification, reinforcement context, अपेक्षित quantity, packaging requirement र delivery location साझा गर्नुहोस्। यो कुनै product नाम सामान्यतया उपयुक्त छ कि छैन भनी सोध्नु भन्दा बढी उपयोगी हुन्छ।",
-        "White liquid appearance, viscosity, gel time, shelf life, storage, packaging र MOQ जस्ता आपूर्ति तथ्यहरूका लागि हालको TDS समीक्षा गर्नुहोस्। ती values ले सूचीबद्ध grade वर्णन गर्छन्; तिनले तयार-system नतिजा स्थापित गर्दैनन्।"
+        "White liquid appearance, viscosity, gel time, shelf life, storage जस्ता आपूर्ति तथ्यहरूका लागि हालको TDS समीक्षा गर्नुहोस्। ती values ले सूचीबद्ध grade वर्णन गर्छन्; तिनले तयार-system नतिजा स्थापित गर्दैनन्।"
       ]
     }
   ]

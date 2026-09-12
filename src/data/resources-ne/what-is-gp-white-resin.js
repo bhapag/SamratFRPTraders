@@ -72,7 +72,7 @@ export default {
     {
       "href": "/products/gp-white-resin/",
       "label": "GP White Resin हेर्नुहोस्",
-      "description": "Exact grade का लागि published TDS, प्याकेजिङ, MOQ र technical डाटा हेर्नुहोस्।"
+      "description": "Exact grade का लागि published TDS र technical डाटा हेर्नुहोस्।"
     },
     {
       "href": "/products/gp-clear-resin/",

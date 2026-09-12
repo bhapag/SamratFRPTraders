@@ -57,7 +57,7 @@ export default {
     {
       href: "/products/dmc-smc-resin/",
       label: "View DMC/SMC Resin",
-      description: "उत्पादन page, packaging, MOQ र हालको कागजात link समीक्षा गर्नुहोस्।"
+      description: "उत्पादन page र हालको कागजात link समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/dmc-smc-resin-tds.pdf",
@@ -90,7 +90,7 @@ export default {
       heading: "Grade-specific TDS लाई प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्",
       body: [
         "हालको DMC/SMC Resin TDS प्रकाशित liquid-resin specification का लागि नियन्त्रक कागजात हो। यसले orthophthalic unsaturated polyester resin, हल्का-पहेंलो तरल appearance, 600 cPs viscosity at 25 C, non-accelerated curing type, 12-18 minute gel time at 25 C, 35% styrene content, 1.12 g/cm3 specific gravity र 32 C closed-cup flash point पहिचान गर्छ।",
-        "यसले तीन-महिने shelf life, 25 C भन्दा तल चिसो र सुख्खा storage, 225 kg drum packaging र 1,000 kg MOQ पनि प्रकाशित गर्छ। Test context र खरिद छलफलका लागि पूर्ण हालको कागजात समीक्षा गर्नुहोस्।"
+        "यसले तीन-महिने shelf life, 25 C भन्दा तल चिसो र सुख्खा storage पनि प्रकाशित गर्छ। Test context र खरिद छलफलका लागि पूर्ण हालको कागजात समीक्षा गर्नुहोस्।"
       ]
     },
     {

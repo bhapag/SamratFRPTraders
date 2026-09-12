@@ -13,8 +13,6 @@ export default {
     ogDescription: "Bisphenol Resin quote माग्नुअघि खरिदकर्ताहरूले के उपलब्ध गराउनुपर्छ, अभिप्रेत application देखि प्राविधिक र commercial आवश्यकताहरूसम्म।"
   },
   quickFacts: {
-    "प्रकाशित TDS packaging": "20 kg pack",
-    "प्रकाशित TDS MOQ": "100 kg",
     "प्रकाशित TDS shelf life": "12 months unopened",
     "RFQ प्राथमिकता": "application र आवश्यक प्राविधिक properties बताउनुहोस्"
   },
@@ -47,11 +45,11 @@ export default {
     },
     {
       q: "कुन प्राविधिक document समीक्षा गर्नुपर्छ?",
-      a: "यस grade को पहिचान, typical data, storage, packaging र MOQ का लागि हालको product-specific Bisphenol Resin TDS प्रयोग गर्नुहोस्। Catalogue भनेको सामान्य range overview हो।"
+      a: "यस grade को पहिचान, typical data, storage का लागि हालको product-specific Bisphenol Resin TDS प्रयोग गर्नुहोस्। Catalogue भनेको सामान्य range overview हो।"
     },
     {
-      q: "के प्रकाशित TDS pack र MOQ ले उपलब्धता पुष्टि गर्छ?",
-      a: "होइन। विस्तृत TDS ले 20 kg pack र 100 kg MOQ सूचीबद्ध गर्छ। वास्तविक सोधपुछका लागि Stock, lead time, डेलिभरी र order-specific documentation पुष्टि गर्नु आवश्यक छ।"
+      q: "के यस पृष्ठले उपलब्धता पुष्टि गर्छ?",
+      a: "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। वास्तविक सोधपुछका लागि Stock, lead time, डेलिभरी र order-specific documentation पुष्टि गर्नु आवश्यक छ।"
     },
     {
       q: "के खरिदकर्ताले chemical-service आवश्यकता उपलब्ध गराउनुपर्छ?",
@@ -62,7 +60,7 @@ export default {
     {
       heading: "हालको product-specific TDS बाट सुरु गर्नुहोस्",
       body: [
-        "यस grade को chemistry शब्दावली, typical supplied-resin data, storage, packaging र MOQ का लागि हालको Bisphenol Resin TDS प्रयोग गर्नुहोस्। उत्पादन catalogue लाई Samrat FRP Traders को व्यापक resin दायराको overview को रूपमा मात्र प्रयोग गर्नुहोस्।",
+        "यस grade को chemistry शब्दावली, typical supplied-resin data, storage का लागि हालको Bisphenol Resin TDS प्रयोग गर्नुहोस्। उत्पादन catalogue लाई Samrat FRP Traders को व्यापक resin दायराको overview को रूपमा मात्र प्रयोग गर्नुहोस्।",
         "यदि सोधपुछ खरिदकर्ताको specification वा item code द्वारा नियन्त्रित छ भने, यसलाई संलग्न गर्नुहोस् ताकि Samrat FRP Traders ले हालको TDS सँगै ठ्याक्कै आवश्यकता समीक्षा गर्न सकोस्।"
       ]
     },
@@ -83,7 +81,7 @@ export default {
     {
       heading: "commercial र documentation अनुरोध पूरा गर्नुहोस्",
       body: [
-        "हालको TDS ले 20 kg pack, 100 kg MOQ, 12-month unopened shelf life र 20-30 C storage statement प्रकाशित गर्छ। अपेक्षित परिमाण, packaging आवश्यकता, डेलिभरी सहर वा स्थान, समय आवश्यकता र वास्तविक order का लागि आवश्यक documents उपलब्ध गराउनुहोस्।",
+        "हालको TDS ले 12-month unopened shelf life र 20-30 C storage statement प्रकाशित गर्छ। अपेक्षित परिमाण, packaging आवश्यकता, डेलिभरी सहर वा स्थान, समय आवश्यकता र वास्तविक order का लागि आवश्यक documents उपलब्ध गराउनुहोस्।",
         "प्रकाशित commercial data ले stock, lead time, order-specific test documents वा डेलिभरीको ग्यारेन्टी गर्दैन। commercial छलफलको क्रममा ती विवरणहरू पुष्टि गर्नुहोस्।"
       ]
     }

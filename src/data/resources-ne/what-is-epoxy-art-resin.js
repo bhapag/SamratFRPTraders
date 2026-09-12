@@ -55,7 +55,7 @@ export default {
     {
       href: "/products/epoxy-art-resin/",
       label: "Epoxy Art Resin हेर्नुहोस्",
-      description: "प्रकाशित उत्पादन विवरण, हालको TDS, pack size र enquiry route समीक्षा गर्नुहोस्।"
+      description: "प्रकाशित उत्पादन विवरण, हालको TDS र enquiry route समीक्षा गर्नुहोस्।"
     },
     {
       href: "/products/clear-casting-resin/",

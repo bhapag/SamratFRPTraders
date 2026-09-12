@@ -10,8 +10,6 @@ export default {
     "Product family": "Orthophthalic unsaturated polyester resin",
     "आपूर्ति गरिएको रूप": "Pre-pigmented yellow",
     "प्रकाशित भूमिका": "Sheet moulding र laminate applications",
-    "प्रकाशित packaging": "225 kg drum",
-    "प्रकाशित MOQ": "1,000 kg"
   },
   recommendedLinks: [
     {

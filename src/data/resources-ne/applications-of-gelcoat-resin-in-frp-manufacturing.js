@@ -74,7 +74,7 @@ export default {
     {
       "href": "/products/gp-gelcoat-resin/",
       "label": "GP Gelcoat Resin हेर्नुहोस्",
-      "description": "published product details, TDS, MOQ र pack sizes हेर्नुहोस्।"
+      "description": "प्रकाशित उत्पादन विवरण र TDS हेर्नुहोस्।"
     },
     {
       "href": "/applications/gelcoat-for-general-frp-mould-finishing/",

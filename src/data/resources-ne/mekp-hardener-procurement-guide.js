@@ -1,6 +1,6 @@
 export default {
   title: "MEKP Hardener प्रापूर्ति गाइड: TDS, Packaging र Quote Checklist",
-  description: "Stock, lead time वा operating conditions नमानी, हालको प्रकाशित packaging, MOQ, product-document र base-system जानकारी प्रयोग गरी तथ्यपरक औद्योगिक MEKP enquiry तयार गर्नुहोस्।",
+  description: "Stock, lead time वा operating conditions नमानी, हालको प्रकाशित product-document र base-system जानकारी प्रयोग गरी तथ्यपरक औद्योगिक MEKP enquiry तयार गर्नुहोस्।",
   seo: {
     title: "MEKP Hardener प्रापूर्ति गाइड | MEKP आपूर्तिकर्ता Checklist",
     keywords: [
@@ -11,11 +11,9 @@ export default {
       "Polyester Resin Hardener"
     ],
     ogTitle: "MEKP Hardener प्रापूर्ति गाइड",
-    ogDescription: "औद्योगिक quotation अनुरोध तयार गर्नुअघि हालको MEKP TDS, 25 kg carboy packaging र 25 kg MOQ समीक्षा गर्नुहोस्।"
+    ogDescription: "औद्योगिक quotation अनुरोध तयार गर्नुअघि हालको MEKP TDS समीक्षा गर्नुहोस्।"
   },
   quickFacts: {
-    "प्रकाशित packaging": "25 kg carboy",
-    "प्रकाशित MOQ": "25 kg",
     "प्रकाशित नखोलिएको shelf life": "6 months",
     "उत्पादन कागजात": "MEKP Hardener TDS (Rev. 01, July 2026)"
   },
@@ -30,7 +28,7 @@ export default {
     {
       heading: "प्रकाशित व्यावसायिक तथ्यहरू रेकर्ड गर्नुहोस्",
       body: [
-        "हालको TDS ले 25 kg carboy packaging, 25 kg MOQ र six-month नखोलिएको shelf life प्रकाशित गर्छ। यी तथ्यहरूले quote छलफललाई सहयोग गर्छन् तर stock availability, lead time, sample policy वा delivery commitment जनाउँदैनन्।"
+        "हालको TDS ले six-month नखोलिएको shelf life प्रकाशित गर्छ। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। यी तथ्यहरूले quote छलफललाई सहयोग गर्छन् तर stock availability, lead time, sample policy वा delivery commitment जनाउँदैनन्।"
       ]
     },
     {
@@ -43,7 +41,7 @@ export default {
   faqs: [
     {
       q: "MEKP Hardener का लागि कुन व्यावसायिक विवरणहरू प्रकाशित छन्?",
-      a: "हालको TDS ले 25 kg carboy packaging र 25 kg minimum order quantity प्रकाशित गर्छ। Quotation अनुरोध गर्दा वास्तविक व्यावसायिक आवश्यकता पुष्टि गर्नुहोस्।"
+      a: "नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Quotation अनुरोध गर्दा वास्तविक व्यावसायिक आवश्यकता पुष्टि गर्नुहोस्।"
     },
     {
       q: "खरिदअघि कुन कागजात समीक्षा गर्नुपर्छ?",

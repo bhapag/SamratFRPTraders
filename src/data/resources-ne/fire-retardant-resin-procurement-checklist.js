@@ -14,7 +14,6 @@ export default {
   },
   "quickFacts": {
     "प्रकाशित packaging": "35 kg / 225 kg",
-    "प्रकाशित MOQ": "500 kg",
     "प्राविधिक कागजात": "Fire Retardant Resin TDS",
     "महत्त्वपूर्ण परियोजना इनपुट": "मूल fire-performance आवश्यकता, यदि तोकिएको छ भने"
   },
@@ -28,7 +27,7 @@ export default {
     {
       "heading": "वास्तविक उत्पादन जानकारी समीक्षा गर्नुहोस्",
       "body": [
-        "हालको TDS ले यस grade का लागि प्रकाशित आपूर्ति डाटा सूचीबद्ध गर्छ, जसमा 35 kg / 225 kg packaging, 500 kg MOQ, तीन-महिना shelf life र 30–35 °C भण्डारण समावेश छ। सामान्य FR Resin विवरणमा भर पर्नुको सट्टा, सही grade का लागि हालको कागजात प्रयोग गर्नुहोस्।",
+        "हालको TDS ले यस grade का लागि प्रकाशित आपूर्ति डाटा सूचीबद्ध गर्छ, जसमा तीन-महिना shelf life र 30–35 °C भण्डारण समावेश छ। सामान्य FR Resin विवरणमा भर पर्नुको सट्टा, सही grade का लागि हालको कागजात प्रयोग गर्नुहोस्।",
         "उत्पादन पृष्ठले catalogue पनि link गर्छ। कुनै पनि link लाई SDS, COA, fire-test report वा परियोजना certificate को रूपमा प्रस्तुत गर्नु हुँदैन।"
       ]
     },
@@ -53,7 +52,7 @@ export default {
     {
       "href": "/products/fire-retardant-resin/",
       "label": "Fire Retardant Resin हेर्नुहोस्",
-      "description": "सूचीबद्ध TDS, packaging र MOQ पुष्टि गर्नुहोस्।"
+      "description": "सूचीबद्ध TDS पुष्टि गर्नुहोस्।"
     },
     {
       "href": "/tds/fire-retardant-resin-tds.pdf",

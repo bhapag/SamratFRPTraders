@@ -12,12 +12,11 @@ export default {
       "Fiberglass Mat Packaging"
     ],
     "ogTitle": "Glass Fiber Storage र Procurement Guide",
-    "ogDescription": "Glass Fiber Mat का लागि प्रकाशित TDS, roll packaging, MOQ र storage सन्दर्भ प्रयोग गरी factual CSM 300 वा CSM 450 enquiry तयार गर्नुहोस्।"
+    "ogDescription": "Glass Fiber Mat का लागि प्रकाशित TDS, roll packaging र storage सन्दर्भ प्रयोग गरी factual CSM 300 वा CSM 450 enquiry तयार गर्नुहोस्।"
   },
   "quickFacts": {
     "प्रकाशित packaging": "Roll, लगभग 30 kg/roll",
     "प्रकाशित roll width": "1040 mm",
-    "प्रकाशित MOQ": "500 kg",
     "प्रकाशित shelf life": "24 महिना"
   },
   "sections": [
@@ -31,7 +30,7 @@ export default {
     {
       "heading": "प्रकाशित commercial विवरणहरू अभिलेख गर्नुहोस्",
       "body": [
-        "हालको listing ले roll packaging, प्रति roll लगभग 30 kg र 500 kg MOQ प्रकाशित गर्छ। Enquiry मा कुल आवश्यक quantity र delivery location समावेश गर्नुहोस्। यसले unlisted lead time, stock position, sample policy वा delivery promise लाई संकेत नगरी commercial discussion लाई समर्थन गर्छ।"
+        "TDS ले प्रति roll लगभग 30 kg सूचीबद्ध गर्छ; नेपालका लागि अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Enquiry मा कुल आवश्यक quantity र delivery location समावेश गर्नुहोस्। यसले unlisted lead time, stock position, sample policy वा delivery promise लाई संकेत नगरी commercial discussion लाई समर्थन गर्छ।"
       ]
     },
     {
@@ -49,8 +48,8 @@ export default {
   ],
   "faqs": [
     {
-      "q": "Glass Fiber Mat का लागि कस्तो packaging र MOQ प्रकाशित छ?",
-      "a": "उत्पादन 1040 mm rolls का रूपमा, प्रति roll लगभग 30 kg र 500 kg minimum order quantity सहित प्रकाशित छ। Quotation अनुरोध गर्दा हालको commercial आवश्यकता पुष्टि गर्नुहोस्।"
+      "q": "Glass Fiber Mat को प्याकेजिङ र अर्डर परिमाण कसरी पुष्टि हुन्छ?",
+      "a": "TDS ले 1040 mm rolls, प्रति roll लगभग 30 kg सूचीबद्ध गर्छ। नेपालका लागि अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Quotation अनुरोध गर्दा हालको commercial आवश्यकता पुष्टि गर्नुहोस्।"
     },
     {
       "q": "कस्तो storage जानकारी प्रकाशित छ?",

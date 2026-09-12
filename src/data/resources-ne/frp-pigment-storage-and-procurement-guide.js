@@ -11,11 +11,9 @@ export default {
       "Industrial Colour Paste"
     ],
     ogTitle: "FRP Polyester Pigment भण्डारण र प्रापूर्ति गाइड",
-    ogDescription: "प्रकाशित भण्डारण, packaging, MOQ र colour-reference context प्रयोग गरी तथ्यपरक FRP polyester pigment enquiry तयार गर्नुहोस्।"
+    ogDescription: "प्रकाशित भण्डारण र colour-reference context प्रयोग गरी तथ्यपरक FRP polyester pigment enquiry तयार गर्नुहोस्।"
   },
   quickFacts: {
-    "प्रकाशित packaging": "10 kg bottles",
-    "प्रकाशित MOQ": "100 kg",
     "प्रकाशित भण्डारण": "Cool, dry conditions at 15–30°C; protect from direct sunlight",
     "प्रकाशित नखोलिएको shelf life": "12 months"
   },
@@ -29,7 +27,7 @@ export default {
     {
       heading: "प्रकाशित व्यावसायिक विवरणहरू रेकर्ड गर्नुहोस्",
       body: [
-        "हालको listing ले 10 kg bottle packaging र 100 kg MOQ प्रकाशित गर्छ। Enquiry मा अपेक्षित quantity र delivery location समावेश गर्नुहोस्। यसले, सूचीबद्ध नभएको stock position, lead time, sample policy वा delivery promise जनाउन नगई, व्यावसायिक छलफललाई सहयोग गर्छ।"
+        "नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Enquiry मा अपेक्षित quantity र delivery location समावेश गर्नुहोस्। यसले, सूचीबद्ध नभएको stock position, lead time, sample policy वा delivery promise जनाउन नगई, व्यावसायिक छलफललाई सहयोग गर्छ।"
       ]
     },
     {
@@ -48,7 +46,7 @@ export default {
   faqs: [
     {
       q: "FRP Polyester Pigment का लागि कुन व्यावसायिक विवरणहरू प्रकाशित छन्?",
-      a: "हालको उत्पादन डाटाले 10 kg bottle packaging र 100 kg MOQ प्रकाशित गर्छ। Quotation अनुरोध गर्दा वास्तविक व्यावसायिक आवश्यकता पुष्टि गर्नुहोस्।"
+      a: "नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Quotation अनुरोध गर्दा वास्तविक व्यावसायिक आवश्यकता पुष्टि गर्नुहोस्।"
     },
     {
       q: "कुन भण्डारण जानकारी प्रकाशित छ?",

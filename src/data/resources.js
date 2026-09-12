@@ -1803,7 +1803,7 @@ export const resources = Object.freeze([
         "heading": "Prepare a documented application enquiry",
         "body": [
           "Share the finished FRP application, original requirement or drawing, specified standard or classification if applicable, reinforcement context, expected quantity, packaging requirement and delivery location. This is more useful than asking whether a product name is generally suitable.",
-          "Review the current TDS for supply facts such as white liquid appearance, viscosity, gel time, shelf life, storage, packaging and MOQ. Those values describe the listed grade; they do not establish a finished-system result."
+          "Review the current TDS for supply facts such as white liquid appearance, viscosity, gel time, shelf life, storage. Those values describe the listed grade; they do not establish a finished-system result."
         ]
       }
     ]
@@ -2563,7 +2563,7 @@ export const resources = Object.freeze([
       {
         "heading": "What the current product data actually identifies",
         "body": [
-          "SPR-TDS-FRR Rev. 01 identifies a white liquid resin with 400 cPs viscosity, 5.5-minute gel time, 35% styrene content, three-month shelf life, 30–35 °C storage, 35 kg / 225 kg packaging and a 500 kg MOQ. These are current product-data points for the listed grade.",
+          "SPR-TDS-FRR Rev. 01 identifies a white liquid resin with 400 cPs viscosity, 5.5-minute gel time, 35% styrene content, three-month shelf life, 30–35 °C storage. These are current product-data points for the listed grade.",
           "The TDS contains a manufacturer-published fire-performance statement with a note that its test-report or certification reference is to be supplied and confirmed. This guide therefore does not turn that statement into a verified rating or finished-system approval."
         ]
       },
@@ -2947,7 +2947,6 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "Published packaging": "35 kg / 225 kg",
-      "Published MOQ": "500 kg",
       "Technical document": "Fire Retardant Resin TDS",
       "Critical project input": "Original fire-performance requirement, if specified"
     },
@@ -2960,7 +2959,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/fire-retardant-resin/",
         "label": "View Fire Retardant Resin",
-        "description": "Confirm the listed TDS, packaging and MOQ."
+        "description": "Confirm the listed TDS; packaging and order quantity are confirmed on enquiry."
       },
       {
         "href": "/tds/fire-retardant-resin-tds.pdf",
@@ -2993,7 +2992,7 @@ export const resources = Object.freeze([
       {
         "heading": "Review the real product information",
         "body": [
-          "The current TDS lists the published supply data for this grade, including 35 kg / 225 kg packaging, 500 kg MOQ, three-month shelf life and 30â€“35 Â°C storage. Use the current document for the exact grade rather than relying on a generic FR Resin description.",
+          "The current TDS lists the published supply data for this grade, including three-month shelf life and 30–35 °C storage. Use the current document for the exact grade rather than relying on a generic FR Resin description.",
           "The product page also links the catalogue. Neither link should be represented as an SDS, COA, fire-test report or project certificate."
         ]
       },
@@ -3074,7 +3073,7 @@ export const resources = Object.freeze([
       {
         "heading": "Use the published grade data, not a generic label",
         "body": [
-          "The current ISO Fire Retardant Resin TDS publishes supply information including white appearance, 400 cPs viscosity, 5.5-minute gel time, 35 kg / 225 kg packaging, 500 kg MOQ, three-month shelf life and 30-35 degrees C storage. Review the current document for the exact grade and project requirement.",
+          "The current ISO Fire Retardant Resin TDS publishes supply information including white appearance, 400 cPs viscosity, 5.5-minute gel time, three-month shelf life and 30-35 degrees C storage. Review the current document for the exact grade and project requirement.",
           "A product description does not by itself establish the fire classification, service suitability or approval of a finished FRP component. Buyers should keep those separate questions in the enquiry."
         ]
       },
@@ -3508,7 +3507,6 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "Published packaging": "35 kg / 225 kg",
-      "Published MOQ": "500 kg",
       "Published document": "ISO Fire Retardant Resin TDS",
       "Critical RFQ input": "Original fire-performance requirement, if specified"
     },
@@ -3521,7 +3519,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/iso-fire-retardant-resin/",
         "label": "View ISO Fire Retardant Resin",
-        "description": "Confirm the listed product role, packaging and MOQ."
+        "description": "Confirm the listed product role; packaging and order quantity are confirmed on enquiry."
       },
       {
         "href": "/tds/iso-fire-retardant-resin-tds.pdf",
@@ -3555,7 +3553,7 @@ export const resources = Object.freeze([
       {
         "heading": "Review the published supply data",
         "body": [
-          "The current TDS lists 35 kg / 225 kg packaging, a 500 kg MOQ, three-month shelf life and 30-35 degrees C storage for the ISO FR grade. Use the current document for the exact product instead of relying on a generic FR Resin description.",
+          "The current TDS lists three-month shelf life and 30-35 degrees C storage for the ISO FR grade. Use the current document for the exact product instead of relying on a generic FR Resin description.",
           "The page also links the product catalogue. Neither source should be represented as an SDS, COA, fire-test report, certificate or a project compliance declaration."
         ]
       },
@@ -3758,7 +3756,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/gp-yellow-resin/",
         "label": "View GP Yellow Resin",
-        "description": "Review the published TDS, packaging, MOQ and technical data."
+        "description": "Review the published TDS and technical data."
       },
       {
         "href": "/products/gp-clear-resin/",
@@ -3855,7 +3853,7 @@ export const resources = Object.freeze([
       {
         "heading": "Procurement and process checklist",
         "body": [
-          "Before requesting a quote, record the finished FRP component, reinforcement and process, expected quantity, resin colour or surface-finish context, required delivery location and any existing grade in use. Review the GP Yellow Resin TDS and its published packaging, MOQ, shelf life and storage information before finalising a requirement."
+          "Before requesting a quote, record the finished FRP component, reinforcement and process, expected quantity, resin colour or surface-finish context, required delivery location and any existing grade in use. Review the GP Yellow Resin TDS and its published shelf life and storage information before finalising a requirement."
         ]
       }
     ],
@@ -3918,7 +3916,7 @@ export const resources = Object.freeze([
         {
           "heading": "खरिद र process checklist",
           "body": [
-            "quote माग्नुअघि, finished FRP component, reinforcement र process, अपेक्षित परिमाण, resin रंग वा surface-finish सन्दर्भ, आवश्यक डेलिभरी स्थान र प्रयोगमा भएको कुनै अवस्थित grade रेकर्ड गर्नुहोस्। आवश्यकता अन्तिम गर्नुअघि GP Yellow Resin TDS र यसको प्रकाशित प्याकेजिङ, MOQ, shelf life र storage जानकारी समीक्षा गर्नुहोस्।"
+            "quote माग्नुअघि, finished FRP component, reinforcement र process, अपेक्षित परिमाण, resin रंग वा surface-finish सन्दर्भ, आवश्यक डेलिभरी स्थान र प्रयोगमा भएको कुनै अवस्थित grade रेकर्ड गर्नुहोस्। आवश्यकता अन्तिम गर्नुअघि GP Yellow Resin TDS र यसको प्रकाशित shelf life र storage जानकारी समीक्षा गर्नुहोस्।"
           ]
         }
       ]
@@ -3973,11 +3971,6 @@ export const resources = Object.freeze([
           "Published viscosity",
           "350-450 cPs",
           "400 cPs"
-        ],
-        [
-          "Published packaging",
-          "225 kg drum",
-          "35 kg PET packaging / 225 kg drum"
         ]
       ]
     },
@@ -5428,7 +5421,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/gp-gelcoat-resin/",
         "label": "View GP Gelcoat Resin",
-        "description": "Review published product details, TDS, MOQ and pack sizes."
+        "description": "Review published product details and TDS."
       },
       {
         "href": "/applications/gelcoat-for-general-frp-mould-finishing/",
@@ -5529,7 +5522,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/gp-gelcoat-resin/",
         "label": "View GP Gelcoat Resin",
-        "description": "Review the product's published TDS, packaging and MOQ."
+        "description": "Review the product's published TDS."
       },
       {
         "href": "/resources/gp-resin-vs-gelcoat-resin/",
@@ -5928,8 +5921,7 @@ export const resources = Object.freeze([
     "quickFacts": {
       "Published resin role": "Transparent polyester casting grade for buttons and small decorative mouldings",
       "Physical form": "Semi-liquid",
-      "Published gel time": "9.5 minutes",
-      "Published packaging": "225 kg drum"
+      "Published gel time": "9.5 minutes"
     },
     "relatedSlugs": [
       "button-resin-for-polyester-button-manufacturing",
@@ -5940,7 +5932,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/button-grade-resin/",
         "label": "View Button Grade Resin",
-        "description": "Review the published TDS, technical data and 225 kg drum packaging."
+        "description": "Review the published TDS and technical data."
       },
       {
         "href": "/products/gp-clear-resin/",
@@ -5978,7 +5970,7 @@ export const resources = Object.freeze([
       {
         "heading": "Published characteristics to review",
         "body": [
-          "For this grade, Samrat FRP Traders publishes transparent appearance, semi-liquid physical form, 1,100 cPs viscosity, 9.5-minute gel time, approximate two-hour curing time, 33% styrene content and a 225 kg drum. The current product information also describes a fine, polishable finish and use for natural transparent buttons and pigmented colour work.",
+          "For this grade, Samrat FRP Traders publishes transparent appearance, semi-liquid physical form, 1,100 cPs viscosity, 9.5-minute gel time, approximate two-hour curing time, 33% styrene content. The current product information also describes a fine, polishable finish and use for natural transparent buttons and pigmented colour work.",
           "These details are a starting point for a technical and procurement conversation. They are not a substitute for confirming the exact TDS, batch information and intended production conditions before use."
         ]
       },
@@ -6002,8 +5994,7 @@ export const resources = Object.freeze([
       "quickFacts": {
         "प्रकाशित resin भूमिका": "बटन र साना सजावटी mouldings का लागि पारदर्शी polyester casting grade",
         "भौतिक रूप": "अर्ध-तरल (Semi-liquid)",
-        "प्रकाशित gel time": "9.5 मिनेट",
-        "प्रकाशित प्याकेजिङ": "225 kg drum"
+        "प्रकाशित gel time": "9.5 मिनेट"
       },
       "sections": [
         {
@@ -6016,7 +6007,7 @@ export const resources = Object.freeze([
         {
           "heading": "समीक्षा गर्नुपर्ने प्रकाशित विशेषताहरू",
           "body": [
-            "यस grade का लागि, Samrat FRP Traders ले पारदर्शी रूप, अर्ध-तरल भौतिक रूप, 1,100 cPs viscosity, 9.5-मिनेट gel time, लगभग दुई घण्टा curing time, 33% styrene content र 225 kg drum प्रकाशित गर्दछ। हालको उत्पादन जानकारीले सफा, पालिस गर्न मिल्ने finish र प्राकृतिक पारदर्शी बटन तथा pigment रंगीन कामका लागि प्रयोगको वर्णन पनि गर्दछ।",
+            "यस grade का लागि, Samrat FRP Traders ले पारदर्शी रूप, अर्ध-तरल भौतिक रूप, 1,100 cPs viscosity, 9.5-मिनेट gel time, लगभग दुई घण्टा curing time, 33% styrene content प्रकाशित गर्दछ। हालको उत्पादन जानकारीले सफा, पालिस गर्न मिल्ने finish र प्राकृतिक पारदर्शी बटन तथा pigment रंगीन कामका लागि प्रयोगको वर्णन पनि गर्दछ।",
             "यी विवरणहरू प्राविधिक तथा खरिद वार्ताको सुरुवात बिन्दु हुन्। यिनले प्रयोगअघि exact TDS, batch जानकारी र वास्तविक उत्पादन अवस्था पुष्टि गर्ने काम प्रतिस्थापन गर्दैनन्।"
           ]
         },
@@ -6123,7 +6114,7 @@ export const resources = Object.freeze([
       {
         "heading": "Match the discussion to the published product data",
         "body": [
-          "The published Button Grade Resin information includes 1,100 cPs viscosity, 9.5-minute gel time, approximate two-hour cure, MEKP and cobalt octoate dosage information, two-month shelf life and 225 kg drum packaging. Review the TDS for the exact grade and batch before production planning.",
+          "The published Button Grade Resin information includes 1,100 cPs viscosity, 9.5-minute gel time, approximate two-hour cure, MEKP and cobalt octoate dosage information, two-month shelf life. Review the TDS for the exact grade and batch before production planning.",
           "A gel-time figure, viscosity figure or cure system from another resin should not be transferred automatically to Button Grade Resin. The product's own data is the relevant starting point."
         ]
       },
@@ -6161,7 +6152,7 @@ export const resources = Object.freeze([
         {
           "heading": "छलफललाई प्रकाशित उत्पादन डाटासँग मिलाउनुहोस्",
           "body": [
-            "प्रकाशित Button Grade Resin जानकारीमा 1,100 cPs viscosity, 9.5-मिनेट gel time, लगभग दुई घण्टा cure, MEKP र cobalt octoate dosage जानकारी, दुई महिनाको shelf life र 225 kg drum प्याकेजिङ समावेश छ। उत्पादन योजना अघि exact grade र batch का लागि TDS समीक्षा गर्नुहोस्।",
+            "प्रकाशित Button Grade Resin जानकारीमा 1,100 cPs viscosity, 9.5-मिनेट gel time, लगभग दुई घण्टा cure, MEKP र cobalt octoate dosage जानकारी, दुई महिनाको shelf life समावेश छ। उत्पादन योजना अघि exact grade र batch का लागि TDS समीक्षा गर्नुहोस्।",
             "अर्को resin बाट लिइएको gel-time अंक, viscosity अंक वा cure प्रणाली Button Grade Resin मा स्वतः लागू गर्नु हुँदैन। उत्पादनको आफ्नै डाटा नै सान्दर्भिक सुरुवात बिन्दु हो।"
           ]
         },
@@ -6394,11 +6385,6 @@ export const resources = Object.freeze([
           "Published gel time",
           "9.5 minutes",
           "Under 8 minutes"
-        ],
-        [
-          "Published package",
-          "225 kg drum",
-          "225 kg drum"
         ]
       ]
     },
@@ -6503,11 +6489,6 @@ export const resources = Object.freeze([
             "प्रकाशित gel time",
             "9.5 मिनेट",
             "8 मिनेटभन्दा कम"
-          ],
-          [
-            "प्रकाशित प्याकेज",
-            "225 kg drum",
-            "225 kg drum"
           ]
         ]
       },
@@ -6604,11 +6585,6 @@ export const resources = Object.freeze([
           "Published cure information",
           "MEKP and cobalt octoate system; 9.5-minute gel time; approximately 2-hour cure",
           "2:1 mix by weight; 24-hour initial cure; 72-hour full cure"
-        ],
-        [
-          "Published packaging",
-          "225 kg drum",
-          "20 kg pack"
         ]
       ]
     },
@@ -6708,11 +6684,6 @@ export const resources = Object.freeze([
             "प्रकाशित cure जानकारी",
             "MEKP र cobalt octoate प्रणाली; 9.5-मिनेट gel time; लगभग 2-घण्टा cure",
             "2:1 मिश्रण तौलमा; 24-घण्टा प्रारम्भिक cure; 72-घण्टा पूर्ण cure"
-          ],
-          [
-            "प्रकाशित प्याकेजिङ",
-            "225 kg drum",
-            "20 kg प्याक"
           ]
         ]
       },
@@ -6923,9 +6894,7 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "Published shelf life": "2 months",
-      "Published storage temperature": "30-35 C",
-      "Published packaging": "225 kg drum",
-      "MOQ": "Not published for this grade"
+      "Published storage temperature": "30-35 C"
     },
     "relatedSlugs": [
       "what-is-button-grade-resin",
@@ -6959,8 +6928,8 @@ export const resources = Object.freeze([
         "a": "The published storage temperature is 30-35 C. Follow the TDS and applicable safety instructions for the product and batch."
       },
       {
-        "q": "What MOQ is published for Button Grade Resin?",
-        "a": "A minimum order quantity is not published for this grade. Ask for a quote with the expected quantity and delivery location."
+        "q": "How are packaging and order quantity confirmed for Button Grade Resin?",
+        "a": "Packaging and order quantity for Nepal are confirmed on enquiry. Ask for a quote with the expected quantity and delivery location."
       }
     ],
     "sections": [
@@ -6974,7 +6943,7 @@ export const resources = Object.freeze([
       {
         "heading": "Plan around the published packaging",
         "body": [
-          "The current product listing publishes Button Grade Resin in 225 kg drums. It does not publish a minimum order quantity, so the site does not state or imply one. Share the expected requirement rather than relying on an assumed MOQ."
+          "Share the expected requirement and delivery location with your enquiry."
         ]
       },
       {
@@ -6995,9 +6964,7 @@ export const resources = Object.freeze([
       "description": "Button Grade Resin को प्रकाशित shelf life, storage दायरा, प्याकेजिङ र केन्द्रित quote अनुरोधका लागि आवश्यक जानकारीबारे खरिद गाइड।",
       "quickFacts": {
         "प्रकाशित shelf life": "2 महिना",
-        "प्रकाशित storage तापक्रम": "30-35 C",
-        "प्रकाशित प्याकेजिङ": "225 kg drum",
-        "MOQ": "यस grade का लागि प्रकाशित छैन"
+        "प्रकाशित storage तापक्रम": "30-35 C"
       },
       "faqs": [
         {
@@ -7009,8 +6976,8 @@ export const resources = Object.freeze([
           "a": "प्रकाशित storage तापक्रम 30-35 C हो। उत्पादन र batch का लागि TDS र लागू सुरक्षा निर्देशन पालना गर्नुहोस्।"
         },
         {
-          "q": "Button Grade Resin का लागि कुन MOQ प्रकाशित छ?",
-          "a": "यस grade का लागि न्यूनतम अर्डर परिमाण प्रकाशित छैन। अपेक्षित परिमाण र डेलिभरी स्थानसहित quote माग्नुहोस्।"
+          "q": "Button Grade Resin को प्याकेजिङ र अर्डर परिमाण कसरी पुष्टि हुन्छ?",
+          "a": "नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। अपेक्षित परिमाण र डेलिभरी स्थानसहित quote माग्नुहोस्।"
         }
       ],
       "sections": [
@@ -7024,7 +6991,7 @@ export const resources = Object.freeze([
         {
           "heading": "प्रकाशित प्याकेजिङको वरिपरि योजना बनाउनुहोस्",
           "body": [
-            "हालको उत्पादन सूचीले Button Grade Resin लाई 225 kg drum मा प्रकाशित गर्दछ। यसले न्यूनतम अर्डर परिमाण प्रकाशित गर्दैन, त्यसैले site ले कुनै एक बताउँदैन वा संकेत गर्दैन। अनुमानित MOQ मा भर परी नबसी अपेक्षित आवश्यकता साझा गर्नुहोस्।"
+            "सोधपुछमा अपेक्षित आवश्यकता र डेलिभरी स्थान उल्लेख गर्नुहोस्।"
           ]
         },
         {
@@ -8092,7 +8059,7 @@ export const resources = Object.freeze([
       {
         "heading": "Add the commercial details",
         "body": [
-          "Include the expected quantity and delivery location, plus the preferred pack or timing information only where it is genuinely known. Product pages publish grade-specific packaging and minimum-order details, so these should be checked after the product role has been narrowed down.",
+          "Include the expected quantity and delivery location, plus the preferred pack or timing information only where it is genuinely known. Packaging and order quantity for Nepal are confirmed on enquiry, once the product role has been narrowed down.",
           "For an ongoing requirement, a buyer can also state whether the request is for evaluation, an initial production order or routine supply. This gives the commercial discussion context without inventing a demand forecast."
         ]
       },
@@ -8126,9 +8093,9 @@ export const resources = Object.freeze([
       "ogDescription": "Understand GP White Resin as a published water-white general-purpose polyester grade, and separate it from clear GP resin and white gelcoat roles."
     },
     "quickFacts": {
-      "Published appearance": "Not established \u2014 the sheet issued under this name gives the appearance as clear",
+      "Published appearance": "Not established — the sheet issued under this name gives the appearance as clear",
       "Product role": "General-purpose orthophthalic polyester resin for reinforced FRP contexts",
-      "Published process data": "None for this grade \u2014 the Technical Data Sheet issued under this name repeats GP Clear Resin's table",
+      "Published process data": "None for this grade — the Technical Data Sheet issued under this name repeats GP Clear Resin's table",
       "Do not assume": "The supplied resin appearance alone determines the finished FRP surface colour"
     },
     "relatedSlugs": [
@@ -8141,7 +8108,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/gp-white-resin/",
         "label": "View GP White Resin",
-        "description": "Review the published TDS, packaging, MOQ and technical data for the exact grade."
+        "description": "Review the published TDS and technical data for the exact grade."
       },
       {
         "href": "/products/gp-clear-resin/",
@@ -8240,7 +8207,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/gp-white-resin/",
         "label": "View GP White Resin",
-        "description": "Review the published TDS, 225 kg drum packaging and 1,000 kg MOQ."
+        "description": "Review the published TDS."
       },
       {
         "href": "/applications/resin-for-frp-panel-manufacturing/",
@@ -8536,7 +8503,7 @@ export const resources = Object.freeze([
     "quickFacts": {
       "Start with": "The actual FRP component and manufacturing process",
       "Appearance check": "Water-white supplied resin versus the required finished appearance",
-      "Published commercial details": "225 kg drum packaging and 1,000 kg MOQ",
+      "Commercial details": "Packaging and order quantity for Nepal are confirmed on enquiry",
       "Technical control": "The GP White Resin TDS for the exact shortlisted grade"
     },
     "relatedSlugs": [
@@ -8662,7 +8629,7 @@ export const resources = Object.freeze([
       },
       {
         "q": "What technical data is published for GP Quartz Resin?",
-        "a": "The current product information publishes 400-800 cPs viscosity, 7-10 minute gel time, a non-accelerated system, approximately two-hour cure time, 225 kg drum packaging and a 1,000 kg MOQ. Check the current TDS before selection."
+        "a": "The current product information publishes 400-800 cPs viscosity, 7-10 minute gel time, a non-accelerated system, approximately two-hour cure time. Check the current TDS before selection."
       }
     ],
     "sections": [
@@ -9081,8 +9048,6 @@ export const resources = Object.freeze([
       "ogDescription": "Prepare a focused GP Quartz Resin quotation discussion using the published product data, TDS, packaging and buyer requirement details."
     },
     "quickFacts": {
-      "Published packaging": "225 kg drum",
-      "Published MOQ": "1,000 kg",
       "Start with": "The actual engineered-stone or mineral-filled product",
       "Check before ordering": "The current GP Quartz Resin TDS"
     },
@@ -9115,8 +9080,8 @@ export const resources = Object.freeze([
     ],
     "faqs": [
       {
-        "q": "What packaging and MOQ are published for GP Quartz Resin?",
-        "a": "GP Quartz Resin is published in 225 kg drums with a 1,000 kg minimum order quantity. Confirm the current commercial requirement when requesting a quotation."
+        "q": "How are packaging and order quantity confirmed for GP Quartz Resin?",
+        "a": "Packaging and order quantity for Nepal are confirmed on enquiry. Confirm the current commercial requirement when requesting a quotation."
       },
       {
         "q": "What details should I share for a GP Quartz Resin quote?",
@@ -9145,7 +9110,7 @@ export const resources = Object.freeze([
       {
         "heading": "Plan around the published commercial details",
         "body": [
-          "GP Quartz Resin is currently published in 225 kg drums with a 1,000 kg MOQ. Include the expected quantity and delivery location in the enquiry so commercial availability can be discussed without implying an unlisted price, lead time or delivery promise."
+          "Packaging and order quantity for Nepal are confirmed on enquiry. Include the expected quantity and delivery location in the enquiry so commercial availability can be discussed without implying an unlisted price, lead time or delivery promise."
         ]
       },
       {
@@ -9235,7 +9200,7 @@ export const resources = Object.freeze([
       {
         "heading": "The published CSM range",
         "body": [
-          "Samrat FRP Traders currently publishes two Glass Fiber mat weights: CSM 300 at 300 g/m² and CSM 450 at 450 g/m². Both are supplied as E-Glass Chopped Strand Mat; the TDS lists 1040 mm roll width, approximately 30 kg roll weight and a 500 kg minimum order quantity.",
+          "Samrat FRP Traders currently publishes two Glass Fiber mat weights: CSM 300 at 300 g/m² and CSM 450 at 450 g/m². Both are supplied as E-Glass Chopped Strand Mat; the TDS lists 1040 mm roll width, approximately 30 kg roll weight.",
           "No other reinforcement form should be assumed from this listing. In particular, woven roving, continuous roving, carbon fibre and other glass-mat types are not presented as Samrat FRP Traders products on this page."
         ]
       },
@@ -9314,7 +9279,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/glass-fiber-mat/",
         "label": "View CSM 300 and CSM 450",
-        "description": "Review current product details, packaging, MOQ and the Glass Fiber TDS."
+        "description": "Review current product details and the Glass Fiber TDS."
       },
       {
         "href": "/applications/resin-for-frp-panel-manufacturing/",
@@ -9571,12 +9536,11 @@ export const resources = Object.freeze([
         "Fiberglass Mat Packaging"
       ],
       "ogTitle": "Glass Fiber Storage and Procurement Guide",
-      "ogDescription": "Prepare a factual CSM 300 or CSM 450 enquiry using the published TDS, roll packaging, MOQ and storage context for Glass Fiber Mat."
+      "ogDescription": "Prepare a factual CSM 300 or CSM 450 enquiry using the published TDS, roll packaging and storage context for Glass Fiber Mat."
     },
     "quickFacts": {
       "Published packaging": "Roll, approximately 30 kg/roll",
       "Published roll width": "1040 mm",
-      "Published MOQ": "500 kg",
       "Published shelf life": "24 months"
     },
     "relatedSlugs": [
@@ -9608,8 +9572,8 @@ export const resources = Object.freeze([
     ],
     "faqs": [
       {
-        "q": "What packaging and MOQ are published for Glass Fiber Mat?",
-        "a": "The product is published as 1040 mm rolls at approximately 30 kg per roll, with a 500 kg minimum order quantity. Confirm the current commercial requirement when requesting a quotation."
+        "q": "How are packaging and order quantity confirmed for Glass Fiber Mat?",
+        "a": "The TDS lists 1040 mm rolls at approximately 30 kg per roll. Order quantity for Nepal is confirmed on enquiry. Confirm the current commercial requirement when requesting a quotation."
       },
       {
         "q": "What storage information is published?",
@@ -9627,7 +9591,7 @@ export const resources = Object.freeze([
       {
         "heading": "Record the published commercial details",
         "body": [
-          "The current listing publishes roll packaging, approximately 30 kg per roll and a 500 kg MOQ. Include the total required quantity and delivery location in the enquiry. This supports a commercial discussion without implying an unlisted lead time, stock position, sample policy or delivery promise."
+          "The TDS lists roll supply at approximately 30 kg per roll; order quantity for Nepal is confirmed on enquiry. Include the total required quantity and delivery location in the enquiry. This supports a commercial discussion without implying an unlisted lead time, stock position, sample policy or delivery promise."
         ]
       },
       {
@@ -10205,11 +10169,9 @@ export const resources = Object.freeze([
         "Industrial Colour Paste"
       ],
       "ogTitle": "FRP Polyester Pigment Storage and Procurement Guide",
-      "ogDescription": "Prepare a factual FRP polyester pigment enquiry using the published storage, packaging, MOQ and colour-reference context."
+      "ogDescription": "Prepare a factual FRP polyester pigment enquiry using the published storage and colour-reference context."
     },
     "quickFacts": {
-      "Published packaging": "10 kg bottles",
-      "Published MOQ": "100 kg",
       "Published storage": "Cool, dry conditions at 15–30°C; protect from direct sunlight",
       "Published unopened shelf life": "12 months"
     },
@@ -10243,7 +10205,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "What commercial details are published for FRP Polyester Pigment?",
-        "a": "The current product data publishes 10 kg bottle packaging and a 100 kg MOQ. Confirm the actual commercial requirement when requesting a quotation."
+        "a": "Packaging and order quantity for Nepal are confirmed on enquiry. Confirm the actual commercial requirement when requesting a quotation."
       },
       {
         "q": "What storage information is published?",
@@ -10260,7 +10222,7 @@ export const resources = Object.freeze([
       {
         "heading": "Record the published commercial details",
         "body": [
-          "The current listing publishes 10 kg bottle packaging and a 100 kg MOQ. Include the expected quantity and delivery location in the enquiry. This supports a commercial discussion without implying an unlisted stock position, lead time, sample policy or delivery promise."
+          "Packaging and order quantity for Nepal are confirmed on enquiry. Include the expected quantity and delivery location in the enquiry. This supports a commercial discussion without implying an unlisted stock position, lead time, sample policy or delivery promise."
         ]
       },
       {
@@ -10531,7 +10493,7 @@ export const resources = Object.freeze([
   {
     "slug": "mekp-hardener-procurement-guide",
     "title": "MEKP Hardener Procurement Guide: TDS, Packaging and Quote Checklist",
-    "description": "Prepare a factual industrial MEKP enquiry using the current published packaging, MOQ, product-document and base-system information without assuming stock, lead time or operating conditions.",
+    "description": "Prepare a factual industrial MEKP enquiry using the current published product-document and base-system information without assuming stock, lead time or operating conditions.",
     "category": "Procurement Guide",
     "icon": "checklist",
     "readingTime": "4 min read",
@@ -10546,11 +10508,9 @@ export const resources = Object.freeze([
         "Polyester Resin Hardener"
       ],
       "ogTitle": "MEKP Hardener Procurement Guide",
-      "ogDescription": "Review the current MEKP TDS, 25 kg carboy packaging and 25 kg MOQ before preparing an industrial quotation request."
+      "ogDescription": "Review the current MEKP TDS before preparing an industrial quotation request."
     },
     "quickFacts": {
-      "Published packaging": "25 kg carboy",
-      "Published MOQ": "25 kg",
       "Published unopened shelf life": "6 months",
       "Product document": "MEKP Hardener TDS (Rev. 01, July 2026)"
     },
@@ -10584,7 +10544,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "What commercial details are published for MEKP Hardener?",
-        "a": "The current TDS publishes 25 kg carboy packaging and a 25 kg minimum order quantity. Confirm the actual commercial requirement when requesting a quotation."
+        "a": "Packaging and order quantity for Nepal are confirmed on enquiry. Confirm the actual commercial requirement when requesting a quotation."
       },
       {
         "q": "What documentation should be reviewed before purchase?",
@@ -10602,7 +10562,7 @@ export const resources = Object.freeze([
       {
         "heading": "Record published commercial facts",
         "body": [
-          "The current TDS publishes 25 kg carboy packaging, a 25 kg MOQ and a six-month unopened shelf life. These facts support a quote discussion but do not imply stock availability, lead time, sample policy or delivery commitment."
+          "The current TDS publishes a six-month unopened shelf life. Packaging and order quantity for Nepal are confirmed on enquiry. These facts support a quote discussion but do not imply stock availability, lead time, sample policy or delivery commitment."
         ]
       },
       {
@@ -10649,7 +10609,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/epoxy-art-resin/",
         "label": "View Epoxy Art Resin",
-        "description": "Review published product details, current TDS, pack size and enquiry route."
+        "description": "Review published product details, current TDS and enquiry route."
       },
       {
         "href": "/products/clear-casting-resin/",
@@ -10975,7 +10935,7 @@ export const resources = Object.freeze([
   {
     "slug": "epoxy-art-resin-storage-and-procurement-guide",
     "title": "Epoxy Art Resin Storage and Procurement Guide",
-    "description": "Use the current published Art Resin TDS, pack size, MOQ and storage facts to prepare a focused commercial enquiry without assuming stock or lead time.",
+    "description": "Use the current published Art Resin TDS and storage facts to prepare a focused commercial enquiry without assuming stock or lead time.",
     "category": "Procurement Guide",
     "icon": "drum",
     "readingTime": "4 min read",
@@ -10986,15 +10946,13 @@ export const resources = Object.freeze([
         "Epoxy Art Resin Storage",
         "Art Resin Supplier",
         "Art Resin Packaging",
-        "Art Resin MOQ",
+        "Art Resin enquiry",
         "Clear Art Resin Quote"
       ],
       "ogTitle": "Epoxy Art Resin Storage and Procurement Guide",
-      "ogDescription": "Review current Epoxy Art Resin storage, packaging, MOQ and product-document facts before preparing an industrial or commercial enquiry."
+      "ogDescription": "Review current Epoxy Art Resin storage and product-document facts before preparing an industrial or commercial enquiry."
     },
     "quickFacts": {
-      "Published packaging": "15 kg pack",
-      "Published MOQ": "100 kg",
       "Published storage": "20–30°C",
       "Published unopened shelf life": "12 months"
     },
@@ -11029,7 +10987,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "What commercial details are published for Epoxy Art Resin?",
-        "a": "The current listing publishes a 15 kg pack and a 100 kg MOQ. Confirm the actual commercial requirement directly when requesting a quote."
+        "a": "Packaging and order quantity for Nepal are confirmed on enquiry. Confirm the actual commercial requirement directly when requesting a quote."
       },
       {
         "q": "What storage information is published?",
@@ -11047,7 +11005,7 @@ export const resources = Object.freeze([
       {
         "heading": "Record published commercial facts",
         "body": [
-          "The current product data publishes a 15 kg pack and 100 kg MOQ. The current TDS publishes storage at 20–30°C and a 12-month unopened shelf life. These facts support a commercial discussion but do not imply stock availability, lead time, sample policy or delivery commitment."
+          "Packaging and order quantity for Nepal are confirmed on enquiry. The current TDS publishes storage at 20–30°C and a 12-month unopened shelf life. These facts support a commercial discussion but do not imply stock availability, lead time, sample policy or delivery commitment."
         ]
       },
       {
@@ -11169,9 +11127,7 @@ export const resources = Object.freeze([
     "quickFacts": {
       "Product family": "Orthophthalic unsaturated polyester resin",
       "Supplied appearance": "Pre-pigmented yellow",
-      "Published role": "Sheet moulding and laminate applications",
-      "Published packaging": "225 kg drum",
-      "Published MOQ": "1,000 kg"
+      "Published role": "Sheet moulding and laminate applications"
     },
     "relatedSlugs": [
       "applications-of-sheet-grade-yellow-resin",
@@ -11665,14 +11621,12 @@ export const resources = Object.freeze([
         "FRP Sheet Resin Quote",
         "Sheet Grade Resin Supplier",
         "FRP Panel Resin Procurement",
-        "Sheet Grade Yellow Resin MOQ"
+        "Sheet Grade Yellow Resin enquiry"
       ],
       "ogTitle": "FRP Sheet Resin Procurement Guide",
       "ogDescription": "Prepare a clear Sheet Grade Yellow Resin or related FRP sheet resin enquiry using product-specific documentation and commercial context."
     },
     "quickFacts": {
-      "Published package": "225 kg drum",
-      "Published MOQ": "1,000 kg",
       "Required document": "Current product-specific TDS",
       "Commercial inputs": "Component, supplied appearance, quantity and delivery location"
     },
@@ -11685,7 +11639,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/sheet-grade-yellow-resin/",
         "label": "View Sheet Grade Yellow Resin",
-        "description": "Review the current product page, TDS link, packaging and MOQ."
+        "description": "Review the current product page and TDS link."
       },
       {
         "href": "/tds/sheet-grade-yellow-resin-tds.pdf",
@@ -11709,15 +11663,15 @@ export const resources = Object.freeze([
         "a": "Include the intended sheet or panel, supplied appearance requirement, reinforcement requirement if known, visible-surface requirement, expected quantity and delivery location. Include the current product TDS or buyer specification where available."
       },
       {
-        "q": "Does the published MOQ confirm stock or delivery time?",
-        "a": "No. The current Sheet Grade Yellow Resin listing publishes a 1,000 kg MOQ. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
+        "q": "Does this page confirm stock or delivery time?",
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
       }
     ],
     "sections": [
       {
         "heading": "Start with the product-specific document",
         "body": [
-          "For the Sheet Grade Yellow route, the current product-specific TDS is the controlling reference. The site publishes an orthophthalic unsaturated polyester resin, supplied pre-pigmented yellow, for sheet moulding and laminate applications, in a 225 kg drum with a 1,000 kg MOQ.",
+          "For the Sheet Grade Yellow route, the current product-specific TDS is the controlling reference. The site publishes an orthophthalic unsaturated polyester resin, supplied pre-pigmented yellow, for sheet moulding and laminate applications. Packaging and order quantity for Nepal are confirmed on enquiry.",
           "These published commercial details do not confirm stock availability, lead time, sample availability, delivery commitment or suitability for an unreviewed component. Keep the enquiry factual and product-specific."
         ]
       },
@@ -11760,9 +11714,7 @@ export const resources = Object.freeze([
     "quickFacts": {
       "Product family": "Orthophthalic unsaturated polyester resin",
       "Supplied appearance": "Water white",
-      "Published role": "Translucent roof-light panels and skylight sheets",
-      "Published packaging": "225 kg drum",
-      "Published MOQ": "500 kg"
+      "Published role": "Translucent roof-light panels and skylight sheets"
     },
     "relatedSlugs": [
       "roof-light-resin-applications-frp-roofing-sheets",
@@ -12136,14 +12088,12 @@ export const resources = Object.freeze([
         "Roof Light Resin Supplier",
         "Roof Light Resin Quote",
         "FRP Roofing Sheet Resin Procurement",
-        "Roof Light Resin MOQ"
+        "Roof Light Resin enquiry"
       ],
       "ogTitle": "Roof Light Resin Procurement Guide",
       "ogDescription": "Prepare a documented Roof Light Sheet Grade Resin quotation discussion using the current TDS and factual FRP roofing-sheet requirements."
     },
     "quickFacts": {
-      "Published packaging": "225 kg drum",
-      "Published MOQ": "500 kg",
       "Product document": "Current Roof Light Resin TDS",
       "Commercial inputs": "Finished sheet, supplied appearance, quantity and delivery location"
     },
@@ -12156,7 +12106,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/roof-light-resin/",
         "label": "View Roof Light Sheet Grade Resin",
-        "description": "Review the current product page, TDS, packaging and MOQ."
+        "description": "Review the current product page and TDS."
       },
       {
         "href": "/tds/roof-light-resin-tds.pdf",
@@ -12180,15 +12130,15 @@ export const resources = Object.freeze([
         "a": "Include the intended roof-light or roofing sheet, required supplied appearance, reinforcement context if known, expected quantity, delivery location and any available drawing or buyer specification."
       },
       {
-        "q": "Does the 500 kg MOQ confirm stock or delivery time?",
-        "a": "No. The current Roof Light Resin TDS publishes a 500 kg MOQ. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
+        "q": "Does this page confirm stock or delivery time?",
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
       }
     ],
     "sections": [
       {
         "heading": "Use the current product-specific document",
         "body": [
-          "The Roof Light Resin TDS is the controlling reference for this published water-white orthophthalic unsaturated polyester route. It lists a 225 kg drum and 500 kg minimum order quantity, alongside the grade-specific technical data and application context.",
+          "The Roof Light Resin TDS is the controlling reference for this published water-white orthophthalic unsaturated polyester route. It lists the grade-specific technical data and application context. Packaging and order quantity for Nepal are confirmed on enquiry.",
           "These published details do not confirm stock availability, lead time, sample policy, delivery commitment or suitability for an unreviewed finished sheet. Keep the commercial discussion factual and product-specific."
         ]
       },
@@ -12283,7 +12233,7 @@ export const resources = Object.freeze([
       {
         "heading": "Published product identity and documentation",
         "body": [
-          "The current Epoxy Hardener TDS identifies a clear / transparent liquid polyamide product and publishes viscosity, specific gravity, amine value, storage, shelf life, packaging and MOQ. These are product-specific reference points, not values to transfer to another supplier's hardener or resin system.",
+          "The current Epoxy Hardener TDS identifies a clear / transparent liquid polyamide product and publishes viscosity, specific gravity, amine value, storage, shelf life. These are product-specific reference points, not values to transfer to another supplier's hardener or resin system.",
           "The TDS also contains operating information. This resource intentionally does not repeat mixing, cure or pot-life instructions; review the current document and the matching resin route together before procurement or use."
         ]
       },
@@ -13260,7 +13210,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/dmc-smc-resin/",
         "label": "View DMC/SMC Resin",
-        "description": "Review the product page, packaging, MOQ and current document link."
+        "description": "Review the product page and current document link."
       },
       {
         "href": "/tds/dmc-smc-resin-tds.pdf",
@@ -13293,7 +13243,7 @@ export const resources = Object.freeze([
         "heading": "Use the grade-specific TDS as the technical reference",
         "body": [
           "The current DMC/SMC Resin TDS is the controlling document for the published liquid-resin specification. It identifies an orthophthalic unsaturated polyester resin, pale-yellow liquid appearance, 600 cPs viscosity at 25 C, non-accelerated curing type, 12-18 minute gel time at 25 C, 35% styrene content, 1.12 g/cm3 specific gravity and 32 C closed-cup flash point.",
-          "It also publishes a three-month shelf life, below-25 C cool and dry storage, 225 kg drum packaging and a 1,000 kg MOQ. Review the complete current document for test context and purchase discussion."
+          "It also publishes a three-month shelf life, below-25 C cool and dry storage. Review the complete current document for test context and purchase discussion."
         ]
       },
       {
@@ -13340,8 +13290,6 @@ export const resources = Object.freeze([
       "ogDescription": "Use the current TDS and a DMC/SMC-specific RFQ checklist before requesting an industrial resin quotation."
     },
     "quickFacts": {
-      "Published packaging": "225 kg drum",
-      "Published MOQ": "1,000 kg",
       "Published shelf life": "3 months",
       "First RFQ decision": "DMC or SMC requirement and finished component"
     },
@@ -13355,7 +13303,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/dmc-smc-resin/",
         "label": "View DMC/SMC Resin",
-        "description": "Review the published product role, packaging, MOQ and enquiry path."
+        "description": "Review the published product role and enquiry path."
       },
       {
         "href": "/tds/dmc-smc-resin-tds.pdf",
@@ -13379,8 +13327,8 @@ export const resources = Object.freeze([
         "a": "State whether the requirement is DMC or SMC, the finished component, any stated product or finished-part requirement, quantity, packaging need, delivery city/location and required documentation. Include process context if it is useful to the selection discussion."
       },
       {
-        "q": "Do published packaging and MOQ confirm availability or finished-part suitability?",
-        "a": "No. The current TDS publishes a 225 kg drum and 1,000 kg MOQ. Stock, lead time, delivery and system suitability must be confirmed for the actual requirement."
+        "q": "Does this page confirm availability or finished-part suitability?",
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and system suitability must be confirmed for the actual requirement."
       }
     ],
     "sections": [
@@ -13394,7 +13342,7 @@ export const resources = Object.freeze([
       {
         "heading": "Review the current document and published commercial details",
         "body": [
-          "Use the current DMC/SMC Resin TDS as the technical reference. It publishes a 225 kg drum, 1,000 kg MOQ, three-month shelf life and below-25 C cool and dry storage. Keep the product TDS with the purchase record rather than relying on a generic family description.",
+          "Use the current DMC/SMC Resin TDS as the technical reference. It publishes three-month shelf life and below-25 C cool and dry storage. Keep the product TDS with the purchase record rather than relying on a generic family description.",
           "The catalogue is useful for the wider product range, but it lists different DMC/SMC viscosity, gel-time and specific-gravity figures. Do not use it to silently replace the current grade-specific TDS."
         ]
       },
@@ -13408,7 +13356,7 @@ export const resources = Object.freeze([
       {
         "heading": "What this guide does not establish",
         "body": [
-          "Published packaging, MOQ and TDS data do not establish stock position, delivery promise, process compatibility, a formulation, an electrical or fire rating, or finished-part approval. Confirm those topics for the specific requirement.",
+          "TDS data do not establish stock position, delivery promise, process compatibility, a formulation, an electrical or fire rating, or finished-part approval. Confirm those topics for the specific requirement.",
           "This guide deliberately does not provide filler, reinforcement, catalyst or additive quantities, mould conditions, cure schedules or production troubleshooting. Those details are not documented as a universal DMC/SMC Resin instruction."
         ]
       }
@@ -13435,7 +13383,6 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "Published packaging": "20 kg",
-      "Published MOQ": "100 kg",
       "Technical document": "Current Epoxy Hardener TDS",
       "First RFQ input": "Exact epoxy resin product and intended application"
     },
@@ -13449,7 +13396,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/epoxy-hardener/",
         "label": "View Epoxy Hardener",
-        "description": "Review the product role, published packaging and MOQ."
+        "description": "Review the product role and published TDS."
       },
       {
         "href": "/tds/epoxy-hardener-tds.pdf",
@@ -13473,15 +13420,15 @@ export const resources = Object.freeze([
         "a": "Include the exact epoxy resin product, intended application, required documentation, expected quantity, packaging requirement if relevant and delivery location."
       },
       {
-        "q": "Do the published packaging and MOQ confirm stock or suitability?",
-        "a": "No. The current TDS publishes a 20 kg pack and 100 kg MOQ. Availability, lead time, delivery and product-system suitability require confirmation for the actual requirement."
+        "q": "Does this page confirm stock or suitability?",
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Availability, lead time, delivery and product-system suitability require confirmation for the actual requirement."
       }
     ],
     "sections": [
       {
         "heading": "Use the current hardener document",
         "body": [
-          "The current Epoxy Hardener TDS is the technical reference for the published polyamide, amine-based hardener product. It lists the supplied form, viscosity, specific gravity, amine value, storage, shelf life, packaging and MOQ.",
+          "The current Epoxy Hardener TDS is the technical reference for the published polyamide, amine-based hardener product. It lists the supplied form, viscosity, specific gravity, amine value, storage, shelf life.",
           "The TDS should be reviewed with the exact compatible resin product. The catalogue uses different chemical-type wording and some different technical figures, so it should not be used to silently replace the current TDS for product selection."
         ]
       },
@@ -13495,7 +13442,7 @@ export const resources = Object.freeze([
       {
         "heading": "What this guide does not establish",
         "body": [
-          "Published packaging and MOQ do not confirm stock, lead time, sample policy, delivery commitment or compatibility with an unidentified resin. Confirm those points for the specific requirement.",
+          "This page does not confirm stock, lead time, sample policy, delivery commitment or compatibility with an unidentified resin; packaging and order quantity for Nepal are confirmed on enquiry. Confirm those points for the specific requirement.",
           "This guide does not repeat ratios, cure schedules, mixing instructions or process troubleshooting. Refer to the current product-specific document and approved system information instead."
         ]
       }
@@ -14196,7 +14143,7 @@ export const resources = Object.freeze([
         "heading": "Prepare a document-led RFQ",
         "body": [
           "Identify the material form, intended PET-sheet, fibre-sheet, FRP-sheet or panel application, required technical properties or document, quantity, packaging requirement and delivery location. Include a drawing or written requirement where it clarifies the finished product.",
-          "Packaging, MOQ, stock, lead time and delivery commitments are confirmed for the actual requirement during enquiry; none is published here for this grade."
+          "Packaging, stock, lead time and delivery commitments are confirmed for the actual requirement during enquiry; none is published here for this grade."
         ]
       }
     ]
@@ -14992,11 +14939,6 @@ export const resources = Object.freeze([
           "Thermal data",
           "110 C",
           "Typical TDS thermal data; not a stated operating-service limit"
-        ],
-        [
-          "Supply data",
-          "6 months; below 25 C storage; 225 kg drum; 225 kg MOQ",
-          "Review current commercial and storage details before ordering"
         ]
       ]
     },
@@ -15031,7 +14973,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "Which Vinyl Ester Resin specifications are published?",
-        "a": "The current TDS publishes resin type, grade, viscosity, gel-time test value, styrene content, density, thermal data, flash point, storage, shelf life, packaging and MOQ."
+        "a": "The current TDS publishes resin type, grade, viscosity, gel-time test value, styrene content, density, thermal data, flash point, storage, shelf life."
       },
       {
         "q": "Is 110 C a published continuous service-temperature limit?",
@@ -15123,18 +15065,13 @@ export const resources = Object.freeze([
             "Thermal डाटा",
             "110 C",
             "Typical TDS thermal डाटा; तोकिएको operating-service सीमा होइन"
-          ],
-          [
-            "आपूर्ति डाटा",
-            "6 महिना; 25 C भन्दा कम storage; 225 kg drum; 225 kg MOQ",
-            "अर्डरअघि हालको व्यावसायिक र storage विवरण समीक्षा गर्नुहोस्"
           ]
         ]
       },
       "faqs": [
         {
           "q": "कुन Vinyl Ester Resin specifications प्रकाशित छन्?",
-          "a": "हालको TDS ले resin प्रकार, grade, viscosity, gel-time test मान, styrene content, density, thermal डाटा, flash point, storage, shelf life, प्याकेजिङ र MOQ प्रकाशित गर्दछ।"
+          "a": "हालको TDS ले resin प्रकार, grade, viscosity, gel-time test मान, styrene content, density, thermal डाटा, flash point, storage, shelf life प्रकाशित गर्दछ।"
         },
         {
           "q": "के 110 C प्रकाशित continuous service-temperature सीमा हो?",
@@ -15202,8 +15139,6 @@ export const resources = Object.freeze([
       "ogDescription": "What industrial buyers should specify before requesting a Vinyl Ester Resin quotation."
     },
     "quickFacts": {
-      "Published pack": "225 kg drum",
-      "Published MOQ": "225 kg",
       "Current TDS shelf life": "6 months",
       "RFQ starting point": "Component, service conditions, documents and commercial requirement"
     },
@@ -15245,8 +15180,8 @@ export const resources = Object.freeze([
         "a": "Yes. The current Vinyl Ester documents do not publish a chemical-compatibility chart, so the actual medium and relevant service conditions are important to a focused discussion."
       },
       {
-        "q": "Does the published MOQ establish stock or delivery timing?",
-        "a": "No. The TDS publishes a 225 kg minimum order quantity and 225 kg drum packaging. Availability, lead time and delivery need confirmation for the actual enquiry."
+        "q": "Does this page establish stock or delivery timing?",
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Availability, lead time and delivery need confirmation for the actual enquiry."
       },
       {
         "q": "Should a buyer request fire documentation for Vinyl Ester Resin?",
@@ -15271,7 +15206,7 @@ export const resources = Object.freeze([
       {
         "heading": "Confirm published product and commercial details",
         "body": [
-          "Review the current Vinyl Ester TDS for the published industrial-grade Bisphenol-A epoxy vinyl ester identity, 225 kg drum packaging, 225 kg MOQ, six-month shelf life and below-25 C storage statement. The TDS values are typical and should be confirmed for the current order.",
+          "Review the current Vinyl Ester TDS for the published industrial-grade Bisphenol-A epoxy vinyl ester identity, six-month shelf life and below-25 C storage statement. The TDS values are typical and should be confirmed for the current order.",
           "Then provide the expected quantity, packaging requirement if any, delivery city or location, timing requirement and required technical documentation. These details keep the commercial discussion as focused as the technical one."
         ]
       },
@@ -15287,8 +15222,6 @@ export const resources = Object.freeze([
       "title": "Vinyl Ester Resin खरिद Checklist",
       "description": "प्रमाण-आधारित छलफलका लागि आवश्यक सेवा, component, दस्तावेज र व्यावसायिक विवरणसहित केन्द्रित industrial Vinyl Ester Resin RFQ तयार गर्नुहोस्।",
       "quickFacts": {
-        "प्रकाशित प्याक": "225 kg drum",
-        "प्रकाशित MOQ": "225 kg",
         "हालको TDS shelf life": "6 महिना",
         "RFQ सुरुवात बिन्दु": "Component, सेवा अवस्था, दस्तावेज र व्यावसायिक आवश्यकता"
       },
@@ -15302,8 +15235,8 @@ export const resources = Object.freeze([
           "a": "हो। हालको Vinyl Ester दस्तावेजले chemical-compatibility chart प्रकाशित गर्दैन, त्यसैले वास्तविक माध्यम र सान्दर्भिक सेवा अवस्था केन्द्रित छलफलका लागि महत्त्वपूर्ण हुन्छन्।"
         },
         {
-          "q": "के प्रकाशित MOQ ले stock वा delivery timing स्थापित गर्छ?",
-          "a": "होइन। TDS ले 225 kg न्यूनतम अर्डर परिमाण र 225 kg drum प्याकेजिङ प्रकाशित गर्दछ। वास्तविक सोधपुछका लागि उपलब्धता, lead time र डेलिभरी पुष्टि आवश्यक छ।"
+          "q": "के यस पृष्ठले stock वा delivery timing स्थापित गर्छ?",
+          "a": "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। वास्तविक सोधपुछका लागि उपलब्धता, lead time र डेलिभरी पुष्टि आवश्यक छ।"
         },
         {
           "q": "के खरिदकर्ताले Vinyl Ester Resin का लागि fire दस्तावेज माग्नुपर्छ?",
@@ -15328,7 +15261,7 @@ export const resources = Object.freeze([
         {
           "heading": "प्रकाशित उत्पादन र व्यावसायिक विवरण पुष्टि गर्नुहोस्",
           "body": [
-            "प्रकाशित industrial-grade Bisphenol-A epoxy vinyl ester पहिचान, 225 kg drum प्याकेजिङ, 225 kg MOQ, छ-महिना shelf life र 25 C भन्दा कम storage कथनका लागि हालको Vinyl Ester TDS समीक्षा गर्नुहोस्। TDS मान typical हुन् र हालको अर्डरका लागि पुष्टि गर्नुपर्छ।",
+            "प्रकाशित industrial-grade Bisphenol-A epoxy vinyl ester पहिचान, छ-महिना shelf life र 25 C भन्दा कम storage कथनका लागि हालको Vinyl Ester TDS समीक्षा गर्नुहोस्। TDS मान typical हुन् र हालको अर्डरका लागि पुष्टि गर्नुपर्छ।",
             "त्यसपछि अपेक्षित परिमाण, कुनै भए प्याकेजिङ आवश्यकता, डेलिभरी शहर वा स्थान, timing आवश्यकता र आवश्यक प्राविधिक दस्तावेज दिनुहोस्। यी विवरणले व्यावसायिक छलफललाई प्राविधिक छलफल जत्तिकै केन्द्रित राख्छ।"
           ]
         },
@@ -15545,7 +15478,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "Which Bisphenol Resin values are published in the detailed TDS?",
-        "a": "The current TDS publishes resin type, grade, viscosity, gel-time value, styrene content, density, thermal data, flash point, shelf life, storage, packaging and MOQ."
+        "a": "The current TDS publishes resin type, grade, viscosity, gel-time value, styrene content, density, thermal data, flash point, shelf life, storage."
       },
       {
         "q": "Which value should I use when the TDS and catalogue differ?",
@@ -15564,7 +15497,7 @@ export const resources = Object.freeze([
       {
         "heading": "Use the detailed TDS for the published supplied-resin data",
         "body": [
-          "The current detailed TDS publishes 600 cPs viscosity at 25 C, a 35-45 minute gel-time value at 25 C, 1.10 g/cm3 density at 25 C, not-applicable styrene content, 80 C fully cured thermal data and flash point above 100 C. It also lists 12-month unopened shelf life, 20-30 C storage, 20 kg packaging and 100 kg MOQ.",
+          "The current detailed TDS publishes 600 cPs viscosity at 25 C, a 35-45 minute gel-time value at 25 C, 1.10 g/cm3 density at 25 C, not-applicable styrene content, 80 C fully cured thermal data and flash point above 100 C. It also lists 12-month unopened shelf life, 20-30 C storage.",
           "These are document-level, typical product-data points. They identify the supplied resin route being described; they do not provide a chemical-compatibility chart, mechanical-property table, certificate or finished-component guarantee."
         ]
       },
@@ -16050,8 +15983,6 @@ export const resources = Object.freeze([
       "ogDescription": "What buyers should provide before requesting a Bisphenol Resin quote, from the intended application to technical and commercial requirements."
     },
     "quickFacts": {
-      "Published TDS packaging": "20 kg pack",
-      "Published TDS MOQ": "100 kg",
       "Published TDS shelf life": "12 months unopened",
       "RFQ priority": "State the application and required technical properties"
     },
@@ -16089,11 +16020,11 @@ export const resources = Object.freeze([
       },
       {
         "q": "Which technical document should I review?",
-        "a": "Use the current product-specific Bisphenol Resin TDS for this grade's identity, typical data, storage, packaging and MOQ. The catalogue is a general range overview."
+        "a": "Use the current product-specific Bisphenol Resin TDS for this grade's identity, typical data, storage. The catalogue is a general range overview."
       },
       {
-        "q": "Do the published TDS pack and MOQ confirm availability?",
-        "a": "No. The detailed TDS lists a 20 kg pack and 100 kg MOQ. Stock, lead time, delivery and order-specific documentation require confirmation for the actual enquiry."
+        "q": "Does this page confirm availability?",
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and order-specific documentation require confirmation for the actual enquiry."
       },
       {
         "q": "Should a buyer provide a chemical-service requirement?",
@@ -16104,7 +16035,7 @@ export const resources = Object.freeze([
       {
         "heading": "Start with the current product-specific TDS",
         "body": [
-          "Use the current Bisphenol Resin TDS for this grade's chemistry wording, typical supplied-resin data, storage, packaging and MOQ. Use the product catalogue only as an overview of Samrat FRP Traders' broader resin range.",
+          "Use the current Bisphenol Resin TDS for this grade's chemistry wording, typical supplied-resin data, storage. Use the product catalogue only as an overview of Samrat FRP Traders' broader resin range.",
           "If the enquiry is governed by a buyer specification or item code, attach it so Samrat FRP Traders can review the exact requirement alongside the current TDS."
         ]
       },
@@ -16125,7 +16056,7 @@ export const resources = Object.freeze([
       {
         "heading": "Complete the commercial and documentation request",
         "body": [
-          "The current TDS publishes a 20 kg pack, 100 kg MOQ, 12-month unopened shelf life and 20-30 C storage statement. Provide expected quantity, packaging requirement, delivery city or location, timing requirement and documents required for the actual order.",
+          "The current TDS publishes 12-month unopened shelf life and 20-30 C storage statement. Provide expected quantity, packaging requirement, delivery city or location, timing requirement and documents required for the actual order.",
           "Published commercial data does not guarantee stock, lead time, order-specific test documents or delivery. Confirm those items during the commercial discussion."
         ]
       }
@@ -16229,7 +16160,7 @@ export const resources = Object.freeze([
       {
         "heading": "Verify the exact document before ordering",
         "body": [
-          "The Marble TDS lists water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time, 1.12 g/cm3 specific gravity, storage, shelf life, 200 kg packaging and a 200 kg MOQ. The catalogue lists 300 cPs viscosity and 15-minute gel time. These values must not be averaged or treated as a single confirmed specification.",
+          "The Marble TDS lists water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time, 1.12 g/cm3 specific gravity, storage, shelf life. The catalogue lists 300 cPs viscosity and 15-minute gel time. These values must not be averaged or treated as a single confirmed specification.",
           "Share the intended finished product, any current TDS or catalogue reference, required supplied appearance or finish, technical-document requirement, expected quantity, packaging need and delivery location when requesting a quote."
         ]
       }
@@ -16309,7 +16240,7 @@ export const resources = Object.freeze([
       {
         "heading": "What the current documents describe",
         "body": [
-          "The TDS publishes supplied-resin form, colour, typical viscosity, gel time, curing time, density, styrene content, flash point, storage, shelf life, packaging and MOQ. It also uses broad product-positioning terms including filler compatibility, smooth flow, high-gloss finish, low shrinkage and water or chemical resistance after full cure.",
+          "The TDS publishes supplied-resin form, colour, typical viscosity, gel time, curing time, density, styrene content, flash point, storage, shelf life. It also uses broad product-positioning terms including filler compatibility, smooth flow, high-gloss finish, low shrinkage and water or chemical resistance after full cure.",
           "These statements should be read in their documented context. They are not a published filler-loading limit, chemical-compatibility chart, UV or non-yellowing result, substrate-adhesion result, scratch or stain rating, or finished-product approval."
         ]
       },
@@ -17497,7 +17428,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "Which Fiberglass Epoxy specifications are published?",
-        "a": "The detailed TDS publishes epoxy type, general-purpose grade, room-temperature cure, hand lay-up and lamination, 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 density, 75 C HDT / thermal data, flash point above 100 C, storage, shelf life, 20 kg packaging and 100 kg MOQ."
+        "a": "The detailed TDS publishes epoxy type, general-purpose grade, room-temperature cure, hand lay-up and lamination, 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 density, 75 C HDT / thermal data, flash point above 100 C, storage, shelf life."
       },
       {
         "q": "Why are TDS and catalogue values different?",
@@ -17516,7 +17447,7 @@ export const resources = Object.freeze([
       {
         "heading": "Use the detailed TDS as the product-data starting point",
         "body": [
-          "The current detailed TDS identifies an epoxy general-purpose grade for fibreglass reinforcement and lamination. It publishes 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 specific gravity, 75 C HDT / thermal data, flash point above 100 C, 12-month unopened shelf life, 20-30 C storage, 20 kg packaging and 100 kg MOQ.",
+          "The current detailed TDS identifies an epoxy general-purpose grade for fibreglass reinforcement and lamination. It publishes 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 specific gravity, 75 C HDT / thermal data, flash point above 100 C, 12-month unopened shelf life, 20-30 C storage.",
           "These are supplied-resin and commercial data points. The TDS states that values are typical and not guaranteed. They should be reviewed with the full document and actual purchase requirement."
         ]
       },
@@ -17621,7 +17552,7 @@ export const resources = Object.freeze([
       {
         "heading": "Published resin data describes the supplied product",
         "body": [
-          "The detailed TDS publishes a general-purpose epoxy-system identity, selected typical physical data, storage, shelf life, packaging, MOQ and application or processing context. This is useful information when identifying the supplied material.",
+          "The detailed TDS publishes a general-purpose epoxy-system identity, selected typical physical data, storage, shelf life and application or processing context. This is useful information when identifying the supplied material.",
           "It is not a full description of the finished composite. The document does not publish a final laminate construction, component drawing, structural calculation, finished mechanical table or project-specific approval."
         ]
       },
@@ -17670,7 +17601,6 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "Published pack": "20 kg",
-      "Published MOQ": "100 kg",
       "Published shelf life": "12 months unopened",
       "First RFQ check": "State the TDS or catalogue reference being evaluated"
     },
@@ -17708,8 +17638,8 @@ export const resources = Object.freeze([
         "a": "Include the finished fiberglass or composite application; whether resin only or a complete system is required; current TDS or catalogue reference; reinforcement form if known; relevant listed process context; required published properties or documents; quantity; packaging need; and delivery location."
       },
       {
-        "q": "What packaging and MOQ are published?",
-        "a": "The detailed TDS lists a 20 kg pack and 100 kg minimum order quantity. Availability, lead time, delivery terms, exact system supply and order-specific documents require confirmation for the actual enquiry."
+        "q": "How are packaging and order quantity confirmed?",
+        "a": "Packaging and order quantity for Nepal are confirmed on enquiry. Availability, lead time, delivery terms, exact system supply and order-specific documents require confirmation for the actual enquiry."
       },
       {
         "q": "Should I request a chemical compatibility or service-temperature approval?",
@@ -17721,7 +17651,7 @@ export const resources = Object.freeze([
         "heading": "Start with the document route",
         "body": [
           "The detailed TDS and product catalogue are both available, but they use different resin wording and selected values. Identify which record you are evaluating rather than treating them as a silently merged specification.",
-          "For the detailed TDS route, the published commercial information is a 20 kg pack, 100 kg MOQ, 12-month unopened shelf life and 20-30 C cool, dry storage. Order-specific availability and terms still require confirmation."
+          "For the detailed TDS route, the published storage information is a 12-month unopened shelf life and 20-30 C cool, dry storage; packaging and order quantity for Nepal are confirmed on enquiry. Order-specific availability and terms still require confirmation."
         ]
       },
       {
@@ -17805,7 +17735,7 @@ export const resources = Object.freeze([
     "faqs": [
       {
         "q": "Which Marble Resin values are published?",
-        "a": "The detailed TDS lists water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene, a 32 C closed-cup flash point, storage, shelf life, 200 kg packaging and a 200 kg MOQ. Treat the values as typical TDS data."
+        "a": "The detailed TDS lists water-white liquid form, 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene, a 32 C closed-cup flash point, storage, shelf life. Treat the values as typical TDS data."
       },
       {
         "q": "Why do the TDS and catalogue differ?",
@@ -17816,15 +17746,15 @@ export const resources = Object.freeze([
         "a": "Include the intended finished marble or stone product; exact TDS or catalogue reference; required supplied appearance or finish; required published technical data or documentation; quantity; packaging need; delivery location; and any drawing or written requirement. State quartz, engineered stone, putty, epoxy or another route explicitly where relevant."
       },
       {
-        "q": "Do published pack and MOQ values guarantee availability or delivery timing?",
-        "a": "No. The detailed TDS lists 200 kg packaging and a 200 kg MOQ. Stock, lead time, delivery and order-specific documents require confirmation for the actual enquiry."
+        "q": "Does this page guarantee availability or delivery timing?",
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and order-specific documents require confirmation for the actual enquiry."
       }
     ],
     "sections": [
       {
         "heading": "Read the detailed Marble Resin TDS first",
         "body": [
-          "The detailed TDS is the product-specific source for water-white liquid form, typical 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene content, 32 C closed-cup flash point, three-month shelf life, 20-30 C storage, 200 kg packaging and 200 kg MOQ.",
+          "The detailed TDS is the product-specific source for water-white liquid form, typical 450 cPs viscosity at 25 C, 15-20 minute gel time at 25 C, 20-40 minute curing time at 25 C, 1.12 g/cm3 specific gravity, 35% styrene content, 32 C closed-cup flash point, three-month shelf life, 20-30 C storage.",
           "These are supplied-resin and commercial references. They are not a formulation, a finished-component test certificate, a chemical-compatibility chart, a UV result, a filler-loading limit or a guarantee for a finished marble product."
         ]
       },

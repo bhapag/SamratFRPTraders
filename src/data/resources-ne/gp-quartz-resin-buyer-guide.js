@@ -14,8 +14,6 @@ export default {
     "ogDescription": "Published product data, TDS, packaging र buyer आवश्यकताको विवरण प्रयोग गरी केन्द्रित GP Quartz Resin quotation छलफल तयार गर्नुहोस्।"
   },
   "quickFacts": {
-    "प्रकाशित प्याकेजिङ": "225 kg drum",
-    "प्रकाशित MOQ": "1,000 kg",
     "सुरु गर्नुहोस्": "वास्तविक engineered-stone वा mineral-filled product",
     "अर्डर गर्नुअघि जाँच गर्नुहोस्": "हालको GP Quartz Resin TDS"
   },
@@ -43,8 +41,8 @@ export default {
   ],
   "faqs": [
     {
-      "q": "GP Quartz Resin का लागि कुन packaging र MOQ प्रकाशित छ?",
-      "a": "GP Quartz Resin 225 kg drum मा प्रकाशित छ, 1,000 kg minimum order quantity सहित। Quotation अनुरोध गर्दा हालको commercial आवश्यकता पुष्टि गर्नुहोस्।"
+      "q": "GP Quartz Resin को प्याकेजिङ र अर्डर परिमाण कसरी पुष्टि हुन्छ?",
+      "a": "नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Quotation अनुरोध गर्दा हालको commercial आवश्यकता पुष्टि गर्नुहोस्।"
     },
     {
       "q": "GP Quartz Resin quote का लागि कस्ता विवरण पठाउनुपर्छ?",
@@ -73,7 +71,7 @@ export default {
     {
       "heading": "Published commercial विवरण वरिपरि योजना बनाउनुहोस्",
       "body": [
-        "GP Quartz Resin हाल 225 kg drum मा 1,000 kg MOQ सहित प्रकाशित छ। Enquiry मा अपेक्षित quantity र delivery location समावेश गर्नुहोस् ताकि unlisted price, lead time वा delivery promise नजनाउँदै commercial availability बारे छलफल गर्न सकियोस्।"
+        "नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Enquiry मा अपेक्षित quantity र delivery location समावेश गर्नुहोस् ताकि unlisted price, lead time वा delivery promise नजनाउँदै commercial availability बारे छलफल गर्न सकियोस्।"
       ]
     },
     {

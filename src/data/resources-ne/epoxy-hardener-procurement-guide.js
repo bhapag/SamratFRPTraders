@@ -14,7 +14,6 @@ export default {
   },
   quickFacts: {
     "Published packaging": "20 kg",
-    "Published MOQ": "100 kg",
     "प्राविधिक document": "हालको Epoxy Hardener TDS",
     "पहिलो RFQ input": "सटीक epoxy resin product र intended application"
   },
@@ -22,7 +21,7 @@ export default {
     {
       heading: "हालको hardener document प्रयोग गर्नुहोस्",
       body: [
-        "हालको Epoxy Hardener TDS published polyamide, amine-based hardener product का लागि प्राविधिक सन्दर्भ हो। यसले supplied form, viscosity, specific gravity, amine value, storage, shelf life, packaging र MOQ सूचीकृत गर्छ।",
+        "हालको Epoxy Hardener TDS published polyamide, amine-based hardener product का लागि प्राविधिक सन्दर्भ हो। यसले supplied form, viscosity, specific gravity, amine value, storage, shelf life सूचीकृत गर्छ।",
         "TDS लाई सटीक compatible resin product सँगै समीक्षा गर्नुपर्छ। Catalogue ले फरक chemical-type शब्दावली र केही फरक प्राविधिक अंक प्रयोग गर्छ, त्यसैले product selection का लागि यसले हालको TDS लाई चुपचाप बदल्नु हुँदैन।"
       ]
     },
@@ -36,7 +35,7 @@ export default {
     {
       heading: "यो गाइडले के स्थापित गर्दैन",
       body: [
-        "Published packaging र MOQ ले stock, lead time, sample policy, delivery commitment वा नपहिचान गरिएको resin सँगको compatibility पुष्टि गर्दैन। Specific आवश्यकताका लागि ती बिन्दुहरू पुष्टि गर्नुहोस्।",
+        "यस पृष्ठले stock, lead time, sample policy, delivery commitment वा नपहिचान गरिएको resin सँगको compatibility पुष्टि गर्दैन; नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Specific आवश्यकताका लागि ती बिन्दुहरू पुष्टि गर्नुहोस्।",
         "यो गाइडले ratios, cure schedules, mixing instructions वा process troubleshooting दोहोर्याउँदैन। यसको सट्टा हालको product-specific document र approved system जानकारी हेर्नुहोस्।"
       ]
     }
@@ -47,15 +46,15 @@ export default {
       a: "सटीक epoxy resin product, intended application, आवश्यक documentation, अपेक्षित quantity, सान्दर्भिक भए packaging requirement र delivery location समावेश गर्नुहोस्।"
     },
     {
-      q: "के published packaging र MOQ ले stock वा suitability पुष्टि गर्छन्?",
-      a: "होइन। हालको TDS ले 20 kg pack र 100 kg MOQ प्रकाशित गर्छ। Availability, lead time, delivery र product-system suitability वास्तविक आवश्यकताका लागि पुष्टि आवश्यक हुन्छ।"
+      q: "के यस पृष्ठले stock वा suitability पुष्टि गर्छ?",
+      a: "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Availability, lead time, delivery र product-system suitability वास्तविक आवश्यकताका लागि पुष्टि आवश्यक हुन्छ।"
     }
   ],
   recommendedLinks: [
     {
       href: "/products/epoxy-hardener/",
       label: "View Epoxy Hardener",
-      description: "Product भूमिका, published packaging र MOQ समीक्षा गर्नुहोस्।"
+      description: "Product भूमिका र प्रकाशित TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/epoxy-hardener-tds.pdf",

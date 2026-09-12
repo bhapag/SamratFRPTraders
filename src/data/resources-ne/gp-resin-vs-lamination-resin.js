@@ -42,11 +42,6 @@ export default {
         "प्रकाशित viscosity",
         "350-450 cPs",
         "400 cPs"
-      ],
-      [
-        "प्रकाशित packaging",
-        "225 kg drum",
-        "35 kg PET packaging / 225 kg drum"
       ]
     ]
   },

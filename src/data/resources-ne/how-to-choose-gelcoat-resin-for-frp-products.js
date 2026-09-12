@@ -16,7 +16,7 @@ export default {
     {
       href: "/products/gp-gelcoat-resin/",
       label: "GP Gelcoat Resin हेर्नुहोस्",
-      description: "उत्पादनको प्रकाशित TDS, packaging र MOQ समीक्षा गर्नुहोस्।"
+      description: "उत्पादनको प्रकाशित TDS समीक्षा गर्नुहोस्।"
     },
     {
       href: "/resources/gp-resin-vs-gelcoat-resin/",

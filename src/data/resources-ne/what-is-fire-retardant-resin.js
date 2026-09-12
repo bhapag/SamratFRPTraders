@@ -57,7 +57,7 @@ export default {
     {
       heading: "हालको उत्पादन डाटाले वास्तवमा के पहिचान गर्छ",
       body: [
-        "SPR-TDS-FRR Rev. 01 ले 400 cPs viscosity, 5.5-मिनेट gel time, 35% styrene content, तीन-महिना shelf life, 30–35 °C storage, 35 kg / 225 kg packaging र 500 kg MOQ भएको white liquid resin पहिचान गर्छ। यी सूचीबद्ध grade का लागि हालका उत्पादन-डाटा बिन्दुहरू हुन्।",
+        "SPR-TDS-FRR Rev. 01 ले 400 cPs viscosity, 5.5-मिनेट gel time, 35% styrene content, तीन-महिना shelf life, 30–35 °C storage भएको white liquid resin पहिचान गर्छ। यी सूचीबद्ध grade का लागि हालका उत्पादन-डाटा बिन्दुहरू हुन्।",
         "TDS मा manufacturer-published fire-performance statement छ जसमा यसको test-report वा certification सन्दर्भ प्रदान गरी पुष्टि गरिनुपर्ने टिप्पणी छ। त्यसैले यो गाइडले त्यो statement लाई verified rating वा तयार-system approval मा बदल्दैन।"
       ]
     },

@@ -63,7 +63,7 @@ export default {
     {
       heading: "विस्तृत TDS लाई product-data सुरुवात बिन्दुको रूपमा प्रयोग गर्नुहोस्",
       body: [
-        "हालको विस्तृत TDS ले fibreglass reinforcement र lamination का लागि epoxy general-purpose grade पहिचान गर्छ। यसले 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 specific gravity, 75 C HDT / thermal data, 100 C भन्दा माथिको flash point, 12-महिने unopened shelf life, 20-30 C storage, 20 kg packaging र 100 kg MOQ प्रकाशित गर्छ।",
+        "हालको विस्तृत TDS ले fibreglass reinforcement र lamination का लागि epoxy general-purpose grade पहिचान गर्छ। यसले 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 specific gravity, 75 C HDT / thermal data, 100 C भन्दा माथिको flash point, 12-महिने unopened shelf life, 20-30 C storage प्रकाशित गर्छ।",
         "यी supplied-resin र commercial data points हुन्। TDS ले values typical हुन् र guaranteed होइनन् भनी बताउँछ। यिनलाई पूर्ण document र वास्तविक purchase requirement सँगै समीक्षा गर्नुपर्छ।"
       ]
     },
@@ -99,7 +99,7 @@ export default {
   faqs: [
     {
       q: "कुन Fiberglass Epoxy specifications published छन्?",
-      a: "विस्तृत TDS ले epoxy प्रकार, general-purpose grade, room-temperature cure, hand lay-up र lamination, 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 density, 75 C HDT / thermal data, 100 C भन्दा माथिको flash point, storage, shelf life, 20 kg packaging र 100 kg MOQ प्रकाशित गर्छ।"
+      a: "विस्तृत TDS ले epoxy प्रकार, general-purpose grade, room-temperature cure, hand lay-up र lamination, 700 cPs viscosity at 25 C, 35-45 minute gel time at 25 C, 1.15 g/cm3 density, 75 C HDT / thermal data, 100 C भन्दा माथिको flash point, storage, shelf life प्रकाशित गर्छ।"
     },
     {
       q: "TDS र catalogue values किन फरक छन्?",

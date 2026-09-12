@@ -7,14 +7,12 @@ export default {
       "FRP Sheet Resin Quote",
       "Sheet Grade Resin Supplier",
       "FRP Panel Resin Procurement",
-      "Sheet Grade Yellow Resin MOQ"
+      "Sheet Grade Yellow Resin enquiry"
     ],
     ogTitle: "FRP Sheet Resin खरिद गाइड",
     ogDescription: "Product-specific documentation र commercial सन्दर्भ प्रयोग गरी स्पष्ट Sheet Grade Yellow Resin वा सम्बन्धित FRP sheet resin enquiry तयार गर्नुहोस्।"
   },
   quickFacts: {
-    "प्रकाशित package": "225 kg drum",
-    "प्रकाशित MOQ": "1,000 kg",
     "आवश्यक document": "Current product-specific TDS",
     "Commercial inputs": "Component, supplied appearance, quantity and delivery location"
   },
@@ -22,7 +20,7 @@ export default {
     {
       heading: "Product-specific document बाट सुरु गर्नुहोस्",
       body: [
-        "Sheet Grade Yellow मार्गका लागि, current product-specific TDS नियन्त्रक सन्दर्भ हो। साइटले sheet moulding र laminate applications का लागि supplied pre-pigmented yellow orthophthalic unsaturated polyester resin, 225 kg drum र 1,000 kg MOQ सहित प्रकाशित गर्छ।",
+        "Sheet Grade Yellow मार्गका लागि, current product-specific TDS नियन्त्रक सन्दर्भ हो। साइटले sheet moulding र laminate applications का लागि supplied pre-pigmented yellow orthophthalic unsaturated polyester resin प्रकाशित गर्छ। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ।",
         "यी प्रकाशित commercial details ले stock availability, lead time, sample availability, delivery commitment वा समीक्षा नगरिएको component का लागि suitability पुष्टि गर्दैनन्। Enquiry तथ्यपरक र product-specific राख्नुहोस्।"
       ]
     },
@@ -47,15 +45,15 @@ export default {
       a: "Intended sheet वा panel, supplied appearance आवश्यकता, reinforcement आवश्यकता थाहा भएमा, visible-surface आवश्यकता, अपेक्षित quantity र delivery location समावेश गर्नुहोस्। उपलब्ध भएमा current product TDS वा buyer specification समावेश गर्नुहोस्।"
     },
     {
-      q: "के प्रकाशित MOQ ले stock वा delivery time पुष्टि गर्छ?",
-      a: "होइन। Current Sheet Grade Yellow Resin listing ले 1,000 kg MOQ प्रकाशित गर्छ। Stock, lead time, delivery र suitability वास्तविक आवश्यकताका लागि पुष्टि गर्नुपर्छ।"
+      q: "के यस पृष्ठले stock वा delivery time पुष्टि गर्छ?",
+      a: "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Stock, lead time, delivery र suitability वास्तविक आवश्यकताका लागि पुष्टि गर्नुपर्छ।"
     }
   ],
   recommendedLinks: [
     {
       href: "/products/sheet-grade-yellow-resin/",
       label: "Sheet Grade Yellow Resin हेर्नुहोस्",
-      description: "Current product page, TDS link, packaging र MOQ को समीक्षा गर्नुहोस्।"
+      description: "Current product page र TDS link समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/sheet-grade-yellow-resin-tds.pdf",

@@ -77,7 +77,7 @@ export default {
     {
       heading: "अर्डर गर्नुअघि ठ्याक्कै कागजात पुष्टि गर्नुहोस्",
       body: [
-        "Marble TDS ले water-white liquid form, 25 C मा 450 cPs viscosity, 25 C मा 15-20 मिनेट gel time, 20-40 मिनेट curing time, 1.12 g/cm3 specific gravity, storage, shelf life, 200 kg packaging र 200 kg MOQ सूचीबद्ध गर्छ। catalogue ले 300 cPs viscosity र 15-मिनेट gel time सूचीबद्ध गर्छ। यी मानहरूलाई औसत निकाल्नु वा एउटा पुष्टि गरिएको specification मानिनु हुँदैन।",
+        "Marble TDS ले water-white liquid form, 25 C मा 450 cPs viscosity, 25 C मा 15-20 मिनेट gel time, 20-40 मिनेट curing time, 1.12 g/cm3 specific gravity, storage, shelf life सूचीबद्ध गर्छ। catalogue ले 300 cPs viscosity र 15-मिनेट gel time सूचीबद्ध गर्छ। यी मानहरूलाई औसत निकाल्नु वा एउटा पुष्टि गरिएको specification मानिनु हुँदैन।",
         "quote माग्दा अभिप्रेत तयार उत्पादन, कुनै हालको TDS वा catalogue सन्दर्भ, चाहिने आपूर्ति-गरिएको appearance वा finish, प्राविधिक-कागजात आवश्यकता, अपेक्षित quantity, packaging आवश्यकता र delivery location साझा गर्नुहोस्।"
       ]
     }

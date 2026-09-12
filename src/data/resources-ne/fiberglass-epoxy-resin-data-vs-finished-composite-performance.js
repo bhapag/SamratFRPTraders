@@ -58,7 +58,7 @@ export default {
     {
       heading: "प्रकाशित resin data ले आपूर्ति गरिएको उत्पादन वर्णन गर्छ",
       body: [
-        "विस्तृत TDS ले general-purpose epoxy-system पहिचान, छानिएको typical physical data, storage, shelf life, packaging, MOQ र application वा processing सन्दर्भ प्रकाशित गर्छ। आपूर्ति गरिएको material पहिचान गर्दा यो उपयोगी जानकारी हो।",
+        "विस्तृत TDS ले general-purpose epoxy-system पहिचान, छानिएको typical physical data, storage, shelf life र application वा processing सन्दर्भ प्रकाशित गर्छ। आपूर्ति गरिएको material पहिचान गर्दा यो उपयोगी जानकारी हो।",
         "यो तयार composite को पूर्ण विवरण होइन। यस document ले final laminate construction, component drawing, structural calculation, finished mechanical table वा project-specific approval प्रकाशित गर्दैन।"
       ]
     },

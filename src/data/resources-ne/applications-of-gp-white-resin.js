@@ -64,7 +64,7 @@ export default {
     {
       "href": "/products/gp-white-resin/",
       "label": "GP White Resin हेर्नुहोस्",
-      "description": "Published TDS, 225 kg drum प्याकेजिङ र 1,000 kg MOQ हेर्नुहोस्।"
+      "description": "Published TDS हेर्नुहोस्।"
     },
     {
       "href": "/applications/resin-for-frp-panel-manufacturing/",

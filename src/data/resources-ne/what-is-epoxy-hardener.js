@@ -30,7 +30,7 @@ export default {
     {
       heading: "प्रकाशित उत्पादन पहिचान र कागजात",
       body: [
-        "Current Epoxy Hardener TDS ले clear / transparent liquid polyamide उत्पादन पहिचान गर्छ र viscosity, specific gravity, amine value, storage, shelf life, packaging र MOQ प्रकाशित गर्छ। यी उत्पादन-विशिष्ट सन्दर्भ बिन्दुहरू हुन्, अर्को supplier को hardener वा resin प्रणालीमा सार्ने मानहरू होइनन्।",
+        "Current Epoxy Hardener TDS ले clear / transparent liquid polyamide उत्पादन पहिचान गर्छ र viscosity, specific gravity, amine value, storage, shelf life प्रकाशित गर्छ। यी उत्पादन-विशिष्ट सन्दर्भ बिन्दुहरू हुन्, अर्को supplier को hardener वा resin प्रणालीमा सार्ने मानहरू होइनन्।",
         "TDS मा operating जानकारी पनि हुन्छ। यो resource ले जानीजानी mixing, cure वा pot-life निर्देशन दोहोर्याउँदैन; procurement वा प्रयोगअघि current कागजात र मिल्ने resin मार्ग सँगै समीक्षा गर्नुहोस्।"
       ]
     },

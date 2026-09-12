@@ -57,7 +57,7 @@ export default {
   faqs: [
     {
       q: "विस्तृत TDS मा कुन Bisphenol Resin मान प्रकाशित छन्?",
-      a: "हालको TDS ले resin type, grade, viscosity, gel-time मान, styrene content, density, thermal data, flash point, shelf life, storage, packaging र MOQ प्रकाशित गर्छ।"
+      a: "हालको TDS ले resin type, grade, viscosity, gel-time मान, styrene content, density, thermal data, flash point, shelf life, storage प्रकाशित गर्छ।"
     },
     {
       q: "TDS र catalogue फरक भएमा कुन मान प्रयोग गर्ने?",
@@ -98,7 +98,7 @@ export default {
     {
       heading: "प्रकाशित supplied-resin डाटाका लागि विस्तृत TDS प्रयोग गर्नुहोस्",
       body: [
-        "हालको विस्तृत TDS ले 25°C मा 600 cPs viscosity, 25°C मा 35-45 मिनेट gel-time मान, 25°C मा 1.10 g/cm³ density, not-applicable styrene content, 80°C fully cured thermal data र 100°C भन्दा माथिको flash point प्रकाशित गर्छ। यसले 12-महिना unopened shelf life, 20-30°C storage, 20 kg packaging र 100 kg MOQ पनि सूचीबद्ध गर्छ।",
+        "हालको विस्तृत TDS ले 25°C मा 600 cPs viscosity, 25°C मा 35-45 मिनेट gel-time मान, 25°C मा 1.10 g/cm³ density, not-applicable styrene content, 80°C fully cured thermal data र 100°C भन्दा माथिको flash point प्रकाशित गर्छ। यसले 12-महिना unopened shelf life, 20-30°C storage पनि सूचीबद्ध गर्छ।",
         "यी document-level, typical उत्पादन-डाटा बिन्दुहरू हुन्। तिनले वर्णन गरिँदै गरेको supplied resin route पहिचान गर्छन्; तिनले chemical-compatibility chart, mechanical-property table, certificate वा finished-component गारेन्टी दिँदैनन्।"
       ]
     },

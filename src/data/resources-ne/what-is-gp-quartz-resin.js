@@ -59,7 +59,7 @@ export default {
     },
     {
       "q": "GP Quartz Resin का लागि कस्तो technical data प्रकाशित छ?",
-      "a": "हालको product information ले 400-800 cPs viscosity, 7-10 minute gel time, non-accelerated system, लगभग दुई-घण्टा cure time, 225 kg drum packaging र 1,000 kg MOQ प्रकाशित गर्छ। चयन गर्नुअघि हालको TDS जाँच्नुहोस्।"
+      "a": "हालको product information ले 400-800 cPs viscosity, 7-10 minute gel time, non-accelerated system, लगभग दुई-घण्टा cure time प्रकाशित गर्छ। चयन गर्नुअघि हालको TDS जाँच्नुहोस्।"
     }
   ],
   "recommendedLinks": [

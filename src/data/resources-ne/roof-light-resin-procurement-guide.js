@@ -7,14 +7,12 @@ export default {
       "Roof Light Resin Supplier",
       "Roof Light Resin Quote",
       "FRP Roofing Sheet Resin Procurement",
-      "Roof Light Resin MOQ"
+      "Roof Light Resin enquiry"
     ],
     ogTitle: "Roof Light Resin Procurement गाइड",
     ogDescription: "Current TDS र तथ्यपरक FRP roofing-sheet आवश्यकताहरू प्रयोग गरी कागजातसहितको Roof Light Sheet Grade Resin कोटेसन छलफल तयार गर्नुहोस्।"
   },
   quickFacts: {
-    "प्रकाशित प्याकेजिङ": "225 kg drum",
-    "प्रकाशित MOQ": "500 kg",
     "उत्पादन कागजात": "Current Roof Light Resin TDS",
     "व्यावसायिक विवरण": "Finished sheet, supplied appearance, quantity and delivery location"
   },
@@ -22,7 +20,7 @@ export default {
     {
       heading: "Current product-specific कागजात प्रयोग गर्नुहोस्",
       body: [
-        "Roof Light Resin TDS यस प्रकाशित water-white orthophthalic unsaturated polyester मार्गका लागि नियन्त्रक सन्दर्भ हो। यसले grade-विशिष्ट technical डाटा र application context सँगै 225 kg drum र 500 kg minimum order quantity सूचीबद्ध गर्छ।",
+        "Roof Light Resin TDS यस प्रकाशित water-white orthophthalic unsaturated polyester मार्गका लागि नियन्त्रक सन्दर्भ हो। यसले grade-विशिष्ट technical डाटा र application context सूचीबद्ध गर्छ। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ।",
         "यी प्रकाशित विवरणहरूले stock उपलब्धता, lead time, sample नीति, delivery प्रतिबद्धता वा हेरिन बाँकी finished sheet का लागि suitability पुष्टि गर्दैनन्। व्यावसायिक छलफललाई तथ्यपरक र उत्पादन-विशिष्ट राख्नुहोस्।"
       ]
     },
@@ -47,15 +45,15 @@ export default {
       a: "अभिप्रेत roof-light वा roofing sheet, आवश्यक supplied appearance, थाहा भएमा reinforcement context, अपेक्षित परिमाण, delivery स्थान र कुनै उपलब्ध drawing वा खरिदकर्ता specification समावेश गर्नुहोस्।"
     },
     {
-      q: "के 500 kg MOQ ले stock वा delivery समय पुष्टि गर्छ?",
-      a: "गर्दैन। Current Roof Light Resin TDS ले 500 kg MOQ प्रकाशित गर्छ। Stock, lead time, delivery र suitability actual आवश्यकताका लागि पुष्टि गर्नुपर्छ।"
+      q: "के यस पृष्ठले stock वा delivery समय पुष्टि गर्छ?",
+      a: "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Stock, lead time, delivery र suitability actual आवश्यकताका लागि पुष्टि गर्नुपर्छ।"
     }
   ],
   recommendedLinks: [
     {
       href: "/products/roof-light-resin/",
       label: "Roof Light Sheet Grade Resin हेर्नुहोस्",
-      description: "Current product page, TDS, प्याकेजिङ र MOQ हेर्नुहोस्।"
+      description: "Current product page र TDS हेर्नुहोस्।"
     },
     {
       href: "/tds/roof-light-resin-tds.pdf",

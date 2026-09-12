@@ -57,7 +57,7 @@ export default {
     {
       heading: "Generic label होइन, प्रकाशित grade data प्रयोग गर्नुहोस्",
       body: [
-        "हालको ISO Fire Retardant Resin TDS ले white appearance, 400 cPs viscosity, 5.5-minute gel time, 35 kg / 225 kg packaging, 500 kg MOQ, तीन-महिना shelf life र 30-35 degrees C storage सहितको supply जानकारी प्रकाशित गर्छ। सटीक grade र project आवश्यकताका लागि हालको document समीक्षा गर्नुहोस्।",
+        "हालको ISO Fire Retardant Resin TDS ले white appearance, 400 cPs viscosity, 5.5-minute gel time, तीन-महिना shelf life र 30-35 degrees C storage सहितको supply जानकारी प्रकाशित गर्छ। सटीक grade र project आवश्यकताका लागि हालको document समीक्षा गर्नुहोस्।",
         "एउटा उत्पादन description ले आफैंले finished FRP component को fire classification, service suitability वा approval स्थापित गर्दैन। खरिदकर्ताहरूले ती प्रश्नहरूलाई enquiry मा छुट्टै राख्नुपर्छ।"
       ]
     },

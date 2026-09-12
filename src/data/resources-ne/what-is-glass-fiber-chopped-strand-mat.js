@@ -67,7 +67,7 @@ export default {
     {
       "heading": "Published CSM range",
       "body": [
-        "Samrat FRP Traders ले हाल दुई Glass Fiber mat weight प्रकाशित गर्छ: CSM 300 (300 g/m²) र CSM 450 (450 g/m²)। दुवै E-Glass Chopped Strand Mat का रूपमा supply गरिन्छ; TDS ले 1040 mm roll width, लगभग 30 kg roll weight र 500 kg minimum order quantity सूचीबद्ध गर्छ।",
+        "Samrat FRP Traders ले हाल दुई Glass Fiber mat weight प्रकाशित गर्छ: CSM 300 (300 g/m²) र CSM 450 (450 g/m²)। दुवै E-Glass Chopped Strand Mat का रूपमा supply गरिन्छ; TDS ले 1040 mm roll width, लगभग 30 kg roll weight सूचीबद्ध गर्छ।",
         "यस listing बाट अरू कुनै reinforcement form अनुमान गर्नुहुँदैन। विशेष गरी, woven roving, continuous roving, carbon fibre र अन्य glass-mat types यस page मा Samrat FRP Traders products का रूपमा प्रस्तुत गरिएका छैनन्।"
       ]
     },

@@ -17,8 +17,6 @@ export default {
     "Product family": "Orthophthalic unsaturated polyester resin",
     "Supplied appearance": "Water white",
     "प्रकाशित भूमिका": "Translucent roof-light panels and skylight sheets",
-    "प्रकाशित packaging": "225 kg drum",
-    "प्रकाशित MOQ": "500 kg"
   },
   sections: [
     {

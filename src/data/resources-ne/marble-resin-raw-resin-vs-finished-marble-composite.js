@@ -23,7 +23,7 @@ export default {
     {
       heading: "हालका दस्तावेजले के वर्णन गर्छन्",
       body: [
-        "TDS ले आपूर्ति गरिएको-resin form, colour, typical viscosity, gel time, curing time, density, styrene content, flash point, storage, shelf life, packaging र MOQ प्रकाशित गर्छ। यसले filler compatibility, smooth flow, high-gloss finish, low shrinkage र पूरा cure पछि water वा chemical resistance जस्ता व्यापक उत्पादन-positioning शब्द पनि प्रयोग गर्छ।",
+        "TDS ले आपूर्ति गरिएको-resin form, colour, typical viscosity, gel time, curing time, density, styrene content, flash point, storage, shelf life प्रकाशित गर्छ। यसले filler compatibility, smooth flow, high-gloss finish, low shrinkage र पूरा cure पछि water वा chemical resistance जस्ता व्यापक उत्पादन-positioning शब्द पनि प्रयोग गर्छ।",
         "यी कथनहरू तिनको दस्तावेजीकृत सन्दर्भमा नै बुझ्नुपर्छ। यी प्रकाशित filler-loading सीमा, chemical-compatibility chart, UV वा non-yellowing result, substrate-adhesion result, scratch वा stain rating, वा finished-product approval होइनन्।"
       ]
     },

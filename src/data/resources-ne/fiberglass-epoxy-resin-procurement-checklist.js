@@ -15,7 +15,6 @@ export default {
   },
   quickFacts: {
     "प्रकाशित pack": "20 kg",
-    "प्रकाशित MOQ": "100 kg",
     "प्रकाशित shelf life": "unopened अवस्थामा 12 महिना",
     "पहिलो RFQ जाँच": "मूल्यांकन भइरहेको TDS वा catalogue reference उल्लेख गर्नुहोस्"
   },
@@ -24,7 +23,7 @@ export default {
       heading: "document मार्गबाट सुरु गर्नुहोस्",
       body: [
         "detailed TDS र उत्पादन catalogue दुवै उपलब्ध छन्, तर तिनीहरूले फरक-फरक resin शब्दावली र छानिएका मान प्रयोग गर्छन्। तिनलाई चुपचाप मर्ज गरिएको specification मान्नुको सट्टा तपाईं कुन record मूल्यांकन गर्दै हुनुहुन्छ पहिचान गर्नुहोस्।",
-        "detailed TDS मार्गका लागि, प्रकाशित commercial जानकारी 20 kg pack, 100 kg MOQ, 12-महिना unopened shelf life र 20-30 C चिसो, सुख्खा storage हो। Order-विशिष्ट availability र सर्तहरू अझै पुष्टि आवश्यक पर्छ।"
+        "detailed TDS मार्गका लागि प्रकाशित भण्डारण जानकारी 12-महिना unopened shelf life र 20-30 C चिसो, सुख्खा storage हो; नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Order-विशिष्ट availability र सर्तहरू अझै पुष्टि आवश्यक पर्छ।"
       ]
     },
     {
@@ -55,8 +54,8 @@ export default {
       a: "finished fiberglass वा composite application; resin मात्र चाहिन्छ वा पूरा system चाहिन्छ; हालको TDS वा catalogue reference; थाहा भए reinforcement रूप; सान्दर्भिक सूचीबद्ध process सन्दर्भ; चाहिने प्रकाशित properties वा documents; quantity; packaging आवश्यकता; र डेलिभरी स्थान समावेश गर्नुहोस्।"
     },
     {
-      q: "कुन packaging र MOQ प्रकाशित छन्?",
-      a: "detailed TDS ले 20 kg pack र 100 kg minimum order quantity सूचीबद्ध गर्छ। Availability, lead time, delivery terms, exact system आपूर्ति र order-विशिष्ट document वास्तविक enquiry का लागि पुष्टि आवश्यक पर्छ।"
+      q: "प्याकेजिङ र अर्डर परिमाण कसरी पुष्टि हुन्छ?",
+      a: "नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Availability, lead time, delivery terms, exact system आपूर्ति र order-विशिष्ट document वास्तविक enquiry का लागि पुष्टि आवश्यक पर्छ।"
     },
     {
       q: "के मैले chemical compatibility वा service-temperature approval अनुरोध गर्नुपर्छ?",
