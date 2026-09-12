@@ -85,8 +85,8 @@ const nav = isNe
 // link there directly; the other 6 (navigation-only, no category URL) link
 // to their anchor block on the product index instead. Counts are computed
 // from the live catalogue, never hand-typed.
-const featuredGroups = catalogGroups.filter((g) => g.indexable);
-const otherGroups = catalogGroups.filter((g) => !g.indexable);
+// Every family in the catalogue is a first-class category with its own hub,
+// so the menu presents one list rather than a primary set and an afterthought.
 const productsIndexHref = `${prefix}/products/`;
 const totalDocs = products.reduce((sum, p) => sum + (p.documents ? p.documents.length : 0), 0);
 
@@ -235,38 +235,34 @@ const websiteSchema = {
           {nav.map((item) =>
             item.key === 'products' ? (
               <div class="nav-mega">
-                <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>
+                <a class="nav-mega-link" href={item.href} aria-current={path === item.href ? 'page' : undefined}>
                   {item.label}
+                </a>
+                <button
+                  type="button"
+                  class="nav-mega-toggle"
+                  aria-expanded="false"
+                  aria-controls="megaPanel"
+                  aria-label={isNe ? 'उत्पादन वर्गहरू देखाउनुहोस्' : 'Show product categories'}
+                  data-close-label={isNe ? 'उत्पादन वर्गहरू लुकाउनुहोस्' : 'Hide product categories'}
+                >
                   <svg class="nav-mega-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true">
                     <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
-                </a>
-                <div class="mega-panel">
+                </button>
+                <div class="mega-panel" id="megaPanel">
                   <div class="mega-panel-inner">
-                    <div class="mega-col mega-col-featured">
-                      <p class="mega-col-label">{isNe ? 'मुख्य श्रेणी' : 'Category pages'}</p>
-                      {featuredGroups.map((group) => (
+                    <p class="mega-col-label">{isNe ? 'उत्पादन वर्गहरू' : 'Product categories'}</p>
+                    <div class="mega-grid">
+                      {catalogGroups.map((group) => (
                         <a class="mega-featured-link" href={`${prefix}/products/${group.slug}/`}>
                           <span class="mega-featured-name">{group.name}</span>
-                          <span class="mega-featured-summary">{group.summary}</span>
                           <span class="mega-featured-count">
-                            {productsInGroup(group.slug).length} {isNe ? 'उत्पादन' : 'products'}
+                            {productsInGroup(group.slug).length}{' '}
+                            {isNe ? 'उत्पादन' : productsInGroup(group.slug).length === 1 ? 'product' : 'products'}
                           </span>
                         </a>
                       ))}
-                    </div>
-                    <div class="mega-col mega-col-other">
-                      <p class="mega-col-label">{isNe ? 'हाम्रो दायरामा पनि' : 'Also in our range'}</p>
-                      <ul class="mega-other-list">
-                        {otherGroups.map((group) => (
-                          <li>
-                            <a href={`${productsIndexHref}#${group.slug}`}>
-                              <span>{group.name}</span>
-                              <span class="mega-other-count">{productsInGroup(group.slug).length}</span>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
                     </div>
                   </div>
                   <div class="mega-panel-foot">
@@ -318,6 +314,15 @@ const websiteSchema = {
         {nav.map((item, index) => (
           <a href={item.href} aria-current={path === item.href ? 'page' : undefined} style={`--i: ${index}`}>
             {item.label}
+          </a>
+        ))}
+      </nav>
+      <nav class="mobile-nav-cats" aria-label={isNe ? 'उत्पादन वर्गहरू' : 'Product categories'}>
+        <p class="mobile-nav-cats-label">{isNe ? 'उत्पादन वर्गहरू' : 'Product categories'}</p>
+        {catalogGroups.map((group) => (
+          <a href={`${prefix}/products/${group.slug}/`}>
+            <span>{group.name}</span>
+            <span class="mobile-nav-cats-count">{productsInGroup(group.slug).length}</span>
           </a>
         ))}
       </nav>
@@ -473,6 +478,36 @@ const websiteSchema = {
         const desktopQuery = window.matchMedia('(min-width: 821px)');
         desktopQuery.addEventListener('change', (event) => {
           if (event.matches) setOpen(false);
+        });
+      }
+
+      // Product categories disclosure. The chevron is a control in its own
+      // right so that the "Products" link beside it can do the one thing a
+      // visitor expects of it: go to the catalogue on the first tap.
+      const megaToggle = document.querySelector('.nav-mega-toggle');
+      const megaPanel = document.getElementById('megaPanel');
+      if (megaToggle && megaPanel && megaToggle.dataset.wired !== 'true') {
+        megaToggle.dataset.wired = 'true';
+        const megaOpenLabel = megaToggle.getAttribute('aria-label') || '';
+        const megaCloseLabel = megaToggle.dataset.closeLabel || megaOpenLabel;
+        const setMega = (open) => {
+          megaToggle.setAttribute('aria-expanded', String(open));
+          megaToggle.setAttribute('aria-label', open ? megaCloseLabel : megaOpenLabel);
+        };
+        megaToggle.addEventListener('click', () => {
+          setMega(megaToggle.getAttribute('aria-expanded') !== 'true');
+        });
+        megaPanel.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => setMega(false)));
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && megaToggle.getAttribute('aria-expanded') === 'true') {
+            setMega(false);
+            megaToggle.focus();
+          }
+        });
+        document.addEventListener('click', (e) => {
+          if (megaToggle.getAttribute('aria-expanded') !== 'true') return;
+          const within = megaToggle.contains(e.target) || megaPanel.contains(e.target);
+          if (!within) setMega(false);
         });
       }
 
@@ -699,19 +734,66 @@ const websiteSchema = {
     box-shadow: 0 1.8rem 3.5rem rgba(0, 0, 0, 0.5);
   }
 
-  .nav-mega:hover .mega-panel,
-  .nav-mega:focus-within .mega-panel {
+  /* Hover only opens the panel where a real pointer exists. On a touch screen
+     the first tap on "Products" used to be swallowed by the sticky :hover state
+     to reveal this panel, so reaching the catalogue took two taps. Touch users
+     now get the chevron button beside the link for the same job, and the link
+     itself navigates on the first tap. */
+  @media (hover: hover) and (pointer: fine) {
+    .nav-mega:hover .mega-panel,
+    .nav-mega:focus-within .mega-panel {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+
+  .nav-mega:focus-within .mega-panel,
+  .nav-mega .nav-mega-toggle[aria-expanded='true'] ~ .mega-panel {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
   }
 
+  /* The link and its chevron are separate controls with separate jobs, so
+     neither is nested inside the other and each has its own tap target. */
+  .nav-mega {
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+  }
+
+  .nav-mega-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  .nav-mega-toggle:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+
+  .nav-mega-toggle .nav-mega-caret {
+    transition: transform 200ms var(--ease-premium);
+  }
+
+  .nav-mega-toggle[aria-expanded='true'] .nav-mega-caret {
+    transform: rotate(180deg);
+  }
+
+
   .mega-panel-inner {
     width: min(100% - 2 * var(--page-padding), var(--max-width));
     margin-inline: auto;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: clamp(2rem, 4vw, 4rem);
     padding-block: 2.25rem;
   }
 
@@ -724,23 +806,24 @@ const websiteSchema = {
     text-transform: uppercase;
   }
 
-  .mega-col-featured {
+  /* One list, nine equal families. The panel previously split them into a
+     primary column and an "Also in our range" column, which made Gelcoat and
+     ISO Resins read as afterthoughts and sent them to an in-page anchor rather
+     than to a category page. Both now have hubs, so the split has no meaning. */
+  .mega-grid {
     display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1px;
     background: var(--line);
     border: 1px solid var(--line);
   }
 
-  .mega-col-featured .mega-col-label {
-    padding: 0 0.2rem 0.8rem;
-    background: transparent;
-  }
-
   .mega-featured-link {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 0.2rem 1rem;
-    padding: 1.1rem 1.2rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.95rem 1.1rem;
     background: var(--bg-2);
     color: var(--ink);
     text-decoration: none;
@@ -751,65 +834,27 @@ const websiteSchema = {
     background: color-mix(in srgb, var(--accent-gold) 7%, var(--bg-2));
   }
 
+  .mega-featured-link:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: -2px;
+  }
+
   .mega-featured-name {
     font-family: var(--font-display);
-    font-size: 1.05rem;
+    font-size: 0.98rem;
     font-weight: 600;
     letter-spacing: 0.01em;
     text-transform: uppercase;
   }
 
-  .mega-featured-summary {
-    grid-column: 1 / -1;
-    max-width: 46ch;
-    color: var(--ink-dim);
-    font-size: 0.82rem;
-    line-height: 1.55;
-  }
-
   .mega-featured-count {
-    align-self: start;
+    flex-shrink: 0;
     color: var(--accent-gold-light);
     font-family: var(--font-mono);
     font-size: 0.66rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     white-space: nowrap;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .mega-other-list {
-    display: grid;
-    gap: 1px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    background: var(--line);
-    border: 1px solid var(--line);
-  }
-
-  .mega-other-list a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.72rem 1rem;
-    background: var(--bg-2);
-    color: var(--ink-dim);
-    font-size: 0.86rem;
-    text-decoration: none;
-    transition: background 200ms var(--ease-premium), color 200ms var(--ease-premium);
-  }
-
-  .mega-other-list a:hover {
-    background: color-mix(in srgb, var(--ink) 5%, var(--bg-2));
-    color: var(--ink);
-  }
-
-  .mega-other-count {
-    color: var(--ink-faint);
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
     font-variant-numeric: tabular-nums;
   }
 
@@ -1024,6 +1069,51 @@ const websiteSchema = {
     .mobile-nav.is-open .mobile-nav-links a {
       animation: none;
     }
+  }
+
+  /* The nine families are listed in the overlay too, so a phone visitor can
+     reach a category directly instead of landing on the catalogue and
+     scrolling. The main "Products" link above still goes straight to the
+     catalogue on one tap; this is an addition, not a gate in front of it. */
+  .mobile-nav-cats {
+    display: grid;
+    margin-top: 1.6rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .mobile-nav-cats-label {
+    margin: 1.1rem 0 0.35rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .mobile-nav-cats a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 2.9rem;
+    padding: 0.55rem 0.1rem;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-dim);
+    font-size: 0.95rem;
+    text-decoration: none;
+    touch-action: manipulation;
+  }
+
+  .mobile-nav-cats a:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+
+  .mobile-nav-cats-count {
+    color: var(--accent-gold-light);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
   }
 
   .mobile-nav-foot {

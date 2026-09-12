@@ -1,0 +1,115 @@
+---
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import CategoryHubDetail from '../../components/product/CategoryHubDetail.astro';
+import { getGroup, productHref, productsInGroup } from '../../data/products.js';
+import { productImageAlt } from '../../utils/product-page.js';
+import Base from '../../layouts/Base.astro';
+
+const group = getGroup('iso-resins');
+const items = productsInGroup('iso-resins');
+---
+<Base
+  lang="ne"
+  title="ISO Resins — नेपालमा isophthalic resin आपूर्तिकर्ता"
+  description="नेपालका खरिदकर्ताका लागि Samrat FRP Traders ले आपूर्ति तथा आयात गर्ने isophthalic resin उत्पादनहरू। यहाँ ISO भनेको isophthalic acid हो, ISO प्रमाणपत्र होइन।"
+>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">उत्पादन वर्ग</p>
+      <h1>{group.name}</h1>
+      <p class="page-lead">नेपाल बजारका लागि आपूर्ति तथा आयात गरिने isophthalic resin परिवार।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs
+        items={[
+          { label: 'गृहपृष्ठ', href: '/' },
+          { label: 'उत्पादनहरू', href: '/products/' },
+          { label: group.name },
+        ]}
+      />
+
+      <div class="category-intro" data-reveal>
+        <p>
+          यी अक्षरले नै यस सूचीमा सबैभन्दा धेरै अन्योल ल्याउँछन्, त्यसैले पहिले त्यही टुंग्याऔँ।
+          यहाँ ISO भनेको isophthalic acid हो — polyester संरचना बनाउन प्रयोग हुने कच्चा पदार्थमध्ये एक।
+          यो रसायनको वर्णन हो, प्रमाणपत्र होइन, र ISO 9001 सँग यसको सम्बन्ध छैन। आपूर्तिकर्ताले त्यो
+          प्रमाणपत्र छुट्टै राखेको हुन सक्छ, तर त्यसले गुणस्तर व्यवस्थापन प्रणाली प्रमाणित गर्छ,
+          कुनै resin batch को कार्यसम्पादन होइन।
+        </p>
+        <p>
+          Isophthalic संरचनाले दिने कुरा भनेको hydrolysis सहने क्षमता हो — वर्षौँको सम्पर्कमा पानीले
+          ester बन्धनमाथि गर्ने ढिलो आक्रमण। त्यसैले भिजिरहने वा रसायन बोक्ने laminate का लागि उद्योगले
+          isophthalic grade तोक्छ, र सुक्खा भित्री प्यानलमा त्यसको थप लागत प्रायः फाइदाजनक हुँदैन।
+          बाँकी काम गर्ने तरिका परिचित नै छ: यो अझै unsaturated polyester हो र कार्यशालाको तापक्रममा
+          peroxide catalyst ले जम्छ।
+        </p>
+        <p>
+          यस वर्गमा isophthalic laminating resin पर्छ। श्रेणीका अरू दुई उत्पादन रसायनमा isophthalic
+          भए पनि नामले होइन, कामले आफ्नो परिवारमा पर्छन्: ISO Gelcoat सतह तह हो र
+          <a href="/products/gelcoat/">Gelcoat</a> मुनि पर्छ, अनि ISO Fire Retardant Resin fire
+          कार्यसम्पादनका लागि छानिन्छ र <a href="/products/fire-retardant-resins/">Fire Retardant
+          Resins</a> मुनि पर्छ। तलको grade को supplier कागजात हाम्रो पुस्तकालयमा अझै छैन, त्यसैले
+          यस साइटमा त्यसका कुनै अंक प्रकाशित छैनन्।
+        </p>
+      </div>
+
+      <div class="category-grid" data-reveal style="--reveal-delay: 80ms">
+        {items.map((product) => (
+          <CatalogCard
+            name={product.name}
+            eyebrow={group.name}
+            href={`/products/${product.slug}/`}
+            showMedia
+            image={product.images?.[0]}
+            imageAlt={productImageAlt(product, true)}
+            ctaLabel="उत्पादन हेर्नुहोस्"
+          />
+        ))}
+      </div>
+
+      <CategoryHubDetail groupSlug="iso-resins" lang="ne" />
+
+      <div class="section-actions" data-reveal style="--reveal-delay: 160ms">
+        <a class="button" href="/resources/what-is-isophthalic-polyester-resin/">Isophthalic resin के हो?</a>
+        <a class="button" href="/products/">पूरा उत्पादन सूची</a>
+        <a class="button" href="/contact/">सोधपुछ पठाउनुहोस्</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero {
+    min-height: clamp(14rem, 26vh, 19rem);
+  }
+
+  .page-hero-content {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .section:first-of-type {
+    padding-top: clamp(2rem, 4vw, 3rem);
+  }
+
+  .category-intro {
+    max-width: 46rem;
+    margin-block: 1.25rem;
+    color: var(--ink-dim);
+  }
+
+  .category-intro p {
+    margin-bottom: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1.75rem;
+  }
+</style>

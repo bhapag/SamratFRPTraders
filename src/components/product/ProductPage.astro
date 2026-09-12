@@ -162,6 +162,12 @@ const productSchema = {
   description: description || product.metaDescription || product.descriptor || '',
   ...(group ? { category: group.name } : {}),
   url: canonicalUrl,
+  // Product photography, where the owner has supplied it. Absent rather than
+  // a placeholder when there is none, so the markup never claims an image the
+  // product does not have.
+  ...(product.images && product.images.length > 0
+    ? { image: product.images.map((img) => buildCanonicalUrl(`/images/products/${img.src}`)) }
+    : {}),
   brand: { '@type': 'Brand', name: 'Samrat Poly Resins' },
   ...(highlights.length > 0
     ? {

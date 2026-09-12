@@ -76,17 +76,21 @@ export const catalogGroups = Object.freeze([
   }),
   // Gelcoat and ISO Resins stay navigation-only for now: each holds two or
   // fewer products, so a hub page would restate the product pages rather than
-  // add anything. Both link to their catalogue anchor. Revisit when either
-  // family grows enough for a hub to carry its own comparison table.
+  // Both now carry their own category hub, so every family in this list is a
+  // first-class category rather than a navigation-only anchor.
   Object.freeze({
     name: 'Gelcoat',
     slug: 'gelcoat',
-    indexable: false,
+    indexable: true,
+    summary:
+      'Gelcoat products supplied and imported for the Nepal market. A gelcoat is the moulded surface layer of an FRP part, applied into the mould before lamination, and is not a laminating resin.',
   }),
   Object.freeze({
     name: 'ISO Resins',
     slug: 'iso-resins',
-    indexable: false,
+    indexable: true,
+    summary:
+      'Isophthalic resin products supplied and imported for the Nepal market. "ISO" here is isophthalic acid, the dibasic acid used to build the resin, and is not an ISO certification.',
   }),
   Object.freeze({
     name: 'Fire Retardant Resins',
@@ -517,6 +521,9 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'UV Stabilized Sheet Grade Yellow Resin',
     slug: 'uv-stabilized-sheet-grade-yellow-resin',
+    images: Object.freeze([
+      Object.freeze({ src: 'uv-stabilized-sheet-grade-yellow-resin-primary.webp', width: 600, height: 410 }),
+    ]),
     group: 'sheet-grade-resins',
     tier: 'B',
     titleInput: 'UV Stabilized Sheet Grade Yellow Resin — Nepal Supplier',
@@ -576,6 +583,9 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'ISO Gelcoat',
     slug: 'iso-gelcoat',
+    images: Object.freeze([
+      Object.freeze({ src: 'iso-gelcoat-primary.webp', width: 640, height: 490 }),
+    ]),
     group: 'gelcoat',
     tier: 'B',
     titleInput: 'ISO Gelcoat — Nepal Supplier',
@@ -592,6 +602,9 @@ export const products = Object.freeze([
   Object.freeze({
     name: 'ISO Polyester Resin',
     slug: 'iso-polyester-resin',
+    images: Object.freeze([
+      Object.freeze({ src: 'iso-polyester-resin-primary.webp', width: 690, height: 515 }),
+    ]),
     group: 'iso-resins',
     tier: 'B',
     titleInput: 'ISO Polyester Resin — Nepal Supplier',
