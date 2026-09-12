@@ -24,7 +24,7 @@ export default {
       description: "grade का लागि प्राविधिक सन्दर्भको रूपमा हालको कागजात प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
+      href: "/products/",
       label: "उत्पादन क्याटलग डाउनलोड गर्नुहोस्",
       description: "छुट्टै resin, catalyst र reinforcement उत्पादन भूमिकाहरू समीक्षा गर्नुहोस्।"
     },

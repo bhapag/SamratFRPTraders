@@ -31,8 +31,8 @@ export default {
       description: "विस्तृत TDS लाई सुरुवाती प्राविधिक document को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
-      label: "Product Catalogue समीक्षा गर्नुहोस्",
+      href: "/products/",
+      label: "पूरा उत्पादन दायरा हेर्नुहोस्",
       description: "Samrat FRP Traders को व्यापक उत्पादन दायरा अन्वेषण गर्नुहोस्; यस grade को प्राविधिक data का लागि product-specific TDS प्रयोग गर्नुहोस्।"
     },
     {

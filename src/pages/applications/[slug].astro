@@ -21,7 +21,10 @@ const slugAlias = {
   'unsaturated-polyester-resin': 'polyester-resins',
 };
 
-const relatedProducts = (app.relatedProductSlugs ?? [])
+// The product the guide is about comes first, then the other materials the
+// job needs. Before this, a guide could omit its own subject product.
+const relatedProducts = [...(app.primaryProductSlugs ?? []), ...(app.relatedProductSlugs ?? [])]
+  .filter((slug, i, all) => all.indexOf(slug) === i)
   .map((slug) => {
     const resolved = slugAlias[slug] ?? slug;
     const product = getProduct(resolved);

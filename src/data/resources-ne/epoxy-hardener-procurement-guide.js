@@ -63,8 +63,8 @@ export default {
       description: "हालको product-specific document लाई प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
-      label: "Product Catalogue डाउनलोड गर्नुहोस्",
+      href: "/products/",
+      label: "पूरा उत्पादन दायरा हेर्नुहोस्",
       description: "छुट्टै published epoxy, UV र polyester-family product routes समीक्षा गर्नुहोस्।"
     },
     {

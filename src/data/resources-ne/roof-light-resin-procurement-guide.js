@@ -63,8 +63,8 @@ export default {
       description: "उत्पादन-विशिष्ट कागजातलाई नियन्त्रक सन्दर्भका रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
-      label: "Product Catalogue डाउनलोड गर्नुहोस्",
+      href: "/products/",
+      label: "पूरा उत्पादन दायरा हेर्नुहोस्",
       description: "दायराभरका छुट्टै उत्पादन भूमिकाहरू हेर्नुहोस्।"
     },
     {

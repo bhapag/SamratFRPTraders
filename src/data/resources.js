@@ -7947,8 +7947,8 @@ export const resources = Object.freeze([
         "description": "Use the current product document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review separate resin, coating and FRP product roles before selection."
       },
       {
@@ -9087,8 +9087,8 @@ export const resources = Object.freeze([
         "description": "Check the current grade-specific technical data before selection or ordering."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review the wider Samrat FRP Traders product range and related product roles."
       },
       {
@@ -9580,8 +9580,8 @@ export const resources = Object.freeze([
         "description": "Use the current published technical data as the controlling product reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review the broader product range and separate resin roles."
       },
       {
@@ -10214,8 +10214,8 @@ export const resources = Object.freeze([
         "description": "Use the current published product data as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review the wider product range and separate resin, gelcoat and reinforcement roles."
       },
       {
@@ -10555,8 +10555,8 @@ export const resources = Object.freeze([
         "description": "Use the current product document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review related resin, reinforcement, gelcoat and pigment product roles."
       },
       {
@@ -11000,8 +11000,8 @@ export const resources = Object.freeze([
         "description": "Use the current product document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review separate Art Resin, casting and polyester-FRP product roles."
       },
       {
@@ -11677,8 +11677,8 @@ export const resources = Object.freeze([
         "description": "Use the product-specific data as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review separate product roles across the range."
       },
       {
@@ -12148,8 +12148,8 @@ export const resources = Object.freeze([
         "description": "Use the product-specific document as the controlling reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review separate product roles across the range."
       },
       {
@@ -13253,7 +13253,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "label": "Browse the full product range",
         "description": "Review the wider range while keeping the current TDS as the grade reference."
       },
       {
@@ -13347,8 +13347,8 @@ export const resources = Object.freeze([
         "description": "Use the current document as the technical reference for the grade."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review separate resin, catalyst and reinforcement product roles."
       },
       {
@@ -13441,8 +13441,8 @@ export const resources = Object.freeze([
         "description": "Use the current product-specific document as the technical reference."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Download Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Review the separate published epoxy, UV and polyester-family product routes."
       },
       {
@@ -13653,7 +13653,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "label": "Browse the full product range",
         "description": "Use carefully: its PET chip listing is a separate material-form description."
       },
       {
@@ -14137,7 +14137,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "label": "Browse the full product range",
         "description": "Keep its separate thermoplastic PET chip listing distinct from this liquid-grade TDS."
       },
       {
@@ -15215,8 +15215,8 @@ export const resources = Object.freeze([
         "description": "Use the current technical document before naming a grade."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Keep the Vinyl Ester route distinct from other Samrat product roles."
       },
       {
@@ -15377,8 +15377,8 @@ export const resources = Object.freeze([
         "description": "Use the detailed TDS as the starting technical document."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Explore Samrat FRP Traders' wider product range; use the product-specific TDS for this grade's technical data."
       },
       {
@@ -15524,7 +15524,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "label": "Browse the full product range",
         "description": "Use the BPR catalogue card as a separately identified document record."
       },
       {
@@ -16063,8 +16063,8 @@ export const resources = Object.freeze([
         "description": "Review the current product-specific document before naming a grade."
       },
       {
-        "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "href": "/products/",
+        "label": "Browse the full product range",
         "description": "Explore Samrat FRP Traders' broader resin range before confirming the product route."
       },
       {
@@ -17476,7 +17476,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "label": "Browse the full product range",
         "description": "Keep the catalogue summary separate from the detailed TDS record."
       },
       {
@@ -17684,7 +17684,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "label": "Browse the full product range",
         "description": "State if this is the record being evaluated because its summary differs from the detailed TDS."
       },
       {
@@ -17784,7 +17784,7 @@ export const resources = Object.freeze([
       },
       {
         "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Review Product Catalogue",
+        "label": "Browse the full product range",
         "description": "Keep its short Marble Resin summary separate from the detailed TDS."
       },
       {

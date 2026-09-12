@@ -67,8 +67,8 @@ export default {
       description: "हालको प्रकाशित उत्पादन डाटालाई नियन्त्रक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
-      label: "Product Catalogue डाउनलोड गर्नुहोस्",
+      href: "/products/",
+      label: "पूरा उत्पादन दायरा हेर्नुहोस्",
       description: "व्यापक उत्पादन दायरा र छुट्टाछुट्टै resin, gelcoat र reinforcement भूमिकाहरू समीक्षा गर्नुहोस्।"
     },
     {

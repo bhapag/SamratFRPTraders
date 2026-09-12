@@ -62,8 +62,8 @@ export default {
       description: "हालको उत्पादन कागजातलाई controlling reference को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
-      label: "उत्पादन Catalogue डाउनलोड गर्नुहोस्",
+      href: "/products/",
+      label: "पूरा उत्पादन दायरा हेर्नुहोस्",
       description: "छुट्टाछुट्टै Art Resin, casting र polyester-FRP उत्पादन भूमिकाहरू समीक्षा गर्नुहोस्।"
     },
     {

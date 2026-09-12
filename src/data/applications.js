@@ -6,6 +6,7 @@
 export const applications = Object.freeze([
   {
     "slug": "resin-for-water-tank-manufacturing",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for Water Tank Manufacturing",
     "cardImage": "frp-water-tanks.jpg",
     "cardImageAlt": "Sectional FRP water storage tank built from glass-fibre-reinforced polyester panels",
@@ -75,6 +76,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-cooling-tower-manufacturing",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for Cooling Tower Manufacturing",
     "cardImage": "cooling-towers.jpg",
     "cardImageAlt": "Industrial FRP cooling tower with moulded casing panels",
@@ -145,6 +147,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-roofing-sheet-manufacturing",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for Roofing Sheet Manufacturing",
     "cardImage": "frp-roofing-sheets.jpg",
     "cardImageAlt": "Translucent corrugated FRP roofing sheets fitted over an industrial building frame",
@@ -216,6 +219,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-frp-door-manufacturing",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for FRP Door Manufacturing",
     "cardImage": "frp-door.jpg",
     "cardImageAlt": "FRP double door with moulded panel design and decorative metal grille",
@@ -285,6 +289,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-door-skin-manufacturing",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for Door Skin Manufacturing",
     "cardImage": "frp-door-skin.jpg",
     "cardImageAlt": "Moulded metallic-finish door skin panel with decorative embossed design",
@@ -354,6 +359,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-frp-panel-manufacturing",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for FRP Panel Manufacturing",
     "cardImage": "frp-panel-sheets.jpg",
     "cardImageAlt": "Stack of coloured textured FRP panel sheet samples",
@@ -424,6 +430,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-hand-lay-up-process",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for Hand Lay-Up Process",
     "cardImage": "hand-layup-process.webp",
     "cardImageAlt": "Diagram of the hand lay-up process showing resin poured into a mould tool and worked in with a roller",
@@ -493,6 +500,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-spray-up-process",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for Spray-Up Process",
     "cardImage": "spray-up-process.jpg",
     "cardImageAlt": "Diagram of the spray-up process showing a chopper gun depositing resin and fibre into a gelcoated mould",
@@ -562,6 +570,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-boat-manufacturing",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for Boat & Marine Components",
     "cardImage": "marine-boat-components.jpg",
     "cardImageAlt": "FRP marine and boat components built from glass-reinforced polyester composite",
@@ -631,6 +640,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-general-frp-lamination",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for General FRP Lamination",
     "cardImage": "frp-lamination.jpg",
     "cardImageAlt": "Stack of coloured corrugated FRP laminate sheets",
@@ -700,6 +710,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "resin-for-general-frp-moulded-products",
+    "primaryProductSlugs": ["gp-clear-resin"],
     "title": "Resin for General FRP Moulded Products",
     "cardImage": "frp-moulded-grating.jpg",
     "cardImageAlt": "Stack of coloured FRP moulded grating panels in a range of sizes",
@@ -770,6 +781,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "door-lamination",
+    "primaryProductSlugs": ["lamination-resin"],
     "title": "Resin for Door Lamination",
     "cardImage": "door-lamination.jpg",
     "cardImageAlt": "Modern entrance door finished with a decorative wood-grain laminate panel design",
@@ -837,6 +849,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "door-skin-lamination",
+    "primaryProductSlugs": ["lamination-resin"],
     "title": "Resin for Door Skin Lamination",
     "cardImage": "wood-laminate-door.avif",
     "cardImageAlt": "Wood-grain laminate door skin with a panelled grid design bonded onto a flush door",
@@ -904,6 +917,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "wooden-door-lamination",
+    "primaryProductSlugs": ["lamination-resin"],
     "title": "Resin for Wooden Door Lamination",
     "cardImage": "wood-laminate-door.avif",
     "cardImageAlt": "Solid timber door finished with a bonded decorative wood veneer panel design",
@@ -969,6 +983,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "decorative-panel-lamination",
+    "primaryProductSlugs": ["lamination-resin"],
     "title": "Resin for Decorative Panel Lamination",
     "cardImage": "decorative-panel-lamination.jpg",
     "cardImageAlt": "Interior wall finished with decorative wood-panelled laminate cladding",
@@ -1035,6 +1050,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "decorative-plywood-lamination",
+    "primaryProductSlugs": ["lamination-resin"],
     "title": "Resin for Decorative Plywood Lamination",
     "cardImage": "decorative-plywood-lamination.jpg",
     "cardImageAlt": "Wood-slat decorative plywood wall panelling in a bathroom interior",
@@ -1100,6 +1116,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "furniture-lamination",
+    "primaryProductSlugs": ["lamination-resin"],
     "title": "Resin for Furniture Lamination",
     "cardImage": "furniture-lamination.webp",
     "cardImageAlt": "Glossy laminate-faced wardrobe cabinet with decorative gold trim detailing",
@@ -1165,6 +1182,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gelcoat-for-boat-marine-hull-finishing",
+    "primaryProductSlugs": ["gp-gelcoat-resin"],
     "title": "Gelcoat for Boat & Marine Hull Finishing",
     "cardDescription": "Boat and marine hulls need a smooth, glossy cosmetic skin applied to the mould first — a surface coating, not the structural laminate that gives the hull its strength.",
     "cardBenefit": "Glossy, mould-ready hull finish.",
@@ -1235,6 +1253,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gelcoat-for-frp-bathware-sanitaryware",
+    "primaryProductSlugs": ["gp-gelcoat-resin"],
     "title": "Gelcoat for FRP Bathware & Sanitaryware",
     "cardDescription": "Bathtubs and shower trays need a smooth, glossy mould-facing surface coat applied before the structural laminate — the cosmetic finish, not the reinforced backing.",
     "cardBenefit": "Smooth, ready-to-use surface finish.",
@@ -1304,6 +1323,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gelcoat-for-water-tank-exteriors",
+    "primaryProductSlugs": ["gp-gelcoat-resin"],
     "title": "Gelcoat for Water Tank Exteriors",
     "cardDescription": "FRP water tank exteriors need a clean, glossy cosmetic surface coat applied to the mould face — separate from the structural laminate that forms the tank wall itself.",
     "cardBenefit": "Clean, finished exterior surface.",
@@ -1374,6 +1394,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gelcoat-for-general-frp-mould-finishing",
+    "primaryProductSlugs": ["gp-gelcoat-resin"],
     "title": "Gelcoat for General FRP Mould Finishing",
     "cardDescription": "Panels, mouldings, furniture and décor items need a smooth, glossy mould-facing surface coat, applied before the structural laminate behind it — the cosmetic layer, not the structural resin.",
     "cardBenefit": "Consistent, glossy mould finish.",
@@ -1444,6 +1465,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gelcoat-for-automotive-body-panels",
+    "primaryProductSlugs": ["gp-gelcoat-resin"],
     "title": "Gelcoat for Automotive & Transport Body Panels",
     "cardDescription": "FRP body panels for buses, autorickshaws and trucks need a smooth, glossy cosmetic surface coat applied to the mould face — separate from the structural laminate built up behind it.",
     "cardBenefit": "Glossy, paint-ready panel surface.",
@@ -1513,6 +1535,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gp-yellow-resin-for-water-tank-manufacturing",
+    "primaryProductSlugs": ["gp-yellow-resin"],
     "title": "GP Yellow Resin for Water Tank Manufacturing",
     "cardDescription": "Water tank panels need a resin that wets out glass reinforcement cleanly and cures into a strong, leak-resistant laminate — GP Yellow Resin's orthophthalic base and MEKP/cobalt cure suit this structural role wherever the tank's exterior is finished over the resin's natural yellow tint.",
     "cardBenefit": "Consistent laminate behind a finished exterior.",
@@ -1584,6 +1607,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gp-yellow-resin-for-cooling-tower-manufacturing",
+    "primaryProductSlugs": ["gp-yellow-resin"],
     "title": "GP Yellow Resin for Cooling Tower Manufacturing",
     "cardDescription": "Cooling tower casings and internal components need a resin that cures reliably under sustained moisture — GP Yellow Resin uses the same MEKP and cobalt octoate cure system as GP Clear Resin, in a thicker, slightly slower-gelling grade suited to larger panel lay-ups.",
     "cardBenefit": "Reliable cure for large panel lay-ups.",
@@ -1655,6 +1679,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gp-yellow-resin-for-roofing-sheet-manufacturing",
+    "primaryProductSlugs": ["gp-yellow-resin"],
     "title": "GP Yellow Resin for Roofing Sheet Manufacturing",
     "cardDescription": "GP Yellow Resin's transparent yellow, general-purpose orthophthalic base wets out reinforcement for corrugated FRP roofing sheets. For a factory-pigmented grade tuned specifically for sheet production instead, Sheet Grade Yellow Resin is the dedicated alternative.",
     "cardBenefit": "General-purpose base for sheet lay-up.",
@@ -1724,6 +1749,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gp-yellow-resin-for-door-skin-manufacturing",
+    "primaryProductSlugs": ["gp-yellow-resin"],
     "title": "GP Yellow Resin for Door Skin Manufacturing",
     "cardDescription": "Moulded FRP door skins need a laminating resin that wets out reinforcement cleanly behind a gelcoat-finished face — GP Yellow Resin fills that structural role with the same cure chemistry as GP Clear Resin, in a thicker, slower-gelling grade.",
     "cardBenefit": "Structural backing behind a gelcoat face.",
@@ -1793,6 +1819,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gp-yellow-resin-for-hand-lay-up-process",
+    "primaryProductSlugs": ["gp-yellow-resin"],
     "title": "GP Yellow Resin for Hand Lay-Up Process",
     "cardDescription": "Hand lay-up work relies on a resin that saturates chopped strand mat evenly, layer by layer — GP Yellow Resin uses the standard MEKP and cobalt octoate cure system, differing from GP Clear Resin mainly in its thicker body, slower gel and yellow tint.",
     "cardBenefit": "Even saturation, layer by layer.",
@@ -1861,6 +1888,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gp-yellow-resin-for-spray-up-process",
+    "primaryProductSlugs": ["gp-yellow-resin"],
     "title": "GP Yellow Resin for Spray-Up Process",
     "cardDescription": "Spray-up equipment chops and wets out fibre in a single pass, and GP Yellow Resin's viscosity and non-accelerated MEKP/cobalt cure make it workable through standard spray-up rigs — the same process route as GP Clear Resin, in a thicker, slower-gelling grade.",
     "cardBenefit": "Workable through standard spray-up rigs.",
@@ -1929,6 +1957,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "gp-yellow-resin-for-general-frp-moulded-products",
+    "primaryProductSlugs": ["gp-yellow-resin"],
     "title": "GP Yellow Resin for General FRP Moulded Products",
     "cardDescription": "Panels, furniture, planters and general moulded FRP items need a dependable general-purpose laminating resin behind their surface finish — GP Yellow Resin serves this role wherever the part is painted, gelcoated or otherwise finished over its natural yellow tint.",
     "cardBenefit": "Dependable backing for finished mouldings.",
@@ -1998,6 +2027,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "epoxy-clear-casting-resin-for-river-tables",
+    "primaryProductSlugs": ["clear-casting-resin"],
     "title": "Epoxy Clear Casting Resin for River Tables & Wood Furniture",
     "cardImage": "epoxy-river-table-ocean-dining.webp",
     "cardImageAlt": "Live-edge wood dining table with a clear blue-tinted epoxy resin pour set with coral and shell inlays",
@@ -2074,6 +2104,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "epoxy-clear-casting-resin-for-jewellery-casting",
+    "primaryProductSlugs": ["clear-casting-resin"],
     "title": "Epoxy Clear Casting Resin for Jewellery & Decorative Casting",
     "cardImage": "epoxy-jewellery-pendant-casting.jpg",
     "cardImageAlt": "Clear resin pendants with pressed botanicals and gold flake cast in bezel settings",
@@ -2146,6 +2177,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "epoxy-clear-casting-resin-casting-process",
+    "primaryProductSlugs": ["clear-casting-resin"],
     "title": "Epoxy Casting Process: Mixing to Finishing",
     "cardImage": "epoxy-casting-resin-pour.webp",
     "cardImageAlt": "Hands pouring blue-tinted mixed epoxy resin from a mixing cup onto a live-edge wood slab",
@@ -2223,6 +2255,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "vinyl-ester-resin-for-chemical-storage-tanks",
+    "primaryProductSlugs": ["vinyl-ester-resin"],
     "title": "Vinyl Ester Resin for FRP Chemical Storage Tanks",
     "cardDescription": "A buyer-selection guide for the documented use of Vinyl Ester Resin in FRP chemical storage tanks and vessels. Confirm the actual service requirement before specifying a finished system.",
     "cardBenefit": "Selection support for documented FRP tank and vessel applications.",
@@ -2309,6 +2342,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "vinyl-ester-resin-for-pipelines-ducts-scrubbers",
+    "primaryProductSlugs": ["vinyl-ester-resin"],
     "title": "Vinyl Ester Resin for FRP Pipelines, Ducts & Scrubbers",
     "cardDescription": "A buyer-selection guide for the TDS-listed use of Vinyl Ester Resin in FRP pipelines, ducts and scrubbers. Verify the real service requirement before selecting a finished system.",
     "cardBenefit": "Documented industrial FRP application guidance.",
@@ -2392,6 +2426,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "vinyl-ester-resin-for-filament-winding",
+    "primaryProductSlugs": ["vinyl-ester-resin"],
     "title": "Vinyl Ester Resin for Filament Winding",
     "cardDescription": "A buyer-selection guide for the TDS-listed use of Vinyl Ester Resin in filament-winding processes. Confirm the complete process and finished-component requirements separately.",
     "cardBenefit": "Published product data for a documented process category.",
@@ -2477,6 +2512,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "vinyl-ester-resin-for-pultrusion",
+    "primaryProductSlugs": ["vinyl-ester-resin"],
     "title": "Vinyl Ester Resin for Pultrusion",
     "cardDescription": "A buyer-selection guide for the TDS-listed use of Vinyl Ester Resin in pultrusion. Confirm process and finished-component requirements separately before ordering.",
     "cardBenefit": "Published product data for a documented process category.",
@@ -2561,6 +2597,7 @@ export const applications = Object.freeze([
   },
   {
     "slug": "roof-light-sheet-resin-for-frp-roofing-and-skylight-sheets",
+    "primaryProductSlugs": ["roof-light-resin"],
     "title": "Roof Light Sheet Resin for FRP Roofing and Skylight Sheets",
     "cardImage": "frp-roofing-sheets.jpg",
     "cardImageAlt": "Corrugated FRP roofing sheets installed over an industrial structure",

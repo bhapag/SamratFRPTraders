@@ -30,8 +30,8 @@ export default {
       description: "grade नामाकरण गर्नुअघि हालको product-specific document समीक्षा गर्नुहोस्।"
     },
     {
-      href: "/downloads/samrat-frp-traders-product-catalogue.pdf",
-      label: "Product Catalogue समीक्षा गर्नुहोस्",
+      href: "/products/",
+      label: "पूरा उत्पादन दायरा हेर्नुहोस्",
       description: "product route पुष्टि गर्नुअघि Samrat FRP Traders को व्यापक resin दायरा अन्वेषण गर्नुहोस्।"
     },
     {

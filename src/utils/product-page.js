@@ -23,18 +23,36 @@ export const hrefProductSlug = (href) => {
   return match ? alias(match[1]) : null;
 };
 
-// Application guides whose relatedProductSlugs reference this product.
+// An application guide is *about* the products in its primaryProductSlugs.
+// relatedProductSlugs is a different thing: the other materials a fabricator
+// also needs for that job. Matching on the second list made every guide that
+// merely mentioned a resin appear as if it were written about it, so general
+// grades collected guides belonging to other products while their own guides
+// went missing. Subject first; the materials list is only a fallback.
+const liveApplications = () => applications.filter((app) => !app.draft);
+
+// Guides written about this product.
+export function primaryApplicationsFor(product) {
+  return liveApplications().filter((app) =>
+    (app.primaryProductSlugs ?? []).map(alias).includes(product.slug),
+  );
+}
+
+// Guides where this product is one of the other materials the job needs.
+export function materialApplicationsFor(product) {
+  return liveApplications().filter(
+    (app) =>
+      !(app.primaryProductSlugs ?? []).map(alias).includes(product.slug) &&
+      (app.relatedProductSlugs ?? []).map(alias).includes(product.slug),
+  );
+}
+
+// Guides to show on a product page. A resin or gelcoat shows the guides that
+// are about it. A consumable such as glass fibre mat or an MEKP hardener is
+// never the subject of a guide, so it shows the jobs it is used in instead.
 export function applicationsFor(product) {
-  const seen = new Set();
-  return applications.filter((app) => {
-    if (app.draft) return false;
-    const slugs = (app.relatedProductSlugs ?? []).map(alias);
-    if (slugs.includes(product.slug) && !seen.has(app.slug)) {
-      seen.add(app.slug);
-      return true;
-    }
-    return false;
-  });
+  const primary = primaryApplicationsFor(product);
+  return primary.length > 0 ? primary : materialApplicationsFor(product);
 }
 
 // Resource articles whose recommendedLinks reference this product's page.

@@ -226,6 +226,14 @@
       }
     },
     {
+      "src": "^/downloads/samrat-frp-traders-product-catalogue\\.pdf$",
+      "status": 302,
+      "headers": {
+        "Location": "/products/",
+        "Cache-Control": "no-store"
+      }
+    },
+    {
       "handle": "filesystem"
     },
     {

@@ -69,7 +69,7 @@ export default {
       "description": "हालको प्रकाशित technical data लाई controlling product reference को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
-      "href": "/downloads/samrat-frp-traders-product-catalogue.pdf",
+      "href": "/products/",
       "label": "Product Catalogue डाउनलोड गर्नुहोस्",
       "description": "फराकिलो product range र छुट्टाछुट्टै resin roles समीक्षा गर्नुहोस्।"
     },

@@ -382,12 +382,8 @@ const websiteSchema = {
             <a href={isNe ? '/custom-resin-specification-request/' : '/en/custom-resin-specification-request/'}>
               {isNe ? 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध' : 'Request Custom Resin Specification'}
             </a>
-            <a
-              href="/downloads/samrat-frp-traders-product-catalogue.pdf"
-              target="_blank"
-              rel="noopener"
-            >
-              {isNe ? 'उत्पादन क्याटलग (PDF)' : 'Product catalogue (PDF)'}
+            <a href={productsIndexHref}>
+              {isNe ? 'पूरा उत्पादन दायरा' : 'Full product range'}
             </a>
           </nav>
         </div>

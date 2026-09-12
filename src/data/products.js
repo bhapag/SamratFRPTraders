@@ -519,9 +519,6 @@ export const products = Object.freeze([
     slug: 'uv-stabilized-sheet-grade-yellow-resin',
     group: 'sheet-grade-resins',
     tier: 'B',
-    images: Object.freeze([
-      Object.freeze({ src: 'uv-stabilized-sheet-grade-yellow-resin-primary.webp', width: 1151, height: 1367 }),
-    ]),
     titleInput: 'UV Stabilized Sheet Grade Yellow Resin — Nepal Supplier',
     metaDescription:
       'UV Stabilized Sheet Grade Yellow Resin — a pre-pigmented, UV-stabilised unsaturated polyester sheet grade supplied and imported for Nepal by Samrat FRP Traders.',
@@ -581,9 +578,6 @@ export const products = Object.freeze([
     slug: 'iso-gelcoat',
     group: 'gelcoat',
     tier: 'B',
-    images: Object.freeze([
-      Object.freeze({ src: 'iso-gelcoat-primary.webp', width: 1254, height: 1254 }),
-    ]),
     titleInput: 'ISO Gelcoat — Nepal Supplier',
     metaDescription:
       'ISO Gelcoat — an isophthalic gelcoat for protective, high-gloss FRP surfaces, supplied and imported for Nepal by Samrat FRP Traders.',
@@ -600,9 +594,6 @@ export const products = Object.freeze([
     slug: 'iso-polyester-resin',
     group: 'iso-resins',
     tier: 'B',
-    images: Object.freeze([
-      Object.freeze({ src: 'iso-polyester-resin-primary.webp', width: 1254, height: 1254 }),
-    ]),
     titleInput: 'ISO Polyester Resin — Nepal Supplier',
     metaDescription:
       'ISO Polyester Resin — an isophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Isophthalic grade for demanding FRP service.',
