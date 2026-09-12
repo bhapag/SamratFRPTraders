@@ -4,7 +4,7 @@ export default {
     seoDescription:
       "ISO Gelcoat — an isophthalic gelcoat for high-gloss, weather-resistant FRP surfaces on marine, sanitaryware and panel mouldings. Imported for Nepal by Samrat FRP Traders.",
     intro: [
-      "Samrat FRP Traders supplies and imports ISO Gelcoat for the Nepal market. Supplier literature from Samrat Poly Resins, India describes it as an isophthalic gelcoat that forms the decorative and protective surface layer of an FRP moulding, applied by brush or spray.",
+      "Samrat FRP Traders supplies and imports ISO Gelcoat for the Nepal market. The product artwork issued by Samrat Poly Resins, India describes it as an isophthalic gelcoat that forms the decorative and protective surface layer of an FRP moulding, applied by brush or spray.",
       "A gelcoat is not a paint and it is not the laminating resin. It goes into the mould first, against the mould surface, and the glass-reinforced laminate is built up behind it. When the part is released, the gelcoat is the face the customer sees and the layer that takes the weather, the cleaning and the abrasion. Everything structural sits behind it.",
       "The isophthalic distinction matters for the same reason it matters in laminating resin: the backbone resists water and hydrolysis better than a general-purpose orthophthalic one. In a gelcoat that shows up as gloss that holds longer and a surface less prone to blistering and dulling where the part is outdoors or permanently wet. A GP gelcoat is a reasonable choice for a sheltered indoor moulding; an ISO gelcoat is what the industry specifies for boats, water slides, bathware and external panels.",
       "Technical values for this grade are published by the supplier. We are not reproducing figures here until the current Technical Data Sheet is on file — ask us and we will send what the supplier publishes. Pricing, packaging and availability in Nepal are confirmed on enquiry.",
@@ -34,11 +34,11 @@ export default {
       },
       {
         q: "Can it be sprayed?",
-        a: "Supplier literature describes application by brush or spray. Confirm the method and any thinning or equipment guidance against the supplier's own documentation for the grade you receive.",
+        a: "The supplier product artwork describes application by brush or spray. Confirm the method and any thinning or equipment guidance against the supplier's own documentation for the grade you receive.",
       },
       {
         q: "What is it used for?",
-        a: "Supplier literature lists marine products, swimming pools and water slides, bathroom fixtures and sanitaryware, automotive and transport components, FRP panels and building components, and industrial moulded parts.",
+        a: "The supplier product artwork lists marine products, swimming pools and water slides, bathroom fixtures and sanitaryware, automotive and transport components, FRP panels and building components, and industrial moulded parts.",
       },
       {
         q: "Can you send the technical data sheet?",
@@ -46,7 +46,7 @@ export default {
       },
     ],
     applicationsIntro:
-      "Supplier literature lists this gelcoat for marine products, swimming pools and water slides, bathroom fixtures and sanitaryware, automotive and transport components, FRP panels and building components, and industrial moulded parts.",
+      "The supplier product artwork lists this gelcoat for marine products, swimming pools and water slides, bathroom fixtures and sanitaryware, automotive and transport components, FRP panels and building components, and industrial moulded parts.",
     features: [
       "Isophthalic gelcoat for the surface layer of an FRP moulding",
       "Applied by brush or spray into the mould before lamination",
@@ -65,7 +65,7 @@ export default {
     seoDescription:
       "ISO Gelcoat — समुद्री, sanitaryware र प्यानल mouldings का लागि उच्च चमक र मौसम सहने FRP सतह दिने isophthalic gelcoat। Samrat FRP Traders द्वारा नेपालका लागि आयात।",
     intro: [
-      "Samrat FRP Traders ले नेपाली बजारका लागि ISO Gelcoat आपूर्ति र आयात गर्दछ। आपूर्तिकर्ता Samrat Poly Resins, India का कागजातले यसलाई FRP moulding को सजावटी र सुरक्षात्मक सतह बनाउने isophthalic gelcoat भन्छन्, जुन ब्रस वा स्प्रेले लगाइन्छ।",
+      "Samrat FRP Traders ले नेपाली बजारका लागि ISO Gelcoat आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India ले जारी गरेको उत्पादन artwork ले यसलाई FRP moulding को सजावटी र सुरक्षात्मक सतह बनाउने isophthalic gelcoat भन्छन्, जुन ब्रस वा स्प्रेले लगाइन्छ।",
       "Gelcoat रङ (paint) होइन, न त laminating resin नै हो। यो सबैभन्दा पहिले साँचो (mould) भित्र, साँचोकै सतहमा लगाइन्छ र त्यसपछि glass ले बलियो बनाइएको laminate पछाडि बनाइन्छ। भाग निकालेपछि ग्राहकले देख्ने अनुहार यही gelcoat हुन्छ — मौसम, सफाइ र घर्षण सबै यसैले सहन्छ। संरचनात्मक कुरा सबै यसको पछाडि हुन्छ।",
       "Isophthalic हुनुको महत्त्व laminating resin मा जस्तै हो: यसको संरचनाले सामान्य orthophthalic भन्दा पानी र hydrolysis राम्ररी सहन्छ। Gelcoat मा यो कुरा लामो समयसम्म टिक्ने चमक र बाहिर वा सधैँ भिजेको ठाउँमा कम फोका/धमिलोपनका रूपमा देखिन्छ। छायाँमा रहने भित्री moulding का लागि GP gelcoat ठीकै हुन्छ; डुङ्गा, water slide, bathware र बाहिरी प्यानलका लागि भने उद्योगले ISO gelcoat तोक्छ।",
       "यस grade का प्राविधिक मान आपूर्तिकर्ताले प्रकाशित गर्छन्। हालको Technical Data Sheet फाइलमा नआउन्जेल हामी यहाँ अंक राख्दैनौँ — सोध्नुहोस्, आपूर्तिकर्ताले प्रकाशित गरेको पठाउँछौँ। नेपालमा मूल्य, प्याकेजिङ र उपलब्धता सोधपुछमा पुष्टि हुन्छ।",
@@ -95,11 +95,11 @@ export default {
       },
       {
         q: "स्प्रे गर्न मिल्छ?",
-        a: "आपूर्तिकर्ताका कागजातले ब्रस वा स्प्रे दुवै तरिका उल्लेख गर्छन्। तरिका, thinning वा उपकरणसम्बन्धी निर्देशन आफूले पाएको grade कै आपूर्तिकर्ता कागजातबाट पुष्टि गर्नुहोस्।",
+        a: "आपूर्तिकर्ताको उत्पादन artwork ले ब्रस वा स्प्रे दुवै तरिका उल्लेख गर्छन्। तरिका, thinning वा उपकरणसम्बन्धी निर्देशन आफूले पाएको grade कै आपूर्तिकर्ता कागजातबाट पुष्टि गर्नुहोस्।",
       },
       {
         q: "कहाँ प्रयोग हुन्छ?",
-        a: "आपूर्तिकर्ताका कागजातले समुद्री उत्पादन, स्विमिङ पुल र water slide, बाथरूम फिक्स्चर र sanitaryware, सवारी तथा यातायातका भाग, FRP प्यानल र भवन कम्पोनेन्ट, अनि औद्योगिक moulded भाग उल्लेख गर्छन्।",
+        a: "आपूर्तिकर्ताको उत्पादन artwork ले समुद्री उत्पादन, स्विमिङ पुल र water slide, बाथरूम फिक्स्चर र sanitaryware, सवारी तथा यातायातका भाग, FRP प्यानल र भवन कम्पोनेन्ट, अनि औद्योगिक moulded भाग उल्लेख गर्छन्।",
       },
       {
         q: "प्राविधिक डाटा शीट पठाउन सक्नुहुन्छ?",
@@ -107,7 +107,7 @@ export default {
       },
     ],
     applicationsIntro:
-      "आपूर्तिकर्ताका कागजातले यस gelcoat लाई समुद्री उत्पादन, स्विमिङ पुल र water slide, बाथरूम फिक्स्चर र sanitaryware, सवारी तथा यातायातका भाग, FRP प्यानल र भवन कम्पोनेन्ट, अनि औद्योगिक moulded भागका लागि उल्लेख गर्छन्।",
+      "आपूर्तिकर्ताको उत्पादन artwork ले यस gelcoat लाई समुद्री उत्पादन, स्विमिङ पुल र water slide, बाथरूम फिक्स्चर र sanitaryware, सवारी तथा यातायातका भाग, FRP प्यानल र भवन कम्पोनेन्ट, अनि औद्योगिक moulded भागका लागि उल्लेख गर्छन्।",
     features: [
       "FRP moulding को सतह तहका लागि isophthalic gelcoat",
       "Lamination अघि साँचोभित्र ब्रस वा स्प्रेले लगाइने",

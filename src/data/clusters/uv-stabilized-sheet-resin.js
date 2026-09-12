@@ -732,7 +732,7 @@ export const uvStabilizedSheetResinCluster = [
     faqs: [
       {
         q: 'What is the difference between the standard and the UV-stabilised sheet grade?',
-        a: 'Both are pre-pigmented yellow sheet grades that cure with a peroxide catalyst. Supplier literature describes the UV-stabilised one as carrying a stabiliser package intended for outdoor exposure. For sheets in direct sun for years that is the distinction to ask about; for indoor or sheltered panels the standard sheet grade may be sufficient.',
+        a: 'Both are pre-pigmented yellow sheet grades that cure with a peroxide catalyst. The supplier product artwork describes the UV-stabilised one as carrying a stabiliser package intended for outdoor exposure. For sheets in direct sun for years that is the distinction to ask about; for indoor or sheltered panels the standard sheet grade may be sufficient.',
       },
       {
         q: 'Do I still need to add pigment to a pre-pigmented grade?',
@@ -827,7 +827,7 @@ export const uvStabilizedSheetResinCluster = [
       faqs: [
         {
           q: 'सामान्य र UV-stabilised sheet grade बीच के फरक छ?',
-          a: 'दुवै पूर्व-रङ्गिएका पहेँलो sheet grade हुन् र peroxide catalyst ले जम्छन्। आपूर्तिकर्ताका कागजातले UV-stabilised लाई बाहिरी सम्पर्कका लागि stabiliser package भएको भन्छन्। वर्षौँ सिधा घाममा रहने sheet का लागि यही फरक सोध्नुपर्छ; भित्री वा छोपिएका प्यानलका लागि सामान्य sheet grade पुग्न सक्छ।',
+          a: 'दुवै पूर्व-रङ्गिएका पहेँलो sheet grade हुन् र peroxide catalyst ले जम्छन्। आपूर्तिकर्ताको उत्पादन artwork ले UV-stabilised लाई बाहिरी सम्पर्कका लागि stabiliser package भएको भन्छन्। वर्षौँ सिधा घाममा रहने sheet का लागि यही फरक सोध्नुपर्छ; भित्री वा छोपिएका प्यानलका लागि सामान्य sheet grade पुग्न सक्छ।',
         },
         {
           q: 'पूर्व-रङ्गिएको grade मा पनि pigment हाल्नुपर्छ?',

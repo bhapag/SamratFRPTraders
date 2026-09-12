@@ -43,9 +43,9 @@ export const extraApplications2 = [
       ],
     },
     intro:
-      'Most resin questions about tanks get answered at one of two extremes. A domestic or institutional water tank is a general-purpose job, and an acid storage vessel is a vinyl ester job. A large amount of real work in Nepal sits between them: effluent holding and treatment tanks, process water in dyeing and textile plants, food and beverage process vessels, plating and washdown tanks, and cooling tower basins. These are permanently wet, often warm, mildly chemically loaded, and expected to last. That band is where an isophthalic laminate is the usual industry answer, and it is the band this page is about.',
+      'Most resin questions about tanks get answered at one of two extremes. A domestic or institutional water tank is a general-purpose job, and an acid storage vessel is a vinyl ester job. A large amount of real work in Nepal sits between them: effluent holding and treatment tanks, process water in dyeing and textile plants, plating, rinse and washdown tanks, and cooling tower basins. These are permanently wet, often warm, mildly chemically loaded, and expected to last. That band is where an isophthalic laminate is the usual industry answer, and it is the band this page is about.',
     whatTheyManufacture:
-      'Fabricators in this category build effluent holding and treatment tanks, process water vessels for textile, dyeing, food and beverage plants, washdown and plating tanks, cooling tower basins and sumps, and the pipework and launders that connect them. The tanks are often sectional or shop-moulded and assembled on site, which means the laminate specification has to hold across many panels made on different days.',
+      'Fabricators in this category build effluent holding and treatment tanks, process water vessels for textile and dyeing plants, washdown, rinse and plating tanks, cooling tower basins and sumps, and the pipework and launders that connect them. Anything holding food, beverage or drinking water is a separate question, because that turns on an approval for contact with the contents rather than on the resin family. The tanks are often sectional or shop-moulded and assembled on site, which means the laminate specification has to hold across many panels made on different days.',
     whySuitable:
       '<a href="/products/iso-polyester-resin/">ISO Polyester Resin</a> is an isophthalic unsaturated polyester. The isophthalic backbone is the reason it exists: it is described across the industry as more resistant to hydrolysis, the slow attack water makes on ester linkages over years of contact, than the orthophthalic backbone of a general-purpose grade. For a tank that never dries out, that difference is the whole service life. It is not a strength upgrade and it does not make a laminate chemically inert. Samrat FRP Traders supplies and imports this grade for Nepal; the supplier is Samrat Poly Resins, India. We do not yet hold their Technical Data Sheet or Safety Data Sheet for it, so this page publishes no figures for the grade and none should be inferred from product artwork.',
     requiredCharacteristics: [
@@ -58,14 +58,14 @@ export const extraApplications2 = [
     manufacturingProcess:
       'The lay-up itself is ordinary open-mould work. Reinforcement is placed against a prepared and released mould, catalysed resin is worked through it with roller or brush, and layers are built to the specified wall thickness before the panel cures at room temperature and is trimmed. What changes on this class of tank is the specification work before anyone mixes resin. The contents have to be stated properly: what is in the tank, at what concentration, at what temperature, and whether the duty is continuous or intermittent. Many designs then use a resin-rich inner surface against the contents with the structural laminate behind it. Whether that is appropriate here, and what laminate schedule goes with it, belongs to whoever specifies the vessel and to any standard governing it. Catalyst quantities, cure schedules and laminate schedules are not published on this page.',
     advantages: [
-      'An isophthalic backbone is the route the industry specifies for permanently wet service',
+      'Isophthalic is the chemistry the industry specifies for permanently wet service; this grade sits in that family',
       'Room-temperature cure, so no heated equipment is needed for tank panels',
       'The same familiar hand lay-up process as a general-purpose grade, so nothing has to be relearned',
       'A documented alternative exists in both directions: a general-purpose grade below it and vinyl ester above',
     ],
     commonProducts: [
       'Effluent holding and treatment tanks',
-      'Process water vessels for textile, dyeing, food and beverage plants',
+      'Process water vessels for textile and dyeing plants',
       'Washdown, plating and rinse tanks',
       'Cooling tower basins, sumps and launders',
     ],
@@ -119,7 +119,7 @@ export const extraApplications2 = [
     intro:
       'A pool shell or a water slide asks more of its surface than almost anything else an FRP shop makes. The face is wet continuously rather than occasionally, it sits in direct sun, the water is chemically treated, and people slide along it and touch it all day. None of that is carried by the gelcoat structurally, because a gelcoat never carries anything structurally. All of it is carried by the gelcoat cosmetically, which is the same thing as the product from the customer’s point of view.',
     whatTheyManufacture:
-      'Fabricators in this category produce one-piece and sectional pool shells, water slide flumes and curved sections, pool steps, ledges and surrounds, splash pads and play features, and the moulded fittings that go with them. Supplier literature for <a href="/products/iso-gelcoat/">ISO Gelcoat</a> lists swimming pools and water slides among its contexts. The commercial reality is that these are highly visible products where a dull or blistered surface is a complaint even when the laminate behind it is sound.',
+      'Fabricators in this category produce one-piece and sectional pool shells, water slide flumes and curved sections, pool steps, ledges and surrounds, splash pads and play features, and the moulded fittings that go with them. The product artwork issued by Samrat Poly Resins, India for <a href="/products/iso-gelcoat/">ISO Gelcoat</a> lists swimming pools and water slides among its contexts. That is a positioning statement on marketing material rather than a technical document, which is why the boundaries below matter. The commercial reality is that these are highly visible products where a dull or blistered surface is a complaint even when the laminate behind it is sound.',
     whySuitable:
       'ISO Gelcoat is an isophthalic gelcoat. The isophthalic backbone is described across the industry as more resistant to hydrolysis than an orthophthalic one, which is why it is the route normally specified where a moulded face stays wet or has to hold gloss outdoors. Two honest boundaries belong on this page. First, isophthalic is not the same as ISO/NPG: neopentyl glycol modification is a further compositional step that the marine and immersion trade specifies for its most demanding work, and nothing in the documentation we hold says this grade carries it. Second, we do not yet hold the supplier Technical Data Sheet or Safety Data Sheet for this grade, so no figures for it appear here and none should be read off product artwork. Where continuous-immersion performance has to be evidenced, ask for the document rather than relying on the family name.',
     requiredCharacteristics: [
@@ -132,10 +132,10 @@ export const extraApplications2 = [
     manufacturingProcess:
       'The sequence is conventional open-mould work and the detail belongs to each shop. The mould is prepared and released, the gelcoat is applied into it by brush or spray and allowed to reach the right state of cure, and the glass-reinforced laminate is then built up behind it before the part is released and trimmed. Two things matter more here than on a smaller part. Large curved moulds make even film thickness harder, and thickness variation is what the troubleshooting literature attributes cracking, sagging and pre-release to. And the timing between gelcoat and lamination has to be right: laminating too early over an under-cured film is the accepted cause of the wrinkled pattern the trade calls alligatoring. Film thickness, catalyst quantity and the interval before lamination are grade-specific and belong to the manufacturer’s documentation, not to this page.',
     advantages: [
-      'The isophthalic route is what the industry specifies for surfaces that stay wet and sunlit',
+      'Isophthalic is the chemistry the industry specifies for surfaces that stay wet and sunlit; this grade sits in that family',
       'Applied by brush or spray with the same equipment a shop already runs',
       'A general-purpose gelcoat remains the documented alternative for sheltered indoor mouldings',
-      'The surface is replaceable in concept: the gelcoat is the face, and the laminate behind it is specified separately',
+      'The gelcoat and the laminate behind it are specified separately, so the surface decision does not constrain the structural one',
     ],
     commonProducts: [
       'One-piece and sectional FRP pool shells',

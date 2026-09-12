@@ -4,7 +4,7 @@ export default {
     seoDescription:
       "ISO Polyester Resin — an isophthalic unsaturated polyester resin for FRP tanks, pipework and other wet or chemically loaded service. Imported for Nepal by Samrat FRP Traders.",
     intro: [
-      "Samrat FRP Traders supplies and imports ISO Polyester Resin for the Nepal market. Supplier literature from Samrat Poly Resins, India describes it as an isophthalic unsaturated polyester resin for FRP work where chemical resistance, water resistance and long-term durability matter.",
+      "Samrat FRP Traders supplies and imports ISO Polyester Resin for the Nepal market. The product artwork issued by Samrat Poly Resins, India describes it as an isophthalic unsaturated polyester resin for FRP work where chemical resistance, water resistance and long-term durability matter.",
       "The word that does the work here is isophthalic. Unsaturated polyester resins are built on a dibasic acid, and the acid chosen changes how the cured laminate behaves. General-purpose grades use orthophthalic acid, which is economical and fine for dry, lightly loaded work. Isophthalic acid produces a more hydrolysis-resistant backbone, which is why the industry reaches for an ISO grade when a laminate is going to hold water or chemicals for years rather than sit on a shelf.",
       "For a Nepal fabricator the practical decision is usually about service, not price. A GP grade is the sensible default for general lamination; an ISO grade is what you specify when the part is a storage tank, a pipe, a scrubber, a cooling tower component or anything that stays wet. Paying for an ISO backbone on a dry indoor panel rarely earns its cost, and using GP on a chemical tank is the more expensive mistake.",
       "Technical values for this grade are published by the supplier. We are not reproducing figures here until the current Technical Data Sheet is on file — ask us and we will send what the supplier publishes. Pricing, packaging and availability in Nepal are confirmed on enquiry.",
@@ -38,7 +38,7 @@ export default {
       },
       {
         q: "What is it used for?",
-        a: "Supplier literature lists chemical storage tanks, FRP pipes and process equipment, marine and boat components, FRP panels and sheet moulding, and cooling tower and corrosion service. Suitability for a specific duty should be confirmed against the supplier's documentation.",
+        a: "The supplier product artwork lists chemical storage tanks, FRP pipes and process equipment, marine and boat components, FRP panels and sheet moulding, and cooling tower and corrosion service. Suitability for a specific duty should be confirmed against the supplier's documentation.",
       },
       {
         q: "Can you send the technical data sheet?",
@@ -46,7 +46,7 @@ export default {
       },
     ],
     applicationsIntro:
-      "Supplier literature lists this grade for chemical storage tanks, FRP pipes and process equipment, marine and boat components, FRP panels and sheet moulding, and cooling tower and corrosion service.",
+      "The supplier product artwork lists this grade for chemical storage tanks, FRP pipes and process equipment, marine and boat components, FRP panels and sheet moulding, and cooling tower and corrosion service.",
     features: [
       "Isophthalic unsaturated polyester resin",
       "Positioned by the supplier for chemical, water and long-term durability service",
@@ -65,7 +65,7 @@ export default {
     seoDescription:
       "ISO Polyester Resin — पानी वा रसायनको सम्पर्कमा रहने FRP ट्यांकी, पाइप र उपकरणका लागि isophthalic unsaturated polyester resin। Samrat FRP Traders द्वारा नेपालका लागि आयात।",
     intro: [
-      "Samrat FRP Traders ले नेपाली बजारका लागि ISO Polyester Resin आपूर्ति र आयात गर्दछ। आपूर्तिकर्ता Samrat Poly Resins, India का कागजातले यसलाई रासायनिक प्रतिरोध, पानी प्रतिरोध र दीर्घकालीन टिकाउपन चाहिने FRP कामका लागि isophthalic unsaturated polyester resin भन्छन्।",
+      "Samrat FRP Traders ले नेपाली बजारका लागि ISO Polyester Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India ले जारी गरेको उत्पादन artwork ले यसलाई रासायनिक प्रतिरोध, पानी प्रतिरोध र दीर्घकालीन टिकाउपन चाहिने FRP कामका लागि isophthalic unsaturated polyester resin भन्छन्।",
       "यहाँ मुख्य शब्द isophthalic हो। Unsaturated polyester resin कुन dibasic acid बाट बनेको छ, त्यसैले जमेको laminate को व्यवहार फरक पार्छ। सामान्य प्रयोजनका grade मा orthophthalic acid हुन्छ — सस्तो र सुक्खा, हल्का कामका लागि ठीकै। Isophthalic acid ले बढी hydrolysis सहने संरचना दिन्छ, त्यसैले वर्षौँ पानी वा रसायन बोक्नुपर्ने laminate का लागि उद्योगले ISO grade रोज्छ।",
       "नेपाली फेब्रिकेटरका लागि निर्णय प्रायः मूल्यको होइन, सेवा-अवस्थाको हुन्छ। सामान्य lamination का लागि GP grade नै व्यावहारिक हो; तर भाग भण्डारण ट्यांकी, पाइप, scrubber, कूलिङ टावरको भाग वा सधैँ भिजिरहने कुनै वस्तु हो भने ISO grade तोक्नुपर्छ। सुक्खा भित्री प्यानलमा ISO को अतिरिक्त लागत प्रायः फाइदाजनक हुँदैन, तर रासायनिक ट्यांकीमा GP प्रयोग गर्नु महँगो गल्ती हुन्छ।",
       "यस grade का प्राविधिक मान आपूर्तिकर्ताले प्रकाशित गर्छन्। हालको Technical Data Sheet फाइलमा नआउन्जेल हामी यहाँ अंक राख्दैनौँ — सोध्नुहोस्, आपूर्तिकर्ताले प्रकाशित गरेको पठाउँछौँ। नेपालमा मूल्य, प्याकेजिङ र उपलब्धता सोधपुछमा पुष्टि हुन्छ।",
@@ -99,7 +99,7 @@ export default {
       },
       {
         q: "कहाँ प्रयोग हुन्छ?",
-        a: "आपूर्तिकर्ताका कागजातले रासायनिक भण्डारण ट्यांकी, FRP पाइप र प्रोसेस उपकरण, समुद्री तथा डुङ्गाका भाग, FRP प्यानल र sheet moulding, अनि कूलिङ टावर तथा corrosion सेवा उल्लेख गर्छन्। निश्चित कामका लागि उपयुक्तता आपूर्तिकर्ताकै कागजातबाट पुष्टि गर्नुपर्छ।",
+        a: "आपूर्तिकर्ताको उत्पादन artwork ले रासायनिक भण्डारण ट्यांकी, FRP पाइप र प्रोसेस उपकरण, समुद्री तथा डुङ्गाका भाग, FRP प्यानल र sheet moulding, अनि कूलिङ टावर तथा corrosion सेवा उल्लेख गर्छन्। निश्चित कामका लागि उपयुक्तता आपूर्तिकर्ताकै कागजातबाट पुष्टि गर्नुपर्छ।",
       },
       {
         q: "प्राविधिक डाटा शीट पठाउन सक्नुहुन्छ?",
@@ -107,7 +107,7 @@ export default {
       },
     ],
     applicationsIntro:
-      "आपूर्तिकर्ताका कागजातले यस grade लाई रासायनिक भण्डारण ट्यांकी, FRP पाइप र प्रोसेस उपकरण, समुद्री तथा डुङ्गाका भाग, FRP प्यानल र sheet moulding, अनि कूलिङ टावर तथा corrosion सेवाका लागि उल्लेख गर्छन्।",
+      "आपूर्तिकर्ताको उत्पादन artwork ले यस grade लाई रासायनिक भण्डारण ट्यांकी, FRP पाइप र प्रोसेस उपकरण, समुद्री तथा डुङ्गाका भाग, FRP प्यानल र sheet moulding, अनि कूलिङ टावर तथा corrosion सेवाका लागि उल्लेख गर्छन्।",
     features: [
       "Isophthalic unsaturated polyester resin",
       "रासायनिक, पानी र दीर्घकालीन टिकाउ सेवाका लागि आपूर्तिकर्ताले तोकेको",

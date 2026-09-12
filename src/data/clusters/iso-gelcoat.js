@@ -785,7 +785,7 @@ export const isoGelcoatCluster = [
       },
       {
         q: 'Can I brush a gelcoat, or must it be sprayed?',
-        a: 'Brush and roller application is possible and is described in supplier literature, but fabricators and suppliers generally recommend spraying for finish quality and film consistency. Since uneven thickness is behind several of the common defects, the method matters more than it first appears.',
+        a: 'Brush and roller application is possible and is described on the supplier product artwork, but fabricators and suppliers generally recommend spraying for finish quality and film consistency. Since uneven thickness is behind several of the common defects, the method matters more than it first appears.',
       },
       {
         q: 'Do you supply gelcoat in custom colours?',
