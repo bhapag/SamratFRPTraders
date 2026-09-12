@@ -317,15 +317,36 @@ const websiteSchema = {
           </a>
         ))}
       </nav>
-      <nav class="mobile-nav-cats" aria-label={isNe ? 'उत्पादन वर्गहरू' : 'Product categories'}>
-        <p class="mobile-nav-cats-label">{isNe ? 'उत्पादन वर्गहरू' : 'Product categories'}</p>
-        {catalogGroups.map((group) => (
-          <a href={`${prefix}/products/${group.slug}/`}>
-            <span>{group.name}</span>
-            <span class="mobile-nav-cats-count">{productsInGroup(group.slug).length}</span>
+      <div class="mobile-nav-cats-wrap">
+        <button
+          type="button"
+          class="mobile-cats-toggle"
+          id="mobileCatsToggle"
+          aria-expanded="false"
+          aria-controls="mobileCats"
+          data-close-label={isNe ? 'उत्पादन वर्गहरू लुकाउनुहोस्' : 'Hide product categories'}
+        >
+          <span>{isNe ? 'उत्पादन वर्गहरू' : 'Product categories'}</span>
+          <span class="mobile-cats-toggle-meta">
+            <span class="mobile-nav-cats-count">{catalogGroups.length}</span>
+            <svg class="mobile-cats-caret" viewBox="0 0 10 6" width="11" height="7" aria-hidden="true">
+              <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+        </button>
+        <nav class="mobile-nav-cats" id="mobileCats" aria-label={isNe ? 'उत्पादन वर्गहरू' : 'Product categories'} hidden>
+          <a class="mobile-cats-all" href={productsIndexHref}>
+            <span>{isNe ? 'सबै उत्पादन' : 'All products'}</span>
+            <span class="mobile-nav-cats-count">{products.length}</span>
           </a>
-        ))}
-      </nav>
+          {catalogGroups.map((group) => (
+            <a href={`${prefix}/products/${group.slug}/`}>
+              <span>{group.name}</span>
+              <span class="mobile-nav-cats-count">{productsInGroup(group.slug).length}</span>
+            </a>
+          ))}
+        </nav>
+      </div>
       <div class="mobile-nav-foot">
         <a href={waLink} class="mobile-nav-wa button button-primary" target="_blank" rel="noopener">
           {isNe ? 'WhatsApp मा सोधपुछ' : 'Enquire on WhatsApp'}
@@ -453,6 +474,11 @@ const websiteSchema = {
           toggle.setAttribute("aria-expanded", String(open));
           toggle.setAttribute("aria-label", open ? closeLabel : openLabel);
           panel.classList.toggle("is-open", open);
+          if (!open) {
+            const cats = document.getElementById("mobileCats");
+            const catsBtn = document.getElementById("mobileCatsToggle");
+            if (cats && catsBtn) { cats.hidden = true; catsBtn.setAttribute("aria-expanded", "false"); }
+          }
           root.classList.toggle("nav-open", open);
           if (!open) {
             window.scrollTo({ top: parkedY, left: 0, behavior: "instant" });
@@ -478,6 +504,25 @@ const websiteSchema = {
         const desktopQuery = window.matchMedia('(min-width: 821px)');
         desktopQuery.addEventListener('change', (event) => {
           if (event.matches) setOpen(false);
+        });
+      }
+
+      // Product categories inside the overlay are a disclosure, not a gate.
+      // Collapsed by default so the overlay fits the viewport and the
+      // catalogue link above is reachable without scrolling past nine
+      // sub-products.
+      const catsToggle = document.getElementById('mobileCatsToggle');
+      const catsPanel = document.getElementById('mobileCats');
+      if (catsToggle && catsPanel && catsToggle.dataset.wired !== 'true') {
+        catsToggle.dataset.wired = 'true';
+        const catsOpenText = catsToggle.querySelector('span').textContent;
+        const catsCloseText = catsToggle.dataset.closeLabel || catsOpenText;
+        catsToggle.setAttribute('aria-label', catsOpenText);
+        catsToggle.addEventListener('click', () => {
+          const open = catsToggle.getAttribute('aria-expanded') !== 'true';
+          catsToggle.setAttribute('aria-expanded', String(open));
+          catsToggle.setAttribute('aria-label', open ? catsCloseText : catsOpenText);
+          catsPanel.hidden = !open;
         });
       }
 
@@ -1071,23 +1116,66 @@ const websiteSchema = {
     }
   }
 
-  /* The nine families are listed in the overlay too, so a phone visitor can
-     reach a category directly instead of landing on the catalogue and
-     scrolling. The main "Products" link above still goes straight to the
-     catalogue on one tap; this is an addition, not a gate in front of it. */
-  .mobile-nav-cats {
-    display: grid;
-    margin-top: 1.6rem;
+  /* The nine families live behind their own control rather than sitting open.
+     Listed inline they made the overlay 1,129px tall inside a 740px viewport,
+     so a visitor looking for the full range met nine sub-products and a scroll
+     before they could see everything — one tap doing two different jobs. The
+     button below expands them; the "Products" link above still goes straight
+     to the catalogue on one tap, and "All products" repeats that destination
+     explicitly once the list is open. */
+  .mobile-nav-cats-wrap {
+    margin-top: 1.4rem;
     border-top: 1px solid var(--line);
   }
 
-  .mobile-nav-cats-label {
-    margin: 1.1rem 0 0.35rem;
+  .mobile-cats-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    min-height: 3rem;
+    margin-top: 0.9rem;
+    padding: 0.55rem 0.1rem;
+    border: 0;
+    background: transparent;
     color: var(--ink-faint);
     font-family: var(--font-mono);
-    font-size: 0.6rem;
+    font-size: 0.62rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  .mobile-cats-toggle:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+
+  .mobile-cats-toggle-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .mobile-cats-caret {
+    transition: transform 200ms var(--ease-premium);
+  }
+
+  .mobile-cats-toggle[aria-expanded='true'] .mobile-cats-caret {
+    transform: rotate(180deg);
+  }
+
+  .mobile-nav-cats {
+    display: grid;
+  }
+
+  /* An author `display` declaration beats the user-agent rule behind the
+     `hidden` attribute, so without this the collapsed list still rendered and
+     the attribute was a lie to assistive technology as well as to the eye. */
+  .mobile-nav-cats[hidden] {
+    display: none;
   }
 
   .mobile-nav-cats a {
@@ -1107,6 +1195,11 @@ const websiteSchema = {
   .mobile-nav-cats a:focus-visible {
     outline: 2px solid var(--accent-gold);
     outline-offset: 2px;
+  }
+
+  .mobile-cats-all {
+    color: var(--ink) !important;
+    font-weight: 600;
   }
 
   .mobile-nav-cats-count {
