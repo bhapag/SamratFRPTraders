@@ -14068,7 +14068,6 @@ export const resources = Object.freeze([
   },
   {
     "slug": "polyester-putty-resin-technical-specifications-and-rfq",
-    "draft": true,
     "title": "Polyester Putty Resin Technical Specifications and RFQ Guide",
     "description": "Review the Polyester Putty Resin properties published in the current Technical Data Sheet, keep them separate from finished-product performance, and prepare a focused industrial enquiry.",
     "category": "Technical & Procurement Guide",
@@ -15454,7 +15453,6 @@ export const resources = Object.freeze([
   },
   {
     "slug": "bisphenol-resin-technical-data-and-document-check",
-    "draft": true,
     "title": "Bisphenol Resin Technical Data and Document Check",
     "description": "Understand the current Bisphenol Resin TDS data, the different BPR catalogue entry and why buyers should confirm the exact document route instead of combining values.",
     "category": "Technical Data Guide",

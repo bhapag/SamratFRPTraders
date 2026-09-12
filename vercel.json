@@ -332,6 +332,20 @@
       }
     },
     {
+      "src": "^/resources/pet-resin-technical-specifications-and-rfq/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/polyester-putty-resin-technical-specifications-and-rfq/"
+      }
+    },
+    {
+      "src": "^/en/resources/pet-resin-technical-specifications-and-rfq/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/polyester-putty-resin-technical-specifications-and-rfq/"
+      }
+    },
+    {
       "handle": "filesystem"
     },
     {

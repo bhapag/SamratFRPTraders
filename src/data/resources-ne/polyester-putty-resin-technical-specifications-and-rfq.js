@@ -1,6 +1,11 @@
 export default {
   title: "Polyester Putty Resin प्राविधिक विशेषताहरू र RFQ गाइड",
   description: "हालको TDS मा प्रकाशित liquid Polyester Putty Resin properties समीक्षा गर्नुहोस्, तिनलाई finished-product performance बाट अलग राख्नुहोस्, र केन्द्रित औद्योगिक सोधपुछ तयार गर्नुहोस्।",
+  seo: {
+    title: "Polyester Putty Resin प्राविधिक विशेषता र RFQ गाइड",
+    ogTitle: "Polyester Putty Resin: TDS मान र RFQ",
+    ogDescription: "हालको TDS ले प्रकाशित गरेका liquid resin का मान, तिनलाई तयारी उत्पादनको नतिजासँग नमिसाउने कारण, र दस्तावेज-आधारित सोधपुछ कसरी तयार गर्ने।"
+  },
   quickFacts: {
     "प्रकाशित grade": "PET-modified liquid UPR sheet grade",
     "प्रकाशित viscosity": "450-650 cPs, 25°C मा",
@@ -41,22 +46,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-putty-resin/",
-      label: "View Polyester Putty Resin",
+      label: "Polyester Putty Resin हेर्नुहोस्",
       description: "product भूमिका, हालको डाटा र सोधपुछ मार्ग समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/pet-resin-tds.pdf",
-      label: "Download Polyester Putty Resin TDS",
+      label: "Polyester Putty Resin TDS डाउनलोड गर्नुहोस्",
       description: "हालको grade-विशिष्ट दस्तावेजलाई प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      label: "उत्पादन क्याटलग समीक्षा गर्नुहोस्",
       description: "यसको छुट्टै thermoplastic PET chip listing लाई यो liquid-grade TDS बाट अलग राख्नुहोस्।"
     },
     {
       href: "/contact/",
-      label: "Request a Polyester Putty Resin quote",
+      label: "Polyester Putty Resin को कोटेशन माग्नुहोस्",
       description: "material form, application, documentation र commercial आवश्यकताहरू पठाउनुहोस्।"
     }
   ],

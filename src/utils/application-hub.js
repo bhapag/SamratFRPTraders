@@ -9,6 +9,16 @@
 
 const INDUSTRY_GROUPS = [
   {
+    slug: 'fire-performance',
+    name: 'Fire-Performance FRP',
+    test: (slug) => slug.includes('fire-retardant'),
+  },
+  {
+    slug: 'cast-stone-moulding',
+    name: 'Cast Stone, Moulding & Small Components',
+    test: (slug) => /cultured-marble|compression-moulding|button-manufacturing/.test(slug),
+  },
+  {
     slug: 'marine-automotive-gelcoat',
     name: 'Marine, Automotive & Gelcoat Finishing',
     test: (slug) => slug.startsWith('gelcoat-for-') || slug.includes('boat-manufacturing'),
@@ -46,6 +56,8 @@ const INDUSTRY_GROUPS = [
 ];
 
 const DISPLAY_ORDER = [
+  'fire-performance',
+  'cast-stone-moulding',
   'tanks-roofing-structural',
   'doors-furniture-lamination',
   'marine-automotive-gelcoat',

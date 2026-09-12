@@ -39,13 +39,17 @@ const industries = groupApplicationsByIndustry(published);
           <div class="apps-grid">
             {group.items.map((app, i) => (
               <a class:list={['apps-tile', { 'apps-tile-lead': i === 0 }]} href={`/en/applications/${app.slug}/`}>
-                <img
-                  src={`/images/applications/${app.cardImage}`}
-                  alt={app.cardImageAlt}
-                  loading="lazy"
-                  width="700"
-                  height="466"
-                />
+                {app.cardImage ? (
+                  <img
+                    src={`/images/applications/${app.cardImage}`}
+                    alt={app.cardImageAlt}
+                    loading="lazy"
+                    width="700"
+                    height="466"
+                  />
+                ) : (
+                  <span class="apps-tile-plain" aria-hidden="true"></span>
+                )}
                 <span class="apps-tile-scrim" aria-hidden="true"></span>
                 <span class="apps-tile-body">
                   <span class="apps-tile-title">{app.title}</span>
@@ -150,6 +154,18 @@ const industries = groupApplicationsByIndustry(published);
 
   .apps-tile-lead {
     grid-column: span 2;
+  }
+
+  /* A guide without photography is not a broken tile. Rather than request an
+     image that does not exist, it gets a plain ground in the same geometry so
+     the grid stays even and the title and description carry the tile. */
+  .apps-tile-plain {
+    position: absolute;
+    inset: 0;
+    display: block;
+    background:
+      linear-gradient(150deg, rgba(var(--gold-rgb), 0.16), transparent 55%),
+      var(--surface-2, #17191d);
   }
 
   .apps-tile img {

@@ -3,6 +3,8 @@
 // Supplier attribution statements ("Samrat Poly Resins, India") are preserved.
 // Narrative localisation continues in batches; technical facts remain source-attributed.
 
+import { extraApplications } from './applications-extra.js';
+
 export const applications = Object.freeze([
   {
     "slug": "resin-for-water-tank-manufacturing",
@@ -69,7 +71,8 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your water tank production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your tank fabrication line."
@@ -141,7 +144,8 @@ export const applications = Object.freeze([
     "relatedProductSlugs": [
       "mekp-hardener",
       "glass-fiber-mat",
-      "iso-polyester-resin"
+      "iso-polyester-resin",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your cooling tower production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your panel fabrication line."
@@ -215,7 +219,8 @@ export const applications = Object.freeze([
       "frp-polyester-pigment",
       "roof-light-resin",
       "uv-stabilized-sheet-grade-yellow-resin",
-      "sheet-grade-yellow-resin"
+      "sheet-grade-yellow-resin",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your roofing sheet production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your sheet lamination line."
@@ -285,7 +290,8 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your FRP door production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your door fabrication line."
@@ -355,7 +361,8 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your door skin production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your skin moulding line."
@@ -426,7 +433,8 @@ export const applications = Object.freeze([
     "relatedProductSlugs": [
       "mekp-hardener",
       "glass-fiber-mat",
-      "frp-polyester-pigment"
+      "frp-polyester-pigment",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your FRP panel production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your panel fabrication line."
@@ -496,7 +504,9 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate",
+      "paint-brushes"
     ],
     "ctaHeading": "Need resin for your hand lay-up production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your lay-up process."
@@ -566,7 +576,8 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your spray-up production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your spray-up process."
@@ -636,7 +647,8 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need resin for your boat or marine component production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your marine lamination line."
@@ -706,7 +718,8 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need a dependable resin for varied FRP lamination work?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your lamination jobs."
@@ -777,7 +790,9 @@ export const applications = Object.freeze([
     "relatedProductSlugs": [
       "mekp-hardener",
       "glass-fiber-mat",
-      "frp-polyester-pigment"
+      "frp-polyester-pigment",
+      "cobalt-octoate",
+      "paint-brushes"
     ],
     "ctaHeading": "Need resin for your moulded FRP products?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your moulding work."
@@ -1250,7 +1265,8 @@ export const applications = Object.freeze([
       "mekp-hardener",
       "frp-polyester-pigment",
       "vinyl-ester-resin",
-      "iso-gelcoat"
+      "iso-gelcoat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need gelcoat for your boat or marine hull production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your hull."
@@ -1321,7 +1337,8 @@ export const applications = Object.freeze([
       "mekp-hardener",
       "glass-fiber-mat",
       "frp-polyester-pigment",
-      "iso-gelcoat"
+      "iso-gelcoat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need gelcoat for your bathware or sanitaryware production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your mould."
@@ -1392,7 +1409,8 @@ export const applications = Object.freeze([
       "gp-clear-resin",
       "mekp-hardener",
       "glass-fiber-mat",
-      "frp-polyester-pigment"
+      "frp-polyester-pigment",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need gelcoat for your water tank exterior production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your tank panels."
@@ -1463,7 +1481,8 @@ export const applications = Object.freeze([
       "gp-clear-resin",
       "mekp-hardener",
       "frp-polyester-pigment",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need gelcoat for your general FRP mould production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your moulded product."
@@ -1533,7 +1552,8 @@ export const applications = Object.freeze([
       "gp-clear-resin",
       "mekp-hardener",
       "frp-polyester-pigment",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "cobalt-octoate"
     ],
     "ctaHeading": "Need gelcoat for your bus or commercial vehicle body panel production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your body panels."
@@ -1887,7 +1907,8 @@ export const applications = Object.freeze([
     "relatedProductSlugs": [
       "mekp-hardener",
       "gp-gelcoat-resin",
-      "gp-clear-resin"
+      "gp-clear-resin",
+      "paint-brushes"
     ],
     "ctaHeading": "Need GP Yellow Resin for your hand lay-up production?",
     "ctaText": "Get a bulk quote for GP Yellow Resin, or talk to our technical team about whether GP Yellow Resin or GP Clear Resin better suits your lay-up process."
@@ -2682,5 +2703,6 @@ export const applications = Object.freeze([
     ],
     "ctaHeading": "Discuss a Roof Light Sheet Grade Resin requirement",
     "ctaText": "Share the finished roof-light or roofing sheet, required supplied appearance, reinforcement context if known, expected quantity and delivery location so the product role and current TDS can be reviewed."
-  }
+  },
+  ...extraApplications,
 ]);

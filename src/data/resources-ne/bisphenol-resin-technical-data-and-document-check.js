@@ -1,6 +1,11 @@
 export default {
   title: "Bisphenol Resin प्राविधिक डाटा र दस्तावेज जाँच",
   description: "हालको Bisphenol Resin TDS डाटा, फरक BPR catalogue entry, र किन खरिदकर्ताले मान मिलाउनुको सट्टा exact document route पुष्टि गर्नुपर्छ भन्ने बुझ्नुहोस्।",
+  seo: {
+    title: "Bisphenol Resin प्राविधिक डाटा र दस्तावेज जाँच",
+    ogTitle: "Bisphenol Resin: TDS र catalogue मान किन फरक छन्",
+    ogDescription: "हालको TDS ले प्रकाशित गरेका मान, catalogue सँगको फरक, र मान मिलाउनुको सट्टा दस्तावेज पुष्टि गर्नुपर्ने कारण।"
+  },
   quickFacts: {
     "TDS viscosity": "600 cPs, 25°C मा",
     "TDS gel-time मान": "35-45 मिनेट, 25°C मा",
@@ -70,22 +75,22 @@ export default {
   recommendedLinks: [
     {
       href: "/products/bisphenol-resin/",
-      label: "View Bisphenol Resin",
+      label: "Bisphenol Resin हेर्नुहोस्",
       description: "TDS-आधारित product page र यसको document-discrepancy सूचना हेर्नुहोस्।"
     },
     {
       href: "/tds/bisphenol-resin-tds.pdf",
-      label: "Download current Bisphenol Resin TDS",
+      label: "हालको Bisphenol Resin TDS डाउनलोड गर्नुहोस्",
       description: "पूर्ण table, typical-data disclaimer, storage र supply जानकारी समीक्षा गर्नुहोस्।"
     },
     {
       href: "/downloads/samrat-poly-resins-product-catalogue.pdf",
-      label: "Review Product Catalogue",
+      label: "उत्पादन क्याटलग समीक्षा गर्नुहोस्",
       description: "BPR catalogue card लाई छुट्टै पहिचान गरिएको document record को रूपमा प्रयोग गर्नुहोस्।"
     },
     {
       href: "/resources/bisphenol-resin-procurement-checklist/",
-      label: "Prepare a document-led RFQ",
+      label: "दस्तावेज-आधारित RFQ तयार गर्नुहोस्",
       description: "पुष्टि आवश्यक पर्ने सन्दर्भ र project आवश्यकता समावेश गर्नुहोस्।"
     }
   ],
