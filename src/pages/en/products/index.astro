@@ -45,19 +45,21 @@ const docs = documentStats();
               aria-label="Search products"
             />
           </div>
-          <nav class="catalogue-rail-nav" role="group" aria-label="Filter by product category">
-            <button type="button" class="rail-link is-active" data-chip-cat="all" aria-pressed="true">
-              <span class="rail-link-name">All products</span>
-              <span class="rail-link-count">{products.length}</span>
-            </button>
-            {catalogGroups.map((group, index) => (
-              <button type="button" class="rail-link" data-chip-cat={group.slug} aria-pressed="false">
-                <span class="rail-link-index">{String(index + 1).padStart(2, '0')}</span>
-                <span class="rail-link-name">{group.name}</span>
-                <span class="rail-link-count">{productsInGroup(group.slug).length}</span>
+          <div class="catalogue-rail-scroll" data-rail-scroll>
+            <nav class="catalogue-rail-nav" role="group" aria-label="Filter by product category">
+              <button type="button" class="rail-link is-active" data-chip-cat="all" aria-pressed="true">
+                <span class="rail-link-name">All products</span>
+                <span class="rail-link-count">{products.length}</span>
               </button>
-            ))}
-          </nav>
+              {catalogGroups.map((group, index) => (
+                <button type="button" class="rail-link" data-chip-cat={group.slug} aria-pressed="false">
+                  <span class="rail-link-index">{String(index + 1).padStart(2, '0')}</span>
+                  <span class="rail-link-name">{group.name}</span>
+                  <span class="rail-link-count">{productsInGroup(group.slug).length}</span>
+                </button>
+              ))}
+            </nav>
+          </div>
         </aside>
 
         <div class="catalogue-main">
@@ -199,7 +201,44 @@ const docs = documentStats();
     applyFilter();
   }
 
+  // The chip strip's edge cues track its scroll position: a fade is shown
+  // only on a side that still has chips behind it.
+  function initRailOverflowCue() {
+    const scroller = document.querySelector('[data-rail-scroll]');
+    const rail = scroller ? scroller.querySelector('.catalogue-rail-nav') : null;
+    if (!rail) return;
+
+    const sync = () => {
+      const overflow = rail.scrollWidth - rail.clientWidth;
+      if (overflow <= 1) {
+        scroller.setAttribute('data-overflow', 'none');
+        return;
+      }
+      const offset = Math.abs(rail.scrollLeft);
+      const edges = [];
+      if (offset > 2) edges.push('start');
+      if (offset < overflow - 2) edges.push('end');
+      scroller.setAttribute('data-overflow', edges.join(' ') || 'none');
+    };
+
+    // Tabbing must not leave a chip half-under a fade. scroll-padding-inline
+    // covers scrollIntoView but is not honoured for focus scrolling in every
+    // engine, so the focused chip is brought fully into the strip explicitly.
+    rail.addEventListener('focusin', (event) => {
+      const chip = event.target.closest ? event.target.closest('.rail-link') : null;
+      if (!chip) return;
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      chip.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: reduce ? 'auto' : 'smooth' });
+    });
+
+    rail.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync, { passive: true });
+    if ('ResizeObserver' in window) new ResizeObserver(sync).observe(rail);
+    sync();
+  }
+
   initProductFilter();
+  initRailOverflowCue();
 </script>
 
 <style>
@@ -432,6 +471,9 @@ const docs = documentStats();
     grid-column: 3;
     grid-row: 2;
     justify-self: start;
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
     color: var(--accent-gold-light);
     font-family: var(--font-mono);
     font-size: 0.68rem;
@@ -466,8 +508,11 @@ const docs = documentStats();
       grid-column: 1 / -1;
     }
 
-    .catalogue-rail-nav {
+    .catalogue-rail-scroll {
       grid-column: 1 / -1;
+    }
+
+    .catalogue-rail-nav {
       display: flex;
       flex-wrap: wrap;
       gap: 0 1.5rem;
@@ -539,14 +584,78 @@ const docs = documentStats();
       gap: 0.5rem;
       padding: 0.7rem 0;
       overflow-x: auto;
+      scroll-padding-inline: 2.5rem;
       overscroll-behavior-inline: contain;
       -webkit-overflow-scrolling: touch;
-      scrollbar-width: none;
       border-bottom: 0;
+      /* The strip used to hide its scrollbar, which removed the only native
+         signal that seven more categories existed. A thin bar is the cue most
+         people already know how to read; the edge fades below carry the same
+         message on touch platforms that only paint a scrollbar mid-gesture. */
+      scrollbar-width: thin;
+      scrollbar-color: rgba(var(--gold-rgb), 0.5) transparent;
     }
 
     .catalogue-rail-nav::-webkit-scrollbar {
-      display: none;
+      height: 0.25rem;
+    }
+
+    .catalogue-rail-nav::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .catalogue-rail-nav::-webkit-scrollbar-thumb {
+      border-radius: 999px;
+      background: rgba(var(--gold-rgb), 0.5);
+    }
+
+    /* Nine categories do not fit one phone-width row, and a strip with its
+       scrollbar hidden gave no sign that seven of them existed: measured at
+       390px, 329px of a 1599px strip was visible. These gradients fade the
+       strip into the panel at whichever edge still has chips behind it, so the
+       clipped chip reads as "more this way" rather than as a broken layout.
+       The start cue is off and the end cue on before the script runs, which is
+       the correct state for an unscrolled strip — so the cue is still right if
+       the script never runs at all. */
+    .catalogue-rail-scroll {
+      position: relative;
+    }
+
+    .catalogue-rail-scroll::before,
+    .catalogue-rail-scroll::after {
+      content: '';
+      position: absolute;
+      inset-block: 0;
+      inline-size: 3rem;
+      pointer-events: none;
+      transition: opacity 180ms var(--ease-premium);
+    }
+
+    .catalogue-rail-scroll::before {
+      inset-inline-start: 0;
+      opacity: 0;
+      background: linear-gradient(to right, var(--bg-3), transparent);
+    }
+
+    .catalogue-rail-scroll::after {
+      inset-inline-end: 0;
+      opacity: 1;
+      background: linear-gradient(to left, var(--bg-3), transparent);
+    }
+
+    .catalogue-rail-scroll[data-overflow~='start']::before {
+      opacity: 1;
+    }
+
+    .catalogue-rail-scroll[data-overflow]:not([data-overflow~='end'])::after {
+      opacity: 0;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .catalogue-rail-scroll::before,
+      .catalogue-rail-scroll::after {
+        transition: none;
+      }
     }
 
     .rail-link,
