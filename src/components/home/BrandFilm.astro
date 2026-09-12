@@ -1,7 +1,7 @@
 ---
 import { buildWhatsAppLink, whatsAppMessages } from '../../data/site.js';
 
-const { lang = 'ne', homeExperiment = false } = Astro.props;
+const { lang = 'ne', homeExperiment = false, eyebrow = 'Samrat FRP Traders' } = Astro.props;
 const isNe = lang === 'ne';
 const prefix = isNe ? '' : '/en';
 const waLink = buildWhatsAppLink(whatsAppMessages.generic[isNe ? 'ne' : 'en']);
@@ -33,7 +33,7 @@ const videoSchema = {
   <div class="container">
     <div class="section-heading section-heading-split" data-reveal>
       <div>
-        <p class="eyebrow">{isNe ? 'Samrat FRP Traders' : 'Samrat FRP Traders'}</p>
+        <p class="eyebrow">{eyebrow}</p>
         <h2>
           {isNe ? 'उत्पादन। प्रयोग। नेपाल।' : 'Products. Applications. Nepal.'}
         </h2>
