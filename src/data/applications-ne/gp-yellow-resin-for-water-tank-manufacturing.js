@@ -21,7 +21,7 @@ export default {
   "advantages": [
     "लामो 10–15 minute gel time ले fabricator लाई ठूला panel surfaces मा थप working time दिन्छ",
     "GP Clear Resin जस्तै non-accelerated MEKP/cobalt octoate cure system — सिक्नुपर्ने नयाँ dosing procedure छैन",
-    "225 kg drum packaging ले continuous production runs लाई सहयोग गर्छ",
+    "एउटै दस्तावेजीकृत grade बाट काम गर्दा run भरि panel-देखि-panel laminate एकनास रहन्छ",
     "Predictable batch-to-batch processing का लागि consistent 99% purity"
   ],
   "commonProducts": [

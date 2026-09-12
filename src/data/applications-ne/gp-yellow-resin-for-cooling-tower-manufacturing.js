@@ -21,7 +21,7 @@ export default {
   "advantages": [
     "लामो 10–15 minute gel time ले पूरै shift भरि फैलिएका panel-by-panel production runs मा मिल्छ",
     "GP Clear Resin जस्तै non-accelerated MEKP/cobalt octoate cure system",
-    "225 kg drum packaging ले large-panel production मा continuous resin consumption लाई सहयोग गर्छ",
+    "Large-panel production मा एउटै दस्तावेजीकृत grade प्रयोग गर्दा बीचैमा सामग्री फेर्नुपर्दैन",
     "Consistent 99% purity ले structural panel मा resin-rich वा resin-starved zones को जोखिम घटाउँछ"
   ],
   "commonProducts": [

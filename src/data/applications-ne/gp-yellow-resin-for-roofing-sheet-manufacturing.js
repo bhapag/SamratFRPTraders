@@ -21,7 +21,7 @@ export default {
   "advantages": [
     "लामो 10–15 minute gel time ले चौडा corrugated mould भरि resin समान रूपमा roll गर्न बढी समय दिन्छ",
     "GP Clear Resin जस्तै non-accelerated MEKP/cobalt octoate cure system",
-    "225 kg drum packaging ले निरन्तर sheet production runs मा steady resin consumption लाई सहयोग गर्छ",
+    "निरन्तर चल्ने sheet production run को स्थिर खपतका लागि एउटै दस्तावेजीकृत grade उपयुक्त हुन्छ",
     "Predictable batch-to-batch processing का लागि consistent 99% purity"
   ],
   "commonProducts": [

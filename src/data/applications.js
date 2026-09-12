@@ -36,7 +36,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Fast gel time (under 8 minutes) keeps production cycles efficient without sacrificing lay-up time",
       "Non-accelerated cure system lets fabricators adjust MEKP and cobalt octoate dosage to suit workshop temperature and batch size",
-      "225 kg drum packaging suits continuous production runs for tank manufacturers working at volume",
+      "Working from a single documented grade across a tank run keeps the laminate consistent from panel to panel",
       "Consistent 99% purity and controlled viscosity reduce the risk of dry patches or resin-rich areas that weaken a tank wall"
     ],
     "commonProducts": [
@@ -106,7 +106,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Fast gel time (under 8 minutes) supports efficient panel-by-panel production without long waits between lay-up passes",
       "Non-accelerated system lets fabricators tune MEKP and cobalt octoate dosage to match workshop temperature across a production run",
-      "225 kg drum packaging suits the continuous resin consumption of large-panel cooling tower manufacturing",
+      "One documented grade across large-panel production avoids switching materials part-way through a build",
       "Consistent 99% purity reduces the risk of resin-rich or resin-starved zones that could weaken a structural panel"
     ],
     "commonProducts": [
@@ -179,7 +179,7 @@ export const applications = Object.freeze([
       "Sub-8-minute gel time keeps sheet-by-sheet or continuous production moving efficiently",
       "Low viscosity reduces the labour needed to work resin evenly across wide corrugated moulds",
       "Non-accelerated cure lets fabricators adjust dosage for ambient workshop temperature through the day",
-      "225 kg drums suit the steady resin consumption of ongoing sheet production runs"
+      "Steady consumption on a sheet line is easier to plan against one documented grade than against several"
     ],
     "commonProducts": [
       "Corrugated FRP roofing sheets",
@@ -252,7 +252,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Reliable adhesion keeps the door-skin-to-core bond intact through years of daily use",
       "Non-accelerated cure system gives fabricators control over working time during assembly and clamping",
-      "225 kg drum packaging suits continuous door production runs",
+      "One documented grade across a door production run keeps the laminate consistent from batch to batch",
       "Consistent 99% purity supports uniform bonding quality across every door in a batch"
     ],
     "commonProducts": [
@@ -392,7 +392,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Fast gel time supports efficient turnaround across a mixed-panel production schedule",
       "Non-accelerated cure system adapts to different batch sizes without a resin change",
-      "225 kg drum packaging suits continuous, varied panel production",
+      "One documented grade covers varied panel work without keeping several resins on the shelf",
       "Consistent 99% purity keeps quality uniform across every panel type run through the line"
     ],
     "commonProducts": [
@@ -603,7 +603,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Thorough wet-out supports full laminate strength through multi-layer hull construction",
       "Non-accelerated cure system gives builders control over gel timing across a multi-stage lay-up",
-      "225 kg drum packaging suits the substantial resin volumes hull and deck lamination requires",
+      "A single documented grade across hull and deck lamination keeps a large laminate consistent throughout",
       "Consistent 99% purity helps maintain uniform laminate quality across a large hull surface"
     ],
     "commonProducts": [
@@ -700,8 +700,8 @@ export const applications = Object.freeze([
         "a": "It is cured at room temperature with an MEKP catalyst (around 1.5%) and a cobalt octoate accelerator (around 0.4%), with dosage adjusted per job to suit part size and desired working time."
       },
       {
-        "q": "What's the minimum order quantity if I only need resin for occasional custom jobs?",
-        "a": "GP Clear Resin is supplied in 225 kg drums with a minimum order quantity of 1,000 kg. Contact our team to discuss supply arrangements that suit smaller or occasional fabrication needs."
+        "q": "How is supply arranged if I only need resin for occasional custom jobs?",
+        "a": "Packaging and minimum order quantity are not published on this site, because they depend on the grade, the quantity and when you ask. Contact Samrat FRP Traders with the volume you expect to use and we will confirm what supply arrangements are available for smaller or occasional fabrication needs."
       }
     ],
     "relatedProductSlugs": [
@@ -1570,7 +1570,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Longer 10–15 minute gel time gives fabricators extra working time across large panel surfaces",
       "Same non-accelerated MEKP/cobalt octoate cure system as GP Clear Resin — no new dosing procedure to learn",
-      "225 kg drum packaging suits continuous production runs",
+      "Working from a single documented grade through a run keeps the laminate consistent from panel to panel",
       "Consistent 99% purity for predictable batch-to-batch processing"
     ],
     "commonProducts": [
@@ -1641,7 +1641,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Longer 10–15 minute gel time suits panel-by-panel production runs spread across a full shift",
       "Same non-accelerated MEKP/cobalt octoate cure system as GP Clear Resin",
-      "225 kg drum packaging suits continuous resin consumption on large-panel production",
+      "One documented grade across large-panel production avoids switching materials part-way through a build",
       "Consistent 99% purity reduces the risk of resin-rich or resin-starved zones in a structural panel"
     ],
     "commonProducts": [
@@ -1713,7 +1713,7 @@ export const applications = Object.freeze([
     "advantages": [
       "Longer 10–15 minute gel time gives more time to roll resin evenly through a wide corrugated mould",
       "Same non-accelerated MEKP/cobalt octoate cure system as GP Clear Resin",
-      "225 kg drum packaging suits steady resin consumption on ongoing sheet production runs",
+      "One documented grade suits the steady consumption of an ongoing sheet production run",
       "Consistent 99% purity for predictable batch-to-batch processing"
     ],
     "commonProducts": [
