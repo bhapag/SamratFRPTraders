@@ -14,23 +14,23 @@ export default {
     "ogDescription": "GP White Resin लाई published water-white general-purpose polyester grade को रूपमा बुझ्नुहोस्, र यसलाई clear GP resin र white gelcoat भूमिकाहरूबाट छुट्याउनुहोस्।"
   },
   "quickFacts": {
-    "Published रूप": "Water White",
+    "Published रूप": "स्थापित छैन — यस नाममा जारी sheet ले देखिने रङ clear भन्छ",
     "Product भूमिका": "Reinforced FRP contexts का लागि general-purpose orthophthalic polyester resin",
-    "Published process डाटा": "350 cPs भन्दा कम viscosity; 6-minute gel time; medium thixotropic",
+    "Published process डाटा": "यस grade का लागि छैन — यस नाममा जारी Technical Data Sheet ले GP Clear Resin कै तालिका दोहोर्‍याउँछ",
     "नठान्नुहोस्": "Supplied resin को रूप मात्रले तयार FRP सतहको रंग निर्धारण गर्छ भनी नठान्नुहोस्"
   },
   "sections": [
     {
       "heading": "'White resin' पछाडिको buyer प्रश्न",
       "body": [
-        "Panel, moulding वा general FRP requirement का लागि supplied रूप महत्त्वपूर्ण हुँदा buyer हरूले white polyester resin खोज्न सक्छन्। यस साइटमा, GP White Resin लाई water white, medium thixotropic र general purpose को रूपमा published गरिएको छ। समाधान गर्नुपर्ने प्रश्न भनेको — के त्यो grade को product भूमिका र published डाटा component र process सँग मेल खान्छ भन्ने हो।",
+        "Panel, moulding वा general FRP requirement का लागि supplied रूप महत्त्वपूर्ण हुँदा buyer हरूले white polyester resin खोज्न सक्छन्। यस साइटले GP White Resin लाई general-purpose grade को रूपमा प्रकाशित गर्छ, तर यसका कुनै प्राविधिक अङ्क प्रकाशित गर्दैन: यस नाममा जारी Technical Data Sheet मा GP Clear Resin कै दस्तावेज सन्दर्भ र गुण तालिका छ। त्यसैले समाधान गर्नुपर्ने प्रश्न grade को भूमिका component र process सँग मेल खान्छ कि खाँदैन भन्ने हो, र चाहिने अङ्क सोधपुछमा आपूर्तिकर्ताबाट पक्का गर्नुपर्छ।",
         "Water white ले supplied resin को रूपलाई जनाउँछ। यो हरेक तयार FRP part सेतो देखिनेछ भन्ने वाचा होइन, किनकि reinforcement, pigments र mould-facing surface layer तयार build-up का छुट्टाछुट्टै भागहरू हुन्।"
       ]
     },
     {
       "heading": "Published GP White Resin भूमिका",
       "body": [
-        "Product page ले GP White Resin लाई panels र general-purpose moulding, hand layup र spray-up work, cooling towers, water storage tanks र general industrial FRP fabrication का लागि published गर्छ। यसको published डाटाले 350 cPs भन्दा कम viscosity, 6-minute gel time, medium thixotropy र non-accelerated curing system उल्लेख गर्छ।",
+        "Product page ले GP White Resin लाई panels र general-purpose moulding, hand layup र spray-up work, cooling towers, water storage tanks र general industrial FRP fabrication का लागि published गर्छ। यसको कुनै grade-विशेष अङ्क यहाँ प्रकाशित छैन, किनभने यस नाममा जारी sheet ले GP Clear Resin कै तालिका दोहोर्‍याउँछ; चाहिने अङ्क सोधपुछमा पक्का गरिन्छ।",
         "यी component, reinforcement, mould, production method र TDS सँगै हेर्नुपर्ने product facts हुन्। यी universal process instructions वा हरेक manufacturing line का लागि उपयुक्तताको प्रमाण होइनन्।"
       ]
     },

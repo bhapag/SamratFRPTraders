@@ -1,57 +1,74 @@
+// The figures this page used to publish — viscosity below 350 cPs, a 6-minute
+// gel time, 30-35% styrene content and a medium-thixotropic body — were
+// attributed to the supplier Technical Data Sheet. They are not in it.
+//
+// The sheet Samrat Poly Resins, India currently issues under the name GP White
+// Resin carries GP Clear Resin's document reference (SPR-TDS-GCR), repeats GP
+// Clear Resin's description word for word, and lists GP Clear Resin's property
+// table, including "Colour / Appearance: Clear". Checked against both the copy
+// published on this site and the file on the supplier's own site; they agree
+// with each other and neither describes a distinct white grade.
+//
+// So this page names the product, says what the supplier lists it for, and
+// says plainly that grade-specific figures are not published until a sheet for
+// this grade exists. It does not repeat another grade's numbers under this
+// product's name.
 export default {
   en: {
     seoTitle: "GP White Resin in Nepal",
-    seoDescription: "GP White Resin is a water-white orthophthalic polyester resin for FRP moulding, panels and hand layup, supplied and imported for Nepal by Samrat FRP Traders.",
+    seoDescription:
+      "GP White Resin is a general-purpose orthophthalic polyester resin for FRP moulding, panels and hand layup, supplied and imported for Nepal by Samrat FRP Traders.",
     intro: [
-      "Samrat FRP Traders supplies and imports GP White Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies GP White Resin as a water-white, general-purpose orthophthalic polyester resin for FRP panels, moulding, hand layup, spray-up, cooling towers and water storage tanks.",
-      "The published grade is a medium-thixotropic liquid. That thixotropic body is the key practical point for buyers: it resists sagging or running when applied to angled or vertical mould surfaces, which is useful when the resin would otherwise pool before it gels.",
-      "Supplier documentation lists a viscosity below 350 cPs, a 6-minute gel time and 30\u201335% styrene content, on a non-accelerated system cured at room temperature with an MEKP catalyst and a cobalt octoate accelerator. It is a general-purpose laminate resin, not a mould-surface gelcoat, and the water-white supplied appearance does not define the final colour of every reinforced part.",
-      "Samrat FRP Traders can advise Nepal buyers on whether GP White Resin matches their panel, moulding or tank project. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page.",
+      "Samrat FRP Traders supplies and imports GP White Resin for the Nepal market. Samrat Poly Resins, India lists it as a general-purpose orthophthalic polyester resin for FRP panels, moulding, hand layup, spray-up, cooling towers and water storage tanks.",
+      "One thing needs saying before any figure is quoted. The Technical Data Sheet currently issued under the name GP White Resin carries GP Clear Resin's document reference, repeats GP Clear Resin's description and lists GP Clear Resin's property table — including an appearance of “Clear”. We have checked the copy published here against the file on the supplier's own site and they agree with each other. Neither describes a distinct white grade.",
+      "That is why no viscosity, gel time or styrene content appears on this page. Publishing another grade's numbers under this product's name would tell a fabricator something we cannot stand behind, and gel time in particular is the figure a workshop plans its day around. We have asked Samrat Poly Resins, India for a sheet specific to this grade.",
+      "What we can say is what the product is for. It is a general-purpose laminating resin rather than a mould-surface gelcoat, and the supplied appearance does not decide the finished colour of a reinforced part, which comes from the gelcoat or pigment on the face. If you need a confirmed figure before committing to a run, tell us which one and we will put the question to the supplier. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page.",
     ],
     buyerNotes: [
       {
         title: "Grade selection",
-        text: "GP White Resin is a water-white general-purpose grade. It is not a substitute for a mould-surface gelcoat. For a fully clear grade, compare GP Clear Resin; for lamination-focused work, review Lamination Resin.",
+        text: "GP White Resin is a general-purpose laminating grade and is not a substitute for a mould-surface gelcoat. Where the requirement is a clear grade with a published specification, GP Clear Resin has one; for lamination-focused work, review Lamination Resin.",
       },
       {
-        title: "Thixotropy",
-        text: "The medium-thixotropic body helps the resin stay put on angled or vertical mould faces instead of sagging. This matters for moulding where flow behaviour on the surface affects the laminate.",
+        title: "What the current sheet actually says",
+        text: "The sheet issued under this name repeats GP Clear Resin's document reference and property table, so it does not describe this grade. Ask us before you specify against it — we will tell you what the supplier confirms rather than what the file happens to print.",
       },
       {
-        title: "Published values",
-        text: "Supplier documentation lists viscosity below 350 cPs, a 6-minute gel time and 30\u201335% styrene content. These are processing figures, not performance guarantees for a finished part.",
+        title: "Supplied appearance",
+        text: "The product is sold as GP White Resin, but the sheet issued under that name gives the appearance as clear. If the supplied colour matters to your part, confirm it with us before ordering rather than inferring it from either the name or the document.",
       },
     ],
     faqs: [
       {
         q: "What is GP White Resin?",
-        a: "GP White Resin is a water-white, general-purpose orthophthalic polyester resin. Current Samrat Poly Resins, India documentation lists it for FRP panels, moulding, hand layup, spray-up, cooling towers and water storage tanks.",
-      },
-      {
-        q: "What is the difference between GP White Resin and GP Clear Resin?",
-        a: "Both are general-purpose orthophthalic resins. GP White Resin is a water-white, medium-thixotropic grade that resists sagging on angled surfaces, while GP Clear Resin is a lower-viscosity clear grade. Choose based on the colour and flow behaviour your project needs.",
-      },
-      {
-        q: "Is GP White Resin thixotropic?",
-        a: "Yes \u2014 supplier documentation describes it as medium thixotropic, which helps it resist sagging or running on angled or vertical mould surfaces.",
+        a: "A general-purpose orthophthalic polyester resin. Samrat Poly Resins, India lists it for FRP panels, moulding, hand layup, spray-up, cooling towers and water storage tanks.",
       },
       {
         q: "What are the published gel time, viscosity and styrene content?",
-        a: "Supplier documentation lists a gel time of 6 minutes, viscosity below 350 cPs and 30\u201335% styrene content, on a non-accelerated system.",
+        a: "We are not publishing them, because we cannot evidence them for this grade. The Technical Data Sheet currently issued under the name GP White Resin carries GP Clear Resin's document reference and property table, so quoting from it would mean quoting a different product. Ask us and we will put the question to Samrat Poly Resins, India.",
+      },
+      {
+        q: "What is the difference between GP White Resin and GP Clear Resin?",
+        a: "They are sold as two products in the same general-purpose orthophthalic family, and GP Clear Resin has a specification sheet of its own that we do publish. The honest answer on the difference in measured properties is that the supplier documentation we hold does not currently establish one, because the sheet issued for the white grade repeats the clear grade's table.",
+      },
+      {
+        q: "Is GP White Resin thixotropic?",
+        a: "We cannot confirm it. The sheet issued under this name states that thixotropy is intentionally excluded from its specification set. If your work needs a resin that holds on a vertical or overhead mould face, tell us and we will confirm with the supplier or point you to a grade whose documentation covers it.",
       },
       {
         q: "How is it cured?",
-        a: "As a non-accelerated resin, it is cured at room temperature with a cobalt octoate accelerator and an MEKP catalyst, dosed to suit workshop conditions per the supplier TDS.",
+        a: "As a room-temperature polyester system, with an MEKP catalyst and, on a non-accelerated grade, a cobalt octoate accelerator. Dosage belongs to the manufacturer's documentation for the specific grade and workshop conditions, so we do not publish figures here.",
       },
     ],
-    applicationsIntro: "Supplier documentation lists use in FRP panels and general-purpose moulding, hand layup and spray-up work, cooling towers and water storage tanks.",
+    applicationsIntro:
+      "Samrat Poly Resins, India lists this grade for FRP panels and general-purpose moulding, hand layup and spray-up work, cooling towers and water storage tanks.",
     features: [
-      "Water-white colour, low viscosity (<350 cPs)",
-      "Medium-thixotropic body resists sagging on angled surfaces",
-      "Fast 6-minute gel time for efficient production cycles",
-      "Non-accelerated system — dose MEKP and cobalt accelerator to suit workshop conditions",
-      "30–35% styrene content for consistent processing",
-      "Excellent fibreglass wet-out and mechanical strength",
+      "General-purpose orthophthalic polyester resin for laminating work",
+      "Listed by the supplier for panels, moulding, hand layup and spray-up",
+      "Listed for cooling towers and water storage tank fabrication",
+      "Room-temperature cure with an MEKP catalyst",
+      "Grade-specific figures not published: the current sheet repeats GP Clear Resin's table",
+      "Supplied appearance and processing figures confirmed on enquiry",
     ],
     industries: [
       "FRP & composites manufacturing",
@@ -61,63 +78,66 @@ export default {
     ],
   },
   ne: {
-    seoTitle: "\u0928\u0947\u092a\u093e\u0932\u092e\u093e GP White Resin",
-    seoDescription: "GP White Resin \u090f\u0909\u091f\u093e water-white orthophthalic polyester resin \u0939\u094b, FRP moulding \u0930 panel \u0915\u093e \u0932\u093e\u0917\u093f, \u0928\u0947\u092a\u093e\u0932\u092e\u093e Samrat FRP Traders \u0926\u094d\u0935\u093e\u0930\u093e \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
+    seoTitle: "नेपालमा GP White Resin",
+    seoDescription:
+      "GP White Resin एउटा general-purpose orthophthalic polyester resin हो, FRP moulding र panel का लागि, नेपालमा Samrat FRP Traders द्वारा आपूर्ति।",
     intro: [
-      "Samrat FRP Traders \u0932\u0947 \u0928\u0947\u092a\u093e\u0932\u0940 \u092c\u091c\u093e\u0930\u0915\u093e \u0932\u093e\u0917\u093f GP White Resin \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0930 \u0906\u092f\u093e\u0924 \u0917\u0930\u094d\u0926\u091b\u0964 Samrat Poly Resins, India \u0915\u094b \u0939\u093e\u0932\u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 GP White Resin \u0932\u093e\u0908 FRP panel, moulding, hand layup, spray-up, cooling tower \u0930 \u092a\u093e\u0928\u0940 \u092d\u0923\u094d\u0921\u093e\u0930\u0923 \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940\u0915\u093e \u0932\u093e\u0917\u093f water-white, general-purpose orthophthalic polyester resin \u0915\u094b \u0930\u0942\u092a\u092e\u093e \u091a\u093f\u0928\u093e\u0909\u0901\u091b\u0964",
-      "\u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 grade medium-thixotropic liquid \u0939\u094b\u0964 \u0916\u0930\u093f\u0926\u0915\u0930\u094d\u0924\u093e\u0915\u093e \u0932\u093e\u0917\u093f \u092f\u0939\u0940 thixotropic \u0938\u094d\u0935\u092d\u093e\u0935 \u092e\u0941\u0916\u094d\u092f \u0915\u0941\u0930\u093e \u0939\u094b \u2014 \u0922\u0932\u094d\u0915\u0947\u0915\u094b \u0935\u093e \u0920\u093e\u0921\u094b mould surface \u092e\u093e \u0932\u0917\u093e\u0909\u0901\u0926\u093e resin \u092c\u0917\u094d\u0926\u0948\u0928, \u091c\u0941\u0928 gel \u0939\u0941\u0928\u0941\u0905\u0918\u093f \u091c\u092e\u094d\u092e\u093e \u0939\u0941\u0928\u092c\u093e\u091f \u0930\u094b\u0915\u094d\u0928 \u0909\u092a\u092f\u094b\u0917\u0940 \u0939\u0941\u0928\u094d\u091b\u0964",
-      "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 350 cPs \u092d\u0928\u094d\u0926\u093e \u0915\u092e viscosity, 6 \u092e\u093f\u0928\u0947\u091f gel time \u0930 30\u201335% styrene content \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b; \u092f\u094b non-accelerated \u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u0939\u094b, \u091c\u0941\u0928 MEKP catalyst \u0930 cobalt octoate accelerator \u0932\u0947 room temperature \u092e\u093e cure \u0939\u0941\u0928\u094d\u091b\u0964 \u092f\u094b general-purpose laminate resin \u0939\u094b, mould-surface gelcoat \u0939\u094b\u0907\u0928\u0964 \u0939\u093e\u0932\u0915\u094b \u092e\u0942\u0932\u094d\u092f, \u0909\u092a\u0932\u092c\u094d\u0927\u0924\u093e \u0930 \u092a\u094d\u092f\u093e\u0915\u0947\u091c\u093f\u0919 \u0935\u093f\u0915\u0932\u094d\u092a\u0915\u093e \u0932\u093e\u0917\u093f \u0938\u092e\u094d\u092a\u0930\u094d\u0915 \u092a\u0943\u0937\u094d\u0920\u092c\u093e\u091f \u0938\u094b\u0927\u092a\u0941\u091b \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964",
+      "Samrat FRP Traders ले नेपाली बजारका लागि GP White Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India ले यसलाई FRP panel, moulding, hand layup, spray-up, cooling tower र पानी भण्डारण ट्याङ्कीका लागि general-purpose orthophthalic polyester resin को रूपमा सूचीबद्ध गरेको छ।",
+      "कुनै अङ्क उल्लेख गर्नुअघि एउटा कुरा भन्नु जरुरी छ। GP White Resin को नाममा हाल जारी भएको Technical Data Sheet मा GP Clear Resin को दस्तावेज सन्दर्भ छ, GP Clear Resin को विवरण जसाको त्यसै दोहोर्याइएको छ, र GP Clear Resin को गुण तालिका राखिएको छ — जसमा देखिने रङ “Clear” भनिएको छ। यहाँ प्रकाशित प्रति र आपूर्तिकर्ताको आफ्नै साइटमा भएको फाइल दुवै हामीले मिलाएर हेरेका छौँ; दुवै एउटै हुन् र कुनैले पनि छुट्टै सेतो grade को वर्णन गर्दैन।",
+      "यसै कारण यस पृष्ठमा viscosity, gel time वा styrene content कुनै पनि छैन। अर्को grade का अङ्क यस उत्पादनको नाममा प्रकाशित गर्नु भनेको fabricator लाई हामी प्रमाणित गर्न नसक्ने कुरा भन्नु हो, र त्यसमा पनि gel time त कार्यशालाले दिनभरको काम मिलाउने आधार हो। यस grade को आफ्नै sheet का लागि हामीले Samrat Poly Resins, India समक्ष माग राखेका छौँ।",
+      "हामी भन्न सक्ने कुरा यो उत्पादन केका लागि हो भन्ने हो। यो mould-surface gelcoat होइन, general-purpose laminating resin हो। आपूर्ति हुँदाको रङले reinforced part को अन्तिम रङ तय गर्दैन — त्यो अनुहारमा लाग्ने gelcoat वा pigment ले तय गर्छ। उत्पादन सुरु गर्नुअघि कुनै अङ्क पक्का चाहिए भने कुन चाहिए भन्नुहोस्, हामी आपूर्तिकर्तासमक्ष प्रश्न पुर्याउँछौँ। हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट सोधपुछ गर्नुहोस्।",
     ],
     buyerNotes: [
       {
-        title: "Grade \u091b\u0928\u094b\u091f",
-        text: "GP White Resin water-white general-purpose grade \u0939\u094b; \u092f\u094b mould-surface gelcoat \u0915\u094b \u0935\u093f\u0915\u0932\u094d\u092a \u0939\u094b\u0907\u0928\u0964 \u092a\u0942\u0930\u094d\u0923 clear grade \u091a\u093e\u0939\u093f\u090f GP Clear Resin \u0930 \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928 \u0915\u093e\u0930\u094d\u092f\u0915\u093e \u0932\u093e\u0917\u093f Lamination Resin \u0939\u0947\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964",
+        title: "Grade छनोट",
+        text: "GP White Resin general-purpose laminating grade हो; यो mould-surface gelcoat को विकल्प होइन। प्रकाशित specification सहितको clear grade चाहिए GP Clear Resin, र लेमिनेसनकेन्द्रित कामका लागि Lamination Resin हेर्नुहोस्।",
       },
       {
-        title: "Thixotropy",
-        text: "medium-thixotropic \u0938\u094d\u0935\u092d\u093e\u0935\u0932\u0947 \u0922\u0932\u094d\u0915\u0947\u0915\u094b \u0935\u093e \u0920\u093e\u0921\u094b mould \u092e\u093e resin \u092c\u0917\u094d\u0928 \u0926\u093f\u0901\u0926\u0948\u0928, \u091c\u0938\u0932\u0947 laminate \u0915\u094b surface \u092e\u093e \u0938\u0915\u093e\u0930\u093e\u0924\u094d\u092e\u0915 \u0905\u0938\u0930 \u092a\u0930\u094d\u091b\u0964",
+        title: "हालको sheet ले के भन्छ",
+        text: "यस नाममा जारी sheet ले GP Clear Resin को दस्तावेज सन्दर्भ र गुण तालिका दोहोर्याउँछ, त्यसैले यो यस grade को वर्णन होइन। त्यसको आधारमा specification बनाउनुअघि हामीसँग सोध्नुहोस्।",
       },
       {
-        title: "\u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 \u092e\u093e\u0928\u0939\u0930\u0942",
-        text: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 350 cPs \u092d\u0928\u094d\u0926\u093e \u0915\u092e viscosity, 6 \u092e\u093f\u0928\u0947\u091f gel time \u0930 30\u201335% styrene content \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964 \u092f\u0940 \u092a\u094d\u0930\u0936\u094b\u0927\u0928 \u0924\u0925\u094d\u092f\u093e\u0919\u094d\u0915 \u0939\u0941\u0928\u094d, \u0917\u094d\u092f\u093e\u0930\u0947\u0923\u094d\u091f\u0940 \u0939\u094b\u0907\u0928\u0928\u094d\u0964",
+        title: "आपूर्ति हुँदाको रङ",
+        text: "उत्पादन GP White Resin नामले बिक्री हुन्छ, तर त्यसै नाममा जारी sheet ले देखिने रङ clear भन्छ। तपाईंको भागका लागि आपूर्ति हुँदाको रङ महत्त्वपूर्ण छ भने नाम वा दस्तावेजबाट अनुमान नगरी अर्डर अघि हामीसँग पक्का गर्नुहोस्।",
       },
     ],
     faqs: [
       {
-        q: "GP White Resin \u092d\u0928\u0947\u0915\u094b \u0915\u0947 \u0939\u094b?",
-        a: "GP White Resin \u090f\u0909\u091f\u093e water-white, general-purpose orthophthalic polyester resin \u0939\u094b\u0964 Samrat Poly Resins, India \u0915\u094b \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 \u092f\u0938\u0932\u093e\u0908 FRP panel, moulding, hand layup, spray-up, cooling tower \u0930 \u092a\u093e\u0928\u0940 \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940\u0915\u093e \u0932\u093e\u0917\u093f \u0938\u0942\u091a\u0940\u0915\u0943\u0924 \u0917\u0930\u0947\u0915\u094b \u091b\u0964",
+        q: "GP White Resin भनेको के हो?",
+        a: "एउटा general-purpose orthophthalic polyester resin। Samrat Poly Resins, India ले यसलाई FRP panel, moulding, hand layup, spray-up, cooling tower र पानी भण्डारण ट्याङ्कीका लागि सूचीबद्ध गरेको छ।",
       },
       {
-        q: "GP White Resin \u0930 GP Clear Resin \u092c\u0940\u091a \u0915\u0947 \u092b\u0930\u0915 \u091b?",
-        a: "\u0926\u0941\u0935\u0948 general-purpose orthophthalic resin \u0939\u0941\u0928\u094d\u0964 GP White Resin water-white \u0930 medium-thixotropic \u091b (\u0922\u0932\u094d\u0915\u0947\u0915\u094b surface \u092e\u093e \u092c\u0917\u094d\u0926\u0948\u0928), \u091c\u092c\u0915\u093f GP Clear Resin \u0915\u092e viscosity \u092d\u090f\u0915\u094b clear grade \u0939\u094b\u0964",
+        q: "प्रकाशित gel time, viscosity र styrene content के छ?",
+        a: "हामी प्रकाशित गर्दैनौँ, किनभने यस grade का लागि हामी ती प्रमाणित गर्न सक्दैनौँ। GP White Resin को नाममा हाल जारी Technical Data Sheet मा GP Clear Resin को दस्तावेज सन्दर्भ र गुण तालिका छ, त्यसैले त्यहाँबाट अङ्क लिनु भनेको अर्कै उत्पादनको अङ्क लिनु हो। सोध्नुहोस्, हामी Samrat Poly Resins, India समक्ष प्रश्न पुर्याउँछौँ।",
       },
       {
-        q: "\u0915\u0947 GP White Resin thixotropic \u0939\u094b?",
-        a: "\u0939\u094b \u2014 supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 \u092f\u0938\u0932\u093e\u0908 medium thixotropic \u092d\u0928\u094d\u091b, \u091c\u0938\u0932\u0947 \u0922\u0932\u094d\u0915\u0947\u0915\u094b \u0935\u093e \u0920\u093e\u0921\u094b mould surface \u092e\u093e \u092c\u0917\u094d\u0928 \u0935\u093e \u091a\u0941\u0939\u093f\u0928\u092c\u093e\u091f \u0930\u094b\u0915\u094d\u091b\u0964",
+        q: "GP White Resin र GP Clear Resin बीच के फरक छ?",
+        a: "दुवै एउटै general-purpose orthophthalic परिवारका छुट्टाछुट्टै उत्पादन हुन्, र GP Clear Resin को आफ्नै specification sheet छ जुन हामी प्रकाशित गर्छौँ। मापिएका गुणको फरकबारे इमानदार उत्तर यो हो — हामीसँग भएको आपूर्तिकर्ता कागजातले त्यो फरक स्थापित गर्दैन, किनभने सेतो grade का लागि जारी sheet ले clear grade कै तालिका दोहोर्याउँछ।",
       },
       {
-        q: "\u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 gel time, viscosity \u0930 styrene content \u0915\u0947 \u091b?",
-        a: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 6 \u092e\u093f\u0928\u0947\u091f gel time, 350 cPs \u092d\u0928\u094d\u0926\u093e \u0915\u092e viscosity \u0930 30\u201335% styrene content \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b, non-accelerated \u092a\u094d\u0930\u0923\u093e\u0932\u0940\u092e\u093e\u0964",
+        q: "के GP White Resin thixotropic हो?",
+        a: "हामी पक्का भन्न सक्दैनौँ। यस नाममा जारी sheet ले thixotropy लाई जानीजानी specification बाट हटाइएको छ भन्छ। ठाडो वा माथिल्लो mould अनुहारमा अडिने resin चाहिए भने भन्नुहोस् — हामी आपूर्तिकर्तासँग पक्का गर्छौँ वा जसको कागजातमा यो समेटिएको छ त्यस्तो grade देखाउँछौँ।",
       },
       {
-        q: "\u0915\u0938\u0930\u0940 cure \u0917\u0930\u093f\u0928\u094d\u091b?",
-        a: "non-accelerated \u092d\u090f\u0915\u093e\u0932\u0947 cobalt octoate accelerator \u0930 MEKP catalyst \u092e\u093f\u0938\u093e\u090f\u0930 room temperature \u092e\u093e cure \u0917\u0930\u093f\u0928\u094d\u091b; dose supplier TDS \u0905\u0928\u0941\u0938\u093e\u0930 workshop \u0905\u0935\u0938\u094d\u0925\u093e\u092e\u093e \u092e\u093f\u0932\u093e\u0907\u0928\u094d\u091b\u0964",
+        q: "कसरी cure गरिन्छ?",
+        a: "Room temperature मा MEKP catalyst ले, र non-accelerated grade मा cobalt octoate accelerator सँगै। Dose कति भन्ने कुरा सम्बन्धित grade का लागि निर्माताको कागजात र कार्यशालाको अवस्थाको विषय हो, त्यसैले यहाँ अङ्क राखिएको छैन।",
       },
     ],
-    applicationsIntro: "Supplier \u0915\u093e\u0917\u091c\u093e\u0924\u0932\u0947 FRP panel \u0930 \u0938\u093e\u092e\u093e\u0928\u094d\u092f moulding, hand layup \u0930 spray-up \u0915\u093e\u0930\u094d\u092f, cooling tower \u0930 \u092a\u093e\u0928\u0940 \u092d\u0923\u094d\u0921\u093e\u0930\u0923 \u091f\u094d\u092f\u093e\u0919\u094d\u0915\u0940\u092e\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0926\u091b\u0964",
+    applicationsIntro:
+      "Samrat Poly Resins, India ले यस grade लाई FRP panel र सामान्य moulding, hand layup र spray-up कार्य, cooling tower र पानी भण्डारण ट्याङ्कीका लागि सूचीबद्ध गरेको छ।",
     features: [
-      "Water-white \u0930\u0902\u0917, \u0915\u092e viscosity (<350 cPs)",
-      "Medium-thixotropic body \u0932\u0947 angled \u0938\u0924\u0939\u092e\u093e sagging \u0930\u094b\u0915\u094d\u091b",
-      "\u0915\u0941\u0936\u0932 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 cycles \u0915\u093e \u0932\u093e\u0917\u093f \u091b\u093f\u091f\u094b 6-\u092e\u093f\u0928\u0947\u091f gel time",
-      "Non-accelerated \u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u2014 workshop \u0905\u0935\u0938\u094d\u0925\u093e \u0905\u0928\u0941\u0938\u093e\u0930 MEKP \u0930 cobalt accelerator dose \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d",
-      "\u0938\u0941\u0938\u0902\u0917\u0924 processing \u0915\u093e \u0932\u093e\u0917\u093f 30\u201335% styrene content",
-      "\u0909\u0924\u094d\u0915\u0943\u0937\u094d\u091f fibreglass wet-out \u0930 mechanical strength",
+      "Laminating कामका लागि general-purpose orthophthalic polyester resin",
+      "Panel, moulding, hand layup र spray-up का लागि आपूर्तिकर्ताद्वारा सूचीबद्ध",
+      "Cooling tower र पानी ट्याङ्की निर्माणका लागि सूचीबद्ध",
+      "MEKP catalyst सँग room temperature मा cure",
+      "Grade-विशेष अङ्क प्रकाशित छैनन्: हालको sheet ले GP Clear Resin कै तालिका दोहोर्याउँछ",
+      "आपूर्ति हुँदाको रङ र प्रशोधन अङ्क सोधपुछमा पक्का गरिन्छ",
     ],
     industries: [
-      "FRP \u0930 composites \u0928\u093f\u0930\u094d\u092e\u093e\u0923",
-      "\u092a\u093e\u0928\u0940 \u091f\u094d\u092f\u093e\u0902\u0915\u0940 \u0930 \u092d\u0923\u094d\u0921\u093e\u0930\u0923",
-      "Cooling towers \u0930 \u0914\u0926\u094d\u092f\u094b\u0917\u093f\u0915 plants",
-      "\u0938\u093e\u092e\u093e\u0928\u094d\u092f moulding \u0930 fabrication",
+      "FRP र composites निर्माण",
+      "पानी ट्यांकी र भण्डारण",
+      "Cooling towers र औद्योगिक plants",
+      "सामान्य moulding र fabrication",
     ],
   },
 };

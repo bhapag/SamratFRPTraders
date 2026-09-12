@@ -2238,7 +2238,7 @@ export const resources = Object.freeze([
       {
         "href": "/products/gp-white-resin/",
         "label": "View GP White Resin",
-        "description": "Review its published 6-minute gel time, non-accelerated system and TDS alongside actual conditions."
+        "description": "The sheet issued under this name repeats GP Clear Resin's table, so read what the grade is for and confirm figures on enquiry."
       },
       {
         "href": "/products/gp-clear-resin/",
@@ -3624,8 +3624,8 @@ export const resources = Object.freeze([
         ],
         [
           "Packaging / MOQ",
-          "225 kg drum / 1,000 kg",
-          "225 kg drum / 1,000 kg"
+          "Confirmed on enquiry for Nepal",
+          "Confirmed on enquiry for Nepal"
         ]
       ]
     },
@@ -8126,9 +8126,9 @@ export const resources = Object.freeze([
       "ogDescription": "Understand GP White Resin as a published water-white general-purpose polyester grade, and separate it from clear GP resin and white gelcoat roles."
     },
     "quickFacts": {
-      "Published appearance": "Water White",
+      "Published appearance": "Not established \u2014 the sheet issued under this name gives the appearance as clear",
       "Product role": "General-purpose orthophthalic polyester resin for reinforced FRP contexts",
-      "Published process data": "Below 350 cPs viscosity; 6-minute gel time; medium thixotropic",
+      "Published process data": "None for this grade \u2014 the Technical Data Sheet issued under this name repeats GP Clear Resin's table",
       "Do not assume": "The supplied resin appearance alone determines the finished FRP surface colour"
     },
     "relatedSlugs": [
@@ -8321,7 +8321,7 @@ export const resources = Object.freeze([
       "ogDescription": "Compare supplied appearance, published viscosity, gel time and product role before choosing a general-purpose GP polyester resin."
     },
     "quickFacts": {
-      "GP White Resin": "Water White; below 350 cPs; 6-minute gel time; medium thixotropic",
+      "GP White Resin": "No grade-specific figures published; the sheet issued under this name repeats GP Clear Resin's table",
       "GP Clear Resin": "Clear; 350-450 cPs; gel time under 8 minutes",
       "Shared role": "Published general-purpose orthophthalic polyester grades for FRP work",
       "Selection rule": "Do not use supplied colour alone to predict the final reinforced or surface-finished part"
@@ -8337,28 +8337,28 @@ export const resources = Object.freeze([
       "rows": [
         [
           "Published appearance",
-          "Water White",
+          "Not established by the current sheet",
           "Clear"
         ],
         [
           "Published viscosity",
-          "Below 350 cPs",
+          "Not published for this grade",
           "350-450 cPs"
         ],
         [
           "Published gel time",
-          "6 minutes",
+          "Not published for this grade",
           "Under 8 minutes"
         ],
         [
           "Thixotropy",
-          "Medium Thixotropic",
+          "Not published \u2014 the sheet excludes thixotropy from its specification set",
           "Not published in the GP Clear product table"
         ],
         [
           "Packaging / MOQ",
-          "225 kg drum / 1,000 kg",
-          "225 kg drum / 1,000 kg"
+          "Confirmed on enquiry for Nepal",
+          "Confirmed on enquiry for Nepal"
         ]
       ]
     },
@@ -8410,7 +8410,7 @@ export const resources = Object.freeze([
       {
         "heading": "Compare the published technical data",
         "body": [
-          "GP White Resin is published with viscosity below 350 cPs, a 6-minute gel time and medium thixotropy. GP Clear Resin is published with 350-450 cPs viscosity and gel time under 8 minutes. Review those values with the actual mould, reinforcement, process and workshop conditions.",
+          "GP Clear Resin has a specification sheet of its own, published with 350-450 cPs viscosity and a gel time under 8 minutes. GP White Resin does not: the sheet issued under its name carries GP Clear Resin's document reference and repeats GP Clear Resin's table, so there is no separate set of values to compare. Ask us before specifying against it, and review whatever the supplier confirms against the actual mould, reinforcement, process and workshop conditions.",
           "Do not transfer thixotropy, gel time, storage or any other figure from one grade to the other unless it is published for that exact product."
         ]
       },
@@ -8592,7 +8592,7 @@ export const resources = Object.freeze([
       {
         "heading": "Review the published product data",
         "body": [
-          "The GP White Resin page publishes Water White appearance, below 350 cPs viscosity, 6-minute gel time, medium thixotropy, a non-accelerated curing system, 225 kg drum packaging and a 1,000 kg MOQ. Check the TDS for the exact grade before selection."
+          "The GP White Resin page publishes no figures, and says why: the Technical Data Sheet issued under that name carries GP Clear Resin's document reference and repeats GP Clear Resin's property table. Packaging and order quantities for Nepal are confirmed on enquiry rather than taken from the supplier's Indian documentation."
         ]
       },
       {

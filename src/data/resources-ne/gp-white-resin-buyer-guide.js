@@ -9,7 +9,7 @@ export default {
   quickFacts: {
     "सुरु गर्नुहोस्": "वास्तविक FRP component र manufacturing process बाट",
     "Appearance जाँच": "Water-white supplied resin बनाम आवश्यक तयार appearance",
-    "प्रकाशित व्यावसायिक विवरणहरू": "225 kg drum packaging र 1,000 kg MOQ",
+    "व्यावसायिक विवरणहरू": "नेपालका लागि प्याकेजिङ र न्यूनतम परिमाण सोधपुछमा पक्का गरिन्छ",
     "प्राविधिक नियन्त्रण": "ठ्याक्कै shortlist गरिएको grade को GP White Resin TDS"
   },
   recommendedLinks: [
@@ -59,7 +59,7 @@ export default {
     {
       heading: "प्रकाशित उत्पादन डाटा समीक्षा गर्नुहोस्",
       body: [
-        "GP White Resin page ले Water White appearance, 350 cPs भन्दा कम viscosity, 6-minute gel time, medium thixotropy, non-accelerated curing प्रणाली, 225 kg drum packaging र 1,000 kg MOQ प्रकाशित गर्छ। छनोटअघि ठ्याक्कै grade को TDS जाँच्नुहोस्।"
+        "GP White Resin page ले कुनै अङ्क प्रकाशित गर्दैन, र किन गर्दैन भन्ने पनि बताउँछ: त्यसै नाममा जारी Technical Data Sheet मा GP Clear Resin कै दस्तावेज सन्दर्भ र गुण तालिका छ। नेपालका लागि प्याकेजिङ र न्यूनतम परिमाण आपूर्तिकर्ताको भारतीय कागजातबाट होइन, सोधपुछमा पक्का गरिन्छ।"
       ]
     },
     {

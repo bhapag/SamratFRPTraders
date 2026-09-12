@@ -173,11 +173,14 @@ export const products = Object.freeze([
     titleInput: 'Lamination Resin \u2014 Nepal Supplier',
     metaDescription:
       'Lamination Resin (LR Resin) \u2014 an orthophthalic unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
-    descriptor: 'Orthophthalic unsaturated polyester resin; also known as LR Resin.',
+    // The TDS for this grade (SPR-TDS-LR) gives the resin type as
+    // "Polyester (unsaturated), transparent" and never says orthophthalic, so
+    // the descriptor no longer adds a backbone the source does not state.
+    descriptor: 'Transparent unsaturated polyester resin; also known as LR Resin.',
     overview:
-      'According to current Samrat Poly Resins, India documentation, Lamination Resin \u2014 also known as LR Resin \u2014 is an orthophthalic unsaturated polyester resin. The supplier lists it for lamination and bonding work; technical specifications are published in the supplier\u2019s Technical Data Sheet.',
+      'According to current Samrat Poly Resins, India documentation, Lamination Resin \u2014 also known as LR Resin \u2014 is a transparent unsaturated polyester resin. The supplier lists it for lamination and bonding work; technical specifications are published in the supplier\u2019s Technical Data Sheet.',
     technicalHighlights: Object.freeze([
-      Object.freeze({ label: 'Resin type', value: 'Orthophthalic, unsaturated polyester' }),
+      Object.freeze({ label: 'Resin type', value: 'Unsaturated polyester, transparent' }),
       Object.freeze({ label: 'Curing system', value: 'Room temperature cure' }),
       Object.freeze({ label: 'Viscosity', value: '400 cPs' }),
       Object.freeze({ label: 'Gel time', value: '5 minutes' }),
@@ -267,22 +270,19 @@ export const products = Object.freeze([
     ]),
     titleInput: 'GP White Resin \u2014 Nepal Supplier',
     metaDescription:
-      'GP White Resin \u2014 a white orthophthalic polyester resin supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
-    descriptor: 'White orthophthalic polyester resin.',
+      'GP White Resin \u2014 a general-purpose orthophthalic polyester resin supplied and imported for Nepal by Samrat FRP Traders. Grade-specific figures confirmed on enquiry.',
+    descriptor: 'General-purpose orthophthalic polyester resin.',
     overview:
-      'According to current Samrat Poly Resins, India documentation, GP White Resin is an orthophthalic polyester resin. The supplier lists it for panels, general-purpose moulding, hand layup and spray-up work. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
-    technicalHighlights: Object.freeze([
-      Object.freeze({ label: 'Resin type', value: 'Orthophthalic' }),
-      Object.freeze({ label: 'Curing system', value: 'Non-accelerated' }),
-      Object.freeze({ label: 'Viscosity', value: '< 350 cPs' }),
-      Object.freeze({ label: 'Gel time', value: '6 minutes' }),
-      Object.freeze({ label: 'Thixotropy', value: 'Medium thixotropic' }),
-      Object.freeze({ label: 'Styrene content', value: '30\u201335%' }),
-    ]),
-    technicalSource: Object.freeze({
-      issuer: 'Samrat Poly Resins, India',
-      type: 'Technical Data Sheet',
-    }),
+      'Samrat Poly Resins, India lists GP White Resin as a general-purpose orthophthalic polyester resin for panels, moulding, hand layup and spray-up work. No technical figures are published here: the Technical Data Sheet currently issued under this name carries GP Clear Resin\u2019s document reference and repeats GP Clear Resin\u2019s property table, so it does not describe this grade. Grade-specific values are confirmed on enquiry.',
+    // The figures that stood here \u2014 < 350 cPs, a 6-minute gel time, medium
+    // thixotropy and 30-35% styrene \u2014 were attributed to the supplier TDS and
+    // are not in it. The sheet issued under the name GP White Resin is GP Clear
+    // Resin's sheet with the product name changed: same document reference
+    // (SPR-TDS-GCR), same description, same table, appearance given as "Clear".
+    // Verified against both the copy published here and the file on the
+    // supplier's own site. Until a sheet exists for this grade there is nothing
+    // to publish, and another grade's numbers are not a substitute.
+    technicalHighlights: Object.freeze([]),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
@@ -295,7 +295,7 @@ export const products = Object.freeze([
         url: 'https://samratpolyresins.in/sds/gp-white-resin-sds.pdf',
       }),
     ]),
-    technicalEvidenceStatus: 'verified',
+    technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
   Object.freeze({
