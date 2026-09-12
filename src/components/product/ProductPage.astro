@@ -6,6 +6,7 @@ import { getGroup } from '../../data/products.js';
 import { buildCanonicalUrl, buildWhatsAppIntentLink } from '../../data/site.js';
 import {
   applicationsFor,
+  primaryApplicationsFor,
   comparisonsFor,
   guidesFor,
   localDocUrl,
@@ -29,7 +30,13 @@ const group = getGroup(product.group);
 const content = getProductContent(product.slug);
 const localized = content ? (isNe ? content.ne : content.en) : null;
 
-const apps = applicationsFor(product).slice(0, 6);
+// Guides written ABOUT this product are all shown. The previous flat cap of
+// six hid five of GP Clear Resin's eleven and one of GP Yellow's seven behind
+// nothing at all: there was no route to them from the product they belong to.
+// The cap still applies to the fallback list, where the product is a material
+// in someone else's job and the tail adds little.
+const subjectApps = primaryApplicationsFor(product);
+const apps = subjectApps.length > 0 ? subjectApps : applicationsFor(product).slice(0, 6);
 const allResources = resourcesFor(product);
 const comparisons = comparisonsFor(product);
 const guides = guidesFor(product);

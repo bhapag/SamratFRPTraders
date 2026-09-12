@@ -4,6 +4,7 @@
 // Narrative localisation continues in batches; technical facts remain source-attributed.
 
 import { extraApplications } from './applications-extra.js';
+import { extraApplications2 } from './applications-extra-2.js';
 
 export const applications = Object.freeze([
   {
@@ -2705,4 +2706,5 @@ export const applications = Object.freeze([
     "ctaText": "Share the finished roof-light or roofing sheet, required supplied appearance, reinforcement context if known, expected quantity and delivery location so the product role and current TDS can be reviewed."
   },
   ...extraApplications,
+  ...extraApplications2,
 ]);

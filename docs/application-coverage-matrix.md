@@ -1,16 +1,19 @@
 # Application coverage matrix
 
-What this records: for each of the 33 products, whether it has a job-led page in
-`/applications/`, and where it does not, why that is the right answer rather than
-an outstanding gap.
+What this records: for each of the 33 products, whether a buyer standing on that
+product page can reach a job-led guide, and where they cannot, why that is the
+right answer rather than an outstanding gap.
 
-Two different things are easy to confuse here, and the distinction is the whole
-point of this file.
+The audit behind this file reads the **rendered English product pages**, not the
+data files. An article existing somewhere in the repository has never counted as
+coverage here; the question is what the product page actually links to.
 
-- **`/applications/` pages are job-led.** They are written for someone who
-  manufactures a thing and is searching for how it is made: "resin for water tank
-  manufacturing", "cultured marble manufacturing". They carry a process, the
-  characteristics the job demands, and what the buyer should settle first.
+Two different things are easy to confuse, and the distinction is the point.
+
+- **`/applications/` pages are job-led.** Written for someone who makes a thing
+  and wants to know how it is made: "cultured marble manufacturing", "FRP
+  effluent and process tanks". They carry a process, the characteristics the job
+  demands, and what to settle before ordering.
 - **Application Guide resources in `/resources/` are product-led.** They set out
   the contexts a product's own Technical Data Sheet lists. They answer "what is
   this grade documented for", not "how is this thing made".
@@ -18,95 +21,112 @@ point of this file.
 A product without a `/applications/` page is not uncovered if the job it belongs
 to is already covered, or if there is no distinct job to write about.
 
-## Covered by a job-led application page
+## Subject versus material
 
-Every product below is the subject of at least one `/applications/` page, or
-appears in one as a material the job genuinely needs.
+Every application declares the product it is **about** in `primaryProductSlugs`.
+Other products it needs sit in `relatedProductSlugs`. Product pages surface the
+guides they are the subject of; where a product is never a subject, they fall
+back to the jobs it is used in. This is why no gelcoat or GP Yellow guide appears
+on GP Clear Resin, and the audit asserts that: it reports any application
+surfaced on a product page that is neither subject nor declared material, and
+that list is currently empty.
 
-| Product | Job-led coverage |
+Guides a product is the subject of are now shown in full rather than capped at
+six. The cap had hidden five of GP Clear Resin's eleven and one of GP Yellow's
+seven behind no route at all.
+
+## Products with a job-led guide of their own
+
+| Product | Subject of |
 | --- | --- |
-| GP Clear Resin | Subject of the eleven `resin-for-*` guides |
-| GP Yellow Resin | Subject of the seven `gp-yellow-resin-for-*` guides |
-| Lamination Resin | Subject of the six lamination guides |
-| GP Gelcoat Resin | Subject of the five `gelcoat-for-*` guides |
-| Vinyl Ester Resin | Subject of the four vinyl ester guides |
-| Clear Casting Resin | Subject of the three epoxy casting guides |
-| Roof Light Resin | Subject of the roof light sheet guide |
-| Marble Resin | Subject of Cultured Marble and Artificial Stone Manufacturing |
-| DMC/SMC Resin | Subject of DMC and SMC Compression Moulding |
-| Button Grade Resin | Subject of Polyester Button Manufacturing |
-| Fire Retardant Resin | Subject of Fire-Retardant FRP Panels, Cladding and Enclosures |
-| ISO Fire Retardant Resin | Subject of FRP for Corrosive Service With a Fire Requirement |
-| ISO Gelcoat | Material in the boat hull and bathware gelcoat guides |
-| ISO Polyester Resin | Material in the cooling tower guide |
-| UV Stabilized Sheet Grade Yellow Resin | Material in both roofing sheet guides |
-| Sheet Grade Yellow Resin | Material in the roofing and roof light guides |
-| Glass Fiber Mat | Material across the laminating guides |
-| MEKP Hardener | Material across the catalysed guides |
-| Cobalt Octoate | Material in the sixteen guides whose own text names it |
-| Paint Brushes | Material in the hand lay-up and moulding guides |
-| FRP Polyester Pigment | Material in the pigmented guides |
-| Epoxy Hardener | Material in the epoxy casting guides |
-| Epoxy Art Resin | Material in the epoxy casting process guide |
-| GP Quartz Resin | Material in the cultured marble guide |
-| Soap Stone Powder | Material in the compression moulding guide |
-| Wax Polish | Material in the button manufacturing guide |
+| GP Clear Resin | the eleven `resin-for-*` guides |
+| GP Yellow Resin | the seven `gp-yellow-resin-for-*` guides |
+| Lamination Resin | the six lamination guides |
+| GP Gelcoat Resin | the five `gelcoat-for-*` guides |
+| Vinyl Ester Resin | four guides: chemical tanks, pipelines and scrubbers, filament winding, pultrusion |
+| Clear Casting Resin | three epoxy casting guides |
+| Marble Resin | Cultured Marble and Artificial Stone Manufacturing |
+| DMC/SMC Resin | DMC and SMC Compression Moulding |
+| Button Grade Resin | Polyester Button Manufacturing |
+| Fire Retardant Resin | Fire-Retardant FRP Panels, Cladding and Enclosures |
+| ISO Fire Retardant Resin | FRP for Corrosive Service With a Fire Requirement |
+| Roof Light Resin | Roof Light Sheet Resin for FRP Roofing and Skylight Sheets |
+| ISO Polyester Resin | FRP Effluent and Process Tanks |
+| ISO Gelcoat | Gelcoat for Swimming Pools and Water Slides |
+| UV Stabilized Sheet Grade Yellow Resin | Coloured FRP Sheet and Cladding Manufacturing |
+| Polyester Putty Resin | Manufacturing Polyester Putty and Filler Products |
+| Fiberglass Epoxy Resin | FRP Repair and Reinforcement with Epoxy |
+| GP Quartz Resin | Engineered Quartz and Cast Stone Surface Manufacturing |
+
+## Products reached as a declared material
+
+These are correctly described as supporting materials on real fabrication pages
+rather than given a page of their own. That is a deliberate decision per product,
+recorded here.
+
+| Product | Appears in | Why not a page of its own |
+| --- | --- | --- |
+| MEKP Hardener | 39 jobs | An initiator, never the subject of a job. Its own buyer guide covers the material. |
+| Cobalt Octoate | 17 jobs | An accelerator. The separation rule that matters is in its own guide, not in a job page. |
+| Glass Fiber Mat | 28 jobs | Reinforcement. Its selection belongs inside each laminating job. |
+| FRP Polyester Pigment | 15 jobs | Colour. Nothing is manufactured *from* pigment. |
+| Epoxy Hardener | 4 jobs | A curing agent whose pairing is the question, and pairing is covered where it arises. |
+| Sheet Grade Yellow Resin | 4 jobs | Shares its jobs with the roofing and cladding guides; a parallel page would repeat them. |
+| Paint Brushes | 4 jobs | A tool. Correctly listed where hand lay-up and gelcoat work actually happens. |
+| Soap Stone Powder | 3 jobs | A filler, listed in the compounding, putty and quartz jobs that use it. |
+| Epoxy Art Resin | 1 job | Present in the epoxy casting process guide; its distinct work is covered by the casting pages. |
+| Wax Polish | 1 job | A mould release. Its failure modes are a troubleshooting subject, not a manufacturing job. |
+| Styrene Monomer | 1 job | A reactive diluent and a component of every polyester resin supplied. Not something anything is made from. |
+| NC Thinner | 1 job | A lacquer solvent and tool-cleaning material. Listed on the repair job where it is genuinely used. |
 
 ## Justified exceptions
 
-These seven have no `/applications/` page, and each has a reason rather than a
-backlog entry. Every one of them carries product-led coverage instead, which is
-listed so the alternative is checkable rather than asserted.
+Three products surface no application at all, and each has a reason.
 
 **Unsaturated Polyester Resin.** Not a separate product. It is the generic
 commercial description under which the GP Clear grade is also sold, and the
 supplier documentation confirms the two are the same formulation. GP Clear is
-already the subject of eleven job-led guides, so a second set under the generic
-name would duplicate them and split the same content across two URLs. Covered by
+already the subject of eleven job-led guides; a second set under the generic name
+would split identical content across two URLs. Covered by
 `what-is-gp-polyester-resin` and `how-to-select-polyester-resin-for-frp-manufacturing`,
 both of which link it.
 
 **GP White Resin.** A pigmented member of the general-purpose family. The jobs it
-is used for are the same jobs the clear grade is the subject of, and what differs
-is appearance rather than process, so a parallel set of job pages would repeat
-the clear grade's content with one adjective changed. Covered by eleven
-resources including `applications-of-gp-white-resin` and a direct comparison
-against GP Clear.
-
-**Polyester Putty Resin.** The supplier documents it for sheet, laminate and panel
-contexts rather than for a job of its own, and we hold no evidence for a distinct
-manufacturing process to describe. Writing one would mean inventing the process.
-Covered by eight resources including `polyester-putty-resin-applications` and the
-technical and RFQ guide.
-
-**Fiberglass Epoxy Resin.** Epoxy laminating work spans too many different jobs for
-one page to serve, and the useful question for a buyer is which system and
-hardener rather than how a particular item is made. Covered by ten resources
-including `fiberglass-epoxy-resin-applications`, which is a selection guide, and a
-system and hardener guide.
+is used for are the jobs the clear grade is the subject of, and what differs is
+appearance rather than process, so a parallel set of pages would repeat the clear
+grade's content with one adjective changed. Covered by eleven resources including
+`applications-of-gp-white-resin` and a direct comparison against GP Clear.
 
 **Bisphenol Resin.** A speciality corrosion grade whose selection is driven by the
 chemical, its concentration and its temperature rather than by the shape of the
-part. The job-led pages that cover that territory already exist under vinyl ester
-and the ISO fire-retardant grade. Covered by six resources including
-`bisphenol-resin-applications` and a technical data and document check.
+part. The job-led territory that question belongs to is already covered by the
+vinyl ester pages above it and the ISO Polyester effluent and process tank page
+below it. Covered by six resources including `bisphenol-resin-applications` and a
+technical data and document check.
 
-**Styrene Monomer.** A reactive diluent and a component of every polyester resin
-supplied, not the subject of a manufacturing job. Covered by
-`styrene-monomer-guide` and by `nc-thinner-vs-styrene-monomer`, which addresses
-the confusion that actually costs fabricators money.
+## Evidence boundaries
 
-**NC Thinner.** A lacquer solvent and a tool-cleaning material. It has a real place
-in an FRP workshop but it is not what anything is made from. Covered by
-`nc-thinner-guide` and the same comparison.
+Three grades have no supplier Technical Data Sheet or Safety Data Sheet on file:
+ISO Polyester Resin, ISO Gelcoat and UV Stabilized Sheet Grade Yellow Resin.
+Their pages carry no figures and say so on the page.
+
+The product posters published in commit 4441104 print viscosity, gel time,
+styrene and pack-size values, and the same three values appear on two different
+chemistries. Those figures are **not** repeated in article text as verified
+specifications. Artwork is not a data sheet, and each affected page states that
+explicitly rather than leaving the omission unexplained.
+
+Where a grade does have documents on file, published values are quoted with
+Samrat Poly Resins, India named as the issuer. Samrat FRP Traders is the Nepal
+supplier, importer and reseller throughout, never the manufacturer.
 
 ## Keeping this honest
 
 If a product moves out of an exception — a supplier document arrives describing a
-distinct process, or a real buyer asks for a job this range does not cover — it
-belongs in the first table, with a page written from the job. The exceptions here
-are judgements about the present evidence, not permanent decisions.
+distinct process, or a buyer asks for a job this range does not cover — it belongs
+in the first table with a page written from the job. The exceptions here are
+judgements about present evidence, not permanent decisions.
 
-No entry in either table depends on photography. The five newest pages carry no
-images at all, and both the applications index and the guide hero fall back to a
-text-first treatment rather than requesting a file that does not exist.
+No entry depends on photography. The twelve newest pages carry no images, and
+both the applications index tile and the guide hero fall back to a text-first
+treatment rather than requesting a file that does not exist.

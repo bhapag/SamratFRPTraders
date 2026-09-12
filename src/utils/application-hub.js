@@ -9,6 +9,11 @@
 
 const INDUSTRY_GROUPS = [
   {
+    slug: 'surface-repair-finishing',
+    name: 'Surface, Repair & Finishing',
+    test: (slug) => /putty-and-filler|repair-and-reinforcement/.test(slug),
+  },
+  {
     slug: 'fire-performance',
     name: 'Fire-Performance FRP',
     test: (slug) => slug.includes('fire-retardant'),
@@ -16,7 +21,7 @@ const INDUSTRY_GROUPS = [
   {
     slug: 'cast-stone-moulding',
     name: 'Cast Stone, Moulding & Small Components',
-    test: (slug) => /cultured-marble|compression-moulding|button-manufacturing/.test(slug),
+    test: (slug) => /cultured-marble|compression-moulding|button-manufacturing|engineered-quartz/.test(slug),
   },
   {
     slug: 'marine-automotive-gelcoat',
@@ -49,13 +54,14 @@ const INDUSTRY_GROUPS = [
     slug: 'tanks-roofing-structural',
     name: 'Tanks, Roofing & Structural Sheet',
     test: (slug) =>
-      /water-tank|cooling-tower|chemical-storage-tank|roofing-sheet|roof-light-sheet|pipelines-ducts-scrubbers|frp-panel-manufacturing/.test(
+      /water-tank|cooling-tower|chemical-storage-tank|roofing-sheet|roof-light-sheet|pipelines-ducts-scrubbers|frp-panel-manufacturing|effluent-and-process-tanks|coloured-frp-sheet/.test(
         slug,
       ),
   },
 ];
 
 const DISPLAY_ORDER = [
+  'surface-repair-finishing',
   'fire-performance',
   'cast-stone-moulding',
   'tanks-roofing-structural',
