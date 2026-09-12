@@ -318,6 +318,20 @@
       }
     },
     {
+      "src": "^/resources/polyester-putty-resin-vs-ready-mixed-body-filler/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/is-polyester-putty-resin-a-body-filler/"
+      }
+    },
+    {
+      "src": "^/en/resources/polyester-putty-resin-vs-ready-mixed-body-filler/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/is-polyester-putty-resin-a-body-filler/"
+      }
+    },
+    {
       "handle": "filesystem"
     },
     {

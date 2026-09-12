@@ -30,8 +30,8 @@ const neProduct = {
 
 export const polyesterPuttyResinCluster = [
   {
-    slug: 'polyester-putty-resin-vs-ready-mixed-body-filler',
-    title: 'Polyester Putty Resin vs Ready-Mixed Body Filler: What Actually Arrives',
+    slug: 'is-polyester-putty-resin-a-body-filler',
+    title: 'Is Polyester Putty Resin a Ready-Mixed Body Filler? What Actually Arrives',
     description:
       'The product name says putty, the drum contains liquid resin. What Samrat Poly Resins, India documents this grade as, how it differs from a two-part body filler bought by the tin, and which of the two your job actually needs.',
     category: 'Product Selection',
@@ -39,13 +39,13 @@ export const polyesterPuttyResinCluster = [
     readingTime: '6 min read',
     publishDate: '2026-09-12',
     seo: {
-      title: 'Polyester Putty Resin vs Ready-Mixed Body Filler | Nepal',
-      ogTitle: 'Polyester Putty Resin vs Body Filler: What Arrives',
+      title: 'Is Polyester Putty Resin a Body Filler? | Nepal Supplier',
+      ogTitle: 'Is Polyester Putty Resin a Body Filler?',
       ogDescription:
         'A liquid unsaturated polyester resin, not a tub of two-part filler. What the supplier documents, and which one your job needs.',
       keywords: [
         'polyester putty resin',
-        'body filler vs polyester resin',
+        'polyester putty resin body filler',
         'polyester putty Nepal',
         'two part body filler',
         'polyester putty resin supplier Nepal',
@@ -146,12 +146,12 @@ export const polyesterPuttyResinCluster = [
       },
     ],
     ne: {
-      title: 'Polyester Putty Resin बनाम तयारी Body Filler: वास्तवमा के आउँछ',
+      title: 'के Polyester Putty Resin तयारी Body Filler हो? वास्तवमा के आउँछ',
       description:
         'नाममा putty छ, drum मा liquid resin। Samrat Poly Resins, India ले यस grade लाई कसरी दस्तावेजीकृत गरेका छन्, टिनमा किनिने दुई-भागे body filler भन्दा यो कसरी फरक छ, र तपाईंको कामलाई वास्तवमा कुन चाहिन्छ।',
       seo: {
-        title: 'Polyester Putty Resin बनाम तयारी Body Filler | नेपाल',
-        ogTitle: 'Polyester Putty Resin बनाम Body Filler: के आउँछ',
+        title: 'के Polyester Putty Resin एउटा Body Filler हो? | नेपाल',
+        ogTitle: 'के Polyester Putty Resin एउटा Body Filler हो?',
         ogDescription:
           'यो liquid unsaturated polyester resin हो, दुई-भागे filler को टिन होइन। आपूर्तिकर्ताले के दस्तावेजीकृत गरेका छन्, र तपाईंलाई कुन चाहिन्छ।',
         keywords: [
