@@ -75,7 +75,7 @@ const t = isNe
       bulkQuote: 'थोक कोटेशन माग्नुहोस्',
       enquire: 'सोधपुछ / कोटेशन',
       whatsapp: 'WhatsApp',
-      mediaNote: 'उत्पादन फोटो — स्वामीबाट प्राप्त भएपछि यहाँ देखाइनेछ।',
+      mediaNote: 'यस उत्पादनको फोटो अहिले उपलब्ध छैन। हालको उत्पादन विवरण सोधपुछमा पुष्टि गरिन्छ।',
       aboutTitle: 'उत्पादनबारे थप',
       buyerTitle: 'खरिदकर्ताका लागि यसको अर्थ',
       featuresTitle: 'मुख्य विशेषताहरू',
@@ -118,7 +118,7 @@ const t = isNe
       bulkQuote: 'Request Bulk Quote',
       enquire: 'Enquire / get quote',
       whatsapp: 'WhatsApp',
-      mediaNote: 'Product photography — owner input required. This area is reserved for the official product visual.',
+      mediaNote: 'A product photo is not available for this grade. Current product details are confirmed on enquiry.',
       aboutTitle: 'About this product',
       buyerTitle: 'What this means for buyers',
       featuresTitle: 'Key features',
@@ -264,7 +264,7 @@ const docActions = [
       <div
         class="media-frame"
         role="img"
-        aria-label={isNe ? 'उत्पादन फोटोको लागि आरक्षित क्षेत्र' : 'Reserved product photography area'}
+        aria-label={isNe ? 'उत्पादन फोटो उपलब्ध छैन' : 'Product photo not available'}
       >
         <img class="media-mark" src="/brand/samrat-frp-traders-mark.png" alt="" width="320" height="320" />
         <p class="media-note">{t.mediaNote}</p>

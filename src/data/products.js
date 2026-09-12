@@ -1093,10 +1093,10 @@ export const products = Object.freeze([
     slug: 'polyester-putty-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
-    images: Object.freeze([
-      Object.freeze({ src: 'pet-resin-primary.webp', width: 700, height: 700 }),
-      Object.freeze({ src: 'pet-resin-secondary.webp', width: 700, height: 731 }),
-    ]),
+    // No product image. The only posters on file are PET Resin posters that
+    // print PET sheet-grade figures and PET-bottle applications, which do not
+    // describe this putty-making grade. The files stay in public/ unlinked.
+    images: Object.freeze([]),
     titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
     metaDescription:
       'Polyester Putty Resin — a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Technical figures confirmed on enquiry.',

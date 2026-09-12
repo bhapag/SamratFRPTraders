@@ -23,7 +23,6 @@ export const cardDerivatives = new Set([
   'epoxy-art-resin-primary.webp',
   'epoxy-hardener-primary.webp',
   'dmc-smc-resin-primary.webp',
-  'pet-resin-primary.webp',
   'marble-resin-primary.webp',
   'vinyl-ester-resin-primary.webp',
   'fiberglass-epoxy-resin-primary.webp',
