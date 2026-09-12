@@ -346,6 +346,13 @@
       }
     },
     {
+      "src": "^/(images/products/(iso-polyester-resin-primary\\.jpg|pet-resin-(primary|secondary)\\.webp)|tds/pet-resin-tds\\.pdf)$",
+      "headers": {
+        "X-Robots-Tag": "noindex"
+      },
+      "continue": true
+    },
+    {
       "handle": "filesystem"
     },
     {
