@@ -33,6 +33,11 @@ const TYPES = {
 };
 
 const PHONE_WIDTHS = [360, 390, 430];
+// Tablet widths still use the overlay menu (the header switches at 820px).
+const OVERLAY_WIDTHS = [...PHONE_WIDTHS, 768, 800];
+// Portrait tablet heights (768x1024, 800x1280); a short landscape viewport
+// scrolls the overlay, which is expected.
+const TABLET_HEIGHT = { 768: 1024, 800: 1280 };
 const ROUTES = [
   { lang: 'ne', home: '/', catalogue: '/products/', category: '/products/gelcoat/' },
   { lang: 'en', home: '/en/', catalogue: '/en/products/', category: '/en/products/gelcoat/' },
@@ -85,10 +90,10 @@ async function main() {
 
   // 1. The overlay must fit the viewport it opens in. This is the assertion
   //    that fails on the regression.
-  for (const width of PHONE_WIDTHS) {
+  for (const width of OVERLAY_WIDTHS) {
     for (const route of ROUTES) {
       const ctx = await browser.newContext({
-        viewport: { width, height: 740 }, hasTouch: true, isMobile: true,
+        viewport: { width, height: TABLET_HEIGHT[width] ?? 740 }, hasTouch: true, isMobile: true,
       });
       const page = await ctx.newPage();
       await page.goto(base + route.home, { waitUntil: 'networkidle' });
@@ -157,7 +162,7 @@ async function main() {
   }
 
   // 3. One tap, one destination: catalogue, category and product.
-  for (const width of [390, 800, 1280]) {
+  for (const width of [...OVERLAY_WIDTHS, 1280]) {
     for (const route of ROUTES) {
       const ctx = await browser.newContext({
         viewport: { width, height: 820 }, hasTouch: true, isMobile: width < 500,
@@ -237,7 +242,7 @@ async function main() {
     failures.forEach((f) => console.log('  - ' + f));
     process.exit(1);
   }
-  console.log('PASS — one tap, one destination, at 360/390/430/800/1280 in both languages.');
+  console.log('PASS — one tap, one destination, at 360/390/430/768/800/1280 in both languages.');
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
