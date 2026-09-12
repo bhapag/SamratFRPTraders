@@ -94,6 +94,11 @@ export default {
       href: "/applications/resin-for-hand-lay-up-process/",
       label: "Hand lay-up guide",
       description: "सामान्य GP Clear Resin process प्रयोग केस समीक्षा गर्नुहोस्।"
+    },
+    {
+      href: "/products/unsaturated-polyester-resin/",
+      label: "Unsaturated Polyester Resin हेर्नुहोस्",
+      description: "यो resin वर्ग बेचिने सामान्य व्यावसायिक नाम।"
     }
   ],
   faqs: [

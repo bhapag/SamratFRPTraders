@@ -165,6 +165,11 @@ export const resources = Object.freeze([
         "href": "/resources/applications-of-gp-polyester-resin/",
         "label": "Explore GP Resin applications",
         "description": "Match the resin discussion to the finished FRP product."
+      },
+      {
+        "href": "/products/unsaturated-polyester-resin/",
+        "label": "Unsaturated Polyester Resin",
+        "description": "The generic commercial description this resin class is also sold under."
       }
     ],
     "faqs": [
@@ -744,6 +749,11 @@ export const resources = Object.freeze([
           "href": "/resources/applications-of-gp-polyester-resin/",
           "label": "GP Resin प्रयोगहरू हेर्नुहोस्",
           "description": "Resin छलफललाई तयार FRP उत्पादनसँग मिलाउनुहोस्।"
+        },
+        {
+          "href": "/products/unsaturated-polyester-resin/",
+          "label": "Unsaturated Polyester Resin हेर्नुहोस्",
+          "description": "यो resin वर्ग बेचिने सामान्य व्यावसायिक नाम।"
         }
       ],
       "faqs": [
@@ -1411,6 +1421,11 @@ export const resources = Object.freeze([
         "href": "/applications/resin-for-hand-lay-up-process/",
         "label": "Hand lay-up guide",
         "description": "Review a common GP Clear Resin process use case."
+      },
+      {
+        "href": "/products/unsaturated-polyester-resin/",
+        "label": "Unsaturated Polyester Resin",
+        "description": "The generic commercial description this resin class is also sold under."
       }
     ],
     "faqs": [

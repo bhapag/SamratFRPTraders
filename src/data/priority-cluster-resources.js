@@ -18,6 +18,7 @@
 //   - No stock, lead time, delivery promise or price is stated anywhere.
 //   - Each guide is written from its own subject. None is a template fill.
 
+import { alliedConsumablesCluster } from './clusters/allied-consumables.js';
 import { isoGelcoatCluster } from './clusters/iso-gelcoat.js';
 import { isoPolyesterResinCluster } from './clusters/iso-polyester-resin.js';
 import { polyesterPuttyResinCluster } from './clusters/polyester-putty-resin.js';
@@ -28,4 +29,5 @@ export const priorityClusterResources = Object.freeze([
   ...isoGelcoatCluster,
   ...uvStabilizedSheetResinCluster,
   ...polyesterPuttyResinCluster,
+  ...alliedConsumablesCluster,
 ]);

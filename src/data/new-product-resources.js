@@ -856,6 +856,7 @@ export const newProductResources = Object.freeze([
     recommendedLinks: [
       { href: '/products/wax-polish/', label: 'View FRP Mould Release Wax', description: 'Commercial product page and enquiry route.' },
       { href: '/products/frp-allied-products/', label: 'FRP allied products', description: 'The wider allied-materials range.' },
+      { href: '/resources/gelcoat-defects-and-what-causes-them/', label: 'Gelcoat defects and what causes them', description: 'Release-agent residue is behind one of the most common surface faults, so the two questions are connected.' },
       enquiryLink,
     ],
     faqs: [
@@ -932,6 +933,7 @@ export const newProductResources = Object.freeze([
       recommendedLinks: [
         { href: '/products/wax-polish/', label: 'FRP Mould Release Wax हेर्नुहोस्', description: 'व्यावसायिक उत्पादन पृष्ठ र enquiry।' },
         { href: '/products/frp-allied-products/', label: 'FRP Allied Products', description: 'सम्बन्धित allied सामग्री श्रेणी।' },
+        { href: '/resources/gelcoat-defects-and-what-causes-them/', label: 'Gelcoat का दोष र तिनका कारण', description: 'सबैभन्दा सामान्य सतह दोषमध्ये एकको कारण release agent को अवशेष हो — यी दुई प्रश्न जोडिएका छन्।' },
         neEnquiryLink,
       ],
       faqs: [
