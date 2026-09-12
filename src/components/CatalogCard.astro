@@ -10,6 +10,8 @@
 // positioned (`inset: 0` + `object-fit: contain`) so the asset is always
 // letterboxed to fit — it can never inflate the box or bleed into the
 // card body below it, regardless of the image's own intrinsic size.
+import { cardDerivatives } from '../data/card-derivatives.js';
+
 const {
   name,
   eyebrow,
@@ -23,6 +25,22 @@ const {
   ctaLabel,
 } = Astro.props;
 const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
+
+// The card paints the image at roughly 100-160px. Serving a full product asset
+// into that box cost 3.5MB across the catalogue index on a phone. Where
+// derivatives exist they are offered first and the browser picks one; the
+// product page still shows the full asset. The three owner-supplied originals
+// have no derivative by design, so their cards load the file as supplied.
+const cardBase =
+  image && cardDerivatives.has(image.src)
+    ? `/images/products/cards/${image.src.replace(/\.(jpe?g|png|webp)$/i, '')}`
+    : null;
+// The stage paints at 126 CSS px on a 390px phone and at most 168px on desktop,
+// so the rungs are 256w (2x phone), 384w (3x phone) and 512w (3x desktop). The
+// full asset stays in the list as the last candidate for anything wider.
+const cardSrcset = cardBase
+  ? `${cardBase}-256.webp 256w, ${cardBase}-384.webp 384w, ${cardBase}-512.webp 512w, /images/products/${image.src} ${image.width}w`
+  : null;
 ---
 <a
   class:list={['catalog-card', { 'has-media': showMedia }]}
@@ -35,12 +53,15 @@ const searchValue = search ?? `${name} ${eyebrow ?? ''}`.toLowerCase();
     image ? (
       <span class="catalog-card-stage">
         <img
-          src={`/images/products/${image.src}`}
+          src={cardBase ? `${cardBase}-256.webp` : `/images/products/${image.src}`}
+          srcset={cardSrcset ?? undefined}
+          sizes="(max-width: 30rem) 8rem, 10.5rem"
           alt={imageAlt ?? ''}
           width={image.width}
           height={image.height}
           loading="lazy"
           decoding="async"
+          fetchpriority="low"
         />
       </span>
     ) : (

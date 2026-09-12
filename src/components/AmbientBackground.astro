@@ -23,6 +23,8 @@ const { deferUntilHero = false } = Astro.props;
 </div>
 
 <script>
+  import { canAffordVideo } from '../scripts/video-budget.js';
+
   function initAmbientBackgrounds() {
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
@@ -39,28 +41,6 @@ const { deferUntilHero = false } = Astro.props;
           video.removeAttribute('src');
           video.load();
         }
-      };
-
-      // A 4 MB decorative loop was being fetched on every page view, including
-      // on phones over mobile data, where it saturated the connection before
-      // the page's own content had finished arriving. Measured on the live site
-      // at 4,220 KB per navigation against a 3 KB category page. The poster
-      // still carries the look; the video is an enhancement for connections and
-      // screens that can afford it, not a prerequisite for reading the site.
-      const canAffordVideo = () => {
-        if (reducedMotion.matches) return false;
-        // Decorative background behind content: on a phone it is barely seen
-        // and costs the most, so it does not load there at all.
-        if (window.matchMedia('(max-width: 820px)').matches) return false;
-        const conn =
-          navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-        if (conn) {
-          if (conn.saveData) return false;
-          if (/(^|-)2g$/.test(conn.effectiveType || '')) return false;
-          if (conn.effectiveType === '3g') return false;
-        }
-        if (typeof navigator.deviceMemory === 'number' && navigator.deviceMemory <= 4) return false;
-        return true;
       };
 
       const load = () => {

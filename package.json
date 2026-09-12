@@ -14,7 +14,8 @@
     "check:links": "node scripts/check-links.mjs",
     "check:release": "npm run build && node scripts/release-gate/run.mjs",
     "release:gate": "npm run check:release",
-    "check:nav": "node scripts/check-navigation.mjs"
+    "check:nav": "node scripts/check-navigation.mjs",
+    "build:images": "node scripts/build-image-derivatives.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.3",
