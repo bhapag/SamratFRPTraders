@@ -234,6 +234,90 @@
       }
     },
     {
+      "src": "^/resources/what-is-pet-modified-polyester-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/what-is-polyester-putty-resin/"
+      }
+    },
+    {
+      "src": "^/en/resources/what-is-pet-modified-polyester-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/what-is-polyester-putty-resin/"
+      }
+    },
+    {
+      "src": "^/resources/pet-resin-liquid-grade-vs-thermoplastic-pet/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/polyester-putty-resin-vs-thermoplastic-pet/"
+      }
+    },
+    {
+      "src": "^/en/resources/pet-resin-liquid-grade-vs-thermoplastic-pet/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/polyester-putty-resin-vs-thermoplastic-pet/"
+      }
+    },
+    {
+      "src": "^/resources/pet-resin-applications-sheet-lamination-and-panels/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/polyester-putty-resin-applications/"
+      }
+    },
+    {
+      "src": "^/en/resources/pet-resin-applications-sheet-lamination-and-panels/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/polyester-putty-resin-applications/"
+      }
+    },
+    {
+      "src": "^/resources/pet-resin-vs-gp-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/polyester-putty-resin-vs-gp-resin/"
+      }
+    },
+    {
+      "src": "^/en/resources/pet-resin-vs-gp-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/polyester-putty-resin-vs-gp-resin/"
+      }
+    },
+    {
+      "src": "^/resources/pet-resin-vs-lamination-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/polyester-putty-resin-vs-lamination-resin/"
+      }
+    },
+    {
+      "src": "^/en/resources/pet-resin-vs-lamination-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/polyester-putty-resin-vs-lamination-resin/"
+      }
+    },
+    {
+      "src": "^/resources/marble-resin-vs-pet-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/marble-resin-vs-polyester-putty-resin/"
+      }
+    },
+    {
+      "src": "^/en/resources/marble-resin-vs-pet-resin/?$",
+      "status": 301,
+      "headers": {
+        "Location": "/en/resources/marble-resin-vs-polyester-putty-resin/"
+      }
+    },
+    {
       "handle": "filesystem"
     },
     {

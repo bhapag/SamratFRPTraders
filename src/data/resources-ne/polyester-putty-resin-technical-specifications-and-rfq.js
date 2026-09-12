@@ -1,6 +1,6 @@
 export default {
-  title: "PET Resin प्राविधिक विशेषताहरू र RFQ गाइड",
-  description: "हालको TDS मा प्रकाशित liquid PET Resin properties समीक्षा गर्नुहोस्, तिनलाई finished-product performance बाट अलग राख्नुहोस्, र केन्द्रित औद्योगिक सोधपुछ तयार गर्नुहोस्।",
+  title: "Polyester Putty Resin प्राविधिक विशेषताहरू र RFQ गाइड",
+  description: "हालको TDS मा प्रकाशित liquid Polyester Putty Resin properties समीक्षा गर्नुहोस्, तिनलाई finished-product performance बाट अलग राख्नुहोस्, र केन्द्रित औद्योगिक सोधपुछ तयार गर्नुहोस्।",
   quickFacts: {
     "प्रकाशित grade": "PET-modified liquid UPR sheet grade",
     "प्रकाशित viscosity": "450-650 cPs, 25°C मा",
@@ -10,7 +10,7 @@ export default {
   propertiesTable: {
     headers: [
       "प्रकाशित liquid-resin property",
-      "हालको PET Resin TDS मान"
+      "हालको Polyester Putty Resin TDS मान"
     ],
     rows: [
       ["Resin type", "PET-modified unsaturated polyester resin (liquid)"],
@@ -22,11 +22,11 @@ export default {
       ["Flash point", "लगभग 30°C"],
       ["Shelf life / pack / MOQ", "6 महिना unopened / 75 kg / 1,000 kg"]
     ],
-    note: "यी हालको PET Resin TDS बाट प्रकाशित liquid-resin डाटा हुन्। यी formulation, finished sheet वा putty performance दाबी होइनन्, न त exact material form पुष्टि गर्ने विकल्प हुन्।"
+    note: "यी हालको Polyester Putty Resin TDS बाट प्रकाशित liquid-resin डाटा हुन्। यी formulation, finished sheet वा putty performance दाबी होइनन्, न त exact material form पुष्टि गर्ने विकल्प हुन्।"
   },
   faqs: [
     {
-      q: "कुन PET Resin specifications प्रकाशित छन्?",
+      q: "कुन Polyester Putty Resin specifications प्रकाशित छन्?",
       a: "हालको TDS ले PET-modified liquid UPR sheet grade, पहेँलो देखावट, viscosity, solids, specific gravity, cured HDT, अनुमानित flash point, storage, छ-महिना unopened shelf life, 75 kg packaging र 1,000 kg MOQ प्रकाशित गर्छ।"
     },
     {
@@ -34,19 +34,19 @@ export default {
       a: "होइन। यी आपूर्ति र typical liquid-resin डाटा हुन्। Repository ले यस grade का लागि finished putty, body-filler, sanding, adhesion, shrinkage, hardness वा finished-sheet performance दाबी प्रकाशित गर्दैन।"
     },
     {
-      q: "PET Resin RFQ मा के समावेश हुनुपर्छ?",
+      q: "Polyester Putty Resin RFQ मा के समावेश हुनुपर्छ?",
       a: "आवश्यक liquid material form, अपेक्षित PET-sheet, fibre-sheet, FRP-sheet वा panel application, आवश्यक प्रकाशित properties वा documentation, quantity, packaging need र delivery location समावेश गर्नुहोस्।"
     }
   ],
   recommendedLinks: [
     {
       href: "/products/polyester-putty-resin/",
-      label: "View PET Resin",
+      label: "View Polyester Putty Resin",
       description: "product भूमिका, हालको डाटा र सोधपुछ मार्ग समीक्षा गर्नुहोस्।"
     },
     {
       href: "/tds/pet-resin-tds.pdf",
-      label: "Download PET Resin TDS",
+      label: "Download Polyester Putty Resin TDS",
       description: "हालको grade-विशिष्ट दस्तावेजलाई प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्।"
     },
     {
@@ -56,15 +56,15 @@ export default {
     },
     {
       href: "/contact/",
-      label: "Request a PET Resin quote",
+      label: "Request a Polyester Putty Resin quote",
       description: "material form, application, documentation र commercial आवश्यकताहरू पठाउनुहोस्।"
     }
   ],
   sections: [
     {
-      heading: "हालको PET Resin TDS लाई प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्",
+      heading: "हालको Polyester Putty Resin TDS लाई प्राविधिक सन्दर्भको रूपमा प्रयोग गर्नुहोस्",
       body: [
-        "हालको PET Resin TDS ले PET-modified liquid unsaturated polyester sheet grade पहिचान गर्छ र यसको liquid-resin properties, storage र commercial विवरण प्रकाशित गर्छ। विचाराधीन exact grade का लागि यो दस्तावेज प्रयोग गर्नुहोस्।",
+        "हालको Polyester Putty Resin TDS ले PET-modified liquid unsaturated polyester sheet grade पहिचान गर्छ र यसको liquid-resin properties, storage र commercial विवरण प्रकाशित गर्छ। विचाराधीन exact grade का लागि यो दस्तावेज प्रयोग गर्नुहोस्।",
         "TDS ले 25°C मा 450-650 cPs viscosity, 60-64% solid content, 25°C मा 1.05-1.12 g/cm³ specific gravity, 70-85°C cured HDT, अनुमानित 30°C flash point, छ-महिना unopened shelf life, 75 kg packaging र 1,000 kg MOQ प्रकाशित गर्छ। सन्दर्भका लागि पूर्ण दस्तावेज समीक्षा गर्नुहोस्।"
       ]
     },

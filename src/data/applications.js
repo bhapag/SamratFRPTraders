@@ -140,7 +140,8 @@ export const applications = Object.freeze([
     ],
     "relatedProductSlugs": [
       "mekp-hardener",
-      "glass-fiber-mat"
+      "glass-fiber-mat",
+      "iso-polyester-resin"
     ],
     "ctaHeading": "Need resin for your cooling tower production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your panel fabrication line."
@@ -212,7 +213,9 @@ export const applications = Object.freeze([
       "mekp-hardener",
       "glass-fiber-mat",
       "frp-polyester-pigment",
-      "roof-light-resin"
+      "roof-light-resin",
+      "uv-stabilized-sheet-grade-yellow-resin",
+      "sheet-grade-yellow-resin"
     ],
     "ctaHeading": "Need resin for your roofing sheet production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right grade and dosage for your sheet lamination line."
@@ -1246,7 +1249,8 @@ export const applications = Object.freeze([
       "gp-clear-resin",
       "mekp-hardener",
       "frp-polyester-pigment",
-      "vinyl-ester-resin"
+      "vinyl-ester-resin",
+      "iso-gelcoat"
     ],
     "ctaHeading": "Need gelcoat for your boat or marine hull production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your hull."
@@ -1316,7 +1320,8 @@ export const applications = Object.freeze([
       "gp-clear-resin",
       "mekp-hardener",
       "glass-fiber-mat",
-      "frp-polyester-pigment"
+      "frp-polyester-pigment",
+      "iso-gelcoat"
     ],
     "ctaHeading": "Need gelcoat for your bathware or sanitaryware production?",
     "ctaText": "Get a bulk quote or talk to our technical team about the right gelcoat and laminate combination for your mould."
@@ -1742,7 +1747,8 @@ export const applications = Object.freeze([
     "relatedProductSlugs": [
       "mekp-hardener",
       "sheet-grade-yellow-resin",
-      "gp-clear-resin"
+      "gp-clear-resin",
+      "uv-stabilized-sheet-grade-yellow-resin"
     ],
     "ctaHeading": "Need GP Yellow Resin for your roofing sheet production?",
     "ctaText": "Get a bulk quote for GP Yellow Resin, or talk to our technical team about whether GP Yellow Resin, GP Clear Resin or Sheet Grade Yellow Resin best suits your sheet lamination line."

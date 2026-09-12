@@ -1,16 +1,16 @@
 export default {
-  title: "PET Resin Material Forms: Liquid Polyester Grade बनाम Thermoplastic PET",
-  description: "Samrat Poly Resins, India को PET Resin / Polyester Putty Resin liquid sheet grade लाई परम्परागत thermoplastic PET chips, pellets र commodity-plastic material बाट छुट्याउनुहोस्।",
+  title: "Polyester Putty Resin Material Forms: Liquid Polyester Grade बनाम Thermoplastic PET",
+  description: "Samrat Poly Resins, India को Polyester Putty Resin liquid sheet grade लाई परम्परागत thermoplastic PET chips, pellets र commodity-plastic material बाट छुट्याउनुहोस्।",
   seo: {
-    title: "PET Resin बनाम Thermoplastic PET | Liquid Sheet Grade खरिदकर्ता गाइड",
-    ogTitle: "PET Resin: Liquid Grade बनाम Thermoplastic PET",
-    ogDescription: "PET labels लाई interchangeable मान्नुको सट्टा समर्पित PET Resin TDS सहित सही material form छान्नुहोस्।",
+    title: "Polyester Putty Resin बनाम Thermoplastic PET | Liquid Sheet Grade खरिदकर्ता गाइड",
+    ogTitle: "Polyester Putty Resin: Liquid Grade बनाम Thermoplastic PET",
+    ogDescription: "PET labels लाई interchangeable मान्नुको सट्टा समर्पित Polyester Putty Resin TDS सहित सही material form छान्नुहोस्।",
     keywords: [
-      "PET Resin vs Thermoplastic PET",
+      "Polyester Putty Resin vs Thermoplastic PET",
       "Liquid PET Modified Resin",
-      "PET Resin Sheet Grade",
-      "PET Resin Material Form",
-      "PET Resin vs Polyester Putty"
+      "Polyester Putty Resin Sheet Grade",
+      "Polyester Putty Resin Material Form",
+      "Polyester Putty Resin vs Polyester Putty"
     ],
   },
   quickFacts: {
@@ -21,10 +21,10 @@ export default {
   },
   comparisonTable: {
     title: "Material forms छुट्टाछुट्टै राख्नुहोस्",
-    headers: ["खरिदकर्ताको प्रश्न", "Samrat PET Resin / Polyester Putty Resin", "Thermoplastic PET"],
+    headers: ["खरिदकर्ताको प्रश्न", "Samrat Polyester Putty Resin", "Thermoplastic PET"],
     rows: [
       ["Material रूप", "Pale-yellow liquid PET-modified UPR sheet grade", "Solid commodity-plastic chips वा pellets"],
-      ["समीक्षा गर्ने document", "हालको PET Resin / Polyester Putty Resin TDS", "आवश्यक thermoplastic grade को document"],
+      ["समीक्षा गर्ने document", "हालको Polyester Putty Resin TDS", "आवश्यक thermoplastic grade को document"],
       ["Samrat grade सन्दर्भ", "PET sheets, fibre sheets, FRP sheet lamination र panels", "liquid-resin TDS ले वर्णन गर्ने product route होइन"]
     ],
     note: "Samrat उत्पादन एउटा liquid raw resin हो, thermoplastic chips होइन र ready-made putty वा filler compound पनि होइन।"
@@ -32,12 +32,12 @@ export default {
   recommendedLinks: [
     {
       href: "/products/polyester-putty-resin/",
-      label: "PET Resin / Polyester Putty Resin हेर्नुहोस्",
+      label: "Polyester Putty Resin हेर्नुहोस्",
       description: "स्वीकृत liquid sheet-grade route को उत्पादन page खोल्नुहोस्।"
     },
     {
       href: "/tds/pet-resin-tds.pdf",
-      label: "PET Resin TDS समीक्षा गर्नुहोस्",
+      label: "Polyester Putty Resin TDS समीक्षा गर्नुहोस्",
       description: "हालको grade, liquid रूप र प्रकाशित प्राविधिक data पुष्टि गर्नुहोस्।"
     },
     {
@@ -53,11 +53,11 @@ export default {
   ],
   faqs: [
     {
-      q: "के यहाँको PET Resin polyethylene terephthalate chips वा pellets जस्तै हो?",
-      a: "होइन। समर्पित PET Resin TDS ले PET-modified liquid unsaturated polyester resin पहिचान गर्छ। हालको catalogue ले फरक रूप र data भएको thermoplastic PET chip item लाई छुट्टै वर्णन गर्छ।"
+      q: "के यहाँको Polyester Putty Resin polyethylene terephthalate chips वा pellets जस्तै हो?",
+      a: "होइन। समर्पित Polyester Putty Resin TDS ले PET-modified liquid unsaturated polyester resin पहिचान गर्छ। हालको catalogue ले फरक रूप र data भएको thermoplastic PET chip item लाई छुट्टै वर्णन गर्छ।"
     },
     {
-      q: "के PET Resin / Polyester Putty Resin एउटा ready-made putty वा body filler हो?",
+      q: "के Polyester Putty Resin एउटा ready-made putty वा body filler हो?",
       a: "होइन। Samrat FRP Traders ले यो grade लाई liquid raw resin को रूपमा आपूर्ति गर्छ, pre-mixed putty वा body filler को रूपमा होइन। liquid-resin TDS बाट finished-product properties अनुमान गर्न सकिँदैन।"
     },
     {
@@ -67,23 +67,23 @@ export default {
   ],
   sections: [
     {
-      heading: "Liquid PET Resin मार्ग",
+      heading: "Liquid Polyester Putty Resin मार्ग",
       body: [
-        "PET Resin page र समर्पित TDS ले pale-yellow liquid sheet grade को रूपमा आपूर्ति गरिने PET-modified unsaturated polyester resin वर्णन गर्छन्। यसका प्रकाशित सन्दर्भहरू PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing हुन्।",
+        "Polyester Putty Resin page र समर्पित TDS ले pale-yellow liquid sheet grade को रूपमा आपूर्ति गरिने PET-modified unsaturated polyester resin वर्णन गर्छन्। यसका प्रकाशित सन्दर्भहरू PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing हुन्।",
         "यो एउटा liquid-resin selection छलफल हो। नाममा PET भएको हरेक material को label को रूपमा प्रयोग गर्नुको सट्टा, उत्पादन document लाई वास्तविक sheet वा laminate आवश्यकतासँगै पढ्नुपर्छ।"
       ]
     },
     {
       heading: "Thermoplastic PET फरक material form हो",
       body: [
-        "Thermoplastic PET सामान्यतया melt processing का लागि chips वा pellets को रूपमा आपूर्ति गरिन्छ। यसको सट्टा Samrat Poly Resins, India को PET Resin / Polyester Putty Resin page ले liquid PET-modified unsaturated polyester sheet grade वर्णन गर्छ।",
+        "Thermoplastic PET सामान्यतया melt processing का लागि chips वा pellets को रूपमा आपूर्ति गरिन्छ। यसको सट्टा Samrat Poly Resins, India को Polyester Putty Resin page ले liquid PET-modified unsaturated polyester sheet grade वर्णन गर्छ।",
         "specifications तुलना गर्नु वा quotation अनुरोध गर्नुअघि खरिदकर्ताहरूले आवश्यक material form पहिचान गर्नुपर्छ।"
       ]
     },
     {
       heading: "Liquid raw resin ready-made putty होइन",
       body: [
-        "Samrat Poly Resins, India को PET Resin / Polyester Putty Resin लाई liquid resin को रूपमा आपूर्ति गरिन्छ। एउटा ready-made polyester putty वा body filler भनेको पूर्ण रूपमा formulated end product हो।",
+        "Samrat Poly Resins, India को Polyester Putty Resin लाई liquid resin को रूपमा आपूर्ति गरिन्छ। एउटा ready-made polyester putty वा body filler भनेको पूर्ण रूपमा formulated end product हो।",
         "हालको उत्पादन data बाट Sanding, adhesion, shrinkage, hardness, flexibility र repair performance एक्लै liquid resin लाई असाइन गर्न सकिँदैन।"
       ]
     },
