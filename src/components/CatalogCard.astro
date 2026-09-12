@@ -66,7 +66,7 @@ const cardSrcset = cardBase
       </span>
     ) : (
       <span class="catalog-card-stage catalog-card-stage-empty" aria-hidden="true">
-        <img class="catalog-card-mark" src="/brand/samrat-frp-traders-mark.png" alt="" width="160" height="160" loading="lazy" />
+        <img class="catalog-card-mark" src="/brand/samrat-frp-traders-logo-320.webp" alt="" width="900" height="741" loading="lazy" />
       </span>
     )
   )}
@@ -251,10 +251,14 @@ const cardSrcset = cardBase
     padding: 1.6rem;
   }
 
+  /* The navy logo disappears on the dark stage, so it sits on a light tile. */
   .catalog-card-mark {
-    width: 40%;
+    width: 52%;
     height: auto;
-    opacity: 0.28;
+    padding: 0.45rem;
+    border-radius: 0.35rem;
+    background: #f6f1e6;
+    opacity: 0.85;
   }
 
   .catalog-card.has-media .catalog-card-body {
