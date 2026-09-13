@@ -8155,7 +8155,7 @@ export const resources = Object.freeze([
         "subsections": [
           {
             "heading": "GP White vs GP Clear",
-            "body": "Both are general-purpose orthophthalic polyester grades on the same published base-resin specification. GP White Resin’s supplied appearance is white-pigmented, as described in the GP White SDS; GP Clear Resin is clear. Choose by the appearance the job needs, then check the shared values against the component and process."
+            "body": "Both are general-purpose orthophthalic polyester grades on the same published base-resin specification. GP White Resin has white pigmentation, as described in the GP White SDS; GP Clear Resin is clear. Choose by the appearance the job needs, then check the shared values against the component and process."
           },
           {
             "heading": "GP White vs Gelcoat",
@@ -8295,7 +8295,7 @@ export const resources = Object.freeze([
     },
     "comparisonTable": {
       "title": "Published product-data comparison",
-      "note": "The viscosity and gel time are the shared base-resin specification (SPR-TDS-GCR). GP White Resin shares the published base-resin specification with GP Clear Resin. Its supplied appearance is white-pigmented, as described in the GP White SDS.",
+      "note": "The viscosity and gel time are the shared base-resin specification (SPR-TDS-GCR). GP White Resin uses the published GP Clear base-resin specification, with white pigmentation as described in the GP White SDS.",
       "headers": [
         "Decision factor",
         "GP White Resin",

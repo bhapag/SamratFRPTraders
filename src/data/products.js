@@ -279,7 +279,7 @@ export const products = Object.freeze([
       'GP White Resin \u2014 a general-purpose orthophthalic polyester resin supplied and imported for Nepal by Samrat FRP Traders. Grade-specific figures confirmed on enquiry.',
     descriptor: 'General-purpose orthophthalic polyester resin.',
     overview:
-      'Samrat Poly Resins, India lists GP White Resin as a general-purpose orthophthalic polyester resin for panels, moulding, hand layup and spray-up work. GP White Resin shares the published base-resin specification with GP Clear Resin (Technical Data Sheet SPR-TDS-GCR), and the figures shown are that shared specification. Its supplied appearance is white-pigmented, as described in the GP White SDS (SPR-SDS-GWR).',
+      'Samrat Poly Resins, India lists GP White Resin as a general-purpose orthophthalic polyester resin for panels, moulding, hand layup and spray-up work. GP White Resin uses the published GP Clear base-resin specification (Technical Data Sheet SPR-TDS-GCR), with white pigmentation as described in the GP White SDS (SPR-SDS-GWR). The figures shown are that shared specification.',
     // GP White and GP Clear share one base specification. The supplier SDS for
     // GP White (SPR-SDS-GWR, Rev. 01, 8 August 2026) says the resin fraction,
     // styrene content and processing characteristics are manufacturer-confirmed
@@ -304,8 +304,8 @@ export const products = Object.freeze([
       date: 'July 2026',
     }),
     documentNote: Object.freeze({
-      en: 'GP White Resin shares the published base-resin specification with GP Clear Resin. Its supplied appearance is white-pigmented, as described in the GP White SDS.',
-      ne: 'GP White Resin ले GP Clear Resin सँग प्रकाशित base-resin specification साझा गर्छ। आपूर्ति हुँदा यसको रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ।',
+      en: 'GP White Resin uses the published GP Clear base-resin specification, with white pigmentation as described in the GP White SDS.',
+      ne: 'GP White Resin ले प्रकाशित GP Clear base-resin specification प्रयोग गर्छ, र GP White SDS मा वर्णन गरिए अनुसार यसमा white pigmentation हुन्छ।',
     }),
     documents: Object.freeze([
       Object.freeze({

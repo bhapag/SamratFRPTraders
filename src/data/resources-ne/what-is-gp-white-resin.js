@@ -39,7 +39,7 @@ export default {
       "subsections": [
         {
           "heading": "GP White र GP Clear बीचको तुलना",
-          "body": "दुवै उही प्रकाशित base-resin specification मा आधारित general-purpose orthophthalic polyester grade हुन्। आपूर्ति हुँदा GP White Resin को रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ; GP Clear Resin clear हो। कामलाई चाहिने रूपअनुसार छान्नुहोस्, अनि साझा मान component र process सँग जाँच्नुहोस्।"
+          "body": "दुवै उही प्रकाशित base-resin specification मा आधारित general-purpose orthophthalic polyester grade हुन्। GP White SDS मा वर्णन गरिए अनुसार GP White Resin मा white pigmentation हुन्छ; GP Clear Resin clear हो। कामलाई चाहिने रूपअनुसार छान्नुहोस्, अनि साझा मान component र process सँग जाँच्नुहोस्।"
         },
         {
           "heading": "GP White vs Gelcoat",

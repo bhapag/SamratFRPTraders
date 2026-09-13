@@ -21,7 +21,7 @@ export default {
   },
   "comparisonTable": {
     "title": "Published product-डाटा तुलना",
-    "note": "Viscosity र gel time साझा base-resin specification (SPR-TDS-GCR) हुन्। GP White Resin ले GP Clear Resin सँग प्रकाशित base-resin specification साझा गर्छ। आपूर्ति हुँदा यसको रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ।",
+    "note": "Viscosity र gel time साझा base-resin specification (SPR-TDS-GCR) हुन्। GP White Resin ले प्रकाशित GP Clear base-resin specification प्रयोग गर्छ, र GP White SDS मा वर्णन गरिए अनुसार यसमा white pigmentation हुन्छ।",
     "headers": [
       "निर्णयको आधार",
       "GP White Resin",

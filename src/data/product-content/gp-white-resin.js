@@ -21,7 +21,7 @@ export default {
     intro: [
       "Samrat FRP Traders supplies and imports GP White Resin for the Nepal market. Samrat Poly Resins, India lists it as a general-purpose orthophthalic polyester resin for FRP panels, moulding, hand layup, spray-up, cooling towers and water storage tanks.",
       "GP White Resin and GP Clear Resin are built on the same base resin. The supplier Safety Data Sheet for GP White Resin says so directly: the resin fraction, styrene content and processing characteristics are shared, and a white pigment package is what makes the difference. It documents GP White Resin as white-pigmented.",
-      "The figures on this page are therefore the shared GP base specification — 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content — from the Technical Data Sheet issued for this grade. Its supplied appearance is white-pigmented, as described in the GP White SDS.",
+      "The figures on this page are therefore the shared GP base specification — 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content — from the published GP Clear base-resin specification (SPR-TDS-GCR). GP White Resin uses the published GP Clear base-resin specification, with white pigmentation as described in the GP White SDS.",
       "It is a general-purpose laminating resin rather than a mould-surface gelcoat, and the supplied appearance does not on its own decide the finished colour of a reinforced part. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page.",
     ],
     buyerNotes: [
@@ -35,7 +35,7 @@ export default {
       },
       {
         title: "Documents for this grade",
-        text: "GP White Resin shares the published base-resin specification with GP Clear Resin. Its supplied appearance is white-pigmented, as described in the GP White SDS. Both the Technical Data Sheet and the Safety Data Sheet are available from this page.",
+        text: "GP White Resin uses the published GP Clear base-resin specification, with white pigmentation as described in the GP White SDS. Both the Technical Data Sheet and the Safety Data Sheet are available from this page.",
       },
     ],
     faqs: [
@@ -84,7 +84,7 @@ export default {
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि GP White Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India ले यसलाई FRP panel, moulding, hand layup, spray-up, cooling tower र पानी भण्डारण ट्याङ्कीका लागि general-purpose orthophthalic polyester resin को रूपमा सूचीबद्ध गरेको छ।",
       "GP White Resin र GP Clear Resin एउटै base resin मा बनेका हुन्। GP White Resin को आपूर्तिकर्ता Safety Data Sheet ले यो कुरा सिधै भन्छ: resin fraction, styrene content र processing characteristics साझा छन्, र फरक ल्याउने कुरा white pigment package हो। त्यसले GP White Resin लाई white-pigmented भनी दस्तावेजीकृत गर्छ।",
-      "त्यसैले यस पृष्ठका अङ्क साझा GP base specification हुन् — 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content — जुन यस grade का लागि जारी Technical Data Sheet बाट लिइएका छन्। आपूर्ति हुँदा यसको रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ।",
+      "त्यसैले यस पृष्ठका अङ्क साझा GP base specification हुन् — 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content — जुन प्रकाशित GP Clear base-resin specification (SPR-TDS-GCR) बाट लिइएका छन्। GP White Resin ले प्रकाशित GP Clear base-resin specification प्रयोग गर्छ, र GP White SDS मा वर्णन गरिए अनुसार यसमा white pigmentation हुन्छ।",
       "यो mould-surface gelcoat होइन, general-purpose laminating resin हो, र आपूर्ति हुँदाको रूपले मात्र reinforced part को अन्तिम रङ तय गर्दैन। हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट Samrat FRP Traders सँग सोधपुछ गर्नुहोस्।",
     ],
     buyerNotes: [
@@ -98,7 +98,7 @@ export default {
       },
       {
         title: "यस grade का कागजात",
-        text: "GP White Resin ले GP Clear Resin सँग प्रकाशित base-resin specification साझा गर्छ। आपूर्ति हुँदा यसको रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ। Technical Data Sheet र Safety Data Sheet दुवै यसै पृष्ठबाट उपलब्ध छन्।",
+        text: "GP White Resin ले प्रकाशित GP Clear base-resin specification प्रयोग गर्छ, र GP White SDS मा वर्णन गरिए अनुसार यसमा white pigmentation हुन्छ। Technical Data Sheet र Safety Data Sheet दुवै यसै पृष्ठबाट उपलब्ध छन्।",
       },
     ],
     faqs: [
