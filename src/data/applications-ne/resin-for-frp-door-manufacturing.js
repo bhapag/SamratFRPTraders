@@ -2,7 +2,7 @@ export default {
   "title": "FRP Door निर्माणका लागि Resin",
   "cardDescription": "FRP doors लाई door-skin substrate सँग राम्ररी bond हुने र वर्षौंको दैनिक प्रयोग भरि आफ्नो आकार र strength कायम राख्ने laminate चाहिन्छ।",
   "cardBenefit": "Dimensionally stable, लामो service life।",
-  "cardImageAlt": "Moulded panel design र decorative metal grille भएको FRP double door",
+  "cardImageAlt": "moulded प्यानल डिजाइन र सजावटी धातुको जाली भएको FRP दोहोरो ढोका",
   "seo": {
     "title": "FRP Door निर्माणका लागि Resin",
     "description": "FRP door frames र shutters लाई bond र reinforce गर्न GP Clear Resin कसरी प्रयोग हुन्छ, र lamination-specific resin grade मा कहिले जाने।"

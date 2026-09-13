@@ -2,7 +2,7 @@ export default {
   "title": "Spray-Up Process का लागि GP Yellow Resin",
   "cardDescription": "Spray-up equipment ले fibre लाई एउटै pass मा chop र wet out गर्छ, र GP Yellow Resin को viscosity र non-accelerated MEKP/cobalt cure ले यसलाई standard spray-up rigs बाट workable बनाउँछ — GP Clear Resin जस्तै process route, thicker, slower-gelling grade मा।",
   "cardBenefit": "Standard spray-up rigs बाट workable।",
-  "cardImageAlt": "Chopper gun ले gelcoated mould मा resin र chopped fibre deposit गर्दै गरेको देखाउने spray-up process को diagram",
+  "cardImageAlt": "chopper gun ले gelcoat लगाइएको साँचोमा resin र काटिएका fibre छर्दै गरेको spray-up प्रक्रियाको चित्र",
   "seo": {
     "title": "Spray-Up Process का लागि GP Yellow Resin",
     "description": "Spray-up FRP कामका लागि GP Yellow Resin प्रयोग — GP Clear Resin जस्तै process route र cure system, thicker, slower-gelling grade मा।"

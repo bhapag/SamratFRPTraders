@@ -2,7 +2,7 @@ export default {
   "title": "General FRP Moulded Products का लागि GP Yellow Resin",
   "cardDescription": "Panels, furniture, planters र general moulded FRP items लाई आफ्नो surface finish पछाडि भरपर्दो general-purpose laminating resin चाहिन्छ — GP Yellow Resin ले part यसको प्राकृतिक yellow tint माथि painted, gelcoated वा अन्यथा finished गरिने जहाँ पनि यो भूमिका पूरा गर्छ।",
   "cardBenefit": "Finished mouldings का लागि dependable backing।",
-  "cardImageAlt": "रातो, हरियो, पहेंलो र खैरो रंगका stacked coloured FRP pultruded grating panels",
+  "cardImageAlt": "रातो, हरियो, पहेँलो र खैरो रङका FRP grating प्यानलको थुप्रो",
   "seo": {
     "title": "FRP Moulded Products का लागि GP Yellow Resin",
     "description": "यसको surface माथि finished गरिने moulded FRP panels, furniture र décor items का लागि general-purpose structural laminating resin को रूपमा GP Yellow Resin।"

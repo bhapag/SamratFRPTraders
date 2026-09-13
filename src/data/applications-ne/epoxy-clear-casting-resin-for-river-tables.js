@@ -2,7 +2,7 @@ export default {
   "title": "River Tables र Wood Furniture का लागि Epoxy Clear Casting Resin",
   "cardDescription": "Live-edge river tables लाई wood grain विरुद्ध optically clear रहने, timber edge बाट shrink भएर नहट्ने, र full tabletop thickness पुग्न successive ~30 mm stages मा खन्याउन सकिने resin चाहिन्छ — Epoxy Clear Casting Resin को low-shrinkage, 2:1 epoxy system यसैका लागि formulate गरिएको हो।",
   "cardBenefit": "Wood सँग आफ्नो bond कायम राख्ने clear casting।",
-  "cardImageAlt": "Coral र shell inlays सहित clear blue-tinted epoxy resin pour set भएको live-edge wood dining table",
+  "cardImageAlt": "कोरल र शङ्खका टुक्रा राखेर नीलो झल्को आउने clear epoxy resin भरिएको, काठको प्राकृतिक किनारा भएको डाइनिङ टेबल",
   "seo": {
     "title": "River Tables का लागि Epoxy Clear Casting Resin",
     "description": "River tables र wood-resin furniture का लागि Epoxy Clear Casting Resin — 30 mm सम्म stages मा खन्याइने low-shrinkage, crystal-clear 2:1 epoxy।"

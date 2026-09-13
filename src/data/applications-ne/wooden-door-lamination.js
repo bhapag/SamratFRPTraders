@@ -2,7 +2,7 @@ export default {
   title: 'काठे ढोका Lamination का लागि Resin',
   cardDescription: 'ठोस काठ र wood-core ढोकामा प्रायः सजावट veneer जोडिन्छ — काठको सतह जोगाउन र समाप्त गर्न छिटो cure हुने resin ले।',
   cardBenefit: 'काठ र veneer दुवैमा भरपर्दो bond।',
-  cardImageAlt: 'जोडिएको सजावट काठ veneer प्यानल डिजाइनले समाप्त ठोस काठको ढोका',
+  cardImageAlt: 'काठको सजावटी veneer प्यानल डिजाइन भएको ठोस काठको ढोका',
   seo: {
     title: 'काठे ढोका Lamination का लागि Resin',
     description: 'Lamination Resin ले सजावट काठ veneer लाई ठोस काठ र wood-core ढोकामा कसरी जोड्छ — काठको सतह जोगाएर समाप्त गर्दै।',

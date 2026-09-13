@@ -2,7 +2,7 @@ export default {
   "title": "Door Skin Manufacturing का लागि GP Yellow Resin",
   "cardDescription": "Moulded FRP door skins लाई gelcoat-finished face पछाडि reinforcement सफा रूपमा wet out गर्ने laminating resin चाहिन्छ — GP Yellow Resin ले GP Clear Resin जस्तै cure chemistry सहित, thicker, slower-gelling grade मा त्यो structural भूमिका पूरा गर्छ।",
   "cardBenefit": "Gelcoat face पछाडिको structural backing।",
-  "cardImageAlt": "Raised panel र embossed design भएका metallic-finish moulded FRP door skin panels को जोडी",
+  "cardImageAlt": "उठेका प्यानल र बुट्टा भएका, धातुजस्तो फिनिशका दुई FRP ढोका सतह",
   "seo": {
     "title": "Door Skin Manufacturing का लागि GP Yellow Resin",
     "description": "Moulded FRP door skins पछाडिको structural laminating resin को रूपमा GP Yellow Resin — GP Clear Resin जस्तै MEKP/cobalt cure system।"

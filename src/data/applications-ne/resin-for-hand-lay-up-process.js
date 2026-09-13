@@ -2,7 +2,7 @@ export default {
   "title": "Hand Lay-Up प्रक्रियाका लागि Resin",
   "cardDescription": "Hand lay-up सबैभन्दा सामान्य FRP fabrication विधि हो, र यो dragging वा pooling बिना हातले reinforcement wet out गर्ने resin मा भर पर्छ।",
   "cardBenefit": "सहज हातले application, कुनै dragging छैन।",
-  "cardImageAlt": "Mould tool भित्र resin खन्याएर roller ले काम गरिएको देखाउने hand lay-up प्रक्रियाको चित्र",
+  "cardImageAlt": "साँचोभित्र resin खन्याएर रोलर चलाइने hand lay-up प्रक्रियाको चित्र",
   "seo": {
     "title": "Hand Lay-Up प्रक्रियाका लागि Resin",
     "description": "Water tanks, panels र mouldings भरिका hand lay-up fabricators ले consistent wet-out र workable gel time का लागि GP Clear Resin मा किन भर पर्छन्।"

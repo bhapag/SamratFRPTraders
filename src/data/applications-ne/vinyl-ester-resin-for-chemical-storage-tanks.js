@@ -2,7 +2,7 @@ export default {
   "title": "FRP Chemical Storage Tanks का लागि Vinyl Ester Resin",
   "cardDescription": "FRP chemical भण्डारण ट्यांकी र vessels मा Vinyl Ester Resin को documented use का लागि buyer-selection guide। Finished system specify गर्नुअघि वास्तविक service requirement पुष्टि गर्नुहोस्।",
   "cardBenefit": "Documented FRP tank र vessel applications का लागि selection support।",
-  "cardImageAlt": "धेरै vertical FRP tanks र piping सहितको industrial chemical storage र dosing tank skid",
+  "cardImageAlt": "धेरै ठाडा FRP ट्याङ्की र पाइप जोडिएको औद्योगिक रसायन भण्डारण तथा dosing ट्याङ्की संरचना",
   "seo": {
     "title": "FRP Chemical Storage Tanks का लागि Vinyl Ester Resin",
     "description": "Documented FRP chemical storage tank र vessel applications का लागि Samrat FRP Traders Vinyl Ester Resin छान्ने buyer guidance।"

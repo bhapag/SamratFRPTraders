@@ -2,7 +2,7 @@ export default {
   "title": "General FRP Mould Finishing का लागि Gelcoat",
   "cardDescription": "Panels, mouldings, furniture र décor items लाई smooth, glossy mould-facing surface coat चाहिन्छ, जुन पछाडिको structural laminate बनाउनुअघि लगाइन्छ — cosmetic layer, structural resin होइन।",
   "cardBenefit": "Consistent, glossy mould finish।",
-  "cardImageAlt": "चिल्लो gelcoat surface finish देखाउने रङ्गीन FRP moulded grating panels को थुप्रो",
+  "cardImageAlt": "चिल्लो gelcoat सतह देखिने रङ्गीन FRP grating प्यानलको थुप्रो",
   "seo": {
     "title": "General FRP Mould Finishing का लागि Gelcoat",
     "description": "GP Gelcoat Resin ले panels, furniture, planters र décor items लाई कसरी finish गर्छ, जुन पछाडिको structural laminate build up गर्नुअघि mould मा लगाइन्छ।"

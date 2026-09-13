@@ -2,7 +2,7 @@ export default {
   title: 'ढोका Lamination का लागि Resin',
   cardDescription: 'सजावट ढोकालाई laminate र veneer पानालाई ढोकाको सतहमा बलियोसँग जोड्ने resin चाहिन्छ — कुशल press cycle का लागि छिटो cure हुने।',
   cardBenefit: 'छिटो press-cycle turnaround।',
-  cardImageAlt: 'सजावट wood-grain laminate प्यानल डिजाइनले समाप्त आधुनिक प्रवेशद्वार',
+  cardImageAlt: 'काठको धर्सा देखिने सजावटी laminate प्यानल डिजाइन भएको आधुनिक मूल ढोका',
   seo: {
     title: 'ढोका Lamination का लागि Resin',
     description: 'Lamination Resin (LR Resin) ले सजावट laminate र veneer पानालाई ढोकाको सतहमा कसरी जोड्छ — प्रक्रिया, cure प्रणाली र ढोका निर्माणमा यसको स्थान।',

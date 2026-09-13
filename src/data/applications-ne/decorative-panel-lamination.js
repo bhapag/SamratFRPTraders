@@ -2,7 +2,7 @@ export default {
   title: 'सजावट प्यानल Lamination का लागि Resin',
   cardDescription: 'भित्ता प्यानल, partition र architectural cladding लाई प्रायः सजावट laminate पाना जोडिन्छ — टिकाउ भित्री फिनिशका लागि छिटो cure हुने resin ले।',
   cardBenefit: 'ठूला प्यानल run मा एकनासको bonding।',
-  cardImageAlt: 'सजावट काठ-प्यानल laminate cladding ले समाप्त भित्री भित्ता',
+  cardImageAlt: 'काठजस्तो देखिने सजावटी laminate प्यानलले ढाकिएको भित्री भित्ता',
   seo: {
     title: 'सजावट प्यानल Lamination का लागि Resin',
     description: 'Lamination Resin ले भित्ता प्यानल, partition र architectural cladding मा सजावट laminate पाना कसरी जोड्छ — interior fit-out कार्यका लागि।',

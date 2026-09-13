@@ -2,7 +2,7 @@ export default {
   "title": "Water Tank Exteriors का लागि Gelcoat",
   "cardDescription": "FRP water tank exteriors लाई mould face मा लगाइने सफा, glossy cosmetic surface coat चाहिन्छ — tank wall आफैं बनाउने structural laminate भन्दा अलग।",
   "cardBenefit": "सफा, तयार बाहिरी सतह।",
-  "cardImageAlt": "चिल्लो moulded exterior gelcoat finish भएको FRP पानी भण्डारण tank",
+  "cardImageAlt": "बाहिरपट्टि चिल्लो gelcoat फिनिश भएको FRP पानी ट्याङ्की",
   "seo": {
     "title": "Water Tank Exteriors का लागि Gelcoat",
     "description": "FRP water tanks को exterior surface का लागि GP Gelcoat Resin — interior वा potable-water-contact surfaces का लागि होइन। यसले के समेट्छ र के समेट्दैन।"

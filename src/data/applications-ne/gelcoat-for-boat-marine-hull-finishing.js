@@ -2,7 +2,7 @@ export default {
   title: 'डुङ्गा र Marine Hull Finishing का लागि Gelcoat',
   cardDescription: 'डुङ्गा र marine hull लाई पहिले mould मा लगाइने चिल्लो, चम्किलो सजावट skin चाहिन्छ — hull लाई बल दिने structural laminate होइन, सतह कोटिंग।',
   cardBenefit: 'चम्किलो, mould-तयार hull फिनिश।',
-  cardImageAlt: 'चिल्लो gelcoat फिनिश देखाउँदै चम्किलो सेतो fiberglass डुङ्गाको hull',
+  cardImageAlt: 'चिल्लो gelcoat फिनिश भएको चम्किलो सेतो fiberglass डुङ्गाको पिँध',
   seo: {
     title: 'डुङ्गा र Marine Hull Finishing का लागि Gelcoat',
     description: 'GP Gelcoat Resin ले FRP डुङ्गाको hull को बाहिरी फिनिश कसरी बनाउँछ — structural laminate भन्दा पहिले लगाइने — र पानीमा रहने hull का लागि Vinyl Ester Resin कहिले उपयुक्त हुन्छ।',

@@ -20,7 +20,9 @@ const {
   search,
   category,
   image,
-  imageAlt,
+  // imageAlt is accepted for compatibility; the card image is decorative
+  // because the product name is already the link text.
+  imageAlt: _imageAlt,
   showMedia = false,
   ctaLabel,
 } = Astro.props;
@@ -55,7 +57,7 @@ const cardSrcset = cardBase
           src={cardBase ? `${cardBase}-256.webp` : `/images/products/${image.src}`}
           srcset={cardSrcset ?? undefined}
           sizes="(max-width: 30rem) 32.5vw, 7.75rem"
-          alt={imageAlt ?? ''}
+          alt=""
           width={image.width}
           height={image.height}
           loading="lazy"

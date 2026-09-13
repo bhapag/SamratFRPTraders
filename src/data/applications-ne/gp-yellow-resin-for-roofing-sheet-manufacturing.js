@@ -2,7 +2,7 @@ export default {
   "title": "Roofing Sheet Manufacturing का लागि GP Yellow Resin",
   "cardDescription": "GP Yellow Resin को transparent yellow, general-purpose orthophthalic base ले corrugated FRP roofing sheets का लागि reinforcement wet out गर्छ। Sheet production का लागि विशेष रूपमा tune गरिएको factory-pigmented grade चाहिएमा, Sheet Grade Yellow Resin dedicated alternative हो।",
   "cardBenefit": "Sheet lay-up का लागि general-purpose base।",
-  "cardImageAlt": "Outdoor pergola structure माथि install गरिएका grey corrugated FRP roofing sheets",
+  "cardImageAlt": "बाहिरी pergola संरचनामाथि जडान गरिएका खैरो नालीदार FRP छाना पाता",
   "seo": {
     "title": "FRP Roofing Sheets का लागि GP Yellow Resin",
     "description": "FRP roofing sheets का लागि general-purpose laminating resin को रूपमा GP Yellow Resin, र यो factory-pigmented Sheet Grade Yellow Resin भन्दा कसरी फरक छ।"

@@ -2,7 +2,7 @@ export default {
   "title": "Hand Lay-Up Process का लागि GP Yellow Resin",
   "cardDescription": "Hand lay-up काम layer by layer chopped strand mat लाई समान रूपमा saturate गर्ने resin मा भर पर्छ — GP Yellow Resin ले standard MEKP र cobalt octoate cure system प्रयोग गर्छ, GP Clear Resin भन्दा मुख्य रूपमा thicker body, slower gel र yellow tint मा फरक।",
   "cardBenefit": "Layer by layer even saturation।",
-  "cardImageAlt": "Gel coat, reinforcement, resin र roller लाई mould tool मा काम गरिएको देखाउने hand lay-up process को diagram",
+  "cardImageAlt": "साँचोमा gelcoat, reinforcement र resin लगाएर रोलर चलाइने hand lay-up प्रक्रियाको चित्र",
   "seo": {
     "title": "Hand Lay-Up Process का लागि GP Yellow Resin",
     "description": "Hand lay-up FRP कामका लागि GP Yellow Resin प्रयोग — GP Clear Resin जस्तै manufacturing route, thicker, slower-gelling grade मा।"

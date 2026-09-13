@@ -2,7 +2,7 @@ export default {
   "title": "FRP Roofing र Skylight Sheets का लागि Roof Light Sheet Resin",
   "cardDescription": "FRP roof-light प्यानल र skylight-sheet requirements का लागि published water-white Roof Light Sheet Grade Resin route मूल्याङ्कन गर्ने buyers का लागि selection-level guide।",
   "cardBenefit": "Sheet requirement, resin role र reinforcement discussion छुट्याउनुहोस्।",
-  "cardImageAlt": "Industrial structure माथि install गरिएका corrugated FRP roofing sheets",
+  "cardImageAlt": "औद्योगिक संरचनामाथि जडान गरिएका नालीदार FRP छाना पाता",
   "seo": {
     "title": "FRP Roofing र Skylight Sheets का लागि Roof Light Sheet Resin",
     "description": "FRP roof-light panels, skylight sheets, greenhouses र industrial वा commercial roofing contexts का लागि published Roof Light Sheet Grade Resin भूमिकाको buyer guide।"

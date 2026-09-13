@@ -2,7 +2,7 @@ export default {
   title: 'ढोका Skin Lamination का लागि Resin',
   cardDescription: 'Moulded FRP ढोका skin लाई core मा जोड्नु skin mould गर्नुभन्दा फरक चरण हो, र यो छिटो cure हुने resin र glass fibre reinforcement मा निर्भर हुन्छ।',
   cardBenefit: 'छिटो cure ले assembly लाइन चलिरहन्छ।',
-  cardImageAlt: 'Flush ढोकामा जोडिएको panelled grid डिजाइनको wood-grain laminate ढोका skin',
+  cardImageAlt: 'कोठे बुट्टा भएको, काठको धर्सा देखिने laminate ढोकाको सतह',
   seo: {
     title: 'ढोका Skin Lamination का लागि Resin',
     description: 'Lamination Resin ले moulded FRP ढोका skin लाई ढोकाको core मा कसरी जोड्छ — glass fibre reinforcement र MEKP cure सहित — skin moulding भन्दा फरक।',

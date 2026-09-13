@@ -2,7 +2,7 @@ export default {
   "title": "Filament Winding का लागि Vinyl Ester Resin",
   "cardDescription": "Filament-winding processes मा Vinyl Ester Resin को TDS-listed use का लागि buyer-selection guide। Complete process र finished-component requirements छुट्टै पुष्टि गर्नुहोस्।",
   "cardBenefit": "Documented process category का लागि published product data।",
-  "cardImageAlt": "Rack मा fibre-wound mandrels load गरिएको multi-spindle filament winding machine",
+  "cardImageAlt": "fibre बेरिएका mandrel राखिएको, धेरै spindle भएको filament winding मेसिन",
   "seo": {
     "title": "Filament Winding का लागि Vinyl Ester Resin",
     "description": "FRP component का लागि filament-winding process specify गरिएको ठाउँमा Samrat FRP Traders Vinyl Ester Resin छान्ने buyer guidance।"

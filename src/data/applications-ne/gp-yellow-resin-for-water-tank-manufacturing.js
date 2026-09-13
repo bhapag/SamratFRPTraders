@@ -2,7 +2,7 @@ export default {
   "title": "Water Tank Manufacturing का लागि GP Yellow Resin",
   "cardDescription": "Water tank panels लाई glass reinforcement सफा रूपमा wet out गर्ने र बलियो, leak-resistant laminate मा cure हुने resin चाहिन्छ — GP Yellow Resin को orthophthalic base र MEKP/cobalt cure ले tank को exterior यसको प्राकृतिक yellow tint माथि finish गरिने जहाँ पनि यो structural भूमिका पूरा गर्छ।",
   "cardBenefit": "Finished exterior पछाडिको consistent laminate।",
-  "cardImageAlt": "Glass-fibre-reinforced polyester panels बाट बनाइएको sectional FRP पानी भण्डारण tank",
+  "cardImageAlt": "glass fibre मिसिएका polyester प्यानल जोडेर बनाइएको FRP पानी ट्याङ्की",
   "seo": {
     "title": "Water Tank Manufacturing का लागि GP Yellow Resin",
     "description": "FRP water tank panels का लागि structural laminating resin को रूपमा GP Yellow Resin — GP Clear Resin जस्तै MEKP/cobalt cure, thicker body, slower gel।"

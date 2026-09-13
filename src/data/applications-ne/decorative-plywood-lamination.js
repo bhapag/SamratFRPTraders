@@ -2,7 +2,7 @@ export default {
   title: 'सजावट Plywood Lamination का लागि Resin',
   cardDescription: 'LR Resin ले पहिल्यै उत्पादित plywood मा सजावट laminate वा veneer face जोड्छ — यसले plywood board आफैँ बनाउँदैन।',
   cardBenefit: 'समाप्त plywood board मा छिटो bonding।',
-  cardImageAlt: 'बाथरुम भित्री स्थानमा काठ-slat सजावट plywood भित्ता प्यानलिङ',
+  cardImageAlt: 'बाथरुमको भित्तामा लगाइएका काठका पट्टीजस्ता सजावटी plywood प्यानल',
   seo: {
     title: 'सजावट Plywood Lamination का लागि Resin',
     description: 'LR Resin ले समाप्त plywood board मा सजावट laminate वा veneer पाना जोड्छ — plywood आफैँ उत्पादन गर्न होइन — छुट्टै adhesive प्रक्रिया।',

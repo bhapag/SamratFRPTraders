@@ -135,8 +135,8 @@ export function pdsDoc(product) {
 // wording lives in one place rather than being hand-typed per product.
 export function productImageAlt(product, isNe) {
   return isNe
-    ? `${product.name} — Samrat FRP Traders द्वारा नेपालमा आपूर्ति गरिएको`
-    : `${product.name} supplied by Samrat FRP Traders in Nepal`;
+    ? `${product.name} को उत्पादन तस्बिर`
+    : `${product.name} product image`;
 }
 
 // Responsive sources for product images. Large posters have display

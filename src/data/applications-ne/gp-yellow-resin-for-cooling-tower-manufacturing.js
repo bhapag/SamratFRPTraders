@@ -2,7 +2,7 @@ export default {
   "title": "Cooling Tower Manufacturing का लागि GP Yellow Resin",
   "cardDescription": "Cooling tower casings र internal components लाई sustained moisture मा भरपर्दो रूपमा cure हुने resin चाहिन्छ — GP Yellow Resin ले GP Clear Resin जस्तै MEKP र cobalt octoate cure system प्रयोग गर्छ, ठूला panel lay-ups मा मिल्ने thicker, अलिकति slower-gelling grade मा।",
   "cardBenefit": "ठूला panel lay-ups का लागि reliable cure।",
-  "cardImageAlt": "Industrial cooling water basin मा install गरिएका नीलो FRP cross-flow cooling tower modules को पङ्क्ति",
+  "cardImageAlt": "औद्योगिक चिस्याउने पानीको पोखरीमा जडान गरिएका नीला FRP cooling tower का पङ्क्ति",
   "seo": {
     "title": "Cooling Towers का लागि GP Yellow Resin",
     "description": "FRP cooling tower casings र components का लागि GP Yellow Resin — GP Clear Resin जस्तै cure chemistry, thicker, slower-gelling grade मा।"

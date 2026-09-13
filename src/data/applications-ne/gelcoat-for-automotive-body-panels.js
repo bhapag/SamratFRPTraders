@@ -2,7 +2,7 @@ export default {
   "title": "Automotive र Transport Body Panels का लागि Gelcoat",
   "cardDescription": "Buses, autorickshaws र trucks का FRP body panels लाई mould face मा लगाइने smooth, glossy cosmetic surface coat चाहिन्छ — पछाडि build up गरिने structural laminate भन्दा अलग।",
   "cardBenefit": "Glossy, paint-ready panel surface।",
-  "cardImageAlt": "Panel body finish देखाउने moulded FRP commercial vehicle cab को भित्री भाग",
+  "cardImageAlt": "moulded FRP प्यानलको फिनिश देखिने व्यावसायिक गाडीको क्याबिनभित्रको भाग",
   "seo": {
     "title": "Bus र Commercial Vehicle Panels का लागि Gelcoat",
     "description": "Buses, commercial र utility vehicles का FRP body panels का लागि GP Gelcoat Resin — mould-facing finish, पछाडिको structural laminate build up गर्नुअघि लगाइन्छ।"

@@ -2,7 +2,7 @@ export default {
   title: 'FRP Bathware र Sanitaryware का लागि Gelcoat',
   cardDescription: 'Bathtub र shower tray लाई structural laminate हुनुअघि लगाइने चिल्लो, चम्किलो mould-facing सतह कोट चाहिन्छ — reinforced backing होइन, सजावट फिनिश।',
   cardBenefit: 'चिल्लो, तयार-प्रयोग सतह फिनिश।',
-  cardImageAlt: 'चिल्लो gelcoat सतह फिनिशसहित चम्किलो सेतो freestanding FRP bathtub',
+  cardImageAlt: 'चिल्लो gelcoat सतह भएको, छुट्टै राखिने चम्किलो सेतो FRP बाथटब',
   seo: {
     title: 'FRP Bathware र Sanitaryware का लागि Gelcoat',
     description: 'GP Gelcoat Resin ले FRP bathtub र shower tray को चिल्लो, रङ्गीन सतह कसरी बनाउँछ — structural laminate पछाडि जानुअघि mould मा लगाइने।',

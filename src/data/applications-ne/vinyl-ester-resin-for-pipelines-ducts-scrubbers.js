@@ -2,7 +2,7 @@ export default {
   "title": "FRP Pipelines, Ducts र Scrubbers का लागि Vinyl Ester Resin",
   "cardDescription": "FRP pipelines, ducts र scrubbers मा Vinyl Ester Resin को TDS-listed use का लागि buyer-selection guide। Finished system छान्नुअघि वास्तविक service requirement पुष्टि गर्नुहोस्।",
   "cardBenefit": "Documented industrial FRP application guidance।",
-  "cardImageAlt": "FRP ductwork र exhaust stack सँग जोडिएका industrial wet scrubber towers",
+  "cardImageAlt": "FRP duct र धुवाँ निकास चिम्नीसँग जोडिएका औद्योगिक wet scrubber टावर",
   "seo": {
     "title": "FRP Pipelines, Ducts र Scrubbers का लागि Vinyl Ester Resin",
     "description": "FRP pipelines, ducts र scrubbers मा Samrat FRP Traders Vinyl Ester Resin को documented use का लागि buyer guidance।"

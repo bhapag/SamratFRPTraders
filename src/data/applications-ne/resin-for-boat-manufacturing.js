@@ -2,7 +2,7 @@ export default {
   "title": "Boat र Marine Components का लागि Resin",
   "cardDescription": "Marine र boat components लाई glass fibre reinforcement माथि proven wet-out र laminate cure भएपछि reliable strength चाहिन्छ।",
   "cardBenefit": "Hulls र marine parts का लागि reliable wet-out।",
-  "cardImageAlt": "Glass-reinforced polyester composite बाट बनेका FRP marine र boat components",
+  "cardImageAlt": "glass fibre मिसिएको polyester composite बाट बनेका डुङ्गा र समुद्री प्रयोगका FRP भाग",
   "seo": {
     "title": "Boat र Marine Components का लागि Resin",
     "description": "FRP boat र marine component fabrication मा GP Clear Resin ले कस्तो प्रदर्शन गर्छ, र chemical-resistant grade मा upgrade कहिले सार्थक हुन्छ।"

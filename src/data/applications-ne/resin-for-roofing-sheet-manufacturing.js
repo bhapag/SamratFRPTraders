@@ -2,7 +2,7 @@ export default {
   "title": "Roofing Sheet निर्माणका लागि Resin",
   "cardDescription": "Roofing र cladding sheet निर्माताहरूलाई sheet लाई कमजोर बनाउने pooling वा dry patches बिना ठूला panel areas भरि समान lamination चाहिन्छ।",
   "cardBenefit": "ठूला sheet formats भरि समान lamination।",
-  "cardImageAlt": "Industrial building frame माथि जडान गरिएका translucent corrugated FRP roofing sheets",
+  "cardImageAlt": "औद्योगिक भवनको ढाँचामाथि जडान गरिएका पारदर्शी नालीदार FRP छाना पाता",
   "seo": {
     "title": "Roofing Sheet निर्माणका लागि Resin",
     "description": "Corrugated र flat FRP roofing sheet निर्माणमा GP Clear Resin ले कसरी सहयोग गर्छ, र translucent roof-light grade कहिले राम्रो उपयुक्त हुन्छ।"

@@ -2,7 +2,7 @@ export default {
   title: 'Furniture Lamination का लागि Resin',
   cardDescription: 'LR Resin furniture निर्माताले प्यानलमा सजावट laminate जोड्न प्रयोग गर्ने धेरै विधिमध्ये एक हो — PU र contact adhesive प्रणालीसँगै।',
   cardBenefit: 'सजावट furniture सतहका लागि छिटो cure हुने विकल्प।',
-  cardImageAlt: 'सुनौलो trim विवरणसहित चम्किलो laminate-faced wardrobe क्याबिनेट',
+  cardImageAlt: 'सुनौलो किनारा भएको चम्किलो laminate सतहको दराज',
   seo: {
     title: 'Furniture Lamination का लागि Resin',
     description: 'Lamination Resin ले furniture प्यानलमा सजावट laminate कसरी जोड्छ, र furniture उद्योगले प्रयोग गर्ने धेरै विकल्पमध्ये यो किन एक मान्य विकल्प हो।',

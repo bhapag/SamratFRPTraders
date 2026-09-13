@@ -2,7 +2,7 @@ export default {
   "title": "Cooling Tower निर्माणका लागि Resin",
   "cardDescription": "Cooling tower components ले निरन्तर moisture र temperature cycling सामना गर्छन्, जसका लागि दिगो mechanical strength र chemical resistance भएको laminate चाहिन्छ।",
   "cardBenefit": "निरन्तर wet/dry cycling थेग्नका लागि बनेको।",
-  "cardImageAlt": "Moulded casing panels भएको industrial FRP cooling tower",
+  "cardImageAlt": "moulded बाहिरी प्यानल भएको औद्योगिक FRP cooling tower",
   "seo": {
     "title": "Cooling Tower निर्माणका लागि Resin",
     "description": "FRP cooling tower निर्माताहरूले GP Clear Resin किन रोज्छन् — आवश्यक laminate properties, panel fabrication, र chemical-resistant upgrade कहिले अर्थपूर्ण हुन्छ।"

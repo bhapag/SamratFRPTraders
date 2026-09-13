@@ -2,7 +2,7 @@ export default {
   "title": "Pultrusion का लागि Vinyl Ester Resin",
   "cardDescription": "Pultrusion मा Vinyl Ester Resin को TDS-listed use का लागि buyer-selection guide। Order गर्नुअघि process र finished-component requirements छुट्टै पुष्टि गर्नुहोस्।",
   "cardBenefit": "Documented process category का लागि published product data।",
-  "cardImageAlt": "Yellow fibreglass र black carbon fibre मा pultruded FRP square र round profile stock",
+  "cardImageAlt": "पहेँलो fiberglass र कालो carbon fibre का pultruded FRP वर्गाकार तथा गोलाकार प्रोफाइल",
   "seo": {
     "title": "Pultrusion का लागि Vinyl Ester Resin",
     "description": "FRP component का लागि pultrusion process specify गरिएको ठाउँमा Samrat FRP Traders Vinyl Ester Resin छान्ने buyer guidance।"

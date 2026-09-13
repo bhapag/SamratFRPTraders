@@ -2,7 +2,7 @@ export default {
   "title": "Door Skin निर्माणका लागि Resin",
   "cardDescription": "Door skin उत्पादनमा उत्कृष्ट wet-out र mould बाटै सीधै सफा, glass जस्तै cured finish चाहिन्छ।",
   "cardBenefit": "हरेक skin मा सफा, high-gloss finish।",
-  "cardImageAlt": "Decorative embossed design भएको moulded metallic-finish door skin panel",
+  "cardImageAlt": "धातुजस्तो फिनिश र उठेका बुट्टा भएको moulded ढोका सतह प्यानल",
   "seo": {
     "title": "Door Skin निर्माणका लागि Resin",
     "description": "FRP door skin निर्माताहरूलाई उत्कृष्ट wet-out र सफा cured finish भएको resin किन चाहिन्छ, र त्यो आवश्यकताको हिसाबले GP Clear Resin ले कस्तो प्रदर्शन गर्छ।"

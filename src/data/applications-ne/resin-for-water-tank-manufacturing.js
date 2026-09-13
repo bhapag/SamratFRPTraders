@@ -2,7 +2,7 @@ export default {
   "title": "Water Tank निर्माणका लागि Resin",
   "cardDescription": "Water tank निर्माताहरूलाई glass reinforcement लाई सफासँग wet out गर्ने र दीर्घकालीन structural integrity का लागि बलियो, चुहावट-प्रतिरोधी laminate मा cure हुने resin चाहिन्छ।",
   "cardBenefit": "एकरूप wall thickness, कुनै कमजोर बिन्दु छैन।",
-  "cardImageAlt": "Glass-fibre-reinforced polyester panels बाट बनेको sectional FRP पानी भण्डारण tank",
+  "cardImageAlt": "glass fibre मिसिएका polyester प्यानल जोडेर बनेको FRP पानी ट्याङ्की",
   "seo": {
     "title": "Water Tank निर्माणका लागि Resin",
     "description": "FRP water tank निर्माणमा GP Clear Resin कसरी प्रयोग हुन्छ — आवश्यक resin properties, lay-up प्रक्रिया, र यो sectional तथा cylindrical tanks का लागि किन उपयुक्त छ।"

@@ -12,13 +12,13 @@ import HeroBackground from './HeroBackground.astro';
 import BrandFilm from './BrandFilm.astro';
 import { products, catalogGroups, getGroup, getProduct, productsInGroup } from '../../data/products.js';
 import { applications } from '../../data/applications.js';
+import { localizeApplication } from '../../utils/application-i18n.js';
 import { resources } from '../../data/resources.js';
 import {
   DOCUMENT_ISSUER,
   productsWithoutDocuments,
 } from '../../data/documents.js';
 import { site, buildWhatsAppIntentLink } from '../../data/site.js';
-import { productImageAlt } from '../../utils/product-page.js';
 import '../../styles/home-experiment.css';
 
 const { lang = 'ne' } = Astro.props;
@@ -237,7 +237,7 @@ const contents = [
           return (
             <a class="home-plate" href={`${prefix}/products/${product.slug}/`} data-reveal style={`--reveal-delay: ${i * 60}ms`}>
               <span class="home-plate-well">
-                {image && <img src={`/images/products/${image.src}`} width={image.width} height={image.height} alt={productImageAlt(product, ne)} loading="lazy" decoding="async" />}
+                {image && <img src={`/images/products/${image.src}`} width={image.width} height={image.height} alt="" loading="lazy" decoding="async" />}
               </span>
               <span class="home-plate-caption">
                 <span class="home-plate-meta"><span class="home-plate-index">02.{pad(i + 1)}</span><span class="home-plate-family">{getGroup(product.group)?.name}</span></span>
@@ -286,7 +286,7 @@ const contents = [
           return (
             <a class="home-tile" href={`${prefix}/applications/${app.slug}/`} data-reveal style={`--reveal-delay: ${i * 55}ms`}>
               <span class="home-tile-frame">
-                <img src={`/images/applications/${app.cardImage}`} width={w} height={h} alt={app.cardImageAlt} loading="lazy" decoding="async" />
+                <img src={`/images/applications/${app.cardImage}`} width={w} height={h} alt={ne ? localizeApplication(app).cardImageAlt : app.cardImageAlt} loading="lazy" decoding="async" />
               </span>
               <span class="home-tile-body">
                 <span class="home-mono-label">04.{pad(i + 1)}</span>

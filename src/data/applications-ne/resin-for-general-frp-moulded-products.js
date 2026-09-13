@@ -2,7 +2,7 @@ export default {
   title: 'सामान्य FRP Moulded उत्पादनका लागि Resin',
   cardDescription: 'ट्यांकीदेखि सजावट moulding सम्म — सामान्य FRP moulded उत्पादनलाई भरपर्दो cure हुने र mould बाट सफा छुट्टिने laminate चाहिन्छ।',
   cardBenefit: 'विभिन्न mould कार्यमा एकनासको नतिजा।',
-  cardImageAlt: 'विभिन्न आकारका रङ्गीन FRP moulded grating प्यानलहरूको थाक',
+  cardImageAlt: 'विभिन्न आकारका रङ्गीन FRP grating प्यानलको थाक',
   seo: {
     title: 'सामान्य FRP Moulded उत्पादनका लागि Resin',
     description: 'GP Clear Resin सामान्य FRP moulded उत्पादन — planter, cover, fixture र सजावट सामग्री — मा कस्तो प्रदर्शन गर्छ, भरपर्दो cure र सफा mould release सहित।',

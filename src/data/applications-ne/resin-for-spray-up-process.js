@@ -2,7 +2,7 @@ export default {
   "title": "Spray-Up प्रक्रियाका लागि Resin",
   "cardDescription": "Spray-up उत्पादनमा spray equipment बाट सफासँग atomise हुने र predictable schedule मा gel हुने resin चाहिन्छ।",
   "cardBenefit": "ठूलो मात्रामा gel timing माथि पूर्ण नियन्त्रण।",
-  "cardImageAlt": "Chopper gun ले gelcoated mould मा resin र fibre जम्मा गरिरहेको देखाउने spray-up प्रक्रियाको चित्र",
+  "cardImageAlt": "chopper gun ले gelcoat लगाइएको साँचोमा resin र fibre छर्दै गरेको spray-up प्रक्रियाको चित्र",
   "seo": {
     "title": "Spray-Up प्रक्रियाका लागि Resin",
     "description": "Chopped roving र resin सँगै जम्मा गरेर छिटो, high-volume lamination गरिने spray-up FRP fabrication मा GP Clear Resin ले कस्तो प्रदर्शन गर्छ।"

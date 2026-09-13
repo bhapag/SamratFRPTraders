@@ -2,7 +2,7 @@ export default {
   "title": "सामान्य FRP Lamination का लागि Resin",
   "cardDescription": "Lamination काम जुनसुकै भए पनि, fabricators लाई viscosity, gel time र strength विविध कामभरि एकरूप रहने एउटै resin चाहिन्छ।",
   "cardBenefit": "विविध lamination कामका लागि एउटै भरपर्दो resin।",
-  "cardImageAlt": "रंगीन corrugated FRP laminate sheets को थाक",
+  "cardImageAlt": "रङ्गीन नालीदार FRP laminate पाताको थाक",
   "seo": {
     "title": "सामान्य FRP Lamination का लागि Resin",
     "description": "विविध FRP jobs भरि एउटै भरपर्दो lamination resin का रूपमा GP Clear Resin ले किन काम गर्छ, र यसको सट्टा job-specific grade कहिले रोज्नु सार्थक हुन्छ।"

@@ -2,7 +2,7 @@ export default {
   "title": "Epoxy Casting Process: Mixing देखि Finishing सम्म",
   "cardDescription": "Epoxy casting polyester lamination भन्दा फरक discipline हो — percentage ले dose गर्नुको सट्टा तौलेर, simply roll गर्नुको सट्टा degassed, र minutes को सट्टा days मा cure — यो guide ले Epoxy Clear Casting Resin लाई सही रूपमा mixing, pouring र finishing गर्ने तरिका समेट्छ।",
   "cardBenefit": "पूरा mixing-to-polish workflow।",
-  "cardImageAlt": "Mixing cup बाट live-edge wood slab माथि blue-tinted mixed epoxy resin खन्याउँदै गरेका हातहरू",
+  "cardImageAlt": "कपबाट काठको प्राकृतिक किनारा भएको फल्याकमाथि नीलो रङ मिसाइएको epoxy resin खन्याउँदै गरेका हात",
   "seo": {
     "title": "Epoxy Casting Process Guide",
     "description": "Epoxy Clear Casting Resin प्रयोग गरी पूरा epoxy casting process — weight अनुसार mixing, degassing, staged pours र finishing।"

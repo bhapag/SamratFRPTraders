@@ -2,7 +2,7 @@ export default {
   "title": "FRP Panel निर्माणका लागि Resin",
   "cardDescription": "General FRP panels — partitions देखि enclosures सम्म — लाई batch पछि batch, volume मा predictably process हुने resin चाहिन्छ।",
   "cardBenefit": "Volume उत्पादनका लागि छिटो, predictable cure।",
-  "cardImageAlt": "रंगीन textured FRP panel sheet samples को थाक",
+  "cardImageAlt": "बुनोट देखिने रङ्गीन FRP प्यानल पाताका नमुनाको थाक",
   "seo": {
     "title": "FRP Panel निर्माणका लागि Resin",
     "description": "Partitions, enclosures र cladding — general-purpose FRP panel निर्माणमा consistent, high-volume lamination सहित GP Clear Resin ले कसरी सहयोग गर्छ।"

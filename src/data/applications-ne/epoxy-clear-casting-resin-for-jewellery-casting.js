@@ -2,7 +2,7 @@ export default {
   "title": "Jewellery र Decorative Casting का लागि Epoxy Clear Casting Resin",
   "cardDescription": "Jewellery र decorative pieces का साना silicone moulds लाई fine detail capture गर्ने, shallow pour मा फसेको हावा release गर्ने, र Epoxy Clear Casting Resin को medium-depth capability भित्रै crystal clear cure हुने resin चाहिन्छ।",
   "cardBenefit": "साना moulds मा crystal-clear detail।",
-  "cardImageAlt": "Bezel settings मा pressed botanicals र gold flake cast भएका clear resin pendants",
+  "cardImageAlt": "सुकाइएका फूलपात र सुनौलो पत्र राखेर clear resin मा ढालिएका लकेट",
   "seo": {
     "title": "Jewellery Casting का लागि Epoxy Casting Resin",
     "description": "Jewellery र साना decorative casting का लागि Epoxy Clear Casting Resin — silicone moulds मा fine detail का लागि crystal-clear 2:1 epoxy।"
