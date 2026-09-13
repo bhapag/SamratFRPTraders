@@ -1,5 +1,6 @@
 ---
 import { buildCanonicalUrl, buildWhatsAppLink, site, whatsAppMessages } from '../data/site.js';
+import { POLICY_LINKS } from '../data/policies.js';
 import { catalogGroups, products, productsInGroup } from '../data/products.js';
 import AmbientBackground from '../components/AmbientBackground.astro';
 import '../styles/global.css';
@@ -429,6 +430,11 @@ const websiteSchema = {
           <span class="legal-item" data-copy-value={site.business.vat}>VAT {site.business.vat}</span> ·
           <span class="legal-item" data-copy-value={site.business.exim}>EXIM {site.business.exim}</span>
         </span>
+        <nav class="footer-policies" aria-label={isNe ? 'नीतिहरू' : 'Policies'}>
+          {POLICY_LINKS.map((p) => (
+            <a href={`${isNe ? '' : '/en'}/${p.slug}/`}>{isNe ? p.ne : p.en}</a>
+          ))}
+        </nav>
         <span class="footer-lang" role="group" aria-label={isNe ? 'भाषा' : 'Language'}>
           <a href={nePath} lang="ne" aria-current={isNe ? 'true' : undefined}>NE</a>
           <a href={enPath} lang="en" aria-current={!isNe ? 'true' : undefined}>EN</a>
@@ -1520,6 +1526,18 @@ const websiteSchema = {
     font-size: 0.62rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+
+  .footer-policies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 1.1rem;
+  }
+
+  .footer-policies a {
+    display: inline-block;
+    padding-block: 0.3rem;
+    color: inherit;
   }
 
   .footer-legal .legal-item.is-copyable {

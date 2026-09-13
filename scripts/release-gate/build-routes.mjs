@@ -47,6 +47,12 @@ export async function run() {
     'en/about/index.html',
     'contact/index.html',
     'en/contact/index.html',
+    'privacy-policy/index.html',
+    'en/privacy-policy/index.html',
+    'terms/index.html',
+    'en/terms/index.html',
+    'sales-returns-complaints/index.html',
+    'en/sales-returns-complaints/index.html',
     '404.html',
     'sitemap-index.xml',
   ];

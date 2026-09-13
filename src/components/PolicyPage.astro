@@ -1,0 +1,145 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import { POLICY_EFFECTIVE, POLICY_LINKS, policies } from '../data/policies.js';
+
+const { slug, lang = 'en' } = Astro.props;
+const isNe = lang === 'ne';
+const prefix = isNe ? '' : '/en';
+const doc = policies[slug][isNe ? 'ne' : 'en'];
+const effective = isNe ? POLICY_EFFECTIVE.ne : POLICY_EFFECTIVE.en;
+const others = POLICY_LINKS.filter((p) => p.slug !== slug);
+const breadcrumbs = [
+  { label: isNe ? 'गृहपृष्ठ' : 'Home', href: isNe ? '/' : '/en/' },
+  { label: doc.title },
+];
+---
+<Base lang={lang} title={doc.title} description={doc.description}>
+  <section class="page-hero hero-shell">
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">{isNe ? 'नीति' : 'Policy'}</p>
+      <h1>{doc.title}</h1>
+      <p class="page-lead">{doc.lead}</p>
+    </div>
+  </section>
+
+  <div class="ledger policy-surface">
+    <div class="container policy-wrap">
+      <Breadcrumbs items={breadcrumbs} />
+      <p class="policy-meta">
+        {isNe ? 'लागू मिति' : 'Effective date'}: {effective} · {isNe ? 'संस्करण' : 'Version'} {isNe ? '१' : POLICY_EFFECTIVE.version}
+      </p>
+
+      <article class="policy-body">
+        {doc.sections.map((section) => (
+          <section class="policy-section">
+            <h2>{section.heading}</h2>
+            {section.paragraphs?.map((text) => <p>{text}</p>)}
+            {section.list && (
+              <ul>
+                {section.list.map((item) => <li>{item}</li>)}
+              </ul>
+            )}
+          </section>
+        ))}
+      </article>
+
+      <nav class="policy-related" aria-label={isNe ? 'अन्य नीति' : 'Other policies'}>
+        <p class="policy-related-title">{isNe ? 'अन्य नीति' : 'Other policies'}</p>
+        <ul>
+          {others.map((p) => (
+            <li><a href={`${prefix}/${p.slug}/`}>{isNe ? p.ne : p.en}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .policy-surface {
+    padding-block: clamp(2rem, 5vw, 3.5rem) clamp(3rem, 7vw, 5rem);
+  }
+
+  .policy-wrap {
+    max-width: 48rem;
+  }
+
+  .policy-meta {
+    margin: 1.2rem 0 0;
+    color: var(--ink-dim);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+  }
+
+  .policy-body {
+    margin-top: 1.5rem;
+  }
+
+  .policy-section + .policy-section {
+    margin-top: 2rem;
+  }
+
+  .policy-section h2 {
+    margin: 0 0 0.7rem;
+    font-size: clamp(1.25rem, 2.6vw, 1.55rem);
+    line-height: 1.25;
+  }
+
+  .policy-section p,
+  .policy-section li {
+    color: var(--ink);
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .policy-section p {
+    margin: 0 0 0.8rem;
+  }
+
+  .policy-section ul {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  .policy-section li + li {
+    margin-top: 0.45rem;
+  }
+
+  .policy-related {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .policy-related-title {
+    margin: 0 0 0.6rem;
+    color: var(--ink-dim);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .policy-related ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .policy-related a {
+    display: inline-block;
+    padding-block: 0.35rem;
+    color: var(--accent-gold-dark);
+  }
+
+  :global(html:lang(ne)) .policy-section p,
+  :global(html:lang(ne)) .policy-section li {
+    line-height: 1.85;
+  }
+</style>

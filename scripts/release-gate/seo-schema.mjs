@@ -158,6 +158,9 @@ export async function run() {
   checkHreflangPair(r, '/resources/', '/en/resources/');
   checkHreflangPair(r, '/about/', '/en/about/');
   checkHreflangPair(r, '/contact/', '/en/contact/');
+  checkHreflangPair(r, '/privacy-policy/', '/en/privacy-policy/');
+  checkHreflangPair(r, '/terms/', '/en/terms/');
+  checkHreflangPair(r, '/sales-returns-complaints/', '/en/sales-returns-complaints/');
   for (const p of products) checkHreflangPair(r, `/products/${p.slug}/`, `/en/products/${p.slug}/`);
   for (const a of applications.filter((x) => !x.draft)) checkHreflangPair(r, `/applications/${a.slug}/`, `/en/applications/${a.slug}/`);
   for (const res of resources.filter((x) => !x.draft)) checkHreflangPair(r, `/resources/${res.slug}/`, `/en/resources/${res.slug}/`);
