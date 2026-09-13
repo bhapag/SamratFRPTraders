@@ -236,7 +236,7 @@ const breadcrumbSchema = {
                 <h3>{entry.product.name}</h3>
                 {entry.product.descriptor && <p class="doc-product-desc">{entry.product.descriptor}</p>}
               </div>
-              <a class="doc-product-link" href={`${prefix}/products/${entry.product.slug}/`}>
+              <a class="doc-product-link" href={`${prefix}/products/${entry.product.slug}/`} aria-label={`${entry.product.name} — ${t.viewProduct}`}>
                 {t.viewProduct} →
               </a>
             </header>
@@ -479,6 +479,8 @@ const breadcrumbSchema = {
   }
 
   .doc-product-link {
+    display: inline-block;
+    padding-block: 0.35rem; /* WCAG 2.5.8 target size */
     flex-shrink: 0;
     color: var(--accent-gold-light);
     font-family: var(--font-mono);

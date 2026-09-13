@@ -31,7 +31,7 @@ import Base from '../../../layouts/Base.astro';
   <section class="section">
     <div class="container">
       <div class="catalogue-shell">
-        <aside class="catalogue-rail" data-reveal>
+        <div class="catalogue-rail" data-reveal>
           <div class="catalogue-rail-search">
             <label class="visually-hidden" for="product-search">Search products</label>
             <input
@@ -44,7 +44,7 @@ import Base from '../../../layouts/Base.astro';
             />
           </div>
           <div class="catalogue-rail-scroll" data-rail-scroll>
-            <nav class="catalogue-rail-nav" role="group" aria-label="Filter by product category">
+            <div class="catalogue-rail-nav" role="group" aria-label="Filter by product category">
               <button type="button" class="rail-link is-active" data-chip-cat="all" aria-pressed="true">
                 <span class="rail-link-name">All products</span>
                 <span class="rail-link-count">{products.length}</span>
@@ -56,9 +56,9 @@ import Base from '../../../layouts/Base.astro';
                   <span class="rail-link-count">{productsInGroup(group.slug).length}</span>
                 </button>
               ))}
-            </nav>
+            </div>
           </div>
-        </aside>
+        </div>
 
         <div class="catalogue-main">
           <p class="catalogue-empty" data-catalogue-empty hidden>No products found. Try adjusting your search or filter.</p>
@@ -75,7 +75,7 @@ import Base from '../../../layouts/Base.astro';
                       {group.summary && <p class="catalogue-group-summary">{group.summary}</p>}
                     </div>
                     <span class="catalogue-count">{items.length} {items.length === 1 ? 'product' : 'products'}</span>
-                    {group.indexable && <a class="catalogue-group-link" href={categoryHref(group, '/en')}>View category →</a>}
+                    {group.indexable && <a class="catalogue-group-link" href={categoryHref(group, '/en')} aria-label={`View the ${group.name} category`}>View category →</a>}
                   </header>
                   <div class="catalogue-grid">
                     {items.map((product) => (

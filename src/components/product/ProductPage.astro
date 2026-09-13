@@ -428,7 +428,7 @@ const docActions = [
         </div>
         <div class="fact">
           <span>{t.enquiry}</span>
-          <strong><a href={`${prefix}/contact/`}>{t.enquiryVia}</a></strong>
+          <strong><a class="fact-link" href={`${prefix}/contact/`}>{t.enquiryVia}</a></strong>
         </div>
       </div>
     </section>
@@ -509,7 +509,7 @@ const docActions = [
     )}
   </div>
 
-  <aside class="product-side" data-reveal>
+  <div class="product-side" data-reveal>
     {related.length > 0 && (
       <div class="side-block">
         <p class="side-title">{t.relatedTitle}</p>
@@ -556,7 +556,7 @@ const docActions = [
         )}
       </div>
     )}
-  </aside>
+  </div>
 </div>
 
 <script
@@ -1171,6 +1171,11 @@ const docActions = [
     font-family: var(--font-mono);
     font-size: 0.62rem;
     letter-spacing: 0.04em;
+  }
+
+  .fact-link {
+    display: inline-block;
+    padding-block: 0.3rem;
   }
 
   .fact-grid {

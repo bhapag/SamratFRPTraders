@@ -87,7 +87,7 @@ html:lang(ne) {
   --line-2: #c7bb9c;
   --ink: #201c15;
   --ink-dim: #57503f;
-  --ink-faint: #857a63;
+  --ink-faint: #6f6550; /* 4.78:1 on #efeadc, the darkest ledger panel (WCAG 1.4.3) */
   --accent-gold: #92671a;
   --accent-gold-light: #7a561a;
   --accent-gold-dark: #5c4212;

@@ -89,7 +89,7 @@ const nonFeaturedUngrouped = ungrouped.filter((r) => !featuredSlugs.has(r.slug))
             </div>
             <span class="doc-group-count">{cluster.resources.length} गाइड</span>
             {cluster.productSlug && (
-              <a class="doc-group-link" href={`/products/${cluster.productSlug}/`}>उत्पादन पृष्ठ हेर्नुहोस् →</a>
+              <a class="doc-group-link" href={`/products/${cluster.productSlug}/`} aria-label={`${cluster.productName} उत्पादन पृष्ठ हेर्नुहोस्`}>उत्पादन पृष्ठ हेर्नुहोस् →</a>
             )}
           </header>
           <div class="doc-list">
@@ -249,6 +249,8 @@ const nonFeaturedUngrouped = ungrouped.filter((r) => !featuredSlugs.has(r.slug))
   }
 
   .doc-group-link {
+    display: inline-block;
+    padding-block: 0.35rem; /* WCAG 2.5.8 target size */
     color: var(--accent-gold-light);
     font-family: var(--font-mono);
     font-size: 0.68rem;

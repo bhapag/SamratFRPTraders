@@ -159,14 +159,14 @@ const contents = [
         </div>
       </div>
 
-      <aside class="home-hero-rail" aria-label={t('What we supply', 'हामी के आपूर्ति गर्छौं')}>
+      <section class="home-hero-rail" aria-label={t('What we supply', 'हामी के आपूर्ति गर्छौं')}>
         <dl class="home-spec-ledger">
           <div><dt>{t('ROLE', 'भूमिका')}</dt><dd>{t('Trader · Supplier · Importer · Reseller', 'व्यापारी · आपूर्तिकर्ता · आयातकर्ता · पुनर्विक्रेता')}</dd></div>
           <div><dt>{t('BASE', 'आधार')}</dt><dd>{site.business.city}, {site.business.country}</dd></div>
           <div><dt>{t('RANGE', 'दायरा')}</dt><dd>{products.length} {t('products', 'उत्पादन')} · {catalogGroups.length} {t('families', 'परिवार')}</dd></div>
           <div><dt>{t('DOCUMENTS', 'कागजात')}</dt><dd>{t('Supplier data sheets, product by product', 'आपूर्तिकर्ता डाटा शीट, उत्पादनअनुसार')}</dd></div>
         </dl>
-      </aside>
+      </section>
 
       <nav class="home-contents" aria-label={t('Page contents', 'पृष्ठ सूची')}>
         {contents.map((item, i) => (

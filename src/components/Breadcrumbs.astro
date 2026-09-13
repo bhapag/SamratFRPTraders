@@ -1,7 +1,8 @@
 ---
 const { items } = Astro.props;
+const isNe = !Astro.url.pathname.startsWith('/en/');
 ---
-<nav class="breadcrumbs" aria-label="Breadcrumb">
+<nav class="breadcrumbs" aria-label={isNe ? 'ब्रेडक्रम्ब' : 'Breadcrumb'}>
   <ol>
     {items.map((item, index) => {
       const isLast = index === items.length - 1;
@@ -40,7 +41,10 @@ const { items } = Astro.props;
     color: var(--accent-gold);
   }
 
+  /* WCAG 2.5.8: at least 24px tall without changing the visual line. */
   .breadcrumbs a {
+    display: inline-block;
+    padding-block: 0.4rem;
     color: var(--ink-dim);
     text-decoration: none;
     transition: color 180ms var(--ease-premium);

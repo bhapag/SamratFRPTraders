@@ -89,7 +89,7 @@ const faqSchema =
 
       <div class:list={['article-body', { 'article-body-wide': isLongForm }]}>
         {isLongForm && (
-          <aside class="article-side" data-reveal>
+          <div class="article-side" data-reveal>
             {resource.quickFacts && Object.keys(resource.quickFacts).length > 0 && (
               <div class="quick-facts">
                 <h2 class="block-title">Quick facts</h2>
@@ -104,7 +104,7 @@ const faqSchema =
               </div>
             )}
             <TableOfContents items={tocItems} label="Table of Contents" />
-          </aside>
+          </div>
         )}
 
         <article class="article" data-reveal>

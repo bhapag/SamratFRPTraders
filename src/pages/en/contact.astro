@@ -57,13 +57,9 @@ import Base from '../../layouts/Base.astro';
 
         <div class="contact-catalogue-note">
           <p class="contact-catalogue-heading">Need our complete product range?</p>
-          <p class="contact-catalogue-desc">Download the latest Samrat FRP Traders product catalogue.</p>
-          <a
-            class="contact-catalogue-link"
-            href="/en/products/"
-                        aria-label="Download Samrat FRP Traders Full product range"
-          >
-            Download Product Catalogue →
+          <p class="contact-catalogue-desc">Browse every Samrat FRP Traders product by family, with its documents.</p>
+          <a class="contact-catalogue-link" href="/en/products/">
+            Browse the full product range →
           </a>
         </div>
 
@@ -318,6 +314,8 @@ import Base from '../../layouts/Base.astro';
   }
 
   .contact-catalogue-link {
+    display: inline-block;
+    padding-block: 0.35rem; /* WCAG 2.5.8 target size */
     color: var(--accent-gold-light);
     font-family: var(--font-mono);
     font-size: 0.8rem;

@@ -58,13 +58,9 @@ import Base from '../layouts/Base.astro';
 
         <div class="contact-catalogue-note">
           <p class="contact-catalogue-heading">पूर्ण उत्पादन दायरा चाहिन्छ?</p>
-          <p class="contact-catalogue-desc">नवीनतम Samrat FRP Traders उत्पादन क्याटलग डाउनलोड गर्नुहोस्।</p>
-          <a
-            class="contact-catalogue-link"
-            href="/products/"
-                        aria-label="Samrat FRP Traders पूरा उत्पादन दायरा डाउनलोड गर्नुहोस्"
-          >
-            उत्पादन क्याटलग डाउनलोड गर्नुहोस् →
+          <p class="contact-catalogue-desc">Samrat FRP Traders का सबै उत्पादन परिवारअनुसार, कागजातसहित हेर्नुहोस्।</p>
+          <a class="contact-catalogue-link" href="/products/">
+            पूरा उत्पादन दायरा हेर्नुहोस् →
           </a>
         </div>
 
@@ -318,6 +314,8 @@ import Base from '../layouts/Base.astro';
   }
 
   .contact-catalogue-link {
+    display: inline-block;
+    padding-block: 0.35rem; /* WCAG 2.5.8 target size */
     color: var(--accent-gold-light);
     font-family: var(--font-mono);
     font-size: 0.8rem;
