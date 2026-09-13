@@ -1,6 +1,6 @@
 export default {
   title: "Fiberglass Epoxy Resin Technical Specifications र Document Check",
-  description: "हालको Fiberglass Epoxy Resin TDS र catalogue लाई सँगसँगै पढ्नुहोस्, तिनका फरक-फरक label र value देखिने गरी राख्नुहोस्, र supplied-resin data लाई finished-composite दाबीमा बदल्नबाट जोगिनुहोस्।",
+  description: "नेपालका खरिदकर्ताका लागि Fiberglass Epoxy Resin specification: आपूर्तिकर्ताको TDS ले 25 °C मा 700 cPs viscosity र 1.15 g/cm³ density, catalogue ले 900 cPs र 1.16 g/cm³ उल्लेख गर्छ। कुन कागजात प्रयोग गर्ने र अर्डरअघि के जाँच्ने, हेर्नुहोस्।",
   seo: {
     title: "Fiberglass Epoxy Resin Technical Specifications | TDS गाइड",
     keywords: [

@@ -16866,7 +16866,7 @@ export const resources = Object.freeze([
   {
     "slug": "fiberglass-epoxy-resin-technical-specifications-and-document-check",
     "title": "Fiberglass Epoxy Resin Technical Specifications and Document Check",
-    "description": "Read the current Fiberglass Epoxy Resin TDS and catalogue side by side, keep their differing labels and values visible, and avoid turning supplied-resin data into finished-composite claims.",
+    "description": "Fiberglass Epoxy Resin specifications for buyers in Nepal: the supplier TDS lists 700 cPs viscosity at 25 °C and 1.15 g/cm³ density, the catalogue 900 cPs and 1.16 g/cm³. See which document to use and what to check before ordering.",
     "category": "Technical & Documentation Guide",
     "icon": "checklist",
     "readingTime": "6 min read",
