@@ -284,9 +284,8 @@ export const products = Object.freeze([
     // GP White (SPR-SDS-GWR, Rev. 01, 8 August 2026) says the resin fraction,
     // styrene content and processing characteristics are manufacturer-confirmed
     // as shared, with a white pigment/colourant package as the difference. The
-    // TDS issued under the GP White name is the shared GP sheet (SPR-TDS-GCR)
-    // and gives the appearance as "Clear"; the appearance shown here is taken
-    // from the SDS instead. No separate GP White values exist and none are
+    // TDS issued under the GP White name is the shared GP sheet (SPR-TDS-GCR);
+    // the appearance shown here is taken from the SDS. No separate GP White values exist and none are
     // invented. The old < 350 cPs / 6-minute / medium-thixotropy figures were
     // never in either document and stay removed.
     technicalHighlights: Object.freeze([

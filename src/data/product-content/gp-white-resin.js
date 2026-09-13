@@ -9,10 +9,8 @@
 //
 // The Technical Data Sheet issued under the GP White name is that shared GP
 // sheet (reference SPR-TDS-GCR). Its values are the shared base specification
-// and are shown as such. The appearance is taken from the SDS (the TDS/SDS
-// appearance wording difference is recorded privately in
-// document-archive/historical-source/README.md, not on the site). No separate GP White viscosity, gel time or styrene
-// figures exist and none are invented. The SDS itself is unchanged.
+// and are shown as such. The appearance is taken from the SDS. No separate
+// GP White viscosity, gel time or styrene figures exist and none are invented. The SDS itself is unchanged.
 export default {
   en: {
     seoTitle: "GP White Resin in Nepal",
