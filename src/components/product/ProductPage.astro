@@ -49,7 +49,6 @@ const tds = tdsDoc(product);
 const pds = pdsDoc(product);
 const sds = sdsDoc(product);
 const highlights = product.technicalHighlights ?? [];
-const evidence = product.technicalEvidenceStatus === 'verified';
 const canonicalUrl = buildCanonicalUrl(Astro.url.pathname);
 const productImages = product.images && product.images.length > 0 ? product.images : null;
 const imageAlt = productImages ? productImageAlt(product, isNe) : '';
@@ -88,9 +87,6 @@ const t = isNe
       family: 'उत्पादन समूह',
       docs: 'कागजातहरू',
       supplier: 'आपूर्तिकर्ता',
-      evidenceLabel: 'प्रमाण स्थिति',
-      evidenceVerified: 'आपूर्तिकर्ता कागजातसँग पुष्टि गरिएको',
-      evidencePending: 'पुष्टि हुँदै',
       enquiry: 'सोधपुछ',
       enquiryVia: 'सम्पर्क पृष्ठबाट',
       appsTitle: 'प्रयोगहरू',
@@ -130,9 +126,6 @@ const t = isNe
       family: 'Product family',
       docs: 'Documents',
       supplier: 'Supplier',
-      evidenceLabel: 'Evidence status',
-      evidenceVerified: 'Verified against supplier documentation',
-      evidencePending: 'Being verified',
       enquiry: 'Enquiries',
       enquiryVia: 'Via the contact page',
       appsTitle: 'Applications',
@@ -421,10 +414,6 @@ const docActions = [
         <div class="fact">
           <span>{t.supplier}</span>
           <strong>Samrat Poly Resins, India</strong>
-        </div>
-        <div class="fact">
-          <span>{t.evidenceLabel}</span>
-          <strong>{evidence ? t.evidenceVerified : t.evidencePending}</strong>
         </div>
         <div class="fact">
           <span>{t.enquiry}</span>

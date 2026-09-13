@@ -343,7 +343,7 @@ export const extraApplications2 = [
     whatTheyManufacture:
       'Work in this category includes repairing cracked or holed FRP tanks, panels and mouldings, strengthening or stiffening existing laminates, bonding FRP to itself and to other substrates, patching boats and industrial equipment, and building up localised reinforcement where a part has failed in service. It is usually site or workshop work on an existing asset rather than production.',
     whySuitable:
-      'Samrat Poly Resins, India documents <a href="/products/fiberglass-epoxy-resin/">Fiberglass Epoxy Resin</a> as an epoxy resin, listing hand lay-up and lamination processing, with a viscosity of 700 cPs at 25°C, a gel time of 35 to 45 minutes at 25°C, a specific gravity of 1.15 g/cm³ and a heat deflection temperature of 75°C. The long published gel time is the property that suits repair work: a repair is fitted, positioned and consolidated by hand, often in an awkward position, and a resin that starts setting while that is happening produces exactly the dry, poorly bonded patch the job exists to avoid. One boundary must be stated plainly. The supplier documentation identifies an amine hardener but does not name a confirmed product pairing, and the pairing has to be confirmed before ordering rather than assumed. We do not publish a pairing, a mix ratio or a cure schedule.',
+      'Samrat Poly Resins, India documents <a href="/products/fiberglass-epoxy-resin/">Fiberglass Epoxy Resin</a> as an epoxy resin, listing hand lay-up and lamination processing, with a viscosity of 700 cPs at 25°C, a gel time of 35 to 45 minutes at 25°C, a specific gravity of 1.15 g/cm³ and a heat deflection temperature of 75°C. The long published gel time is the property that suits repair work: a repair is fitted, positioned and consolidated by hand, often in an awkward position, and a resin that starts setting while that is happening produces exactly the dry, poorly bonded patch the job exists to avoid. The supplier documentation specifies an amine hardener and asks that the resin and hardener pairing be agreed with the supplier before ordering, so the hardener, mix ratio and cure schedule come with the supplied system.',
     requiredCharacteristics: [
       'Adhesion to an already cured and prepared substrate, which is the whole reason for the choice',
       'A working window long enough to fit, position and consolidate a patch by hand',
@@ -372,7 +372,7 @@ export const extraApplications2 = [
       },
       {
         q: 'Which hardener do I use with it?',
-        a: 'We will not name one, and you should be wary of anyone who does without checking. The supplier documentation identifies an amine hardener but does not name a confirmed product pairing, and it asks that the pairing be confirmed before ordering. Tell us the system you intend to run and we will put that question to Samrat Poly Resins, India rather than answer it ourselves.',
+        a: 'We will not name one, and you should be wary of anyone who does without checking. The supplier documentation specifies an amine hardener and asks that the pairing be agreed with the supplier before ordering. Tell us the system you intend to run and we will put that question to Samrat Poly Resins, India rather than answer it ourselves.',
       },
       {
         q: 'Is epoxy always stronger than polyester?',

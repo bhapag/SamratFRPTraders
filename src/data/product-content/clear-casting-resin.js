@@ -10,7 +10,7 @@ export default {
     ],
     buyerNotes: [
       { title: "Grade selection", text: "Within the epoxy family, Clear Casting Resin is supplier-listed for deeper casting work, while Epoxy Art Resin is listed for self-levelling surface coats. Choose on casting depth versus surface levelling, and confirm against the relevant Technical Data Sheet." },
-      { title: "Mixing accuracy", text: "The supplier documentation lists a 2:1 mix ratio by weight, so accurate weighing matters more than dosing a polyester resin by catalyst percentage. Mixing and application details remain document-level information to be confirmed before use." },
+      { title: "Mixing accuracy", text: "The supplier documentation lists a 2:1 mix ratio by weight, so accurate weighing matters more than dosing a polyester resin by catalyst percentage. Follow the mixing and application instructions in the supplier documentation." },
       { title: "UV and yellowing", text: "The UV-stabilised formulation is described as more yellowing-resistant than a standard epoxy, but this is best understood as yellowing-resistant rather than a permanent guarantee under prolonged UV exposure." }
     ],
     faqs: [
@@ -47,7 +47,7 @@ export default {
     ],
     buyerNotes: [
       { title: "Grade छनोट", text: "Epoxy परिवारभित्र, Clear Casting Resin गहिरो casting कामका लागि, Epoxy Art Resin self-levelling सतह कोटका लागि supplier-दस्तावेजमा उल्लेख छन्। Casting depth कि सतह levelling — आवश्यकता अनुसार छान्नुहोस् र सम्बन्धित Technical Data Sheet सँग पुष्टि गर्नुहोस्।" },
-      { title: "मिक्सिङ सटीकता", text: "Supplier दस्तावेजले तौल अनुसार 2:1 mix ratio उल्लेख गर्छ, त्यसैले catalyst percentage ले dose गर्ने polyester resin भन्दा यहाँ सटीक तौल महत्त्वपूर्ण हुन्छ। मिक्सिङ र प्रयोग विवरण document-level जानकारी भएकाले प्रयोगअघि पुष्टि गर्नुहोस्।" },
+      { title: "मिक्सिङ सटीकता", text: "Supplier दस्तावेजले तौल अनुसार 2:1 mix ratio उल्लेख गर्छ, त्यसैले catalyst percentage ले dose गर्ने polyester resin भन्दा यहाँ सटीक तौल महत्त्वपूर्ण हुन्छ। मिक्सिङ र प्रयोगका लागि supplier दस्तावेजका निर्देशन पालना गर्नुहोस्।" },
       { title: "UV र yellowing", text: "UV-stabilised formulation सामान्य epoxy भन्दा बढी yellowing-प्रतिरोधी भनी वर्णन गरिएको छ, तर यसलाई लामो UV एक्सपोजरमा स्थायी ग्यारेन्टी भन्दा yellowing-प्रतिरोधी रूपमा बुझ्नु उपयुक्त हुन्छ।" }
     ],
     faqs: [
