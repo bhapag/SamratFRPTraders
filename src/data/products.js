@@ -888,6 +888,9 @@ export const products = Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-FPP',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/frp-polyester-pigment-tds.pdf',
       }),
       Object.freeze({
