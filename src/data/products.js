@@ -868,7 +868,7 @@ export const products = Object.freeze([
     ]),
     titleInput: 'FRP Polyester Pigment \u2014 Nepal Supplier',
     metaDescription:
-      'FRP Polyester Pigment \u2014 a polyester pigment paste supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
+      'FRP Polyester Pigment \u2014 a polyester pigment paste supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS available.',
     descriptor: 'Polyester pigment paste; supplier-listed for polyester, vinyl ester and gelcoat systems.',
     overview:
       'According to current Samrat Poly Resins, India documentation, FRP Polyester Pigment is a pigment paste. The supplier lists binder compatibility with unsaturated polyester, vinyl ester and gelcoat systems. Technical specifications are published in the supplier\u2019s Technical Data Sheet.',
@@ -892,11 +892,6 @@ export const products = Object.freeze([
         revision: 'Rev. 01',
         date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/frp-polyester-pigment-tds.pdf',
-      }),
-      Object.freeze({
-        type: 'Safety Data Sheet',
-        issuer: 'Samrat Poly Resins, India',
-        url: 'https://samratpolyresins.in/sds/frp-polyester-pigment-sds.pdf',
       }),
     ]),
     technicalEvidenceStatus: 'verified',
