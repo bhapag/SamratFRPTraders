@@ -546,7 +546,9 @@ export const products = Object.freeze([
     name: 'UV Stabilized Sheet Grade Yellow Resin',
     slug: 'uv-stabilized-sheet-grade-yellow-resin',
     images: Object.freeze([
-      Object.freeze({ src: 'uv-stabilized-sheet-grade-yellow-resin-primary.jpg', width: 1151, height: 1367 }),
+      // Nepal display copy: the supplier's "PACKAGING 225 kg Industrial Drum" row
+      // is removed; the original poster stays unchanged in public/images/products.
+      Object.freeze({ src: 'uv-stabilized-sheet-grade-yellow-resin-display.jpg', width: 1151, height: 1367 }),
     ]),
     group: 'sheet-grade-resins',
     tier: 'B',

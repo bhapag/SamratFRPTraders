@@ -5,6 +5,8 @@
 import { applications } from '../data/applications.js';
 import { resources } from '../data/resources.js';
 import { getGroup, products } from '../data/products.js';
+import { cardDerivatives } from '../data/card-derivatives.js';
+import { displayDerivatives } from '../data/display-derivatives.js';
 
 // Supplier-site slugs used inside applications/resources data → current
 // Nepal catalogue slugs.
@@ -135,4 +137,26 @@ export function productImageAlt(product, isNe) {
   return isNe
     ? `${product.name} — Samrat FRP Traders द्वारा नेपालमा आपूर्ति गरिएको`
     : `${product.name} supplied by Samrat FRP Traders in Nepal`;
+}
+
+// Responsive sources for product images. Large posters have display
+// derivatives for the gallery; every primary image has card derivatives that
+// also serve the small thumbnails. Source files are never modified.
+const imageBase = (src) => src.replace(/\.(jpe?g|png|webp)$/i, '');
+
+// Measured gallery box: about 90vw in the single-column layout (below 53.75rem)
+// and min(38.5vw, 488px) beside the product summary.
+export const GALLERY_SIZES = '(max-width: 53.75rem) 90vw, min(38.5vw, 30.5rem)';
+
+export function gallerySrcset(image) {
+  if (!displayDerivatives.has(image.src)) return undefined;
+  const base = `/images/products/display/${imageBase(image.src)}`;
+  return `${base}-480.webp 480w, ${base}-720.webp 720w, ${base}-960.webp 960w, ${base}-full.webp ${image.width}w`;
+}
+
+// Thumbnails paint at 32-64 CSS px, so the 256w card is ample at 3x.
+export function thumbSrc(image) {
+  return cardDerivatives.has(image.src)
+    ? `/images/products/cards/${imageBase(image.src)}-256.webp`
+    : `/images/products/${image.src}`;
 }
