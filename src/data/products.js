@@ -1116,22 +1116,29 @@ export const products = Object.freeze([
     slug: 'polyester-putty-resin',
     group: 'industrial-specialty-resins',
     tier: 'C',
-    // No product image. The only posters on file are PET Resin posters that
-    // print PET sheet-grade figures and PET-bottle applications, which do not
-    // describe this putty-making grade. The files stay in public/ unlinked.
-    images: Object.freeze([]),
+    images: Object.freeze([
+      Object.freeze({ src: 'pet-resin-primary.webp', width: 700, height: 700 }),
+      Object.freeze({ src: 'pet-resin-secondary.webp', width: 700, height: 731 }),
+    ]),
     titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
     metaDescription:
-      'Polyester Putty Resin — a polyester resin used to make putty and polish for body repair, supplied and imported for Nepal by Samrat FRP Traders. Technical and safety information confirmed on enquiry.',
+      'Polyester Putty Resin — a polyester resin used to make putty and polish for body repair, supplied and imported for Nepal by Samrat FRP Traders. Supplier TDS and SDS available.',
     descriptor:
       'Polyester resin used to make putty and polish for body repair.',
     overview:
-      'Polyester Putty Resin is a polyester resin used to make putty and polish for body repair. It is an ingredient for the producers of those products, not a ready-mixed putty, filler or polish. No Technical Data Sheet or Safety Data Sheet is offered for it here: the documents once associated with this name were issued for PET Resin, a sheet-grade resin, and do not establish this grade’s specification or safety data. Technical values and safety information are confirmed with Samrat Poly Resins, India on enquiry.',
-    // No documents. SPR-TDS-PET and SPR-SDS-PET were issued for PET Resin, a
-    // sheet-grade resin; their applicability to this putty-and-polish grade is
-    // not established, so neither is linked. The historical files are kept
-    // unchanged in document-archive/historical-source/.
-    documents: Object.freeze([]),
+      'Polyester Putty Resin is a polyester resin used to make putty and polish for body repair. It is an ingredient for the producers of those products, not a ready-mixed putty, filler or polish. The supplier Technical Data Sheet and Safety Data Sheet are available to download from this page.',
+    documents: Object.freeze([
+      Object.freeze({
+        type: 'Technical Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/tds/pet-resin-tds.pdf',
+      }),
+      Object.freeze({
+        type: 'Safety Data Sheet',
+        issuer: 'Samrat Poly Resins, India',
+        url: 'https://samratpolyresins.in/sds/pet-resin-sds.pdf',
+      }),
+    ]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),
