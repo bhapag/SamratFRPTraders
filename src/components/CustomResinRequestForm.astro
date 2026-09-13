@@ -33,7 +33,9 @@ const copy = {
     phonePlaceholder: 'जस्तै: 98XXXXXXXX',
     email: 'इमेल',
     emailPlaceholder: 'you@example.com',
-    contactHint: 'फोन/WhatsApp वा इमेलमध्ये कम्तिमा एउटा आवश्यक छ, ताकि हामी तपाईंलाई सम्पर्क गर्न सकौं।',
+    contactHint: 'ऐच्छिक। WhatsApp वा इमेलबाट पठाउँदा तपाईंको नम्बर वा इमेल ठेगाना सन्देशसँगै आउँछ।',
+    privacyNote: 'यो फारमले हाम्रो वेबसाइट सर्भरमा केही पठाउँदैन: बटन थिच्दा तपाईंले पढ्न र पठाउन सक्ने सन्देशसहित WhatsApp वा तपाईंको इमेल प्रोग्राम खुल्छ।',
+    privacyLink: 'गोपनीयता नीति',
 
     section2Title: 'तपाईंलाई के चाहिन्छ?',
     product: 'उत्पादन / रेजिन',
@@ -101,7 +103,6 @@ const copy = {
 
     errorName: 'कृपया आफ्नो नाम लेख्नुहोस्।',
     errorProduct: 'कृपया उत्पादन/रेजिन छान्नुहोस्।',
-    errorContact: 'कृपया फोन/WhatsApp वा इमेलमध्ये कम्तिमा एउटा दिनुहोस्।',
     errorSummaryHeading: 'कृपया यी फिल्डहरू पूरा गर्नुहोस्:',
 
     emailSubjectPrefix: 'अनुकूल रेजिन स्पेसिफिकेसन अनुरोध',
@@ -139,7 +140,9 @@ const copy = {
     phonePlaceholder: 'e.g. 98XXXXXXXX',
     email: 'Email',
     emailPlaceholder: 'you@example.com',
-    contactHint: 'At least one of Phone/WhatsApp or Email is required, so we can reach you.',
+    contactHint: 'Optional. When you send by WhatsApp or email, your number or email address comes with the message.',
+    privacyNote: 'This form sends nothing to our website server: the buttons open WhatsApp or your email program with a message you can read before sending.',
+    privacyLink: 'Privacy Policy',
 
     section2Title: 'What do you need?',
     product: 'Product / Resin needed',
@@ -207,7 +210,6 @@ const copy = {
 
     errorName: 'Please enter your name.',
     errorProduct: 'Please select a product / resin.',
-    errorContact: 'Please provide at least one of Phone/WhatsApp or Email.',
     errorSummaryHeading: 'Please complete the following:',
 
     emailSubjectPrefix: 'Custom Resin Specification Request',
@@ -299,7 +301,6 @@ const breadcrumbItems = [
       data-group-notes={t.groupNotes}
       data-error-name={t.errorName}
       data-error-product={t.errorProduct}
-      data-error-contact={t.errorContact}
       data-error-summary-heading={t.errorSummaryHeading}
     >
       <div id="formErrors" class="form-errors" role="alert" hidden></div>
@@ -358,8 +359,7 @@ const breadcrumbItems = [
               placeholder={t.phonePlaceholder}
               data-summary-group="yourDetails"
               data-summary-label={t.phone}
-              aria-describedby="contact-error"
-            />
+              />
           </label>
         </div>
         <label>
@@ -372,10 +372,8 @@ const breadcrumbItems = [
             placeholder={t.emailPlaceholder}
             data-summary-group="yourDetails"
             data-summary-label={t.email}
-            aria-describedby="contact-error"
           />
         </label>
-        <p class="field-error" id="contact-error" hidden></p>
         <p class="field-hint">{t.contactHint}</p>
       </fieldset>
 
@@ -462,10 +460,8 @@ const breadcrumbItems = [
           <button type="button" id="addRequirementBtn" class="button crsr-add-btn">+ {t.addRequirement}</button>
           <template id="requirementRowTemplate">
             <div class="requirement-row" data-requirement-row>
-              <label class="visually-hidden">{t.requirementLabelPlaceholder}</label>
-              <input type="text" data-role="req-label" placeholder={t.requirementLabelPlaceholder} />
-              <label class="visually-hidden">{t.requirementValuePlaceholder}</label>
-              <input type="text" data-role="req-value" placeholder={t.requirementValuePlaceholder} />
+              <input type="text" data-role="req-label" placeholder={t.requirementLabelPlaceholder} aria-label={t.requirementLabelPlaceholder} />
+              <input type="text" data-role="req-value" placeholder={t.requirementValuePlaceholder} aria-label={t.requirementValuePlaceholder} />
               <button type="button" class="requirement-remove" data-role="req-remove" aria-label={t.removeRequirement}>
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
               </button>
@@ -523,6 +519,7 @@ const breadcrumbItems = [
           <button type="button" class="button" data-action="email">{t.sendEmail}</button>
           <button type="button" class="button" data-action="print">{t.printSave}</button>
         </div>
+        <p class="crsr-privacy">{t.privacyNote} <a href={`${isNe ? '' : '/en'}/privacy-policy/`}>{t.privacyLink}</a></p>
         <p class="crsr-disclaimer">{t.disclaimer}</p>
       </fieldset>
     </form>
@@ -637,6 +634,17 @@ const breadcrumbItems = [
     color: var(--ink-dim);
     font-size: 0.85rem;
     line-height: 1.6;
+  }
+
+  .crsr-privacy {
+    margin: 0.9rem 0 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+  }
+
+  .crsr-privacy a {
+    display: inline-block;
+    padding-block: 0.3rem;
   }
 
   .checkbox-field {

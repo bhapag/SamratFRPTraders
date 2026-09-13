@@ -115,7 +115,7 @@ import Base from '../../layouts/Base.astro';
         </div>
 
         <p class="form-note">
-          Submitting this form opens a short WhatsApp enquiry to +977 9805526904. The form sends no data anywhere else.
+          Pressing the button opens WhatsApp with your message addressed to +977 9805526904; nothing is sent until you send it in WhatsApp. This form does not send your details to our website server. All fields are optional.
         </p>
 
         <form class="form-shell" id="waForm" data-wa-message={whatsAppMessages.generic.en}>
@@ -123,7 +123,7 @@ import Base from '../../layouts/Base.astro';
           <div class="form-grid">
             <label>
               <span>Name</span>
-              <input type="text" name="name" required autocomplete="name" placeholder="Your name" />
+              <input type="text" name="name" autocomplete="name" placeholder="Your name" />
             </label>
             <label>
               <span>Company</span>
@@ -153,6 +153,7 @@ import Base from '../../layouts/Base.astro';
             <textarea name="message" rows="5" autocomplete="off" placeholder="Anything else we should know…"></textarea>
           </label>
           <button class="button button-primary" type="submit">Open in WhatsApp</button>
+          <p class="form-privacy">Before sending, you can read our <a href="/en/privacy-policy/">Privacy Policy</a>.</p>
         </form>
       </div>
     </div>
@@ -403,6 +404,17 @@ import Base from '../../layouts/Base.astro';
 
   .enquiry-guide-note a {
     color: var(--accent-gold-light);
+  }
+
+  .form-privacy {
+    margin: 0.8rem 0 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+  }
+
+  .form-privacy a {
+    display: inline-block;
+    padding-block: 0.3rem;
   }
 
   .form-note {

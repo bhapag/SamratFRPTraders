@@ -116,7 +116,7 @@ import Base from '../layouts/Base.astro';
         </div>
 
         <p class="form-note">
-          फारम पेस गर्दा +977 9805526904 मा छोटो WhatsApp सोधपुछ खुल्छ। यो फारमले कुनै पनि डेटा अन्यत्र पठाउँदैन।
+          बटन थिच्दा तपाईंको सन्देशसहित +977 9805526904 का लागि WhatsApp खुल्छ; तपाईंले WhatsApp मा पठाउनुभएपछि मात्र सन्देश जान्छ। यो फारमले तपाईंको विवरण हाम्रो वेबसाइट सर्भरमा पठाउँदैन। सबै फिल्ड ऐच्छिक छन्।
         </p>
 
         <form class="form-shell" id="waForm" data-wa-message={whatsAppMessages.generic.ne}>
@@ -124,7 +124,7 @@ import Base from '../layouts/Base.astro';
           <div class="form-grid">
             <label>
               <span>नाम</span>
-              <input type="text" name="name" required autocomplete="name" placeholder="तपाईंको नाम" />
+              <input type="text" name="name" autocomplete="name" placeholder="तपाईंको नाम" />
             </label>
             <label>
               <span>कम्पनी</span>
@@ -154,6 +154,7 @@ import Base from '../layouts/Base.astro';
             <textarea name="message" rows="5" autocomplete="off" placeholder="अरू केही भन्नुपर्ने भए लेख्नुहोस्"></textarea>
           </label>
           <button class="button button-primary" type="submit">WhatsApp मा खोल्नुहोस्</button>
+          <p class="form-privacy">पठाउनुअघि हाम्रो <a href="/privacy-policy/">गोपनीयता नीति</a> हेर्न सक्नुहुन्छ।</p>
         </form>
       </div>
     </div>
@@ -403,6 +404,17 @@ import Base from '../layouts/Base.astro';
 
   .enquiry-guide-note a {
     color: var(--accent-gold-light);
+  }
+
+  .form-privacy {
+    margin: 0.8rem 0 0;
+    color: var(--ink-dim);
+    font-size: 0.86rem;
+  }
+
+  .form-privacy a {
+    display: inline-block;
+    padding-block: 0.3rem;
   }
 
   .form-note {

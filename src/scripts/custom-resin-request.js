@@ -82,17 +82,12 @@ function validate(form) {
   const errors = [];
   const name = form.querySelector('#name');
   const product = form.querySelector('#product');
-  const phone = form.querySelector('#phone');
-  const email = form.querySelector('#email');
 
   if (!name.value.trim()) {
     errors.push({ id: 'name', field: name, message: form.dataset.errorName });
   }
   if (!product.value) {
     errors.push({ id: 'product', field: product, message: form.dataset.errorProduct });
-  }
-  if (!phone.value.trim() && !email.value.trim()) {
-    errors.push({ id: 'contact', field: phone, extraField: email, message: form.dataset.errorContact });
   }
   return errors;
 }
