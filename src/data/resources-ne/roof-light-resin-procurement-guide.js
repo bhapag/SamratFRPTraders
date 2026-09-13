@@ -46,7 +46,7 @@ export default {
     },
     {
       q: "के यस पृष्ठले stock वा delivery समय पुष्टि गर्छ?",
-      a: "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Stock, lead time, delivery र suitability actual आवश्यकताका लागि पुष्टि गर्नुपर्छ।"
+      a: "होइन। नेपालका लागि प्याकेजिङ र अर्डर परिमाण सोधपुछमा पुष्टि गरिन्छ। Stock, lead time, delivery र suitability हरेक सोधपुछमा पुष्टि गरिन्छ।"
     }
   ],
   recommendedLinks: [

@@ -91,7 +91,7 @@ export default {
     {
       href: "/resources/bisphenol-resin-procurement-checklist/",
       label: "दस्तावेज-आधारित RFQ तयार गर्नुहोस्",
-      description: "पुष्टि आवश्यक पर्ने सन्दर्भ र project आवश्यकता समावेश गर्नुहोस्।"
+      description: "कागजातको reference र आफ्नो project आवश्यकता समावेश गर्नुहोस्।"
     }
   ],
   sections: [

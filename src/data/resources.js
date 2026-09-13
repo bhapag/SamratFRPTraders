@@ -11664,7 +11664,7 @@ export const resources = Object.freeze([
       },
       {
         "q": "Does this page confirm stock or delivery time?",
-        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and suitability are confirmed for each enquiry."
       }
     ],
     "sections": [
@@ -12131,7 +12131,7 @@ export const resources = Object.freeze([
       },
       {
         "q": "Does this page confirm stock or delivery time?",
-        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and suitability need confirmation for the actual requirement."
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Stock, lead time, delivery and suitability are confirmed for each enquiry."
       }
     ],
     "sections": [
@@ -14809,7 +14809,7 @@ export const resources = Object.freeze([
       },
       {
         "q": "Does this page establish stock or delivery timing?",
-        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Availability, lead time and delivery need confirmation for the actual enquiry."
+        "a": "No. Packaging and order quantity for Nepal are confirmed on enquiry. Availability, lead time and delivery are confirmed for each enquiry."
       },
       {
         "q": "Should a buyer request fire documentation for Vinyl Ester Resin?",
@@ -15100,7 +15100,7 @@ export const resources = Object.freeze([
       {
         "href": "/resources/bisphenol-resin-procurement-checklist/",
         "label": "Prepare a document-led RFQ",
-        "description": "Include the reference and project requirement that need confirmation."
+        "description": "Include the document reference and your project requirement."
       }
     ],
     "faqs": [
