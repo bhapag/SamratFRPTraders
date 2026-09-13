@@ -24,6 +24,7 @@ const { deferUntilHero = false } = Astro.props;
 
 <script>
   import { canAffordVideo } from '../scripts/video-budget.js';
+  import { isMotionPaused, onMotionChange } from '../scripts/motion-preference.js';
 
   function initAmbientBackgrounds() {
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -46,6 +47,10 @@ const { deferUntilHero = false } = Astro.props;
       const load = () => {
         if (!canAffordVideo()) {
           unload();
+          return;
+        }
+        if (isMotionPaused()) {
+          video.pause();
           return;
         }
 
@@ -81,6 +86,7 @@ const { deferUntilHero = false } = Astro.props;
       };
 
       reducedMotion.addEventListener('change', syncMotion);
+      onMotionChange(syncMotion);
       syncMotion();
     });
   }

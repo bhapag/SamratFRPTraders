@@ -52,8 +52,8 @@ const videoSchema = {
           playsinline
           preload="metadata"
           aria-label={isNe
-            ? 'Samrat FRP Traders को उत्पादन, प्रयोग र नेपालभरको आपूर्ति देखाउने ब्रान्ड भिडियो'
-            : 'Brand video showing Samrat FRP Traders’ products, applications and supply across Nepal'}
+            ? 'Samrat FRP Traders को १२ सेकेन्डको ब्रान्ड भिडियो, आवाजबिना: resin का भाँडा र FRP सामग्री, साँचोमा ब्रसले gelcoat लगाइँदै, FRP grating, पारदर्शी पाता, पाइप र डुङ्गाको बनोट, अन्त्यमा Samrat FRP Traders को लोगो'
+            : 'Samrat FRP Traders 12-second brand video, no sound: resin containers and FRP materials, gelcoat being brushed onto a mould, FRP grating, translucent sheets, pipes and a boat hull, ending with the Samrat FRP Traders logo'}
         >
           {isNe
             ? 'तपाईंको ब्राउजरले भिडियो प्ले गर्न सक्दैन। '
@@ -121,6 +121,7 @@ const videoSchema = {
 
 <script>
   import { canAffordVideo } from '../../scripts/video-budget.js';
+  import { isMotionPaused, onMotionChange } from '../../scripts/motion-preference.js';
 
   const PHOTO_DURATION_MS = 5000;
 
@@ -140,6 +141,8 @@ const videoSchema = {
       let allowed = canAffordVideo();
 
       const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      // Reduced motion from the OS, or the page's own pause control.
+      const motionOff = () => reducedMotion.matches || isMotionPaused();
       let inView = false;
       let sourceLoaded = false;
       let state = 'video';
@@ -175,7 +178,7 @@ const videoSchema = {
 
       const playVideo = () => {
         if (!allowed) return;
-        if (disposed || reducedMotion.matches || !inView || state !== 'video') return;
+        if (disposed || motionOff() || !inView || state !== 'video') return;
         loadVideoSource();
         showVideo();
         const attempt = video.play();
@@ -188,7 +191,7 @@ const videoSchema = {
 
       const startPhotoTimer = () => {
         clearPhotoTimer();
-        if (disposed || reducedMotion.matches || !inView || state !== 'photo') return;
+        if (disposed || motionOff() || !inView || state !== 'photo') return;
 
         if (photoRemaining <= 0) {
           restartVideo();
@@ -211,7 +214,7 @@ const videoSchema = {
 
       const restartVideo = () => {
         clearPhotoTimer();
-        if (disposed || reducedMotion.matches) return;
+        if (disposed || motionOff()) return;
 
         state = 'video';
         photoRemaining = PHOTO_DURATION_MS;
@@ -221,7 +224,7 @@ const videoSchema = {
       };
 
       const showIntermissionPhoto = () => {
-        if (disposed || reducedMotion.matches) return;
+        if (disposed || motionOff()) return;
 
         video.pause();
         state = 'photo';
@@ -233,7 +236,7 @@ const videoSchema = {
       const applyReducedMotion = () => {
         clearPhotoTimer();
         video.pause();
-        if (reducedMotion.matches) {
+        if (motionOff()) {
           state = 'reduced';
           showPhoto();
           return;
@@ -256,7 +259,7 @@ const videoSchema = {
           return;
         }
 
-        if (reducedMotion.matches) {
+        if (motionOff()) {
           applyReducedMotion();
         } else if (state === 'photo') {
           startPhotoTimer();
@@ -273,10 +276,12 @@ const videoSchema = {
         video.pause();
         video.removeEventListener('ended', showIntermissionPhoto);
         reducedMotion.removeEventListener('change', applyReducedMotion);
+        stopMotionListener();
       };
 
       video.addEventListener('ended', showIntermissionPhoto);
       reducedMotion.addEventListener('change', applyReducedMotion);
+      const stopMotionListener = onMotionChange(applyReducedMotion);
       document.addEventListener('astro:before-swap', cleanup, { once: true });
 
       if (playButton instanceof HTMLButtonElement) {
@@ -292,7 +297,7 @@ const videoSchema = {
         });
       }
 
-      if (reducedMotion.matches) applyReducedMotion();
+      if (motionOff()) applyReducedMotion();
       else if (!allowed) showPhoto();
       else showVideo();
       observer.observe(frame);

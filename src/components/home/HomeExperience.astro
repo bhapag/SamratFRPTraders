@@ -427,6 +427,7 @@ const contents = [
 </div>
 
 <script>
+  import { isMotionPaused, onMotionChange } from '../../scripts/motion-preference.js';
   // Homepage only: pause the background outside its viewport. Foreground films
   // keep their existing cycle, while the optional supplier film is user-initiated.
   const hero = document.querySelector('.home-hero .hero-video');
@@ -434,13 +435,14 @@ const contents = [
     const motion = matchMedia('(prefers-reduced-motion: reduce)');
     let visible = true;
     const sync = () => {
-      if (!visible || document.hidden || motion.matches) hero.pause();
+      if (!visible || document.hidden || motion.matches || isMotionPaused()) hero.pause();
       else if (hero.src) hero.play().catch(() => {});
     };
     const observer = new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; sync(); });
     observer.observe(hero);
     document.addEventListener('visibilitychange', sync);
     motion.addEventListener('change', sync);
+    onMotionChange(sync);
     document.addEventListener('astro:before-swap', () => { observer.disconnect(); document.removeEventListener('visibilitychange', sync); motion.removeEventListener('change', sync); }, {once:true});
   }
 </script>

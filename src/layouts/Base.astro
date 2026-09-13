@@ -430,6 +430,11 @@ const websiteSchema = {
           <span class="legal-item" data-copy-value={site.business.vat}>VAT {site.business.vat}</span> ·
           <span class="legal-item" data-copy-value={site.business.exim}>EXIM {site.business.exim}</span>
         </span>
+        <button type="button" class="motion-toggle" data-motion-toggle aria-pressed="false" hidden
+          data-label-pause={isNe ? 'पृष्ठभूमिको चलिरहेको भिडियो रोक्नुहोस्' : 'Pause background motion'}
+          data-label-play={isNe ? 'पृष्ठभूमिको भिडियो फेरि चलाउनुहोस्' : 'Play background motion'}>
+          {isNe ? 'पृष्ठभूमिको चलिरहेको भिडियो रोक्नुहोस्' : 'Pause background motion'}
+        </button>
         <nav class="footer-policies" aria-label={isNe ? 'नीतिहरू' : 'Policies'}>
           {POLICY_LINKS.map((p) => (
             <a href={`${isNe ? '' : '/en'}/${p.slug}/`}>{isNe ? p.ne : p.en}</a>
@@ -590,6 +595,31 @@ const websiteSchema = {
     <script>
       import { wireCustomResinRequestForm } from '../scripts/custom-resin-request.js';
       wireCustomResinRequestForm();
+    </script>
+      <script>
+      import { canAffordVideo } from '../scripts/video-budget.js';
+      import { isMotionPaused, setMotionPaused } from '../scripts/motion-preference.js';
+
+      const wireMotionToggle = () => {
+        const button = document.querySelector('[data-motion-toggle]');
+        if (!(button instanceof HTMLButtonElement) || button.dataset.wired === 'true') return;
+        button.dataset.wired = 'true';
+        // Offered only where the page would otherwise play video on its own.
+        if (!canAffordVideo()) return;
+        button.hidden = false;
+        const render = () => {
+          const paused = isMotionPaused();
+          button.setAttribute('aria-pressed', paused ? 'true' : 'false');
+          button.textContent = paused ? button.dataset.labelPlay : button.dataset.labelPause;
+        };
+        button.addEventListener('click', () => {
+          setMotionPaused(!isMotionPaused());
+          render();
+        });
+        render();
+      };
+      wireMotionToggle();
+      document.addEventListener('astro:page-load', wireMotionToggle);
     </script>
   </body>
 </html>
@@ -1526,6 +1556,17 @@ const websiteSchema = {
     font-size: 0.62rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+
+  .motion-toggle {
+    min-height: 2rem;
+    padding: 0.25rem 0.7rem;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
   }
 
   .footer-policies {

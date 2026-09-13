@@ -16,6 +16,7 @@
 
 <script>
   import { canAffordVideo } from '../../scripts/video-budget.js';
+  import { isMotionPaused, onMotionChange } from '../../scripts/motion-preference.js';
 
   function initHeroBackgrounds() {
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -42,6 +43,10 @@
           unload();
           return;
         }
+        if (isMotionPaused()) {
+          video.pause();
+          return;
+        }
 
         const source = video.dataset.src;
         if (!source) return;
@@ -54,6 +59,7 @@
       };
 
       reducedMotion.addEventListener('change', syncMotion);
+      onMotionChange(syncMotion);
       syncMotion();
     });
   }
