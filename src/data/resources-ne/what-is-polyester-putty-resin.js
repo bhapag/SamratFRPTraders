@@ -1,79 +1,79 @@
 export default {
-  seo: {
-    title: "Polyester Putty Resin के हो? PET-Modified Resin व्याख्या",
-    ogTitle: "Polyester Putty Resin के हो? PET-Modified Resin व्याख्या",
-    ogDescription: "Polyester Putty Resin Samrat Poly Resins, India द्वारा प्रकाशित PET-modified liquid unsaturated polyester sheet grade हो, Samrat FRP Traders ले नेपालका लागि आपूर्ति गर्दछ। यो के हो, dual नाम कसरी काम गर्छ र यो कहाँ प्रयोग हुन्छ भन्ने बुझ्नुहोस्।",
+  "seo": {
+    "title": "Polyester Putty Resin के हो? नेपाल खरिदकर्ता गाइड",
+    "ogTitle": "Polyester Putty Resin के हो?",
+    "ogDescription": "Body repair का लागि putty र polish बनाउने polyester resin — बनिसकेको filler होइन, कच्चा सामग्री। के प्रकाशित छ र के सोधपुछमा पुष्टि हुन्छ।"
   },
-  title: "Polyester Putty Resin के हो? PET-Modified Resin व्याख्या",
-  description: "Polyester Putty Resin Samrat Poly Resins, India द्वारा प्रकाशित PET-modified liquid unsaturated polyester sheet grade हो, Samrat FRP Traders ले नेपालका लागि आपूर्ति गर्दछ। यो के हो, dual नाम कसरी काम गर्छ र यो कहाँ प्रयोग हुन्छ भन्ने बुझ्नुहोस्।",
-  quickFacts: {
-    "प्रकाशित उत्पादन": "Polyester Putty Resin",
-    "Resin family": "PET-modified unsaturated polyester resin",
-    "Supplied रूप": "Pale-yellow liquid sheet grade",
-    "छनोट सन्दर्भ": "आपूर्तिकर्ता SDS फाइलमा; प्राविधिक मान सोधपुछमा पुष्टि"
+  "title": "Polyester Putty Resin के हो? Body-Repair Putty र Polish बनाउने Resin",
+  "description": "Polyester Putty Resin body repair का लागि putty र polish बनाउन प्रयोग हुने polyester resin हो। नामको अर्थ के हो, यो के होइन, र कुन जानकारी सोधपुछमा पुष्टि हुन्छ।",
+  "quickFacts": {
+    "उत्पादन": "Polyester Putty Resin",
+    "बनाइने कुरा": "Body repair का लागि putty र polish",
+    "आपूर्ति रूप": "उत्पादकका लागि resin — तयारी putty वा polish होइन",
+    "कागजात": "यहाँ TDS वा SDS प्रस्तुत छैन; प्राविधिक र सुरक्षा जानकारी सोधपुछमा पुष्टि"
   },
-  recommendedLinks: [
+  "recommendedLinks": [
     {
-      href: "/products/polyester-putty-resin/",
-      label: "Polyester Putty Resin हेर्नुहोस्",
-      description: "product भूमिका, specifications, pack र enquiry path समीक्षा गर्नुहोस्।"
+      "href": "/products/polyester-putty-resin/",
+      "label": "Polyester Putty Resin हेर्नुहोस्",
+      "description": "उत्पादन भूमिका र सोधपुछको बाटो हेर्नुहोस्।"
     },
     {
-      href: "/sds/pet-resin-sds.pdf",
-      label: "आपूर्तिकर्ता Safety Data Sheet हेर्नुहोस्",
-      description: "SPR-SDS-PET — PET Resin नाममा जारी, Polyester Putty Resin सम्बन्धित नामका रूपमा।"
+      "href": "/applications/polyester-putty-and-filler-manufacturing/",
+      "label": "Polyester putty र filler उत्पादन",
+      "description": "बनाइएको putty वा filler उत्पादनमा यो resin कसरी पर्छ।"
     },
     {
-      href: "/products/polyester-resins/",
-      label: "Unsaturated Polyester Resin हेर्नुहोस्",
-      description: "grade data नसारी व्यापक family बुझ्नुहोस्।"
+      "href": "/resources/is-polyester-putty-resin-a-body-filler/",
+      "label": "के यो तयारी body filler हो?",
+      "description": "के आइपुग्छ, र दुई-भागे filler को टिनभन्दा कसरी फरक छ।"
     },
     {
-      href: "/contact/",
-      label: "Polyester Putty Resin आवश्यकताबारे छलफल गर्नुहोस्",
-      description: "exact liquid form र अपेक्षित sheet वा laminate application साझा गर्नुहोस्।"
+      "href": "/contact/",
+      "label": "Polyester Putty Resin आवश्यकताबारे छलफल गर्नुहोस्",
+      "description": "तपाईंले बनाउने putty वा polish र चाहिने परिमाण बताउनुहोस्।"
     }
   ],
-  faqs: [
+  "faqs": [
     {
-      q: "यो site मा Polyester Putty Resin के हो?",
-      a: "यो Samrat FRP Traders ले आपूर्ति गर्ने PET-modified unsaturated polyester resin हो, जुन PET sheets, fibre sheet products, FRP sheet lamination र panel manufacturing का लागि liquid sheet grade को रूपमा उपलब्ध छ। प्राविधिक मान सोधपुछमा पुष्टि गरिन्छ।"
+      "q": "Polyester Putty Resin के हो?",
+      "a": "यो body repair का लागि putty र polish बनाउन प्रयोग हुने polyester resin हो, जुन Samrat FRP Traders ले नेपालका लागि आपूर्ति र आयात गर्छ। यो ती उत्पादन बनाउनेहरूका लागि कच्चा सामग्री हो, बनिसकेको putty वा polish होइन।"
     },
     {
-      q: "के यो Polyester Putty Resin conventional thermoplastic PET material हो?",
-      a: "होइन। यो polyethylene terephthalate content भएको liquid, styrene-compatible unsaturated polyester resin system हो — solid thermoplastic PET chips, pellets वा bottle-grade material होइन।"
+      "q": "के यो तयारी putty वा body filler हो?",
+      "a": "होइन। तयारी body filler आफ्नै hardener सहित बेचिने बनाइएको paste हो। Polyester Putty Resin त्यस्ता उत्पादन बनाइने सामग्रीमध्ये एक हो।"
     },
     {
-      q: "Samrat Poly Resins, India ले किन Polyester Putty Resin र Polyester Putty Resin दुवै नाम प्रयोग गर्छ?",
-      a: "फाइलमा रहेको आपूर्तिकर्ता Safety Data Sheet ले उत्पादनको नाम PET Resin राखेको छ र Polyester Putty Resin लाई उही liquid grade को सम्बन्धित नामका रूपमा उल्लेख गर्छ।"
+      "q": "कुन कागजात उपलब्ध छन्?",
+      "a": "यस साइटमा यस grade का लागि कुनै Technical Data Sheet वा Safety Data Sheet प्रस्तुत गरिएको छैन। नामसँग पहिले जोडिएका कागजात PET Resin — एउटा sheet-grade resin — का लागि जारी भएका थिए, र यहाँ प्रयोग गरिँदैनन्। प्राविधिक मान र सुरक्षा जानकारी सोधपुछमा पुष्टि गरिन्छ।"
     }
   ],
-  sections: [
+  "sections": [
     {
-      heading: "Polyester Putty Resin पहिचान",
-      body: [
-        "Samrat FRP Traders ले Polyester Putty Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। फाइलमा रहेको आपूर्तिकर्ता Safety Data Sheet (SPR-SDS-PET) ले यसलाई PET-modified unsaturated polyester resin भन्छ — styrene reactive diluent भएको liquid resin system मा polyethylene terephthalate content — जुन liquid sheet grade को रूपमा आपूर्ति हुन्छ। प्राविधिक मान सोधपुछमा पुष्टि गरिन्छ।",
-        "यो व्यापक unsaturated polyester resin family भित्र पर्छ, तर आफ्नै grade र application context कायम राख्छ — आफ्नो exact तयार sheet वा laminate requirement बाट सुरु गर्नुहोस्, र चाहिने प्राविधिक मान हामीसँग पुष्टि गर्नुहोस्।"
+      "heading": "नामले के जनाउँछ",
+      "body": [
+        "Samrat FRP Traders ले Polyester Putty Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। नामले यो resin केका लागि प्रयोग हुन्छ भन्ने जनाउँछ: body repair का लागि putty र polish बनाउन।",
+        "यो व्यापक polyester-resin परिवारमा पर्छ, तर यसको भूमिका विशिष्ट छ। सामान्य resin विवरणबाट होइन, तपाईंले बनाउने putty वा polish बाट सुरु गर्नुहोस्।"
       ]
     },
     {
-      heading: "प्रकाशित कागजातमा PET को अर्थ के हो",
-      body: [
-        "यस product का लागि, PET ले PET-modified liquid resin system मा वर्णन गरिएको polyethylene terephthalate content जनाउँछ। कागजातले chips, pellets, bottle-grade material वा recycled PET feedstock जस्ता conventional thermoplastic PET commodity product वर्णन गर्दैन।",
-        "हालको product catalogue ले फरक PET item लाई छुट्टै thermoplastic chips को रूपमा label गर्छ। रूप र data मा त्यो भिन्नताको अर्थ हो कि खरिदकर्ताले catalogue-chip जानकारीलाई liquid Polyester Putty Resin grade सँग मिसाउनु हुँदैन।"
+      "heading": "कच्चा सामग्री, बनिसकेको उत्पादन होइन",
+      "body": [
+        "Body shop ले लगाउने putty र सतह finish गर्न प्रयोग गर्ने polish बनाइएका उत्पादन हुन्। Polyester Putty Resin ती बनाउनेहरूलाई आपूर्ति हुन्छ; बनिसकेको putty वा polish ले के गर्छ भन्ने कुरा resin को नाममा होइन, सम्पूर्ण formulation मा भर पर्छ।",
+        "यस grade का लागि घोटाइ, adhesion, shrinkage, कडापन वा finish को कुनै नतिजा प्रकाशित छैन, र नामबाट त्यस्तो अनुमान गर्नु हुँदैन।"
       ]
     },
     {
-      heading: "प्रकाशित application context",
-      body: [
-        "आपूर्तिकर्ता Safety Data Sheet ले PET sheets र fibre sheet products, साथै FRP sheet lamination र panel manufacturing लाई सिफारिस गरिएका प्रयोगका रूपमा सूचीबद्ध गर्छ। यिनै यो guide मा प्रयोग गरिएका application contexts हुन्।",
-        "तयार-product performance पूर्ण sheet, laminate वा panel system मा निर्भर गर्छ र यो liquid-resin नाम एक्लैले स्थापित हुँदैन।"
+      "heading": "किन कुनै data sheet लिंक गरिएको छैन",
+      "body": [
+        "यो नाममा चलेका कागजात PET Resin — sheet, fibre-sheet र panel कामका अंक तथा प्रयोग भएको sheet-grade resin — का लागि जारी भएका थिए। तिनले यस grade को specification वा सुरक्षा डाटा स्थापित गर्दैनन्, त्यसैले यहाँ लिंक वा उद्धृत गरिँदैनन्।",
+        "सोधपुछ गर्दा ठ्याक्कै यस grade का लागि हालको प्राविधिक मान र सुरक्षा जानकारी माग्नुहोस्। हामी अर्को grade का अंक सार्नुको सट्टा Samrat Poly Resins, India सँग ती पुष्टि गर्छौँ।"
       ]
     },
     {
-      heading: "केन्द्रित enquiry सुरु गर्न product document प्रयोग गर्नुहोस्",
-      body: [
-        "अपेक्षित PET-sheet, fibre-sheet, FRP-sheet वा panel application; आवश्यक liquid-resin form; सान्दर्भिक technical data; quantity; packaging need; delivery location; र अनुरोध गरिएको documentation साझा गर्नुहोस्।"
+      "heading": "केन्द्रित सोधपुछ सुरु गर्नुहोस्",
+      "body": [
+        "तपाईंले बनाउने putty वा polish, अपेक्षित परिमाण, डेलिभरी स्थान र तपाईंका ग्राहकलाई चाहिने कागजात बताउनुहोस्।"
       ]
     }
   ]

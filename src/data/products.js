@@ -1125,18 +1125,16 @@ export const products = Object.freeze([
     images: Object.freeze([]),
     titleInput: 'Polyester Putty Resin \u2014 Nepal Supplier',
     metaDescription:
-      'Polyester Putty Resin — a liquid unsaturated polyester resin supplied and imported for Nepal by Samrat FRP Traders. Technical figures confirmed on enquiry.',
+      'Polyester Putty Resin — a polyester resin used to make putty and polish for body repair, supplied and imported for Nepal by Samrat FRP Traders. Technical and safety information confirmed on enquiry.',
     descriptor:
-      'Liquid unsaturated polyester resin supplied under the Polyester Putty Resin name.',
+      'Polyester resin used to make putty and polish for body repair.',
     overview:
-      'Polyester Putty Resin is a liquid unsaturated polyester resin listed under this name in the Samrat Poly Resins, India documentation we hold. It is supplied as a liquid resin, not as a ready-mixed putty or body filler. No Technical Data Sheet is offered for it here. The sheet previously linked, SPR-TDS-PET, is a historical PET-modified sheet-grade resin document and is no longer presented as this product’s data sheet; technical values are confirmed on enquiry.',
-    documents: Object.freeze([
-      Object.freeze({
-        type: 'Safety Data Sheet',
-        issuer: 'Samrat Poly Resins, India',
-        url: 'https://samratpolyresins.in/sds/pet-resin-sds.pdf',
-      }),
-    ]),
+      'Polyester Putty Resin is a polyester resin used to make putty and polish for body repair. It is an ingredient for the producers of those products, not a ready-mixed putty, filler or polish. No Technical Data Sheet or Safety Data Sheet is offered for it here: the documents once associated with this name were issued for PET Resin, a sheet-grade resin, and do not establish this grade’s specification or safety data. Technical values and safety information are confirmed with Samrat Poly Resins, India on enquiry.',
+    // No documents. SPR-TDS-PET and SPR-SDS-PET were issued for PET Resin, a
+    // sheet-grade resin; their applicability to this putty-and-polish grade is
+    // not established, so neither is linked. The historical files are kept
+    // unchanged in document-archive/historical-source/.
+    documents: Object.freeze([]),
     technicalEvidenceStatus: 'pending',
     nepalCommercialEvidenceStatus: 'pending',
   }),

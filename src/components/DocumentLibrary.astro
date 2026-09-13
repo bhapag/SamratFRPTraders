@@ -304,22 +304,6 @@ const breadcrumbSchema = {
 
 <section class="section">
   <div class="container">
-    {missing.length > 0 && (
-      <>
-        <div class="section-heading" data-reveal>
-          <p class="eyebrow">{isNe ? 'पारदर्शिता' : 'Transparency'}</p>
-          <h2>{t.missingTitle}</h2>
-        </div>
-        <p class="missing-lead" data-reveal>{t.missingBody}</p>
-        <ul class="missing-list" data-reveal>
-          {missing.map((product) => (
-            <li>
-              <a href={`${prefix}/products/${product.slug}/`}>{product.name}</a>
-            </li>
-          ))}
-        </ul>
-      </>
-    )}
     <p class="doc-issuer-note" data-reveal>{t.issuedBy}: {DOCUMENT_ISSUER}</p>
   </div>
 </section>

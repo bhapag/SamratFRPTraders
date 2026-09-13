@@ -69,8 +69,7 @@ const t = isNe
       catalogueLabel: 'उत्पादन क्याटलग डाउनलोड गर्नुहोस्',
       issuedBy: 'कागजात जारीकर्ता',
       libraryLink: 'कागजात पुस्तकालय हेर्नुहोस्',
-      askForDocs: 'यी कागजात माग्नुहोस्',
-      docsPendingNote: 'यस grade का लागि आपूर्तिकर्ता कागजात हाम्रो पुस्तकालयमा अझै छैन। सोध्नुहोस्; Samrat Poly Resins, India ले हाल के प्रकाशित गरेका छन् हामी पुष्टि गर्नेछौँ।',
+      docsPendingNote: 'यस grade का लागि कुनै आपूर्तिकर्ता डाटा शीट प्रकाशित छैन।',
       priceHeading: 'मूल्य',
       priceValue: 'मूल्य: अनुरोधमा',
       priceNote: `${product.name} को मूल्य निम्न कुरामा निर्भर गर्दछ:`,
@@ -112,8 +111,7 @@ const t = isNe
       catalogueLabel: 'Download Product Catalogue',
       issuedBy: 'Documents issued by',
       libraryLink: 'Browse the document library',
-      askForDocs: 'Ask us for these documents',
-      docsPendingNote: 'The supplier documentation for this grade is not yet in our library. Ask us and we will confirm what Samrat Poly Resins, India currently publishes.',
+      docsPendingNote: 'No supplier data sheet is published for this grade.',
       priceHeading: 'Price',
       priceValue: 'PRICE ON REQUEST',
       priceNote: `${product.name} pricing varies based on:`,
@@ -321,13 +319,6 @@ const docActions = [
           <span class="doc-action-tag">PDF</span>
         </a>
       ))}
-
-      {docActions.length === 0 && (
-        <a class="doc-action doc-action-ask" href={`${prefix}/contact/?product=${encodeURIComponent(product.name)}`}>
-          <span class="doc-action-label">{t.askForDocs}</span>
-          <span class="doc-action-tag" aria-hidden="true">→</span>
-        </a>
-      )}
 
       <a
         class="doc-action doc-action-range"

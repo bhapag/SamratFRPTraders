@@ -255,7 +255,7 @@ export const extraApplications2 = [
     seo: {
       title: 'Polyester Putty Resin for Filler and Putty Manufacturing',
       description:
-        'Using a liquid unsaturated polyester as the base resin for formulated putty and filler products: what the resin contributes, what the filler does, and what to confirm before ordering.',
+        'Using Polyester Putty Resin as the base resin for formulated putty and filler products: what the resin contributes, what the filler does, and what to confirm before ordering.',
       keywords: [
         'polyester putty manufacturing',
         'body filler base resin',
@@ -265,25 +265,25 @@ export const extraApplications2 = [
       ],
     },
     intro:
-      'There are two completely different conversations about polyester putty, and they rarely happen in the same room. One is a body shop deciding which tin of filler to buy. The other is a manufacturer deciding which liquid resin to formulate that tin from. This page is the second conversation. It matters because the product name invites the first: people order a resin expecting a tub of ready-mixed filler and receive a drum of liquid, which is exactly what the supplier documentation says it is.',
+      'There are two completely different conversations about polyester putty, and they rarely happen in the same room. One is a body shop deciding which tin of filler to buy. The other is a manufacturer deciding which liquid resin to formulate that tin from. This page is the second conversation. It matters because the product name invites the first: people order a resin expecting a tub of ready-mixed filler and receive a drum of resin, which is what the name has always meant: the ingredient, not the tin.',
     whatTheyManufacture:
       'Producers in this category formulate and pack two-part polyester putties and fillers: general body filler, fine finishing and glazing putty, fibre-reinforced heavy fillers, and industrial and marine fairing compounds. The finished product is a filled paste supplied with its own hardener. <a href="/products/polyester-putty-resin/">Polyester Putty Resin</a> is one input to that formulation rather than the product itself.',
     whySuitable:
-      'Samrat Poly Resins, India positions Polyester Putty Resin as a liquid unsaturated polyester resin, and the supplier Safety Data Sheet on file (SPR-SDS-PET) describes a PET-modified liquid resin supplied as a pourable liquid rather than a filled putty paste. No Technical Data Sheet is offered for it on this site, so this guide publishes no resin figures; technical values are confirmed on enquiry. Whatever those values are, they describe the supplied liquid, not any putty somebody formulates from it: what a finished filler does on a panel depends on the filler system, the loading, the additives and the hardener as much as on the resin. The Safety Data Sheet is linked from the product page.',
+      'Polyester Putty Resin is a polyester resin used to make putty and polish for body repair. No Technical Data Sheet or Safety Data Sheet is offered for it on this site, so this guide publishes no resin figures; technical values and safety information are confirmed on enquiry. Documents once associated with the name were issued for PET Resin, a sheet-grade resin, and are not used here. Whatever the confirmed values are, they describe the supplied resin, not any putty somebody formulates from it: what a finished filler does on a panel depends on the filler system, the loading, the additives and the hardener as much as on the resin.',
     requiredCharacteristics: [
-      'A liquid body that will carry a heavy mineral filler load without the filler settling out',
+      'A resin body that will carry a heavy mineral filler load without the filler settling out',
       'Consistency between batches, because a formulated product has to behave the same tin after tin',
       'A cured hardness and heat resistance appropriate to a product that will be sanded and then painted over',
-      'Compatibility with the filler, additive and hardener system the formulation actually uses, confirmed against the supplier document',
+      'Compatibility with the filler, additive and hardener system the formulation actually uses, confirmed with the supplier for the exact grade',
       'Documentation a downstream customer can be shown, since the buyer of the tin is rarely the buyer of the resin',
     ],
     manufacturingProcess:
       'In general industry practice the base resin is compounded with mineral filler, thixotropes, pigment and the additive package the formulation calls for, mixed under conditions that disperse the filler fully rather than leaving it to settle, then packed with a separate hardener paste. The finished product is used by catalysing on a clean board, spreading in thin to moderate layers over a prepared surface, building deep repairs in several passes rather than one thick mass, tapering the edges into the surrounding surface, then sanding once fully hard and priming before paint. That end-use sequence is included here for context only. Filler loading, additive selection, mixing conditions, hardener type and pack ratio are formulation decisions that belong to the manufacturer of the finished putty and to their own approved procedure, and none of them is published on this page.',
     advantages: [
-      'The supplier Safety Data Sheet for this grade is on file and linked from the product page',
-      'Published liquid properties give a formulator a documented starting point for trials',
-      'A liquid resin leaves the filler, additive and hardener choices with the formulator rather than fixing them at supply',
-      'One documented grade across a production campaign keeps the formulated product behaving consistently',
+      'The resin is sold for this use — making putty and polish for body repair — rather than adapted from a laminating grade',
+      'Technical values are confirmed for the exact grade on enquiry, so trials start from supplier-confirmed information',
+      'Supplying the resin rather than a finished putty leaves the filler, additive and hardener choices with the formulator',
+      'One grade across a production campaign keeps the formulated product behaving consistently',
     ],
     commonProducts: [
       'Two-part body filler for vehicle repair',
@@ -294,11 +294,11 @@ export const extraApplications2 = [
     faqs: [
       {
         q: 'If I order this, do I get a tin of filler I can use straight away?',
-        a: 'No. What is supplied is a liquid unsaturated polyester resin, and the supplier documentation identifies it that way. A ready-mixed body filler is a formulated end product sold with its own hardener. If that is what you need, say so at the enquiry stage, because it is a different purchase.',
+        a: 'No. What is supplied is a polyester resin used to make putty and polish. A ready-mixed body filler is a formulated end product sold with its own hardener. If that is what you need, say so at the enquiry stage, because it is a different purchase.',
       },
       {
-        q: 'Is this the same as PET, the bottle plastic?',
-        a: 'No. Some trade listings for materials of this kind use a PET label, which invites that reading, but thermoplastic PET and a thermosetting unsaturated polyester are different polymer classes. There is a separate guide covering that naming problem in detail.',
+        q: 'Which documents are available for this resin?',
+        a: 'No Technical Data Sheet or Safety Data Sheet is offered for this grade on this site. Documents once associated with the name were issued for PET Resin, a sheet-grade resin, and are not used here. Ask for technical values and safety information for the exact grade when you enquire.',
       },
       {
         q: 'Can I use resin data-sheet figures as my product specification?',
@@ -310,13 +310,13 @@ export const extraApplications2 = [
       },
       {
         q: 'Can it be used as a laminating resin instead?',
-        a: 'That is a question for the supplier documentation and your own process rather than something a general page should extend. The grade is documented as a liquid unsaturated polyester; if the job is fibre lamination, the general-purpose and isophthalic grades are the documented routes and there are selection guides covering that choice.',
+        a: 'That is a question for the supplier documentation and your own process rather than something a general page should extend. This grade is sold for making putty and polish; if the job is fibre lamination, the general-purpose and isophthalic grades are the documented routes and there are selection guides covering that choice.',
       },
     ],
     relatedProductSlugs: ['soap-stone-powder', 'frp-polyester-pigment', 'mekp-hardener', 'styrene-monomer'],
     ctaHeading: 'Formulating a putty or filler product?',
     ctaText:
-      'Tell us the finished product you make, the filler system you work with, the quantity you expect to take and the documentation your customers ask for. We will review the grade and the current supplier documentation with you.',
+      'Tell us the finished product you make, the filler system you work with, the quantity you expect to take and the documentation your customers ask for. We will review the grade and confirm the supplier information for it with you.',
   },
 
   {

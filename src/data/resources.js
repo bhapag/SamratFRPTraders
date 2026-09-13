@@ -13450,8 +13450,8 @@ export const resources = Object.freeze([
   },
   {
     "slug": "what-is-polyester-putty-resin",
-    "title": "What Is Polyester Putty Resin? The Liquid Grade and Its Two Names",
-    "description": "Polyester Putty Resin is a name for Samrat Poly Resins, India’s PET-modified liquid unsaturated polyester grade. What the name covers, why the PET label appears, and which supplier document is on file.",
+    "title": "What Is Polyester Putty Resin? A Resin for Body-Repair Putty and Polish",
+    "description": "Polyester Putty Resin is a polyester resin used to make putty and polish for body repair. What the name means, what it is not, and which information is confirmed on enquiry.",
     "category": "Technical Guide",
     "icon": "info",
     "readingTime": "4 min read",
@@ -13459,556 +13459,185 @@ export const resources = Object.freeze([
     "seo": {
       "title": "What Is Polyester Putty Resin? Nepal Buyer Guide",
       "keywords": [
-        "PET Modified Polyester Resin",
         "Polyester Putty Resin",
-        "PET Modified Unsaturated Polyester Resin",
-        "Polyester Putty Resin Sheet Grade",
-        "Polyester Resin for Fibre Sheets",
-        "FRP Sheet Lamination Resin"
+        "Polyester Resin for Putty",
+        "Body Repair Putty Resin",
+        "Polyester Polish Resin",
+        "Polyester Putty Resin Nepal"
       ],
       "ogTitle": "What Is Polyester Putty Resin?",
-      "ogDescription": "A clear explanation of Samrat Poly Resins, India's PET-modified liquid unsaturated polyester sheet grade, marketed as Polyester Putty Resin."
+      "ogDescription": "A polyester resin used to make putty and polish for body repair — an ingredient, not a finished filler. What is published and what is confirmed on enquiry."
     },
     "quickFacts": {
-      "Published product": "Polyester Putty Resin",
-      "Resin family": "PET-modified unsaturated polyester resin",
-      "Supplied form": "Liquid sheet grade",
-      "Selection reference": "Supplier SDS on file; technical values confirmed on enquiry"
+      "Product": "Polyester Putty Resin",
+      "Used to make": "Putty and polish for body repair",
+      "Supplied as": "A resin for producers, not a ready-mixed putty or polish",
+      "Documents": "No TDS or SDS offered here; technical and safety information confirmed on enquiry"
     },
     "relatedSlugs": [
-      "polyester-putty-resin-vs-thermoplastic-pet",
+      "is-polyester-putty-resin-a-body-filler",
       "polyester-putty-resin-applications",
-      "polyester-putty-resin-vs-gp-resin"
+      "polyester-putty-resin-technical-specifications-and-rfq"
     ],
     "recommendedLinks": [
       {
         "href": "/products/polyester-putty-resin/",
         "label": "View Polyester Putty Resin",
-        "description": "Review the product role, specifications, pack and enquiry path."
+        "description": "Review the product role and enquiry path."
       },
       {
-        "href": "/sds/pet-resin-sds.pdf",
-        "label": "Review the supplier Safety Data Sheet",
-        "description": "SPR-SDS-PET — issued under the name PET Resin, with Polyester Putty Resin as a related name."
+        "href": "/applications/polyester-putty-and-filler-manufacturing/",
+        "label": "Manufacturing polyester putty and filler",
+        "description": "How the resin fits into a formulated putty or filler product."
       },
       {
-        "href": "/products/polyester-resins/",
-        "label": "Explore Unsaturated Polyester Resin",
-        "description": "Understand the broader family without transferring grade data."
+        "href": "/resources/is-polyester-putty-resin-a-body-filler/",
+        "label": "Is it a ready-mixed body filler?",
+        "description": "What arrives, and how it differs from a tin of two-part filler."
       },
       {
         "href": "/contact/",
         "label": "Discuss a Polyester Putty Resin requirement",
-        "description": "Share the exact liquid form and intended sheet or laminate application."
+        "description": "Share the putty or polish you make and the quantity you need."
       }
     ],
     "faqs": [
       {
-        "q": "What is Polyester Putty Resin on this site?",
-        "a": "It is Samrat Poly Resins, India’s PET-modified unsaturated polyester resin, supplied as a liquid sheet grade for PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing. Technical values are confirmed on enquiry."
+        "q": "What is Polyester Putty Resin?",
+        "a": "It is a polyester resin used to make putty and polish for body repair, supplied and imported for Nepal by Samrat FRP Traders. It is an ingredient for the producers of those products, not a finished putty or polish."
       },
       {
-        "q": "Is this Polyester Putty Resin a conventional thermoplastic PET material?",
-        "a": "No. It's a liquid, styrene-compatible unsaturated polyester resin system with polyethylene terephthalate content — not solid thermoplastic PET chips, pellets or a bottle-grade material."
+        "q": "Is it a ready-mixed putty or body filler?",
+        "a": "No. A ready-mixed body filler is a formulated paste sold with its own hardener. Polyester Putty Resin is one of the materials such products are made from."
       },
       {
-        "q": "Why does Samrat use both the Polyester Putty Resin and Polyester Putty Resin names?",
-        "a": "The supplier Safety Data Sheet on file names the product PET Resin and lists Polyester Putty Resin as a related name for the same liquid grade."
+        "q": "Which documents are available?",
+        "a": "No Technical Data Sheet or Safety Data Sheet is offered for this grade on this site. Documents once associated with the name were issued for PET Resin, a sheet-grade resin, and are not used here. Technical values and safety information are confirmed on enquiry."
       }
     ],
     "sections": [
       {
-        "heading": "The Polyester Putty Resin identity",
+        "heading": "What the name describes",
         "body": [
-          "Samrat FRP Traders supplies and imports Polyester Putty Resin for the Nepal market. The supplier Safety Data Sheet on file (SPR-SDS-PET) identifies it as a PET-modified unsaturated polyester resin — polyethylene terephthalate content in a liquid resin system with styrene as the reactive diluent — supplied as a liquid sheet grade. Technical values are confirmed on enquiry.",
-          "It sits within the broader unsaturated polyester resin family while retaining its own grade and application context — start with your exact finished sheet or laminate requirement, and confirm the technical values you need with us."
+          "Samrat FRP Traders supplies and imports Polyester Putty Resin for the Nepal market. The name describes what the resin is used for: making putty and polish for body repair.",
+          "It sits within the broader polyester-resin family, but its role is specific. Start from the putty or polish you make, not from a general resin description."
         ]
       },
       {
-        "heading": "What PET means in the published document",
+        "heading": "An ingredient, not the finished product",
         "body": [
-          "For this product, PET refers to the polyethylene terephthalate content described in the PET-modified liquid resin system. The document does not describe a conventional thermoplastic PET commodity product such as chips, pellets, bottle-grade material or recycled PET feedstock.",
-          "The current product catalogue separately labels a different PET item as thermoplastic chips. That difference in form and data means a buyer should not combine catalogue-chip information with the liquid Polyester Putty Resin grade."
+          "The putty a body shop spreads and the polish it uses to finish a surface are formulated products. Polyester Putty Resin is supplied to the people who make them; what a finished putty or polish does depends on the whole formulation, not on the resin name.",
+          "No sanding, adhesion, shrinkage, hardness or finish result is published for this grade, and none should be inferred from the name."
         ]
       },
       {
-        "heading": "Published application context",
+        "heading": "Why no data sheet is linked",
         "body": [
-          "The supplier Safety Data Sheet lists PET sheets and fibre sheet products, together with FRP sheet lamination and panel manufacturing, as recommended uses. These are the application contexts used in this guide.",
-          "Finished-product performance depends on the complete sheet, laminate or panel system and is not established by the liquid-resin name alone."
+          "Documents that circulated under this name were issued for PET Resin, a sheet-grade resin with figures and uses for sheet, fibre-sheet and panel work. They do not establish this grade’s specification or safety data, so they are not linked or quoted here.",
+          "Ask for current technical values and safety information for the exact grade when you enquire. We confirm them with Samrat Poly Resins, India rather than transferring another grade’s figures."
         ]
       },
       {
-        "heading": "Use the product document to start a focused enquiry",
+        "heading": "Start a focused enquiry",
         "body": [
-          "Share the intended PET-sheet, fibre-sheet, FRP-sheet or panel application; required liquid-resin form; relevant technical data; quantity; packaging need; delivery location; and requested documentation."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "polyester-putty-resin-vs-thermoplastic-pet",
-    "title": "Polyester Putty Resin vs Thermoplastic PET: Two Different Materials",
-    "description": "Distinguish Samrat Poly Resins, India's Polyester Putty Resin liquid grade from conventional thermoplastic PET chips, pellets and commodity-plastic material.",
-    "category": "Product Selection",
-    "icon": "layers",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-10",
-    "seo": {
-      "title": "Polyester Putty Resin vs Thermoplastic PET | Buyer Guide",
-      "keywords": [
-        "Polyester Putty Resin vs Thermoplastic PET",
-        "Liquid PET Modified Resin",
-        "Polyester Putty Resin Sheet Grade",
-        "Polyester Putty Resin Material Form",
-        "Polyester Putty Resin vs Polyester Putty"
-      ],
-      "ogTitle": "Polyester Putty Resin vs Thermoplastic PET",
-      "ogDescription": "Choose the correct material form for Polyester Putty Resin rather than treating PET labels as interchangeable."
-    },
-    "quickFacts": {
-      "Samrat product form": "Liquid PET-modified unsaturated polyester sheet grade",
-      "Different PET form": "Thermoplastic chips or pellets",
-      "Also not supplied": "Ready-made putty or filler compound",
-      "Buyer action": "State the required material form"
-    },
-    "comparisonTable": {
-      "title": "Keep the material forms separate",
-      "headers": [
-        "Buyer question",
-        "Samrat Polyester Putty Resin",
-        "Thermoplastic PET"
-      ],
-      "rows": [
-        [
-          "Material form",
-          "Liquid PET-modified UPR sheet grade",
-          "Solid commodity-plastic chips or pellets"
-        ],
-        [
-          "Document to review",
-          "Supplier SDS on file; technical values confirmed on enquiry",
-          "The document for the required thermoplastic grade"
-        ],
-        [
-          "Samrat grade context",
-          "PET sheets, fibre sheets, FRP sheet lamination and panels",
-          "Not the liquid resin route described for Polyester Putty Resin"
-        ]
-      ],
-      "note": "The Samrat product is a liquid raw resin, not thermoplastic chips and not a ready-made putty or filler compound."
-    },
-    "relatedSlugs": [
-      "what-is-polyester-putty-resin",
-      "polyester-putty-resin-applications",
-      "polyester-putty-resin-vs-gp-resin"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/polyester-putty-resin/",
-        "label": "View Polyester Putty Resin",
-        "description": "Open the product page for the approved liquid sheet-grade route."
-      },
-      {
-        "href": "/sds/pet-resin-sds.pdf",
-        "label": "Review the supplier Safety Data Sheet",
-        "description": "SPR-SDS-PET — issued under the name PET Resin, with Polyester Putty Resin as a related name."
-      },
-      {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Browse the full product range",
-        "description": "Use carefully: its PET chip listing is a separate material-form description."
-      },
-      {
-        "href": "/contact/",
-        "label": "Confirm the correct material form",
-        "description": "State whether the requirement is the liquid Samrat grade or a thermoplastic PET material."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Is Polyester Putty Resin here the same as polyethylene terephthalate chips or pellets?",
-        "a": "No. The supplier Safety Data Sheet identifies Polyester Putty Resin as a related name for a PET-modified liquid unsaturated polyester resin. The current catalogue separately describes a thermoplastic PET chip item with different form and data."
-      },
-      {
-        "q": "Is Polyester Putty Resin a ready-made putty or body filler?",
-        "a": "No. Samrat supplies this grade as a liquid raw resin, not as a pre-mixed putty or body filler. Finished-product properties cannot be inferred from liquid-resin data."
-      },
-      {
-        "q": "Why should material form be stated in an RFQ?",
-        "a": "The PET label appears in documents for different material forms. Naming the required form, finished application and document requirement prevents a liquid-resin enquiry from being confused with a thermoplastic or finished-product request."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "The liquid Polyester Putty Resin route",
-        "body": [
-          "The Polyester Putty Resin page and the supplier Safety Data Sheet describe a PET-modified unsaturated polyester resin supplied as a liquid sheet grade. Its listed uses are PET sheets, fibre sheet products, FRP sheet lamination and panel manufacturing.",
-          "This is a liquid-resin selection discussion. The product document should be read with the actual sheet or laminate requirement instead of being used as a label for every material containing PET in its name."
-        ]
-      },
-      {
-        "heading": "Thermoplastic PET is a different material form",
-        "body": [
-          "Thermoplastic PET is commonly supplied as chips or pellets for melt processing. Samrat Poly Resins, India's Polyester Putty Resin page instead describes a liquid PET-modified unsaturated polyester sheet grade.",
-          "Buyers should identify the required material form before comparing specifications or requesting a quotation."
-        ]
-      },
-      {
-        "heading": "Liquid raw resin is not a ready-made putty",
-        "body": [
-          "Samrat Poly Resins, India's Polyester Putty Resin is supplied as a liquid resin. A ready-made polyester putty or body filler is a complete formulated end product.",
-          "Sanding, adhesion, shrinkage, hardness, flexibility and repair performance cannot be assigned to the liquid resin alone from the current product data."
-        ]
-      },
-      {
-        "heading": "A clearer purchase brief",
-        "body": [
-          "State the required material form first. For Samrat Poly Resins, India's liquid grade, provide the finished sheet, laminate or panel application, quantity, packaging need, delivery location and requested documentation. If the requirement is thermoplastic PET or a ready-made putty, say so at the outset so the enquiry is not routed to the wrong product."
+          "Share the putty or polish you make, the quantity you expect to take, your delivery location and any documentation your own customers require."
         ]
       }
     ]
   },
   {
     "slug": "polyester-putty-resin-applications",
-    "title": "Polyester Putty Resin Applications: The Contexts the Supplier Publishes",
-    "description": "Review the Polyester Putty Resin applications listed in Samrat Poly Resins, India’s Safety Data Sheet for this grade, and the finished-product questions that still need separate confirmation.",
+    "title": "Polyester Putty Resin Applications: Putty and Polish for Body Repair",
+    "description": "Polyester Putty Resin is used to make putty and polish for body repair. What that use covers, and the finished-product questions that still need confirmation.",
     "category": "Application Guide",
     "icon": "grid",
     "readingTime": "4 min read",
     "publishDate": "2026-08-10",
     "seo": {
-      "title": "Polyester Putty Resin Applications | Sheet and Panel Contexts",
+      "title": "Polyester Putty Resin Applications | Putty and Polish for Body Repair",
       "keywords": [
         "Polyester Putty Resin Applications",
-        "PET Modified Polyester Resin Applications",
-        "Polyester Resin for Fibre Sheets",
-        "FRP Sheet Lamination Resin",
-        "Panel Manufacturing Resin"
+        "Resin for Body Repair Putty",
+        "Polyester Polish Resin",
+        "Putty Manufacturing Resin",
+        "Polyester Putty Resin Nepal"
       ],
       "ogTitle": "Polyester Putty Resin Applications",
-      "ogDescription": "A buyer-level guide to the sheet and panel contexts listed for Polyester Putty Resin in Samrat Poly Resins, India’s Safety Data Sheet."
+      "ogDescription": "A buyer-level guide to the stated use of Polyester Putty Resin — making putty and polish for body repair — and what still needs confirmation."
     },
     "quickFacts": {
-      "Listed application": "PET sheets and fibre sheet products",
-      "Listed FRP context": "Sheet lamination and panel manufacturing",
-      "Product form": "Liquid PET-modified UPR sheet grade",
-      "Still to verify": "Finished product and system requirement"
+      "Stated use": "Making putty and polish for body repair",
+      "Who buys it": "Producers of putty and polish, not users of the finished product",
+      "Supplied as": "A polyester resin — not a ready-mixed putty or polish",
+      "Still to confirm": "Technical values and safety information, on enquiry"
     },
     "relatedSlugs": [
       "what-is-polyester-putty-resin",
-      "polyester-putty-resin-vs-thermoplastic-pet",
-      "polyester-putty-resin-vs-gp-resin"
+      "is-polyester-putty-resin-a-body-filler",
+      "polyester-putty-resin-technical-specifications-and-rfq"
     ],
     "recommendedLinks": [
       {
         "href": "/products/polyester-putty-resin/",
         "label": "View Polyester Putty Resin",
-        "description": "Review product details, current document and quote path."
+        "description": "Review the product role and quote path."
       },
       {
-        "href": "/sds/pet-resin-sds.pdf",
-        "label": "Review the supplier Safety Data Sheet",
-        "description": "SPR-SDS-PET — issued under the name PET Resin, with Polyester Putty Resin as a related name."
+        "href": "/applications/polyester-putty-and-filler-manufacturing/",
+        "label": "Manufacturing polyester putty and filler",
+        "description": "The formulation context this resin is bought for."
       },
       {
-        "href": "/products/sheet-grade-yellow-resin/",
-        "label": "View Sheet Grade Yellow Resin",
-        "description": "Review the separate pre-pigmented yellow sheet and panel product route."
+        "href": "/resources/polyester-putty-resin-technical-specifications-and-rfq/",
+        "label": "Prepare a technical enquiry",
+        "description": "What to ask for, since no data sheet is offered here."
       },
       {
         "href": "/contact/",
-        "label": "Discuss a sheet or panel requirement",
-        "description": "Share the finished product and required material form for selection."
+        "label": "Discuss a putty or polish requirement",
+        "description": "Share the product you make and the quantity you need."
       }
     ],
     "faqs": [
       {
-        "q": "Which Polyester Putty Resin applications are published?",
-        "a": "The supplier Safety Data Sheet lists PET sheets and fibre sheet products, plus FRP sheet lamination and panel manufacturing, as recommended uses."
+        "q": "What is Polyester Putty Resin used for?",
+        "a": "It is used to make putty and polish for body repair."
       },
       {
-        "q": "Do the listed applications establish finished sheet performance?",
-        "a": "No. The supplier document positions the supplied liquid resin for those contexts. Finished sheet or panel results depend on the complete material system and actual application requirement."
+        "q": "Is it applied directly to a vehicle panel?",
+        "a": "No. It is a raw material for putty and polish producers. The finished putty or polish, with its filler, additives and hardener, is what goes on the panel."
       },
       {
-        "q": "Is body filler or automotive putty a published Polyester Putty Resin application?",
-        "a": "No. The current repository does not publish a body-filler, automotive-putty, repair-putty, wood-filler or stone-filler application for this grade."
+        "q": "Are sheet, laminate or panel uses published for this grade?",
+        "a": "No. Sheet, fibre-sheet and panel uses appear in PET Resin documents, which are not used for this grade. Do not select it for lamination work on the strength of those documents."
       }
     ],
     "sections": [
       {
-        "heading": "PET sheets and fibre sheet products",
+        "heading": "Putty for body repair",
         "body": [
-          "PET sheets and fibre sheet products are listed as recommended uses in the supplier Safety Data Sheet. This is the published starting point for a buyer evaluating the product.",
-          "A sheet description alone does not establish a formulation, reinforcement, process condition or finished-sheet performance. State the actual finished product and requirement when comparing the document with a purchase need."
+          "Body-repair putty is a filled, spreadable product used to restore a panel’s shape before priming and paint. Polyester Putty Resin is used as the resin in putty of this kind.",
+          "The finished putty’s working time, sanding behaviour and adhesion depend on its complete formulation — filler, additives and hardener — which belongs to the putty manufacturer."
         ]
       },
       {
-        "heading": "FRP sheet lamination and panel manufacturing",
+        "heading": "Polish for body repair",
         "body": [
-          "The same document also lists FRP sheet lamination and panel manufacturing. In these contexts, Polyester Putty Resin is the liquid resin product route under review; it is not a substitute for the separate reinforcement or finished-system decisions.",
-          "Where the requirement is a pre-pigmented yellow sheet or panel, use the separate Sheet Grade Yellow Resin route. Where it is general FRP or a different lamination application, review the separately published GP or Lamination Resin information rather than assuming interchangeability."
+          "The resin is also used to make polish for body repair. As with putty, the finished polish is a formulated product and its result depends on the whole formulation.",
+          "No finish, gloss or durability result is published for this grade."
         ]
       },
       {
-        "heading": "Application boundaries that are not published",
+        "heading": "What is not established",
         "body": [
-          "The available Polyester Putty Resin documents do not publish use in automotive body filler, vehicle repair putty, industrial filler, metal filling, composite repair filler, wood filler, marble filler or stone filler. Those search terms are not used here as application claims.",
-          "No final sanding, adhesion, shrinkage, hardness, flexibility or surface-finish result is documented for this liquid grade. The listed sheet and panel contexts are not evidence for a finished filler or repair product."
+          "No Technical Data Sheet or Safety Data Sheet is offered for this grade here, so no viscosity, solids, cure or safety figures are published.",
+          "Documents issued for PET Resin list sheet, fibre-sheet and panel uses. They describe a different product role and are not evidence for this grade."
         ]
       },
       {
         "heading": "What to provide for an application review",
         "body": [
-          "Provide the intended PET sheet, fibre sheet, FRP sheet or panel application; required material form; applicable technical data; quantity; packaging need; delivery location; and any drawing or written specification. This creates a documented product discussion without asking for a formulation or production recipe."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "polyester-putty-resin-vs-gp-resin",
-    "title": "Polyester Putty Resin vs GP Resin: Two Separate Routes",
-    "description": "Compare the Polyester Putty Resin route published by Samrat Poly Resins, India with the separate general-purpose GP Resin route, without transferring applications or technical data between them.",
-    "category": "Comparison Guide",
-    "icon": "layers",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-10",
-    "seo": {
-      "title": "Polyester Putty Resin vs GP Resin | Selection Guide",
-      "keywords": [
-        "Polyester Putty Resin vs GP Resin",
-        "PET Modified Resin vs General Purpose Resin",
-        "Sheet Grade Polyester Resin",
-        "General Purpose Polyester Resin",
-        "FRP Sheet Resin Selection"
-      ],
-      "ogTitle": "Polyester Putty Resin vs GP Resin",
-      "ogDescription": "Choose the published PET sheet-grade or GP general-FRP route by the actual component and product-specific TDS."
-    },
-    "quickFacts": {
-      "Polyester Putty Resin": "PET-modified liquid sheet grade for its TDS-listed contexts",
-      "GP Resin": "Separate general-purpose FRP product route",
-      "Shared family": "Polyester-resin product routes, reviewed grade by grade",
-      "Selection rule": "Start with the finished component and current TDS"
-    },
-    "comparisonTable": {
-      "title": "Published product-role comparison",
-      "headers": [
-        "Buyer question",
-        "Polyester Putty Resin",
-        "GP Resin route"
-      ],
-      "rows": [
-        [
-          "Published context",
-          "PET sheets, fibre sheets, FRP sheet lamination and panels",
-          "General-purpose FRP product route"
-        ],
-        [
-          "Product identity",
-          "PET-modified liquid unsaturated polyester sheet grade",
-          "Separate published GP grade with its own data"
-        ],
-        [
-          "Document to use",
-          "Current Polyester Putty Resin TDS",
-          "Current GP product page and grade-specific TDS"
-        ]
-      ],
-      "note": "This comparison does not present either product as universally better or transfer one grade's specification, application or finished-product result to the other."
-    },
-    "relatedSlugs": [
-      "what-is-polyester-putty-resin",
-      "polyester-putty-resin-applications",
-      "polyester-putty-resin-vs-lamination-resin"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/polyester-putty-resin/",
-        "label": "View Polyester Putty Resin",
-        "description": "Review the published liquid sheet-grade role and Polyester Putty Resin TDS."
-      },
-      {
-        "href": "/products/gp-clear-resin/",
-        "label": "View GP Clear Resin",
-        "description": "Review the separate general-purpose FRP route and its own technical data."
-      },
-      {
-        "href": "/products/polyester-resins/",
-        "label": "Explore Unsaturated Polyester Resin",
-        "description": "Use the parent page for broader family context."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss the correct product route",
-        "description": "Share the actual component, application, quantity and documentation needs."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Is Polyester Putty Resin the same as a GP Resin grade?",
-        "a": "No interchangeability is published. Polyester Putty Resin is documented as a PET-modified liquid sheet grade for its listed sheet and panel contexts, while GP Clear Resin is a separate general-purpose FRP route."
-      },
-      {
-        "q": "Which product is better?",
-        "a": "The repository does not publish a universal performance ranking. Start with the finished component, required product role and the current TDS for the shortlisted grade."
-      },
-      {
-        "q": "Can GP Resin data be used for Polyester Putty Resin selection?",
-        "a": "No. Technical data, storage guidance and applications belong to the grade that publishes them. Review the current Polyester Putty Resin TDS separately from the GP product documentation."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "One family, separate published product routes",
-        "body": [
-          "Polyester Putty Resin and GP Resin sit within polyester-resin product discussions, but their published roles differ. Polyester Putty Resin is a PET-modified liquid sheet grade with documented sheet, fibre-sheet, FRP sheet-lamination and panel contexts. GP Clear Resin is a separately published route for general-purpose FRP work.",
-          "This avoids treating the products as unrelated because their names differ, or treating any liquid polyester grade as automatically suitable for every GP or sheet requirement."
-        ]
-      },
-      {
-        "heading": "Start with the actual finished component",
-        "body": [
-          "For a PET-sheet, fibre-sheet, FRP-sheet or panel requirement, begin with Polyester Putty Resin and the current Polyester Putty Resin TDS. For a broad general-purpose FRP requirement, begin with the separately published GP product route and its own data.",
-          "If the requirement is a pre-pigmented sheet, roof-light sheet, door or plywood lamination, moulding compound, marble composite or finished putty, another published route may be more relevant. The product role should lead the selection discussion."
-        ]
-      },
-      {
-        "heading": "Do not create a performance ranking from names",
-        "body": [
-          "The repository does not publish a universal strength, shrinkage, adhesion, sanding, cure-speed, durability or cost comparison between Polyester Putty Resin and GP Resin. Those statements are not used here.",
-          "Use individual technical documents for the exact grade. A liquid-resin value from one page should not become a process recommendation or finished-product result for the other."
-        ]
-      },
-      {
-        "heading": "Prepare a specific enquiry",
-        "body": [
-          "State the finished component, intended product route if known, required material form, relevant technical data, quantity, packaging need, delivery location and requested documentation. This gives Samrat FRP Traders a factual basis for checking the PET or GP route."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "polyester-putty-resin-vs-lamination-resin",
-    "title": "Polyester Putty Resin vs Lamination Resin: Different Routes",
-    "description": "Separate the Polyester Putty Resin route documented by Samrat Poly Resins, India from the published Lamination Resin route for door, plywood and FRP lamination contexts.",
-    "category": "Comparison Guide",
-    "icon": "layers",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-10",
-    "seo": {
-      "title": "Polyester Putty Resin vs Lamination Resin | Selection Guide",
-      "keywords": [
-        "Polyester Putty Resin vs Lamination Resin",
-        "PET Modified Polyester Resin",
-        "Lamination Resin",
-        "FRP Sheet Lamination Resin",
-        "Polyester Resin Selection"
-      ],
-      "ogTitle": "Polyester Putty Resin vs Lamination Resin",
-      "ogDescription": "Select the PET sheet-grade or Lamination Resin route from the actual documented component and current TDS."
-    },
-    "quickFacts": {
-      "Polyester Putty Resin": "Documented for PET sheets, fibre sheets, FRP sheet lamination and panels",
-      "Lamination Resin": "Separate published door, plywood and FRP lamination route",
-      "Selection boundary": "Finished component and product-specific document",
-      "Not established": "A universal performance ranking"
-    },
-    "comparisonTable": {
-      "title": "Published role comparison",
-      "headers": [
-        "Buyer question",
-        "Polyester Putty Resin",
-        "Lamination Resin"
-      ],
-      "rows": [
-        [
-          "Published context",
-          "Sheet, fibre-sheet, FRP sheet-lamination and panel work",
-          "Door, plywood and FRP lamination route"
-        ],
-        [
-          "Product document",
-          "Current Polyester Putty Resin TDS",
-          "Current Lamination Resin product document"
-        ],
-        [
-          "Selection question",
-          "Is the listed sheet-grade context required?",
-          "Is the published lamination component context required?"
-        ]
-      ],
-      "note": "The products are not ranked here. Their applications, data and finished-system results should not be treated as transferable."
-    },
-    "relatedSlugs": [
-      "what-is-polyester-putty-resin",
-      "polyester-putty-resin-vs-gp-resin",
-      "polyester-putty-resin-applications"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/polyester-putty-resin/",
-        "label": "View Polyester Putty Resin",
-        "description": "Review the PET-modified liquid sheet-grade route and current TDS."
-      },
-      {
-        "href": "/products/lamination-resin/",
-        "label": "View Lamination Resin",
-        "description": "Review the separate published lamination product route."
-      },
-      {
-        "href": "/resources/what-is-lamination-resin/",
-        "label": "What Is Lamination Resin?",
-        "description": "Use the existing guide for the broader lamination-resin role."
-      },
-      {
-        "href": "/contact/",
-        "label": "Discuss the application context",
-        "description": "Share the actual component and document requirement before selection."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Is Polyester Putty Resin interchangeable with Lamination Resin?",
-        "a": "No interchangeability is published. Polyester Putty Resin has a documented sheet-grade context, while Lamination Resin is the separate published route for door, plywood and FRP lamination contexts."
-      },
-      {
-        "q": "Does FRP sheet lamination mean either product can be substituted?",
-        "a": "No. The shared word lamination does not transfer product data between grades. Use the finished component, published product role and current TDS to begin selection."
-      },
-      {
-        "q": "Does this comparison provide process instructions?",
-        "a": "No. It does not provide formulation, reinforcement, catalyst, cure or production instructions. It is a buyer-level product-selection guide."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "Similar language does not mean the same route",
-        "body": [
-          "Polyester Putty Resin is listed for FRP sheet lamination and panel manufacturing, while Lamination Resin has a separate published door, plywood and FRP lamination role. Both names can appear in a lamination discussion, but the finished component and product document remain the selection starting point.",
-          "The page does not merge products or transfer technical numbers, applications or finished-system expectations between them."
-        ]
-      },
-      {
-        "heading": "When Polyester Putty Resin is the documented starting point",
-        "body": [
-          "Start with Polyester Putty Resin when the requirement is one of its published PET-sheet, fibre-sheet, FRP-sheet-lamination or panel contexts. Review the current Polyester Putty Resin TDS for the liquid grade under consideration.",
-          "A listed sheet context does not establish suitability for an unlisted door, plywood, general laminate or filler requirement. State the actual finished component early in the enquiry."
-        ]
-      },
-      {
-        "heading": "When Lamination Resin is the documented starting point",
-        "body": [
-          "Start with Lamination Resin when its published door, plywood or FRP lamination product route matches the finished-component question. Use that product page and technical document rather than applying Polyester Putty Resin data by analogy.",
-          "If the requirement is a surface finish, general GP FRP route, sheet grade, moulding compound or stone-composite product, use the relevant separate product page instead."
-        ]
-      },
-      {
-        "heading": "Keep processing out of a product-role comparison",
-        "body": [
-          "The Polyester Putty Resin documents do not publish a universal process recipe. This guide avoids catalyst level, filler loading, reinforcement schedule, curing condition and production troubleshooting content.",
-          "For a quote discussion, provide the component, product route under review, current document requirement, quantity, packaging need and delivery location."
+          "Describe the putty or polish you make, the quantity you expect to take, your delivery location and the documents your own customers ask for. This lets the grade and the available supplier information be confirmed before an order."
         ]
       }
     ]
@@ -14016,7 +13645,7 @@ export const resources = Object.freeze([
   {
     "slug": "polyester-putty-resin-technical-specifications-and-rfq",
     "title": "Polyester Putty Resin Technical Enquiry and RFQ Guide",
-    "description": "What is and is not published for Polyester Putty Resin, why liquid-resin data stay separate from finished-product performance, and how to prepare a focused industrial enquiry.",
+    "description": "What is and is not published for Polyester Putty Resin, why resin data stay separate from finished putty and polish performance, and how to prepare a focused enquiry.",
     "category": "Technical & Procurement Guide",
     "icon": "checklist",
     "readingTime": "5 min read",
@@ -14026,31 +13655,31 @@ export const resources = Object.freeze([
       "keywords": [
         "Polyester Putty Resin Technical Data",
         "Polyester Putty Resin Enquiry",
-        "PET Modified Polyester Resin",
+        "Polyester Resin for Putty",
         "Polyester Putty Resin Procurement",
         "Polyester Putty Resin Supplier"
       ],
       "ogTitle": "Polyester Putty Resin Technical Enquiry and RFQ Guide",
-      "ogDescription": "What is published for Polyester Putty Resin, and how to prepare a document-led quotation request."
+      "ogDescription": "What is published for Polyester Putty Resin, and how to prepare a focused quotation request."
     },
     "quickFacts": {
-      "Published grade": "PET-modified liquid UPR sheet grade",
+      "Stated use": "Making putty and polish for body repair",
       "Technical values": "Confirmed on enquiry — no Technical Data Sheet is offered for this product here",
-      "First RFQ input": "Material form and sheet or laminate application"
+      "First RFQ input": "The putty or polish you make"
     },
     "propertiesTable": {
       "headers": [
-        "Liquid-resin property",
+        "Resin property",
         "Status on this site"
       ],
       "rows": [
         [
           "Resin type",
-          "PET-modified unsaturated polyester resin (liquid), per the supplier SDS"
+          "Polyester resin — details confirmed on enquiry"
         ],
         [
-          "Grade",
-          "Sheet grade, per the supplier SDS"
+          "Use",
+          "Making putty and polish for body repair"
         ],
         [
           "Viscosity",
@@ -14065,84 +13694,83 @@ export const resources = Object.freeze([
           "Confirmed on enquiry"
         ],
         [
-          "HDT",
-          "Confirmed on enquiry"
+          "Safety information",
+          "Confirmed on enquiry — no Safety Data Sheet is offered here"
         ],
         [
           "Shelf life / pack / MOQ",
           "Confirmed on enquiry"
         ]
       ],
-      "note": "No Technical Data Sheet is offered for Polyester Putty Resin on this site, so no liquid-resin figures are published here. The rows show what to ask for in an enquiry; they are not values."
+      "note": "No Technical Data Sheet or Safety Data Sheet is offered for Polyester Putty Resin on this site, so no figures are published here. The rows show what to ask for in an enquiry; they are not values."
     },
     "relatedSlugs": [
       "what-is-polyester-putty-resin",
-      "polyester-putty-resin-vs-thermoplastic-pet",
       "polyester-putty-resin-applications",
-      "polyester-putty-resin-vs-gp-resin"
+      "is-polyester-putty-resin-a-body-filler"
     ],
     "recommendedLinks": [
       {
         "href": "/products/polyester-putty-resin/",
         "label": "View Polyester Putty Resin",
-        "description": "Review the product role, current data and enquiry path."
+        "description": "Review the product role and enquiry path."
       },
       {
-        "href": "/sds/pet-resin-sds.pdf",
-        "label": "Review the supplier Safety Data Sheet",
-        "description": "SPR-SDS-PET — issued under the name PET Resin, with Polyester Putty Resin as a related name."
+        "href": "/applications/polyester-putty-and-filler-manufacturing/",
+        "label": "Manufacturing polyester putty and filler",
+        "description": "Where resin data end and formulation decisions begin."
       },
       {
-        "href": "/downloads/samrat-poly-resins-product-catalogue.pdf",
-        "label": "Browse the full product range",
-        "description": "Keep its separate thermoplastic PET chip listing distinct from this liquid grade."
+        "href": "/resources/is-polyester-putty-resin-a-body-filler/",
+        "label": "Is it a ready-mixed body filler?",
+        "description": "Settle the product form before the enquiry."
       },
       {
         "href": "/contact/",
         "label": "Request a Polyester Putty Resin quote",
-        "description": "Send the material form, application, documentation and commercial requirements."
+        "description": "Send the product you make, the information you need and the quantity."
       }
     ],
     "faqs": [
       {
         "q": "Which Polyester Putty Resin specifications are published?",
-        "a": "On this site, the product identity only: a PET-modified liquid unsaturated polyester sheet grade, as named in the supplier Safety Data Sheet (SPR-SDS-PET). No Technical Data Sheet is offered for this product here, so viscosity, solids, specific gravity, HDT, shelf life, packaging and MOQ are confirmed on enquiry."
+        "a": "None on this site. No Technical Data Sheet or Safety Data Sheet is offered for this grade here, so viscosity, solids, specific gravity, shelf life, safety information, packaging and order quantity are confirmed on enquiry."
       },
       {
-        "q": "Would liquid-resin figures establish finished sheet or putty performance?",
-        "a": "No. Liquid-resin data describe the supplied resin only. The repository does not publish a finished putty, body-filler, sanding, adhesion, shrinkage, hardness or finished-sheet performance claim for this grade."
+        "q": "Would resin figures establish finished putty or polish performance?",
+        "a": "No. Resin data describe the supplied resin only. No finished putty, polish, sanding, adhesion, shrinkage, hardness or finish claim is published for this grade."
       },
       {
         "q": "What should a Polyester Putty Resin RFQ include?",
-        "a": "Include the required liquid material form, intended PET-sheet, fibre-sheet, FRP-sheet or panel application, required published properties or documentation, quantity, packaging need and delivery location."
+        "a": "The putty or polish you make, the properties or documents you need confirmed, the quantity, and the delivery location."
       }
     ],
     "sections": [
       {
         "heading": "What is published for this grade",
         "body": [
-          "The supplier Safety Data Sheet on file (SPR-SDS-PET) names the product PET Resin, lists Polyester Putty Resin as a related name, and describes a PET-modified liquid unsaturated polyester sheet grade. It is linked from the product page.",
-          "No Technical Data Sheet is offered for Polyester Putty Resin on this site. The sheet previously linked, SPR-TDS-PET, is a historical PET-modified sheet-grade resin document and is no longer presented as this product’s data sheet, so its figures are not repeated here. Ask for current technical values during enquiry."
+          "The product name and its stated use — making putty and polish for body repair — are published. No Technical Data Sheet or Safety Data Sheet is offered for this grade on this site.",
+          "Documents once associated with the name were issued for PET Resin, a sheet-grade resin. They do not establish this grade’s specification or safety data, so their figures are not repeated here. Ask for current technical values and safety information during enquiry."
         ]
       },
       {
-        "heading": "Keep liquid data separate from finished-product results",
+        "heading": "Keep resin data separate from finished-product results",
         "body": [
-          "Liquid-resin values, once confirmed, describe the supplied resin. They do not establish the performance of a finished PET sheet, fibre sheet, FRP panel, finished putty or body filler.",
-          "No formulation, filler loading, catalyst ratio, curing schedule, sanding, adhesion, shrinkage, hardness, flexibility or repair-performance result is published for this grade. These subjects are intentionally not inferred from the liquid-resin table."
+          "Resin values, once confirmed, describe the supplied resin. They do not establish the performance of a finished putty or polish.",
+          "No formulation, filler loading, catalyst ratio, curing schedule, sanding, adhesion, shrinkage, hardness or finish result is published for this grade. These subjects are not inferred from the table above."
         ]
       },
       {
-        "heading": "Do not combine catalogue PET entries with this grade",
+        "heading": "Do not borrow another grade’s data",
         "body": [
-          "The current catalogue uses PET terminology for a separate thermoplastic chip item, while Polyester Putty Resin is a liquid PET-modified UPR sheet grade. The records have different forms and data.",
-          "This guide does not average, reconcile or silently transfer figures between documents; buyers should state the required form during enquiry."
+          "PET Resin documents, thermoplastic PET listings and general-purpose resin sheets each describe other materials. None of them is a substitute for information issued for this grade.",
+          "This guide does not average, reconcile or transfer figures between documents; state the grade and use you need during enquiry."
         ]
       },
       {
         "heading": "Prepare a document-led RFQ",
         "body": [
-          "Identify the material form, intended PET-sheet, fibre-sheet, FRP-sheet or panel application, required technical properties or document, quantity, packaging requirement and delivery location. Include a drawing or written requirement where it clarifies the finished product.",
+          "Identify the putty or polish you make, the technical properties or documents you need confirmed, the quantity and the delivery location.",
           "Packaging, stock, lead time and delivery commitments are confirmed for the actual requirement during enquiry; none is published here for this grade."
         ]
       }
@@ -16359,99 +15987,6 @@ export const resources = Object.freeze([
     ]
   },
   {
-    "slug": "marble-resin-vs-polyester-putty-resin",
-    "title": "Marble Resin vs Polyester Putty Resin",
-    "description": "Separate Samrat Marble Resin's cultured-marble and artificial-stone route from the Polyester Putty Resin liquid sheet-grade route.",
-    "category": "Comparison Guide",
-    "icon": "layers",
-    "readingTime": "4 min read",
-    "publishDate": "2026-08-10",
-    "seo": {
-      "title": "Marble Resin vs Polyester Putty Resin",
-      "keywords": [
-        "Marble Resin vs Polyester Putty Resin",
-        "Polyester Marble Resin",
-        "PET Modified Polyester Resin",
-        "Marble Composite Resin",
-        "Sheet Grade Polyester Resin"
-      ],
-      "ogTitle": "Marble Resin vs Polyester Putty Resin",
-      "ogDescription": "Choose between the Marble Resin stone-composite route and the Polyester Putty Resin liquid sheet-grade route by product role and TDS."
-    },
-    "quickFacts": {
-      "Marble Resin": "Liquid UPR for documented cultured-marble and artificial-stone contexts",
-      "Polyester Putty Resin": "PET-modified liquid UPR sheet grade",
-      "Selection rule": "Start with the finished component and its current product document",
-      "Material-form boundary": "Both products are supplied resins, not finished marble or ready-made putty"
-    },
-    "relatedSlugs": [
-      "what-is-marble-resin",
-      "marble-resin-applications-cultured-marble-artificial-stone",
-      "marble-resin-vs-gp-resin",
-      "marble-resin-technical-specifications-and-rfq"
-    ],
-    "recommendedLinks": [
-      {
-        "href": "/products/marble-resin/",
-        "label": "View Marble Resin",
-        "description": "Review the documented cultured-marble and artificial-stone product role."
-      },
-      {
-        "href": "/products/polyester-putty-resin/",
-        "label": "View Polyester Putty Resin",
-        "description": "Review the separate liquid PET-modified sheet-grade role."
-      },
-      {
-        "href": "/resources/polyester-putty-resin-vs-thermoplastic-pet/",
-        "label": "Clarify Polyester Putty Resin material form",
-        "description": "Keep the liquid Samrat grade separate from thermoplastic PET and ready-made putty."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Is Marble Resin the same as Polyester Putty Resin?",
-        "a": "No interchangeability is published. Marble Resin is the documented cultured-marble and artificial-stone route. Polyester Putty Resin is separately documented as a PET-modified liquid UPR sheet grade for its listed sheet and panel contexts."
-      },
-      {
-        "q": "Is Polyester Putty Resin supplied as ready-made putty?",
-        "a": "No. It is supplied as a liquid PET-modified UPR sheet grade, not as a pre-mixed putty or body filler. Confirm the required material form before enquiry."
-      },
-      {
-        "q": "Can Polyester Putty Resin technical data be used to select Marble Resin?",
-        "a": "No. Each product publishes its own data and applications. Use the current Marble Resin TDS for a cultured-marble or artificial-stone discussion rather than transferring PET sheet-grade values."
-      }
-    ],
-    "sections": [
-      {
-        "heading": "Separate product identities",
-        "body": [
-          "Marble Resin is the supplied water-white liquid UPR route for the TDS-listed cultured-marble and artificial-stone contexts. Polyester Putty Resin is separately documented as a PET-modified liquid UPR sheet grade for PET sheets, fibre sheets, FRP sheet lamination and panels.",
-          "Both sit within polyester-resin discussions, but the product role—not the shared word resin—should lead selection. Neither document says the grades are interchangeable."
-        ]
-      },
-      {
-        "heading": "Keep product and material form clear",
-        "body": [
-          "Polyester Putty Resin and Polyester Putty Resin are the approved names for Samrat Poly Resins, India's liquid PET-modified sheet grade. That liquid raw resin is different from a ready-made putty or thermoplastic PET chips.",
-          "Marble Resin has its own supplied-resin role for cultured-marble and artificial-stone contexts. Confirm the required material form and finished component before product selection."
-        ]
-      },
-      {
-        "heading": "Keep the documents and data separate",
-        "body": [
-          "Marble Resin and Polyester Putty Resin publish different product data, storage information and application contexts. A liquid-resin value from one product must not become a technical specification, process setting or finished-product performance claim for the other.",
-          "For cultured-marble or artificial-stone work, start with the current Marble Resin TDS. For published sheet or panel work, start with the Polyester Putty Resin TDS. For another resin role, identify the exact finished product so a separate GP, Lamination, Quartz or epoxy route can be reviewed."
-        ]
-      },
-      {
-        "heading": "Prepare a focused enquiry",
-        "body": [
-          "State whether the requirement is a cultured-marble or artificial-stone component, a sheet or panel, the liquid Polyester Putty Resin grade, a ready-made putty, thermoplastic PET or another product. Then include the applicable product document, required data, quantity, packaging need, delivery location and documentation request."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "marble-resin-vs-gp-resin",
     "title": "Marble Resin vs GP Resin: Marble Composite or General FRP Route?",
     "description": "Compare the documented Marble Resin cultured-marble and artificial-stone route with the separately published GP Resin route for broad general FRP selection.",
@@ -16480,7 +16015,6 @@ export const resources = Object.freeze([
     "relatedSlugs": [
       "what-is-marble-resin",
       "marble-resin-applications-cultured-marble-artificial-stone",
-      "marble-resin-vs-polyester-putty-resin",
       "marble-resin-technical-specifications-and-rfq"
     ],
     "recommendedLinks": [
