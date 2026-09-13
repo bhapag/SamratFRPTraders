@@ -151,6 +151,12 @@ const breadcrumbSchema = {
   })),
 };
 
+// Google validates Product markup as a product snippet, which needs offers,
+// reviews or ratings. The site publishes no prices, reviews or ratings, so
+// Product markup is not emitted. Polyester Putty Resin keeps its existing
+// markup unchanged by owner decision.
+const emitProductSchema = product.slug === 'polyester-putty-resin';
+
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
@@ -200,7 +206,7 @@ const docActions = [
 ---
 
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+{emitProductSchema && <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />}
 {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
 <Breadcrumbs items={breadcrumbItems} />
