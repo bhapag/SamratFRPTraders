@@ -71,7 +71,7 @@ n 45.35433 720 504.5669 22.67717 re f*
 BT /F2 11.5 Tf 13.8 TL ET
 BT 1 0 0 1 59.52756 727.3701 Tm (TECHNICAL DATA SHEET) Tj T* ET
 BT /F1 8.4 Tf 10.08 TL ET
-BT 1 0 0 1 351.8216 727.3701 Tm (Doc. Ref: SPR-TDS-GCR  \267  Rev. 01  \267  July 2026) Tj T* ET
+BT 1 0 0 1 351.8216 727.3701 Tm                                                            T* ET
 .878431 .878431 .878431 RG
 .5 w
 n 45.35433 34.01575 m 549.9213 34.01575 l S
@@ -83,14 +83,14 @@ q
 1 0 0 1 51.35433 675.8268 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 3 Tm /F2 21 Tf 24 TL (GP CLEAR RESIN) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F2 21 Tf 24 TL                     T* ET
 Q
 Q
 q
 1 0 0 1 51.35433 660.8268 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (General-Purpose Unsaturated Polyester Resin \267 Orthophthalic \267 Crystal-Clear, High-Gloss) Tj T* ET
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL                                                                                                    T* ET
 Q
 Q
 q
@@ -116,7 +116,7 @@ q
 1 0 0 1 51.35433 576.5268 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 44.7 Tm /F1 9.3 Tf 13.5 TL (GP Clear Resin is an orthophthalic-based, general-purpose unsaturated polyester resin engineered for crystal-clear,) Tj T* (high-gloss FRP manufacturing. It offers excellent wet-out for superior reinforcement impregnation, high mechanical) Tj T* (strength, good chemical resistance, and consistent batch-to-batch performance, with a fast sub-8-minute gel time under) Tj T* (a non-accelerated cure system.) Tj T* ET
+BT 1 0 0 1 0 44.7 Tm /F1 9.3 Tf 13.5 TL                                                                                                                          T*                                                                                                                         T*                                                                                                                             T*                                     T* ET
 Q
 Q
 q
@@ -131,7 +131,7 @@ q
 1 0 0 1 0 93.3 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (KEY FEATURES) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL                   T* ET
 Q
 Q
 q
@@ -146,38 +146,38 @@ Q
 q
 1 0 0 1 0 57 cm
 q
-BT 1 0 0 1 10 17.8 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Crystal-clear finish, excellent transparency and high) Tj T* (gloss) Tj T* ET
+BT 1 0 0 1 10 17.8 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                                          T*            T* ET
 Q
 Q
 q
 1 0 0 1 0 43.5 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Excellent wet-out for superior flow and impregnation) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                                         T* ET
 Q
 Q
 q
 1 0 0 1 0 30 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (High mechanical strength, good chemical resistance) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                                       T* ET
 Q
 Q
 q
 1 0 0 1 0 16.5 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Easy processing, low air entrapment during mixing) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                                      T* ET
 Q
 Q
 q
 1 0 0 1 0 3 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Fast gel time \() Tj (< 8 min\), non-accelerated cure) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                                          T* ET
 Q
 Q
 q
 1 0 0 1 255.1181 93.3 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (RECOMMENDED APPLICATIONS) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL                               T* ET
 Q
 Q
 q
@@ -192,25 +192,25 @@ Q
 q
 1 0 0 1 255.1181 70.5 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Water tanks, cooling towers, roofing sheets) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                                T* ET
 Q
 Q
 q
 1 0 0 1 255.1181 57 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Door skins and panel lamination) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                    T* ET
 Q
 Q
 q
 1 0 0 1 255.1181 43.5 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Hand layup and spray-up processes) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                      T* ET
 Q
 Q
 q
 1 0 0 1 255.1181 30 cm
 q
-BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL (n) Tj /F1 9.2 Tf 13.5 TL ( ) Tj ( ) Tj (Moulding and general-purpose FRP products) Tj T* ET
+BT 1 0 0 1 10 4.3 Tm 13.5 TL /F1 9.2 Tf .101961 .101961 .101961 rg /F3 9.2 Tf 13.5 TL        /F1 9.2 Tf 13.5 TL                                                              T* ET
 Q
 Q
 q
@@ -224,7 +224,7 @@ q
 1 0 0 1 51.35433 438.2268 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (TYPICAL TECHNICAL PROPERTIES) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL                                   T* ET
 Q
 Q
 q
@@ -275,209 +275,209 @@ q
 1 0 0 1 8 239.8 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Resin Type) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                 T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 239.8 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (Orthophthalic, unsaturated polyester) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                                           T* ET
 Q
 Q
 q
 1 0 0 1 8 222.9 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Curing System) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                    T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 222.9 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (Non-accelerated) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                      T* ET
 Q
 Q
 q
 1 0 0 1 8 206 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Physical Form) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                    T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 206 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (Liquid) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL             T* ET
 Q
 Q
 q
 1 0 0 1 8 189.1 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Colour / Appearance) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                          T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 189.1 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (Clear) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL            T* ET
 Q
 Q
 q
 1 0 0 1 8 172.2 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Viscosity) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 172.2 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (350\226450 cPs) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                     T* ET
 Q
 Q
 q
 1 0 0 1 8 155.3 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Gel Time) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL               T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 155.3 cm
 q
-BT 1 0 0 1 0 1.8 Tm 10.5 TL /F1 8.7 Tf .101961 .101961 .101961 rg (< 8 minutes) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm 10.5 TL /F1 8.7 Tf .101961 .101961 .101961 rg                  T* ET
 Q
 Q
 q
 1 0 0 1 8 138.4 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Styrene Content) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                      T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 138.4 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (33\22640%) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                T* ET
 Q
 Q
 q
 1 0 0 1 8 121.5 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Purity) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL             T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 121.5 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (99%) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL          T* ET
 Q
 Q
 q
 1 0 0 1 8 104.6 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Cure Time) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 104.6 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (45 minutes \226 1.5 hours) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                                T* ET
 Q
 Q
 q
 1 0 0 1 8 87.7 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (MEKP Dosage) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                  T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 87.7 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (1.5%) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL           T* ET
 Q
 Q
 q
 1 0 0 1 8 70.8 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Cobalt Octoate Dosage) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                            T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 70.8 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (0.4%) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL           T* ET
 Q
 Q
 q
 1 0 0 1 8 53.9 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Shelf Life) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                 T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 53.9 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (3 months \(drum\) / 2 months \(PET packaging\)) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                                                     T* ET
 Q
 Q
 q
 1 0 0 1 8 37 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Storage Temperature) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                          T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 37 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (30\22635\260C) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                    T* ET
 Q
 Q
 q
 1 0 0 1 8 20.1 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Packaging) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 20.1 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (225 kg drum) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL                  T* ET
 Q
 Q
 q
 1 0 0 1 8 3.2 cm
 q
 .070588 .227451 .45098 rg
-BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL (Minimum Order Quantity) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F2 8.7 Tf 10.5 TL                             T* ET
 Q
 Q
 q
 1 0 0 1 172.4094 3.2 cm
 q
 .101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL (1,000 kg) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm /F1 8.7 Tf 10.5 TL               T* ET
 Q
 Q
 q
@@ -510,7 +510,7 @@ q
 1 0 0 1 51.35433 153.4268 cm
 q
 .290196 .290196 .290196 rg
-BT 1 0 0 1 0 12.6 Tm /F4 7.4 Tf 10 TL (All values above are chemist-verified. Specific Gravity / Density, Thixotropy and Flash Point are not part of the standard specification set for this) Tj T* (product and are intentionally excluded.) Tj T* ET
+BT 1 0 0 1 0 12.6 Tm /F4 7.4 Tf 10 TL                                                                                                                                                            T*                                              T* ET
 Q
 Q
 q
