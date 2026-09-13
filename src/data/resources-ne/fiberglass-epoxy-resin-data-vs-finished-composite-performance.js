@@ -14,7 +14,7 @@ export default {
   },
   quickFacts: {
     "प्रकाशित resin data": "Typical supplied-resin र document data",
-    "System घटक": "Amine hardener नामाकरण गरिएको छ तर विशेष pairing प्रकाशित छैन",
+    "System घटक": "Amine hardener (TDS); जोडा अर्डर गर्दा आपूर्तिकर्तासँग तय गरिन्छ",
     "Reinforcement सीमा": "Fabric नामाकरण गरिएको छ; कुनै grade, schedule वा ratio तोकिएको छैन",
     "प्रकाशित नगरिएको": "Finished laminate test result वा component approval"
   },

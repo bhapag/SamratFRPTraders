@@ -15,8 +15,6 @@ export default {
   },
   quickFacts: {
     "TDS को curing शब्दावली": "Amine hardener",
-    "प्रकाशित inclusion स्थिति": "उल्लेख गरिएको छैन",
-    "नामकरण गरिएको compatible Samrat hardener": "Fiberglass Epoxy TDS मा उल्लेख गरिएको छैन",
     "सार्वजनिक मार्गदर्शनको सीमा": "Mixing ratio, cure schedule वा operating procedure छैन"
   },
   sections: [

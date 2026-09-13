@@ -1242,7 +1242,7 @@ export const products = Object.freeze([
       Object.freeze({ label: 'Resin type', value: 'Epoxy (current TDS)' }),
       Object.freeze({
         label: 'Curing system',
-        value: 'Room-temperature cure; TDS identifies an amine hardener but no confirmed product pairing',
+        value: 'Room-temperature cure with an amine hardener (TDS)',
       }),
       Object.freeze({ label: 'Published processing', value: 'Hand lay-up and lamination (current TDS)' }),
       Object.freeze({ label: 'Viscosity', value: '700 cPs at 25\u00B0C (TDS)' }),

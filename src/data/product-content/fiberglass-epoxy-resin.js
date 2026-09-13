@@ -4,14 +4,14 @@ export default {
     seoDescription: "Fiberglass Epoxy Resin is an epoxy resin for fibreglass lamination, supplied and imported for Nepal by Samrat FRP Traders.",
     intro: [
       "Samrat FRP Traders supplies and imports Fiberglass Epoxy Resin for the Nepal market. Current Samrat Poly Resins, India documentation identifies it as a general-purpose epoxy-system route for fibreglass reinforcement, composite manufacturing, hand lay-up and lamination, with fabric named as the reinforcement form.",
-      "The supplier's Technical Data Sheet publishes 700 cPs viscosity at 25°C, a 35–45 minute gel time at 25°C and 1.15 g/cm³ specific gravity, and lists 75°C as heat deflection temperature (HDT) data with no continuous-service limit published. The TDS identifies an amine hardener as part of the epoxy system but does not name a confirmed compatible hardener product, so whether the requirement is resin-only or a complete system should be confirmed before ordering.",
+      "The supplier's Technical Data Sheet publishes 700 cPs viscosity at 25°C, a 35–45 minute gel time at 25°C and 1.15 g/cm³ specific gravity, and lists 75°C as heat deflection temperature (HDT) data with no continuous-service limit published. The TDS identifies an amine hardener as part of the epoxy system; when ordering, say whether you need the resin only or the resin with its hardener.",
       "Supplier documentation lists use in boat building and marine components, wind-turbine components, and construction, electrical and automotive FRP laminates. The catalogue separately mentions structural laminates and filament winding, which should be confirmed against the current document route.",
       "For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page. Technical and safety documents are attributed to the supplier, Samrat Poly Resins, India."
     ],
     buyerNotes: [
       {
         title: "Resin only or complete system",
-        text: "The TDS names an amine hardener as part of the epoxy system but does not confirm a specific hardener pairing or whether hardener is included. Confirm whether you need resin only or a complete system before ordering."
+        text: "The TDS names an amine hardener as part of the epoxy system. When ordering, say whether you need the resin only or the resin with its hardener, and agree the hardener with Samrat FRP Traders."
       },
       {
         title: "Reinforcement",
@@ -29,7 +29,7 @@ export default {
       },
       {
         q: "Is it supplied as resin only or as a complete system?",
-        a: "The supplier TDS identifies an amine hardener as part of the epoxy system but does not say whether hardener is included or name a specific compatible hardener product. Confirm whether your requirement is resin only or a complete system before ordering."
+        a: "The supplier TDS identifies an amine hardener as part of the epoxy system. When ordering, say whether you need the resin only or the resin with its hardener, and agree the hardener with Samrat FRP Traders."
       },
       {
         q: "How is it different from Clear Casting or Epoxy Art Resin?",
@@ -62,13 +62,13 @@ export default {
     seoDescription: "Fiberglass Epoxy Resin एउटा fibreglass lamination का लागि epoxy resin हो, जुन नेपालका लागि Samrat FRP Traders ले आपूर्ति गर्छ।",
     intro: [
       "Samrat FRP Traders ले Fiberglass Epoxy Resin नेपाली बजारका लागि आपूर्ति र आयात गर्छ। Samrat Poly Resins, India को हालको कागजातले यसलाई fibreglass reinforcement, composite manufacturing, hand lay-up र lamination का लागि general-purpose epoxy-system route भनेर चिनाउँछ, जहाँ reinforcement form fabric हो।",
-      "आपूर्तिकर्ताको Technical Data Sheet ले 25°C मा 700 cPs viscosity, 25°C मा 35–45 मिनेट gel time र 1.15 g/cm³ specific gravity प्रकाशित गर्छ, र 75°C लाई heat deflection temperature (HDT) data का रूपमा उल्लेख गर्छ तर continuous-service limit प्रकाशित गर्दैन। TDS ले amine hardener लाई epoxy system को भाग भनेर चिनाउँछ तर कुनै confirmed compatible hardener product नाम दिँदैन, त्यसैले resin मात्र चाहिने हो कि पूरा system हो भनी अर्डरअघि पक्का गर्नुपर्छ।",
+      "आपूर्तिकर्ताको Technical Data Sheet ले 25°C मा 700 cPs viscosity, 25°C मा 35–45 मिनेट gel time र 1.15 g/cm³ specific gravity प्रकाशित गर्छ, र 75°C लाई heat deflection temperature (HDT) data का रूपमा उल्लेख गर्छ तर continuous-service limit प्रकाशित गर्दैन। TDS ले amine hardener लाई epoxy system को भाग भनेर चिनाउँछ; अर्डर गर्दा resin मात्र चाहिने हो कि hardener सहित भनी बताउनुहोस्।",
       "आपूर्तिकर्ताको कागजातले boat building र marine components, wind-turbine components, र construction, electrical र automotive FRP laminates मा प्रयोग उल्लेख गर्छ। catalogue ले structural laminates र filament winding पनि भन्छ, जुन हालको document route सँग पक्का गर्नुपर्छ। नेपालमा हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट सोधपुछ गर्नुहोस्।"
     ],
     buyerNotes: [
       {
         title: "Resin मात्र वा पूरा system",
-        text: "TDS ले amine hardener लाई epoxy system को भाग भन्छ तर specific hardener pairing वा hardener समावेश छ कि छैन भन्ने पक्का गर्दैन। अर्डरअघि resin मात्र चाहिने हो कि पूरा system हो भनी पक्का गर्नुहोस्।"
+        text: "TDS ले amine hardener लाई epoxy system को भाग भन्छ। अर्डर गर्दा resin मात्र चाहिने हो कि hardener सहित भनी बताउनुहोस्, र hardener Samrat FRP Traders सँग तय गर्नुहोस्।"
       },
       {
         title: "Reinforcement",
@@ -86,7 +86,7 @@ export default {
       },
       {
         q: "यो resin मात्र आपूर्ति हुन्छ कि पूरा system?",
-        a: "आपूर्तिकर्ताको TDS ले amine hardener लाई epoxy system को भाग भनेर चिनाउँछ तर hardener समावेश छ कि छैन वा कुनै specific compatible hardener नाम दिँदैन। अर्डरअघि resin मात्र चाहिने हो कि पूरा system हो भनी पक्का गर्नुहोस्।"
+        a: "आपूर्तिकर्ताको TDS ले amine hardener लाई epoxy system को भाग भनेर चिनाउँछ। अर्डर गर्दा resin मात्र चाहिने हो कि hardener सहित भनी बताउनुहोस्, र hardener Samrat FRP Traders सँग तय गर्नुहोस्।"
       },
       {
         q: "यो Clear Casting वा Epoxy Art Resin भन्दा कसरी फरक छ?",

@@ -16303,8 +16303,6 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "TDS curing wording": "Amine hardener",
-      "Published inclusion status": "Not stated",
-      "Named compatible Samrat hardener": "Not stated in the Fiberglass Epoxy TDS",
       "Public guidance boundary": "No mixing ratio, cure schedule or operating procedure"
     },
     "relatedSlugs": [
@@ -17036,7 +17034,7 @@ export const resources = Object.freeze([
     },
     "quickFacts": {
       "Published resin data": "Typical supplied-resin and document data",
-      "System component": "Amine hardener is named but a specific pairing is not published",
+      "System component": "Amine hardener (TDS); pairing agreed with the supplier when ordering",
       "Reinforcement boundary": "Fabric named; no grade, schedule or ratio prescribed",
       "Not published": "Finished laminate test result or component approval"
     },

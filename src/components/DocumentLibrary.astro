@@ -61,7 +61,7 @@ const t = isNe
         {
           n: '04',
           h: 'Revision जाँच्नुहोस्',
-          p: 'तल reference वा revision देखिएको ठाउँमा त्यो आपूर्तिकर्ताले प्रकाशित गरेकै हो। नदेखिएको अवस्थामा उक्त कागजातका लागि आपूर्तिकर्ताले त्यस्तो अंकन प्रकाशित गरेको छैन — हामीले अनुमान गरेर थपेका छैनौँ।',
+          p: 'तल देखिएका reference र revision आपूर्तिकर्ताले कागजातमा छापेअनुसार हुन्। डाउनलोड गरेको कागजातमा revision सधैँ जाँच्नुहोस्।',
         },
       ],
       scopeTitle: 'यी कागजातले के भन्दैनन्',
@@ -73,7 +73,7 @@ const t = isNe
       colIssuer: 'जारीकर्ता',
       colAction: 'फाइल',
       open: 'PDF खोल्नुहोस्',
-      notPublished: 'प्रकाशित छैन',
+      notPublished: '—',
       viewProduct: 'उत्पादन पृष्ठ',
       sharedNote: (names) =>
         `आपूर्तिकर्ताले यी दुवै नामलाई समेट्ने एउटै कागजात सेट जारी गर्छ — ${names}। तल देखिएको फाइल त्यही हो, दुई फरक कागजात होइनन्।`,
@@ -118,7 +118,7 @@ const t = isNe
         {
           n: '04',
           h: 'Check the revision',
-          p: 'Where a reference or revision appears below, the supplier published it. Where it does not, the supplier has not published one for that document — we have not filled the gap with a guess.',
+          p: 'References and revisions below are shown as printed on each supplier document. Always check the revision on the document you download.',
         },
       ],
       scopeTitle: 'What these documents do not cover',
@@ -130,7 +130,7 @@ const t = isNe
       colIssuer: 'Issued by',
       colAction: 'File',
       open: 'Open PDF',
-      notPublished: 'Not published',
+      notPublished: '—',
       viewProduct: 'Product page',
       sharedNote: (names) =>
         `The supplier issues one document set covering both names — ${names}. The file shown below is that same set, not two separate documents.`,
