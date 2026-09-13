@@ -402,7 +402,7 @@
       }
     },
     {
-      "src": "^/(images/products/(iso-polyester-resin-primary\\.jpg|pet-resin-(primary|secondary)\\.webp)|tds/pet-resin-tds\\.pdf)$",
+      "src": "^/(images/products/(iso-polyester-resin-primary\\.jpg|uv-stabilized-sheet-grade-yellow-resin-primary\\.jpg|pet-resin-(primary|secondary)\\.webp)|tds/pet-resin-tds\\.pdf)$",
       "headers": {
         "X-Robots-Tag": "noindex"
       },
