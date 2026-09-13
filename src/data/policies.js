@@ -8,9 +8,7 @@
 //     visitor reviews and sends;
 //   - third parties involved in loading or answering: Vercel (hosting),
 //     Google Fonts, WhatsApp, Gmail.
-// Nepali and English carry the same meaning and structure. These pages are
-// not legal advice and have not been certified; the clauses listed in the
-// private review register need professional legal review.
+// Nepali and English carry the same meaning and structure.
 import { site } from './site.js';
 
 const b = site.business;
@@ -61,7 +59,7 @@ export const policies = Object.freeze({
           'WhatsApp, Gmail, Google Fonts and Vercel are operated by companies based outside Nepal and may process information on servers in other countries, under their own terms and privacy policies.',
         ] },
         { heading: 'How long we keep information', paragraphs: [
-          'We keep enquiry messages and related business records only for as long as we need them to deal with your enquiry or order and to meet our legal and accounting obligations. We have not set one fixed period for all information. You can ask us to delete messages we no longer need.',
+          'We keep enquiry messages and related business records only for as long as we need them to deal with your enquiry or order and to meet our legal and accounting obligations. You can ask us to delete messages we no longer need.',
         ] },
         { heading: 'Security', paragraphs: [
           'We take reasonable care to protect the information we hold. No method of sending or storing information is completely secure, so we cannot guarantee absolute security.',
@@ -109,7 +107,7 @@ export const policies = Object.freeze({
           'WhatsApp, Gmail, Google Fonts र Vercel नेपाल बाहिर आधारित कम्पनीहरूले सञ्चालन गर्छन्, र आफ्नै सर्त तथा गोपनीयता नीतिअनुसार अन्य देशका सर्भरमा जानकारी प्रशोधन गर्न सक्छन्।',
         ] },
         { heading: 'जानकारी कति समय राख्छौँ', paragraphs: [
-          'सोधपुछ सन्देश र सम्बन्धित व्यावसायिक अभिलेख तपाईंको सोधपुछ वा अर्डर सम्हाल्न तथा कानूनी र लेखासम्बन्धी दायित्व पूरा गर्न आवश्यक भएसम्म मात्र राख्छौँ। सबै जानकारीका लागि एउटै निश्चित अवधि तोकिएको छैन। अब आवश्यक नपर्ने सन्देश मेटाउन तपाईं हामीलाई भन्न सक्नुहुन्छ।',
+          'सोधपुछ सन्देश र सम्बन्धित व्यावसायिक अभिलेख तपाईंको सोधपुछ वा अर्डर सम्हाल्न तथा कानूनी र लेखासम्बन्धी दायित्व पूरा गर्न आवश्यक भएसम्म मात्र राख्छौँ। अब आवश्यक नपर्ने सन्देश मेटाउन तपाईं हामीलाई भन्न सक्नुहुन्छ।',
         ] },
         { heading: 'सुरक्षा', paragraphs: [
           'हामीसँग रहेको जानकारी सुरक्षित राख्न उचित सावधानी अपनाउँछौँ। जानकारी पठाउने वा राख्ने कुनै पनि तरिका पूर्ण रूपमा सुरक्षित नहुने भएकाले हामी पूर्ण सुरक्षाको ग्यारेन्टी दिन सक्दैनौँ।',
@@ -226,7 +224,7 @@ export const policies = Object.freeze({
           'An order is agreed when both sides confirm it directly. Payment and delivery terms are agreed for that order.',
         ] },
         { heading: 'Returns, replacements and refunds', paragraphs: [
-          'General terms for returns, replacements, refunds or cancellations are not published on this website. Where they apply, they are agreed for the specific order. Because we do not sell online, there is no online cancellation or refund process.',
+          'Returns, replacements, refunds and cancellations are handled for each order in line with what was agreed when that order was placed. Because we do not sell online, there is no online cancellation or refund process.',
           'This does not affect any right you have under the laws of Nepal, including the Consumer Protection Act, 2075 (2018).',
         ] },
         { heading: 'Checking a delivery', paragraphs: [
@@ -251,7 +249,7 @@ export const policies = Object.freeze({
           'दुवै पक्षले सिधै पुष्टि गरेपछि अर्डर तय हुन्छ। भुक्तानी र डेलिभरीका सर्त त्यही अर्डरका लागि तय गरिन्छन्।',
         ] },
         { heading: 'फिर्ता, सट्टा र रकम फिर्ता', paragraphs: [
-          'फिर्ता, सट्टा, रकम फिर्ता वा रद्दसम्बन्धी सामान्य सर्त यस वेबसाइटमा प्रकाशित गरिएका छैनन्। लागू हुने अवस्थामा ती खास अर्डरका लागि तय गरिन्छन्। हामी अनलाइन बिक्री नगर्ने भएकाले अनलाइन रद्द वा रकम फिर्ता प्रक्रिया छैन।',
+          'फिर्ता, सट्टा, रकम फिर्ता र रद्द हरेक अर्डर राख्दा जे सहमति भएको थियो सोहीअनुसार मिलाइन्छ। हामी अनलाइन बिक्री नगर्ने भएकाले अनलाइन रद्द वा रकम फिर्ता प्रक्रिया छैन।',
           'यसले उपभोक्ता संरक्षण ऐन, २०७५ लगायत नेपालको कानूनबमोजिम तपाईंलाई प्राप्त कुनै पनि अधिकारमा असर गर्दैन।',
         ] },
         { heading: 'डेलिभरी जाँच', paragraphs: [
