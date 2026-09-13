@@ -9,9 +9,9 @@
 //
 // The Technical Data Sheet issued under the GP White name is that shared GP
 // sheet (reference SPR-TDS-GCR). Its values are the shared base specification
-// and are shown as such. Its appearance wording ("Clear", "crystal-clear") is
-// GP Clear Resin's and is incorrect for GP White Resin, so the appearance here
-// is taken from the SDS. No separate GP White viscosity, gel time or styrene
+// and are shown as such. The appearance is taken from the SDS (the TDS/SDS
+// appearance wording difference is recorded privately in
+// document-archive/historical-source/README.md, not on the site). No separate GP White viscosity, gel time or styrene
 // figures exist and none are invented. The SDS itself is unchanged.
 export default {
   en: {
@@ -21,7 +21,7 @@ export default {
     intro: [
       "Samrat FRP Traders supplies and imports GP White Resin for the Nepal market. Samrat Poly Resins, India lists it as a general-purpose orthophthalic polyester resin for FRP panels, moulding, hand layup, spray-up, cooling towers and water storage tanks.",
       "GP White Resin and GP Clear Resin are built on the same base resin. The supplier Safety Data Sheet for GP White Resin says so directly: the resin fraction, styrene content and processing characteristics are shared, and a white pigment package is what makes the difference. It documents GP White Resin as white-pigmented.",
-      "The figures on this page are therefore the shared GP base specification — 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content — from the Technical Data Sheet issued for this grade. That sheet repeats GP Clear Resin's appearance wording, clear and crystal-clear, which is incorrect for GP White Resin. Read the appearance from the Safety Data Sheet and the base values from the Technical Data Sheet.",
+      "The figures on this page are therefore the shared GP base specification — 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content — from the Technical Data Sheet issued for this grade. Its supplied appearance is white-pigmented, as described in the GP White SDS.",
       "It is a general-purpose laminating resin rather than a mould-surface gelcoat, and the supplied appearance does not on its own decide the finished colour of a reinforced part. For current pricing, availability and packaging options in Nepal, contact Samrat FRP Traders through the enquiry page.",
     ],
     buyerNotes: [
@@ -34,8 +34,8 @@ export default {
         text: "Viscosity, gel time and styrene content are shared with GP Clear Resin. The white pigment package is the difference, so plan a run on the shared values and choose between the two by the appearance the job needs.",
       },
       {
-        title: "The appearance line in the TDS",
-        text: "The Technical Data Sheet issued for this grade gives the appearance as clear. That wording belongs to GP Clear Resin and is incorrect for GP White Resin, which the supplier Safety Data Sheet documents as white-pigmented.",
+        title: "Documents for this grade",
+        text: "GP White Resin shares the published base-resin specification with GP Clear Resin. Its supplied appearance is white-pigmented, as described in the GP White SDS. Both the Technical Data Sheet and the Safety Data Sheet are available from this page.",
       },
     ],
     faqs: [
@@ -52,8 +52,8 @@ export default {
         a: "The white pigment package. The supplier Safety Data Sheet for GP White Resin states that the resin fraction, styrene content and processing characteristics are shared between the two, so the base figures are the same and the appearance is what differs.",
       },
       {
-        q: "Why does the Technical Data Sheet say clear?",
-        a: "Because it is the shared GP sheet and carries GP Clear Resin's appearance wording. That line is incorrect for GP White Resin. The supplier Safety Data Sheet documents GP White Resin as white-pigmented, and that is the appearance stated on this page.",
+        q: "Which documents cover GP White Resin?",
+        a: "The shared GP Technical Data Sheet (SPR-TDS-GCR) publishes the base-resin specification, and the GP White Safety Data Sheet (SPR-SDS-GWR) describes the product, including its white-pigmented appearance, and its handling.",
       },
       {
         q: "How is it cured?",
@@ -68,7 +68,7 @@ export default {
       "Listed by the supplier for panels, moulding, hand layup and spray-up",
       "Listed for cooling towers and water storage tank fabrication",
       "Room-temperature cure with an MEKP catalyst and cobalt octoate accelerator",
-      "Appearance taken from the supplier SDS; the shared TDS wording of clear is incorrect for this grade",
+      "White-pigmented appearance, as described in the GP White SDS",
     ],
     industries: [
       "FRP & composites manufacturing",
@@ -84,7 +84,7 @@ export default {
     intro: [
       "Samrat FRP Traders ले नेपाली बजारका लागि GP White Resin आपूर्ति र आयात गर्दछ। Samrat Poly Resins, India ले यसलाई FRP panel, moulding, hand layup, spray-up, cooling tower र पानी भण्डारण ट्याङ्कीका लागि general-purpose orthophthalic polyester resin को रूपमा सूचीबद्ध गरेको छ।",
       "GP White Resin र GP Clear Resin एउटै base resin मा बनेका हुन्। GP White Resin को आपूर्तिकर्ता Safety Data Sheet ले यो कुरा सिधै भन्छ: resin fraction, styrene content र processing characteristics साझा छन्, र फरक ल्याउने कुरा white pigment package हो। त्यसले GP White Resin लाई white-pigmented भनी दस्तावेजीकृत गर्छ।",
-      "त्यसैले यस पृष्ठका अङ्क साझा GP base specification हुन् — 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content — जुन यस grade का लागि जारी Technical Data Sheet बाट लिइएका छन्। त्यो sheet ले GP Clear Resin कै रूपको शब्दावली, clear र crystal-clear, दोहोर्‍याउँछ, जुन GP White Resin का लागि गलत हो। रूप Safety Data Sheet बाट र base मान Technical Data Sheet बाट पढ्नुहोस्।",
+      "त्यसैले यस पृष्ठका अङ्क साझा GP base specification हुन् — 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content — जुन यस grade का लागि जारी Technical Data Sheet बाट लिइएका छन्। आपूर्ति हुँदा यसको रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ।",
       "यो mould-surface gelcoat होइन, general-purpose laminating resin हो, र आपूर्ति हुँदाको रूपले मात्र reinforced part को अन्तिम रङ तय गर्दैन। हालको मूल्य, उपलब्धता र प्याकेजिङ विकल्पका लागि सम्पर्क पृष्ठबाट Samrat FRP Traders सँग सोधपुछ गर्नुहोस्।",
     ],
     buyerNotes: [
@@ -97,8 +97,8 @@ export default {
         text: "Viscosity, gel time र styrene content GP Clear Resin सँग साझा छन्। फरक white pigment package हो, त्यसैले साझा मानका आधारमा काम योजना गर्नुहोस् र कामलाई चाहिने रूपअनुसार दुईमध्ये छान्नुहोस्।",
       },
       {
-        title: "TDS मा लेखिएको रूप",
-        text: "यस grade का लागि जारी Technical Data Sheet ले रूप clear भन्छ। त्यो शब्दावली GP Clear Resin को हो र GP White Resin का लागि गलत हो; आपूर्तिकर्ता Safety Data Sheet ले यसलाई white-pigmented भनी दस्तावेजीकृत गर्छ।",
+        title: "यस grade का कागजात",
+        text: "GP White Resin ले GP Clear Resin सँग प्रकाशित base-resin specification साझा गर्छ। आपूर्ति हुँदा यसको रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ। Technical Data Sheet र Safety Data Sheet दुवै यसै पृष्ठबाट उपलब्ध छन्।",
       },
     ],
     faqs: [
@@ -115,8 +115,8 @@ export default {
         a: "White pigment package। GP White Resin को आपूर्तिकर्ता Safety Data Sheet अनुसार दुवैको resin fraction, styrene content र processing characteristics साझा छन्, त्यसैले base अङ्क उही हुन् र फरक रूपमा मात्र हो।",
       },
       {
-        q: "Technical Data Sheet ले किन clear भन्छ?",
-        a: "किनभने त्यो साझा GP sheet हो र त्यसमा GP Clear Resin कै रूपको शब्दावली छ। त्यो पङ्क्ति GP White Resin का लागि गलत हो। आपूर्तिकर्ता Safety Data Sheet ले GP White Resin लाई white-pigmented भनी दस्तावेजीकृत गर्छ, र यस पृष्ठमा त्यही रूप लेखिएको छ।",
+        q: "GP White Resin का लागि कुन कागजात छन्?",
+        a: "साझा GP Technical Data Sheet (SPR-TDS-GCR) ले base-resin specification प्रकाशित गर्छ, र GP White Safety Data Sheet (SPR-SDS-GWR) ले white-pigmented रूपसहित उत्पादन र त्यसको handling वर्णन गर्छ।",
       },
       {
         q: "कसरी cure गरिन्छ?",
@@ -131,7 +131,7 @@ export default {
       "Panel, moulding, hand layup र spray-up का लागि आपूर्तिकर्ताद्वारा सूचीबद्ध",
       "Cooling tower र पानी ट्याङ्की निर्माणका लागि सूचीबद्ध",
       "MEKP catalyst र cobalt octoate accelerator सँग room temperature मा cure",
-      "रूप आपूर्तिकर्ता SDS बाट; साझा TDS को clear शब्दावली यस grade का लागि गलत",
+      "GP White SDS मा वर्णन गरिए अनुसार white-pigmented रूप",
     ],
     industries: [
       "FRP र composites निर्माण",

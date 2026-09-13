@@ -40,7 +40,7 @@ export default {
     },
     {
       "q": "order गर्नुअघि कुन कागजात जाँच्नुपर्छ?",
-      "a": "साझा GP base मानका लागि Technical Data Sheet र GP White Resin को रूप तथा handling का लागि Safety Data Sheet जाँच्नुहोस्। TDS ले रूप clear भन्छ, जुन यस grade का लागि गलत हो।"
+      "a": "Base-resin मानका लागि साझा Technical Data Sheet (SPR-TDS-GCR) र उत्पादनको white-pigmented रूप तथा handling का लागि GP White Safety Data Sheet (SPR-SDS-GWR) जाँच्नुहोस्।"
     }
   ],
   "sections": [
@@ -59,7 +59,7 @@ export default {
     {
       "heading": "प्रकाशित उत्पादन डाटा समीक्षा गर्नुहोस्",
       "body": [
-        "GP White Resin ले GP Clear Resin कै orthophthalic base specification साझा गर्छ: 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content। आपूर्तिकर्ता SDS ले यसको रूप white-pigmented भनी दस्तावेजीकृत गर्छ; दुई grade बीचको फरक white pigment package हो। GP White Resin का लागि जारी Technical Data Sheet साझा GP sheet (SPR-TDS-GCR) हो। त्यसमा लेखिएको रूप — clear, crystal-clear — GP White Resin का लागि गलत हो; रूपका लागि SDS र साझा base मानका लागि TDS हेर्नुहोस्। नेपालका लागि प्याकेजिङ र न्यूनतम परिमाण आपूर्तिकर्ताको भारतीय कागजातबाट होइन, सोधपुछमा पक्का गरिन्छ।"
+        "GP White Resin ले GP Clear Resin कै orthophthalic base specification साझा गर्छ: 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content। आपूर्तिकर्ता SDS ले यसको रूप white-pigmented भनी दस्तावेजीकृत गर्छ; दुई grade बीचको फरक white pigment package हो। Base मान साझा Technical Data Sheet (SPR-TDS-GCR) मा प्रकाशित छन्। नेपालका लागि प्याकेजिङ र न्यूनतम परिमाण आपूर्तिकर्ताको भारतीय कागजातबाट होइन, सोधपुछमा पक्का गरिन्छ।"
       ]
     },
     {

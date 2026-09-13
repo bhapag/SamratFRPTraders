@@ -21,7 +21,7 @@ export default {
   },
   "comparisonTable": {
     "title": "Published product-डाटा तुलना",
-    "note": "Viscosity र gel time साझा GP base specification (SPR-TDS-GCR) हुन्। GP White Resin को रूप त्यसको SDS बाट लिइएको हो: साझा TDS ले रूप clear भन्छ, जुन GP White Resin का लागि गलत हो।",
+    "note": "Viscosity र gel time साझा base-resin specification (SPR-TDS-GCR) हुन्। GP White Resin ले GP Clear Resin सँग प्रकाशित base-resin specification साझा गर्छ। आपूर्ति हुँदा यसको रूप GP White SDS मा वर्णन गरिए अनुसार white-pigmented हुन्छ।",
     "headers": [
       "निर्णयको आधार",
       "GP White Resin",
@@ -66,8 +66,8 @@ export default {
     {
       "heading": "एउटै base specification, दुई रूप",
       "body": [
-        "दुवै grade ले साझा GP base specification प्रयोग गर्छन्: 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content। GP White Resin को आपूर्तिकर्ता SDS ले resin fraction, styrene content र processing characteristics साझा भएको तथा white pigment package नै फरक भएको पुष्टि गर्छ। GP White Resin का लागि जारी Technical Data Sheet साझा GP sheet (SPR-TDS-GCR) हो। त्यसमा लेखिएको रूप — clear, crystal-clear — GP White Resin का लागि गलत हो; रूपका लागि SDS र साझा base मानका लागि TDS हेर्नुहोस्।",
-        "साझा मानलाई वास्तविक mould, reinforcement, process र workshop अवस्थासँग मिलाएर हेर्नुहोस्। साझा specification मा नभएको कुनै अङ्क कुनै पनि grade मा नसार्नुहोस्, र GP White Resin को रूप TDS बाट नपढ्नुहोस्।"
+        "दुवै grade ले साझा GP base specification प्रयोग गर्छन्: 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content। GP White Resin को आपूर्तिकर्ता SDS ले resin fraction, styrene content र processing characteristics साझा भएको तथा white pigment package नै फरक भएको पुष्टि गर्छ। Base मान साझा Technical Data Sheet (SPR-TDS-GCR) मा प्रकाशित छन्।",
+        "साझा मानलाई वास्तविक mould, reinforcement, process र workshop अवस्थासँग मिलाएर हेर्नुहोस्। साझा specification मा नभएको कुनै अङ्क कुनै पनि grade मा नसार्नुहोस्।"
       ]
     },
     {

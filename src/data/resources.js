@@ -8146,7 +8146,7 @@ export const resources = Object.freeze([
       {
         "heading": "Published GP White Resin role",
         "body": [
-          "The product page publishes GP White Resin for panels and general-purpose moulding, hand layup and spray-up work, cooling towers, water storage tanks and general industrial FRP fabrication. GP White Resin shares GP Clear Resin’s orthophthalic base specification: 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content. The supplier SDS documents its appearance as white-pigmented; a white pigment package is the difference between the two grades. The Technical Data Sheet issued for GP White Resin is the shared GP sheet (SPR-TDS-GCR). Its appearance wording — clear, crystal-clear — is incorrect for GP White Resin; use the SDS for appearance and the TDS for the shared base values.",
+          "The product page publishes GP White Resin for panels and general-purpose moulding, hand layup and spray-up work, cooling towers, water storage tanks and general industrial FRP fabrication. GP White Resin shares GP Clear Resin’s orthophthalic base specification: 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content. The supplier SDS documents its appearance as white-pigmented; a white pigment package is the difference between the two grades. The base values are published in the shared Technical Data Sheet (SPR-TDS-GCR).",
           "These are product facts to review alongside the component, reinforcement, mould, production method and TDS. They are not universal process instructions or proof of suitability for every manufacturing line."
         ]
       },
@@ -8155,7 +8155,7 @@ export const resources = Object.freeze([
         "subsections": [
           {
             "heading": "GP White vs GP Clear",
-            "body": "Both are general-purpose orthophthalic polyester grades on the same base specification. The difference is the white pigment package in GP White Resin, which the SDS documents; the shared TDS does not show it, because its appearance wording is GP Clear Resin’s. Choose by the appearance the job needs, then check the shared values against the component and process."
+            "body": "Both are general-purpose orthophthalic polyester grades on the same published base-resin specification. GP White Resin’s supplied appearance is white-pigmented, as described in the GP White SDS; GP Clear Resin is clear. Choose by the appearance the job needs, then check the shared values against the component and process."
           },
           {
             "heading": "GP White vs Gelcoat",
@@ -8295,7 +8295,7 @@ export const resources = Object.freeze([
     },
     "comparisonTable": {
       "title": "Published product-data comparison",
-      "note": "The viscosity and gel time are the shared GP base specification (SPR-TDS-GCR). GP White Resin’s appearance comes from its SDS: the shared TDS gives the appearance as clear, which is incorrect for GP White Resin.",
+      "note": "The viscosity and gel time are the shared base-resin specification (SPR-TDS-GCR). GP White Resin shares the published base-resin specification with GP Clear Resin. Its supplied appearance is white-pigmented, as described in the GP White SDS.",
       "headers": [
         "Decision factor",
         "GP White Resin",
@@ -8377,8 +8377,8 @@ export const resources = Object.freeze([
       {
         "heading": "One base specification, two appearances",
         "body": [
-          "Both grades use the shared GP base specification: 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content. The supplier SDS for GP White Resin confirms that the resin fraction, styrene content and processing characteristics are shared and that a white pigment package is the difference. The Technical Data Sheet issued for GP White Resin is the shared GP sheet (SPR-TDS-GCR). Its appearance wording — clear, crystal-clear — is incorrect for GP White Resin; use the SDS for appearance and the TDS for the shared base values.",
-          "Review the shared values against the actual mould, reinforcement, process and workshop conditions. Do not carry any figure to either grade that is not in the shared specification, and do not read GP White Resin’s appearance from the TDS."
+          "Both grades use the shared GP base specification: 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content. The supplier SDS for GP White Resin confirms that the resin fraction, styrene content and processing characteristics are shared and that a white pigment package is the difference. The base values are published in the shared Technical Data Sheet (SPR-TDS-GCR).",
+          "Review the shared values against the actual mould, reinforcement, process and workshop conditions. Do not carry any figure to either grade that is not in the shared specification."
         ]
       },
       {
@@ -8540,7 +8540,7 @@ export const resources = Object.freeze([
       },
       {
         "q": "What document should be checked before ordering?",
-        "a": "Check the Technical Data Sheet for the shared GP base values and the Safety Data Sheet for GP White Resin’s appearance and handling. The TDS gives the appearance as clear, which is incorrect for this grade."
+        "a": "Check the shared Technical Data Sheet (SPR-TDS-GCR) for the base-resin values and the GP White Safety Data Sheet (SPR-SDS-GWR) for the product’s white-pigmented appearance and handling."
       }
     ],
     "sections": [
@@ -8559,7 +8559,7 @@ export const resources = Object.freeze([
       {
         "heading": "Review the published product data",
         "body": [
-          "GP White Resin shares GP Clear Resin’s orthophthalic base specification: 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content. The supplier SDS documents its appearance as white-pigmented; a white pigment package is the difference between the two grades. The Technical Data Sheet issued for GP White Resin is the shared GP sheet (SPR-TDS-GCR). Its appearance wording — clear, crystal-clear — is incorrect for GP White Resin; use the SDS for appearance and the TDS for the shared base values. Packaging and order quantities for Nepal are confirmed on enquiry rather than taken from the supplier’s Indian documentation."
+          "GP White Resin shares GP Clear Resin’s orthophthalic base specification: 350–450 cPs viscosity, gel time under 8 minutes and 33–40% styrene content. The supplier SDS documents its appearance as white-pigmented; a white pigment package is the difference between the two grades. The base values are published in the shared Technical Data Sheet (SPR-TDS-GCR). Packaging and order quantities for Nepal are confirmed on enquiry rather than taken from the supplier’s Indian documentation."
         ]
       },
       {

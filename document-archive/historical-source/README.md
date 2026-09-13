@@ -34,3 +34,15 @@ unchanged and no revision was created.
 Document history, not an open task: the supplier SDS files state flash point as
 "not independently tested" while the matching TDS files give 32 °C. No SDS has
 been edited.
+
+## Document register notes (private)
+
+- GP White Resin: the TDS served at `/tds/gp-white-resin-tds.pdf` is the shared
+  GP sheet (SPR-TDS-GCR, Rev. 01, July 2026) and gives the appearance as
+  "Clear" / "crystal-clear". The GP White SDS (SPR-SDS-GWR, Rev. 01,
+  8 August 2026) describes the product as white-pigmented and states that the
+  resin fraction, styrene content and processing characteristics are shared
+  with GP Clear Resin. The website presents the shared base-resin
+  specification and the SDS appearance, without commenting publicly on the
+  TDS wording. Neither PDF has been altered. A GP White-specific TDS from the
+  supplier would resolve the difference.
