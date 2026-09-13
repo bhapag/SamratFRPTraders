@@ -11,12 +11,12 @@ export default {
       "FRP moulding resin"
     ],
     "ogTitle": "GP White Resin का प्रयोगहरू",
-    "ogDescription": "Water-white general-purpose grade लाई FRP requirement सँग मिलाउनुअघि published GP White Resin application contexts हेर्नुहोस्।"
+    "ogDescription": "White-pigmented general-purpose grade लाई FRP requirement सँग मिलाउनुअघि published GP White Resin application contexts हेर्नुहोस्।"
   },
   "quickFacts": {
     "Published प्रयोगहरू": "Panels, general-purpose moulding, hand layup, spray-up, cooling towers र water storage tanks",
     "Reinforcement सन्दर्भ": "Published hand-layup र spray-up contexts का लागि glass fibre सँग प्रयोग गरिन्छ",
-    "रूप जाँच": "Water-white supplied रूप process वा तयार build-up का लागि सान्दर्भिक छ कि छैन पुष्टि गर्नुहोस्",
+    "रूप जाँच": "White-pigmented supplied रूप process वा तयार build-up का लागि सान्दर्भिक छ कि छैन पुष्टि गर्नुहोस्",
     "Technical नियन्त्रण": "छानिएको requirement का लागि GP White Resin TDS हेर्नुहोस्"
   },
   "sections": [
@@ -24,7 +24,7 @@ export default {
       "heading": "Component बाट सुरु गर्नुहोस्",
       "body": [
         "Published GP White Resin applications ले panels र general-purpose moulding, साथै hand layup, spray-up, cooling towers, water storage tanks र general industrial FRP fabrication समेट्छन्। वास्तविक component पहिचान गरेर सुरु गर्नुहोस्, त्यसपछि यसलाई विशिष्ट product डाटासँग तुलना गर्नुहोस्।",
-        "White FRP resin का लागि व्यापक अनुरोध आफैंमा पर्याप्त हुँदैन। Buyer ले water-white supplied रूप process का लागि महत्त्वपूर्ण छ कि छैन, component reinforced छ कि छैन, र visible mould-side surface आवश्यक छ कि छैन भन्ने स्पष्ट पार्नुपर्छ।"
+        "White FRP resin का लागि व्यापक अनुरोध आफैंमा पर्याप्त हुँदैन। Buyer ले white-pigmented supplied रूप process का लागि महत्त्वपूर्ण छ कि छैन, component reinforced छ कि छैन, र visible mould-side surface आवश्यक छ कि छैन भन्ने स्पष्ट पार्नुपर्छ।"
       ]
     },
     {

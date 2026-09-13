@@ -279,25 +279,49 @@ export const products = Object.freeze([
       'GP White Resin \u2014 a general-purpose orthophthalic polyester resin supplied and imported for Nepal by Samrat FRP Traders. Grade-specific figures confirmed on enquiry.',
     descriptor: 'General-purpose orthophthalic polyester resin.',
     overview:
-      'Samrat Poly Resins, India lists GP White Resin as a general-purpose orthophthalic polyester resin for panels, moulding, hand layup and spray-up work. No technical figures are published here: the Technical Data Sheet currently issued under this name carries GP Clear Resin\u2019s document reference and repeats GP Clear Resin\u2019s property table, so it does not describe this grade. Grade-specific values are confirmed on enquiry.',
-    // The figures that stood here \u2014 < 350 cPs, a 6-minute gel time, medium
-    // thixotropy and 30-35% styrene \u2014 were attributed to the supplier TDS and
-    // are not in it. The sheet issued under the name GP White Resin is GP Clear
-    // Resin's sheet with the product name changed: same document reference
-    // (SPR-TDS-GCR), same description, same table, appearance given as "Clear".
-    // Verified against both the copy published here and the file on the
-    // supplier's own site. Until a sheet exists for this grade there is nothing
-    // to publish, and another grade's numbers are not a substitute.
-    technicalHighlights: Object.freeze([]),
+      'Samrat Poly Resins, India lists GP White Resin as a general-purpose orthophthalic polyester resin for panels, moulding, hand layup and spray-up work. Its Safety Data Sheet (SPR-SDS-GWR) documents it as white-pigmented and states that it is built on the same orthophthalic base resin system as GP Clear Resin: the resin fraction, styrene content and processing characteristics are shared, and a white pigment package is the difference. The figures shown are that shared base specification, from the Technical Data Sheet issued for this grade (reference SPR-TDS-GCR). That sheet repeats GP Clear Resin\u2019s appearance wording \u2014 clear, crystal-clear \u2014 which is incorrect for GP White Resin.',
+    // GP White and GP Clear share one base specification. The supplier SDS for
+    // GP White (SPR-SDS-GWR, Rev. 01, 8 August 2026) says the resin fraction,
+    // styrene content and processing characteristics are manufacturer-confirmed
+    // as shared, with a white pigment/colourant package as the difference. The
+    // TDS issued under the GP White name is the shared GP sheet (SPR-TDS-GCR)
+    // and gives the appearance as "Clear"; the appearance shown here is taken
+    // from the SDS instead. No separate GP White values exist and none are
+    // invented. The old < 350 cPs / 6-minute / medium-thixotropy figures were
+    // never in either document and stay removed.
+    technicalHighlights: Object.freeze([
+      Object.freeze({ label: 'Appearance', value: 'White-pigmented (supplier SDS)' }),
+      Object.freeze({ label: 'Viscosity', value: '350\u2013450 cPs (shared GP base specification)' }),
+      Object.freeze({ label: 'Gel time', value: '< 8 minutes (shared GP base specification)' }),
+      Object.freeze({ label: 'Styrene content', value: '33\u201340%' }),
+      Object.freeze({ label: 'Cure time', value: '45 minutes\u20131.5 hours' }),
+    ]),
+    technicalSource: Object.freeze({
+      issuer: 'Samrat Poly Resins, India',
+      type: 'Technical Data Sheet (shared GP base specification)',
+      reference: 'SPR-TDS-GCR',
+      revision: 'Rev. 01',
+      date: 'July 2026',
+    }),
+    documentNote: Object.freeze({
+      en: 'The Technical Data Sheet for this grade is the shared GP base specification (SPR-TDS-GCR). Its appearance wording \u2014 clear, crystal-clear \u2014 is incorrect for GP White Resin, which the supplier Safety Data Sheet documents as white-pigmented.',
+      ne: 'यस grade को Technical Data Sheet साझा GP base specification (SPR-TDS-GCR) हो। त्यसमा लेखिएको रूप — clear, crystal-clear — GP White Resin का लागि गलत हो; आपूर्तिकर्ताको Safety Data Sheet ले यसलाई white-pigmented भनी दस्तावेजीकृत गर्छ।',
+    }),
     documents: Object.freeze([
       Object.freeze({
         type: 'Technical Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-TDS-GCR',
+        revision: 'Rev. 01',
+        date: 'July 2026',
         url: 'https://samratpolyresins.in/tds/gp-white-resin-tds.pdf',
       }),
       Object.freeze({
         type: 'Safety Data Sheet',
         issuer: 'Samrat Poly Resins, India',
+        reference: 'SPR-SDS-GWR',
+        revision: 'Rev. 01',
+        date: '8 August 2026',
         url: 'https://samratpolyresins.in/sds/gp-white-resin-sds.pdf',
       }),
     ]),

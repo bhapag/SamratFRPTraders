@@ -1,70 +1,70 @@
 export default {
-  seo: {
-    title: "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
-    ogTitle: "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
-    ogDescription: "component, supplied appearance, process, उत्पादन भूमिका, TDS र quote जानकारीअनुसार GP White Resin मूल्याङ्कन गर्ने FRP खरिदकर्ताहरूका लागि व्यावहारिक गाइड।",
+  "seo": {
+    "title": "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
+    "ogTitle": "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
+    "ogDescription": "component, supplied appearance, process, उत्पादन भूमिका, TDS र quote जानकारीअनुसार GP White Resin मूल्याङ्कन गर्ने FRP खरिदकर्ताहरूका लागि व्यावहारिक गाइड।"
   },
-  title: "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
-  description: "component, supplied appearance, process, उत्पादन भूमिका, TDS र quote जानकारीअनुसार GP White Resin मूल्याङ्कन गर्ने FRP खरिदकर्ताहरूका लागि व्यावहारिक गाइड।",
-  quickFacts: {
+  "title": "GP White Resin खरिदकर्ता गाइड: छनोट र Quote Checklist",
+  "description": "component, supplied appearance, process, उत्पादन भूमिका, TDS र quote जानकारीअनुसार GP White Resin मूल्याङ्कन गर्ने FRP खरिदकर्ताहरूका लागि व्यावहारिक गाइड।",
+  "quickFacts": {
     "सुरु गर्नुहोस्": "वास्तविक FRP component र manufacturing process बाट",
-    "Appearance जाँच": "Water-white supplied resin बनाम आवश्यक तयार appearance",
+    "Appearance जाँच": "White-pigmented supplied resin बनाम आवश्यक तयार appearance",
     "व्यावसायिक विवरणहरू": "नेपालका लागि प्याकेजिङ र न्यूनतम परिमाण सोधपुछमा पक्का गरिन्छ",
-    "प्राविधिक नियन्त्रण": "ठ्याक्कै shortlist गरिएको grade को GP White Resin TDS"
+    "प्राविधिक नियन्त्रण": "TDS मा रहेको साझा GP base specification, रूप चाहिँ SDS बाट"
   },
-  recommendedLinks: [
+  "recommendedLinks": [
     {
-      href: "/products/gp-white-resin/",
-      label: "View GP White Resin",
-      description: "ठ्याक्कै प्रकाशित उत्पादन डाटा समीक्षा गर्नुहोस् र TDS डाउनलोड गर्नुहोस्।"
+      "href": "/products/gp-white-resin/",
+      "label": "View GP White Resin",
+      "description": "ठ्याक्कै प्रकाशित उत्पादन डाटा समीक्षा गर्नुहोस् र TDS डाउनलोड गर्नुहोस्।"
     },
     {
-      href: "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
-      label: "सामान्य resin-छनोट गाइड पढ्नुहोस्",
-      description: "व्यापक FRP उत्पादन-भूमिका सन्दर्भका लागि अवस्थित गाइड प्रयोग गर्नुहोस्।"
+      "href": "/resources/how-to-select-polyester-resin-for-frp-manufacturing/",
+      "label": "सामान्य resin-छनोट गाइड पढ्नुहोस्",
+      "description": "व्यापक FRP उत्पादन-भूमिका सन्दर्भका लागि अवस्थित गाइड प्रयोग गर्नुहोस्।"
     },
     {
-      href: "/contact/",
-      label: "GP White Resin को quote माग्नुहोस्",
-      description: "अवस्थित enquiry form मार्फत दस्तावेजीकृत आवश्यकता साझा गर्नुहोस्।"
+      "href": "/contact/",
+      "label": "GP White Resin को quote माग्नुहोस्",
+      "description": "अवस्थित enquiry form मार्फत दस्तावेजीकृत आवश्यकता साझा गर्नुहोस्।"
     }
   ],
-  faqs: [
+  "faqs": [
     {
-      q: "GP White Resin enquiry मा मैले कुन विवरणहरू समावेश गर्नुपर्छ?",
-      a: "FRP component वा application, अपेक्षित परिमाण, आवश्यक supplied appearance वा finish, manufacturing process र डेलिभरी स्थान समावेश गर्नुहोस्। सान्दर्भिक भएमा कुनै तोकिएको drawing वा specification शब्दावली थप्नुहोस्।"
+      "q": "GP White Resin enquiry मा मैले कुन विवरणहरू समावेश गर्नुपर्छ?",
+      "a": "FRP component वा application, अपेक्षित परिमाण, आवश्यक supplied appearance वा finish, manufacturing process र डेलिभरी स्थान समावेश गर्नुहोस्। सान्दर्भिक भएमा कुनै तोकिएको drawing वा specification शब्दावली थप्नुहोस्।"
     },
     {
-      q: "के मैले उत्पादनलाई white भनिएको छ भन्दैमा GP White Resin छान्नुपर्छ?",
-      a: "होइन। प्रकाशित water-white appearance, general-purpose laminate भूमिका र उत्पादन डाटा वास्तविक आवश्यकतासँग मिल्छ भनी पुष्टि गर्नुहोस्। देखिने mould-side सतहका लागि छुट्टै gelcoat समीक्षा चाहिन सक्छ।"
+      "q": "के मैले उत्पादनलाई white भनिएको छ भन्दैमा GP White Resin छान्नुपर्छ?",
+      "a": "होइन। White-pigmented रूप, general-purpose laminate भूमिका र साझा base specification वास्तविक आवश्यकतासँग मिल्छन् भनी पुष्टि गर्नुहोस्। देखिने mould-side सतहका लागि छुट्टै gelcoat समीक्षा चाहिन सक्छ।"
     },
     {
-      q: "order गर्नुअघि कुन कागजात जाँच्नुपर्छ?",
-      a: "ठ्याक्कै shortlist गरिएको grade को GP White Resin Technical Data Sheet जाँच्नुहोस्। अर्को GP वा UPR उत्पादनको डाटालाई विकल्पको रूपमा प्रयोग नगर्नुहोस्।"
+      "q": "order गर्नुअघि कुन कागजात जाँच्नुपर्छ?",
+      "a": "साझा GP base मानका लागि Technical Data Sheet र GP White Resin को रूप तथा handling का लागि Safety Data Sheet जाँच्नुहोस्। TDS ले रूप clear भन्छ, जुन यस grade का लागि गलत हो।"
     }
   ],
-  sections: [
+  "sections": [
     {
-      heading: "पहिले FRP component वर्णन गर्नुहोस्",
-      body: [
+      "heading": "पहिले FRP component वर्णन गर्नुहोस्",
+      "body": [
         "enquiry panel, general moulding, hand layup, spray-up, water-storage, cooling-tower वा अर्को industrial FRP component का लागि हो भनी उल्लेख गर्नुहोस्। यसले quote तयार हुनुअघि GP White Resin सँग तुलना गर्ने प्रकाशित सन्दर्भ पहिचान गर्छ।"
       ]
     },
     {
-      heading: "'white' को अर्थ के हुनुपर्छ स्पष्ट पार्नुहोस्",
-      body: [
-        "water-white supplied resin process सँग सान्दर्भिक हो, वा वास्तविक आवश्यकता देखिने white सतह हो भनी पुष्टि गर्नुहोस्। यी फरक-फरक प्रश्नहरू हुन्: general-purpose GP White laminate र mould-facing GP Gelcoat उत्पादनको छुट्टाछुट्टै भूमिका हुन्छ।"
+      "heading": "'white' को अर्थ के हुनुपर्छ स्पष्ट पार्नुहोस्",
+      "body": [
+        "White-pigmented supplied resin process का लागि उपयुक्त हो कि वास्तविक आवश्यकता देखिने white mould-side सतह हो भनी पुष्टि गर्नुहोस्। यी फरक-फरक प्रश्नहरू हुन्: general-purpose GP White laminate र mould-facing GP Gelcoat उत्पादनको छुट्टाछुट्टै भूमिका हुन्छ।"
       ]
     },
     {
-      heading: "प्रकाशित उत्पादन डाटा समीक्षा गर्नुहोस्",
-      body: [
-        "GP White Resin page ले कुनै अङ्क प्रकाशित गर्दैन, र किन गर्दैन भन्ने पनि बताउँछ: त्यसै नाममा जारी Technical Data Sheet मा GP Clear Resin कै दस्तावेज सन्दर्भ र गुण तालिका छ। नेपालका लागि प्याकेजिङ र न्यूनतम परिमाण आपूर्तिकर्ताको भारतीय कागजातबाट होइन, सोधपुछमा पक्का गरिन्छ।"
+      "heading": "प्रकाशित उत्पादन डाटा समीक्षा गर्नुहोस्",
+      "body": [
+        "GP White Resin ले GP Clear Resin कै orthophthalic base specification साझा गर्छ: 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content। आपूर्तिकर्ता SDS ले यसको रूप white-pigmented भनी दस्तावेजीकृत गर्छ; दुई grade बीचको फरक white pigment package हो। GP White Resin का लागि जारी Technical Data Sheet साझा GP sheet (SPR-TDS-GCR) हो। त्यसमा लेखिएको रूप — clear, crystal-clear — GP White Resin का लागि गलत हो; रूपका लागि SDS र साझा base मानका लागि TDS हेर्नुहोस्। नेपालका लागि प्याकेजिङ र न्यूनतम परिमाण आपूर्तिकर्ताको भारतीय कागजातबाट होइन, सोधपुछमा पक्का गरिन्छ।"
       ]
     },
     {
-      heading: "एक केन्द्रित quotation request पठाउनुहोस्",
-      body: [
+      "heading": "एक केन्द्रित quotation request पठाउनुहोस्",
+      "body": [
         "Component, manufacturing process, परिमाण, आवश्यक supplied appearance वा finish र डेलिभरी स्थान साझा गर्नुहोस्। यसले sales वा प्राविधिक छलफललाई सही grade बारे असमर्थित अनुमानको सट्टा दस्तावेजीकृत आवश्यकताबाट सुरु गर्न मद्दत गर्छ।"
       ]
     }

@@ -1,8 +1,8 @@
 export default {
   "title": "GP White Resin भनेको के हो?",
-  "description": "GP White Resin लाई published water-white general-purpose polyester grade को रूपमा बुझाउने buyer गाइड — FRP moulding, panel र fabrication का लागि।",
+  "description": "GP White Resin लाई साझा GP base specification मा आधारित white-pigmented general-purpose polyester grade को रूपमा बुझाउने buyer गाइड — FRP moulding, panel र fabrication का लागि।",
   "seo": {
-    "title": "GP White Resin भनेको के हो? | Water-White Polyester Resin गाइड",
+    "title": "GP White Resin भनेको के हो? | White-Pigmented Polyester Resin गाइड",
     "keywords": [
       "What is GP White Resin",
       "GP White Resin",
@@ -11,26 +11,26 @@ export default {
       "FRP White Resin"
     ],
     "ogTitle": "GP White Resin भनेको के हो?",
-    "ogDescription": "GP White Resin लाई published water-white general-purpose polyester grade को रूपमा बुझ्नुहोस्, र यसलाई clear GP resin र white gelcoat भूमिकाहरूबाट छुट्याउनुहोस्।"
+    "ogDescription": "GP White Resin लाई साझा GP base specification मा आधारित white-pigmented general-purpose polyester grade को रूपमा बुझ्नुहोस्, र यसलाई clear GP resin र white gelcoat भूमिकाहरूबाट छुट्याउनुहोस्।"
   },
   "quickFacts": {
-    "Published रूप": "स्थापित छैन — यस नाममा जारी sheet ले देखिने रङ clear भन्छ",
+    "दस्तावेजीकृत रूप": "आपूर्तिकर्ता Safety Data Sheet अनुसार white-pigmented",
     "Product भूमिका": "Reinforced FRP contexts का लागि general-purpose orthophthalic polyester resin",
-    "Published process डाटा": "यस grade का लागि छैन — यस नाममा जारी Technical Data Sheet ले GP Clear Resin कै तालिका दोहोर्‍याउँछ",
+    "Base specification": "GP Clear Resin सँग साझा: 350–450 cPs, 8 मिनेटभन्दा कम gel time, 33–40% styrene",
     "नठान्नुहोस्": "Supplied resin को रूप मात्रले तयार FRP सतहको रंग निर्धारण गर्छ भनी नठान्नुहोस्"
   },
   "sections": [
     {
       "heading": "'White resin' पछाडिको buyer प्रश्न",
       "body": [
-        "Panel, moulding वा general FRP requirement का लागि supplied रूप महत्त्वपूर्ण हुँदा buyer हरूले white polyester resin खोज्न सक्छन्। यस साइटले GP White Resin लाई general-purpose grade को रूपमा प्रकाशित गर्छ, तर यसका कुनै प्राविधिक अङ्क प्रकाशित गर्दैन: यस नाममा जारी Technical Data Sheet मा GP Clear Resin कै दस्तावेज सन्दर्भ र गुण तालिका छ। त्यसैले समाधान गर्नुपर्ने प्रश्न grade को भूमिका component र process सँग मेल खान्छ कि खाँदैन भन्ने हो, र चाहिने अङ्क सोधपुछमा आपूर्तिकर्ताबाट पक्का गर्नुपर्छ।",
-        "Water white ले supplied resin को रूपलाई जनाउँछ। यो हरेक तयार FRP part सेतो देखिनेछ भन्ने वाचा होइन, किनकि reinforcement, pigments र mould-facing surface layer तयार build-up का छुट्टाछुट्टै भागहरू हुन्।"
+        "Panel, moulding वा general FRP requirement का लागि supplied रूप महत्त्वपूर्ण हुँदा buyer हरूले white polyester resin खोज्न सक्छन्। GP White Resin general-purpose grade हो, जसलाई आपूर्तिकर्ता SDS ले white-pigmented भनी दस्तावेजीकृत गर्छ। समाधान गर्नुपर्ने प्रश्न त्यो grade को भूमिका र साझा base specification component र process सँग मेल खान्छ कि खाँदैन भन्ने हो।",
+        "White-pigmented ले supplied resin को रूप जनाउँछ। यो हरेक तयार FRP part उस्तै देखिनेछ भन्ने वाचा होइन, किनकि reinforcement, laminate मोटाइ र mould-facing surface layer तयार build-up का छुट्टाछुट्टै भागहरू हुन्।"
       ]
     },
     {
       "heading": "Published GP White Resin भूमिका",
       "body": [
-        "Product page ले GP White Resin लाई panels र general-purpose moulding, hand layup र spray-up work, cooling towers, water storage tanks र general industrial FRP fabrication का लागि published गर्छ। यसको कुनै grade-विशेष अङ्क यहाँ प्रकाशित छैन, किनभने यस नाममा जारी sheet ले GP Clear Resin कै तालिका दोहोर्‍याउँछ; चाहिने अङ्क सोधपुछमा पक्का गरिन्छ।",
+        "Product page ले GP White Resin लाई panels र general-purpose moulding, hand layup र spray-up work, cooling towers, water storage tanks र general industrial FRP fabrication का लागि प्रकाशित गर्छ। GP White Resin ले GP Clear Resin कै orthophthalic base specification साझा गर्छ: 350–450 cPs viscosity, 8 मिनेटभन्दा कम gel time र 33–40% styrene content। आपूर्तिकर्ता SDS ले यसको रूप white-pigmented भनी दस्तावेजीकृत गर्छ; दुई grade बीचको फरक white pigment package हो। GP White Resin का लागि जारी Technical Data Sheet साझा GP sheet (SPR-TDS-GCR) हो। त्यसमा लेखिएको रूप — clear, crystal-clear — GP White Resin का लागि गलत हो; रूपका लागि SDS र साझा base मानका लागि TDS हेर्नुहोस्।",
         "यी component, reinforcement, mould, production method र TDS सँगै हेर्नुपर्ने product facts हुन्। यी universal process instructions वा हरेक manufacturing line का लागि उपयुक्तताको प्रमाण होइनन्।"
       ]
     },
@@ -39,7 +39,7 @@ export default {
       "subsections": [
         {
           "heading": "GP White र GP Clear बीचको तुलना",
-          "body": "दुवै published general-purpose orthophthalic polyester grades हुन्, तर supplied रूप र published processing डाटा फरक छन्। Grade छान्नुअघि विशिष्ट GP White र GP Clear product pages र TDS तुलना गर्नुहोस्।"
+          "body": "दुवै उही base specification मा आधारित general-purpose orthophthalic polyester grade हुन्। फरक GP White Resin को white pigment package हो, जुन SDS ले दस्तावेजीकृत गर्छ; साझा TDS ले त्यो देखाउँदैन, किनभने त्यसको रूपको शब्दावली GP Clear Resin कै हो। कामलाई चाहिने रूपअनुसार छान्नुहोस्, अनि साझा मान component र process सँग जाँच्नुहोस्।"
         },
         {
           "heading": "GP White vs Gelcoat",
@@ -50,18 +50,18 @@ export default {
     {
       "heading": "उपयोगी enquiry तयार गर्नुहोस्",
       "body": [
-        "Component, manufacturing process, अपेक्षित परिमाण, आवश्यक supplied रूप वा finish, र delivery location साझा गर्नुहोस्। यसले supplier लाई quotation छलफलअघि published GP White Resin डाटा जाँच्न factual आधार दिन्छ।"
+        "Component, manufacturing process, अपेक्षित परिमाण, आवश्यक supplied रूप वा finish, र delivery location साझा गर्नुहोस्। यसले supplier लाई quotation छलफलअघि साझा GP base specification र दस्तावेजीकृत white-pigmented रूप जाँच्न factual आधार दिन्छ।"
       ]
     }
   ],
   "faqs": [
     {
       "q": "GP White Resin भनेको के हो?",
-      "a": "GP White Resin Samrat FRP Traders द्वारा published water-white, general-purpose orthophthalic polyester resin हो, जुन reinforced FRP निर्माणका लागि हो — panels, general moulding, hand layup, spray-up, cooling towers र water storage tanks सहित।"
+      "a": "GP White Resin white-pigmented, general-purpose orthophthalic polyester resin हो, जुन Samrat FRP Traders ले reinforced FRP निर्माणका लागि आपूर्ति गर्छ — panels, general moulding, hand layup, spray-up, cooling towers र water storage tanks सहित। यो GP Clear Resin कै base resin system मा बनेको हो।"
     },
     {
       "q": "के GP White Resin ले हरेक तयार FRP part सेतो बनाउँछ?",
-      "a": "होइन। Supplied रूपमा published product appearance water white हो। FRP component को अन्तिम रूप reinforcement, pigment, mould-side surface layer र manufacturing build-up मा पनि निर्भर हुन्छ।"
+      "a": "होइन। आपूर्तिकर्ता SDS ले resin लाई supplied रूपमा white-pigmented भनी दस्तावेजीकृत गर्छ। FRP component को अन्तिम रूप reinforcement, थपिएको pigment, mould-side surface layer र manufacturing build-up मा पनि निर्भर हुन्छ।"
     },
     {
       "q": "के GP White Resin white gelcoat जस्तै हो?",

@@ -345,6 +345,9 @@ const docActions = [
         <span class="doc-action-tag" aria-hidden="true">→</span>
       </a>
 
+      {docActions.length > 0 && product.documentNote && (
+        <p class="doc-note-body">{isNe ? product.documentNote.ne : product.documentNote.en}</p>
+      )}
       {docActions.length > 0 && <p class="doc-note">{t.issuedBy}: Samrat Poly Resins, India</p>}
       {docActions.length === 0 && <p class="doc-note doc-note-pending">{t.docsPendingNote}</p>}
     </div>
@@ -400,8 +403,12 @@ const docActions = [
         </dl>
         {product.technicalSource && (
           <p class="spec-source">
-            {t.specsSource}: {product.technicalSource.issuer} — {product.technicalSource.type}
-            {[product.technicalSource.reference, product.technicalSource.revision, product.technicalSource.date]
+            {t.specsSource}: {product.technicalSource.issuer} — {[
+              product.technicalSource.type,
+              product.technicalSource.reference,
+              product.technicalSource.revision,
+              product.technicalSource.date,
+            ]
               .filter(Boolean)
               .join(' · ')}
           </p>
@@ -1024,6 +1031,13 @@ const docActions = [
     font-size: 0.62rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+
+  .doc-note-body {
+    margin: 0;
+    color: var(--ink-soft, var(--ink-faint));
+    font-size: 0.82rem;
+    line-height: 1.5;
   }
 
   .doc-library-link {

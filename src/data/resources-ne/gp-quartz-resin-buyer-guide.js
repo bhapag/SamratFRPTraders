@@ -77,7 +77,7 @@ export default {
     {
       "heading": "सही comparison मार्ग प्रयोग गर्नुहोस्",
       "body": [
-        "व्यापक general-FRP आवश्यकताका लागि, GP Clear Resin वा Unsaturated Polyester Resin product hub हेर्नुहोस्। Cultured marble र artificial-stone कामका लागि, Marble Resin हेर्नुहोस्। Water-white general-purpose FRP role, mould-facing surface layer वा dedicated lamination application का लागि, क्रमशः GP White Resin, GP Gelcoat Resin वा Lamination Resin हेर्नुहोस्। यी product-role जाँचहरू हुन्, grades interchangeable छन् भन्ने दाबी होइन।"
+        "व्यापक general-FRP आवश्यकताका लागि, GP Clear Resin वा Unsaturated Polyester Resin product hub हेर्नुहोस्। Cultured marble र artificial-stone कामका लागि, Marble Resin हेर्नुहोस्। White-pigmented general-purpose FRP role, mould-facing surface layer वा dedicated lamination application का लागि, क्रमशः GP White Resin, GP Gelcoat Resin वा Lamination Resin हेर्नुहोस्। यी product-role जाँचहरू हुन्, grades interchangeable छन् भन्ने दाबी होइन।"
       ]
     }
   ]

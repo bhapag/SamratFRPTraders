@@ -12,7 +12,7 @@ export default {
     buyerNotes: [
       {
         title: "Grade selection",
-        text: "GP Clear Resin is the broad general-purpose clear grade. If your work is lamination-focused, review the Lamination Resin grade; where a water-white, thixotropic body is preferred, GP White Resin is the comparison point.",
+        text: "GP Clear Resin is the broad general-purpose clear grade. If your work is lamination-focused, review the Lamination Resin grade; where a white-pigmented resin on the same base specification is wanted, GP White Resin is the comparison point.",
       },
       {
         title: "Curing system",
@@ -83,7 +83,7 @@ export default {
     buyerNotes: [
       {
         title: "Grade \u091b\u0928\u094b\u091f",
-        text: "GP Clear Resin \u0935\u094d\u092f\u093e\u092a\u0915 general-purpose clear grade \u0939\u094b\u0964 \u0915\u093e\u092e \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928-\u0915\u0947\u0928\u094d\u0926\u094d\u0930\u093f\u0924 \u092d\u090f Lamination Resin grade \u0939\u0947\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d; water-white, thixotropic body \u091a\u093e\u0939\u093f\u090f GP White Resin \u0938\u0901\u0917 \u0924\u0941\u0932\u0928\u093e \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964",
+        text: "GP Clear Resin \u0935\u094d\u092f\u093e\u092a\u0915 general-purpose clear grade \u0939\u094b\u0964 \u0915\u093e\u092e \u0932\u0947\u092e\u093f\u0928\u0947\u0938\u0928-\u0915\u0947\u0928\u094d\u0926\u094d\u0930\u093f\u0924 \u092d\u090f Lamination Resin grade \u0939\u0947\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d; उही base specification मा white-pigmented resin चाहिएमा GP White Resin तुलना बिन्दु हो।",
       },
       {
         title: "Curing \u092a\u094d\u0930\u0923\u093e\u0932\u0940",

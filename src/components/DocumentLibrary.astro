@@ -249,6 +249,10 @@ const breadcrumbSchema = {
               </p>
             )}
 
+            {entry.product.documentNote && (
+              <p class="doc-shared-note">{isNe ? entry.product.documentNote.ne : entry.product.documentNote.en}</p>
+            )}
+
             <div class="doc-table-scroll">
               <table class="doc-table">
                 <thead>
