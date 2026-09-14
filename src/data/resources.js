@@ -261,11 +261,6 @@ export const resources = Object.freeze([
       },
       {
         "heading": "How GP Polyester Resin Is Manufactured",
-        "photo": {
-          "src": "supplier-production.jpg",
-          "alt": "Stainless-steel resin processing reactors at the Samrat Poly Resins, India manufacturing facility",
-          "caption": "Supplier production reactors — Samrat Poly Resins, India"
-        },
         "body": [
           "GP polyester resin manufacturing begins with a small number of core raw materials: unsaturated dibasic acids or anhydrides (typically maleic anhydride, sometimes combined with phthalic anhydride), saturated dibasic acids such as phthalic anhydride, which contribute rigidity and control the degree of unsaturation, and glycols, commonly propylene glycol or ethylene glycol, which provide the flexible backbone linking the acid units together.",
           "These raw materials are reacted together in a controlled polycondensation process inside a resin reactor, typically under heat and with continuous removal of water, a by-product of the esterification reaction. This produces a linear unsaturated polyester chain containing reactive double bonds distributed along its backbone. The reaction is monitored and controlled to achieve a target acid value and molecular weight, which influence the resin's final viscosity and reactivity.",
@@ -844,11 +839,6 @@ export const resources = Object.freeze([
         },
         {
           "heading": "GP Polyester Resin कसरी निर्माण गरिन्छ",
-          "photo": {
-            "src": "supplier-production.jpg",
-            "alt": "Samrat Poly Resins, India निर्माण सुविधाका stainless-steel resin processing reactors",
-            "caption": "आपूर्तिकर्ता उत्पादन reactors — Samrat Poly Resins, India"
-          },
           "body": [
             "GP polyester resin निर्माण थोरै मुख्य कच्चा पदार्थबाट सुरु हुन्छ: unsaturated dibasic acids वा anhydrides (सामान्यतया maleic anhydride, कहिलेकाहीं phthalic anhydride सँग संयोजित), phthalic anhydride जस्ता saturated dibasic acids, जसले कठोरता योगदान गर्छन् र unsaturation को मात्रा नियन्त्रण गर्छन्, र glycols, सामान्यतया propylene glycol वा ethylene glycol, जसले acid units लाई जोड्ने लचिलो backbone दिन्छन्।",
             "यी कच्चा पदार्थहरूलाई resin reactor भित्र नियन्त्रित polycondensation प्रक्रियामा सँगै प्रतिक्रिया गराइन्छ, सामान्यतया तापको साथ र esterification प्रतिक्रियाको उपोत्पादन पानीको निरन्तर हटाइसँगै। यसले backbone मा फैलिएका reactive double bonds भएको linear unsaturated polyester chain उत्पादन गर्छ। प्रतिक्रियालाई target acid value र molecular weight हासिल गर्न निगरानी र नियन्त्रण गरिन्छ, जसले resin को अन्तिम viscosity र reactivity लाई असर गर्छ।",

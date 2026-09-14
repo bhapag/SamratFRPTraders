@@ -258,13 +258,9 @@ html:lang(ne) .home-experiment .home-tile-name { letter-spacing: 0; line-height:
 
 /* Section 06's attributed supplier photograph. It carries its own frame rather
    than borrowing the applications grid's, so the two can change independently. */
-.home-experiment .home-source { margin: 0; }
-.home-experiment .home-source-mat { display: block; padding: 12px; background: var(--home-navy-3); border: 1px solid var(--home-gold-line); }
-.home-experiment .home-source-mat img { display: block; width: 100%; height: auto; }
-.home-experiment .home-source figcaption { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; font-size: 0.8125rem; line-height: 1.6; color: #aeb9c5; }
 
 /* 06 · Business record -------------------------------------------------------- */
-.home-experiment .home-record-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 3.5fr) minmax(0, 3.5fr); gap: clamp(28px, 3vw, 48px); margin-top: 40px; align-items: start; }
+.home-experiment .home-record-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(28px, 3vw, 48px); margin-top: 40px; align-items: start; }
 .home-experiment .home-record-card { padding: 26px 28px 22px; border: 1px solid var(--home-line-2); background: var(--home-plate); }
 .home-experiment .home-record-ledger { margin: 14px 0 0; }
 .home-experiment .home-record-ledger div { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 14px; padding: 11px 0; border-top: 1px solid var(--home-line); }

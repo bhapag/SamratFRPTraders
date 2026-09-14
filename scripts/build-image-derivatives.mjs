@@ -117,9 +117,6 @@ const BRAND = [
   // The brand film's still frame is eager-loaded on the homepage and is now
   // what a phone sees in place of the 12MB film, so its own weight matters.
   { from: 'public/videos/brand-showcase-still.jpeg', width: 900 },
-  // Supplier reference photo on the homepage: a 1452px original for a figure
-  // that never paints above ~700px.
-  { from: 'public/images/supplier/supplier-production.jpg', width: 900 },
 ];
 let brandBefore = 0;
 let brandAfter = 0;
